@@ -11,8 +11,10 @@ export const { handlers, auth } = NextAuth({
           scope: "user-follow-read",
         },
       },
+      allowDangerousEmailAccountLinking: true,
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     jwt({ token, account }) {
       if (account?.access_token) {
