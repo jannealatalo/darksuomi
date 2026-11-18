@@ -38,7 +38,7 @@ export default function Home() {
           <div>
             <h1 className="text-5xl font-bold mb-2">Dark Suomi</h1>
             <p className="text-gray-400">
-              Doom • Stoner • Goth • Darkwave • Industrial • Punk • Metal
+              Doom • Stoner • Goth • Darkwave • Industrial • Punk • Metal • Rock
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function Home() {
             {!showAllGenres && (
               <p className="text-xs text-gray-500 mt-1">
                 {hiddenByGenreCount} events hidden (
-                {[...excludedGenres].join(", ")})
+                {[...excludedGenres, "no genre"].join(", ")})
               </p>
             )}
           </div>
@@ -179,6 +179,19 @@ export default function Home() {
             })}
           </div>
         )}
+
+        <footer className="mt-16 pt-6 border-t border-gray-800 text-xs text-gray-500">
+          Genre data from{" "}
+          <a
+            href="https://www.last.fm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-400 hover:text-purple-300"
+          >
+            Last.fm
+          </a>
+          .
+        </footer>
       </div>
     </main>
   );

@@ -12,15 +12,12 @@ export function getEvents(): Event[] {
 }
 
 /**
- * An event is hidden by default when its strongest genre is excluded, or when
- * at least half of its genres are. A single stray tag (e.g. "pop" as the
- * sixth tag of a glam punk band) is not enough. Untagged events are shown.
+ * An event is hidden by default when it has no genre at all, or when its
+ * strongest (first) genre is excluded. Weaker tags never decide.
  */
 export function isExcludedByGenre(event: Event): boolean {
   const genres = event.genres ?? [];
-  if (genres.length === 0) return false;
-  const excludedCount = genres.filter((g) => excludedGenres.has(g)).length;
-  return excludedGenres.has(genres[0]) || excludedCount * 2 >= genres.length;
+  return genres.length === 0 || excludedGenres.has(genres[0]);
 }
 
 /** Artist names to match against Spotify follows, lowercased. */
