@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "artist": "Oranssi Pazuzu",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2027-02-13",
+    "genre": "Black Metal",
+    "ticketUrl": "#"
+  },
+  {
+    "id": 2,
+    "artist": "Amorphis",
+    "venue": "Tavastia",
+    "city": "Helsinki",
+    "date": "2027-02-20",
+    "genre": "Metal",
+    "ticketUrl": "#"
+  }
+]
