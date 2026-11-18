@@ -10,7 +10,8 @@
       "Kauko Röyhkä & Voimaeläin"
     ],
     "genres": [
-      "rock"
+      "rock",
+      "singer-songwriter"
     ]
   },
   {
@@ -25,7 +26,9 @@
       "Us"
     ],
     "genres": [
-      "rock"
+      "garage rock",
+      "rock",
+      "rock n roll"
     ]
   },
   {
@@ -51,12 +54,8 @@
       "Juha Tapio"
     ],
     "genres": [
-      "pop rock",
       "pop",
-      "iskelmä",
-      "country pop",
-      "folk pop",
-      "gospel music"
+      "gospel"
     ]
   },
   {
@@ -70,12 +69,9 @@
       "Michael Monroe"
     ],
     "genres": [
+      "hard rock",
       "glam rock",
-      "glam punk",
-      "rock",
-      "punk rock",
-      "glam metal",
-      "pop"
+      "rock"
     ]
   },
   {
@@ -89,12 +85,9 @@
       "Michael Monroe"
     ],
     "genres": [
+      "hard rock",
       "glam rock",
-      "glam punk",
-      "rock",
-      "punk rock",
-      "glam metal",
-      "pop"
+      "rock"
     ]
   },
   {
@@ -107,7 +100,9 @@
     "artists": [
       "Aliisa Syrjä"
     ],
-    "genres": []
+    "genres": [
+      "pop"
+    ]
   },
   {
     "id": 8,
@@ -120,9 +115,9 @@
       "STAM1NA"
     ],
     "genres": [
-      "heavy metal",
+      "thrash metal",
       "progressive metal",
-      "technical thrash metal"
+      "metal"
     ]
   },
   {
@@ -135,7 +130,10 @@
     "artists": [
       "Kemmuru"
     ],
-    "genres": []
+    "genres": [
+      "hip hop",
+      "rap"
+    ]
   },
   {
     "id": 10,
@@ -151,13 +149,14 @@
     ],
     "genres": [
       "chiptune",
-      "metal",
       "industrial metal",
-      "darksynth",
-      "tracker music",
-      "electronic metal",
+      "electronic",
+      "synthwave",
       "death metal",
-      "brutal death metal"
+      "brutal death metal",
+      "drone",
+      "drone doom",
+      "8-bit"
     ]
   },
   {
@@ -171,9 +170,9 @@
       "THE HARDKISS"
     ],
     "genres": [
-      "rock",
-      "alternative rock",
-      "pop rock"
+      "electronic",
+      "dance",
+      "alternative rock"
     ]
   },
   {
@@ -198,7 +197,11 @@
     "artists": [
       "Neljä Ruusua"
     ],
-    "genres": []
+    "genres": [
+      "rock",
+      "pop",
+      "suomirock"
+    ]
   },
   {
     "id": 14,
@@ -213,11 +216,8 @@
     "genres": [
       "blues rock",
       "psychedelic rock",
-      "hard rock",
-      "rock",
       "stoner rock",
-      "blues",
-      "retro rock"
+      "hard rock"
     ]
   },
   {
@@ -231,7 +231,8 @@
       "Käärijä"
     ],
     "genres": [
-      "alternative rap"
+      "rap",
+      "electronic"
     ]
   },
   {
@@ -245,7 +246,8 @@
       "Käärijä"
     ],
     "genres": [
-      "alternative rap"
+      "rap",
+      "electronic"
     ]
   },
   {
@@ -259,7 +261,8 @@
       "Käärijä"
     ],
     "genres": [
-      "alternative rap"
+      "rap",
+      "electronic"
     ]
   },
   {
@@ -273,7 +276,8 @@
       "Käärijä"
     ],
     "genres": [
-      "alternative rap"
+      "rap",
+      "electronic"
     ]
   },
   {
@@ -287,9 +291,9 @@
       "Don Johnson Big Band"
     ],
     "genres": [
-      "alternative rock",
-      "electronic",
-      "hip hop"
+      "hip hop",
+      "jazz",
+      "electronic"
     ]
   },
   {
@@ -315,7 +319,8 @@
       "Von Hertzen Brothers"
     ],
     "genres": [
-      "crossover prog"
+      "progressive rock",
+      "rock"
     ]
   },
   {
@@ -329,7 +334,8 @@
       "Arttu Wiskari"
     ],
     "genres": [
-      "pop rock"
+      "pop",
+      "singer-songwriter"
     ]
   },
   {
@@ -368,9 +374,8 @@
     ],
     "genres": [
       "rap",
-      "folk",
-      "conscious hip hop",
-      "hip hop"
+      "hip hop",
+      "political"
     ]
   },
   {
@@ -383,7 +388,9 @@
     "artists": [
       "Erika Vikman"
     ],
-    "genres": []
+    "genres": [
+      "pop"
+    ]
   },
   {
     "id": 27,
@@ -398,13 +405,10 @@
       "Hauntees"
     ],
     "genres": [
-      "flamencore",
       "psychobilly",
+      "rockabilly",
+      "flamencore",
       "surf",
-      "horror punk",
-      "blues",
-      "garage",
-      "punk",
       "rock"
     ]
   },
@@ -418,7 +422,10 @@
     "artists": [
       "Red Eleven"
     ],
-    "genres": []
+    "genres": [
+      "alternative rock",
+      "rock"
+    ]
   },
   {
     "id": 29,
@@ -472,7 +479,9 @@
     "artists": [
       "TIISU"
     ],
-    "genres": []
+    "genres": [
+      "rock"
+    ]
   },
   {
     "id": 33,
@@ -496,7 +505,10 @@
     "artists": [
       "good boys"
     ],
-    "genres": []
+    "genres": [
+      "hip hop",
+      "rap"
+    ]
   },
   {
     "id": 35,
@@ -532,7 +544,11 @@
     "artists": [
       "Tuomo"
     ],
-    "genres": []
+    "genres": [
+      "soul",
+      "funk",
+      "chillout"
+    ]
   },
   {
     "id": 38,
@@ -547,6 +563,11 @@
       "St. Hood"
     ],
     "genres": [
+      "grindcore",
+      "crust punk",
+      "pikakassa",
+      "hardcore",
+      "punk",
       "hardcore punk"
     ]
   },
@@ -560,7 +581,11 @@
     "artists": [
       "SARA"
     ],
-    "genres": []
+    "genres": [
+      "alternative rock",
+      "alternative metal",
+      "alternative"
+    ]
   },
   {
     "id": 40,
@@ -572,7 +597,11 @@
     "artists": [
       "Reilukerho"
     ],
-    "genres": []
+    "genres": [
+      "rap",
+      "hip hop",
+      "olari"
+    ]
   },
   {
     "id": 41,
@@ -585,7 +614,12 @@
       "Young Gun Silver Fox",
       "Miller Campbell"
     ],
-    "genres": []
+    "genres": [
+      "soft rock",
+      "soul",
+      "west coast",
+      "country"
+    ]
   },
   {
     "id": 42,
@@ -598,8 +632,10 @@
       "Crashdiet"
     ],
     "genres": [
+      "glam rock",
+      "glam metal",
       "hard rock",
-      "glam rock"
+      "sleaze rock"
     ]
   },
   {
@@ -613,10 +649,8 @@
       "louna0nline"
     ],
     "genres": [
-      "pop",
-      "electropop",
-      "finnish pop",
-      "hyperpop"
+      "electronic",
+      "rap"
     ]
   },
   {
@@ -630,10 +664,8 @@
       "louna0nline"
     ],
     "genres": [
-      "pop",
-      "electropop",
-      "finnish pop",
-      "hyperpop"
+      "electronic",
+      "rap"
     ]
   },
   {
@@ -662,13 +694,12 @@
     ],
     "genres": [
       "deathcore",
-      "metal",
       "brutal deathcore",
       "nu metal",
       "metalcore",
       "post-hardcore",
-      "emocore",
-      "progressive metalcore"
+      "progressive metalcore",
+      "emocore"
     ]
   },
   {
@@ -684,10 +715,8 @@
     "genres": [
       "black metal",
       "psychedelic black metal",
-      "psychedelic metal",
       "experimental",
-      "abstract",
-      "space black metal"
+      "psychedelic"
     ]
   },
   {
@@ -701,7 +730,9 @@
       "CATCH YOUR BREATH"
     ],
     "genres": [
-      "nu metal"
+      "metalcore",
+      "post-hardcore",
+      "alternative metal"
     ]
   },
   {
@@ -714,7 +745,9 @@
     "artists": [
       "Melrose Avenue"
     ],
-    "genres": []
+    "genres": [
+      "metalcore"
+    ]
   },
   {
     "id": 50,
@@ -726,7 +759,11 @@
     "artists": [
       "Ruusut"
     ],
-    "genres": []
+    "genres": [
+      "electronic",
+      "synthpop",
+      "pop"
+    ]
   },
   {
     "id": 51,
@@ -738,7 +775,11 @@
     "artists": [
       "Ruusut"
     ],
-    "genres": []
+    "genres": [
+      "electronic",
+      "synthpop",
+      "pop"
+    ]
   },
   {
     "id": 52,
@@ -754,9 +795,7 @@
       "progressive metal",
       "melodic death metal",
       "death metal",
-      "folk metal",
-      "metal",
-      "symphonic metal"
+      "doom metal"
     ]
   },
   {
@@ -769,7 +808,10 @@
     "artists": [
       "VIIVI"
     ],
-    "genres": []
+    "genres": [
+      "finnish female vocalists",
+      "pop"
+    ]
   },
   {
     "id": 54,
@@ -784,8 +826,8 @@
     "genres": [
       "hard rock",
       "heavy metal",
-      "nwobhm",
-      "power metal"
+      "power metal",
+      "hair metal"
     ]
   },
   {
@@ -801,7 +843,11 @@
     ],
     "genres": [
       "punk",
-      "punk rock"
+      "punk rock",
+      "nu metal",
+      "hardcore",
+      "groove metal",
+      "heavy hardcore"
     ]
   },
   {
@@ -817,7 +863,11 @@
     ],
     "genres": [
       "punk",
-      "punk rock"
+      "punk rock",
+      "nu metal",
+      "hardcore",
+      "groove metal",
+      "heavy hardcore"
     ]
   },
   {
@@ -831,9 +881,7 @@
       "Jacob Banks"
     ],
     "genres": [
-      "hip hop",
-      "soul",
-      "r&b"
+      "soul"
     ]
   },
   {
@@ -846,7 +894,10 @@
     "artists": [
       "Sunnan"
     ],
-    "genres": []
+    "genres": [
+      "psychedelic",
+      "soul"
+    ]
   },
   {
     "id": 59,
@@ -859,7 +910,8 @@
       "Vesterinen Yhtyeineen"
     ],
     "genres": [
-      "indie pop"
+      "rock",
+      "pop"
     ]
   },
   {
@@ -873,7 +925,8 @@
       "Vesterinen Yhtyeineen"
     ],
     "genres": [
-      "indie pop"
+      "rock",
+      "pop"
     ]
   },
   {
@@ -887,10 +940,9 @@
       "D'espairsRay"
     ],
     "genres": [
-      "alternative rock",
-      "industrial metal",
+      "j-rock",
       "visual kei",
-      "alternative metal"
+      "industrial metal"
     ]
   },
   {
@@ -905,10 +957,7 @@
     ],
     "genres": [
       "pop",
-      "alternative pop",
-      "indie rock",
-      "contemporary singer/songwriter",
-      "finnish pop"
+      "singer-songwriter"
     ]
   },
   {
@@ -921,7 +970,11 @@
     "artists": [
       "Lars Winnerbäck"
     ],
-    "genres": []
+    "genres": [
+      "singer-songwriter",
+      "pop",
+      "rock"
+    ]
   },
   {
     "id": 64,
@@ -933,7 +986,11 @@
     "artists": [
       "Lars Winnerbäck"
     ],
-    "genres": []
+    "genres": [
+      "singer-songwriter",
+      "pop",
+      "rock"
+    ]
   },
   {
     "id": 65,
@@ -946,11 +1003,7 @@
       "Dina Ögon"
     ],
     "genres": [
-      "pop",
-      "jazz",
       "soul",
-      "psychedelic rock",
-      "indie pop",
       "psychedelic pop"
     ]
   },
@@ -969,12 +1022,13 @@
     "genres": [
       "melodic death metal",
       "thrash metal",
-      "metal",
-      "groove metal",
-      "symphonic metal",
+      "metalcore",
+      "death metal",
       "folk metal",
-      "pagan metal",
-      "pagan"
+      "viking metal",
+      "symphonic metal",
+      "metal",
+      "industrial metal"
     ]
   },
   {
@@ -987,7 +1041,10 @@
     "artists": [
       "Pesso"
     ],
-    "genres": []
+    "genres": [
+      "rap",
+      "indie"
+    ]
   },
   {
     "id": 68,
@@ -1000,7 +1057,7 @@
       "Mouhous"
     ],
     "genres": [
-      "hip hop"
+      "rap"
     ]
   },
   {
@@ -1014,10 +1071,10 @@
       "Saul Williams"
     ],
     "genres": [
-      "alternative hip hop",
+      "hip hop",
       "spoken word",
       "poetry",
-      "hip hop"
+      "rap"
     ]
   },
   {
@@ -1030,7 +1087,12 @@
     "artists": [
       "J. Karjalainen"
     ],
-    "genres": []
+    "genres": [
+      "singer-songwriter",
+      "blues",
+      "rock",
+      "pop"
+    ]
   },
   {
     "id": 71,
@@ -1042,7 +1104,12 @@
     "artists": [
       "J. Karjalainen"
     ],
-    "genres": []
+    "genres": [
+      "singer-songwriter",
+      "blues",
+      "rock",
+      "pop"
+    ]
   },
   {
     "id": 72,
@@ -1055,7 +1122,8 @@
       "Mariska"
     ],
     "genres": [
-      "pop"
+      "rap",
+      "hip hop"
     ]
   },
   {
@@ -1069,8 +1137,7 @@
       "Nelli Matula"
     ],
     "genres": [
-      "pop",
-      "finnish pop"
+      "pop"
     ]
   },
   {
@@ -1086,7 +1153,13 @@
       "Meret"
     ],
     "genres": [
-      "melodic death metal"
+      "melodic death metal",
+      "progressive metal",
+      "death metal",
+      "modern metal",
+      "metalcore",
+      "atm metalcore",
+      "rock progresivo"
     ]
   },
   {
@@ -1101,8 +1174,7 @@
     ],
     "genres": [
       "progressive rock",
-      "crossover prog",
-      "stadium rock"
+      "art rock"
     ]
   },
   {
@@ -1117,7 +1189,8 @@
     ],
     "genres": [
       "indie rock",
-      "dance and electronica"
+      "indie",
+      "alternative"
     ]
   },
   {
@@ -1131,7 +1204,9 @@
       "Maija Vilkkumaa"
     ],
     "genres": [
-      "rock"
+      "rock",
+      "singer-songwriter",
+      "pop"
     ]
   },
   {
@@ -1145,7 +1220,9 @@
       "Maija Vilkkumaa"
     ],
     "genres": [
-      "rock"
+      "rock",
+      "singer-songwriter",
+      "pop"
     ]
   },
   {
@@ -1159,11 +1236,10 @@
       "The Chats"
     ],
     "genres": [
+      "punk",
       "punk rock",
-      "hard rock",
-      "garage punk",
-      "hardcore punk",
-      "shed rock"
+      "garage rock",
+      "garage punk"
     ]
   },
   {
@@ -1190,10 +1266,7 @@
     ],
     "genres": [
       "gothic rock",
-      "alternative rock",
-      "pop rock",
-      "celtic rock",
-      "classic pop and rock"
+      "rock"
     ]
   },
   {
@@ -1219,12 +1292,9 @@
       "Henge"
     ],
     "genres": [
-      "nom",
-      "goo",
-      "cosmic dross",
-      "zpor",
-      "grok",
-      "xenopsych"
+      "space rock",
+      "stoner rock",
+      "noise rock"
     ]
   }
 ]
