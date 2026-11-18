@@ -6,7 +6,7 @@
     "city": "Helsinki",
     "date": "2027-02-13",
     "genre": "Black Metal",
-    "ticketUrl": "#"
+    "ticketUrl": "https://www.aaniwalli.fi"
   },
   {
     "id": 2,
@@ -15,6 +15,7 @@
     "city": "Helsinki",
     "date": "2027-02-20",
     "genre": "Metal",
-    "ticketUrl": "#"
+    "ticketUrl": "https://www.tavastia.fi"
   }
+
 ]

@@ -20,6 +20,14 @@ export default function Home() {
     <p className="text-sm text-gray-500">
       {event.genre}
     </p>
+    <a
+  href={event.ticketUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-purple-400 hover:text-purple-300"
+>
+  Tickets
+</a>
   </div>
 ))}
 </div>
