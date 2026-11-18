@@ -1,0 +1,166 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                  🎸 DARK SUOMI SCRAPER - QUICK START                         ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+📋 STEP-BY-STEP (5 MINUTES)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  INSTALL PYTHON
+   └─ Download: https://www.python.org/downloads/
+   └─ ✅ Check "Add Python to PATH"
+   └─ Verify: python --version
+
+2️⃣  INSTALL DEPENDENCIES
+   └─ cd C:\repo\darksuomi
+   └─ pip install -r scraper-requirements.txt
+
+3️⃣  TEST SETUP
+   └─ python scraper-test.py
+   └─ Expected: ✓ All 7 tests passed
+
+4️⃣  RUN SCRAPER
+   └─ python scraper-advanced.py
+   └─ Output: ✓ Found N events, Saved M events
+
+5️⃣  VERIFY RESULTS
+   └─ Check: frontend/data/events.json
+   └─ Should contain event data
+
+
+🚀 COMMANDS REFERENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Install dependencies:
+  pip install -r scraper-requirements.txt
+
+Test everything:
+  python scraper-test.py
+
+Run single venue scraper:
+  python scraper-advanced.py
+
+Run all venue scrapers:
+  python scraper-multi.py
+
+Check event count:
+  python -c "import json; print(len(json.load(open('frontend/data/events.json'))))"
+
+View latest logs:
+  dir .scraper-logs\
+  type .scraper-logs\scrape_*.json
+
+
+🤔 COMMON ISSUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ "Module not found: beautifulsoup4"
+   ✅ pip install beautifulsoup4 requests lxml
+
+❌ "No events found"
+   ✅ python scraper-test.py
+   ✅ Check website is accessible
+   ✅ Review .scraper-logs/ for details
+
+❌ "Command not found: python"
+   ✅ Restart terminal/PowerShell
+   ✅ Check PATH: python --version
+   ✅ Reinstall Python with "Add to PATH"
+
+❌ "File not found: events.json"
+   ✅ Run scraper: python scraper-advanced.py
+   ✅ Check path: frontend/data/events.json
+
+
+⏰ AUTOMATION SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WINDOWS TASK SCHEDULER (Recommended):
+  1. Create C:\repo\darksuomi\run-scraper.bat:
+     @echo off
+     cd /d C:\repo\darksuomi
+     python scraper-multi.py
+     pause
+
+  2. Task Scheduler → Create Basic Task
+     - Name: Dark Suomi Scraper
+     - Trigger: Daily at 2:00 AM
+     - Action: run-scraper.bat
+
+  3. Test: Right-click task → Run
+
+GITHUB ACTIONS (CI/CD):
+  1. Create .github/workflows/scrape-events.yml
+  2. See SCRAPER_SETUP.md for content
+  3. Push to GitHub
+  4. Check Actions tab
+
+
+📂 IMPORTANT FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Main Files:
+  scraper-advanced.py        ← Main scraper (use this)
+  scraper-multi.py           ← Multi-venue orchestrator
+  scraper-test.py            ← Test suite
+  scraper-requirements.txt   ← Python dependencies
+
+Documentation:
+  SCRAPER_README.md          ← Quick reference
+  SCRAPER_SETUP.md           ← Full setup guide
+  SCRAPER_GUIDE.md           ← Detailed guide
+  SCRAPER_IMPLEMENTATION.md  ← Technical summary
+
+Data:
+  frontend/data/events.json  ← Event database (output)
+  .scraper-logs/             ← Run logs
+
+
+🎯 CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Setup:
+  ☐ Python 3.8+ installed
+  ☐ Dependencies installed
+  ☐ scraper-test.py passes
+  ☐ scraper-advanced.py runs
+  ☐ frontend/data/events.json updated
+
+Automation (Optional):
+  ☐ Task Scheduler configured OR
+  ☐ GitHub Actions workflow added OR
+  ☐ Cron job scheduled
+
+Ready:
+  ☐ darksuomi.fi showing events
+  ☐ Scraper logs in .scraper-logs/
+  ☐ Events update automatically
+
+
+📞 HELP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Need help? Read:
+  1. SCRAPER_README.md (quick overview)
+  2. SCRAPER_SETUP.md (detailed setup)
+  3. SCRAPER_GUIDE.md (full reference)
+  4. .scraper-logs/ (error details)
+
+Still stuck:
+  • Check website is accessible
+  • Run: python scraper-test.py
+  • Review HTML structure (F12 DevTools)
+  • Check error logs in .scraper-logs/
+
+
+🎸 YOU'RE READY!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+One-liner to get started:
+  pip install -r scraper-requirements.txt && python scraper-test.py && python scraper-advanced.py
+
+Your Dark Suomi scraper is production-ready. Rock on! 🤘
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  For more info: See SCRAPER_README.md                                        ║
+║  Questions? Read: SCRAPER_SETUP.md or SCRAPER_GUIDE.md                       ║
+╚═══════════════════════════════════════════════════════════════════════════════╝

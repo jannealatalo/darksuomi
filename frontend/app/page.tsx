@@ -35,10 +35,6 @@ export default function Home() {
                 {new Date(event.date).toLocaleDateString("fi-FI")}
               </p>
 
-              <p className="text-sm text-gray-500">
-                {event.genre}
-              </p>
-
               <a
                 href={event.ticketUrl}
                 target="_blank"

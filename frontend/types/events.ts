@@ -4,6 +4,5 @@ export type Event = {
   venue: string;
   city: string;
   date: string;
-  genre: string;
   ticketUrl: string;
 };
