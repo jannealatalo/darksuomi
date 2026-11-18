@@ -1,8 +1,6 @@
 import NextAuth from "next-auth";
 import Spotify from "next-auth/providers/spotify";
 
-const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
-
 export const { handlers, auth } = NextAuth({
   providers: [
     Spotify({
@@ -15,9 +13,6 @@ export const { handlers, auth } = NextAuth({
       },
     }),
   ],
-  pages: {
-    signIn: "/auth/signin",
-  },
   callbacks: {
     jwt({ token, account }) {
       if (account?.access_token) {
@@ -30,7 +25,6 @@ export const { handlers, auth } = NextAuth({
       return session;
     },
   },
-  basePath: "/api/auth",
 });
 
 export const GET = handlers.GET;
