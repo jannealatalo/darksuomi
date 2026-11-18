@@ -1,0 +1,23 @@
+{
+  "excludeGenres": [
+    "pop",
+    "finnish pop",
+    "electropop",
+    "hyperpop",
+    "country pop",
+    "folk pop",
+    "alternative pop",
+    "rap",
+    "hip hop",
+    "alternative rap",
+    "alternative hip hop",
+    "conscious hip hop",
+    "iskelmä",
+    "r&b",
+    "gospel music"
+  ],
+  "artistOverrides": {
+    "Us": { "genres": [] },
+    "Kruna": { "genres": [] }
+  }
+}

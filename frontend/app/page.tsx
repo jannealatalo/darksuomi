@@ -1,22 +1,33 @@
 "use client";
 
-import { getEvents } from "../lib/events";
+import {
+  eventArtistNames,
+  excludedGenres,
+  getEvents,
+  isExcludedByGenre,
+} from "../lib/events";
+import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
 import { useState } from "react";
 
 const events = getEvents();
+const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
 
 export default function Home() {
   const { data: session } = useSession();
   const { followedArtists } = useSpotifyFollowedArtists();
   const [showOnlyFollowed, setShowOnlyFollowed] = useState(false);
+  const [showAllGenres, setShowAllGenres] = useState(false);
 
-  const filteredEvents = showOnlyFollowed
-    ? events.filter((event) =>
-        followedArtists.has(event.artist.toLowerCase())
-      )
-    : events;
+  const isFollowedEvent = (event: Event) =>
+    eventArtistNames(event).some((name) => followedArtists.has(name));
+
+  const filteredEvents = events.filter(
+    (event) =>
+      (showAllGenres || !isExcludedByGenre(event)) &&
+      (!showOnlyFollowed || isFollowedEvent(event))
+  );
 
   const hasFollowedArtists = followedArtists.size > 0;
 
@@ -89,6 +100,26 @@ export default function Home() {
           </div>
         )}
 
+        {hiddenByGenreCount > 0 && (
+          <div className="mb-6 text-sm text-gray-400">
+            <label className="inline-flex items-center gap-2 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={showAllGenres}
+                onChange={(e) => setShowAllGenres(e.target.checked)}
+                className="accent-purple-600"
+              />
+              Show all genres
+            </label>
+            {!showAllGenres && (
+              <p className="text-xs text-gray-500 mt-1">
+                {hiddenByGenreCount} events hidden (
+                {[...excludedGenres].join(", ")})
+              </p>
+            )}
+          </div>
+        )}
+
         <hr className="border-gray-800 mb-8" />
 
         <h2 className="text-2xl font-semibold mb-6">
@@ -104,11 +135,9 @@ export default function Home() {
         ) : (
           <div className="space-y-8">
             {filteredEvents.map((event) => {
-              const isFollowed = followedArtists.has(
-                event.artist.toLowerCase()
-              );
+              const isFollowed = isFollowedEvent(event);
               return (
-                <div key={`${event.artist}-${event.date}`}>
+                <div key={event.ticketUrl || `${event.artist}-${event.date}`}>
                   <div className="flex items-center gap-2">
                     <h3 className="text-xl font-bold">{event.artist}</h3>
                     {isFollowed && (
@@ -130,6 +159,12 @@ export default function Home() {
                   <p>
                     {new Date(event.date).toLocaleDateString("fi-FI")}
                   </p>
+
+                  {event.genres && event.genres.length > 0 && (
+                    <p className="text-xs text-gray-500">
+                      {event.genres.slice(0, 4).join(" · ")}
+                    </p>
+                  )}
 
                   <a
                     href={event.ticketUrl}

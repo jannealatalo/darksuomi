@@ -419,11 +419,14 @@ class TavastiaAdvancedScraper:
         
         # Add new non-duplicate events
         merged = existing.copy()
+        # Track the next ID locally: the file on disk isn't updated until
+        # save, so reading it per event gave every new event the same ID.
+        next_id = max((e.get('id', 0) for e in existing if isinstance(e, dict)), default=0) + 1
         for event in new_events:
             key = (event['artist'].lower().strip(), event['date'])
             if key not in existing_set:
-                # Assign new ID
-                event['id'] = self._get_max_event_id() + 1
+                event['id'] = next_id
+                next_id += 1
                 merged.append(event)
                 existing_set.add(key)
         
