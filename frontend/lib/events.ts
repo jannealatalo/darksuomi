@@ -1,8 +1,19 @@
 import events from "../data/events.json";
 import genreConfig from "../data/genre-config.json";
+import meta from "../data/meta.json";
 import type { Event } from "../types/events";
 
 export const excludedGenres = new Set<string>(genreConfig.excludeGenres);
+
+/** When the scraper last saved events, formatted in Finnish time. */
+export const lastScraped = new Date(meta.lastScraped).toLocaleString("fi-FI", {
+  timeZone: "Europe/Helsinki",
+  day: "numeric",
+  month: "numeric",
+  year: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+});
 
 export function getEvents(): Event[] {
   return [...(events as Event[])].sort(

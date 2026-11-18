@@ -21,6 +21,7 @@ export function useSpotifyFollowedArtists() {
   const [result, setResult] = useState<{
     token: string;
     artists: Set<string>;
+    failed: boolean;
   } | null>(null);
 
   useEffect(() => {
@@ -30,6 +31,7 @@ export function useSpotifyFollowedArtists() {
 
     const fetchFollowedArtists = async () => {
       const artists = new Set<string>();
+      let failed = false;
       try {
         let after: string | null | undefined = null;
 
@@ -44,7 +46,8 @@ export function useSpotifyFollowedArtists() {
           });
 
           if (!response.ok) {
-            console.error("Failed to fetch Spotify artists");
+            console.error("Failed to fetch Spotify artists", response.status);
+            failed = true;
             break;
           }
 
@@ -56,9 +59,10 @@ export function useSpotifyFollowedArtists() {
         } while (after);
       } catch (error) {
         console.error("Error fetching followed artists:", error);
+        failed = true;
       }
 
-      if (!cancelled) setResult({ token: accessToken, artists });
+      if (!cancelled) setResult({ token: accessToken, artists, failed });
     };
 
     fetchFollowedArtists();
@@ -71,5 +75,7 @@ export function useSpotifyFollowedArtists() {
   return {
     followedArtists: isCurrent ? result.artists : EMPTY,
     loading: !!accessToken && !isCurrent,
+    /** True when Spotify could not be reached or rejected the request. */
+    error: isCurrent && result.failed,
   };
 }

@@ -442,6 +442,15 @@ class TavastiaAdvancedScraper:
             with open(self.events_file, 'w', encoding='utf-8') as f:
                 json.dump(events, f, indent=2, ensure_ascii=False)
             print(f"✓ Saved {len(events)} events to {self.events_file}")
+
+            # Record when the scrape happened; the site shows it in the header.
+            meta_file = os.path.join(os.path.dirname(self.events_file), 'meta.json')
+            with open(meta_file, 'w', encoding='utf-8') as f:
+                json.dump(
+                    {'lastScraped': datetime.now().astimezone().isoformat(timespec='seconds')},
+                    f, indent=2,
+                )
+                f.write('\n')
             return True
         except Exception as e:
             print(f"✗ Error saving events: {e}")

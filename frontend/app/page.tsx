@@ -5,6 +5,7 @@ import {
   excludedGenres,
   getEvents,
   isExcludedByGenre,
+  lastScraped,
 } from "../lib/events";
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
@@ -16,7 +17,13 @@ const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
 
 export default function Home() {
   const { data: session } = useSession();
-  const { followedArtists } = useSpotifyFollowedArtists();
+  const { followedArtists, error: spotifyError } = useSpotifyFollowedArtists();
+  const spotifyProblem =
+    session?.error === "RefreshTokenError"
+      ? "Your Spotify login has expired. Please log in again."
+      : spotifyError
+        ? "Couldn't load your Spotify artists. Try logging in again."
+        : null;
   const [showOnlyFollowed, setShowOnlyFollowed] = useState(false);
   const [showAllGenres, setShowAllGenres] = useState(false);
 
@@ -34,7 +41,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-gray-200">
       <div className="max-w-4xl mx-auto px-6 py-10">
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-wrap justify-between items-start gap-6 mb-8">
           <div>
             <h1 className="text-5xl font-bold mb-2">Dark Suomi</h1>
             <p className="text-gray-400">
@@ -42,9 +49,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div>
+          <div className="flex flex-col items-end gap-2 text-right">
             {session ? (
-              <div className="text-right">
+              <div>
                 <p className="text-sm text-gray-400 mb-2">
                   Logged in as {session.user?.name || session.user?.email}
                 </p>
@@ -70,6 +77,36 @@ export default function Home() {
                 Login with Spotify
               </button>
             )}
+
+            {session && spotifyProblem && (
+              <p role="alert" className="text-xs text-red-400 max-w-56">
+                {spotifyProblem}
+              </p>
+            )}
+
+            <div className="text-xs text-gray-500 space-y-0.5">
+              <p>
+                Genres from{" "}
+                <a
+                  href="https://www.last.fm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300"
+                >
+                  Last.fm
+                </a>{" "}
+                &amp;{" "}
+                <a
+                  href="https://musicbrainz.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300"
+                >
+                  MusicBrainz
+                </a>
+              </p>
+              <p>Last scraped {lastScraped}</p>
+            </div>
           </div>
         </div>
 
@@ -137,7 +174,7 @@ export default function Home() {
             {filteredEvents.map((event) => {
               const isFollowed = isFollowedEvent(event);
               return (
-                <div key={event.ticketUrl || `${event.artist}-${event.date}`}>
+                <div key={event.id}>
                   <div className="flex items-center gap-2">
                     <h3 className="text-xl font-bold">{event.artist}</h3>
                     {isFollowed && (
@@ -179,19 +216,6 @@ export default function Home() {
             })}
           </div>
         )}
-
-        <footer className="mt-16 pt-6 border-t border-gray-800 text-xs text-gray-500">
-          Genre data from{" "}
-          <a
-            href="https://www.last.fm"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-purple-400 hover:text-purple-300"
-          >
-            Last.fm
-          </a>
-          .
-        </footer>
       </div>
     </main>
   );
