@@ -7,6 +7,8 @@ import {
   isExcludedByGenre,
   lastScraped,
 } from "../lib/events";
+import { expectedSetlists, isSpecialShow } from "../lib/setlists";
+import ExpectedSetlists from "./ExpectedSetlist";
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
@@ -103,6 +105,17 @@ export default function Home() {
                   className="text-purple-400 hover:text-purple-300"
                 >
                   MusicBrainz
+                </a>
+              </p>
+              <p>
+                Setlists from{" "}
+                <a
+                  href="https://www.setlist.fm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300"
+                >
+                  setlist.fm
                 </a>
               </p>
               <p>Last scraped {lastScraped}</p>
@@ -211,6 +224,11 @@ export default function Home() {
                   >
                     Tickets
                   </a>
+
+                  <ExpectedSetlists
+                    setlists={expectedSetlists(event)}
+                    special={isSpecialShow(event)}
+                  />
                 </div>
               );
             })}
