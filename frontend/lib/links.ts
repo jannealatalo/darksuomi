@@ -11,6 +11,7 @@ export const VENUE_LINKS: Record<string, string> = {
   // Former Kulttuuriareena Gloria; run by the City of Helsinki youth services.
   Tiivistämö: "https://nuorten.hel.fi/en/youth-centers/tiivistamo/",
   "Helsingin Jäähalli": "https://helsinginjaahalli.fi/tapahtumat",
+  Olympiastadion: "https://www.stadion.fi/en/events/events",
 };
 
 export type SiteLink = { name: string; url: string };

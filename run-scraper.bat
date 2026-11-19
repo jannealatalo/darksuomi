@@ -10,6 +10,7 @@ python scraper_barloose.py
 python scraper_veikkausarena.py
 python scraper_tiivistamo.py
 python scraper_jaahalli.py
+python scraper_stadion.py
 python genres.py
 python setlists.py
 python playlists.py

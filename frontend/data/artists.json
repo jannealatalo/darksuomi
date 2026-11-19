@@ -1109,6 +1109,18 @@
     ],
     "fetched": "2026-11-19"
   },
+  "FOO FIGHTERS": {
+    "source": "lastfm",
+    "matchedName": "Foo Fighters",
+    "tags": [
+      "rock",
+      "alternative rock",
+      "grunge",
+      "alternative",
+      "hard rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Forward Folks": {
     "source": "musicbrainz",
     "matchedName": "Forward Folks",
@@ -1328,6 +1340,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "HELSINKI CITY FESTIVAL": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Helsinki Lit": {
     "source": "notfound",
     "tags": [],
@@ -1367,6 +1384,16 @@
   "HEO On The Rocks": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Herra Ylppö": {
+    "source": "lastfm",
+    "matchedName": "Herra Ylppö & Ihmiset",
+    "tags": [
+      "rock",
+      "alternative rock",
+      "post-punk"
+    ],
     "fetched": "2026-11-19"
   },
   "Ho": {
@@ -1495,6 +1522,14 @@
       "metal",
       "finnish metal",
       "modern metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "ISAC ELLIOT": {
+    "source": "lastfm",
+    "matchedName": "Isac Elliot",
+    "tags": [
+      "pop"
     ],
     "fetched": "2026-11-19"
   },

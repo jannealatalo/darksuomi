@@ -137,6 +137,23 @@
     ]
   },
   {
+    "artist": "Herra Ylppö (Club Stadion)",
+    "venue": "Olympiastadion",
+    "city": "Helsinki",
+    "date": "2026-11-20T00:00:00",
+    "ticketUrl": "https://clubstadion.fi/tulevat-tapahtumat/",
+    "eventUrl": "https://www.stadion.fi/en/node/1334#2026-11-20",
+    "id": 331,
+    "artists": [
+      "Herra Ylppö"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock",
+      "post-punk"
+    ]
+  },
+  {
     "artist": "Hellsinki Industrial Festival 2026: Extize (FR), Unter null (US), Auger (GB), Hand of Juno (IT), King Satan, Any second (DE), Matt Hart (GB), Old school union",
     "venue": "Tiivistämö",
     "city": "Helsinki",
@@ -6985,6 +7002,25 @@
     ]
   },
   {
+    "artist": "FOO FIGHTERS - TAKE COVER TOUR",
+    "venue": "Olympiastadion",
+    "city": "Helsinki",
+    "date": "2027-06-12T00:00:00",
+    "ticketUrl": "https://www.livenation.fi/foo-fighters-tickets-adp40",
+    "eventUrl": "https://www.stadion.fi/en/node/1396#2027-06-12",
+    "id": 332,
+    "artists": [
+      "FOO FIGHTERS"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock",
+      "grunge",
+      "alternative",
+      "hard rock"
+    ]
+  },
+  {
     "id": 76,
     "artist": "Wolf Parade (CAN)",
     "venue": "Tavastia Klubi",
@@ -7021,6 +7057,19 @@
     "genres": [
       "pop"
     ]
+  },
+  {
+    "artist": "HELSINKI CITY FESTIVAL - OLYMPIASTADION AREA",
+    "venue": "Olympiastadion",
+    "city": "Helsinki",
+    "date": "2027-06-18T00:00:00",
+    "ticketUrl": "https://www.helsinkicityfestival.fi/",
+    "eventUrl": "https://www.stadion.fi/en/node/1372#2027-06-18",
+    "id": 333,
+    "artists": [
+      "HELSINKI CITY FESTIVAL"
+    ],
+    "genres": []
   },
   {
     "artist": "Nickelback: Everything Under The Sun",
@@ -7082,6 +7131,36 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "ISAC ELLIOT - THE STADIUM",
+    "venue": "Olympiastadion",
+    "city": "Helsinki",
+    "date": "2027-08-27T00:00:00",
+    "ticketUrl": "https://warnermusiclive.fi/artistit/isac-elliot",
+    "eventUrl": "https://www.stadion.fi/en/node/1400#2027-08-27",
+    "id": 334,
+    "artists": [
+      "ISAC ELLIOT"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "ISAC ELLIOT - THE STADIUM",
+    "venue": "Olympiastadion",
+    "city": "Helsinki",
+    "date": "2027-08-28T00:00:00",
+    "ticketUrl": "https://warnermusiclive.fi/artistit/isac-elliot",
+    "eventUrl": "https://www.stadion.fi/en/node/1392#2027-08-28",
+    "id": 335,
+    "artists": [
+      "ISAC ELLIOT"
+    ],
+    "genres": [
+      "pop"
+    ]
   },
   {
     "id": 79,

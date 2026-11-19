@@ -62,6 +62,9 @@ jobs:
       - name: Scrape Helsingin Jäähalli (concerts only)
         run: python scraper_jaahalli.py
 
+      - name: Scrape Olympiastadion (music only)
+        run: python scraper_stadion.py
+
       - name: Tag genres
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
