@@ -14,7 +14,9 @@
     "conscious hip hop",
     "iskelmä",
     "r&b",
-    "gospel music"
+    "gospel music",
+    "dj night",
+    "stand-up"
   ],
   "alwaysShowGenres": [
     "*metal*",
@@ -50,7 +52,11 @@
     "suomirock"
   ],
   "artistOverrides": {
-    "Us": { "genres": [] },
-    "Kruna": { "genres": [] }
+    "Us": {
+      "genres": []
+    },
+    "Kruna": {
+      "genres": []
+    }
   }
 }

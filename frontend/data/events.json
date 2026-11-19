@@ -15,6 +15,35 @@
     ]
   },
   {
+    "artist": "Hellsinki Industrial Festival 2026 Pre-Club: Scheitan (SWE), Agent Side Grinder (SWE), Stuka, Akathartos, DJ Vade Retro (GBR)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-19T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/hif-2026-pre-club-on-the-rocks-helsinki-lippuja/120878",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/hellsinki-industrial-festival-2026-pre-club-scheitan-swe-agent-side-grinder-swe-stuka-akathartos-dj-vade-retro-gbr/",
+    "venueGenres": [
+      "industrial"
+    ],
+    "id": 84,
+    "artists": [
+      "Scheitan",
+      "Agent Side Grinder",
+      "Stuka",
+      "Akathartos",
+      "DJ Vade Retro"
+    ],
+    "genres": [
+      "melodic death metal",
+      "black metal",
+      "death'n'roll",
+      "post-punk",
+      "industrial",
+      "minimal synth",
+      "rac",
+      "russia"
+    ]
+  },
+  {
     "id": 2,
     "artist": "The Flaming Sideburns, Us",
     "venue": "Tavastia Klubi",
@@ -29,6 +58,44 @@
       "garage rock",
       "rock",
       "rock n roll"
+    ]
+  },
+  {
+    "artist": "Timo Pieni Huijaus (levyjulkkarit), Tiia Karoliina, KC4",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-20T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/119709",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/timo-pieni-huijaus-levyjulkkarit-tiia-karoliina-kc4/",
+    "venueGenres": [
+      "rap"
+    ],
+    "id": 85,
+    "artists": [
+      "Timo Pieni Huijaus",
+      "Tiia Karoliina",
+      "KC4"
+    ],
+    "genres": [
+      "rap"
+    ]
+  },
+  {
+    "artist": "Discomania! Midnight City Club DJs Mikke The Flamer & John Curtain",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-20T23:30:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/discomania-midnight-city-club-djs-mikke-the-flamer-john-curtain/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/discomania-midnight-city-club-djs-mikke-the-flamer-john-curtain/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 86,
+    "artists": [
+      "Discomania! Midnight City Club DJs Mikke The Flamer & John Curtain"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -56,6 +123,47 @@
     "genres": [
       "pop",
       "gospel"
+    ]
+  },
+  {
+    "artist": "Paara (levyjulkkarit), Svarta Havet",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-21T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/paara-on-the-rocks-helsinki-lippuja/120406",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/paara-levyjulkkarit-svarta-havet/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 87,
+    "artists": [
+      "Paara",
+      "Svarta Havet"
+    ],
+    "genres": [
+      "black metal",
+      "finnish black metal",
+      "post-black metal",
+      "blackened hardcore",
+      "post-hardcore"
+    ]
+  },
+  {
+    "artist": "Linkin Park Night! Jumpdafuckup DJs",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-21T23:30:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/linkin-park-night-jumpdafuckup-djs/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/linkin-park-night-jumpdafuckup-djs/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 88,
+    "artists": [
+      "Linkin Park Night! Jumpdafuckup DJs"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -105,6 +213,52 @@
     ]
   },
   {
+    "artist": "Hulda Huima, Ani Harmi",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-25T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121596",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/hulda-huima-ani-harmi/",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 89,
+    "artists": [
+      "Hulda Huima",
+      "Ani Harmi"
+    ],
+    "genres": [
+      "acoustic"
+    ]
+  },
+  {
+    "artist": "Krypta, Petri Kautto (soolo)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-26T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/119847",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/krypta-petri-kautto-soolo/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 90,
+    "artists": [
+      "Krypta",
+      "Petri Kautto"
+    ],
+    "genres": [
+      "black metal",
+      "finnish rock",
+      "progressive rock",
+      "rock",
+      "funky",
+      "soul",
+      "pop",
+      "singer/songwriter",
+      "roots"
+    ]
+  },
+  {
     "id": 8,
     "artist": "STAM1NA – DIRTY YEARS 2026",
     "venue": "Tavastia Klubi",
@@ -121,6 +275,45 @@
     ]
   },
   {
+    "artist": "Death Hawks, Idän Voima",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-27T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120781",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/death-hawks-idan-voima/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 91,
+    "artists": [
+      "Death Hawks",
+      "Idän Voima"
+    ],
+    "genres": [
+      "psychedelic rock",
+      "progressive rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Club Anvil – November Edition",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-27T23:00:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/club-anvil-november-edition/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/club-anvil-november-edition/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 92,
+    "artists": [
+      "Club Anvil"
+    ],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
     "id": 9,
     "artist": "Kemmuru – Kehumatta paras 20 vuotta",
     "venue": "Tavastia Klubi",
@@ -133,6 +326,51 @@
     "genres": [
       "hip hop",
       "rap"
+    ]
+  },
+  {
+    "artist": "Stepa & Heimo Ilman Menneisyyttä, AB",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-28T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120792",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/stepa-heimo-ilman-menneisyytta-ab/",
+    "venueGenres": [
+      "rap"
+    ],
+    "id": 93,
+    "artists": [
+      "Stepa & Heimo Ilman Menneisyyttä",
+      "AB"
+    ],
+    "genres": [
+      "nu metal",
+      "hip hop",
+      "rap",
+      "rnb",
+      "soul",
+      "psychobilly",
+      "neo-soul",
+      "hard rock",
+      "funk"
+    ]
+  },
+  {
+    "artist": "Neon Nights 80s Disco! DJ Anaheim",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-28T23:30:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/neon-nights-80s-disco-dj-anaheim/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/neon-nights-80s-disco-dj-anaheim/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 94,
+    "artists": [
+      "Neon Nights 80s Disco! DJ Anaheim"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -160,6 +398,24 @@
     ]
   },
   {
+    "artist": "HEO On The Rocks",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-11-30T19:00:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/heo-on-the-rocks/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/heo-on-the-rocks/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 95,
+    "artists": [
+      "HEO On The Rocks"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 11,
     "artist": "THE HARDKISS (UA)",
     "venue": "Tavastia Klubi",
@@ -176,6 +432,28 @@
     ]
   },
   {
+    "artist": "Anvil (CAN), Killer (BE)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-01T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/117803",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/anvil-can-killer-be/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 96,
+    "artists": [
+      "Anvil",
+      "Killer"
+    ],
+    "genres": [
+      "heavy metal",
+      "speed metal",
+      "thrash metal",
+      "rock"
+    ]
+  },
+  {
     "id": 12,
     "artist": "Säveltäjä Olli Lindholm -konsertti",
     "venue": "Tavastia Klubi",
@@ -186,6 +464,45 @@
       "Säveltäjä Olli Lindholm"
     ],
     "genres": []
+  },
+  {
+    "artist": "SWINGIN’ CHRISTMAS: Reunion Big Band & Alex Ikonen",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-02T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/swingin-christmas-on-the-rocks-helsinki-lippuja/121511",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/swingin-christmas-reunion-big-band-alex-ikonen/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 97,
+    "artists": [
+      "Reunion Big Band & Alex Ikonen"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Aeonian Sorrow (FIN/GRE), As The Sun Falls, Halls Of Oblivion (GER)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-03T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122043",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/aeonian-sorrow-fin-gre-as-the-sun-falls-halls-of-oblivion-ger/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 98,
+    "artists": [
+      "Aeonian Sorrow",
+      "As The Sun Falls",
+      "Halls Of Oblivion"
+    ],
+    "genres": [
+      "gothic doom metal",
+      "doom metal",
+      "melodic death metal",
+      "black metal"
+    ]
   },
   {
     "id": 13,
@@ -201,6 +518,49 @@
       "rock",
       "pop",
       "suomirock"
+    ]
+  },
+  {
+    "artist": "ALLT (SWE), Avralize (GER), Bite Down (SWE)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-04T20:00:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/allt-swe-avralize-ger-bite-down-swe/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/allt-swe-avralize-ger-bite-down-swe/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 99,
+    "artists": [
+      "ALLT",
+      "Avralize",
+      "Bite Down"
+    ],
+    "genres": [
+      "progressive metalcore",
+      "metalcore",
+      "djent",
+      "thall",
+      "alternative metal",
+      "hardcore"
+    ]
+  },
+  {
+    "artist": "Hardcore/Emo Club by DJ Larsen1c",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-04T23:30:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/hardcore-emo-club-by-dj-larsen1c/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/hardcore-emo-club-by-dj-larsen1c/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 100,
+    "artists": [
+      "Hardcore/Emo Club by DJ Larsen1c"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -221,6 +581,101 @@
     ]
   },
   {
+    "artist": "Kotiteollisuus",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121251",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/kotiteollisuus/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 101,
+    "artists": [
+      "Kotiteollisuus"
+    ],
+    "genres": [
+      "metal",
+      "heavy metal",
+      "hard rock",
+      "finnish metal"
+    ]
+  },
+  {
+    "artist": "DJ KING S8N",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-05T23:00:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/dj-king-s8n/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/dj-king-s8n/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 102,
+    "artists": [
+      "DJ KING S8N"
+    ],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
+    "artist": "Uli Jon Roth (GER) – The 50th Anniversary of VIRGIN KILLER",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-06T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120881",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/uli-jon-roth-ger-the-50th-anniversary-of-virgin-killer/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 103,
+    "artists": [
+      "Uli Jon Roth"
+    ],
+    "genres": [
+      "hard rock",
+      "guitar virtuoso",
+      "symphonic rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Kausti",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-08T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121286",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/kausti/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 104,
+    "artists": [
+      "Kausti"
+    ],
+    "genres": [
+      "rock",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Hemma Beast – ”Lihaa ja kissa”",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-09T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121929",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/hemma-beast-lihaa-ja-kissa/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 105,
+    "artists": [
+      "Hemma Beast"
+    ],
+    "genres": []
+  },
+  {
     "id": 15,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -236,6 +691,27 @@
     ]
   },
   {
+    "artist": "MARIANAS REST – The Last Dance: A Night of Remembrance",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-10T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120876",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/marianas-rest-the-last-dance-a-night-of-remembrance/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 106,
+    "artists": [
+      "MARIANAS REST"
+    ],
+    "genres": [
+      "doom metal",
+      "melodic death metal",
+      "death doom metal",
+      "death metal"
+    ]
+  },
+  {
     "id": 16,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -248,6 +724,26 @@
     "genres": [
       "rap",
       "electronic"
+    ]
+  },
+  {
+    "artist": "St. Aurora – 6th Birthday Bash",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-11T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121809",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/st-aurora-6th-birthday-bash/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 107,
+    "artists": [
+      "St. Aurora"
+    ],
+    "genres": [
+      "alternative",
+      "emo",
+      "alternative rock"
     ]
   },
   {
@@ -281,6 +777,71 @@
     ]
   },
   {
+    "artist": "The Ocean (GER), Psychonaut (BEL), Pothamus (BEL)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-12T20:00:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/the-ocean-ger-psychonaut-bel-pothamus-bel/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/the-ocean-ger-psychonaut-bel-pothamus-bel/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 108,
+    "artists": [
+      "The Ocean",
+      "Psychonaut",
+      "Pothamus"
+    ],
+    "genres": [
+      "progressive metal",
+      "post-metal",
+      "sludge",
+      "experimental",
+      "sludge metal",
+      "belgium",
+      "post-rock"
+    ]
+  },
+  {
+    "artist": "KREISI DISKO! DJs Mikke The Flamer & John Curtain",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-12T23:30:00",
+    "ticketUrl": "https://www.tiketti.fi/kreisi-disko-on-the-rocks-helsinki-lippuja/122325",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/kreisi-disko-djs-mikke-the-flamer-john-curtain/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 109,
+    "artists": [
+      "KREISI DISKO! DJs Mikke The Flamer & John Curtain"
+    ],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
+    "artist": "Nubiyan Twist (UK)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-13T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/117400",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/nubiyan-twist-uk/",
+    "venueGenres": [
+      "soul-rnb"
+    ],
+    "id": 110,
+    "artists": [
+      "Nubiyan Twist"
+    ],
+    "genres": [
+      "jazz",
+      "funk",
+      "afrobeat",
+      "soul"
+    ]
+  },
+  {
     "id": 19,
     "artist": "Don Johnson Big Band X-mas special 2026",
     "venue": "Tavastia Klubi",
@@ -297,6 +858,26 @@
     ]
   },
   {
+    "artist": "Plusminuszero, Delfoi Road",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-16T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121975",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/plusminuszero-delfoi-road/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 111,
+    "artists": [
+      "Plusminuszero",
+      "Delfoi Road"
+    ],
+    "genres": [
+      "alternative rock",
+      "rock"
+    ]
+  },
+  {
     "id": 20,
     "artist": "Dumari & Spuget & Blosarit",
     "venue": "Tavastia Klubi",
@@ -307,6 +888,25 @@
       "Dumari & Spuget & Blosarit"
     ],
     "genres": []
+  },
+  {
+    "artist": "Marko Haavisto & Poutahaukat",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-17T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121813",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/marko-haavisto-poutahaukat/",
+    "venueGenres": [
+      "iskelma"
+    ],
+    "id": 112,
+    "artists": [
+      "Marko Haavisto & Poutahaukat"
+    ],
+    "genres": [
+      "rautalanka",
+      "rock"
+    ]
   },
   {
     "id": 21,
@@ -324,6 +924,28 @@
     ]
   },
   {
+    "artist": "Combichrist (USA): Old School Electro Set, Sirkuit Preiker",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/combichrist-usa-on-the-rocks-helsinki-lippuja/118419",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/combichrist-usa-old-school-electro-set-sirkuit-preiker/",
+    "venueGenres": [
+      "industrial"
+    ],
+    "id": 113,
+    "artists": [
+      "Combichrist",
+      "Sirkuit Preiker"
+    ],
+    "genres": [
+      "industrial",
+      "ebm",
+      "dark electro",
+      "electronic"
+    ]
+  },
+  {
     "id": 22,
     "artist": "Arttu Wiskari",
     "venue": "Tavastia Klubi",
@@ -336,6 +958,27 @@
     "genres": [
       "pop",
       "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Lemonator, Ben’s Diapers",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-19T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122079",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/lemonator-bens-diapers/",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 114,
+    "artists": [
+      "Lemonator",
+      "Ben’s Diapers"
+    ],
+    "genres": [
+      "power pop",
+      "rock",
+      "pop"
     ]
   },
   {
@@ -361,6 +1004,24 @@
       "Tatskatyttöjen Tapsantanssit"
     ],
     "genres": []
+  },
+  {
+    "artist": "Aino & Hajonneet – Livee & Lovee",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-26T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/aino-hajonneet-on-the-rocks-helsinki-lippuja/121426",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/aino-hajonneet-livee-lovee/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 115,
+    "artists": [
+      "Aino & Hajonneet"
+    ],
+    "genres": [
+      "punk"
+    ]
   },
   {
     "id": 25,
@@ -390,6 +1051,24 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "New Year’s Eve with Shiraz Lane & special guest Kormus",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-31T21:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121098",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/new-years-eve-with-shiraz-lane-special-guest-kormus/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 116,
+    "artists": [
+      "New Year’s Eve with Shiraz Lane &"
+    ],
+    "genres": [
+      "rock"
     ]
   },
   {
@@ -425,6 +1104,33 @@
     "genres": [
       "alternative rock",
       "rock"
+    ]
+  },
+  {
+    "artist": "Jonne (levyjulkkarit), Shaman, The Paisleys",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-02T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121374",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/jonne-levyjulkkarit-shaman-the-paisleys/",
+    "venueGenres": [
+      "folk"
+    ],
+    "id": 117,
+    "artists": [
+      "Jonne",
+      "Shaman",
+      "The Paisleys"
+    ],
+    "genres": [
+      "folk",
+      "folk metal",
+      "folk rock",
+      "power metal",
+      "metal",
+      "psychedelic",
+      "psychedelic pop",
+      "psychedelic rock"
     ]
   },
   {
@@ -470,6 +1176,24 @@
     ]
   },
   {
+    "artist": "Berlin Project III – David Bowie 80th Anniversary Tribute Show",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-08T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121375",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/berlin-project-iii-david-bowie-80th-anniversary-tribute-show/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 118,
+    "artists": [
+      "Berlin Project III"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 32,
     "artist": "TIISU - Päätöskeikka",
     "venue": "Tavastia Klubi",
@@ -484,6 +1208,27 @@
     ]
   },
   {
+    "artist": "Kirkkovene, Kirkkovene & Eero Eksyksissä plays Tyrävyö, Aspesti",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-09T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121690",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/kirkkovene-kirkkovene-eero-eksyksissa-plays-tyravyo-aspesti/",
+    "venueGenres": [
+      "punk"
+    ],
+    "id": 119,
+    "artists": [
+      "Kirkkovene",
+      "Kirkkovene & Eero Eksyksissä",
+      "Aspesti"
+    ],
+    "genres": [
+      "punk rock",
+      "pop punk"
+    ]
+  },
+  {
     "id": 33,
     "artist": "Timo Kämäräinen",
     "venue": "Tavastia Klubi",
@@ -494,6 +1239,26 @@
       "Timo Kämäräinen"
     ],
     "genres": []
+  },
+  {
+    "artist": "Remedy (SWE)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-15T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120880",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/remedy-swe/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 120,
+    "artists": [
+      "Remedy"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "wu-fam"
+    ]
   },
   {
     "id": 34,
@@ -535,6 +1300,32 @@
     "genres": []
   },
   {
+    "artist": "Wolfram, Pretty",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-20T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122394",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/wolfram-pretty/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 121,
+    "artists": [
+      "Wolfram",
+      "Pretty"
+    ],
+    "genres": [
+      "electronic",
+      "disco",
+      "ambient",
+      "electropop",
+      "garage rock",
+      "grunge",
+      "psychedelic",
+      "psychedelic rock"
+    ]
+  },
+  {
     "id": 37,
     "artist": "Tuomo - My Thing 20th Anniversary",
     "venue": "Tavastia Klubi",
@@ -569,6 +1360,30 @@
       "hardcore",
       "punk",
       "hardcore punk"
+    ]
+  },
+  {
+    "artist": "Sin Cos Tan, Ty Roxy",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-23T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122460",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/sin-cos-tan-ty-roxy/",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 122,
+    "artists": [
+      "Sin Cos Tan",
+      "Ty Roxy"
+    ],
+    "genres": [
+      "synthpop",
+      "electropop",
+      "electronic",
+      "pop",
+      "experimental",
+      "indie pop"
     ]
   },
   {
@@ -639,6 +1454,24 @@
     ]
   },
   {
+    "artist": "Helsinki Must Be Destroyed",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-05T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/helsinki-must-be-destroyed-on-the-rocks-helsinki-lippuja/121839",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/helsinki-must-be-destroyed/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 123,
+    "artists": [
+      "Helsinki Must Be Destroyed"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 43,
     "artist": "louna0nline: starseed album tour (S)",
     "venue": "Tavastia Klubi",
@@ -669,6 +1502,42 @@
     ]
   },
   {
+    "artist": "Helsinki Must Be Destroyed",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-06T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/helsinki-must-be-destroyed-on-the-rocks-helsinki-lippuja/121839",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/helsinki-must-be-destroyed-2/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 124,
+    "artists": [
+      "Helsinki Must Be Destroyed"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Slomosa (NOR)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-09T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/slomosa-on-the-rocks-helsinki-lippuja/121166",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/slomosa-nor/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 125,
+    "artists": [
+      "Slomosa"
+    ],
+    "genres": [
+      "stoner rock"
+    ]
+  },
+  {
     "id": 45,
     "artist": "Kiitos Katri Helena",
     "venue": "Tavastia Klubi",
@@ -679,6 +1548,43 @@
       "Kiitos Katri Helena"
     ],
     "genres": []
+  },
+  {
+    "artist": "Thomas Green (AUS): Brainstorm",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-10T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/thomas-green-tbc-on-the-rocks-helsinki-lippuja/120568",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/thomas-green-aus-brainstorm/",
+    "venueGenres": [
+      "stand-up"
+    ],
+    "id": 126,
+    "artists": [
+      "Thomas Green"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
+    "artist": "Magnus Betnér (SWE)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-11T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120564",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/magnus-betner-swe/",
+    "venueGenres": [
+      "stand-up"
+    ],
+    "id": 127,
+    "artists": [
+      "Magnus Betnér"
+    ],
+    "genres": [
+      "stand-up",
+      "check"
+    ]
   },
   {
     "id": 46,
@@ -700,6 +1606,27 @@
       "post-hardcore",
       "progressive metalcore",
       "emocore"
+    ]
+  },
+  {
+    "artist": "Dawn Of Solace (levyjulkkarit)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-12T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121971",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/dawn-of-solace-levyjulkkarit/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 128,
+    "artists": [
+      "Dawn Of Solace"
+    ],
+    "genres": [
+      "doom metal",
+      "melodic death metal",
+      "gothic metal",
+      "dark metal"
     ]
   },
   {
@@ -762,6 +1689,25 @@
       "electronic",
       "synthpop",
       "pop"
+    ]
+  },
+  {
+    "artist": "Andy and the Rockets (SWE)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-19T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120508",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/andy-and-the-rockets-swe/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 129,
+    "artists": [
+      "Andy and the Rockets"
+    ],
+    "genres": [
+      "hard rock",
+      "rock"
     ]
   },
   {
@@ -881,6 +1827,29 @@
     ]
   },
   {
+    "artist": "EU VOMITOUR 2027 – TRUE SLAM EDITION: Party Cannon, Internal Bleeding, Guttural Slug",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-03-06T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121222",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/eu-vomitour-2027-true-slam-edition-party-cannon-internal-bleeding-guttural-slug/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 130,
+    "artists": [
+      "EU VOMITOUR",
+      "Internal Bleeding",
+      "Guttural Slug"
+    ],
+    "genres": [
+      "brutal death metal",
+      "death metal",
+      "nydm",
+      "slamming brutal death metal"
+    ]
+  },
+  {
     "id": 60,
     "artist": "Vesterinen Yhtyeineen: Paluu Tavastialle",
     "venue": "Tavastia Klubi",
@@ -924,6 +1893,30 @@
     "genres": [
       "pop",
       "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "King Satan (levyjulkkarit), Ghoulstars, Danger Håt",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-03-13T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121731",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/king-satan-levyjulkkarit-ghoulstars-danger-hat/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 131,
+    "artists": [
+      "King Satan",
+      "Ghoulstars",
+      "Danger Håt"
+    ],
+    "genres": [
+      "industrial metal",
+      "punk rock",
+      "rock",
+      "garage punk",
+      "punk"
     ]
   },
   {
@@ -1093,6 +2086,26 @@
     ]
   },
   {
+    "artist": "Siamese (DEN)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-04-23T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122196",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/siamese-den/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 132,
+    "artists": [
+      "Siamese"
+    ],
+    "genres": [
+      "alternative rock",
+      "progressive rock",
+      "post-hardcore"
+    ]
+  },
+  {
     "id": 73,
     "artist": "Nelli Matula",
     "venue": "Tavastia Klubi",
@@ -1104,6 +2117,71 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Reflexion, MELANKOLIA",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-05-06T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122132",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/reflexion-melankolia/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 133,
+    "artists": [
+      "Reflexion",
+      "MELANKOLIA"
+    ],
+    "genres": [
+      "gothic metal",
+      "gothic rock",
+      "love metal",
+      "dark ambient",
+      "ambient",
+      "ethereal"
+    ]
+  },
+  {
+    "artist": "Greg Howe (USA) – Extraction European Tour featuring Dennis Chambers",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-05-11T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122458",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/greg-howe-usa-extraction-european-tour-featuring-dennis-chambers/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 134,
+    "artists": [
+      "Greg Howe"
+    ],
+    "genres": [
+      "guitar virtuoso",
+      "fusion",
+      "jazz fusion",
+      "instrumental rock"
+    ]
+  },
+  {
+    "artist": "Bombus (SWE)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-05-21T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/119130",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/bombus-swe/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 135,
+    "artists": [
+      "Bombus"
+    ],
+    "genres": [
+      "stoner metal",
+      "heavy metal",
+      "hard rock"
     ]
   },
   {
@@ -1126,6 +2204,24 @@
       "metalcore",
       "atm metalcore",
       "rock progresivo"
+    ]
+  },
+  {
+    "artist": "Raswaa koneeseen vol. 2!",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-05-29T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122159",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/raswaa-koneeseen-vol-2/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 136,
+    "artists": [
+      "Raswaa koneeseen vol. 2!"
+    ],
+    "genres": [
+      "rock"
     ]
   },
   {

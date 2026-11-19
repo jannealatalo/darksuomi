@@ -53,7 +53,8 @@ JUNK_TAGS = {
     "male vocalist", "favorites", "favourite", "love", "awesome", "beautiful",
     "under 2000 listeners", "albums i own", "my music", "check out",
     "ukraine", "australia", "england", "english", "singer", "finnish singer",
-    "eurovision",
+    "eurovision", "all", "norway", "norwegian", "belgian", "belgium", "greek",
+    "dutch", "polish", "czech", "swiss", "austrian", "icelandic",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -85,6 +86,10 @@ TAG_ALIASES = {
     "melodic/death-metal": "melodic death metal",
     "hip hop rnb and dance hall": "hip hop",
     "alternative/indie rock": "indie rock",
+    "humor": "stand-up",
+    "humour": "stand-up",
+    "comedy": "stand-up",
+    "stand-up comedy": "stand-up",
     "rock 'n' roll": "rock & roll",
 }
 
@@ -93,6 +98,15 @@ COUNTRY_CODES = {
     "SWE": "SE", "UK": "GB", "USA": "US", "US": "US", "ITA": "IT",
     "DK": "DK", "UA": "UA", "EST": "EE", "JPN": "JP", "CAN": "CA", "AU": "AU",
     "AUS": "AU", "ES": "ES", "FRA": "FR", "FR": "FR", "NOR": "NO", "GER": "DE",
+}
+
+# Venue event categories -> our genre names, used only when no artist on the
+# bill has tags. "dj" and "stand-up" are excluded by default in the site config.
+VENUE_GENRES = {
+    "industrial": "industrial", "metal": "metal", "punk": "punk",
+    "rock": "rock", "pop": "pop", "rap": "rap", "soul-rnb": "r&b",
+    "iskelma": "iskelmä", "folk": "folk", "dj": "dj night",
+    "stand-up": "stand-up", "other": None,
 }
 
 MAX_TAGS = 6          # keep this many top tags per artist
@@ -118,8 +132,15 @@ def parse_title(title: str) -> list[dict]:
     "Hola Ghost (DK), Black Magic Six, Hauntees" -> three artists
     "Michael Monroe plays Hanoi Rocks (K-18)"  -> Michael Monroe
     "STAM1NA – DIRTY YEARS 2026"                -> STAM1NA
+    "Hellsinki Industrial Festival 2026 Pre-Club: Scheitan (SWE), Stuka"
+                                                -> Scheitan, Stuka
     """
     acts = []
+    # "<Festival / club night / show name>: band, band" -> just the bands.
+    m = re.match(r"^([^:]*\b(?:festival|fest|club|klubi|presents|night|christmas|xmas|"
+                 r"joulu\w*|tour|showcase|party)\b[^:]*):\s*(.+)$", title, flags=re.I)
+    if m:
+        title = m.group(2)
     # Split on commas and on " & " between acts; " & " inside a band name
     # ("Kauko Röyhkä & Voimaeläin") is handled by trying the full name first.
     for part in re.split(r",\s*", title):
@@ -322,6 +343,11 @@ def main() -> int:
                 name, tags = resolve_artist(act, cache, overrides, args.refresh)
                 artists.append(name)
                 genres += [t for t in tags if t not in genres]
+            if not genres:
+                # Nobody has tagged these artists: fall back to the venue's
+                # own category for the gig (On the Rocks has these).
+                genres = [VENUE_GENRES[g] for g in event.get("venueGenres", [])
+                          if VENUE_GENRES.get(g)]
             event["artists"] = artists
             event["genres"] = genres
         save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))

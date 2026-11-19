@@ -35,11 +35,64 @@ export const lastScraped = new Date(meta.lastScraped).toLocaleString("fi-FI", {
   minute: "2-digit",
 });
 
+/**
+ * "Today" in Finland on the day of the last scrape (YYYY-MM-DD). Using the
+ * scrape date instead of the clock keeps server and browser renders identical;
+ * the nightly job refreshes it.
+ */
+const scrapeDay = new Date(meta.lastScraped).toLocaleDateString("sv-SE", {
+  timeZone: "Europe/Helsinki",
+});
+
+/** Upcoming events (from the scrape day on), sorted by date and time. */
 export function getEvents(): Event[] {
-  return [...(events as Event[])].sort(
-    (a, b) =>
-      new Date(a.date).getTime() - new Date(b.date).getTime()
-  );
+  return (events as Event[])
+    .filter((e) => e.date.slice(0, 10) >= scrapeDay)
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+
+export type EventDay = {
+  key: string; // YYYY-MM-DD
+  weekday: string; // "Thu"
+  day: number;
+  month: number; // 1-12
+  monthLabel: string; // "November 2026"
+  events: Event[];
+};
+
+/** Group (already sorted) events by calendar day. */
+export function groupByDay(list: Event[]): EventDay[] {
+  const days: EventDay[] = [];
+  for (const event of list) {
+    const key = event.date.slice(0, 10);
+    let day = days[days.length - 1];
+    if (!day || day.key !== key) {
+      const [y, m, d] = key.split("-").map(Number);
+      day = {
+        key,
+        weekday: WEEKDAYS[new Date(Date.UTC(y, m - 1, d)).getUTCDay()],
+        day: d,
+        month: m,
+        monthLabel: `${MONTHS[m - 1]} ${y}`,
+        events: [],
+      };
+      days.push(day);
+    }
+    day.events.push(event);
+  }
+  return days;
+}
+
+/** Doors / start time as "19:00", or null when the venue gives none. */
+export function eventTime(event: Event): string | null {
+  const time = event.date.slice(11, 16);
+  return time && time !== "00:00" ? time : null;
 }
 
 /**
