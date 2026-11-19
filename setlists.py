@@ -32,6 +32,7 @@ DATA_DIR = ROOT / "frontend" / "data"
 EVENTS_FILE = DATA_DIR / "events.json"
 ARTISTS_FILE = DATA_DIR / "artists.json"
 SETLISTS_FILE = DATA_DIR / "setlists.json"
+PAST_SETLISTS_FILE = DATA_DIR / "past-setlists.json"
 
 API = "https://api.setlist.fm/rest/1.0"
 API_KEY = os.environ.get("SETLISTFM_API_KEY")
@@ -46,6 +47,9 @@ CACHE_DAYS = 7           # re-fetch an artist after this many days
 # setlist.fm allows 2 requests/second and 1440/day per API key.
 MAX_FETCHES_PER_RUN = 40     # artists (re)fetched per run, oldest first
 MAX_REQUESTS_PER_RUN = 1000  # hard stop, leaves room for manual runs
+
+PAST_CHECK_DAYS = 30   # look for a past gig's actual setlist this long
+PAST_SHOW_DAYS = 90    # the site shows past gigs this far back
 
 _last_request = 0.0
 _requests_made = 0
@@ -116,10 +120,14 @@ def recent_setlists(mbid: str) -> list[dict]:
                 return found
             songs = song_list(s)
             if songs:
+                venue = s.get("venue", {})
                 found.append({
                     "date": played,
-                    "country": s.get("venue", {}).get("city", {}).get("country", {}).get("code"),
+                    "country": venue.get("city", {}).get("country", {}).get("code"),
                     "songs": songs,
+                    "url": s.get("url"),
+                    "venue": venue.get("name"),
+                    "city": venue.get("city", {}).get("name"),
                 })
                 if len(found) >= MAX_SETLISTS:
                     return found
@@ -190,6 +198,12 @@ def build(name: str, country: str | None, mbid: str | None) -> dict:
 
     setlists = recent_setlists(artist["mbid"])
     base = {"mbid": artist["mbid"], "url": artist.get("url"), "fetched": today}
+    if setlists:
+        # The band's most recent show anywhere: a preview of the coming gig.
+        latest = setlists[0]
+        base["latest"] = {"url": latest["url"], "date": latest["date"].isoformat(),
+                          "venue": latest["venue"], "city": latest["city"],
+                          "songs": len(latest["songs"])}
 
     # Guard against namesakes: when several artists share the name, an act
     # billed without a country code is assumed Finnish, so at least one
@@ -210,9 +224,60 @@ def build(name: str, country: str | None, mbid: str | None) -> dict:
     }
 
 
+def find_past_setlists(events: list[dict], cache: dict) -> None:
+    """
+    For gigs of the last PAST_CHECK_DAYS days, look up the actual setlist of
+    that night on setlist.fm (by artist and date). Fans usually add setlists
+    within a day or two, so each gig is re-checked once a day until found.
+    Results: frontend/data/past-setlists.json, keyed by event id.
+    """
+    today = date.today()
+    oldest = (today - timedelta(days=PAST_CHECK_DAYS)).isoformat()
+    state = load_json(PAST_SETLISTS_FILE, {})
+    checks = 0
+
+    def acts(event: dict) -> list[str]:
+        names = []
+        for name in event.get("artists", []):
+            entry = cache.get(name, {})
+            names += entry.get("parts", []) if entry.get("status") == "split" else [name]
+        return [n for n in names if cache.get(n, {}).get("mbid")]
+
+    for event in events:
+        day = event["date"][:10]
+        if not (oldest <= day < today.isoformat()):
+            continue
+        key = str(event["id"])
+        entry = state.setdefault(key, {"setlists": {}})
+        missing = [n for n in acts(event) if n not in entry["setlists"]]
+        if not missing or entry.get("checked") == today.isoformat():
+            continue
+        y, m, d = day.split("-")
+        for name in missing:
+            data = api_get("/search/setlists",
+                           {"artistMbid": cache[name]["mbid"], "date": f"{d}-{m}-{y}"})
+            checks += 1
+            for s in (data or {}).get("setlist", []):
+                songs = song_list(s)
+                if songs:
+                    entry["setlists"][name] = {"url": s.get("url"), "songs": len(songs)}
+                    break
+        entry["checked"] = today.isoformat()
+
+    # Forget gigs that are too old to show.
+    keep_from = (today - timedelta(days=PAST_SHOW_DAYS)).isoformat()
+    known = {str(e["id"]): e["date"][:10] for e in events}
+    state = {k: v for k, v in state.items() if known.get(k, "") >= keep_from}
+    save_json(PAST_SETLISTS_FILE, dict(sorted(state.items(), key=lambda kv: int(kv[0]))))
+    found = sum(len(v["setlists"]) for v in state.values())
+    print(f"✓ Past gigs: {found} actual setlists known ({checks} lookups this run)")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--refresh", action="store_true", help="re-fetch all artists")
+    parser.add_argument("--max", type=int, default=MAX_FETCHES_PER_RUN,
+                        help="artists to (re)fetch this run")
     args = parser.parse_args()
 
     if not API_KEY:
@@ -237,9 +302,9 @@ def main() -> int:
            if args.refresh or n not in cache
            or cache[n].get("fetched", "") < stale_before]
     due.sort(key=lambda n: cache.get(n, {}).get("fetched", ""))
-    if len(due) > MAX_FETCHES_PER_RUN:
-        print(f"  {len(due)} artists due, fetching {MAX_FETCHES_PER_RUN} this run")
-        due = due[:MAX_FETCHES_PER_RUN]
+    if len(due) > args.max:
+        print(f"  {len(due)} artists due, fetching {args.max} this run")
+        due = due[:args.max]
 
     for name in due:
         country = wanted[name]
@@ -260,14 +325,20 @@ def main() -> int:
         except (requests.RequestException, RuntimeError) as e:
             print(f"  ! {name}: {e}", file=sys.stderr)
 
-    print(f"  setlist.fm requests this run: {_requests_made}")
-
     # Drop artists that no longer have events (keeping parts of split names).
     keep = set(wanted)
     for name in wanted:
         keep.update(cache.get(name, {}).get("parts", []))
     cache = {k: v for k, v in cache.items() if k in keep}
     save_json(SETLISTS_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
+
+    try:
+        find_past_setlists(events, cache)
+    except BudgetExhausted:
+        print("  ! past-gig lookups stopped (daily budget)", file=sys.stderr)
+    except (requests.RequestException, RuntimeError) as e:
+        print(f"  ! past-gig lookups failed: {e}", file=sys.stderr)
+    print(f"  setlist.fm requests this run: {_requests_made}")
 
     ok = sum(v.get("status") == "ok" for v in cache.values())
     print(f"✓ Expected setlists for {ok} of {len(cache)} artists")

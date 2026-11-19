@@ -86,12 +86,14 @@ export default function Home() {
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
               <span className="block">Metal • Doom • Stoner • Rock • Punk</span>
               <span className="block">Goth • Darkwave • Industrial • EBM • Synth</span>
-              <Link
-                href="/bands"
-                className="inline-block mt-2 text-purple-400 hover:text-purple-300"
-              >
-                Bands A–Z: Spotify, Bandcamp, SoundCloud… →
-              </Link>
+              <span className="flex flex-wrap gap-x-4 mt-2">
+                <Link href="/bands" className="text-purple-400 hover:text-purple-300">
+                  Bands A–Z: Spotify, Bandcamp, SoundCloud… →
+                </Link>
+                <Link href="/past" className="text-purple-400 hover:text-purple-300">
+                  Past gigs & setlists →
+                </Link>
+              </span>
             </p>
           </div>
 

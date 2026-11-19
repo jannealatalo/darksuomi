@@ -51,6 +51,16 @@ export function getEvents(): Event[] {
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
+/** Gigs of the last `days` days (before the scrape day), newest first. */
+export function getPastEvents(days = 90): Event[] {
+  const d = new Date(`${scrapeDay}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() - days);
+  const from = d.toISOString().slice(0, 10);
+  return (events as Event[])
+    .filter((e) => e.date.slice(0, 10) < scrapeDay && e.date.slice(0, 10) >= from)
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MONTHS = [
   "January", "February", "March", "April", "May", "June",
