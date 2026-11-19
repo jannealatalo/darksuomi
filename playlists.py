@@ -123,7 +123,7 @@ def hidden_by_default(event: dict, config: dict) -> bool:
     genres = event.get("genres") or []
     patterns = [re.compile("^" + ".*".join(map(re.escape, p.split("*"))) + "$")
                 for p in config.get("alwaysShowGenres", [])]
-    if any(p.match(g) for g in genres for p in patterns):
+    if any(p.match(g) for g in genres[:5] for p in patterns):  # top 5, like the site
         return False
     return not genres or genres[0] in set(config.get("excludeGenres", []))
 

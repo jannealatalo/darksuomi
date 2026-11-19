@@ -65,6 +65,12 @@ jobs:
       - name: Scrape Olympiastadion (music only)
         run: python scraper_stadion.py
 
+      - name: Scrape Korjaamo (music only)
+        run: python scraper_korjaamo.py
+
+      - name: Scrape Sellosali, Espoo (music only)
+        run: python scraper_sellosali.py
+
       - name: Tuska festival line-up (weekly, on Mondays)
         # Festival line-ups change slowly; a manual run always checks too.
         run: |

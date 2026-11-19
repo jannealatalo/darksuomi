@@ -510,6 +510,59 @@
     "genres": []
   },
   {
+    "artist": "Päkä – Pullomeri, levyjulkkarit",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-21T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/paka-pullomeri-levyjulkkarit-kulttuuritehdas-korjaamo-22094031/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/paka-pullomeri-levyjulkkarit/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "19:00",
+    "price": "25 € / 28 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 340,
+    "artists": [
+      "Päkä",
+      "levyjulkkarit"
+    ],
+    "genres": [
+      "rap"
+    ]
+  },
+  {
+    "artist": "VITUN ISO ROTSI: 3XL, nito",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-21T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/vitun-iso-rotsi-kulttuuritehdas-korjaamo-21973524/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/vitun-iso-rotsi/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "19:30",
+    "price": "22,60 € / 25 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 339,
+    "artists": [
+      "3XL",
+      "nito"
+    ],
+    "genres": [
+      "rap",
+      "electro rap",
+      "hyphy",
+      "madrid",
+      "sektor zentral",
+      "guitar",
+      "instrumental",
+      "math rock"
+    ]
+  },
+  {
     "id": 4,
     "artist": "Juha Tapio",
     "venue": "Tavastia Klubi",
@@ -761,6 +814,31 @@
     ]
   },
   {
+    "artist": "TASAVALLAN PRESIDENTTI COMPLETE",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-24T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/tasavallan-presidentti-complete-kulttuuritehdas-korjaamo-21626952/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/tasavallan-presidentti-complete/",
+    "venueGenres": [
+      "blues",
+      "jazz",
+      "rock"
+    ],
+    "doors": "19:00",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 341,
+    "artists": [
+      "TASAVALLAN PRESIDENTTI COMPLETE"
+    ],
+    "genres": [
+      "blues",
+      "jazz",
+      "rock"
+    ]
+  },
+  {
     "artist": "PJK Klubi: Backrooms, Soft Guys, Visio",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -877,6 +955,20 @@
     ]
   },
   {
+    "artist": "Arja Koriseva X Auringon Lapset",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-11-25T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/arja-koriseva-x-auringon-lapset-sellosali-21703809/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpiorangm",
+    "id": 396,
+    "artists": [
+      "Arja Koriseva X Auringon Lapset"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Post Pulse, Sees, These",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -921,6 +1013,29 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Saara Suvanto Muistoissamme",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-26T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/saara-suvanto-muistoissamme-kulttuuritehdas-korjaamo-21670616/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/saara-suvanto-muistoissamme/",
+    "venueGenres": [
+      "indie-ja-alternative",
+      "rock"
+    ],
+    "doors": "18:30",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 342,
+    "artists": [
+      "Saara Suvanto Muistoissamme"
+    ],
+    "genres": [
+      "indie",
+      "rock"
     ]
   },
   {
@@ -993,6 +1108,35 @@
     "venueDefault": "rock"
   },
   {
+    "artist": "ONLY THE POETS (UK), Alex spencer (uk)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-26T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/only-the-poets-uk-alex-spencer-uk-kulttuuritehdas-korjaamo-21905302/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/only-the-poets-uk-s/",
+    "venueGenres": [
+      "indie-ja-alternative",
+      "rock"
+    ],
+    "doors": "19:30",
+    "price": "29,10 € / 32 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 343,
+    "artists": [
+      "ONLY THE POETS",
+      "Alex spencer"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "acoustic",
+      "madchester",
+      "britpop",
+      "manchester"
+    ]
+  },
+  {
     "artist": "NISKAFLIPPI-TORSTAI: Kokoomus + Myrkytys + Odottaa + Harhaoppi",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -1011,6 +1155,25 @@
     ],
     "genres": [
       "hardcore"
+    ]
+  },
+  {
+    "artist": "Vilma Jää + Leija Lautamaja",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-11-27T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/vilma-jaeae-leija-lautamaja-sellosali-21717837/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpiotamvq",
+    "id": 397,
+    "artists": [
+      "Vilma Jää",
+      "Leija Lautamaja"
+    ],
+    "genres": [
+      "folk",
+      "pop",
+      "want to see live"
     ]
   },
   {
@@ -1188,6 +1351,49 @@
     ]
   },
   {
+    "artist": "Pixel Pulse K-pop Show -S-",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-28T13:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/pixel-pulse-k-pop-show-kulttuuritehdas-korjaamo-22019881/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/pixel-pulse-k-pop-show-s/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "13:00",
+    "price": "26 € / 28 €",
+    "room": "Kulmasali",
+    "id": 344,
+    "artists": [
+      "Pixel Pulse K-pop Show -S"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "K-40 Rave",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-28T17:00:00",
+    "ticketUrl": "https://korjaamo.fi/tapahtumat/k-40-rave/",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/k-40-rave/",
+    "venueGenres": [
+      "elektroninen-musiikki-edm"
+    ],
+    "doors": "17:00",
+    "price": "35 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 345,
+    "artists": [
+      "K-40 Rave"
+    ],
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
     "artist": "Mimmien pikkujoulut -stand up show",
     "venue": "KULT",
     "city": "Helsinki",
@@ -1212,6 +1418,46 @@
     ],
     "genres": [
       "stand-up"
+    ]
+  },
+  {
+    "artist": "Roky Erickson -tribute, Wolfmen",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-11-28T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/night-of-the-vampires-roky-erickson-tribute-roky-erickson-tribute-wolfmen-kulttuuritehdas-korjaamo-22244717/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/roky-erickson-tribute-wolfmen/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "17 € / 20 €",
+    "room": "Kulmasali",
+    "id": 346,
+    "artists": [
+      "Roky Erickson -tribute",
+      "Wolfmen"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Yona: Kadonneet helmet",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-11-28T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/yona-kadonneet-helmet-sellosali-21717887/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpioy3jmy",
+    "id": 398,
+    "artists": [
+      "Yona"
+    ],
+    "genres": [
+      "folk",
+      "pop",
+      "singer-songwriter"
     ]
   },
   {
@@ -1307,13 +1553,7 @@
     "genres": [
       "nu metal",
       "hip hop",
-      "rap",
-      "r&b",
-      "soul",
-      "psychobilly",
-      "neo-soul",
-      "hard rock",
-      "funk"
+      "rap"
     ]
   },
   {
@@ -1691,6 +1931,56 @@
     "genres": []
   },
   {
+    "artist": "Virve Rosti, Freeman & Menneisyyden Vangit",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-02T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/virve-rosti-freeman-menneisyyden-vangit-virve-rosti-freeman-ja-menneisyyden-vangit-35-v-kulttuuritehdas-korjaamo-21707030/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/virve-rosti-freeman-menneisyyden-vangit/",
+    "venueGenres": [
+      "swing-ja-big-band"
+    ],
+    "doors": "19:00",
+    "price": "29 € / 32 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 347,
+    "artists": [
+      "Virve Rosti",
+      "Freeman & Menneisyyden Vangit"
+    ],
+    "genres": [
+      "iskelmä",
+      "hip hop",
+      "french hip-hop",
+      "rap francais",
+      "french rap",
+      "pop",
+      "rap",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Jepa Lambert: Soulful Christmas",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-02T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/118526",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpf3t37su",
+    "id": 399,
+    "artists": [
+      "Jepa Lambert"
+    ],
+    "genres": [
+      "soul",
+      "pop",
+      "r&b",
+      "gospel",
+      "diva"
+    ]
+  },
+  {
     "artist": "viola + Vera Wall",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -1711,6 +2001,28 @@
       "electronic",
       "pop",
       "under 100 listeners"
+    ]
+  },
+  {
+    "artist": "Diogi (levyjulkkarit)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-03T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/diogi-levyjulkkarit-kulttuuritehdas-korjaamo-22225511/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/diogi-levyjulkkarit-s-k18/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "18:00",
+    "price": "15 € / 18 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 348,
+    "artists": [
+      "Diogi"
+    ],
+    "genres": [
+      "rap"
     ]
   },
   {
@@ -1779,6 +2091,50 @@
       "soul",
       "pop",
       "spoken word"
+    ]
+  },
+  {
+    "artist": "The 69 Eyes",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-03T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/the-69-eyes-sellosali-21719876/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpioz2p4m",
+    "id": 400,
+    "artists": [
+      "The 69 Eyes"
+    ],
+    "genres": [
+      "gothic rock",
+      "gothic metal"
+    ]
+  },
+  {
+    "artist": "Väreet 2026: Ethnic Heritage Ensemble (US), Fire! Orchestra (SE/DK/NO/PT/FR)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-03T19:30:00",
+    "ticketUrl": "https://www.tiketti.fi/vareet-2026-kulttuuritehdas-korjaamo-vaunusali-helsinki-lippuja/121210?b=1",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/vareet-2026-ethnic-heritage-ensemble-us-fire-orchestra-se-dk-no-pt-fr/",
+    "venueGenres": [
+      "jazz"
+    ],
+    "doors": "19:30",
+    "price": "37 € / 37 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 349,
+    "artists": [
+      "Ethnic Heritage Ensemble",
+      "Fire! Orchestra"
+    ],
+    "genres": [
+      "jazz",
+      "free jazz",
+      "avant-garde",
+      "ethno-jazz",
+      "avant-garde jazz"
     ]
   },
   {
@@ -1907,6 +2263,29 @@
     ]
   },
   {
+    "artist": "Valvomo – Mikä kesä 20v.",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-04T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/valvomo-mika-kesa-20v-kulttuuritehdas-korjaamo-21729573/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/valvomo-mika-kesa-20v/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "20:00",
+    "price": "25 € / 28 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 350,
+    "artists": [
+      "Valvomo"
+    ],
+    "genres": [
+      "ska",
+      "pop"
+    ]
+  },
+  {
     "artist": "Airi’s w/ Michel 11",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -1957,6 +2336,22 @@
       "power metal",
       "heavy metal",
       "metal"
+    ]
+  },
+  {
+    "artist": "Noora Louhimo - Joulun hetki - Lisäkonsertti",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-05T15:00:00",
+    "doors": "15:00",
+    "ticketUrl": "https://www.lippu.fi/event/noora-louhimo-joulun-hetki-sellosali-22136428/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqlhnxf6q",
+    "id": 401,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "rock"
     ]
   },
   {
@@ -2027,6 +2422,44 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Jokrates – missä sä haluisit olla? -albumikiertue",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-05T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/jokrates-missa-sa-haluisit-olla-albumikiertue-kulttuuritehdas-korjaamo-22145347/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/jokrates-missa-sa-haluisit-olla-albumikiertue/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "19:00",
+    "price": "20 € / 22 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 351,
+    "artists": [
+      "Jokrates"
+    ],
+    "genres": [
+      "rap"
+    ]
+  },
+  {
+    "artist": "Noora Louhimo - Joulun hetki",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-05T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/21330994",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agofw7utbm",
+    "id": 402,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "rock"
+    ]
   },
   {
     "artist": "Kotiteollisuus",
@@ -2112,6 +2545,33 @@
     "genres": []
   },
   {
+    "artist": "Viikate 30 V -juhlakiertue, Kosmikud (EE)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/viikate-v30v-syksy-kulttuuritehdas-korjaamo-21659489/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/viikate-30-v-juhlakiertue-kosmikud-ee/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "20:00",
+    "price": "38,50 € / 42 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 352,
+    "artists": [
+      "Viikate",
+      "Kosmikud"
+    ],
+    "genres": [
+      "rock",
+      "metal",
+      "melancholic",
+      "depressive rock",
+      "alternative"
+    ]
+  },
+  {
     "artist": "DJ KING S8N",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -2169,6 +2629,21 @@
       "rap",
       "reggaeton"
     ]
+  },
+  {
+    "artist": "Iltapäiväkonsertti: Teemu Kide ja Mia Heikkinen",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-08T13:30:00",
+    "doors": "13:30",
+    "ticketUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpihgowse",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpihgowse",
+    "price": "Vapaa pääsy",
+    "id": 403,
+    "artists": [
+      "Iltapäiväkonsertti"
+    ],
+    "genres": []
   },
   {
     "artist": "Alice – Amazing Circus Show",
@@ -2282,6 +2757,58 @@
     "genres": []
   },
   {
+    "artist": "Raja-Jooseppi, Viive",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-09T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/raja-jooseppi-viive-kulttuuritehdas-korjaamo-22320094/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/raja-jooseppi-viive/",
+    "venueGenres": [
+      "jazz"
+    ],
+    "doors": "19:00",
+    "price": "16 € / 18 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 353,
+    "artists": [
+      "Raja-Jooseppi",
+      "Viive"
+    ],
+    "genres": [
+      "jazz",
+      "experimental"
+    ]
+  },
+  {
+    "artist": "Dungen (SE), Pambikallio",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-09T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/dungen-kulttuuritehdas-korjaamo-21877249/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/dungen/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "30 € / 35 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 354,
+    "artists": [
+      "Dungen",
+      "Pambikallio"
+    ],
+    "genres": [
+      "psychedelic rock",
+      "psychedelic",
+      "rock",
+      "indie rock",
+      "dream pop",
+      "psychedelic pop"
+    ]
+  },
+  {
     "artist": "Rebo + Rattleshake + Tiny Sequoia",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -2340,6 +2867,44 @@
       "melodic death metal",
       "death doom metal",
       "death metal"
+    ]
+  },
+  {
+    "artist": "ONEVIOLIN",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-10T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/oneviolin-sellosali-21719952/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpio2ydde",
+    "id": 404,
+    "artists": [
+      "ONEVIOLIN"
+    ],
+    "genres": [
+      "instrumental"
+    ]
+  },
+  {
+    "artist": "Helsingi: Leave The Light On / Helsingi Choir",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-10T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/helsingi-leave-the-light-on-helsingi-choir-kulttuuritehdas-korjaamo-22242155/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/helsingi-leave-the-light-on-helsingi-choir/",
+    "venueGenres": [
+      "gospel-ja-kuoromusiikki"
+    ],
+    "doors": "19:30",
+    "price": "22 € / 25 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 355,
+    "artists": [
+      "Helsingi"
+    ],
+    "genres": [
+      "gospel music"
     ]
   },
   {
@@ -2467,6 +3032,35 @@
     ]
   },
   {
+    "artist": "IKINÄ, Horizon Ignited, Lowhill",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-11T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/ikina-horizon-ignited-lowhill-kulttuuritehdas-korjaamo-21815586/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/ikina-horizon-ignited-lowhill/",
+    "venueGenres": [
+      "metalli"
+    ],
+    "doors": "20:00",
+    "price": "20 € / 23 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 356,
+    "artists": [
+      "IKINÄ",
+      "Horizon Ignited",
+      "Lowhill"
+    ],
+    "genres": [
+      "alternative metal",
+      "progressive metal",
+      "metalcore",
+      "melodic death metal",
+      "metal",
+      "melodic hardcore"
+    ]
+  },
+  {
     "artist": "Kill With Cover plays Manowar & BoneButton plays Iron Maiden",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -2579,6 +3173,52 @@
     ]
   },
   {
+    "artist": "M (levyjulkkarit)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/m-levyjulkkarit-kulttuuritehdas-korjaamo-21905723/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/m-levyjulkkarit/",
+    "venueGenres": [
+      "indie-ja-alternative"
+    ],
+    "doors": "19:00",
+    "price": "20 € / 23 €",
+    "age": "K-18",
+    "room": "Vintti",
+    "id": 358,
+    "artists": [
+      "M"
+    ],
+    "genres": [
+      "indie",
+      "singer-songwriter",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "THE GHOST OF BRUCE SPRINGSTEEN & THE E STREET BAND",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/the-ghost-of-bruce-springsteen-the-e-street-band-kulttuuritehdas-korjaamo-22095216/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/the-ghost-of-bruce-springsteen-the-e-street-band/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "26 € / 20 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 359,
+    "artists": [
+      "THE GHOST OF BRUCE SPRINGSTEEN & THE E STREET BAND"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 18,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -2677,6 +3317,34 @@
       "cello",
       "female fronted",
       "traditional heavy metal"
+    ]
+  },
+  {
+    "artist": "Havukruunu, SEPULCHRAL Curse",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-12T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/havukruunu-kulttuuritehdas-korjaamo-22082408/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/havukruunu-sepulchral-curse/",
+    "venueGenres": [
+      "metalli"
+    ],
+    "doors": "20:00",
+    "price": "27,50 € / 32 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 357,
+    "artists": [
+      "Havukruunu",
+      "SEPULCHRAL Curse"
+    ],
+    "genres": [
+      "black metal",
+      "pagan black metal",
+      "pagan metal",
+      "finnish black metal",
+      "death metal",
+      "blackened death metal"
     ]
   },
   {
@@ -2830,6 +3498,20 @@
     "venueDefault": "rock"
   },
   {
+    "artist": "A.W. Yrjänä",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-16T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/a-w-yrjaenae-sellosali-21711054/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpio5uefm",
+    "id": 405,
+    "artists": [
+      "A.W. Yrjänä"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",
     "venue": "KULT",
     "city": "Helsinki",
@@ -2854,6 +3536,29 @@
     ],
     "genres": [
       "rock"
+    ]
+  },
+  {
+    "artist": "Jesse Kaikuranta: Christmas Jazz",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-17T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/jesse-kaikuranta-christmas-jazz-kulttuuritehdas-korjaamo-22035473/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/jesse-kaikuranta-christmas-jazz/",
+    "venueGenres": [
+      "jazz",
+      "pop"
+    ],
+    "doors": "18:00",
+    "price": "25 € / 27 €",
+    "age": "K-18",
+    "room": "Vintti",
+    "id": 360,
+    "artists": [
+      "Jesse Kaikuranta"
+    ],
+    "genres": [
+      "pop"
     ]
   },
   {
@@ -2890,6 +3595,44 @@
       "rautalanka",
       "rock"
     ]
+  },
+  {
+    "artist": "sane – HITMAN LAST ACT, DJ SEBEN",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-17T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/sane-hitman-last-act-dj-seben-kulttuuritehdas-korjaamo-22275435/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/sane-hitman-last-act-dj-seben-s-k18/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "19:00",
+    "price": "10 € / 19 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 361,
+    "artists": [
+      "sane"
+    ],
+    "genres": [
+      "rock",
+      "rap",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Konstan joulu",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-17T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/konsta-hietanen-konstan-joulu-sellosali-21756584/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpkwlzffu",
+    "id": 406,
+    "artists": [
+      "Konstan joulu"
+    ],
+    "genres": []
   },
   {
     "artist": "Flok – Sydäntalvi",
@@ -2941,6 +3684,29 @@
     ]
   },
   {
+    "artist": "Emodisko: A Pre-Chirstmas party and 4th Anniversary Celebration",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/emodisko-a-pre-chirstmas-party-and-4th-anniversary-celebration-korjaamo-korjaamohalli-22390028/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/emodisko-a-pre-chirstmas-party-and-4th-anniversary-celebration/",
+    "venueGenres": [
+      "indie-ja-alternative",
+      "rock"
+    ],
+    "price": "11,50 € / 14 €",
+    "age": "K-18",
+    "room": "Korjaamohalli",
+    "id": 363,
+    "artists": [
+      "Emodisko"
+    ],
+    "genres": [
+      "indie",
+      "rock"
+    ]
+  },
+  {
     "artist": "Maija Vilkkumaa – Karaoke-queen",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -2969,6 +3735,20 @@
       "singer-songwriter",
       "pop"
     ]
+  },
+  {
+    "artist": "Johanna Försti: Mistä Tuntee Joulun?",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2026-12-18T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/johanna-foersti-mistae-tuntee-joulun-sellosali-21720027/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpi2fopta",
+    "id": 407,
+    "artists": [
+      "Johanna Försti"
+    ],
+    "genres": []
   },
   {
     "id": 21,
@@ -3027,6 +3807,55 @@
       "country rock"
     ],
     "venueDefault": "rock"
+  },
+  {
+    "artist": "Talviklassikko: Eläkeläiset + martti servo & Napander",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/talviklassikko-elakelaiset-msn-kulttuuritehdas-korjaamo-22096364/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/talviklassikko-elakelaiset-msn/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "20:00",
+    "price": "37,60 € / 39 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 362,
+    "artists": [
+      "Eläkeläiset",
+      "martti servo & Napander"
+    ],
+    "genres": [
+      "humppa",
+      "folk",
+      "stand-up",
+      "pop",
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "KATRI YLANDER – ON TULOSSA JOULU",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-19T15:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/katri-ylander-on-tulossa-joulu-kulttuuritehdas-korjaamo-22427867/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/katri-ylander-on-tulossa-joulu/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "15:30",
+    "price": "22,60 € / 25 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 364,
+    "artists": [
+      "KATRI YLANDER"
+    ],
+    "genres": [
+      "pop"
+    ]
   },
   {
     "artist": "Antti Autio – Haahuillen",
@@ -3255,6 +4084,31 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Aivovuoto, Eevil Stöö, DJ Kridlokk: UG Tapes",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-28T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/aivovuoto-eevil-stoo-tba-kulttuuritehdas-korjaamo-22148034/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/aivovuoto-eevil-stoo-tba/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "20:00",
+    "price": "25 € / 28 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 365,
+    "artists": [
+      "Aivovuoto",
+      "Eevil Stöö"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "underground hip-hop"
+    ]
+  },
+  {
     "id": 25,
     "artist": "Asa: Terveisiä kaaoksesta 20v",
     "venue": "Tavastia Klubi",
@@ -3290,6 +4144,23 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "We Love Helsinki: Uudenvuodentanssit 2027",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-31T18:00:00",
+    "ticketUrl": "",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/we-love-helsinki-uudenvuodentanssit-2027/",
+    "venueGenres": [],
+    "doors": "18:00",
+    "age": "K-18",
+    "room": "Koko talo",
+    "id": 366,
+    "artists": [
+      "We Love Helsinki"
+    ],
+    "genres": []
   },
   {
     "artist": "New Year’s Eve with Shiraz Lane & special guest Kormus",
@@ -3416,6 +4287,29 @@
       "psychedelic",
       "psychedelic pop",
       "psychedelic rock"
+    ]
+  },
+  {
+    "artist": "Jukka Nousiainen & Sini Suvanto (levyjulkkarit)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-05T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/jukka-nousiainen-sini-suvanto-kulttuuritehdas-korjaamo-22301871/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levyjulkkarit/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "18 € / 20 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 367,
+    "artists": [
+      "Jukka Nousiainen & Sini Suvanto"
+    ],
+    "genres": [
+      "lo-fi",
+      "garage rock"
     ]
   },
   {
@@ -3643,6 +4537,32 @@
     ]
   },
   {
+    "artist": "THE BEAT FROM PALOOKAVILLE (SE)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-08T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/the-beat-from-palookaville-kulttuuritehdas-korjaamo-22302199/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/the-beat-from-palookaville/",
+    "venueGenres": [
+      "soul-funk-ja-rb"
+    ],
+    "doors": "20:00",
+    "price": "29 € / 32 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 368,
+    "artists": [
+      "THE BEAT FROM PALOOKAVILLE"
+    ],
+    "genres": [
+      "swing",
+      "ska",
+      "rock & roll",
+      "neo-swing",
+      "traditional ska"
+    ]
+  },
+  {
     "artist": "David Bowie -disko",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -3785,6 +4705,20 @@
     "genres": []
   },
   {
+    "artist": "Drink Floyd",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-14T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/drinkfloyd/drink-floyd-plays-pink-floyd-4247361/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqnoc2ncq",
+    "id": 408,
+    "artists": [
+      "Drink Floyd"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Fear of Domination + Despiser",
     "venue": "KULT",
     "city": "Helsinki",
@@ -3815,6 +4749,47 @@
       "death metal",
       "metal",
       "new zealand"
+    ]
+  },
+  {
+    "artist": "Lämpiöklubi: Hulda Huima",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-15T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/hulda-huima-4251769/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqpl3grma",
+    "id": 409,
+    "artists": [
+      "Lämpiöklubi"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Radio Supernova, Sisar",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-15T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/radio-supernova-kulttuuritehdas-korjaamo-22283184/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/radio-supernova-sisar/",
+    "venueGenres": [
+      "indie-ja-alternative",
+      "pop"
+    ],
+    "doors": "19:30",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 369,
+    "artists": [
+      "Radio Supernova",
+      "Sisar"
+    ],
+    "genres": [
+      "shoegaze",
+      "dream pop",
+      "indie rock",
+      "doomgaze",
+      "dreampop"
     ]
   },
   {
@@ -3902,6 +4877,20 @@
       "alternative metal",
       "metalcore"
     ]
+  },
+  {
+    "artist": "Lämpiöklubi: SoulSisters: Swing Noir",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-16T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/soulsisters/soulsisters-swing-noir-4264771/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqv4gkbqy",
+    "id": 410,
+    "artists": [
+      "Lämpiöklubi"
+    ],
+    "genres": []
   },
   {
     "id": 34,
@@ -4021,6 +5010,22 @@
     ]
   },
   {
+    "artist": "Jazz Sabbath (UK)",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-19T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/21927205",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpuvnttee",
+    "id": 411,
+    "artists": [
+      "Jazz Sabbath"
+    ],
+    "genres": [
+      "jazz"
+    ]
+  },
+  {
     "id": 36,
     "artist": "Frank Zappa Memorial Pancake Breakfast",
     "venue": "Tavastia Klubi",
@@ -4063,6 +5068,20 @@
     ]
   },
   {
+    "artist": "Pekka Laine & The Enchanted",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-21T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/pekka-laine-the-enchanted-pekka-laine-the-enchanted-sellosali-22195326/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqpzldrrm",
+    "id": 412,
+    "artists": [
+      "Pekka Laine & The Enchanted"
+    ],
+    "genres": []
+  },
+  {
     "artist": "UNKIND 30 vuotta + Kürøishi",
     "venue": "KULT",
     "city": "Helsinki",
@@ -4092,6 +5111,49 @@
       "neocrust",
       "hardcore punk",
       "d-beat"
+    ]
+  },
+  {
+    "artist": "Mirkka & Flores",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-22T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/mirkka-flores-kulttuuritehdas-korjaamo-22409758/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/mirkka-flores-4/",
+    "venueGenres": [
+      "soul-funk-ja-rb"
+    ],
+    "doors": "18:00",
+    "price": "16,60 € / 18 €",
+    "age": "K-18",
+    "room": "Vintti",
+    "id": 370,
+    "artists": [
+      "Mirkka & Flores"
+    ],
+    "genres": [
+      "pop",
+      "soul",
+      "r&b",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Timo Kotipelto & Robustik",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-22T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/timo-kotipelto/timo-kotipelto-robustik-4199362/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqqwjdaka",
+    "id": 413,
+    "artists": [
+      "Timo Kotipelto & Robustik"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "melodic metal"
     ]
   },
   {
@@ -4234,6 +5296,53 @@
     ]
   },
   {
+    "artist": "Madmans Esprit",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-25T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/madmans-esprit-kulttuuritehdas-korjaamo-22290479/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/madmans-esprit-s/",
+    "venueGenres": [
+      "metalli"
+    ],
+    "doors": "19:00",
+    "price": "39,90 € / 44 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 371,
+    "artists": [
+      "Madmans Esprit"
+    ],
+    "genres": [
+      "visual kei",
+      "avant-garde metal",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Sätilä, Tummapilvi",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-27T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/satila-tummapilvi-kulttuuritehdas-korjaamo-22368876/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/satila-tummapilvi/",
+    "venueGenres": [
+      "indie-ja-alternative"
+    ],
+    "doors": "19:30",
+    "price": "20 € / 23 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 372,
+    "artists": [
+      "Sätilä",
+      "Tummapilvi"
+    ],
+    "genres": [
+      "indie"
+    ]
+  },
+  {
     "artist": "Ismo Leikola – Omasta mielestä 28.1.2027",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -4259,6 +5368,20 @@
     "genres": [
       "stand-up"
     ]
+  },
+  {
+    "artist": "Lämpiöklubi: Aizhan Sultan",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-28T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/sellosalin-lampioklubi/aizhan-sultan-4269282/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqvsj7d3i",
+    "id": 414,
+    "artists": [
+      "Lämpiöklubi"
+    ],
+    "genres": []
   },
   {
     "artist": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 29.1.2027",
@@ -4320,6 +5443,43 @@
       "indie",
       "singer-songwriter",
       "indie folk"
+    ]
+  },
+  {
+    "artist": "Lämpiöklubi: The Moontwins",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-01-29T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/themoontwins/the-moontwins-4264740/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqv3tmurq",
+    "id": 415,
+    "artists": [
+      "Lämpiöklubi"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Rare Maiden, Superunknowns",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-29T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/rare-maiden-superunknowns-kulttuuritehdas-korjaamo-22285533/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/rare-maiden-superunknowns/",
+    "venueGenres": [
+      "metalli"
+    ],
+    "doors": "19:30",
+    "price": "22,50 € / 25 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 373,
+    "artists": [
+      "Rare Maiden",
+      "Superunknowns"
+    ],
+    "genres": [
+      "metal"
     ]
   },
   {
@@ -4388,6 +5548,52 @@
     "genres": [
       "viihde",
       "stand-up"
+    ]
+  },
+  {
+    "artist": "Alchemy – Dire Straits 50th Anniversary",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-30T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/alchemy-dire-straits-50th-anniversary-kulttuuritehdas-korjaamo-22282936/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/alchemy-dire-straits-50th-anniversary/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "29 € / 33 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 374,
+    "artists": [
+      "Alchemy"
+    ],
+    "genres": [
+      "indie"
+    ]
+  },
+  {
+    "artist": "EVE feat. Jimmy Westerlund – Hitit & tarinat -soolokiertue",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-30T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/eve-feat-jimmy-westerlund-kulttuuritehdas-korjaamo-22355418/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/eve-feat-jimmy-westerlund-hitit-tarinat-soolokiertue/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "26,50 € / 29 €",
+    "age": "K-18",
+    "room": "Vintti",
+    "id": 375,
+    "artists": [
+      "EVE"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "r&b"
     ]
   },
   {
@@ -4578,6 +5784,28 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Vimma",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-05T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/vimma-kulttuuritehdas-korjaamo-22419582/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/vimma/",
+    "venueGenres": [
+      "indie-ja-alternative"
+    ],
+    "doors": "19:00",
+    "price": "18 € / 21 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 376,
+    "artists": [
+      "Vimma"
+    ],
+    "genres": [
+      "progressive folk"
+    ]
   },
   {
     "artist": "Helsinki Must Be Destroyed",
@@ -4825,6 +6053,20 @@
     ]
   },
   {
+    "artist": "Mikko Töyssy & Nina Tapio: Ystävän tähden 2027",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-02-10T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/ystavan-tahden/ystaevaen-taehden-mikko-toeyssy-nina-tapio-4255303/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqrwols7u",
+    "id": 416,
+    "artists": [
+      "Mikko Töyssy & Nina Tapio"
+    ],
+    "genres": []
+  },
+  {
     "artist": "HOLLYWOOD UNDEAD",
     "venue": "Helsingin Jäähalli",
     "city": "Helsinki",
@@ -4858,6 +6100,30 @@
     ],
     "genres": [
       "stand-up"
+    ]
+  },
+  {
+    "artist": "Silmien Takana -klubi: David Ramirez (US)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-12T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/silmien-takana-klubi-david-ramirez-kulttuuritehdas-korjaamo-22288133/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/silmien-takana-klubi-david-ramirez-us/",
+    "venueGenres": [
+      "indie-ja-alternative"
+    ],
+    "doors": "19:30",
+    "price": "26,50 € / 29 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 377,
+    "artists": [
+      "David Ramirez"
+    ],
+    "genres": [
+      "folk",
+      "singer-songwriter",
+      "acoustic"
     ]
   },
   {
@@ -5003,6 +6269,32 @@
     ]
   },
   {
+    "artist": "TX2 (US)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-13T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/en/event/tx2-us-kulttuuritehdas-korjaamo-21759025/",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/tx2-us/",
+    "venueGenres": [
+      "indie-ja-alternative",
+      "metalli",
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "43,60 €",
+    "room": "Vaunusali",
+    "id": 378,
+    "artists": [
+      "TX2"
+    ],
+    "genres": [
+      "pop punk",
+      "alternative",
+      "emo",
+      "metalcore"
+    ]
+  },
+  {
     "artist": "Arttu Wiskari – Suomi Finland PRKL",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5049,6 +6341,46 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Emil Karlsen (SÁ/NO)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-17T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/emil-karlsen-sano-kulttuuritehdas-korjaamo-21745040/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/emil-karlsen-sa-no/",
+    "venueGenres": [
+      "elektroninen-musiikki-edm",
+      "indie-ja-alternative"
+    ],
+    "doors": "19:00",
+    "price": "25,10 € / 28 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 379,
+    "artists": [
+      "Emil Karlsen"
+    ],
+    "genres": [
+      "electroacoustic"
+    ]
+  },
+  {
+    "artist": "Verneri Pohjola & Tuomo Prättälä",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-02-17T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/verneri-pohjola-tuomo-prattala/verneri-pohjola-tuomo-praettaelae-4246603/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqmhoyzyu",
+    "id": 417,
+    "artists": [
+      "Verneri Pohjola & Tuomo Prättälä"
+    ],
+    "genres": [
+      "jazz",
+      "free jazz"
+    ]
+  },
+  {
     "id": 50,
     "artist": "Ruusut",
     "venue": "Tavastia Klubi",
@@ -5067,6 +6399,69 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Freud Marx Engels & Jung Revisited",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-18T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/freud-marx-engels-jung-revisited-kulttuuritehdas-korjaamo-22185805/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/freud-marx-engels-jung-revisited/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "27 € / 30 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 380,
+    "artists": [
+      "Freud Marx Engels & Jung Revisited"
+    ],
+    "genres": [
+      "country",
+      "rock",
+      "folk"
+    ]
+  },
+  {
+    "artist": "Teleks - Siivet 25v juhlakiertue",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-02-18T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi//event/teleks-sellosali-22233387/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqtigfeo4",
+    "id": 418,
+    "artists": [
+      "Teleks"
+    ],
+    "genres": [
+      "pop",
+      "rock"
+    ]
+  },
+  {
+    "artist": "K-40 Rave",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-19T17:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/k-40-rave-kulttuuritehdas-korjaamo-22359362/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/k-40-rave-3/",
+    "venueGenres": [
+      "elektroninen-musiikki-edm"
+    ],
+    "doors": "17:00",
+    "price": "38 € / 38 €",
+    "age": "K-18",
+    "room": "Koko talo",
+    "id": 381,
+    "artists": [
+      "K-40 Rave"
+    ],
+    "genres": [
+      "electronic"
+    ]
   },
   {
     "id": 51,
@@ -5104,6 +6499,28 @@
     ],
     "genres": [
       "hard rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Saimaan Sävel Festivaali",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-20T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/saimaan-savel-festivaali-korjaamo-vaunuhalli-vintti-vaunusali-22176937/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/saimaan-savel-festivaali/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "18:30",
+    "price": "42 € / 53 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 382,
+    "artists": [
+      "Saimaan Sävel Festivaali"
+    ],
+    "genres": [
       "rock"
     ]
   },
@@ -5198,6 +6615,29 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "EDU 50 vee JUHLAVUOSI: Edumania + Edu Kehäkettunen (levyjulkkarit)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-26T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/edu-50-vee-edumania-edu-kehakettunen-levyjulkkarit-kulttuuritehdas-korjaamo-22203580/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/edu-50-vee-edumania-edu-kehakettunen-levyjulkkarit/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "18:30",
+    "price": "20 € / 22 €",
+    "room": "Kulmasali",
+    "id": 383,
+    "artists": [
+      "Edumania",
+      "Edu Kehäkettunen"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
     "id": 55,
     "artist": "Huora, Lähiöbotox",
     "venue": "Tavastia Klubi",
@@ -5278,6 +6718,32 @@
     ]
   },
   {
+    "artist": "Penniless, Suosikki",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-27T19:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/penniless-suosikki-kulttuuritehdas-korjaamo-22298641/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/penniless-suosikki/",
+    "venueGenres": [
+      "indie-ja-alternative"
+    ],
+    "doors": "19:30",
+    "price": "19 € / 22 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 384,
+    "artists": [
+      "Penniless",
+      "Suosikki"
+    ],
+    "genres": [
+      "alternative rock",
+      "indie rock",
+      "rock",
+      "post-punk"
+    ]
+  },
+  {
     "id": 280,
     "artist": "MOMO",
     "venue": "Semifinal",
@@ -5319,6 +6785,28 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Church of Britney",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-27T20:00:00",
+    "ticketUrl": "",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/church-of-britney/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "20:00",
+    "price": "/ 3,90 €",
+    "age": "K-18",
+    "room": "Korjaamohalli",
+    "id": 385,
+    "artists": [
+      "Church of Britney"
+    ],
+    "genres": [
+      "pop"
+    ]
   },
   {
     "artist": "Lisäkeikka: Morgan Jay: La Dolce Vita Tour",
@@ -5410,6 +6898,29 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Pussy Riot: Riot Days",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-03T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/pussy-riot-riot-days-kulttuuritehdas-korjaamo-22212356/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/pussy-riot-riot-days/",
+    "venueGenres": [
+      "punk-ja-hardcore"
+    ],
+    "doors": "19:00",
+    "price": "36 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 386,
+    "artists": [
+      "Pussy Riot"
+    ],
+    "genres": [
+      "punk",
+      "riot grrrl"
+    ]
+  },
+  {
     "artist": "MALEVO – Argentina-show",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5436,6 +6947,20 @@
       "tango",
       "electronic"
     ]
+  },
+  {
+    "artist": "The House Is Rockin: Songs of Tina Turner and Elton John",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-03-05T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/the-house-is-rockin-songs-of-tina-turner-and-elton-john-sellosali-22108129/?affiliate=TPH",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqnomwv2q",
+    "id": 419,
+    "artists": [
+      "The House Is Rockin"
+    ],
+    "genres": []
   },
   {
     "artist": "Solemn Golem, Featherfoot, Swarm",
@@ -5480,6 +7005,30 @@
       "garage rock",
       "grunge",
       "post-grunge"
+    ]
+  },
+  {
+    "artist": "Jonna Tervomaa",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-05T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/jonna-tervomaa-kulttuuritehdas-korjaamo-22419645/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/jonna-tervomaa-2/",
+    "venueGenres": [
+      "pop",
+      "rock"
+    ],
+    "doors": "21:00",
+    "price": "35 € / 38 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 387,
+    "artists": [
+      "Jonna Tervomaa"
+    ],
+    "genres": [
+      "pop",
+      "rock"
     ]
   },
   {
@@ -5706,6 +7255,28 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Noora Louhimo – Inner Goddess Spring Tour 2027 -S- /",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-11T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/noora-louhimo-inner-goddess-spring-tour-kulttuuritehdas-korjaamo-22339104/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/noora-louhimo-inner-goddess-spring-tour-2027-s/",
+    "venueGenres": [
+      "metalli",
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "35 € / 38 €",
+    "room": "Vaunusali",
+    "id": 388,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027 (Lisäkonsertti)",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5754,6 +7325,28 @@
     "genres": [
       "alternative rock",
       "alternative metal"
+    ]
+  },
+  {
+    "artist": "Tony O’Connel & Markus Asunta with Eugene Chernov – St. Patrick’s Day Tour",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-12T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/tony-oconnell-ja-markus-asunta-with-eugene-chernov-st-patricks-day-tour-2027-kulttuuritehdas-korjaamo-22270134/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/tony-oconnel-markus-asunta-with-eugene-chernov-st-patricks-day-tour/",
+    "venueGenres": [
+      "kantri-ja-folk"
+    ],
+    "doors": "19:00",
+    "price": "22,60 € / 25 €",
+    "age": "K-18",
+    "room": "Vintti",
+    "id": 389,
+    "artists": [
+      "Tony O’Connel & Markus Asunta with Eugene Chernov"
+    ],
+    "genres": [
+      "folk"
     ]
   },
   {
@@ -5927,6 +7520,24 @@
     ]
   },
   {
+    "artist": "Hallintohimmeli",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-17T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/hallintohimmeli-kulttuuritehdas-korjaamo-22363978/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/hallintohimmeli/",
+    "venueGenres": [],
+    "doors": "18:30",
+    "price": "15 € / 17 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 390,
+    "artists": [
+      "Hallintohimmeli"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Ricky-Tick Big Band & Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5951,6 +7562,45 @@
       "jazz",
       "big band"
     ]
+  },
+  {
+    "artist": "Robert Finley (US)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-18T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/robert-finley-us-kulttuuritehdas-korjaamo-22403119/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/robert-finley-us-2/",
+    "venueGenres": [
+      "blues",
+      "gospel-ja-kuoromusiikki",
+      "soul-funk-ja-rb"
+    ],
+    "doors": "19:00",
+    "price": "44,90 € / 55 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 391,
+    "artists": [
+      "Robert Finley"
+    ],
+    "genres": [
+      "blues",
+      "soul"
+    ]
+  },
+  {
+    "artist": "Heikki Hela & Marzi Nyman - Hengen pitimiksi",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-03-18T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/heikki-hela-marzi-nyman/heikki-hela-marzi-nyman-hengen-pitimiksi-4269560/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqyp7hahy",
+    "id": 420,
+    "artists": [
+      "Heikki Hela & Marzi Nyman"
+    ],
+    "genres": []
   },
   {
     "artist": "KAJ på Kulturhuset",
@@ -6126,6 +7776,20 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Ida Elina – Kantele is Pop",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-03-25T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/ida-elina-kantele-is-pop-sellosali-22055002/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqeeh2pfa",
+    "id": 421,
+    "artists": [
+      "Ida Elina"
+    ],
+    "genres": []
+  },
+  {
     "id": 68,
     "artist": "Mouhous",
     "venue": "Tavastia Klubi",
@@ -6253,6 +7917,45 @@
     ],
     "genres": [
       "rock"
+    ]
+  },
+  {
+    "artist": "Genom Natten (SE)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-04-01T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/genom-natten-se-kulttuuritehdas-korjaamo-22264684/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/genom-natten-se/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "19:00",
+    "price": "22,50 € / 25 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 392,
+    "artists": [
+      "Genom Natten"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Muriel Grossmann Quartet (AT) + Heikki Ruokangas Trio",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-04-01T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/muriel-grossmann-quartet-at-heikki-ruokangas-trio-4258875/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqrb22zpq",
+    "id": 422,
+    "artists": [
+      "Muriel Grossmann Quartet",
+      "Heikki Ruokangas Trio"
+    ],
+    "genres": [
+      "jazz"
     ]
   },
   {
@@ -6414,6 +8117,47 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Laura Voutilainen - Kerran Keväällä 2",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-04-14T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/laura-voutilainen-kerran-kevaeaellae-2-sellosali-22397383/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq4v75zui",
+    "id": 423,
+    "artists": [
+      "Laura Voutilainen"
+    ],
+    "genres": [
+      "pop",
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "F, Orvokki",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-04-16T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/f-orvokki-kulttuuritehdas-korjaamo-22238851/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/f-orvokki/",
+    "venueGenres": [
+      "rap-ja-hiphop"
+    ],
+    "doors": "20:00",
+    "price": "27,50 € / 30 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 393,
+    "artists": [
+      "F",
+      "Orvokki"
+    ],
+    "genres": [
+      "electropop",
+      "art pop"
+    ]
+  },
+  {
     "artist": "Maustetytöt: MT Unplugged",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -6568,6 +8312,20 @@
     ]
   },
   {
+    "artist": "Sir Elwood Duo: Voitto Auringolle",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-04-23T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/sir-elwood-duo/sir-elwood-duo-4269531/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqxyytqui",
+    "id": 424,
+    "artists": [
+      "Sir Elwood Duo"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Siamese (DEN)",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -6645,6 +8403,31 @@
       "hang drum",
       "instrumental",
       "ambient"
+    ]
+  },
+  {
+    "artist": "Jake Bugg – Alamo – UK & European Tour",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-04-25T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/jake-bugg-kulttuuritehdas-korjaamo-22066673/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/jake-bugg-alamo-uk-european-tour/",
+    "venueGenres": [
+      "indie-ja-alternative"
+    ],
+    "doors": "19:00",
+    "price": "34,50 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 394,
+    "artists": [
+      "Jake Bugg"
+    ],
+    "genres": [
+      "folk",
+      "indie",
+      "singer-songwriter",
+      "alternative"
     ]
   },
   {
@@ -6807,6 +8590,26 @@
       "fusion",
       "jazz fusion",
       "instrumental rock"
+    ]
+  },
+  {
+    "artist": "THE ROME – The Rise of Metal Expo 2027",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-05-13T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/the-rome-the-rise-of-metal-expo-2027-kulttuuritehdas-korjaamo-22400818/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/the-rome-the-rise-of-metal-expo-2027/",
+    "venueGenres": [
+      "metalli"
+    ],
+    "price": "89 €",
+    "age": "K-18",
+    "id": 395,
+    "artists": [
+      "THE ROME"
+    ],
+    "genres": [
+      "metal"
     ]
   },
   {

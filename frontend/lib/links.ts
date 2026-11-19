@@ -13,6 +13,8 @@ export const VENUE_LINKS: Record<string, string> = {
   "Helsingin Jäähalli": "https://helsinginjaahalli.fi/tapahtumat",
   Olympiastadion: "https://www.stadion.fi/en/events/events",
   "Suvilahti (Tuska)": "https://tuska.fi/",
+  Korjaamo: "https://korjaamo.fi/tapahtumat/",
+  Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
 };
 
 export type SiteLink = { name: string; url: string };

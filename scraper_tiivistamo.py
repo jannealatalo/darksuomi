@@ -82,9 +82,21 @@ def age_label(min_age: int | None, title: str) -> str | None:
     return "K-18" if min_age == 18 else None
 
 
-def fetch_concerts() -> list[dict]:
+def fetch_concerts(api: str = API, place: str = PLACE_ID, venue: str = VENUE,
+                   city: str = CITY, music_keywords: tuple[str, ...] = ("konsertit",),
+                   skip_keywords: tuple[str, ...] = (), skip_title: str | None = None,
+                   event_page: str = "https://tapahtumat.hel.fi/fi/events/{id}") -> list[dict]:
+    """
+    Music events at one Linked Events place. Works for any Linked Events
+    server (Helsinki's api.hel.fi, Espoo's api.espoo.fi, ...).
+
+    music_keywords: keep events with any of these keyword names (Finnish).
+    skip_keywords / skip_title: drop events with these keywords or titles
+    matching this regex (children's shows, dance afternoons, ...).
+    """
     events = []
-    url, params = API, {"location": PLACE_ID, "start": "today", "sort": "start_time",
+    skip_re = re.compile(skip_title, re.I) if skip_title else None
+    url, params = api, {"location": place, "start": "today", "sort": "start_time",
                         "page_size": 100, "include": "keywords"}
     for _ in range(MAX_PAGES):
         resp = requests.get(url, params=params, headers=HEADERS, timeout=30)
@@ -93,7 +105,7 @@ def fetch_concerts() -> list[dict]:
         for item in data.get("data", []):
             keywords = {((k.get("name") or {}).get("fi") or "").lower()
                         for k in item.get("keywords", []) if isinstance(k, dict)}
-            if "konsertit" not in keywords:
+            if not keywords & set(music_keywords) or keywords & set(skip_keywords):
                 continue
             if item.get("event_status") not in (None, "EventScheduled"):
                 continue
@@ -103,6 +115,10 @@ def fetch_concerts() -> list[dict]:
             name = ((item.get("name") or {}).get("fi") or (item.get("name") or {}).get("en") or "").strip()
             start = finnish_time(item["start_time"])
             title = " ".join(AGE_IN_TITLE.sub(" ", name).split())
+            # "(LOPPUUNMYYTY)" = sold out; not part of the act's name.
+            title = re.sub(r"\s*\((?:loppuunmyyty|sold out|täynnä)\)\s*", " ", title, flags=re.I).strip()
+            if skip_re and skip_re.search(title):
+                continue
 
             if re.search(r"festival|fest\b", title, re.I):
                 desc = (item.get("description") or {}).get("fi") or ""
@@ -114,14 +130,19 @@ def fetch_concerts() -> list[dict]:
             offers = item.get("offers") or []
             ticket = info or next(((o.get("info_url") or {}).get("fi") for o in offers
                                    if (o.get("info_url") or {}).get("fi")), "")
+            # Outlook "safelinks" wrap the real address in a ?url= parameter.
+            if "safelinks.protection.outlook.com" in ticket:
+                from urllib.parse import parse_qs, urlparse
+                ticket = parse_qs(urlparse(ticket).query).get("url", [ticket])[0]
+            page = event_page.format(id=item["id"])
             event = {
                 "artist": title,
-                "venue": VENUE,
-                "city": CITY,
+                "venue": venue,
+                "city": city,
                 "date": start.strftime("%Y-%m-%dT%H:%M:00"),
                 "doors": start.strftime("%H:%M"),
-                "ticketUrl": ticket or f"https://tapahtumat.hel.fi/fi/events/{item['id']}",
-                "eventUrl": f"https://tapahtumat.hel.fi/fi/events/{item['id']}",
+                "ticketUrl": ticket or page,
+                "eventUrl": page,
             }
             age = age_label(item.get("audience_min_age"), name)
             if age:
@@ -135,15 +156,17 @@ def fetch_concerts() -> list[dict]:
     return events
 
 
-def main() -> int:
-    scraped = fetch_concerts()
-    print(f"✓ Found {len(scraped)} upcoming concerts at {VENUE}")
+def run(**kwargs) -> int:
+    """Fetch, merge into events.json and report (used by venue scripts)."""
+    venue = kwargs.get("venue", VENUE)
+    scraped = fetch_concerts(**kwargs)
+    print(f"✓ Found {len(scraped)} upcoming concerts at {venue}")
     events = load_events()
     added = merge(scraped, events)
     save_events(events)
-    print(f"✓ Added {added} new {VENUE} events ({len(events)} events in total)")
+    print(f"✓ Added {added} new {venue} events ({len(events)} events in total)")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(run())

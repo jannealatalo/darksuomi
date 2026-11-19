@@ -61,9 +61,10 @@ JUNK_TAGS = {
     "russian", "polish", "hungarian", "italian", "spain",
     "my top songs", "somalia", "somali",
     "korean", "japanese", "south korea", "태민",
+    "karelian", "nordic", "runous", "cmx", "violin", "trumpet",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
-JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
+JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$|^seen live")
 
 # Map spelling variants onto one name so the genre list stays readable.
 TAG_ALIASES = {
@@ -74,6 +75,7 @@ TAG_ALIASES = {
     "finnish hip hop": "hip hop",
     "suomi-rap": "rap",
     "schlager": "iskelmä",
+    "iskelma": "iskelmä",
     "finnish schlager": "iskelmä",
     "suomi-iskelmä": "iskelmä",
     "suomi iskelmä": "iskelmä",
@@ -124,6 +126,13 @@ VENUE_GENRES = {
     "rock-ja-metalli": "rock", "punk-ja-indie": "indie", "pop-ja-rap": "pop",
     "stand-up-ja-viihde": "stand-up", "jazz-ja-viihdemusiikki": "viihde",
     "blues-ja-country": "blues", "dj-ja-klubit": "dj night",
+    # Korjaamo genre classes
+    "metalli": "metal", "rap-ja-hiphop": "rap", "rap-hiphop": "rap",
+    "indie-ja-alternative": "indie", "punk-ja-hardcore": "punk", "punk-hardcore": "punk",
+    "elektroninen-musiikki-edm": "electronic", "swing-ja-big-band": "jazz",
+    "swing-big-band": "jazz", "soul-funk-ja-rb": "r&b", "soul-funk-rb": "r&b",
+    "gospel-ja-kuoromusiikki": "gospel music", "kantri-ja-folk": "folk",
+    "jazz": "jazz", "blues": "blues",
     # Veikkaus Arena (already mapped by its scraper)
     "metal": "metal", "indie": "indie", "r&b": "r&b",
 }
@@ -220,7 +229,7 @@ def clean_tags(raw: list[tuple[str, float]]) -> list[str]:
     for name, _weight in sorted(raw, key=lambda t: -t[1]):
         tag = name.strip().lower()
         tag = TAG_ALIASES.get(tag, tag)
-        if not tag or tag in JUNK_TAGS or JUNK_TAG_PATTERN.search(tag) or tag in seen or re.fullmatch(r"\d+s?", tag):
+        if not tag or len(tag) > 30 or tag in JUNK_TAGS or JUNK_TAG_PATTERN.search(tag) or tag in seen or re.fullmatch(r"\d+s?", tag):
             continue
         seen.add(tag)
         out.append(tag)
@@ -347,6 +356,9 @@ def resolve_artist(act: dict, cache: dict, overrides: dict, refresh: bool) -> tu
 
     if name in overrides:
         return name, overrides[name].get("genres", [])
+    if len(_norm(name)) <= 2:
+        # "F", "M": far too ambiguous to look up; the venue's genre is used.
+        return name, []
 
     def get(n):
         if refresh or n not in cache or cache[n].get("source") == "error":
