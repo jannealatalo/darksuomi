@@ -11,6 +11,7 @@ python scraper_veikkausarena.py
 python scraper_tiivistamo.py
 python scraper_jaahalli.py
 python scraper_stadion.py
+python scraper_tuska.py
 python genres.py
 python setlists.py
 python playlists.py

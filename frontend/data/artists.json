@@ -338,6 +338,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Atlas": {
+    "source": "lastfm",
+    "matchedName": "Atlas",
+    "tags": [
+      "progressive rock",
+      "melodic hardcore",
+      "hardcore"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Auger": {
     "source": "lastfm",
     "matchedName": "Auger",
@@ -642,6 +652,36 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Celestial Sanctuary": {
+    "source": "lastfm",
+    "matchedName": "Celestial Sanctuary",
+    "tags": [
+      "death metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Cenobia": {
+    "source": "lastfm",
+    "matchedName": "Cenobita",
+    "tags": [
+      "dark electro",
+      "ebm",
+      "harsh ebm",
+      "industrial"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Children Of Bodom": {
+    "source": "lastfm",
+    "matchedName": "Children of Bodom",
+    "tags": [
+      "melodic death metal",
+      "death metal",
+      "power metal",
+      "metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Club Anvil": {
     "source": "notfound",
     "tags": [],
@@ -660,6 +700,16 @@
       "ebm",
       "dark electro",
       "electronic"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Conan": {
+    "source": "lastfm",
+    "matchedName": "Conan",
+    "tags": [
+      "doom metal",
+      "sludge",
+      "stoner metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -728,6 +778,16 @@
     "mbid": "442504f4-bff5-4f12-a96c-c9c09cbf7f5a",
     "country": "GB",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Danko Jones": {
+    "source": "lastfm",
+    "matchedName": "Danko Jones",
+    "tags": [
+      "hard rock",
+      "rock",
+      "alternative"
+    ],
     "fetched": "2026-11-19"
   },
   "Dark Divine": {
@@ -1067,6 +1127,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Fit For A King": {
+    "source": "lastfm",
+    "matchedName": "Fit For A King",
+    "tags": [
+      "metalcore",
+      "post-hardcore",
+      "christian",
+      "hardcore"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Five Finger Death Punch": {
     "source": "lastfm",
     "matchedName": "Five Finger Death Punch",
@@ -1137,6 +1208,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Fox Lake": {
+    "source": "lastfm",
+    "matchedName": "Fox Lake",
+    "tags": [
+      "hardcore",
+      "nu metal",
+      "rapcore",
+      "metalcore"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Frank Zappa Memorial Pancake Breakfast": {
     "source": "musicbrainz",
     "matchedName": "Frank Zappa Memorial Pancake Breakfast",
@@ -1168,6 +1250,15 @@
       "drone doom"
     ],
     "fetched": "2026-11-18"
+  },
+  "Gaerea": {
+    "source": "lastfm",
+    "matchedName": "Gaerea",
+    "tags": [
+      "black metal",
+      "portuguese"
+    ],
+    "fetched": "2026-11-19"
   },
   "Ghoulstars": {
     "source": "notfound",
@@ -1205,6 +1296,17 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Green Lung": {
+    "source": "lastfm",
+    "matchedName": "Green Lung",
+    "tags": [
+      "stoner rock",
+      "doom metal",
+      "stoner metal",
+      "hard rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Greg Howe": {
     "source": "lastfm",
     "matchedName": "Greg Howe",
@@ -1219,6 +1321,17 @@
   "Griefton Sons": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Guilt Trip": {
+    "source": "lastfm",
+    "matchedName": "Guilt Trip",
+    "tags": [
+      "hardcore",
+      "metalcore",
+      "hardcore punk",
+      "metallic hardcore"
+    ],
     "fetched": "2026-11-19"
   },
   "Guttural Slug": {
@@ -1312,6 +1425,17 @@
     "tags": [
       "black metal",
       "finnish black metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Heaven Shall Burn": {
+    "source": "lastfm",
+    "matchedName": "Heaven Shall Burn",
+    "tags": [
+      "metalcore",
+      "melodic death metal",
+      "deathcore",
+      "death metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -1462,6 +1586,17 @@
     "tags": [
       "ramopunk",
       "punk"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "I Prevail": {
+    "source": "lastfm",
+    "matchedName": "I Prevail",
+    "tags": [
+      "post-hardcore",
+      "metalcore",
+      "alternative metal",
+      "rock"
     ],
     "fetched": "2026-11-19"
   },
@@ -1642,6 +1777,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Judas Priest": {
+    "source": "lastfm",
+    "matchedName": "Judas Priest",
+    "tags": [
+      "heavy metal",
+      "metal",
+      "hard rock",
+      "nwobhm"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Juha Tapio": {
     "source": "lastfm",
     "matchedName": "Juha Tapio",
@@ -1705,6 +1851,16 @@
     "fetched": "2026-11-19"
   },
   "KANONENFIEBER": {
+    "source": "lastfm",
+    "matchedName": "Kanonenfieber",
+    "tags": [
+      "black metal",
+      "death metal",
+      "blackened death metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Kanonenfieber": {
     "source": "lastfm",
     "matchedName": "Kanonenfieber",
     "tags": [
@@ -2060,6 +2216,17 @@
   "Lords of the Sound": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Lorna Shore": {
+    "source": "lastfm",
+    "matchedName": "Lorna Shore",
+    "tags": [
+      "deathcore",
+      "progressive deathcore",
+      "death metal",
+      "blackened deathcore"
+    ],
     "fetched": "2026-11-19"
   },
   "louna0nline": {
@@ -2573,6 +2740,16 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Orbit Culture": {
+    "source": "lastfm",
+    "matchedName": "Orbit Culture",
+    "tags": [
+      "melodic death metal",
+      "groove metal",
+      "death metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Outi ja olevaiset": {
     "source": "musicbrainz",
     "matchedName": "Outi ja olevaiset",
@@ -2587,6 +2764,17 @@
     "tags": [
       "black metal",
       "finnish black metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Paradise Lost": {
+    "source": "lastfm",
+    "matchedName": "Paradise Lost",
+    "tags": [
+      "death metal",
+      "metal",
+      "gothic rock",
+      "death doom metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -3237,6 +3425,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Sinitzer": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Sir Elwood Duo": {
     "source": "musicbrainz",
     "matchedName": "Sir Elwood Duo",
@@ -3255,6 +3448,16 @@
     "matchedName": "Slomosa",
     "tags": [
       "stoner rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Smash Into Pieces": {
+    "source": "lastfm",
+    "matchedName": "Smash Into Pieces",
+    "tags": [
+      "alternative rock",
+      "rock",
+      "hard rock"
     ],
     "fetched": "2026-11-19"
   },
@@ -3302,12 +3505,32 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Speed": {
+    "source": "lastfm",
+    "matchedName": "Speed",
+    "tags": [
+      "j-pop",
+      "hardcore",
+      "jpop"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Spinors": {
     "source": "musicbrainz",
     "matchedName": "Spinors",
     "mbid": "a289bec2-f8c8-4068-9745-8c2facce53df",
     "country": null,
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Split Dogs": {
+    "source": "lastfm",
+    "matchedName": "Split Dogs",
+    "tags": [
+      "rock",
+      "punk",
+      "punk rock"
+    ],
     "fetched": "2026-11-19"
   },
   "SPORT": {
@@ -3369,11 +3592,33 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Stratovarius": {
+    "source": "lastfm",
+    "matchedName": "Stratovarius",
+    "tags": [
+      "power metal",
+      "melodic metal",
+      "heavy metal",
+      "metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Stuka": {
     "source": "lastfm",
     "matchedName": "Stuka",
     "tags": [
       "rac"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "SUN": {
+    "source": "lastfm",
+    "matchedName": "Sun",
+    "tags": [
+      "techno",
+      "funk",
+      "ambient",
+      "experimental"
     ],
     "fetched": "2026-11-19"
   },
@@ -3538,6 +3783,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "The Baboon Show": {
+    "source": "lastfm",
+    "matchedName": "The Baboon Show",
+    "tags": [
+      "punk rock",
+      "punk"
+    ],
+    "fetched": "2026-11-19"
+  },
   "The Barefoot Brothers": {
     "source": "lastfm",
     "matchedName": "The Barefoot Brothers",
@@ -3557,6 +3811,17 @@
       "garage punk"
     ],
     "fetched": "2026-11-18"
+  },
+  "The Devil Wears Prada": {
+    "source": "lastfm",
+    "matchedName": "The Devil Wears Prada",
+    "tags": [
+      "metalcore",
+      "hardcore",
+      "christian metalcore",
+      "screamo"
+    ],
+    "fetched": "2026-11-19"
   },
   "The Flaming Sideburns": {
     "source": "lastfm",
@@ -3799,6 +4064,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Tukkanuotta": {
+    "source": "lastfm",
+    "matchedName": "Tukkanuotta",
+    "tags": [
+      "death metal",
+      "thrash metal",
+      "deathrash"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Tuomo": {
     "source": "lastfm",
     "matchedName": "Tuomo",
@@ -3816,6 +4091,16 @@
       "rap",
       "hip hop",
       "oon kayny kattomassa"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Turmion Kätilöt": {
+    "source": "lastfm",
+    "matchedName": "Turmion Kätilöt",
+    "tags": [
+      "industrial metal",
+      "industrial",
+      "metal"
     ],
     "fetched": "2026-11-19"
   },

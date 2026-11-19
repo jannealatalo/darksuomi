@@ -65,6 +65,15 @@ jobs:
       - name: Scrape Olympiastadion (music only)
         run: python scraper_stadion.py
 
+      - name: Tuska festival line-up (weekly, on Mondays)
+        # Festival line-ups change slowly; a manual run always checks too.
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scraper_tuska.py
+          else
+            echo "Not Monday; skipping the weekly Tuska check."
+          fi
+
       - name: Tag genres
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}

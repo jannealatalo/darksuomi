@@ -12,6 +12,7 @@ export const VENUE_LINKS: Record<string, string> = {
   Tiivistämö: "https://nuorten.hel.fi/en/youth-centers/tiivistamo/",
   "Helsingin Jäähalli": "https://helsinginjaahalli.fi/tapahtumat",
   Olympiastadion: "https://www.stadion.fi/en/events/events",
+  "Suvilahti (Tuska)": "https://tuska.fi/",
 };
 
 export type SiteLink = { name: string; url: string };
