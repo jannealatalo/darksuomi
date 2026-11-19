@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {
   eventArtistNames,
   excludedGenres,
@@ -44,9 +45,19 @@ export default function Home() {
     <main className="min-h-screen bg-black text-gray-200">
       <div className="max-w-4xl mx-auto px-6 py-10">
         <div className="flex flex-wrap justify-between items-start gap-6 mb-8">
-          <div>
-            <h1 className="text-5xl font-bold mb-2">Dark Suomi</h1>
-            <p className="text-gray-400">
+          <div className="flex items-center gap-5">
+            <h1>
+              <Image
+                src="/logo.webp"
+                alt="Dark Suomi"
+                width={512}
+                height={512}
+                preload
+                sizes="(min-width: 640px) 144px, 112px"
+                className="w-28 h-28 sm:w-36 sm:h-36"
+              />
+            </h1>
+            <p className="text-gray-400 max-w-48 sm:max-w-56 leading-relaxed">
               Doom • Stoner • Goth • Darkwave • Industrial • Punk • Metal • Rock
             </p>
           </div>
