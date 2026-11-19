@@ -43,13 +43,25 @@ MAX_PAGES = 3            # 20 setlists per page
 MIN_SHARE = 0.25         # a song must be in at least 25% of shows
 CACHE_DAYS = 7           # re-fetch an artist after this many days
 
+# setlist.fm allows 2 requests/second and 1440/day per API key.
+MAX_FETCHES_PER_RUN = 40     # artists (re)fetched per run, oldest first
+MAX_REQUESTS_PER_RUN = 1000  # hard stop, leaves room for manual runs
+
 _last_request = 0.0
+_requests_made = 0
+
+
+class BudgetExhausted(Exception):
+    pass
 
 
 def api_get(path: str, params: dict | None = None) -> dict | None:
     """GET from setlist.fm, staying under its 2 requests/second limit."""
-    global _last_request
+    global _last_request, _requests_made
     for attempt in range(3):
+        if _requests_made >= MAX_REQUESTS_PER_RUN:
+            raise BudgetExhausted()
+        _requests_made += 1
         wait = 0.6 - (time.time() - _last_request)
         if wait > 0:
             time.sleep(wait)
@@ -219,10 +231,18 @@ def main() -> int:
         for name in event.get("artists", []):
             wanted.setdefault(name, countries.get(name))
 
-    for name, country in wanted.items():
-        entry = cache.get(name)
-        if entry and not args.refresh and entry.get("fetched", "") >= stale_before:
-            continue
+    # New artists first, then the longest-unrefreshed ones; capped per run so
+    # refreshes spread over several days instead of all landing on one.
+    due = [n for n in wanted
+           if args.refresh or n not in cache
+           or cache[n].get("fetched", "") < stale_before]
+    due.sort(key=lambda n: cache.get(n, {}).get("fetched", ""))
+    if len(due) > MAX_FETCHES_PER_RUN:
+        print(f"  {len(due)} artists due, fetching {MAX_FETCHES_PER_RUN} this run")
+        due = due[:MAX_FETCHES_PER_RUN]
+
+    for name in due:
+        country = wanted[name]
         print(f"  {name}")
         try:
             entry = build(name, country, genre_cache.get(name, {}).get("mbid"))
@@ -233,8 +253,14 @@ def main() -> int:
                 for part in parts:
                     cache[part] = build(part, country, genre_cache.get(part, {}).get("mbid"))
             cache[name] = entry
+        except BudgetExhausted:
+            print(f"  ! stopped after {_requests_made} requests (daily budget)",
+                  file=sys.stderr)
+            break
         except (requests.RequestException, RuntimeError) as e:
             print(f"  ! {name}: {e}", file=sys.stderr)
+
+    print(f"  setlist.fm requests this run: {_requests_made}")
 
     # Drop artists that no longer have events (keeping parts of split names).
     keep = set(wanted)

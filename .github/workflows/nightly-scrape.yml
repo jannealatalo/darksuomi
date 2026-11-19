@@ -48,6 +48,15 @@ jobs:
           SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}
         run: python setlists.py
 
+      - name: Update Spotify playlists
+        # A Spotify problem shouldn't stop the rest of the data from updating.
+        continue-on-error: true
+        env:
+          SPOTIFY_PLAYLIST_CLIENT_ID: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_ID }}
+          SPOTIFY_PLAYLIST_CLIENT_SECRET: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_SECRET }}
+          SPOTIFY_PLAYLIST_REFRESH_TOKEN: ${{ secrets.SPOTIFY_PLAYLIST_REFRESH_TOKEN }}
+        run: python playlists.py
+
       - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"

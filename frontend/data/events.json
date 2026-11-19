@@ -703,23 +703,6 @@
     ]
   },
   {
-    "id": 47,
-    "artist": "Oranssi Pazuzu",
-    "venue": "Ääniwalli",
-    "city": "Helsinki",
-    "date": "2027-02-13",
-    "ticketUrl": "https://www.aaniwalli.fi",
-    "artists": [
-      "Oranssi Pazuzu"
-    ],
-    "genres": [
-      "black metal",
-      "psychedelic black metal",
-      "experimental",
-      "psychedelic"
-    ]
-  },
-  {
     "id": 48,
     "artist": "CATCH YOUR BREATH (USA) - NOT BROKEN ENOUGH TOUR 2027",
     "venue": "Tavastia Klubi",
@@ -779,23 +762,6 @@
       "electronic",
       "synthpop",
       "pop"
-    ]
-  },
-  {
-    "id": 52,
-    "artist": "Amorphis",
-    "venue": "Tavastia",
-    "city": "Helsinki",
-    "date": "2027-02-20",
-    "ticketUrl": "https://www.tavastia.fi",
-    "artists": [
-      "Amorphis"
-    ],
-    "genres": [
-      "progressive metal",
-      "melodic death metal",
-      "death metal",
-      "doom metal"
     ]
   },
   {

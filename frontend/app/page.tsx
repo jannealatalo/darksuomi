@@ -7,7 +7,7 @@ import {
   isExcludedByGenre,
   lastScraped,
 } from "../lib/events";
-import { expectedSetlists, isSpecialShow } from "../lib/setlists";
+import { expectedSetlists, isSpecialShow, playlistUrl } from "../lib/setlists";
 import ExpectedSetlists from "./ExpectedSetlist";
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
@@ -228,6 +228,7 @@ export default function Home() {
                   <ExpectedSetlists
                     setlists={expectedSetlists(event)}
                     special={isSpecialShow(event)}
+                    playlistUrl={playlistUrl(event)}
                   />
                 </div>
               );

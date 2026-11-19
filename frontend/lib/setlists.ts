@@ -1,3 +1,4 @@
+import playlistData from "../data/playlists.json";
 import setlistData from "../data/setlists.json";
 import type { Event } from "../types/events";
 
@@ -50,6 +51,13 @@ export function expectedSetlists(event: Event): ExpectedSetlist[] {
   };
   (event.artists ?? []).forEach(add);
   return result;
+}
+
+const playlists = playlistData as Record<string, { url: string }>;
+
+/** Spotify playlist of the expected setlist, in the Dark Suomi account. */
+export function playlistUrl(event: Event): string | null {
+  return playlists[event.ticketUrl]?.url ?? null;
 }
 
 /**
