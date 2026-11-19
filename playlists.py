@@ -120,12 +120,15 @@ class Spotify:
 
 def hidden_by_default(event: dict, config: dict) -> bool:
     """Same rule as the website (frontend/lib/events.ts isExcludedByGenre)."""
-    genres = event.get("genres") or []
+    top = (event.get("genres") or [])[:5]  # top 5, like the site
     patterns = [re.compile("^" + ".*".join(map(re.escape, p.split("*"))) + "$")
                 for p in config.get("alwaysShowGenres", [])]
-    if any(p.match(g) for g in genres[:5] for p in patterns):  # top 5, like the site
+    if any(p.match(g) for g in top for p in patterns):
         return False
-    return not genres or genres[0] in set(config.get("excludeGenres", []))
+    if not top or top[0] in set(config.get("excludeGenres", [])):
+        return True
+    main = [re.compile(p, re.I) for f in config.get("genreFilters", []) for p in f["patterns"]]
+    return not any(r.search(g) for g in top for r in main)
 
 
 def acts_with_setlists(event: dict, setlists: dict) -> list[tuple[str, dict]]:

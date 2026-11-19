@@ -124,16 +124,18 @@ export function eventTime(event: Event): string | null {
 }
 
 /**
- * An event is always shown when any of its genres is one the site is about
- * (alwaysShowGenres). Otherwise it is hidden by default when it has no genre
- * at all, or when its strongest (first) genre is excluded.
+ * Shown by default (the Dark Suomi selection) when one of the strongest tags
+ * is a core genre (alwaysShowGenres), or when it fits a main genre and its
+ * strongest (first) tag isn't excluded (jazz, soul, pop…). Everything else
+ * is behind "Show hidden genres".
  */
 export function isExcludedByGenre(event: Event): boolean {
-  const genres = event.genres ?? [];
   // Only the strongest few tags count, so a stray tag at the end of the
   // list (e.g. from a mismatched support act) can't override everything.
-  if (genres.slice(0, ALWAYS_SHOW_TOP_TAGS).some(isCoreGenre)) return false;
-  return genres.length === 0 || excludedGenres.has(genres[0]);
+  const top = (event.genres ?? []).slice(0, ALWAYS_SHOW_TOP_TAGS);
+  if (top.some(isCoreGenre)) return false;
+  if (top.length === 0 || excludedGenres.has(top[0])) return true;
+  return !GENRE_FILTERS.some((g) => top.some((tag) => g.patterns.some((re) => re.test(tag))));
 }
 
 /** Artist names to match against Spotify follows, lowercased. */

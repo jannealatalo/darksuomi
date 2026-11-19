@@ -5,6 +5,7 @@
     "electropop",
     "hyperpop",
     "country pop",
+    "folk",
     "folk pop",
     "alternative pop",
     "rap",
@@ -22,7 +23,14 @@
     "drill",
     "viihde",
     "k-pop",
-    "j-pop"
+    "j-pop",
+    "jazz",
+    "free jazz",
+    "soul",
+    "funk",
+    "ska",
+    "tango",
+    "humppa"
   ],
   "alwaysShowGenres": [
     "*metal*",
@@ -55,7 +63,8 @@
     "blues rock",
     "alternative rock",
     "progressive rock",
-    "suomirock"
+    "suomirock",
+    "*indie*"
   ],
   "artistOverrides": {
     "Us": {
@@ -82,6 +91,12 @@
         "singer-songwriter",
         "electronic"
       ]
+    },
+    "Alchemy": {
+      "genres": [
+        "classic rock",
+        "rock"
+      ]
     }
   },
   "genreFilters": [
@@ -91,7 +106,7 @@
         "metal",
         "deathcore",
         "grindcore",
-        "\bgrind\b",
+        "\\bgrind\\b",
         "djent"
       ]
     },
@@ -100,7 +115,7 @@
       "patterns": [
         "doom",
         "sludge",
-        "\bdrone\b",
+        "\\bdrone\\b",
         "funeral"
       ]
     },
@@ -132,7 +147,12 @@
         "sleaze rock",
         "indie rock",
         "rock & roll",
-        "rock n roll"
+        "rock n roll",
+        "rockabilly",
+        "freakbeat",
+        "^blues$",
+        "instrumental rock",
+        "^psychedelic$"
       ]
     },
     {
@@ -171,7 +191,7 @@
     {
       "name": "EBM",
       "patterns": [
-        "\bebm\b",
+        "\\bebm\\b",
         "futurepop",
         "dark electro",
         "electro-industrial"
@@ -181,6 +201,25 @@
       "name": "Synth",
       "patterns": [
         "synth"
+      ]
+    },
+    {
+      "name": "Indie",
+      "patterns": [
+        "indie",
+        "shoegaze",
+        "dream pop",
+        "lo-fi"
+      ]
+    },
+    {
+      "name": "Experimental",
+      "patterns": [
+        "experimental",
+        "avant-garde",
+        "^noise$",
+        "electroacoustic",
+        "musique concrète"
       ]
     }
   ]
