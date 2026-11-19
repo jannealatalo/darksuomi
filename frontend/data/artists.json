@@ -411,6 +411,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Bryan Adams": {
+    "source": "lastfm",
+    "matchedName": "Bryan Adams",
+    "tags": [
+      "rock",
+      "classic rock",
+      "pop"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Brymir": {
     "source": "lastfm",
     "matchedName": "Brymir",
@@ -743,6 +753,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Five Finger Death Punch": {
+    "source": "lastfm",
+    "matchedName": "Five Finger Death Punch",
+    "tags": [
+      "groove metal",
+      "metalcore",
+      "metal",
+      "thrash metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Five the Hierophant": {
     "source": "lastfm",
     "matchedName": "Five The Hierophant",
@@ -898,6 +919,21 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "HECTOR": {
+    "source": "lastfm",
+    "matchedName": "Hector",
+    "tags": [
+      "singer-songwriter",
+      "rock",
+      "pop"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "HECTOR 60V TAITEILIJAJUHLA": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Heimo Ilman Menneisyyttä": {
     "source": "notfound",
@@ -1336,6 +1372,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "KUUMAA 10": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Käärijä": {
     "source": "lastfm",
     "matchedName": "Käärijä",
@@ -1344,6 +1385,19 @@
       "electronic"
     ],
     "fetched": "2026-11-18"
+  },
+  "KÖPI": {
+    "source": "musicbrainz",
+    "matchedName": "KoPi",
+    "mbid": "d266eac3-24be-4aa8-878a-a879810fa1bd",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "KÖPI 10V SHOW": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Kürøishi": {
     "source": "lastfm",
@@ -1526,6 +1580,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Masked Singer in Concert": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Master Boot Record": {
     "source": "lastfm",
     "matchedName": "MASTER BOOT RECORD",
@@ -1692,6 +1751,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Nickelback": {
+    "source": "lastfm",
+    "matchedName": "Nickelback",
+    "tags": [
+      "rock",
+      "alternative rock",
+      "hard rock",
+      "alternative"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Night Lovell": {
     "source": "lastfm",
     "matchedName": "Night Lovell",
@@ -1786,6 +1856,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Pertti Kurikan": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Pertti Kurikan 70 v. -juhladisko": {
     "source": "notfound",
     "tags": [],
@@ -1832,6 +1907,16 @@
       "pikakassa"
     ],
     "fetched": "2026-11-18"
+  },
+  "Pitbull": {
+    "source": "lastfm",
+    "matchedName": "Pitbull",
+    "tags": [
+      "hip hop",
+      "rap",
+      "reggaeton"
+    ],
+    "fetched": "2026-11-19"
   },
   "Plusminuszero": {
     "source": "notfound",
@@ -1943,6 +2028,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Raskasta Joulua": {
+    "source": "lastfm",
+    "matchedName": "Raskasta Joulua",
+    "tags": [
+      "metal",
+      "christmas",
+      "power metal",
+      "heavy metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Raswaa koneeseen vol. 2!": {
     "source": "musicbrainz",
     "matchedName": "Raswaa koneeseen vol. 2!",
@@ -2037,6 +2133,33 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Rod Stewart": {
+    "source": "lastfm",
+    "matchedName": "Rod Stewart",
+    "tags": [
+      "classic rock",
+      "rock",
+      "soft rock",
+      "pop"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Roger Waters Presents LEGACY": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "RUSH": {
+    "source": "lastfm",
+    "matchedName": "Rush",
+    "tags": [
+      "progressive rock",
+      "classic rock",
+      "hard rock",
+      "rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Ruusut": {
     "source": "lastfm",
     "matchedName": "Ruusut",
@@ -2068,6 +2191,16 @@
     "matchedName": "s.p.i.t",
     "tags": [
       "hard rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Sabaton": {
+    "source": "lastfm",
+    "matchedName": "Sabaton",
+    "tags": [
+      "power metal",
+      "heavy metal",
+      "metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -2221,6 +2354,17 @@
   "Solemn Golem": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "SOMBR": {
+    "source": "lastfm",
+    "matchedName": "sombr",
+    "tags": [
+      "indie",
+      "alternative",
+      "rock",
+      "singer-songwriter"
+    ],
     "fetched": "2026-11-19"
   },
   "SPORT": {
@@ -2518,6 +2662,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Thirty Seconds to Mars": {
+    "source": "lastfm",
+    "matchedName": "30 Seconds to Mars",
+    "tags": [
+      "alternative rock",
+      "rock",
+      "alternative",
+      "indie"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Thomas Green": {
     "source": "musicbrainz",
     "matchedName": "Thomas Green",
@@ -2570,6 +2725,16 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Turisti": {
+    "source": "lastfm",
+    "matchedName": "Turisti",
+    "tags": [
+      "rap",
+      "hip hop",
+      "oon kayny kattomassa"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Ty Roxy": {
     "source": "lastfm",
     "matchedName": "Ty Roxy",
@@ -2595,6 +2760,17 @@
   "Under the Mistle Tease": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "UNKIND": {
+    "source": "lastfm",
+    "matchedName": "Unkind",
+    "tags": [
+      "crust",
+      "hardcore",
+      "neocrust",
+      "hardcore punk"
+    ],
     "fetched": "2026-11-19"
   },
   "UNKIND 30 vuotta": {
@@ -2654,6 +2830,27 @@
     ],
     "fetched": "2026-11-18"
   },
+  "VIKI": {
+    "source": "lastfm",
+    "matchedName": "Viki",
+    "tags": [
+      "serbian",
+      "noise",
+      "folk",
+      "seljacka muzika"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "VIKI & KÖPI": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "VIKI & KÖPI 10V SHOW": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Visio": {
     "source": "lastfm",
     "matchedName": "Visio",
@@ -2710,6 +2907,23 @@
     "fetched": "2026-11-19"
   },
   "Wasted 30 V.": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Weezer": {
+    "source": "lastfm",
+    "matchedName": "Weezer",
+    "tags": [
+      "alternative rock",
+      "rock",
+      "alternative",
+      "indie",
+      "indie rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Westlife 25": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"

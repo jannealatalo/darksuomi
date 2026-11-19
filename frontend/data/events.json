@@ -129,6 +129,27 @@
     ]
   },
   {
+    "artist": "VIKI & KÖPI 10V SHOW",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-11-20T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/viki-kopi-lippuja/1473333?venueId=419",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/viki-ja-köpi-tickets-ae1651220#2026-11-20",
+    "venueGenres": [
+      "rap"
+    ],
+    "doors": "18:30",
+    "age": "18+",
+    "id": 245,
+    "artists": [
+      "VIKI & KÖPI"
+    ],
+    "genres": [
+      "rap",
+      "stand-up"
+    ]
+  },
+  {
     "id": 2,
     "artist": "The Flaming Sideburns, Us",
     "venue": "Tavastia Klubi",
@@ -803,6 +824,24 @@
     ]
   },
   {
+    "artist": "KUUMAA 10",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/kuumaa-10-lippuja/633952116",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/kuumaa-tickets-ae1651071#2026-11-28",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 246,
+    "artists": [
+      "KUUMAA 10"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "artist": "Mimmien pikkujoulut -stand up show",
     "venue": "KULT",
     "city": "Helsinki",
@@ -1209,6 +1248,25 @@
     ]
   },
   {
+    "artist": "Masked Singer in Concert",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-12-04T17:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1793831430",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/masked-singer-in-concert-tickets-ae1698141#2026-12-04",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "17:00",
+    "id": 247,
+    "artists": [
+      "Masked Singer in Concert"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "id": 13,
     "artist": "Neljä Ruusua",
     "venue": "Tavastia Klubi",
@@ -1319,6 +1377,27 @@
     ]
   },
   {
+    "artist": "HECTOR 60V TAITEILIJAJUHLA",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-12-05T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/22187702?brand=fi_livenation",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/hector-tickets-ae306782#2026-12-05",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "18:30",
+    "id": 248,
+    "artists": [
+      "HECTOR"
+    ],
+    "genres": [
+      "singer-songwriter",
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "id": 14,
     "artist": "Blues Pills & Graveyard Tour 2026",
     "venue": "Tavastia Klubi",
@@ -1421,6 +1500,28 @@
     ]
   },
   {
+    "artist": "Pitbull - I'm Back!",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-12-07T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1285662456",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/pitbull-tickets-ae284345#2026-12-07",
+    "venueGenres": [
+      "rap",
+      "pop"
+    ],
+    "doors": "18:30",
+    "id": 249,
+    "artists": [
+      "Pitbull"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "reggaeton"
+    ]
+  },
+  {
     "artist": "Alice – Amazing Circus Show",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -1447,6 +1548,28 @@
       "pop",
       "progressive rock",
       "rock"
+    ]
+  },
+  {
+    "artist": "Pitbull - I'm Back!",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-12-08T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/47424303",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/pitbull-tickets-ae284345#2026-12-08",
+    "venueGenres": [
+      "rap",
+      "pop"
+    ],
+    "doors": "18:30",
+    "id": 250,
+    "artists": [
+      "Pitbull"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "reggaeton"
     ]
   },
   {
@@ -1682,6 +1805,26 @@
     ],
     "genres": [
       "stand-up"
+    ]
+  },
+  {
+    "artist": "Turisti presents: Magic City Arena Tour",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-12-12T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/turisti-lippuja/1337733?venueId=425",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/turisti-tickets-ae1556592#2026-12-12",
+    "venueGenres": [
+      "rap"
+    ],
+    "doors": "18:30",
+    "id": 251,
+    "artists": [
+      "Turisti"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
     ]
   },
   {
@@ -2004,6 +2147,26 @@
     ]
   },
   {
+    "artist": "Raskasta Joulua",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/raskasta-joulua-lippuja/1003749123?referrer=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fraskasta-joulua-lippuja%2F1003749123",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/raskasta-joulua-tickets-ae1669405#2026-12-18",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 252,
+    "artists": [
+      "Raskasta Joulua"
+    ],
+    "genres": [
+      "metal",
+      "power metal",
+      "heavy metal"
+    ]
+  },
+  {
     "artist": "Maija Vilkkumaa – Karaoke-queen",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -2223,7 +2386,7 @@
     "date": "2026-12-26T18:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-26/pertti-kurikan-70-v-juhladisko/122332/",
     "artists": [
-      "Pertti Kurikan 70 v. -juhladisko"
+      "Pertti Kurikan"
     ],
     "genres": [],
     "age": "K-18",
@@ -2924,14 +3087,15 @@
     "detailsFetched": "2026-11-19",
     "id": 185,
     "artists": [
-      "UNKIND 30 vuotta",
+      "UNKIND",
       "Kürøishi"
     ],
     "genres": [
       "crust",
-      "d-beat",
       "hardcore",
-      "hardcore punk"
+      "neocrust",
+      "hardcore punk",
+      "d-beat"
     ]
   },
   {
@@ -3831,6 +3995,28 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Five Finger Death Punch: 20th Anniversary World Tour",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-02-22T18:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1590001869",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/five-finger-death-punch-tickets-ae24668#2027-02-22",
+    "venueGenres": [
+      "metal"
+    ],
+    "doors": "18:00",
+    "id": 253,
+    "artists": [
+      "Five Finger Death Punch"
+    ],
+    "genres": [
+      "groove metal",
+      "metalcore",
+      "metal",
+      "thrash metal"
+    ]
   },
   {
     "artist": "Tarja Turunen – Frisson Live 2027",
@@ -4917,6 +5103,29 @@
     ]
   },
   {
+    "artist": "RUSH: Fifty Something",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-04-10T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1810746933",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/rush-tickets-ae1805#2027-04-10",
+    "venueGenres": [
+      "pop",
+      "rock"
+    ],
+    "doors": "18:30",
+    "id": 254,
+    "artists": [
+      "RUSH"
+    ],
+    "genres": [
+      "progressive rock",
+      "classic rock",
+      "hard rock",
+      "rock"
+    ]
+  },
+  {
     "id": 72,
     "artist": "Mariska",
     "venue": "Tavastia Klubi",
@@ -5179,6 +5388,48 @@
     ]
   },
   {
+    "artist": "Bryan Adams: Roll with the Punches Tour",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-05-07T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1714639263",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/bryan-adams-tickets-ae1392#2027-05-07",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "18:30",
+    "id": 255,
+    "artists": [
+      "Bryan Adams"
+    ],
+    "genres": [
+      "rock",
+      "classic rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Sabaton",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-05-08T18:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/sabaton-the-legendary-tour-part-2-europe-2027-lippuja/1724729447",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/sabaton-tickets-ae3374#2027-05-08",
+    "venueGenres": [
+      "metal"
+    ],
+    "doors": "18:00",
+    "id": 256,
+    "artists": [
+      "Sabaton"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "metal"
+    ]
+  },
+  {
     "artist": "Bianca del Rio – It Gets Bitter",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5203,6 +5454,30 @@
     ],
     "genres": [
       "stand-up"
+    ]
+  },
+  {
+    "artist": "SOMBR // You Are The Reason Tour // Helsinki",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-05-11T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/372941347",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/sombr-tickets-ae1552721#2027-05-11",
+    "venueGenres": [
+      "indie",
+      "pop",
+      "r&b"
+    ],
+    "doors": "18:30",
+    "id": 257,
+    "artists": [
+      "SOMBR"
+    ],
+    "genres": [
+      "indie",
+      "alternative",
+      "rock",
+      "singer-songwriter"
     ]
   },
   {
@@ -5270,6 +5545,47 @@
     ]
   },
   {
+    "artist": "Thirty Seconds to Mars presents: A Beautiful Lie vs. This Is War",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-05-24T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/thirty-seconds-to-mars-lippuja/18794?venueId=425",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/thirty-seconds-to-mars-tickets-ae614#2027-05-24",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "18:30",
+    "id": 258,
+    "artists": [
+      "Thirty Seconds to Mars"
+    ],
+    "genres": [
+      "alternative rock",
+      "rock",
+      "alternative",
+      "indie"
+    ]
+  },
+  {
+    "artist": "Roger Waters Presents LEGACY - A Pink Floyd Tribute Show",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-05-25T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/16217842",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/legacy-a-pink-floyd-show-tickets-ae1698523#2027-05-25",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "18:30",
+    "id": 259,
+    "artists": [
+      "Roger Waters Presents LEGACY"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 74,
     "artist": "Scar Symmentry (SWE), Rise To Fall (ES), Meret",
     "venue": "Tavastia Klubi",
@@ -5313,6 +5629,30 @@
     ]
   },
   {
+    "artist": "Weezer: The Gathering",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-06-01T18:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/weezer-lippuja/3027?venueId=425",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/weezer-tickets-ae49005#2027-06-01",
+    "venueGenres": [
+      "indie",
+      "rock"
+    ],
+    "doors": "18:00",
+    "id": 260,
+    "artists": [
+      "Weezer"
+    ],
+    "genres": [
+      "alternative rock",
+      "rock",
+      "alternative",
+      "indie",
+      "indie rock"
+    ]
+  },
+  {
     "id": 75,
     "artist": "The Pineapple Thief (UK)",
     "venue": "Tavastia Klubi",
@@ -5330,6 +5670,28 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Rod Stewart: The Final Encore",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-06-09T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1128261601",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/rod-stewart-tickets-ae438#2027-06-09",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "18:30",
+    "id": 261,
+    "artists": [
+      "Rod Stewart"
+    ],
+    "genres": [
+      "classic rock",
+      "rock",
+      "soft rock",
+      "pop"
+    ]
   },
   {
     "id": 76,
@@ -5350,6 +5712,47 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Westlife 25: The Anniversary World Tour",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-06-14T00:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/westlife-25-the-anniversary-world-tour-%7C-legazy-seat-lippu-lippuja/627241460",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/westlife-tickets-ae457#2027-06-14",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 262,
+    "artists": [
+      "Westlife 25"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Nickelback: Everything Under The Sun",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-07-07T17:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1771131528",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/nickelback-tickets-ae8573#2027-07-07",
+    "venueGenres": [
+      "pop",
+      "rock"
+    ],
+    "doors": "17:30",
+    "id": 263,
+    "artists": [
+      "Nickelback"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock",
+      "hard rock",
+      "alternative"
+    ]
   },
   {
     "id": 77,

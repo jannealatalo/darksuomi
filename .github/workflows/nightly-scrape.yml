@@ -50,6 +50,9 @@ jobs:
       - name: Scrape Bar Loose
         run: python scraper_barloose.py
 
+      - name: Scrape Veikkaus Arena (music only)
+        run: python scraper_veikkausarena.py
+
       - name: Tag genres
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}

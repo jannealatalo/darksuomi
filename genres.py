@@ -56,6 +56,7 @@ JUNK_TAGS = {
     "eurovision", "all", "norway", "norwegian", "belgian", "belgium", "greek",
     "dutch", "polish", "czech", "swiss", "austrian", "icelandic",
     "croatian", "faroese", "need to rate", "check", "brazil", "brazilian",
+    "serbian", "christmas", "oon kayny kattomassa",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -115,6 +116,8 @@ VENUE_GENRES = {
     "rock-ja-metalli": "rock", "punk-ja-indie": "indie", "pop-ja-rap": "pop",
     "stand-up-ja-viihde": "stand-up", "jazz-ja-viihdemusiikki": "viihde",
     "blues-ja-country": "blues", "dj-ja-klubit": "dj night",
+    # Veikkaus Arena (already mapped by its scraper)
+    "metal": "metal", "indie": "indie", "r&b": "r&b",
 }
 
 MAX_TAGS = 6          # keep this many top tags per artist
@@ -144,6 +147,10 @@ def parse_title(title: str) -> list[dict]:
                                                 -> Scheitan, Stuka
     """
     acts = []
+    # "Artist presents: Show name" -> the artist.
+    m = re.match(r"^(.+?)\s+presents\s*:", title, flags=re.I)
+    if m:
+        title = m.group(1)
     # "<Festival / club night / show name>: band, band" -> just the bands.
     m = re.match(r"^([^:]*\b(?:festival|fest|club|klubi|presents|night|christmas|xmas|"
                  r"joulu\w*|tour|showcase|party|lisäkeikka|lisänäytös|extra show)\b[^:]*):\s*(.+)$",
@@ -176,7 +183,7 @@ def parse_title(title: str) -> list[dict]:
         # Drop all parentheses: country codes, age limits, release-party notes.
         part = re.sub(r"\s*\([^)]*\)", "", part)
         # Headliner comes before a dash or colon: "X – tour name", "X: show".
-        part = re.split(r"\s+[–—-]\s+|:\s+", part)[0]
+        part = re.split(r"\s+[–—-]\s+|:\s+|\s+//\s+", part)[0]
         # Tribute / special shows: "X plays Y", "X goes Tavastia", "X feat. Y".
         part = re.split(r"\s+(?:plays|goes|feat\.?|featuring)\s+", part, flags=re.I)[0]
         # Trailing "Tour 2026", "X-mas special 2026", "20v", years.
@@ -185,7 +192,8 @@ def parse_title(title: str) -> list[dict]:
         part = re.sub(r"\s+\d{4}$", "", part)
         part = re.sub(r"\s+-?(levyjulkkarit|konsertti)$", "", part, flags=re.I)
         part = re.sub(r"\s+\d+-vuotisjuhlakeikka$", "", part, flags=re.I)
-        part = re.sub(r"\s+\d+\s*v\.?$", "", part, flags=re.I)  # "Vainoa 10v."
+        # Anniversaries: "Vainoa 10v.", "VIKI & KÖPI 10V SHOW", "Hector 60v juhla".
+        part = re.sub(r"\s+\d+\s*(?:v\b\.?|vuotta\b).*$", "", part, flags=re.I)
         part = part.strip(" -–")
         if part:
             acts.append({"name": part, "country": country})

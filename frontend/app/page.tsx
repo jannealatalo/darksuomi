@@ -9,6 +9,7 @@ import {
   lastScraped,
 } from "../lib/events";
 import EventList from "./EventList";
+import SiteFooter from "./SiteFooter";
 import { RESALE_SITES, TICKET_SITES, VENUE_LINKS, type SiteLink } from "../lib/links";
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
@@ -62,7 +63,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-gray-200">
       <div className="max-w-4xl mx-auto px-6 py-10">
-        <div className="flex flex-wrap justify-between items-start gap-6 mb-8">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
             <h1>
               <Image
@@ -81,7 +82,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col items-end gap-2 text-right">
+          <div className="flex flex-col items-end gap-2 text-right self-end md:self-auto md:max-w-xs md:shrink-0">
             {session ? (
               <div>
                 <p className="text-sm text-gray-400 mb-2">
@@ -270,6 +271,8 @@ export default function Home() {
         ) : (
           <EventList events={filteredEvents} isFollowed={isFollowedEvent} />
         )}
+
+        <SiteFooter />
       </div>
     </main>
   );
