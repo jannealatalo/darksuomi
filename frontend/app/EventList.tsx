@@ -31,7 +31,7 @@ export default function EventList({
             <div className="sm:grid sm:grid-cols-[4.5rem_1fr] sm:gap-6 border-b border-gray-900 py-4">
               {/* Date: a header line on phones, a column on wider screens. */}
               <div className="mb-2 sm:mb-0 sm:sticky sm:top-4 sm:self-start flex sm:flex-col items-baseline sm:items-start gap-2 sm:gap-0">
-                <span className="text-xs uppercase tracking-wider text-gray-500">
+                <span className="text-sm font-semibold uppercase tracking-wider text-gray-300">
                   {day.weekday}
                 </span>
                 <span className="text-2xl sm:text-3xl font-bold leading-none text-gray-100">
@@ -76,7 +76,7 @@ function EventItem({ event, followed }: { event: Event; followed: boolean }) {
         )}
       </div>
 
-      <p className="text-sm text-gray-400">
+      <p className="text-sm text-gray-300">
         {event.venue} · {event.city}
         {time && <> · doors {time}</>}
         {event.age && <> · {event.age}</>}
@@ -86,15 +86,15 @@ function EventItem({ event, followed }: { event: Event; followed: boolean }) {
         <p className="text-sm text-gray-300">
           {event.schedule.map((s, i) => (
             <span key={s.time + s.name}>
-              {i > 0 && <span className="text-gray-600"> · </span>}
-              <span className="text-gray-500 tabular-nums">{s.time}</span> {s.name}
+              {i > 0 && <span className="text-gray-500"> · </span>}
+              <span className="text-gray-100 font-semibold tabular-nums">{s.time}</span> {s.name}
             </span>
           ))}
         </p>
       )}
 
       {event.genres && event.genres.length > 0 && (
-        <p className="text-xs text-gray-500">{event.genres.slice(0, 4).join(" · ")}</p>
+        <p className="text-xs text-gray-400">{event.genres.slice(0, 4).join(" · ")}</p>
       )}
 
       <div className="text-sm mt-1">

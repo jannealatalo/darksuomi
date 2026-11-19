@@ -26,7 +26,7 @@ export default function ExpectedSetlists({
           type="button"
           onClick={() => setOpen(!open)}
           aria-expanded={open}
-          className="inline-flex items-center gap-1.5 text-gray-400 hover:text-gray-200"
+          className="inline-flex items-center gap-1.5 text-gray-300 hover:text-white"
         >
           <span aria-hidden="true" className={`text-xs transition-transform ${open ? "rotate-90" : ""}`}>
             ▶
