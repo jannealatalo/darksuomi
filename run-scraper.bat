@@ -4,6 +4,7 @@ cd /d C:\repo\darksuomi
 python scraper_advanced.py
 python enrich_tavastia.py
 python scraper_rocks.py
+python scraper_kulttuuritalo.py
 python genres.py
 python setlists.py
 python playlists.py

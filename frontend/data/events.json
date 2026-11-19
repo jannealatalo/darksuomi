@@ -1,5 +1,33 @@
 [
   {
+    "artist": "A.W. Yrjänä Eidolon -kiertue + Rami Helin Presents (trio)",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-11-19T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/a-w-yrjaenae-helsingin-kulttuuritalo-22054870/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-19/kult-a-w-yrjana-rami-helin-presents-trio/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 187,
+    "artists": [
+      "A.W. Yrjänä Eidolon",
+      "Rami Helin Presents"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 1,
     "artist": "Kauko Röyhkä & Voimaeläin",
     "venue": "Tavastia Klubi",
@@ -51,6 +79,33 @@
       "minimal synth",
       "rac",
       "russia"
+    ]
+  },
+  {
+    "artist": "Suomi Nauraa – Stand Up Show 20.11.",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-11-20T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Suomi-Nauraa-2026-K-18/165937/401454/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-20/suomi-nauraa-stand-up-show-20-11/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 198,
+    "artists": [
+      "Suomi Nauraa"
+    ],
+    "genres": [
+      "stand-up"
     ]
   },
   {
@@ -139,6 +194,31 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Ho, Ho, Ho – It’s Divet Show!",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-11-21T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Ho-Ho-Ho-It's-Divet-Show!/164047/395128/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/ho-ho-ho-its-divet-show/",
+    "venueGenres": [],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 217,
+    "artists": [
+      "Ho",
+      "Ho",
+      "Ho"
+    ],
+    "genres": []
+  },
+  {
     "id": 4,
     "artist": "Juha Tapio",
     "venue": "Tavastia Klubi",
@@ -187,6 +267,33 @@
     ]
   },
   {
+    "artist": "Wasted 30 V., Abduktio + Manifesto Jukebox",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-11-21T20:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/",
+    "venueGenres": [
+      "punk-ja-indie",
+      "rock-ja-metalli"
+    ],
+    "doors": "20:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 205,
+    "artists": [
+      "Wasted 30 V.",
+      "Abduktio",
+      "Manifesto Jukebox"
+    ],
+    "genres": [
+      "hardcore",
+      "hardcore punk",
+      "punk",
+      "punk rock"
+    ]
+  },
+  {
     "artist": "Linkin Park Night! Jumpdafuckup DJs",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -231,6 +338,33 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "ARTMS World Tour – Art of BLUE BLOOD",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-11-22T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/ARTMS-World-Tour-Art-of-BLUE-BLOOD/166548/403878/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-22/artms-world-tour-art-of-blue-blood/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S, osa katsomosta K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 186,
+    "artists": [
+      "ARTMS World"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "id": 6,
     "artist": "Michael Monroe plays Hanoi Rocks (K-18)",
     "venue": "Tavastia Klubi",
@@ -255,6 +389,27 @@
     "room": "Tavastia-klubi",
     "doors": "18:30",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Europe – The Final Countdown 40th Anniversary Tour (SOLD OUT!)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-11-25T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-25/europe-the-final-countdown-40th-anniversary-tour/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-25/europe-the-final-countdown-40th-anniversary-tour/",
+    "venueGenres": [],
+    "doors": "17:30",
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 222,
+    "artists": [
+      "Europe"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "classic rock"
+    ]
   },
   {
     "id": 7,
@@ -396,6 +551,60 @@
     ]
   },
   {
+    "artist": "Mimmien pikkujoulut -stand up show",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-11-28T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/mimmien-pikkujoulut-helsingin-kulttuuritalo-21781318/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-28/mimmien-pikkujoulut-stand-up/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 203,
+    "artists": [
+      "Mimmien pikkujoulut -stand up show"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
+    "artist": "Disco Night",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-11-28T19:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/DISCO-NIGHT-K-18/167450/406864/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-28/disco-night/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "19:30",
+    "schedule": [
+      {
+        "time": "20:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 168,
+    "artists": [
+      "Disco Night"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "id": 9,
     "artist": "Kemmuru – Kehumatta paras 20 vuotta",
     "venue": "Tavastia Klubi",
@@ -508,6 +717,34 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Cory Henry",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-11-29T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Cory-Henry-presents:-A-Jam-Good-Time/166920/405254/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-11-29/cory-henry-2/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 179,
+    "artists": [
+      "Cory Henry"
+    ],
+    "genres": [
+      "jazz",
+      "funk"
+    ]
+  },
+  {
     "artist": "HEO On The Rocks",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -568,6 +805,33 @@
     ]
   },
   {
+    "artist": "Dolly Parton Tribute",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-02T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-02/kult-dolly-parton-tribute/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-02/kult-dolly-parton-tribute/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 181,
+    "artists": [
+      "Dolly Parton Tribute"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "id": 12,
     "artist": "Säveltäjä Olli Lindholm -konsertti",
     "venue": "Tavastia Klubi",
@@ -620,6 +884,32 @@
       "doom metal",
       "melodic death metal",
       "black metal"
+    ]
+  },
+  {
+    "artist": "Joshua Idehen + HYRYSYSY",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-03T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/name-4234710",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-03/kult-joshua-idehen/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "19:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 183,
+    "artists": [
+      "Joshua Idehen",
+      "HYRYSYSY"
+    ],
+    "genres": [
+      "jazz",
+      "folk",
+      "soul",
+      "pop",
+      "spoken word"
     ]
   },
   {
@@ -683,6 +973,33 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "FCF Wrestling: Showpainia! 5.12.2026",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-05T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/fcf-wrestling-showpainia-helsingin-kulttuuritalo-22297689/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-05/fcf-wrestling-showpainia-5-12-2026/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 163,
+    "artists": [
+      "FCF Wrestling"
+    ],
+    "genres": [
+      "stand-up"
     ]
   },
   {
@@ -767,6 +1084,35 @@
     ]
   },
   {
+    "artist": "Alice – Amazing Circus Show",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-08T17:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Alice-Amazing-Circus-Show/164740/397560/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-08/alice-amazing-circus-show/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:00",
+    "schedule": [
+      {
+        "time": "18:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S, osa katsomosta K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 213,
+    "artists": [
+      "Alice"
+    ],
+    "genres": [
+      "pop",
+      "progressive rock",
+      "rock"
+    ]
+  },
+  {
     "artist": "Kausti",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -842,6 +1188,33 @@
     ]
   },
   {
+    "artist": "Black Devils – 30th Anniversary Show",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-11T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Black-Devils-30th-Anniversary-Show-K-18/164504/396636/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-11/black-devils/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 215,
+    "artists": [
+      "Black Devils"
+    ],
+    "genres": [
+      "freakbeat"
+    ]
+  },
+  {
     "id": 16,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -900,6 +1273,62 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Arppa – Akustisesti saleissa",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-12T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Arppa-Akustisesti-saleissa/165233/399552/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-12/arppa-akustisesti-saleissa/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 210,
+    "artists": [
+      "Arppa"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "indie rock"
+    ]
+  },
+  {
+    "artist": "Yllätysten ilta -stand up",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-12T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/yllatysten-ilta-stand-up-show-helsingin-kulttuuritalo-21332220/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-12/kult-live-yllatysten-ilta-stand-up-show-joulukuu/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 220,
+    "artists": [
+      "Yllätysten ilta -stand up"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
     "id": 18,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -940,7 +1369,6 @@
       "sludge",
       "experimental",
       "sludge metal",
-      "belgium",
       "post-rock"
     ]
   },
@@ -984,6 +1412,60 @@
     ]
   },
   {
+    "artist": "Sibelius-lukion JouluShow",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-15T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Sibelius-lukion-JouluShow/167120/405724/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-15/sibelius-lukion-joulushow-3/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "Ei ikärajaa",
+    "detailsFetched": "2026-11-19",
+    "id": 171,
+    "artists": [
+      "Sibelius-lukion JouluShow"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
+    "artist": "Leavings-Orkesteri solistinaan Timo Rautiainen: Varasteleva Joulupukki",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-16T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Leavings-Orkesteri-solistinaan-Timo-Rautiainen:-Varasteleva-Joulupukki/163401/392314/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-16/leavings-timo-rautiainen-varasteleva-joulupukki/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 219,
+    "artists": [
+      "Leavings-Orkesteri solistinaan Timo Rautiainen"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "id": 19,
     "artist": "Don Johnson Big Band X-mas special 2026",
     "venue": "Tavastia Klubi",
@@ -1024,6 +1506,33 @@
     ]
   },
   {
+    "artist": "Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-16T19:30:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-16/kult-metallica-ride-the-lightning-tribute-with-producer-flemming-rasmussen/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-16/kult-metallica-ride-the-lightning-tribute-with-producer-flemming-rasmussen/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "19:30",
+    "schedule": [
+      {
+        "time": "20:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 151,
+    "artists": [
+      "Metallica Tribute with producer Flemming Rasmussen"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 20,
     "artist": "Dumari & Spuget & Blosarit",
     "venue": "Tavastia Klubi",
@@ -1056,6 +1565,65 @@
     "genres": [
       "rautalanka",
       "rock"
+    ]
+  },
+  {
+    "artist": "Flok – Sydäntalvi",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-17T19:30:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-17/kult-flok-sydantalvi/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-17/kult-flok-sydantalvi/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "19:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 158,
+    "artists": [
+      "Flok"
+    ],
+    "genres": [
+      "noise",
+      "lo-fi",
+      "shoegazer"
+    ]
+  },
+  {
+    "artist": "Maija Vilkkumaa – Karaoke-queen",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-18T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Maija-Vilkkumaa-Karaoke-queen/165074/398964/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-18/maija-vilkkumaa-karaoke-queen/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 211,
+    "artists": [
+      "Maija Vilkkumaa"
+    ],
+    "genres": [
+      "rock",
+      "singer-songwriter",
+      "pop"
     ]
   },
   {
@@ -1100,6 +1668,61 @@
     ]
   },
   {
+    "artist": "Antti Autio – Haahuillen",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-19T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Antti-Autio-Haahuillen/165039/398900/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-19/antti-autio-haahuillen/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 212,
+    "artists": [
+      "Antti Autio"
+    ],
+    "genres": [
+      "indie",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Under the Mistle Tease 2026",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2026-12-19T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/rubies-klubit-under-the-mistle-tease-2026-helsingin-kulttuuritalo-22429270/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-19/kult-under-the-mistle-tease-2026/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 137,
+    "artists": [
+      "Under the Mistle Tease"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
     "id": 22,
     "artist": "Arttu Wiskari",
     "venue": "Tavastia Klubi",
@@ -1136,6 +1759,33 @@
     "genres": [
       "power pop",
       "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Jag är Carola – en musikalisk unik livsberättelse (SWE)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-20T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Jag-ar-Carola-en-musikalisk-unik-livsberattelse-K-18/166360/403008/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-20/jag-ar-carola-en-musikalisk-unik-livsberattelse-swe/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 193,
+    "artists": [
+      "Jag är Carola"
+    ],
+    "genres": [
       "pop"
     ]
   },
@@ -1245,6 +1895,23 @@
     ]
   },
   {
+    "artist": "Kultsan uudenvuoden disko 2026",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2026-12-31T21:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Kultsan-uudenvuoden-disko-K-18/167968/411249/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-31/kultsan-uudenvuoden-disko-3/",
+    "venueGenres": [],
+    "doors": "21:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 143,
+    "artists": [
+      "Kultsan uudenvuoden disko"
+    ],
+    "genres": []
+  },
+  {
     "id": 27,
     "artist": "Hola Ghost (DK), Black Magic Six, Hauntees",
     "venue": "Tavastia Klubi",
@@ -1333,6 +2000,33 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Dan and Phil – The Hard Launch World Tour (Lisäkeikka)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-07T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Dan-and-Phil-Hard-Launch-World-Tour/165946/403222/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-07/dan-and-phil-the-hard-launch-world-tour-lisakeikka/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "Ei ikärajaa",
+    "detailsFetched": "2026-11-19",
+    "id": 191,
+    "artists": [
+      "Dan and Phil"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
     "id": 30,
     "artist": "Vörjeans",
     "venue": "Tavastia Klubi",
@@ -1349,6 +2043,61 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Dan and Phil – The Hard Launch World Tour",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-08T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Dan-and-Phil-Hard-Launch-World-Tour-K-18/165946/401453/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-08/dan-and-phil-the-hard-launch-world-tour/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "Ei ikärajaa",
+    "detailsFetched": "2026-11-19",
+    "id": 200,
+    "artists": [
+      "Dan and Phil"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
+    "artist": "Griefton Sons + Barnyard Pickers",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-01-08T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/griefton-sons-barnyard-pickers-helsingin-kulttuuritalo-22390730/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-08/kult-griefton-sons-barnyard-pickers/",
+    "venueGenres": [
+      "blues-ja-country"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 147,
+    "artists": [
+      "Griefton Sons",
+      "Barnyard Pickers"
+    ],
+    "genres": [
+      "blues"
+    ]
   },
   {
     "id": 31,
@@ -1385,6 +2134,52 @@
     "genres": [
       "rock"
     ]
+  },
+  {
+    "artist": "Uudenvuoden Wieniläiskonsertti: Schönbrunnin Linnanorkesteri (klo 15:00 näytös)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-09T13:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Uudenvuoden-Wienilaiskonsertti:-Schonbrunnin-Linnanorkesteri/165888/401335/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-09/uudenvuoden-wienilaiskonsertti-schonbrunnin-linnanorkesteri/",
+    "venueGenres": [],
+    "doors": "13:30",
+    "schedule": [
+      {
+        "time": "15:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 202,
+    "artists": [
+      "Uudenvuoden Wieniläiskonsertti"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Uudenvuoden Wieniläiskonsertti: Schönbrunnin Linnanorkesteri (klo 19:00 näytös)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-09T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Uudenvuoden-Wienilaiskonsertti:-Schonbrunnin-Linnanorkesteri/165888/401400/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-09/uudenvuoden-wienilaiskonsertti/",
+    "venueGenres": [],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 201,
+    "artists": [
+      "Uudenvuoden Wieniläiskonsertti"
+    ],
+    "genres": []
   },
   {
     "id": 32,
@@ -1426,6 +2221,39 @@
     ]
   },
   {
+    "artist": "Fear of Domination + Despiser",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-01-15T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-15/kult-fear-of-domination-despiser/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-15/kult-fear-of-domination-despiser/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 154,
+    "artists": [
+      "Fear of Domination",
+      "Despiser"
+    ],
+    "genres": [
+      "melodic death metal",
+      "industrial metal",
+      "industrial death metal",
+      "death metal",
+      "metal",
+      "new zealand"
+    ]
+  },
+  {
     "id": 33,
     "artist": "Timo Kämäräinen",
     "venue": "Tavastia Klubi",
@@ -1462,6 +2290,36 @@
     ]
   },
   {
+    "artist": "Anis Kiitu (levyjulkkarit) + Lätsä + Janne Westerlund",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-01-16T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-16/kult-anis-kiitu-levyjulkkarit-latsa-janne-westerlund/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-16/kult-anis-kiitu-levyjulkkarit-latsa-janne-westerlund/",
+    "venueGenres": [
+      "punk-ja-indie"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 145,
+    "artists": [
+      "Anis Kiitu",
+      "Lätsä",
+      "Janne Westerlund"
+    ],
+    "genres": [
+      "folk",
+      "acoustic"
+    ]
+  },
+  {
     "id": 34,
     "artist": "good boys - VEACE-levyjulkkarit",
     "venue": "Tavastia Klubi",
@@ -1479,6 +2337,33 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Lords of the Sound – The Music of Hans Zimmer",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-18T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Lords-of-the-Sound-The-Music-of-Hans-Zimmer/165930/401424/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-18/lords-of-the-sound-the-music-of-hans-zimmer/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 199,
+    "artists": [
+      "Lords of the Sound"
+    ],
+    "genres": [
+      "viihde"
+    ]
   },
   {
     "id": 35,
@@ -1501,6 +2386,33 @@
     "room": "Tavastia-klubi",
     "doors": "17:30",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Kevin Bridges: Here If You Need Me – European Tour 2026/27",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-19T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Kevin-Bridges:-Here-If-You-Need-Me-European-Tour-202627-K-18/163763/394208/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-19/kevin-bridges/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 218,
+    "artists": [
+      "Kevin Bridges"
+    ],
+    "genres": [
+      "stand-up"
+    ]
   },
   {
     "id": 36,
@@ -1545,6 +2457,37 @@
     ]
   },
   {
+    "artist": "UNKIND 30 vuotta + Kürøishi",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-01-22T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-22/kult-unkind-30-vuotta/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-22/kult-unkind-30-vuotta/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 185,
+    "artists": [
+      "UNKIND 30 vuotta",
+      "Kürøishi"
+    ],
+    "genres": [
+      "crust",
+      "d-beat",
+      "hardcore",
+      "hardcore punk"
+    ]
+  },
+  {
     "id": 37,
     "artist": "Tuomo - My Thing 20th Anniversary",
     "venue": "Tavastia Klubi",
@@ -1563,6 +2506,33 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Joutsenlampi – Pjotr Tšaikovski",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-23T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Joutsenlampi-Pjotr-Tsaikovski/167515/407177/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-23/joutsenlampi-pjotr-tsaikovski/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 166,
+    "artists": [
+      "Joutsenlampi"
+    ],
+    "genres": [
+      "viihde"
+    ]
   },
   {
     "id": 38,
@@ -1614,6 +2584,95 @@
     ]
   },
   {
+    "artist": "Ismo Leikola – Omasta mielestä 28.1.2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-28T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Ismo-Leikola-Omasta-mielesta-K-18/168262/412206/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-28/ismo-leikola-omasta-mielesta-28-1-2027/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 146,
+    "artists": [
+      "Ismo Leikola"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
+    "artist": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 29.1.2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-29T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Rakkaudella-Rauli-K-18/167545/407234/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-29/rakkaudella-rauli-tahtiin-kirjoitettu-tarina/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki",
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 164,
+    "artists": [
+      "Rakkaudella Rauli"
+    ],
+    "genres": [
+      "viihde",
+      "stand-up"
+    ]
+  },
+  {
+    "artist": "Salaliitto + Markus Perttula",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-01-29T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-29/kult-salaliitto-markus-perttula/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-29/kult-salaliitto-markus-perttula/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "punk-ja-indie",
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 140,
+    "artists": [
+      "Salaliitto",
+      "Markus Perttula"
+    ],
+    "genres": [
+      "alternative rock",
+      "indie",
+      "singer-songwriter",
+      "indie folk"
+    ]
+  },
+  {
     "id": 39,
     "artist": "SARA",
     "venue": "Tavastia Klubi",
@@ -1632,6 +2691,35 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 30.1.2026",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-01-30T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Rakkaudella-Rauli-K-18/167545/407311/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-01-30/rakkaudella-rauli-tahtiin-kirjoitettu-tarina-2/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki",
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 165,
+    "artists": [
+      "Rakkaudella Rauli"
+    ],
+    "genres": [
+      "viihde",
+      "stand-up"
+    ]
   },
   {
     "id": 40,
@@ -1654,6 +2742,28 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Imminence",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-02T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/IMMINENCE-(SWE/165438/400127/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-02/imminence/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:30",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 206,
+    "artists": [
+      "Imminence"
+    ],
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ]
+  },
+  {
     "id": 41,
     "artist": "Young Gun Silver Fox (UK), Miller Campbell (USA)",
     "venue": "Tavastia Klubi",
@@ -1674,6 +2784,85 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Night Lovell",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-03T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Night-Lovell/167213/406075/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-03/night-lovell/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "18:00",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 172,
+    "artists": [
+      "Night Lovell"
+    ],
+    "genres": [
+      "cloud rap",
+      "hip hop",
+      "rap",
+      "trap"
+    ]
+  },
+  {
+    "artist": "Jussi Hakulisen laulut: Mikko Kangasjärvi, Markus Salo ja Jari Latomaa",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-02-04T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/jussi-hakulisen-laulut-helsingin-kulttuuritalo-22390953/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-04/kult-jussi-hakulisen-laulut-mikko-kangasjarvi-markus-salo-ja-jari-latomaa/",
+    "venueGenres": [
+      "blues-ja-country",
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 144,
+    "artists": [
+      "Jussi Hakulisen laulut",
+      "Markus Salo ja Jari Latomaa"
+    ],
+    "genres": [
+      "blues",
+      "pop",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Ane Brun (NO) – I Thought We Were The Same Nordic Tour 2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-05T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Ane-Brun-I-Thought-We-Were-The-Same-Nordic-Tour-2027/167735/408103/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-05/ane-brun-no-i-thought-we-were-the-same-nordic-tour-2027/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "18:00",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 160,
+    "artists": [
+      "Ane Brun"
+    ],
+    "genres": [
+      "singer-songwriter",
+      "acoustic",
+      "indie"
+    ]
   },
   {
     "id": 42,
@@ -1751,6 +2940,35 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "10cc",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-06T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/10cc-(UK)/162891/390161/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/10cc/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 221,
+    "artists": [
+      "10cc"
+    ],
+    "genres": [
+      "classic rock",
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "artist": "Helsinki Must Be Destroyed",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -1769,6 +2987,56 @@
     ]
   },
   {
+    "artist": "Floor Jansen",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-07T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Floor-Jansen-Hytress-Tour-2027/166534/403752/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-07/floor-jansen/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "17:30",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 190,
+    "artists": [
+      "Floor Jansen"
+    ],
+    "genres": [
+      "symphonic metal",
+      "female fronted metal",
+      "better than tarja"
+    ]
+  },
+  {
+    "artist": "Night of Famous Musicals",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-09T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/NIGHT-OF-FAMOUS-MUSICALS/166563/403948/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-09/night-of-famous-musicals/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 189,
+    "artists": [
+      "Night of Famous Musicals"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "artist": "Slomosa (NOR)",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -1784,6 +3052,32 @@
     ],
     "genres": [
       "stoner rock"
+    ]
+  },
+  {
+    "artist": "Baby Lasagna",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-10T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Baby-Lasagna-End-The-Part-Tour/166673/404604/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-10/baby-lasagna-2/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 184,
+    "artists": [
+      "Baby Lasagna"
+    ],
+    "genres": [
+      "rock",
+      "pop punk",
+      "techno",
+      "house",
+      "industrial metal"
     ]
   },
   {
@@ -1835,8 +3129,7 @@
       "Magnus Betnér"
     ],
     "genres": [
-      "stand-up",
-      "check"
+      "stand-up"
     ]
   },
   {
@@ -1849,7 +3142,7 @@
     "artists": [
       "Signs of the Swarm",
       "Ten56",
-      "Oceans Ate Alaska & Face Yourself"
+      "Oceans Ate Alaska"
     ],
     "genres": [
       "deathcore",
@@ -1887,6 +3180,33 @@
     ]
   },
   {
+    "artist": "Iconic Voices of Enigma Live Show",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-13T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Iconic-Voices-of-Enigma-Live-Show/168057/411946/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-13/iconic-voices-of-enigma-live-show/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 148,
+    "artists": [
+      "Iconic Voices of Enigma Live Show"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "id": 48,
     "artist": "CATCH YOUR BREATH (USA) - NOT BROKEN ENOUGH TOUR 2027",
     "venue": "Tavastia Klubi",
@@ -1905,6 +3225,62 @@
     "room": "Tavastia-klubi",
     "doors": "18:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Kalush Orchestra (UA)",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-02-13T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/kalush-orchestra-helsingin-kulttuuritalo-22400733/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-13/kult-kalush-orchestra-ua/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 142,
+    "artists": [
+      "Kalush Orchestra"
+    ],
+    "genres": [
+      "rap"
+    ]
+  },
+  {
+    "artist": "Arttu Wiskari – Suomi Finland PRKL",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-14T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/ARTTU-WISKARI-Suomi-Finland-PRKL/167753/408306/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-14/arttu-wiskari-suomi-finland-prkl/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "Ei ikärajaa",
+    "detailsFetched": "2026-11-19",
+    "id": 159,
+    "artists": [
+      "Arttu Wiskari"
+    ],
+    "genres": [
+      "pop",
+      "singer-songwriter"
+    ]
   },
   {
     "id": 49,
@@ -2009,6 +3385,28 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Tarja Turunen – Frisson Live 2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-24T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Tarja-Turunen-Frisson-Live-2027/165349/399845/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-24/tarja-turunen-frisson-live-2027/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "17:30",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 208,
+    "artists": [
+      "Tarja Turunen"
+    ],
+    "genres": [
+      "symphonic metal",
+      "female fronted metal"
+    ]
+  },
+  {
     "id": 54,
     "artist": "Dynazty (SWE)",
     "venue": "Tavastia Klubi",
@@ -2054,6 +3452,62 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Whitechapel – Burn Forever Tour",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-02-27T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/WHITECHAPEL-Burn-Forever-Tour-K-18/167396/406714/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-27/whitechapel-burn-forever-tour/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 170,
+    "artists": [
+      "Whitechapel"
+    ],
+    "genres": [
+      "deathcore",
+      "death metal",
+      "brutal deathcore"
+    ]
+  },
+  {
+    "artist": "MUSAMUSA-klubi: JATAO + Mansion + Pääkallo",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-02-27T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-27/kult-musamusa-klubi-jatao-mansion-paakallo/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-27/kult-musamusa-klubi-jatao-mansion-paakallo/",
+    "venueGenres": [],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 139,
+    "artists": [
+      "JATAO",
+      "Mansion",
+      "Pääkallo"
+    ],
+    "genres": [
+      "doom metal",
+      "occult rock",
+      "rock",
+      "psychedelic rock",
+      "progressive rock",
+      "finnish occult rock",
+      "finnish prog rock"
+    ]
+  },
+  {
     "id": 56,
     "artist": "Huora, Lähiöbotox",
     "venue": "Tavastia Klubi",
@@ -2078,6 +3532,32 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Lisäkeikka: Morgan Jay: La Dolce Vita Tour",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-01T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/name-21720689",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-01/lisakeikka-morgan-jay-la-dolce-vita-tour/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:30",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 207,
+    "artists": [
+      "Morgan Jay"
+    ],
+    "genres": [
+      "acoustic",
+      "pop",
+      "stand-up",
+      "electronic",
+      "autotune",
+      "edm"
+    ]
+  },
+  {
     "id": 57,
     "artist": "Jacob Banks (UK)",
     "venue": "Tavastia Klubi",
@@ -2094,6 +3574,32 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Morgan Jay: La Dolce Vita Tour",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-02T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/name-4161772",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-02/morgan-jay-la-dolce-vita-tour/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:30",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 209,
+    "artists": [
+      "Morgan Jay"
+    ],
+    "genres": [
+      "acoustic",
+      "pop",
+      "stand-up",
+      "electronic",
+      "autotune",
+      "edm"
+    ]
   },
   {
     "id": 58,
@@ -2113,6 +3619,58 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "MALEVO – Argentina-show",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-05T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/MALEVO-Forever-Gaucho-(Argentiina/166999/405414/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-05/malevo-forever-gaucho/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 176,
+    "artists": [
+      "MALEVO"
+    ],
+    "genres": [
+      "tango",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Saxon (GB) – Gods of Thunder Tour",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-06T16:45:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Saxon-Gods-of-Thunder-Tour/167857/410694/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-06/saxon/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "16:45",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 157,
+    "artists": [
+      "Saxon"
+    ],
+    "genres": [
+      "heavy metal",
+      "nwobhm",
+      "hard rock",
+      "metal"
+    ]
   },
   {
     "id": 59,
@@ -2163,6 +3721,33 @@
     ]
   },
   {
+    "artist": "DANIEL SLOSS – BITTER",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-07T17:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-07/daniel-sloss-bitter/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-07/daniel-sloss-bitter/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 204,
+    "artists": [
+      "DANIEL SLOSS"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
     "id": 60,
     "artist": "Vesterinen Yhtyeineen: Paluu Tavastialle",
     "venue": "Tavastia Klubi",
@@ -2208,6 +3793,66 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Brujeria (MX) + Criminal (CL) + Terror Shark",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-03-08T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/sonic-rites-events-presents-brujeria-helsingin-kulttuuritalo-22152082/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-08/kult-brujeria/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 174,
+    "artists": [
+      "Brujeria",
+      "Criminal",
+      "Terror Shark"
+    ],
+    "genres": [
+      "death metal",
+      "grindcore",
+      "deathgrind",
+      "brutal death metal",
+      "thrash metal",
+      "death-thrash metal",
+      "metal",
+      "hardcore",
+      "hardcore metal"
+    ]
+  },
+  {
+    "artist": "MICHAEL STARRING BEN – DIRECT FROM LONDON’S WEST END",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-10T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Michael(r)-Starring-Ben-Direct-From-London's-West-End/167081/405623/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-10/michael-starring-ben-direct-from-londons-west-end/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki",
+      "pop-ja-rap"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 175,
+    "artists": [
+      "MICHAEL STARRING BEN"
+    ],
+    "genres": [
+      "viihde",
+      "pop"
+    ]
+  },
+  {
     "id": 62,
     "artist": "JIPPU",
     "venue": "Tavastia Klubi",
@@ -2225,6 +3870,87 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027 (Lisäkonsertti)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-12T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Haloo-Helsinki!-20-vuotisjuhlakiertue-lisakeikka/166751/405340/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-12/haloo-helsinki-20-vuotisjuhlakiertue-2027-lisakeikka/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 178,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
+  },
+  {
+    "artist": "Block of Flats + support",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-03-12T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-12/kult-block-of-flats-support/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-12/kult-block-of-flats-support/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 155,
+    "artists": [
+      "Block of Flats",
+      "support"
+    ],
+    "genres": [
+      "alternative rock",
+      "alternative metal"
+    ]
+  },
+  {
+    "artist": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027 (Sold Out!)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-13T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Haloo-Helsinki!-20-vuotisjuhlakiertue/166751/404862/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-13/haloo-helsinki/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 182,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
   },
   {
     "artist": "King Satan (levyjulkkarit), Ghoulstars, Danger Håt",
@@ -2291,6 +4017,113 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "The Halo Effect – European Tour 2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-17T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/The-Halo-Effect-European-Tour-2027/164172/395576/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-17/the-halo-effect-european-tour-2027/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 216,
+    "artists": [
+      "The Halo Effect"
+    ],
+    "genres": [
+      "melodic death metal",
+      "death metal"
+    ]
+  },
+  {
+    "artist": "Ricky-Tick Big Band & Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-18T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Ricky-Tick-Big-Band-and-Julkinen-Sana-K-18/166124/401895/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-18/ricky-tick-big-band-julkinen-sana-hyvantekevaisyyskonsertti-18-3-2027/",
+    "venueGenres": [],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 196,
+    "artists": [
+      "Ricky-Tick Big Band & Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027"
+    ],
+    "genres": [
+      "jazz",
+      "big band"
+    ]
+  },
+  {
+    "artist": "KAJ på Kulturhuset",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-20T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/KAJ-med-liveband/168179/411963/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-20/kaj-med-liveband/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "Ei ikärajaa",
+    "detailsFetched": "2026-11-19",
+    "id": 150,
+    "artists": [
+      "KAJ på Kulturhuset"
+    ],
+    "genres": [
+      "pop",
+      "stand-up"
+    ]
+  },
+  {
+    "artist": "DJ Kridlokk + Eevil Stöö",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-03-20T19:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-20/kult-dj-kridlokk-eevil-stoo/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-20/kult-dj-kridlokk-eevil-stoo/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 138,
+    "artists": [
+      "DJ Kridlokk",
+      "Eevil Stöö"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "underground hip-hop"
+    ]
+  },
+  {
     "id": 65,
     "artist": "Dina Ögon (SWE)",
     "venue": "Tavastia Klubi",
@@ -2308,6 +4141,35 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "KAJ på Kulturhuset 21.3.2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-21T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/KAJ-med-liveband-lisakeikka/168179/412199/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-21/kaj-pa-kulturhuset-21-3-2027/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "stand-up-ja-viihde"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "Ei ikärajaa",
+    "detailsFetched": "2026-11-19",
+    "id": 141,
+    "artists": [
+      "KAJ på Kulturhuset 21.3.2027"
+    ],
+    "genres": [
+      "pop",
+      "stand-up"
+    ]
   },
   {
     "id": 66,
@@ -2336,6 +4198,26 @@
     "room": "Tavastia-klubi",
     "doors": "18:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Eivør",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-03-24T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Eivor/164553/396752/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-24/eivor/",
+    "venueGenres": [],
+    "doors": "18:00",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 214,
+    "artists": [
+      "Eivør"
+    ],
+    "genres": [
+      "folk",
+      "jazz"
+    ]
   },
   {
     "id": 67,
@@ -2373,6 +4255,34 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Knipi",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-03-27T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-27/kult-knipi/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-03-27/kult-knipi/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 149,
+    "artists": [
+      "Knipi"
+    ],
+    "genres": [
+      "egotrippi"
+    ]
   },
   {
     "id": 69,
@@ -2416,6 +4326,33 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "The Rock Orchestra by Candlelight – Helsinki",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-01T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/The-Rock-Orchestra-by-Candlelight/167701/407875/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-01/the-rock-orchestra-by-candlelight-helsinki/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 161,
+    "artists": [
+      "The Rock Orchestra by Candlelight"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 71,
     "artist": "J. Karjalainen",
     "venue": "Tavastia Klubi",
@@ -2437,6 +4374,60 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Club For Five & Ilmavoimien Big Band: Pave!",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-08T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-08/club-for-five-ilmavoimien-big-band-pave/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-08/club-for-five-ilmavoimien-big-band-pave/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 162,
+    "artists": [
+      "Pave!"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
+    "artist": "Sir Elwood Duo – Voitto Auringolle 2027",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-04-08T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/kult-sir-elwood-duo-helsingin-kulttuuritalo-22338771/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-08/kult-sir-elwood-duo-voitto-auringolle-2027/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 156,
+    "artists": [
+      "Sir Elwood Duo"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 72,
     "artist": "Mariska",
     "venue": "Tavastia Klubi",
@@ -2454,6 +4445,140 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Maustetytöt: MT Unplugged",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-17T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Maustetytot-MT-Unplugged/164543/396727/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-17/maustetytot-mt-unplugged/",
+    "venueGenres": [
+      "pop-ja-rap"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 177,
+    "artists": [
+      "Maustetytöt"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Suzi Quatro “ROCKIN’ ON!”",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-18T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/SUZI-QUATRO-ROCKIN'-ON!-K-18/167970/411316/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-18/suzi-quatro-born-to-rock/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "punk-ja-indie"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 152,
+    "artists": [
+      "Suzi Quatro"
+    ],
+    "genres": [
+      "glam rock",
+      "rock",
+      "classic rock"
+    ]
+  },
+  {
+    "artist": "RY X",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-19T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/RY-X-(AU/166811/405059/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-19/ry-x/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "punk-ja-indie"
+    ],
+    "doors": "18:00",
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 180,
+    "artists": [
+      "RY X"
+    ],
+    "genres": [
+      "folk",
+      "indie",
+      "singer-songwriter",
+      "indie folk"
+    ]
+  },
+  {
+    "artist": "Timo Kotipelto ja Jarkko Ahola – Voices Unleashed",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-21T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Timo-Kotipelto-and-Jarkko-Ahola-Voices-Unleashed/167431/406838/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-21/timo-kotipelto-ja-jarkko-ahola-voices-unleashed/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 169,
+    "artists": [
+      "Timo Kotipelto ja Jarkko Ahola"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "DragonForce",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-23T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/DragonForce/167141/405766/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-23/dragonforce/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:30",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 173,
+    "artists": [
+      "DragonForce"
+    ],
+    "genres": [
+      "power metal",
+      "speed metal",
+      "metal",
+      "extreme power metal"
+    ]
   },
   {
     "artist": "Siamese (DEN)",
@@ -2493,6 +4618,54 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "AMORPHIS – Borderland Finland",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-04-24T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/AMORPHIS-Borderland-Finland-2027/166504/403522/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-04-24/amorphis-borderland-finland/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 192,
+    "artists": [
+      "AMORPHIS"
+    ],
+    "genres": [
+      "progressive metal",
+      "melodic death metal",
+      "death metal",
+      "doom metal"
+    ]
+  },
+  {
+    "artist": "Ministry (US) Hate To Go – Goodbye Europe 2027 Tour (Sold Out!)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-05-01T18:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Ministry:-HATE-TO-GO-GOODBYE-EUROPE-2027-K-18/166161/401976/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-05-01/ministry-us-hate-to-go-goodbye-europe-2027-tour/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:00",
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 195,
+    "artists": [
+      "Ministry"
+    ],
+    "genres": [
+      "industrial metal",
+      "industrial",
+      "industrial rock",
+      "metal"
+    ]
+  },
+  {
     "artist": "Reflexion, MELANKOLIA",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -2517,6 +4690,33 @@
     ]
   },
   {
+    "artist": "Bianca del Rio – It Gets Bitter",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-05-10T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/BIANCA-DEL-RIO-IT-GETS-BITTER-K-18/167488/407067/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-05-10/bianca-del-rio-it-gets-bitter/",
+    "venueGenres": [
+      "stand-up-ja-viihde"
+    ],
+    "doors": "18:30",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 167,
+    "artists": [
+      "Bianca del Rio"
+    ],
+    "genres": [
+      "stand-up"
+    ]
+  },
+  {
     "artist": "Greg Howe (USA) – Extraction European Tour featuring Dennis Chambers",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -2536,6 +4736,29 @@
       "jazz fusion",
       "instrumental rock"
     ]
+  },
+  {
+    "artist": "Helsinki Lit 2027 – käännöskirjallisuusfestivaali 21.-22.5. 2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-05-21T16:00:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Helsinki-Lit-2027-2-paivan-liput/166043/401665/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-05-21/helsinki-lit-2027/",
+    "venueGenres": [],
+    "doors": "16:00",
+    "schedule": [
+      {
+        "time": "17:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 197,
+    "artists": [
+      "Helsinki Lit"
+    ],
+    "genres": []
   },
   {
     "artist": "Bombus (SWE)",
@@ -2732,6 +4955,31 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "HAEVN (NL) – ANIMA Tour 2027",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-10-11T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/HAEVN/167920/411050/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-10-11/haevn-nl-anima-tour-2027/",
+    "venueGenres": [
+      "pop-ja-rap",
+      "punk-ja-indie"
+    ],
+    "doors": "18:30",
+    "age": "K-18, osa katsomosta ikärajaton",
+    "detailsFetched": "2026-11-19",
+    "id": 153,
+    "artists": [
+      "HAEVN"
+    ],
+    "genres": [
+      "indie pop",
+      "ambient",
+      "alternative",
+      "electronic"
+    ]
+  },
+  {
     "id": 82,
     "artist": "Pohjola Heavy Jazz Group",
     "venue": "Tavastia Klubi",
@@ -2765,5 +5013,55 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "KANONENFIEBER (DE)",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-11-22T18:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Kanonenfieber-KRIEGSTAGE-2027-Tour/166184/402420/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-11-22/kanonenfieber-de/",
+    "venueGenres": [
+      "rock-ja-metalli"
+    ],
+    "doors": "18:30",
+    "age": "S/K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 194,
+    "artists": [
+      "KANONENFIEBER"
+    ],
+    "genres": [
+      "black metal",
+      "death metal",
+      "blackened death metal"
+    ]
+  },
+  {
+    "artist": "The 12 Tenors – Legacy Tour",
+    "venue": "Kulttuuritalo",
+    "city": "Helsinki",
+    "date": "2027-12-07T17:30:00",
+    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/THE-12-TENORS-LEGACY-TOUR/166602/404155/details",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-12-07/the-12-tenors-legacy-tour/",
+    "venueGenres": [
+      "jazz-ja-viihdemusiikki"
+    ],
+    "doors": "17:30",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": "2026-11-19",
+    "id": 188,
+    "artists": [
+      "The 12 Tenors"
+    ],
+    "genres": [
+      "viihde"
+    ]
   }
 ]

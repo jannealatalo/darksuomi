@@ -2,6 +2,8 @@
 export const VENUE_LINKS: Record<string, string> = {
   "Tavastia Klubi": "https://tavastiaklubi.fi/",
   "On the Rocks": "https://www.rocks.fi/",
+  Kulttuuritalo: "https://kulttuuritalo.fi/",
+  KULT: "https://kulttuuritalo.fi/kult/",
 };
 
 export type SiteLink = { name: string; url: string };

@@ -55,6 +55,7 @@ JUNK_TAGS = {
     "ukraine", "australia", "england", "english", "singer", "finnish singer",
     "eurovision", "all", "norway", "norwegian", "belgian", "belgium", "greek",
     "dutch", "polish", "czech", "swiss", "austrian", "icelandic",
+    "croatian", "faroese", "need to rate", "check",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -90,6 +91,8 @@ TAG_ALIASES = {
     "humour": "stand-up",
     "comedy": "stand-up",
     "stand-up comedy": "stand-up",
+    "drag queen": "stand-up",
+    "drag": "stand-up",
     "rock 'n' roll": "rock & roll",
 }
 
@@ -107,6 +110,10 @@ VENUE_GENRES = {
     "rock": "rock", "pop": "pop", "rap": "rap", "soul-rnb": "r&b",
     "iskelma": "iskelmä", "folk": "folk", "dj": "dj night",
     "stand-up": "stand-up", "other": None,
+    # Kulttuuritalo / KULT categories
+    "rock-ja-metalli": "rock", "punk-ja-indie": "indie", "pop-ja-rap": "pop",
+    "stand-up-ja-viihde": "stand-up", "jazz-ja-viihdemusiikki": "viihde",
+    "blues-ja-country": "blues", "dj-ja-klubit": "dj night",
 }
 
 MAX_TAGS = 6          # keep this many top tags per artist
@@ -138,12 +145,13 @@ def parse_title(title: str) -> list[dict]:
     acts = []
     # "<Festival / club night / show name>: band, band" -> just the bands.
     m = re.match(r"^([^:]*\b(?:festival|fest|club|klubi|presents|night|christmas|xmas|"
-                 r"joulu\w*|tour|showcase|party)\b[^:]*):\s*(.+)$", title, flags=re.I)
+                 r"joulu\w*|tour|showcase|party|lisäkeikka|lisänäytös|extra show)\b[^:]*):\s*(.+)$",
+                 title, flags=re.I)
     if m:
         title = m.group(2)
-    # Split on commas and on " & " between acts; " & " inside a band name
+    # Split on commas and " + " between acts; " & " inside a band name
     # ("Kauko Röyhkä & Voimaeläin") is handled by trying the full name first.
-    for part in re.split(r",\s*", title):
+    for part in re.split(r",\s*|\s+\+\s+", title):
         part = part.strip()
         if not part:
             continue
@@ -152,7 +160,11 @@ def parse_title(title: str) -> list[dict]:
         m = re.search(r"\(([A-Za-z]{1,3})(?:-[A-Za-z]{1,3})?\)", part)
         if m and m.group(1).upper() in COUNTRY_CODES:
             country = COUNTRY_CODES[m.group(1).upper()]
+            # "Ministry (US) Hate To Go – …": the name ends at the country code.
+            part = part[:m.start()]
 
+        # Drop quoted show names: Suzi Quatro “ROCKIN’ ON!”, X ”Ride The Lightning”.
+        part = re.sub(r"\s*[“”\"«][^“”\"»]*[“”\"»]", "", part)
         # Drop all parentheses: country codes, age limits, release-party notes.
         part = re.sub(r"\s*\([^)]*\)", "", part)
         # Headliner comes before a dash or colon: "X – tour name", "X: show".
@@ -161,6 +173,7 @@ def parse_title(title: str) -> list[dict]:
         part = re.split(r"\s+(?:plays|goes|feat\.?|featuring)\s+", part, flags=re.I)[0]
         # Trailing "Tour 2026", "X-mas special 2026", "20v", years.
         part = re.sub(r"\s+(tour|x-mas special|special)\b.*$", "", part, flags=re.I)
+        part = re.sub(r"\s+\S*-?kiertue\b.*$", "", part, flags=re.I)  # Finnish "tour"
         part = re.sub(r"\s+\d{4}$", "", part)
         part = re.sub(r"\s+-?(levyjulkkarit|konsertti)$", "", part, flags=re.I)
         part = re.sub(r"\s+\d+-vuotisjuhlakeikka$", "", part, flags=re.I)
@@ -314,14 +327,18 @@ def resolve_artist(act: dict, cache: dict, overrides: dict, refresh: bool) -> tu
             cache[n] = lookup_artist(n, act["country"])
         return cache[n]
 
+    def tidy(tags: list[str]) -> list[str]:
+        # Re-apply junk/alias rules to cached tags, keeping their order.
+        return clean_tags([(t, len(tags) - i) for i, t in enumerate(tags)])
+
     entry = get(name)
     if entry["source"] != "notfound" or "&" not in name:
-        return name, entry["tags"]
+        return name, tidy(entry["tags"])
 
     # "Blues Pills & Graveyard" -> two artists.
     tags = []
     for sub in re.split(r"\s+&\s+", name):
-        tags += [t for t in get(sub)["tags"] if t not in tags]
+        tags += [t for t in tidy(get(sub)["tags"]) if t not in tags]
     return name, tags
 
 
