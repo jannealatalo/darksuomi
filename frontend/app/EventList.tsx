@@ -1,5 +1,5 @@
 import { eventTime, gapsBefore, groupByDay, type GigGap } from "../lib/events";
-import { noGigJoke } from "../lib/jokes";
+import { jokeParts, noGigJoke } from "../lib/jokes";
 import {
   actualSetlists,
   expectedSetlists,
@@ -221,7 +221,23 @@ function GapRow({ gap }: { gap: GigGap }) {
   return (
     <div className="sm:grid sm:grid-cols-[4.5rem_1fr] sm:gap-6 border-b border-gray-900 py-3">
       <div className="mb-1 sm:mb-0 text-sm font-semibold text-gray-500">{gap.label}</div>
-      <p className="text-sm italic text-gray-400">{noGigJoke(gap.from, gap.days)}</p>
+      <p className="text-sm italic text-gray-400">
+        {jokeParts(noGigJoke(gap.from, gap.days)).map((part, i) =>
+          part.url ? (
+            <a
+              key={i}
+              href={part.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-purple-300 not-italic"
+            >
+              {part.text}
+            </a>
+          ) : (
+            <span key={i}>{part.text}</span>
+          )
+        )}
+      </p>
     </div>
   );
 }
