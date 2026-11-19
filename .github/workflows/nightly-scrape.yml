@@ -1,0 +1,61 @@
+name: Nightly scrape
+
+# Scrapes venue events, tags genres and builds expected setlists, then
+# commits the updated data to main. Vercel deploys the commit automatically.
+
+on:
+  schedule:
+    # 02:00 UTC = 04:00 Finnish winter time / 05:00 summer time.
+    # GitHub may start scheduled runs a few minutes late.
+    - cron: "0 2 * * *"
+  # Lets you run it by hand: Actions tab -> Nightly scrape -> Run workflow.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper-requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scraper-requirements.txt
+
+      - name: Scrape events
+        run: python scraper_advanced.py
+
+      - name: Tag genres
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python genres.py
+
+      - name: Build expected setlists
+        env:
+          SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}
+        run: python setlists.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "Nightly data update $(date -u +%Y-%m-%d)"
+          git push
