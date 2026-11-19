@@ -38,6 +38,9 @@ jobs:
       - name: Scrape Tavastia
         run: python scraper_advanced.py
 
+      - name: Tavastia doors and stage times
+        run: python enrich_tavastia.py
+
       - name: Scrape On the Rocks
         run: python scraper_rocks.py
 

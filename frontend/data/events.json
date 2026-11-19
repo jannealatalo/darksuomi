@@ -4,7 +4,7 @@
     "artist": "Kauko Röyhkä & Voimaeläin",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-19T00:00:00",
+    "date": "2026-11-19T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-19/kauko-royhka-voimaelain/121402/",
     "artists": [
       "Kauko Röyhkä & Voimaeläin"
@@ -12,7 +12,17 @@
     "genres": [
       "rock",
       "singer-songwriter"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Kauko Röyhkä & Voimaeläin"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Hellsinki Industrial Festival 2026 Pre-Club: Scheitan (SWE), Agent Side Grinder (SWE), Stuka, Akathartos, DJ Vade Retro (GBR)",
@@ -48,7 +58,7 @@
     "artist": "The Flaming Sideburns, Us",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-20T00:00:00",
+    "date": "2026-11-20T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-20/the-flaming-sideburns-us/120429/",
     "artists": [
       "The Flaming Sideburns",
@@ -58,7 +68,21 @@
       "garage rock",
       "rock",
       "rock n roll"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "20:30",
+        "name": "Us"
+      },
+      {
+        "time": "21:45",
+        "name": "The Flaming Sideburns"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Timo Pieni Huijaus (levyjulkkarit), Tiia Karoliina, KC4",
@@ -103,19 +127,23 @@
     "artist": "Levymessut",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-21T00:00:00",
+    "date": "2026-11-21T11:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-21/levymessut/121706/",
     "artists": [
       "Levymessut"
     ],
-    "genres": []
+    "genres": [],
+    "age": "Ikärajaton",
+    "room": "Tavastia-klubi",
+    "doors": "11:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 4,
     "artist": "Juha Tapio",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-21T00:00:00",
+    "date": "2026-11-21T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-21/juha-tapio/120375/",
     "artists": [
       "Juha Tapio"
@@ -123,7 +151,17 @@
     "genres": [
       "pop",
       "gospel"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "21:30",
+        "name": "Juha Tapio"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Paara (levyjulkkarit), Svarta Havet",
@@ -171,7 +209,7 @@
     "artist": "Michael Monroe plays Hanoi Rocks (Ikärajaton)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-22T00:00:00",
+    "date": "2026-11-22T14:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120875/",
     "artists": [
       "Michael Monroe"
@@ -180,14 +218,24 @@
       "hard rock",
       "glam rock",
       "rock"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "15:30",
+        "name": "Michael Monroe"
+      }
+    ],
+    "age": "Ikärajaton",
+    "room": "Tavastia-klubi",
+    "doors": "14:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 6,
     "artist": "Michael Monroe plays Hanoi Rocks (K-18)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-22T00:00:00",
+    "date": "2026-11-22T18:30:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120874/",
     "artists": [
       "Michael Monroe"
@@ -196,21 +244,41 @@
       "hard rock",
       "glam rock",
       "rock"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Michael Monroe"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:30",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 7,
     "artist": "Aliisa Syrjä",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-25T00:00:00",
+    "date": "2026-11-25T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-25/aliisa-syrja/118917/",
     "artists": [
       "Aliisa Syrjä"
     ],
     "genres": [
       "pop"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "20:30",
+        "name": "Aliisa Syrjä"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Hulda Huima, Ani Harmi",
@@ -263,7 +331,7 @@
     "artist": "STAM1NA – DIRTY YEARS 2026",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-27T00:00:00",
+    "date": "2026-11-27T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-27/stam1na-dirty-years-2026/120340/",
     "artists": [
       "STAM1NA"
@@ -272,7 +340,21 @@
       "thrash metal",
       "progressive metal",
       "metal"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "20:30",
+        "name": "It’s About Us"
+      },
+      {
+        "time": "21:30",
+        "name": "Stam1na"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Death Hawks, Idän Voima",
@@ -318,7 +400,7 @@
     "artist": "Kemmuru – Kehumatta paras 20 vuotta",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-28T00:00:00",
+    "date": "2026-11-28T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-28/kemmuru-kehumatta-paras-20-vuotta/120342/",
     "artists": [
       "Kemmuru"
@@ -326,7 +408,17 @@
     "genres": [
       "hip hop",
       "rap"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "21:30",
+        "name": "Kemmuru"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Stepa & Heimo Ilman Menneisyyttä, AB",
@@ -378,7 +470,7 @@
     "artist": "Master Boot Record (ITA), Fulci (ITA), Arottenbit (ITA)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-11-29T00:00:00",
+    "date": "2026-11-29T18:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-29/master-boot-record-ita-fulci-ita-arottenbit-ita/116589/",
     "artists": [
       "Master Boot Record",
@@ -395,7 +487,25 @@
       "drone",
       "drone doom",
       "8-bit"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "18:30",
+        "name": "Arottenbit"
+      },
+      {
+        "time": "19:30",
+        "name": "Fulci"
+      },
+      {
+        "time": "21:00",
+        "name": "Master Boot Record"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "HEO On The Rocks",
@@ -420,7 +530,7 @@
     "artist": "THE HARDKISS (UA)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-01T00:00:00",
+    "date": "2026-12-01T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-01/the-hardkiss-ua/112283/",
     "artists": [
       "THE HARDKISS"
@@ -429,7 +539,11 @@
       "electronic",
       "dance",
       "alternative rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Anvil (CAN), Killer (BE)",
@@ -458,12 +572,16 @@
     "artist": "Säveltäjä Olli Lindholm -konsertti",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-02T00:00:00",
+    "date": "2026-12-02T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-02/saveltaja-olli-lindholm-konsertti/121074/",
     "artists": [
       "Säveltäjä Olli Lindholm"
     ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "SWINGIN’ CHRISTMAS: Reunion Big Band & Alex Ikonen",
@@ -509,7 +627,7 @@
     "artist": "Neljä Ruusua",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-04T00:00:00",
+    "date": "2026-12-04T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-04/nelja-ruusua/119854/",
     "artists": [
       "Neljä Ruusua"
@@ -518,7 +636,11 @@
       "rock",
       "pop",
       "suomirock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "ALLT (SWE), Avralize (GER), Bite Down (SWE)",
@@ -568,7 +690,7 @@
     "artist": "Blues Pills & Graveyard Tour 2026",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-05T00:00:00",
+    "date": "2026-12-05T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/",
     "artists": [
       "Blues Pills & Graveyard"
@@ -578,7 +700,11 @@
       "psychedelic rock",
       "stoner rock",
       "hard rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Kotiteollisuus",
@@ -680,7 +806,7 @@
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-10T00:00:00",
+    "date": "2026-12-10T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-10/kaarija/118513/",
     "artists": [
       "Käärijä"
@@ -688,7 +814,11 @@
     "genres": [
       "rap",
       "electronic"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "MARIANAS REST – The Last Dance: A Night of Remembrance",
@@ -716,7 +846,7 @@
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-11T00:00:00",
+    "date": "2026-12-11T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-11/kaarija/118317/",
     "artists": [
       "Käärijä"
@@ -724,7 +854,11 @@
     "genres": [
       "rap",
       "electronic"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "St. Aurora – 6th Birthday Bash",
@@ -751,7 +885,7 @@
     "artist": "Käärijä - Ikärajaton",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-12T00:00:00",
+    "date": "2026-12-12T15:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-12/kaarija-ikarajaton/120728/",
     "artists": [
       "Käärijä"
@@ -759,14 +893,18 @@
     "genres": [
       "rap",
       "electronic"
-    ]
+    ],
+    "age": "Ikärajaton",
+    "room": "Tavastia-klubi",
+    "doors": "15:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 18,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-12T00:00:00",
+    "date": "2026-12-12T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-12/kaarija/118316/",
     "artists": [
       "Käärijä"
@@ -774,7 +912,11 @@
     "genres": [
       "rap",
       "electronic"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "The Ocean (GER), Psychonaut (BEL), Pothamus (BEL)",
@@ -846,7 +988,7 @@
     "artist": "Don Johnson Big Band X-mas special 2026",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-16T00:00:00",
+    "date": "2026-12-16T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-16/don-johnson-big-band-x-mas-special-2026/120573/",
     "artists": [
       "Don Johnson Big Band"
@@ -855,7 +997,11 @@
       "hip hop",
       "jazz",
       "electronic"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Plusminuszero, Delfoi Road",
@@ -882,12 +1028,16 @@
     "artist": "Dumari & Spuget & Blosarit",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-17T00:00:00",
+    "date": "2026-12-17T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-17/dumari-spuget-blosarit/121302/",
     "artists": [
       "Dumari & Spuget & Blosarit"
     ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Marko Haavisto & Poutahaukat",
@@ -913,7 +1063,7 @@
     "artist": "Von Hertzen Brothers - Rarities 25th Anniversary Tour",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-18T00:00:00",
+    "date": "2026-12-18T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-18/von-hertzen-brothers-rarities-25th-anniversary-tour/120425/",
     "artists": [
       "Von Hertzen Brothers"
@@ -921,7 +1071,11 @@
     "genres": [
       "progressive rock",
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Combichrist (USA): Old School Electro Set, Sirkuit Preiker",
@@ -950,7 +1104,7 @@
     "artist": "Arttu Wiskari",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-19T00:00:00",
+    "date": "2026-12-19T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-19/arttu-wiskari/120783/",
     "artists": [
       "Arttu Wiskari"
@@ -958,7 +1112,11 @@
     "genres": [
       "pop",
       "singer-songwriter"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Lemonator, Ben’s Diapers",
@@ -986,24 +1144,16 @@
     "artist": "Pertti Kurikan 70 v. -juhladisko",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-26T00:00:00",
+    "date": "2026-12-26T18:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-26/pertti-kurikan-70-v-juhladisko/122332/",
     "artists": [
       "Pertti Kurikan 70 v. -juhladisko"
     ],
-    "genres": []
-  },
-  {
-    "id": 24,
-    "artist": "Tatskatyttöjen Tapsantanssit",
-    "venue": "Tavastia Klubi",
-    "city": "Helsinki",
-    "date": "2026-12-26T00:00:00",
-    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-26/tatskatyttojen-tapsantanssit/121970/",
-    "artists": [
-      "Tatskatyttöjen Tapsantanssit"
-    ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Aino & Hajonneet – Livee & Lovee",
@@ -1024,11 +1174,27 @@
     ]
   },
   {
+    "id": 24,
+    "artist": "Tatskatyttöjen Tapsantanssit",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2026-12-26T23:30:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-26/tatskatyttojen-tapsantanssit/121970/",
+    "artists": [
+      "Tatskatyttöjen Tapsantanssit"
+    ],
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "23:30",
+    "detailsFetched": "2026-11-19"
+  },
+  {
     "id": 25,
     "artist": "Asa: Terveisiä kaaoksesta 20v",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2026-12-29T00:00:00",
+    "date": "2026-12-29T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-29/asa-terveisia-kaaoksesta-20v/121190/",
     "artists": [
       "Asa"
@@ -1037,7 +1203,11 @@
       "rap",
       "hip hop",
       "political"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 26,
@@ -1051,7 +1221,10 @@
     ],
     "genres": [
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "New Year’s Eve with Shiraz Lane & special guest Kormus",
@@ -1076,7 +1249,7 @@
     "artist": "Hola Ghost (DK), Black Magic Six, Hauntees",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-01T00:00:00",
+    "date": "2027-01-01T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-01/hola-ghost-dk-black-magic-six-hauntees/121816/",
     "artists": [
       "Hola Ghost",
@@ -1089,14 +1262,18 @@
       "flamencore",
       "surf",
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 28,
     "artist": "Red Eleven plays Faith No More feat. Ville Tuomi",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-02T00:00:00",
+    "date": "2027-01-02T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-02/red-eleven-plays-faith-no-more-feat-ville-tuomi/121820/",
     "artists": [
       "Red Eleven"
@@ -1104,7 +1281,11 @@
     "genres": [
       "alternative rock",
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Jonne (levyjulkkarit), Shaman, The Paisleys",
@@ -1138,42 +1319,54 @@
     "artist": "Vörjeans",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-06T00:00:00",
+    "date": "2027-01-06T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-06/vorjeans/120382/",
     "artists": [
       "Vörjeans"
     ],
     "genres": [
       "rockabilly"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 30,
     "artist": "Vörjeans",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-07T00:00:00",
+    "date": "2027-01-07T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-07/vorjeans/120310/",
     "artists": [
       "Vörjeans"
     ],
     "genres": [
       "rockabilly"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 31,
     "artist": "Vörjeans",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-08T00:00:00",
+    "date": "2027-01-08T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-08/vorjeans/120422/",
     "artists": [
       "Vörjeans"
     ],
     "genres": [
       "rockabilly"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Berlin Project III – David Bowie 80th Anniversary Tribute Show",
@@ -1198,14 +1391,18 @@
     "artist": "TIISU - Päätöskeikka",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-09T00:00:00",
+    "date": "2027-01-09T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-09/tiisu-paatoskeikka/121453/",
     "artists": [
       "TIISU"
     ],
     "genres": [
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Kirkkovene, Kirkkovene & Eero Eksyksissä plays Tyrävyö, Aspesti",
@@ -1233,12 +1430,16 @@
     "artist": "Timo Kämäräinen",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-15T00:00:00",
+    "date": "2027-01-15T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-15/timo-kamarainen/121924/",
     "artists": [
       "Timo Kämäräinen"
     ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Remedy (SWE)",
@@ -1265,7 +1466,7 @@
     "artist": "good boys - VEACE-levyjulkkarit",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-16T00:00:00",
+    "date": "2027-01-16T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-16/good-boys-veace-levyjulkkarit/122127/",
     "artists": [
       "good boys"
@@ -1273,31 +1474,49 @@
     "genres": [
       "hip hop",
       "rap"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 35,
     "artist": "Kruna goes Tavastia",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-19T00:00:00",
+    "date": "2027-01-19T17:30:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-19/kruna-goes-tavastia/122518/",
     "artists": [
       "Kruna"
     ],
-    "genres": []
+    "genres": [],
+    "schedule": [
+      {
+        "time": "18:00",
+        "name": "Showtime"
+      }
+    ],
+    "age": "Ikärajaton",
+    "room": "Tavastia-klubi",
+    "doors": "17:30",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 36,
     "artist": "Frank Zappa Memorial Pancake Breakfast",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-20T00:00:00",
+    "date": "2027-01-20T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-20/frank-zappa-memorial-pancake-breakfast/121443/",
     "artists": [
       "Frank Zappa Memorial Pancake Breakfast"
     ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Wolfram, Pretty",
@@ -1330,7 +1549,7 @@
     "artist": "Tuomo - My Thing 20th Anniversary",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-22T00:00:00",
+    "date": "2027-01-22T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-22/tuomo-my-thing-20th-anniversary/120768/",
     "artists": [
       "Tuomo"
@@ -1339,14 +1558,18 @@
       "soul",
       "funk",
       "chillout"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 38,
     "artist": "Pikakassa, Kovaa Rasvaa, St. Hood",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-23T00:00:00",
+    "date": "2027-01-23T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-23/pikakassa-kovaa-rasvaa-st-hood/121699/",
     "artists": [
       "Pikakassa",
@@ -1360,7 +1583,11 @@
       "hardcore",
       "punk",
       "hardcore punk"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Sin Cos Tan, Ty Roxy",
@@ -1391,7 +1618,7 @@
     "artist": "SARA",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-29T00:00:00",
+    "date": "2027-01-29T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-29/sara/120427/",
     "artists": [
       "SARA"
@@ -1400,14 +1627,18 @@
       "alternative rock",
       "alternative metal",
       "alternative"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 40,
     "artist": "Reilukerho 20-vuotisjuhlakeikka",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-01-30T00:00:00",
+    "date": "2027-01-30T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-30/reilukerho-20-vuotisjuhlakeikka/122222/",
     "artists": [
       "Reilukerho"
@@ -1416,14 +1647,18 @@
       "rap",
       "hip hop",
       "olari"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 41,
     "artist": "Young Gun Silver Fox (UK), Miller Campbell (USA)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-02T00:00:00",
+    "date": "2027-02-02T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-02/young-gun-silver-fox-uk-miller-campbell-usa/118688/",
     "artists": [
       "Young Gun Silver Fox",
@@ -1434,14 +1669,18 @@
       "soul",
       "west coast",
       "country"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 42,
     "artist": "Crashdiet (SWE)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-05T00:00:00",
+    "date": "2027-02-05T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-05/crashdiet-swe/119073/",
     "artists": [
       "Crashdiet"
@@ -1451,7 +1690,11 @@
       "glam metal",
       "hard rock",
       "sleaze rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Helsinki Must Be Destroyed",
@@ -1484,7 +1727,10 @@
     "genres": [
       "electronic",
       "rap"
-    ]
+    ],
+    "age": "Ikärajaton",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 44,
@@ -1499,7 +1745,10 @@
     "genres": [
       "electronic",
       "rap"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Helsinki Must Be Destroyed",
@@ -1542,12 +1791,16 @@
     "artist": "Kiitos Katri Helena",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-10T00:00:00",
+    "date": "2027-02-10T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-10/kiitos-katri-helena/117383/",
     "artists": [
       "Kiitos Katri Helena"
     ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Thomas Green (AUS): Brainstorm",
@@ -1591,7 +1844,7 @@
     "artist": "Signs of the Swarm (USA), Ten56 (Fra), Oceans Ate Alaska (UK) & Face Yourself (Fra-USA)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-12T00:00:00",
+    "date": "2027-02-12T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-12/signs-of-the-swarm-usa/120715/",
     "artists": [
       "Signs of the Swarm",
@@ -1606,7 +1859,11 @@
       "post-hardcore",
       "progressive metalcore",
       "emocore"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Dawn Of Solace (levyjulkkarit)",
@@ -1634,7 +1891,7 @@
     "artist": "CATCH YOUR BREATH (USA) - NOT BROKEN ENOUGH TOUR 2027",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-13T00:00:00",
+    "date": "2027-02-13T18:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-13/catch-your-breath-usa/118623/",
     "artists": [
       "CATCH YOUR BREATH"
@@ -1643,28 +1900,36 @@
       "metalcore",
       "post-hardcore",
       "alternative metal"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 49,
     "artist": "Melrose Avenue (AUS)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-16T00:00:00",
+    "date": "2027-02-16T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-16/melrose-avenue-aus/118668/",
     "artists": [
       "Melrose Avenue"
     ],
     "genres": [
       "metalcore"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 50,
     "artist": "Ruusut",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-18T00:00:00",
+    "date": "2027-02-18T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-18/ruusut/121292/",
     "artists": [
       "Ruusut"
@@ -1673,14 +1938,18 @@
       "electronic",
       "synthpop",
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 51,
     "artist": "Ruusut",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-19T00:00:00",
+    "date": "2027-02-19T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-19/ruusut/121049/",
     "artists": [
       "Ruusut"
@@ -1689,7 +1958,11 @@
       "electronic",
       "synthpop",
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Andy and the Rockets (SWE)",
@@ -1715,7 +1988,7 @@
     "artist": "VIIVI",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-20T00:00:00",
+    "date": "2027-02-20T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-20/viivi/118315/",
     "artists": [
       "VIIVI"
@@ -1723,14 +1996,24 @@
     "genres": [
       "finnish female vocalists",
       "pop"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "21:30",
+        "name": "VIIVI"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 54,
     "artist": "Dynazty (SWE)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-24T00:00:00",
+    "date": "2027-02-24T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-24/dynazty-swe/121969/",
     "artists": [
       "Dynazty"
@@ -1740,14 +2023,18 @@
       "heavy metal",
       "power metal",
       "hair metal"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 55,
     "artist": "Huora, Lähiöbotox",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-26T00:00:00",
+    "date": "2027-02-26T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-26/huora-lahiobotox/121056/",
     "artists": [
       "Huora",
@@ -1760,14 +2047,18 @@
       "hardcore",
       "groove metal",
       "heavy hardcore"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 56,
     "artist": "Huora, Lähiöbotox",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-02-27T00:00:00",
+    "date": "2027-02-27T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-27/huora-lahiobotox/121492/",
     "artists": [
       "Huora",
@@ -1780,28 +2071,36 @@
       "hardcore",
       "groove metal",
       "heavy hardcore"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 57,
     "artist": "Jacob Banks (UK)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-01T00:00:00",
+    "date": "2027-03-01T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-01/jacob-banks-uk/121708/",
     "artists": [
       "Jacob Banks"
     ],
     "genres": [
       "soul"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 58,
     "artist": "Sunnan (SWE)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-03T00:00:00",
+    "date": "2027-03-03T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-03/sunnan-swe/121312/",
     "artists": [
       "Sunnan"
@@ -1809,14 +2108,18 @@
     "genres": [
       "psychedelic",
       "soul"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 59,
     "artist": "Vesterinen Yhtyeineen: Paluu Tavastialle",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-06T00:00:00",
+    "date": "2027-03-06T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-06/vesterinen-yhtyeineen-paluu-tavastialle/121808/",
     "artists": [
       "Vesterinen Yhtyeineen"
@@ -1824,7 +2127,17 @@
     "genres": [
       "rock",
       "pop"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Vesterinen Yhtyeineen"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "EU VOMITOUR 2027 – TRUE SLAM EDITION: Party Cannon, Internal Bleeding, Guttural Slug",
@@ -1854,7 +2167,7 @@
     "artist": "Vesterinen Yhtyeineen: Paluu Tavastialle",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-07T00:00:00",
+    "date": "2027-03-07T18:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-07/vesterinen-yhtyeineen-paluu-tavastialle/121810/",
     "artists": [
       "Vesterinen Yhtyeineen"
@@ -1862,14 +2175,24 @@
     "genres": [
       "rock",
       "pop"
-    ]
+    ],
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "Vesterinen Yhtyeineen"
+      }
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 61,
     "artist": "D'espairsRay (JPN)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-08T00:00:00",
+    "date": "2027-03-08T18:30:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-08/despairsray-jpn/119573/",
     "artists": [
       "D'espairsRay"
@@ -1878,14 +2201,18 @@
       "j-rock",
       "visual kei",
       "industrial metal"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:30",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 62,
     "artist": "JIPPU",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-11T00:00:00",
+    "date": "2027-03-11T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-11/jippu/121500/",
     "artists": [
       "JIPPU"
@@ -1893,7 +2220,11 @@
     "genres": [
       "pop",
       "singer-songwriter"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "King Satan (levyjulkkarit), Ghoulstars, Danger Håt",
@@ -1924,7 +2255,7 @@
     "artist": "Lars Winnerbäck (SWE)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-14T00:00:00",
+    "date": "2027-03-14T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-14/lars-winnerback-swe/121543/",
     "artists": [
       "Lars Winnerbäck"
@@ -1933,14 +2264,18 @@
       "singer-songwriter",
       "pop",
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 64,
     "artist": "Lars Winnerbäck (SWE)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-15T00:00:00",
+    "date": "2027-03-15T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-15/lars-winnerback-swe/121542/",
     "artists": [
       "Lars Winnerbäck"
@@ -1949,14 +2284,18 @@
       "singer-songwriter",
       "pop",
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 65,
     "artist": "Dina Ögon (SWE)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-20T00:00:00",
+    "date": "2027-03-20T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-20/dina-ogon-swe/119960/",
     "artists": [
       "Dina Ögon"
@@ -1964,14 +2303,18 @@
     "genres": [
       "soul",
       "psychedelic pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 66,
     "artist": "Bloodred Hourglass, Brymir, Pridian (EST)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-21T00:00:00",
+    "date": "2027-03-21T18:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-21/bloodred-hourglass-brymir-pridian-est/122286/",
     "artists": [
       "Bloodred Hourglass",
@@ -1988,14 +2331,18 @@
       "symphonic metal",
       "metal",
       "industrial metal"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 67,
     "artist": "Pesso (Levyjulkkarit)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-25T00:00:00",
+    "date": "2027-03-25T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-25/pesso-levyjulkkarit/121028/",
     "artists": [
       "Pesso"
@@ -2003,28 +2350,36 @@
     "genres": [
       "rap",
       "indie"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 68,
     "artist": "Mouhous",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-26T00:00:00",
+    "date": "2027-03-26T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-26/mouhous/122186/",
     "artists": [
       "Mouhous"
     ],
     "genres": [
       "rap"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 69,
     "artist": "Saul Williams (USA)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-03-29T00:00:00",
+    "date": "2027-03-29T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-29/saul-williams-usa/120779/",
     "artists": [
       "Saul Williams"
@@ -2034,7 +2389,11 @@
       "spoken word",
       "poetry",
       "rap"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 70,
@@ -2051,14 +2410,17 @@
       "blues",
       "rock",
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 71,
     "artist": "J. Karjalainen",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-04-02T00:00:00",
+    "date": "2027-04-02T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-04-02/j-karjalainen/122089/",
     "artists": [
       "J. Karjalainen"
@@ -2068,14 +2430,18 @@
       "blues",
       "rock",
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 72,
     "artist": "Mariska",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-04-10T00:00:00",
+    "date": "2027-04-10T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-04-10/mariska/122476/",
     "artists": [
       "Mariska"
@@ -2083,7 +2449,11 @@
     "genres": [
       "rap",
       "hip hop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Siamese (DEN)",
@@ -2117,7 +2487,10 @@
     ],
     "genres": [
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Reflexion, MELANKOLIA",
@@ -2204,7 +2577,10 @@
       "metalcore",
       "atm metalcore",
       "rock progresivo"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "artist": "Raswaa koneeseen vol. 2!",
@@ -2229,7 +2605,7 @@
     "artist": "The Pineapple Thief (UK)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-06-01T00:00:00",
+    "date": "2027-06-01T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-06-01/the-pineapple-thief-uk/120777/",
     "artists": [
       "The Pineapple Thief"
@@ -2237,14 +2613,18 @@
     "genres": [
       "progressive rock",
       "art rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 76,
     "artist": "Wolf Parade (CAN)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-06-12T00:00:00",
+    "date": "2027-06-12T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-06-12/wolf-parade-can/122299/",
     "artists": [
       "Wolf Parade"
@@ -2253,7 +2633,11 @@
       "indie rock",
       "indie",
       "alternative"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 77,
@@ -2269,7 +2653,10 @@
       "rock",
       "singer-songwriter",
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 78,
@@ -2285,14 +2672,17 @@
       "rock",
       "singer-songwriter",
       "pop"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 79,
     "artist": "The Chats (AU)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-09-09T00:00:00",
+    "date": "2027-09-09T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-09-09/the-chats-au/121811/",
     "artists": [
       "The Chats"
@@ -2302,7 +2692,11 @@
       "punk rock",
       "garage rock",
       "garage punk"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 80,
@@ -2314,14 +2708,16 @@
     "artists": [
       "REAPER FEST"
     ],
-    "genres": []
+    "genres": [],
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 81,
     "artist": "The Mission (UK)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-10-02T00:00:00",
+    "date": "2027-10-02T20:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-10-02/the-mission-uk/120433/",
     "artists": [
       "The Mission"
@@ -2329,7 +2725,11 @@
     "genres": [
       "gothic rock",
       "rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 82,
@@ -2341,14 +2741,17 @@
     "artists": [
       "Pohjola Heavy Jazz Group"
     ],
-    "genres": []
+    "genres": [],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "detailsFetched": "2026-11-19"
   },
   {
     "id": 83,
     "artist": "Henge (UK)",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
-    "date": "2027-11-15T00:00:00",
+    "date": "2027-11-15T19:00:00",
     "ticketUrl": "https://tavastiaklubi.fi/events/2027-11-15/henge-uk/122018/",
     "artists": [
       "Henge"
@@ -2357,6 +2760,10 @@
       "space rock",
       "stoner rock",
       "noise rock"
-    ]
+    ],
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19"
   }
 ]

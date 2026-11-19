@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { ExpectedSetlist } from "../lib/setlists";
 
 function formatDate(iso: string) {
@@ -14,21 +15,24 @@ export default function ExpectedSetlists({
   special: boolean;
   playlistUrl: string | null;
 }) {
+  const [open, setOpen] = useState(false);
   if (setlists.length === 0) return null;
   const showArtistNames = setlists.length > 1;
 
   return (
-    <details className="mt-1 text-sm group">
-      <summary className="cursor-pointer text-gray-400 hover:text-gray-200 select-none">
-        Expected setlist
-      </summary>
-
-      <div className="mt-2 pl-4 border-l border-gray-800 space-y-4">
-        {special && (
-          <p className="text-xs text-amber-400">
-            Special show: the setlist will likely differ from their usual set.
-          </p>
-        )}
+    <div className="mt-1 text-sm">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+        <button
+          type="button"
+          onClick={() => setOpen(!open)}
+          aria-expanded={open}
+          className="inline-flex items-center gap-1.5 text-gray-400 hover:text-gray-200"
+        >
+          <span aria-hidden="true" className={`text-xs transition-transform ${open ? "rotate-90" : ""}`}>
+            ▶
+          </span>
+          Expected setlist
+        </button>
 
         {playlistUrl && (
           <a
@@ -42,6 +46,15 @@ export default function ExpectedSetlists({
             </svg>
             Listen on Spotify
           </a>
+        )}
+      </div>
+
+      {open && (
+      <div className="mt-2 pl-4 border-l border-gray-800 space-y-4">
+        {special && (
+          <p className="text-xs text-amber-400">
+            Special show: the setlist will likely differ from their usual set.
+          </p>
         )}
 
         {setlists.map((s) => {
@@ -92,7 +105,8 @@ export default function ExpectedSetlists({
           );
         })}
       </div>
-    </details>
+      )}
+    </div>
   );
 }
 

@@ -16,6 +16,9 @@ import { useState } from "react";
 
 const events = getEvents();
 const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
+const allVenues = [...new Set(events.map((e) => e.venue))].sort((a, b) =>
+  a.localeCompare(b, "fi")
+);
 
 export default function Home() {
   const { data: session } = useSession();
@@ -28,15 +31,30 @@ export default function Home() {
         : null;
   const [showOnlyFollowed, setShowOnlyFollowed] = useState(false);
   const [showAllGenres, setShowAllGenres] = useState(false);
+  const [hiddenVenues, setHiddenVenues] = useState<Set<string>>(new Set());
 
   const isFollowedEvent = (event: Event) =>
     eventArtistNames(event).some((name) => followedArtists.has(name));
 
-  const filteredEvents = events.filter(
+  // Genre and follow filters first; venue counts are based on this list.
+  const genreFiltered = events.filter(
     (event) =>
       (showAllGenres || !isExcludedByGenre(event)) &&
       (!showOnlyFollowed || isFollowedEvent(event))
   );
+  const venueCounts = new Map<string, number>();
+  for (const e of genreFiltered) {
+    venueCounts.set(e.venue, (venueCounts.get(e.venue) ?? 0) + 1);
+  }
+  const filteredEvents = genreFiltered.filter((e) => !hiddenVenues.has(e.venue));
+
+  const toggleVenue = (venue: string) =>
+    setHiddenVenues((prev) => {
+      const next = new Set(prev);
+      if (next.has(venue)) next.delete(venue);
+      else next.add(venue);
+      return next;
+    });
 
   const hasFollowedArtists = followedArtists.size > 0;
 
@@ -182,6 +200,44 @@ export default function Home() {
               </p>
             )}
           </div>
+        )}
+
+        {allVenues.length > 1 && (
+          <fieldset className="mb-6 text-sm text-gray-400">
+            <legend className="mb-1.5 flex items-baseline gap-3">
+              <span>Venues</span>
+              <button
+                type="button"
+                onClick={() => setHiddenVenues(new Set())}
+                className="text-xs text-purple-400 hover:text-purple-300"
+              >
+                all
+              </button>
+              <button
+                type="button"
+                onClick={() => setHiddenVenues(new Set(allVenues))}
+                className="text-xs text-purple-400 hover:text-purple-300"
+              >
+                none
+              </button>
+            </legend>
+            <div className="flex flex-wrap gap-x-5 gap-y-1.5">
+              {allVenues.map((venue) => (
+                <label key={venue} className="inline-flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={!hiddenVenues.has(venue)}
+                    onChange={() => toggleVenue(venue)}
+                    className="accent-purple-600"
+                  />
+                  {venue}
+                  <span className="text-gray-600 tabular-nums">
+                    {venueCounts.get(venue) ?? 0}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
         )}
 
         <hr className="border-gray-800 mb-6" />

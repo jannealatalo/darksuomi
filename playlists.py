@@ -38,6 +38,7 @@ DATA_DIR = ROOT / "frontend" / "data"
 EVENTS_FILE = DATA_DIR / "events.json"
 SETLISTS_FILE = DATA_DIR / "setlists.json"
 PLAYLISTS_FILE = DATA_DIR / "playlists.json"
+GENRE_CONFIG_FILE = DATA_DIR / "genre-config.json"
 TRACKS_FILE = DATA_DIR / "spotify-tracks.json"
 
 API = "https://api.spotify.com/v1"
@@ -117,6 +118,16 @@ class Spotify:
         return (exact or by_artist)[0]["uri"]
 
 
+def hidden_by_default(event: dict, config: dict) -> bool:
+    """Same rule as the website (frontend/lib/events.ts isExcludedByGenre)."""
+    genres = event.get("genres") or []
+    patterns = [re.compile("^" + ".*".join(map(re.escape, p.split("*"))) + "$")
+                for p in config.get("alwaysShowGenres", [])]
+    if any(p.match(g) for g in genres for p in patterns):
+        return False
+    return not genres or genres[0] in set(config.get("excludeGenres", []))
+
+
 def acts_with_setlists(event: dict, setlists: dict) -> list[tuple[str, dict]]:
     """(artist, setlist) for each act on the bill, in bill order."""
     acts = []
@@ -161,7 +172,10 @@ def main() -> int:
         save_json(TRACKS_FILE, dict(sorted(tracks.items())))
 
     try:
-        for event in sorted(events, key=lambda e: e["date"]):
+        # Gigs shown on the site by default first, hidden-genre gigs last,
+        # so the nightly search budget goes where people actually look.
+        config = load_json(GENRE_CONFIG_FILE, {})
+        for event in sorted(events, key=lambda e: (hidden_by_default(e, config), e["date"])):
             if event["date"][:10] < today:
                 continue
             acts = acts_with_setlists(event, setlists)

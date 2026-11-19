@@ -79,7 +79,19 @@ function EventItem({ event, followed }: { event: Event; followed: boolean }) {
       <p className="text-sm text-gray-400">
         {event.venue} · {event.city}
         {time && <> · doors {time}</>}
+        {event.age && <> · {event.age}</>}
       </p>
+
+      {event.schedule && event.schedule.length > 0 && (
+        <p className="text-sm text-gray-300">
+          {event.schedule.map((s, i) => (
+            <span key={s.time + s.name}>
+              {i > 0 && <span className="text-gray-600"> · </span>}
+              <span className="text-gray-500 tabular-nums">{s.time}</span> {s.name}
+            </span>
+          ))}
+        </p>
+      )}
 
       {event.genres && event.genres.length > 0 && (
         <p className="text-xs text-gray-500">{event.genres.slice(0, 4).join(" · ")}</p>

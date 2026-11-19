@@ -413,7 +413,7 @@ class TavastiaAdvancedScraper:
         
         # Create set of existing events (artist + date)
         existing_set = {
-            (e['artist'].lower().strip(), e['date'])
+            (e['artist'].lower().strip(), e['date'][:10])  # day only: doors time is added later
             for e in existing if isinstance(e, dict)
         }
         
@@ -423,7 +423,7 @@ class TavastiaAdvancedScraper:
         # save, so reading it per event gave every new event the same ID.
         next_id = max((e.get('id', 0) for e in existing if isinstance(e, dict)), default=0) + 1
         for event in new_events:
-            key = (event['artist'].lower().strip(), event['date'])
+            key = (event['artist'].lower().strip(), event['date'][:10])
             if key not in existing_set:
                 event['id'] = next_id
                 next_id += 1
