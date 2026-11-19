@@ -45,7 +45,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-gray-200">
       <div className="max-w-4xl mx-auto px-6 py-10">
         <div className="flex flex-wrap justify-between items-start gap-6 mb-8">
-          <div className="flex items-center gap-5">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
             <h1>
               <Image
                 src="/logo.webp"
@@ -57,8 +57,9 @@ export default function Home() {
                 className="w-28 h-28 sm:w-36 sm:h-36"
               />
             </h1>
-            <p className="text-gray-400 max-w-48 sm:max-w-56 leading-relaxed">
-              Doom • Stoner • Goth • Darkwave • Industrial • Punk • Metal • Rock
+            <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
+              <span className="block">Metal • Doom • Stoner • Rock • Punk</span>
+              <span className="block">Goth • Darkwave • Industrial • EBM • Synth</span>
             </p>
           </div>
 
@@ -70,18 +71,19 @@ export default function Home() {
                 </p>
                 <button
                   onClick={() => signOut()}
-                  className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded text-sm"
+                  className="px-2.5 py-1 bg-purple-600 hover:bg-purple-700 rounded text-xs"
                 >
                   Logout
                 </button>
               </div>
             ) : (
+              <div className="flex flex-col items-end gap-1">
               <button
                 onClick={() => signIn("spotify")}
-                className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded flex items-center gap-2"
+                className="px-2.5 py-1 bg-green-700 hover:bg-green-600 rounded flex items-center gap-1.5 text-xs"
               >
                 <svg
-                  className="w-4 h-4"
+                  className="w-3.5 h-3.5"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
@@ -89,6 +91,8 @@ export default function Home() {
                 </svg>
                 Login with Spotify
               </button>
+              <p className="text-xs text-gray-500">(by invite only)</p>
+              </div>
             )}
 
             {session && spotifyProblem && (

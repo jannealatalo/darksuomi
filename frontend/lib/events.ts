@@ -5,6 +5,26 @@ import type { Event } from "../types/events";
 
 export const excludedGenres = new Set<string>(genreConfig.excludeGenres);
 
+/**
+ * Genres the site is about. A "*" matches any text, so "*metal*" covers
+ * "black metal" and "metalcore"; entries without "*" must match exactly.
+ */
+const alwaysShowPatterns = genreConfig.alwaysShowGenres.map(
+  (pattern) =>
+    new RegExp(
+      "^" +
+        pattern
+          .split("*")
+          .map((part) => part.replace(/[.+?^${}()|[\]\\]/g, "\\$&"))
+          .join(".*") +
+        "$"
+    )
+);
+
+function isCoreGenre(genre: string): boolean {
+  return alwaysShowPatterns.some((re) => re.test(genre));
+}
+
 /** When the scraper last saved events, formatted in Finnish time. */
 export const lastScraped = new Date(meta.lastScraped).toLocaleString("fi-FI", {
   timeZone: "Europe/Helsinki",
@@ -23,11 +43,13 @@ export function getEvents(): Event[] {
 }
 
 /**
- * An event is hidden by default when it has no genre at all, or when its
- * strongest (first) genre is excluded. Weaker tags never decide.
+ * An event is always shown when any of its genres is one the site is about
+ * (alwaysShowGenres). Otherwise it is hidden by default when it has no genre
+ * at all, or when its strongest (first) genre is excluded.
  */
 export function isExcludedByGenre(event: Event): boolean {
   const genres = event.genres ?? [];
+  if (genres.some(isCoreGenre)) return false;
   return genres.length === 0 || excludedGenres.has(genres[0]);
 }
 
