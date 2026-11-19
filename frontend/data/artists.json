@@ -64,6 +64,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Airi’s": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Akathartos": {
     "source": "lastfm",
     "matchedName": "Akathartos",
@@ -264,9 +269,30 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Backrooms": {
+    "source": "lastfm",
+    "matchedName": "Backrooms",
+    "tags": [
+      "drone",
+      "ambient",
+      "liminal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Barnyard Pickers": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Bastards": {
+    "source": "lastfm",
+    "matchedName": "Bastards",
+    "tags": [
+      "hardcore punk",
+      "grindcore",
+      "punk",
+      "hardcore"
+    ],
     "fetched": "2026-11-19"
   },
   "Ben’s Diapers": {
@@ -367,6 +393,11 @@
       "heavy metal",
       "hard rock"
     ],
+    "fetched": "2026-11-19"
+  },
+  "Boulevard Drift": {
+    "source": "notfound",
+    "tags": [],
     "fetched": "2026-11-19"
   },
   "Brujeria": {
@@ -484,6 +515,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "David Bowie -disko": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Dawn Of Solace": {
     "source": "lastfm",
     "matchedName": "Dawn of Solace",
@@ -511,6 +547,17 @@
     "tags": [
       "alternative rock",
       "rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Desperate Measures": {
+    "source": "lastfm",
+    "matchedName": "Desperate Measures",
+    "tags": [
+      "youth crew",
+      "hardcore",
+      "straight edge",
+      "hardcore punk"
     ],
     "fetched": "2026-11-19"
   },
@@ -688,6 +735,25 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Featherfoot": {
+    "source": "musicbrainz",
+    "matchedName": "Featherfoot",
+    "mbid": "27e2d864-fabd-4944-9f7c-50b59463a951",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Five the Hierophant": {
+    "source": "lastfm",
+    "matchedName": "Five The Hierophant",
+    "tags": [
+      "avant-garde metal",
+      "doom metal",
+      "jazz metal",
+      "experimental"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Flok": {
     "source": "lastfm",
     "matchedName": "FloK",
@@ -708,6 +774,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Fox Confession": {
+    "source": "musicbrainz",
+    "matchedName": "Fox Confession",
+    "mbid": "188b2dd6-8035-4f09-999d-2b207d8e83f6",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Frank Zappa Memorial Pancake Breakfast": {
     "source": "musicbrainz",
     "matchedName": "Frank Zappa Memorial Pancake Breakfast",
@@ -715,6 +789,11 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Friday I’m in Love": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Fulci": {
     "source": "lastfm",
@@ -899,6 +978,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Häiriköt": {
+    "source": "lastfm",
+    "matchedName": "Häiriköt",
+    "tags": [
+      "ramopunk",
+      "punk"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Iconic Voices of Enigma Live Show": {
     "source": "notfound",
     "tags": [],
@@ -911,6 +999,11 @@
       "rock",
       "progressive rock"
     ],
+    "fetched": "2026-11-19"
+  },
+  "Iggy’s Afterwork Naurut": {
+    "source": "notfound",
+    "tags": [],
     "fetched": "2026-11-19"
   },
   "Imminence": {
@@ -1039,6 +1132,23 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kadotetut": {
+    "source": "lastfm",
+    "matchedName": "Kadotetut",
+    "tags": [
+      "punk",
+      "finnish punk"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "KAFF": {
+    "source": "lastfm",
+    "matchedName": "Kaff",
+    "tags": [
+      "brazil"
+    ],
+    "fetched": "2026-11-19"
+  },
   "KAJ på Kulturhuset": {
     "source": "notfound",
     "tags": [],
@@ -1116,6 +1226,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Kill With Cover": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Killer": {
     "source": "lastfm",
@@ -1207,6 +1322,15 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Krypts": {
+    "source": "lastfm",
+    "matchedName": "Krypts",
+    "tags": [
+      "death metal",
+      "old school death metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Kultsan uudenvuoden disko": {
     "source": "notfound",
     "tags": [],
@@ -1270,6 +1394,16 @@
   "Lisäkeikka": {
     "source": "error",
     "tags": []
+  },
+  "Loosen Jytädisko": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Loosen Suomidisko": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Lords of the Sound": {
     "source": "notfound",
@@ -1467,6 +1601,19 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Michel 11": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Mikko Kangasjärvi": {
+    "source": "musicbrainz",
+    "matchedName": "Mikko Kangasjärvi",
+    "mbid": "b25c9c9d-9b78-42c9-9753-7e62986308e3",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Miller Campbell": {
     "source": "lastfm",
     "matchedName": "Miller Campbell",
@@ -1588,6 +1735,11 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "Old School Electro Set": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Oranssi Pazuzu": {
     "source": "lastfm",
     "matchedName": "Oranssi Pazuzu",
@@ -1599,12 +1751,30 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Outi ja olevaiset": {
+    "source": "musicbrainz",
+    "matchedName": "Outi ja olevaiset",
+    "mbid": "73d52f38-bdb2-41bd-9f10-c8d7aef3c7f9",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Paara": {
     "source": "lastfm",
     "matchedName": "Paara",
     "tags": [
       "black metal",
       "finnish black metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Party Cannon": {
+    "source": "lastfm",
+    "matchedName": "Party Cannon",
+    "tags": [
+      "brutal death metal",
+      "death metal",
+      "slamming brutal death metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -1629,6 +1799,16 @@
       "indie"
     ],
     "fetched": "2026-11-18"
+  },
+  "Pestigore": {
+    "source": "lastfm",
+    "matchedName": "Pestigore",
+    "tags": [
+      "death metal",
+      "old school death metal",
+      "finnish death metal"
+    ],
+    "fetched": "2026-11-19"
   },
   "Petri Kautto": {
     "source": "lastfm",
@@ -1665,6 +1845,18 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Post Pulse": {
+    "source": "lastfm",
+    "matchedName": "Post Pulse",
+    "tags": [
+      "progressive metal",
+      "death metal",
+      "progressive death metal",
+      "melodic death metal",
+      "groove metal"
+    ],
+    "fetched": "2026-11-19"
   },
   "Pothamus": {
     "source": "lastfm",
@@ -1722,6 +1914,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Radien": {
+    "source": "lastfm",
+    "matchedName": "radien",
+    "tags": [
+      "sludge",
+      "doom metal",
+      "sludge metal",
+      "noise"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Rakkaudella Rauli": {
     "source": "notfound",
     "tags": [],
@@ -1729,6 +1932,14 @@
   },
   "Rami Helin Presents": {
     "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Raskaat Silmät": {
+    "source": "musicbrainz",
+    "matchedName": "Raskaat Silmät",
+    "mbid": "664ff33f-141a-43e5-9fba-e0bc43986c35",
+    "country": "FI",
     "tags": [],
     "fetched": "2026-11-19"
   },
@@ -1818,6 +2029,14 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Rock-Criminals": {
+    "source": "musicbrainz",
+    "matchedName": "Rock-Criminals",
+    "mbid": "411d0ab6-75c2-4fea-86b0-d61de1f24163",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Ruusut": {
     "source": "lastfm",
     "matchedName": "Ruusut",
@@ -1836,6 +2055,19 @@
       "indie",
       "singer-songwriter",
       "indie folk"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Röd Ängel": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "S.P.I.T": {
+    "source": "lastfm",
+    "matchedName": "s.p.i.t",
+    "tags": [
+      "hard rock"
     ],
     "fetched": "2026-11-19"
   },
@@ -1897,6 +2129,17 @@
       "melodic death metal",
       "black metal",
       "death'n'roll"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Sees": {
+    "source": "lastfm",
+    "matchedName": "SeeS",
+    "tags": [
+      "djent",
+      "math metal",
+      "progressive metal",
+      "groove metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -1962,6 +2205,32 @@
     "matchedName": "Slomosa",
     "tags": [
       "stoner rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Sofia Memphis": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Soft Guys": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Solemn Golem": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "SPORT": {
+    "source": "lastfm",
+    "matchedName": "Sport",
+    "tags": [
+      "emo",
+      "indie",
+      "indie rock",
+      "punk"
     ],
     "fetched": "2026-11-19"
   },
@@ -2043,6 +2312,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Surut": {
+    "source": "lastfm",
+    "matchedName": "Surut",
+    "tags": [
+      "post-hardcore",
+      "screamo",
+      "black metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Suzi Quatro": {
     "source": "lastfm",
     "matchedName": "Suzi Quatro",
@@ -2066,6 +2345,17 @@
       "post-black metal",
       "blackened hardcore",
       "post-hardcore"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Swarm": {
+    "source": "lastfm",
+    "matchedName": "Swarm",
+    "tags": [
+      "industrial",
+      "hardcore",
+      "electronic",
+      "metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -2116,6 +2406,15 @@
     "mbid": "41d577c3-0d3e-42bf-bd18-74b3155d9ec1",
     "country": null,
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "The Barefoot Brothers": {
+    "source": "lastfm",
+    "matchedName": "The Barefoot Brothers",
+    "tags": [
+      "rock",
+      "country rock"
+    ],
     "fetched": "2026-11-19"
   },
   "The Chats": {
@@ -2197,9 +2496,26 @@
     ],
     "fetched": "2026-11-18"
   },
+  "The Return of Cobralife": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "The Rock Orchestra by Candlelight": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "These": {
+    "source": "musicbrainz",
+    "matchedName": "These",
+    "mbid": "c990d2d1-418c-4d58-84b5-c745af69552e",
+    "country": null,
+    "tags": [
+      "deep house",
+      "acid jazz",
+      "downtempo"
+    ],
     "fetched": "2026-11-19"
   },
   "Thomas Green": {
@@ -2299,6 +2615,27 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Vainoa": {
+    "source": "lastfm",
+    "matchedName": "Vainoa",
+    "tags": [
+      "blackened hardcore",
+      "hardcore",
+      "crust punk",
+      "black metal",
+      "blackened crust",
+      "hardcore punk"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Vermithor": {
+    "source": "musicbrainz",
+    "matchedName": "Vermithor",
+    "mbid": "a171c870-b6a8-4299-aae6-6c4484d253c6",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Vesterinen Yhtyeineen": {
     "source": "lastfm",
     "matchedName": "Vesterinen yhtyeineen",
@@ -2317,6 +2654,19 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Visio": {
+    "source": "lastfm",
+    "matchedName": "Visio",
+    "tags": [
+      "electronic",
+      "glitch",
+      "post-industrial",
+      "avant-folk",
+      "electroacoustic",
+      "progressive electronic"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Voimaeläin": {
     "source": "notfound",
     "tags": [],
@@ -2331,6 +2681,16 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Vvorse": {
+    "source": "lastfm",
+    "matchedName": "vvorse",
+    "tags": [
+      "crust",
+      "hardcore",
+      "d-beat"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Vörjeans": {
     "source": "lastfm",
     "matchedName": "Vörjeans",
@@ -2338,6 +2698,16 @@
       "rockabilly"
     ],
     "fetched": "2026-11-18"
+  },
+  "Wasted": {
+    "source": "lastfm",
+    "matchedName": "Wasted",
+    "tags": [
+      "punk",
+      "punk rock",
+      "finnish punk"
+    ],
+    "fetched": "2026-11-19"
   },
   "Wasted 30 V.": {
     "source": "notfound",
@@ -2351,6 +2721,14 @@
       "deathcore",
       "death metal",
       "brutal deathcore"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Widows": {
+    "source": "lastfm",
+    "matchedName": "Widows",
+    "tags": [
+      "punk"
     ],
     "fetched": "2026-11-19"
   },
@@ -2372,6 +2750,19 @@
       "disco",
       "ambient",
       "electropop"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Wyatt E": {
+    "source": "musicbrainz",
+    "matchedName": "Wyatt E.",
+    "mbid": "3432cfdf-9d9a-4e0f-b561-2e6882db84da",
+    "country": "BE",
+    "tags": [
+      "drone",
+      "post-metal",
+      "post-rock",
+      "doom metal"
     ],
     "fetched": "2026-11-19"
   },

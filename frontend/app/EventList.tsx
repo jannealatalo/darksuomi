@@ -80,6 +80,7 @@ function EventItem({ event, followed }: { event: Event; followed: boolean }) {
         {event.venue} · {event.city}
         {time && <> · doors {time}</>}
         {event.age && <> · {event.age}</>}
+        {event.price && <> · {event.price}</>}
       </p>
 
       {event.schedule && event.schedule.length > 0 && (

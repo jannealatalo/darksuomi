@@ -14,4 +14,6 @@ export type Event = {
   schedule?: { time: string; name: string }[];
   /** Age limit as the venue writes it ("K-18", "Ikärajaton", ...). */
   age?: string;
+  /** Ticket price as the venue writes it ("14€", "Vapaa pääsy!", ...). */
+  price?: string;
 };

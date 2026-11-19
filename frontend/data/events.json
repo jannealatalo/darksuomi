@@ -67,8 +67,7 @@
       "Scheitan",
       "Agent Side Grinder",
       "Stuka",
-      "Akathartos",
-      "DJ Vade Retro"
+      "Akathartos"
     ],
     "genres": [
       "melodic death metal",
@@ -79,6 +78,27 @@
       "minimal synth",
       "rac",
       "russia"
+    ]
+  },
+  {
+    "artist": "S.P.I.T, Röd Ängel, Boulevard Drift",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-19T19:30:00",
+    "ticketUrl": "https://barloose.com/live/s-p-i-t-rod-angel-boulevard-drift-2/",
+    "eventUrl": "https://barloose.com/live/s-p-i-t-rod-angel-boulevard-drift-2/",
+    "price": "8€",
+    "id": 223,
+    "artists": [
+      "S.P.I.T",
+      "Röd Ängel",
+      "Boulevard Drift"
+    ],
+    "genres": [
+      "hard rock"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -160,6 +180,47 @@
     ]
   },
   {
+    "artist": "DJ JUAÑA ELIËL HUFFÊ // Bar Looseñ yläkêrtä pê 20.10.",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-20T20:00:00",
+    "ticketUrl": "https://barloose.com/live/dj-juana-eliel-huffe-bar-loosen-ylakerta-pe-20-10/",
+    "eventUrl": "https://barloose.com/live/dj-juana-eliel-huffe-bar-loosen-ylakerta-pe-20-10/",
+    "id": 224,
+    "artists": [],
+    "genres": [
+      "dj night"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Häiriköt (levynjulkkarit) w/ Desperate Measures (NZ/UK)",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-20T20:30:00",
+    "ticketUrl": "https://www.tiketti.fi/hairikot-desperate-measures-bar-loose-helsinki-lippuja/121349",
+    "eventUrl": "https://barloose.com/live/harikot-levynjulkkarit-w-desperate-measures-nz-uk/",
+    "price": "14€",
+    "id": 225,
+    "artists": [
+      "Häiriköt",
+      "Desperate Measures"
+    ],
+    "genres": [
+      "ramopunk",
+      "punk",
+      "youth crew",
+      "hardcore",
+      "straight edge",
+      "hardcore punk"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Discomania! Midnight City Club DJs Mikke The Flamer & John Curtain",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -175,6 +236,25 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "Loosen Suomidisko w/ DJ Mortti",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-20T23:30:00",
+    "ticketUrl": "https://barloose.com/live/loosen-suomidisko/",
+    "eventUrl": "https://barloose.com/live/loosen-suomidisko/",
+    "price": "Vapaa pääsy!",
+    "id": 226,
+    "artists": [
+      "Loosen Suomidisko"
+    ],
+    "genres": [
+      "dj night"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -282,15 +362,36 @@
     "detailsFetched": "2026-11-19",
     "id": 205,
     "artists": [
-      "Wasted 30 V.",
+      "Wasted",
       "Abduktio",
       "Manifesto Jukebox"
     ],
     "genres": [
-      "hardcore",
-      "hardcore punk",
       "punk",
-      "punk rock"
+      "punk rock",
+      "finnish punk",
+      "hardcore",
+      "hardcore punk"
+    ]
+  },
+  {
+    "artist": "The Return of Cobralife w/ Rock-Criminals",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-21T20:30:00",
+    "ticketUrl": "https://www.tiketti.fi/the-return-of-cobralife-rock-criminals-bar-loose-helsinki-lippuja/121854",
+    "eventUrl": "https://barloose.com/live/the-return-of-cobralife-w-rock-criminals/",
+    "price": "12€",
+    "id": 227,
+    "artists": [
+      "The Return of Cobralife",
+      "Rock-Criminals"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -309,6 +410,25 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "Loosen Jytädisko: DJ Anaheim",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-21T23:30:00",
+    "ticketUrl": "https://barloose.com/live/loosen-jytadisko-dj-anaheim/",
+    "eventUrl": "https://barloose.com/live/loosen-jytadisko-dj-anaheim/",
+    "price": "3,5€",
+    "id": 228,
+    "artists": [
+      "Loosen Jytädisko"
+    ],
+    "genres": [
+      "dj night"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -391,6 +511,35 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "PJK Klubi: Backrooms, Soft Guys, Visio",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-24T20:00:00",
+    "ticketUrl": "https://barloose.com/live/pjk-klubi-backrooms-soft-guys-visio/",
+    "eventUrl": "https://barloose.com/live/pjk-klubi-backrooms-soft-guys-visio/",
+    "price": "Vapaa pääsy!",
+    "id": 229,
+    "artists": [
+      "Backrooms",
+      "Soft Guys",
+      "Visio"
+    ],
+    "genres": [
+      "drone",
+      "ambient",
+      "liminal",
+      "electronic",
+      "glitch",
+      "post-industrial",
+      "avant-folk",
+      "electroacoustic",
+      "progressive electronic"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Europe – The Final Countdown 40th Anniversary Tour (SOLD OUT!)",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -455,6 +604,36 @@
     ]
   },
   {
+    "artist": "Post Pulse, Sees, These",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-25T19:30:00",
+    "ticketUrl": "https://barloose.com/live/post-pulse-sees-these/",
+    "eventUrl": "https://barloose.com/live/post-pulse-sees-these/",
+    "price": "8€",
+    "id": 230,
+    "artists": [
+      "Post Pulse",
+      "Sees",
+      "These"
+    ],
+    "genres": [
+      "progressive metal",
+      "death metal",
+      "progressive death metal",
+      "melodic death metal",
+      "groove metal",
+      "djent",
+      "math metal",
+      "deep house",
+      "acid jazz",
+      "downtempo"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Krypta, Petri Kautto (soolo)",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -479,6 +658,30 @@
       "pop",
       "singer/songwriter",
       "roots"
+    ]
+  },
+  {
+    "artist": "SPORT, Raskaat Silmät, Outi ja olevaiset",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-26T19:30:00",
+    "ticketUrl": "https://barloose.com/live/sport-raskaat-silmat-outi-ja-olevaiset/",
+    "eventUrl": "https://barloose.com/live/sport-raskaat-silmat-outi-ja-olevaiset/",
+    "price": "10€",
+    "id": 231,
+    "artists": [
+      "SPORT",
+      "Raskaat Silmät",
+      "Outi ja olevaiset"
+    ],
+    "genres": [
+      "emo",
+      "indie",
+      "indie rock",
+      "punk"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -533,6 +736,36 @@
     ]
   },
   {
+    "artist": "Wyatt E (BE) & Five the Hierophant (UK) w/ Radien",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-27T20:30:00",
+    "ticketUrl": "https://www.tiketti.fi/wyatt-e-be-five-the-hierophant-uk-w-radien-bar-loose-lippuja/121030",
+    "eventUrl": "https://barloose.com/live/wyatt-e-be-fife-the-hierophant-uk-w-radien/",
+    "price": "14€",
+    "id": 232,
+    "artists": [
+      "Wyatt E",
+      "Five the Hierophant",
+      "Radien"
+    ],
+    "genres": [
+      "drone",
+      "post-metal",
+      "post-rock",
+      "doom metal",
+      "avant-garde metal",
+      "jazz metal",
+      "experimental",
+      "sludge",
+      "sludge metal",
+      "noise"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Club Anvil – November Edition",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -548,6 +781,25 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "Friday I’m in Love w/ DJ Anaheim",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-27T23:30:00",
+    "ticketUrl": "https://barloose.com/live/friday-im-in-love-w-dj-anaheim/",
+    "eventUrl": "https://barloose.com/live/friday-im-in-love-w-dj-anaheim/",
+    "price": "Vapaa pääsy!",
+    "id": 233,
+    "artists": [
+      "Friday I’m in Love"
+    ],
+    "genres": [
+      "dj night"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -601,7 +853,7 @@
       "Disco Night"
     ],
     "genres": [
-      "viihde"
+      "dj night"
     ]
   },
   {
@@ -657,6 +909,31 @@
     ]
   },
   {
+    "artist": "Bastards, Kadotetut, Widows",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-28T20:30:00",
+    "ticketUrl": "https://www.tiketti.fi/rattus-bastards-widows-bar-loose-helsinki-lippuja/121029",
+    "eventUrl": "https://barloose.com/live/rattus-bastards-widows/",
+    "price": "12€",
+    "id": 234,
+    "artists": [
+      "Bastards",
+      "Kadotetut",
+      "Widows"
+    ],
+    "genres": [
+      "hardcore punk",
+      "grindcore",
+      "punk",
+      "hardcore",
+      "finnish punk"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Neon Nights 80s Disco! DJ Anaheim",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -672,6 +949,25 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "Loosen Jytädisko: DJ John Curtain",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-28T23:30:00",
+    "ticketUrl": "https://barloose.com/live/loosen-jytadisko-dj-john-curtain-5/",
+    "eventUrl": "https://barloose.com/live/loosen-jytadisko-dj-john-curtain-5/",
+    "price": "3,5€",
+    "id": 235,
+    "artists": [
+      "Loosen Jytädisko"
+    ],
+    "genres": [
+      "dj night"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -958,6 +1254,26 @@
     ]
   },
   {
+    "artist": "Airi’s w/ Michel 11",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-04T20:30:00",
+    "ticketUrl": "https://www.tiketti.fi/airi-s-michel-11-bar-loose-helsinki-lippuja/120786",
+    "eventUrl": "https://barloose.com/live/airis-w-michel-11/",
+    "price": "12€",
+    "id": 236,
+    "artists": [
+      "Airi’s",
+      "Michel 11"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Hardcore/Emo Club by DJ Larsen1c",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -1045,6 +1361,29 @@
     ]
   },
   {
+    "artist": "See You In Hell: Krypts, Pestigore, Vermithor",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2FKryptsdeath%2F&data=05%7C02%7Ctiketti%40tiketti.fi%7C8fe2c3eeb97d4479ea9708df2ed734bd%7C8412608335de4b0b928fa9f7231f4a6b%7C0%7C0%7C639281173994823685%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=G7UPL9%2FyAQ8Mjuko2l%2FXzSjw2YU7ci2dlgkOOFJNRL8%3D&reserved=0",
+    "eventUrl": "https://barloose.com/live/see-you-in-hell-krypts-pestigore-vermithor/",
+    "price": "17€",
+    "id": 237,
+    "artists": [
+      "Krypts",
+      "Pestigore",
+      "Vermithor"
+    ],
+    "genres": [
+      "death metal",
+      "old school death metal",
+      "finnish death metal"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "DJ KING S8N",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -1055,9 +1394,7 @@
       "dj"
     ],
     "id": 102,
-    "artists": [
-      "DJ KING S8N"
-    ],
+    "artists": [],
     "genres": [
       "dj night"
     ]
@@ -1254,6 +1591,25 @@
     ]
   },
   {
+    "artist": "Kill With Cover plays Manowar & BoneButton plays Iron Maiden",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-11T20:30:00",
+    "ticketUrl": "https://barloose.com/live/kill-with-cover-plays-manowar-bonebutton-plays-iron-maiden/",
+    "eventUrl": "https://barloose.com/live/kill-with-cover-plays-manowar-bonebutton-plays-iron-maiden/",
+    "price": "14€",
+    "id": 238,
+    "artists": [
+      "Kill With Cover"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 17,
     "artist": "Käärijä - Ikärajaton",
     "venue": "Tavastia Klubi",
@@ -1370,6 +1726,38 @@
       "experimental",
       "sludge metal",
       "post-rock"
+    ]
+  },
+  {
+    "artist": "Vainoa 10v. w/ Surut, Vvorse, Svarta Havet",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-12T20:00:00",
+    "ticketUrl": "https://barloose.com/live/vainoa-10v-w-surut-vvorse-svarta-havet/",
+    "eventUrl": "https://barloose.com/live/vainoa-10v-w-surut-vvorse-svarta-havet/",
+    "price": "12€",
+    "id": 239,
+    "artists": [
+      "Vainoa",
+      "Surut",
+      "Vvorse",
+      "Svarta Havet"
+    ],
+    "genres": [
+      "blackened hardcore",
+      "hardcore",
+      "crust punk",
+      "black metal",
+      "blackened crust",
+      "hardcore punk",
+      "post-hardcore",
+      "screamo",
+      "crust",
+      "d-beat",
+      "post-black metal"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -1502,6 +1890,25 @@
     ],
     "genres": [
       "alternative rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Iggy’s Afterwork Naurut",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-16T19:00:00",
+    "ticketUrl": "https://barloose.com/live/iggys-afterwork-naurut-3/",
+    "eventUrl": "https://barloose.com/live/iggys-afterwork-naurut-3/",
+    "price": "5€",
+    "id": 240,
+    "artists": [
+      "Iggy’s Afterwork Naurut"
+    ],
+    "genres": [
+      "stand-up"
+    ],
+    "venueGenres": [
       "rock"
     ]
   },
@@ -1657,14 +2064,33 @@
     ],
     "id": 113,
     "artists": [
-      "Combichrist",
+      "Old School Electro Set",
       "Sirkuit Preiker"
     ],
     "genres": [
-      "industrial",
-      "ebm",
-      "dark electro",
-      "electronic"
+      "industrial"
+    ]
+  },
+  {
+    "artist": "The Barefoot Brothers, Fox Confession, Sofia Memphis",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/the-barefoot-brothers-fox-confession-sofia-memphis-bar-lippuja/122060",
+    "eventUrl": "https://barloose.com/live/9140/",
+    "price": "15€",
+    "id": 241,
+    "artists": [
+      "The Barefoot Brothers",
+      "Fox Confession",
+      "Sofia Memphis"
+    ],
+    "genres": [
+      "rock",
+      "country rock"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -1909,7 +2335,9 @@
     "artists": [
       "Kultsan uudenvuoden disko"
     ],
-    "genres": []
+    "genres": [
+      "dj night"
+    ]
   },
   {
     "id": 27,
@@ -2132,6 +2560,25 @@
       "Berlin Project III"
     ],
     "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "David Bowie -disko",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2027-01-08T23:30:00",
+    "ticketUrl": "https://barloose.com/live/david-bowie-disko/",
+    "eventUrl": "https://barloose.com/live/david-bowie-disko/",
+    "price": "3,5€",
+    "id": 242,
+    "artists": [
+      "David Bowie -disko"
+    ],
+    "genres": [
+      "dj night"
+    ],
+    "venueGenres": [
       "rock"
     ]
   },
@@ -2832,7 +3279,7 @@
     "detailsFetched": "2026-11-19",
     "id": 144,
     "artists": [
-      "Jussi Hakulisen laulut",
+      "Mikko Kangasjärvi",
       "Markus Salo ja Jari Latomaa"
     ],
     "genres": [
@@ -3142,7 +3589,8 @@
     "artists": [
       "Signs of the Swarm",
       "Ten56",
-      "Oceans Ate Alaska"
+      "Oceans Ate Alaska",
+      "Face Yourself"
     ],
     "genres": [
       "deathcore",
@@ -3649,6 +4097,30 @@
     ]
   },
   {
+    "artist": "Solemn Golem, Featherfoot, Swarm",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2027-03-05T20:30:00",
+    "ticketUrl": "https://barloose.com/live/solemn-golem-featherfoot-swarm/",
+    "eventUrl": "https://barloose.com/live/solemn-golem-featherfoot-swarm/",
+    "price": "11€",
+    "id": 243,
+    "artists": [
+      "Solemn Golem",
+      "Featherfoot",
+      "Swarm"
+    ],
+    "genres": [
+      "industrial",
+      "hardcore",
+      "electronic",
+      "metal"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Saxon (GB) – Gods of Thunder Tour",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -3709,15 +4181,15 @@
     ],
     "id": 130,
     "artists": [
-      "EU VOMITOUR",
+      "Party Cannon",
       "Internal Bleeding",
       "Guttural Slug"
     ],
     "genres": [
       "brutal death metal",
       "death metal",
-      "nydm",
-      "slamming brutal death metal"
+      "slamming brutal death metal",
+      "nydm"
     ]
   },
   {
@@ -4114,7 +4586,6 @@
     "detailsFetched": "2026-11-19",
     "id": 138,
     "artists": [
-      "DJ Kridlokk",
       "Eevil Stöö"
     ],
     "genres": [
@@ -4255,6 +4726,24 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "KAFF – The Celebration of 40 Years of Crazy Nights and 50 Years of Love Gun",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2027-03-26T20:00:00",
+    "ticketUrl": "https://barloose.com/live/kaff-the-celebration-of-40-years-of-crazy-nights-and-50-years-of-love-gun/",
+    "eventUrl": "https://barloose.com/live/kaff-the-celebration-of-40-years-of-crazy-nights-and-50-years-of-love-gun/",
+    "id": 244,
+    "artists": [
+      "KAFF"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
   },
   {
     "artist": "Knipi",

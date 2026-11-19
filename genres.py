@@ -55,7 +55,7 @@ JUNK_TAGS = {
     "ukraine", "australia", "england", "english", "singer", "finnish singer",
     "eurovision", "all", "norway", "norwegian", "belgian", "belgium", "greek",
     "dutch", "polish", "czech", "swiss", "austrian", "icelandic",
-    "croatian", "faroese", "need to rate", "check",
+    "croatian", "faroese", "need to rate", "check", "brazil", "brazilian",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -101,6 +101,7 @@ COUNTRY_CODES = {
     "SWE": "SE", "UK": "GB", "USA": "US", "US": "US", "ITA": "IT",
     "DK": "DK", "UA": "UA", "EST": "EE", "JPN": "JP", "CAN": "CA", "AU": "AU",
     "AUS": "AU", "ES": "ES", "FRA": "FR", "FR": "FR", "NOR": "NO", "GER": "DE",
+    "BE": "BE", "NZ": "NZ", "MX": "MX", "CL": "CL", "NL": "NL", "PL": "PL",
 }
 
 # Venue event categories -> our genre names, used only when no artist on the
@@ -149,11 +150,18 @@ def parse_title(title: str) -> list[dict]:
                  title, flags=re.I)
     if m:
         title = m.group(2)
-    # Split on commas and " + " between acts; " & " inside a band name
-    # ("Kauko Röyhkä & Voimaeläin") is handled by trying the full name first.
-    for part in re.split(r",\s*|\s+\+\s+", title):
+    else:
+        # "<Show name>: band, band, band" -> the list after the colon.
+        m = re.match(r"^[^:,]+:\s*(.+(?:,|\s\+\s|\sw/\s).+)$", title, flags=re.I)
+        if m:
+            title = m.group(1)
+    # Split on commas, " + ", " w/ " and "&" right after a country code
+    # ("Wyatt E (BE) & Five the Hierophant (UK)"); other " & " inside a band
+    # name ("Kauko Röyhkä & Voimaeläin") is handled by trying the full name first.
+    for part in re.split(r",\s*|\s+\+\s+|\s+w/\s+|(?<=\))\s*&\s+", title, flags=re.I):
         part = part.strip()
-        if not part:
+        # DJs are rarely tagged usefully (and "DJ Anaheim" isn't a band).
+        if not part or re.match(r"^djs?\b", part, flags=re.I):
             continue
 
         country = None
@@ -177,6 +185,7 @@ def parse_title(title: str) -> list[dict]:
         part = re.sub(r"\s+\d{4}$", "", part)
         part = re.sub(r"\s+-?(levyjulkkarit|konsertti)$", "", part, flags=re.I)
         part = re.sub(r"\s+\d+-vuotisjuhlakeikka$", "", part, flags=re.I)
+        part = re.sub(r"\s+\d+\s*v\.?$", "", part, flags=re.I)  # "Vainoa 10v."
         part = part.strip(" -–")
         if part:
             acts.append({"name": part, "country": country})
@@ -361,10 +370,17 @@ def main() -> int:
                 artists.append(name)
                 genres += [t for t in tags if t not in genres]
             if not genres:
-                # Nobody has tagged these artists: fall back to the venue's
-                # own category for the gig (On the Rocks has these).
-                genres = [VENUE_GENRES[g] for g in event.get("venueGenres", [])
-                          if VENUE_GENRES.get(g)]
+                # Nobody has tagged these artists. Club and comedy nights are
+                # recognised from the title first, then the venue's own
+                # category for the gig (or its default genre) is used.
+                title = event["artist"]
+                if re.search(r"\b(dj|djs|disko|disco)\b|-disko\b", title, flags=re.I):
+                    genres = ["dj night"]
+                elif re.search(r"naurut|stand ?-?up|standup|komiikka", title, flags=re.I):
+                    genres = ["stand-up"]
+                else:
+                    genres = [VENUE_GENRES[g] for g in event.get("venueGenres", [])
+                              if VENUE_GENRES.get(g)]
             event["artists"] = artists
             event["genres"] = genres
         save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))

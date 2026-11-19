@@ -13,7 +13,7 @@ from pathlib import Path
 EVENTS_FILE = Path(__file__).resolve().parent / "frontend" / "data" / "events.json"
 
 # Fields a venue scraper may refresh on an already-known gig.
-REFRESHED_FIELDS = ("date", "ticketUrl", "eventUrl", "venue", "venueGenres",
+REFRESHED_FIELDS = ("date", "ticketUrl", "eventUrl", "venue", "venueGenres", "price",
                     "doors", "age", "schedule", "detailsFetched")
 
 
