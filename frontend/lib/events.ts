@@ -37,6 +37,8 @@ const alwaysShowPatterns = genreConfig.alwaysShowGenres.map(
     )
 );
 
+const ALWAYS_SHOW_TOP_TAGS = 5;
+
 function isCoreGenre(genre: string): boolean {
   return alwaysShowPatterns.some((re) => re.test(genre));
 }
@@ -56,7 +58,7 @@ export const lastScraped = new Date(meta.lastScraped).toLocaleString("fi-FI", {
  * scrape date instead of the clock keeps server and browser renders identical;
  * the nightly job refreshes it.
  */
-const scrapeDay = new Date(meta.lastScraped).toLocaleDateString("sv-SE", {
+export const scrapeDay = new Date(meta.lastScraped).toLocaleDateString("sv-SE", {
   timeZone: "Europe/Helsinki",
 });
 
@@ -128,7 +130,9 @@ export function eventTime(event: Event): string | null {
  */
 export function isExcludedByGenre(event: Event): boolean {
   const genres = event.genres ?? [];
-  if (genres.some(isCoreGenre)) return false;
+  // Only the strongest few tags count, so a stray tag at the end of the
+  // list (e.g. from a mismatched support act) can't override everything.
+  if (genres.slice(0, ALWAYS_SHOW_TOP_TAGS).some(isCoreGenre)) return false;
   return genres.length === 0 || excludedGenres.has(genres[0]);
 }
 
@@ -136,4 +140,41 @@ export function isExcludedByGenre(event: Event): boolean {
 export function eventArtistNames(event: Event): string[] {
   const names = event.artists?.length ? event.artists : [event.artist];
   return names.map((n) => n.toLowerCase());
+}
+
+/** Day key +n days ("2026-11-30" + 2 -> "2026-12-02"). */
+function addDays(key: string, n: number): string {
+  const [y, m, d] = key.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
+}
+
+export type GigGap = { from: string; to: string; days: number; label: string };
+
+/**
+ * Runs of days without any gig in `days` (already grouped, ascending),
+ * from the scrape day up to the last listed day.
+ */
+export function gapsBefore(days: EventDay[]): Map<string, GigGap> {
+  const gaps = new Map<string, GigGap>(); // keyed by the day the gap precedes
+  let cursor = scrapeDay;
+  for (const day of days) {
+    if (day.key > cursor) {
+      const to = addDays(day.key, -1);
+      let n = 0;
+      for (let k = cursor; k <= to; k = addDays(k, 1)) n++;
+      gaps.set(day.key, { from: cursor, to, days: n, label: gapLabel(cursor, to) });
+    }
+    cursor = addDays(day.key, 1);
+  }
+  return gaps;
+}
+
+function gapLabel(from: string, to: string): string {
+  const [, fm, fd] = from.split("-").map(Number);
+  const [, tm, td] = to.split("-").map(Number);
+  if (from === to) {
+    const [y] = from.split("-").map(Number);
+    return `${WEEKDAYS[new Date(Date.UTC(y, fm - 1, fd)).getUTCDay()]} ${fd}.${fm}.`;
+  }
+  return fm === tm ? `${fd}.–${td}.${tm}.` : `${fd}.${fm}.–${td}.${tm}.`;
 }

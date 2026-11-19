@@ -1,4 +1,5 @@
-import { eventTime, groupByDay } from "../lib/events";
+import { eventTime, gapsBefore, groupByDay, type GigGap } from "../lib/events";
+import { noGigJoke } from "../lib/jokes";
 import {
   actualSetlists,
   expectedSetlists,
@@ -28,13 +29,17 @@ export default function EventList({
   past?: boolean;
 }) {
   const days = groupByDay(events);
+  // Empty days in the shown (filtered) list get a joke; not for past gigs.
+  const gaps = past ? new Map<string, GigGap>() : gapsBefore(days);
 
   return (
     <div>
       {days.map((day, i) => {
         const newMonth = i === 0 || days[i - 1].monthLabel !== day.monthLabel;
+        const gap = gaps.get(day.key);
         return (
           <section key={day.key} aria-label={`${day.weekday} ${day.day}.${day.month}.`}>
+            {gap && <GapRow gap={gap} />}
             {newMonth && (
               <h2 className="text-xs uppercase tracking-[0.2em] text-purple-400 border-b border-gray-800 pb-2 mb-2 mt-10 first:mt-0">
                 {day.monthLabel}
@@ -207,6 +212,16 @@ function PastSetlists({ shows }: { shows: ShowLink[] }) {
           <ShowLinks show={show} />
         </p>
       ))}
+    </div>
+  );
+}
+
+/** A day (or run of days) with nothing in the shown list: a dry joke. */
+function GapRow({ gap }: { gap: GigGap }) {
+  return (
+    <div className="sm:grid sm:grid-cols-[4.5rem_1fr] sm:gap-6 border-b border-gray-900 py-3">
+      <div className="mb-1 sm:mb-0 text-sm font-semibold text-gray-500">{gap.label}</div>
+      <p className="text-sm italic text-gray-400">{noGigJoke(gap.from, gap.days)}</p>
     </div>
   );
 }
