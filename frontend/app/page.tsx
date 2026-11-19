@@ -9,6 +9,7 @@ import {
   lastScraped,
 } from "../lib/events";
 import EventList from "./EventList";
+import { RESALE_SITES, TICKET_SITES, VENUE_LINKS, type SiteLink } from "../lib/links";
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
@@ -152,6 +153,20 @@ export default function Home() {
               </p>
               <p>Last scraped {lastScraped}</p>
             </div>
+
+            <nav
+              aria-label="Venue and ticket sites"
+              className="text-xs text-gray-500 space-y-0.5 border-t border-gray-800 pt-2"
+            >
+              <LinkRow
+                label="Venues"
+                links={allVenues
+                  .filter((v) => VENUE_LINKS[v])
+                  .map((v) => ({ name: v, url: VENUE_LINKS[v] }))}
+              />
+              <LinkRow label="Tickets" links={TICKET_SITES} />
+              <LinkRow label="Resale" links={RESALE_SITES} />
+            </nav>
           </div>
         </div>
 
@@ -257,5 +272,27 @@ export default function Home() {
         )}
       </div>
     </main>
+  );
+}
+
+function LinkRow({ label, links }: { label: string; links: SiteLink[] }) {
+  if (links.length === 0) return null;
+  return (
+    <p>
+      {label}:{" "}
+      {links.map((link, i) => (
+        <span key={link.url}>
+          {i > 0 && " · "}
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-400 hover:text-purple-300"
+          >
+            {link.name}
+          </a>
+        </span>
+      ))}
+    </p>
   );
 }
