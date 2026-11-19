@@ -1,7 +1,8 @@
 import NextAuth from "next-auth";
 import Spotify from "next-auth/providers/spotify";
 
-const SPOTIFY_SCOPES = "user-read-email user-follow-read";
+// Only what the site uses: reading the followed artists (no email address).
+const SPOTIFY_SCOPES = "user-follow-read";
 
 // Spotify access tokens live for one hour; refresh them with the refresh token.
 async function refreshSpotifyToken(refreshToken: string) {
