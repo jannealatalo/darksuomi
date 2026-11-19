@@ -23,3 +23,14 @@ export const RESALE_SITES: SiteLink[] = [
   { name: "Liputon", url: "https://www.liputon.fi/" },
   { name: "Liput vaihtoon", url: "https://liputvaihtoon.fi/liput" },
 ];
+
+/** Records and band merch; Bandcamp first since it pays bands directly. */
+export const MERCH_SITES: SiteLink[] = [
+  { name: "Bandcamp", url: "https://bandcamp.com/" },
+  { name: "Levykauppa Äx", url: "https://www.levykauppax.fi/" },
+  { name: "Svart Records", url: "https://www.svartrecords.com/" },
+  { name: "Swamp Music", url: "https://www.swampmusic.com/" },
+  { name: "Backstage Rock Shop", url: "https://www.backstagerockshop.com/" },
+  { name: "Stupido Records", url: "https://www.stupido.fi/" },
+  { name: "Inverse", url: "https://inverse.fi/" },
+];

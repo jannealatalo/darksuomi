@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import {
   eventArtistNames,
   excludedGenres,
@@ -10,7 +11,13 @@ import {
 } from "../lib/events";
 import EventList from "./EventList";
 import SiteFooter from "./SiteFooter";
-import { RESALE_SITES, TICKET_SITES, VENUE_LINKS, type SiteLink } from "../lib/links";
+import {
+  MERCH_SITES,
+  RESALE_SITES,
+  TICKET_SITES,
+  VENUE_LINKS,
+  type SiteLink,
+} from "../lib/links";
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
@@ -79,6 +86,12 @@ export default function Home() {
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
               <span className="block">Metal • Doom • Stoner • Rock • Punk</span>
               <span className="block">Goth • Darkwave • Industrial • EBM • Synth</span>
+              <Link
+                href="/bands"
+                className="inline-block mt-2 text-purple-400 hover:text-purple-300"
+              >
+                Bands A–Z: Spotify, Bandcamp, SoundCloud… →
+              </Link>
             </p>
           </div>
 
@@ -167,6 +180,7 @@ export default function Home() {
               />
               <LinkRow label="Tickets" links={TICKET_SITES} />
               <LinkRow label="Resale" links={RESALE_SITES} />
+              <LinkRow label="Merch" links={MERCH_SITES} />
             </nav>
           </div>
         </div>
