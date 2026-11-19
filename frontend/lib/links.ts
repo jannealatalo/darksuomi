@@ -6,6 +6,7 @@ export const VENUE_LINKS: Record<string, string> = {
   KULT: "https://kulttuuritalo.fi/kult/",
   "Bar Loose": "https://barloose.com/",
   "Veikkaus Arena": "https://www.veikkausarena.fi/all-events",
+  Semifinal: "https://tavastiaklubi.fi/semifinal/",
 };
 
 export type SiteLink = { name: string; url: string };

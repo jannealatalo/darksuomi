@@ -67,6 +67,12 @@
         "rap",
         "stand-up"
       ]
+    },
+    "TINA": {
+      "genres": []
+    },
+    "MOMO": {
+      "genres": []
     }
   }
 }

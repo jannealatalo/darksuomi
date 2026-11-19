@@ -150,6 +150,33 @@
     ]
   },
   {
+    "id": 265,
+    "artist": "TINA (Levyjulkkarit)",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-11-20T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-20/tina-levyjulkkarit/121418/",
+    "schedule": [
+      {
+        "time": "20:45",
+        "name": "TINA"
+      }
+    ],
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "TINA"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 2,
     "artist": "The Flaming Sideburns, Us",
     "venue": "Tavastia Klubi",
@@ -582,6 +609,33 @@
     ]
   },
   {
+    "id": 266,
+    "artist": "Joka v*tun keskiviikko: Jukka Lindström",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-11-25T18:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-25/joka-vtun-keskiviikko-jukka-lindstrom/121635/",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "SHOWTIME"
+      }
+    ],
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Joka v*tun keskiviikko"
+    ],
+    "genres": [
+      "stand-up"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 7,
     "artist": "Aliisa Syrjä",
     "venue": "Tavastia Klubi",
@@ -649,6 +703,28 @@
       "deep house",
       "acid jazz",
       "downtempo"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
+    "id": 267,
+    "artist": "Röge",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-11-26T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-26/roge/121193/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Röge"
+    ],
+    "genres": [
+      "hip hop",
+      "rap"
     ],
     "venueGenres": [
       "rock"
@@ -896,6 +972,31 @@
     ]
   },
   {
+    "id": 268,
+    "artist": "What Awaits Us, Traitors Among Us, Ashes of Perishing",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-11-28T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-28/what-awaits-us-traitors-among-us-ashes-of-perishing/122061/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "What Awaits Us",
+      "Traitors Among Us",
+      "Ashes of Perishing"
+    ],
+    "genres": [
+      "metalcore",
+      "electronic",
+      "post-hardcore"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 9,
     "artist": "Kemmuru – Kehumatta paras 20 vuotta",
     "venue": "Tavastia Klubi",
@@ -1098,6 +1199,27 @@
     ]
   },
   {
+    "id": 269,
+    "artist": "Kuudesta Kymmeneen",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-01T18:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-01/kuudesta-kymmeneen/120770/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Kuudesta Kymmeneen"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 11,
     "artist": "THE HARDKISS (UA)",
     "venue": "Tavastia Klubi",
@@ -1136,6 +1258,33 @@
       "heavy metal",
       "speed metal",
       "thrash metal",
+      "rock"
+    ]
+  },
+  {
+    "id": 270,
+    "artist": "Joka v*tun keskiviikko: Laura Haimila",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-02T18:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-02/joka-vtun-keskiviikko-laura-haimila/121637/",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "SHOWTIME"
+      }
+    ],
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Joka v*tun keskiviikko"
+    ],
+    "genres": [
+      "stand-up"
+    ],
+    "venueGenres": [
       "rock"
     ]
   },
@@ -1197,6 +1346,27 @@
       "Reunion Big Band & Alex Ikonen"
     ],
     "genres": []
+  },
+  {
+    "id": 271,
+    "artist": "Club Eternal Flame",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-03T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-03/club-eternal-flame/119867/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Club Eternal Flame"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
   },
   {
     "artist": "Aeonian Sorrow (FIN/GRE), As The Sun Falls, Halls Of Oblivion (GER)",
@@ -1285,6 +1455,30 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "id": 272,
+    "artist": "LEFT",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-04T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-04/left/121556/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "LEFT"
+    ],
+    "genres": [
+      "post-rock",
+      "ambient",
+      "nu metal",
+      "instrumental"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
   },
   {
     "artist": "ALLT (SWE), Avralize (GER), Bite Down (SWE)",
@@ -1589,6 +1783,33 @@
     "genres": [
       "rock",
       "metal"
+    ]
+  },
+  {
+    "id": 273,
+    "artist": "Joka v*tun keskiviikko: Teemu Vesterinen",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-09T18:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-09/joka-vtun-keskiviikko-teemu-vesterinen/121640/",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "SHOWTIME"
+      }
+    ],
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "18:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Joka v*tun keskiviikko"
+    ],
+    "genres": [
+      "stand-up"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -2395,6 +2616,28 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "id": 274,
+    "artist": "Kosto (EP-julkkarit), Arseeni",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-26T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-26/kosto-ep-julkkarit-arseeni/121117/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Kosto",
+      "Arseeni"
+    ],
+    "genres": [
+      "hardcore"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Aino & Hajonneet – Livee & Lovee",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -2527,6 +2770,28 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "id": 275,
+    "artist": "Kaikkeus, Vaasa Palaa",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-01-02T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-02/kaikkeus-vaasa-palaa/121615/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Kaikkeus",
+      "Vaasa Palaa"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 28,
     "artist": "Red Eleven plays Faith No More feat. Ville Tuomi",
     "venue": "Tavastia Klubi",
@@ -2618,6 +2883,29 @@
     ]
   },
   {
+    "id": 276,
+    "artist": "Muddy Moonshine, Northeast Gale, Psykentucky",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-01-07T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-07/muddy-moonshine-northeast-gale-psykentucky/121730/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Muddy Moonshine",
+      "Northeast Gale",
+      "Psykentucky"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 30,
     "artist": "Vörjeans",
     "venue": "Tavastia Klubi",
@@ -2688,6 +2976,33 @@
     ],
     "genres": [
       "blues"
+    ]
+  },
+  {
+    "id": 277,
+    "artist": "Einvigi, The Mist from the Mountains, Venenum Dei + DJ Melkor",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-01-08T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-08/einvigi-the-mist-from-the-mountains-venunum-dei/120784/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Einvigi",
+      "The Mist from the Mountains",
+      "Venenum Dei"
+    ],
+    "genres": [
+      "blackgaze",
+      "folk metal",
+      "post-black metal",
+      "black metal",
+      "melodic black metal"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -2829,6 +3144,22 @@
       "punk rock",
       "pop punk"
     ]
+  },
+  {
+    "id": 264,
+    "artist": "Heikki Puska - Muistokonsertti",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-01-13T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-13/heikki-puska-muistokonsertti/122609/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Heikki Puska"
+    ],
+    "genres": []
   },
   {
     "artist": "Fear of Domination + Despiser",
@@ -3281,6 +3612,27 @@
       "indie",
       "singer-songwriter",
       "indie folk"
+    ]
+  },
+  {
+    "id": 278,
+    "artist": "Helsinski (Levyjulkkarit)",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-01-29T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-29/helsinski-levyjulkkarit/120804/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Helsinski"
+    ],
+    "genres": [
+      "pop"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -3744,6 +4096,27 @@
     ]
   },
   {
+    "id": 279,
+    "artist": "Aukusti Koivisto",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-02-12T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-12/aukusti-koivisto/121417/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Aukusti Koivisto"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
+    ]
+  },
+  {
     "id": 46,
     "artist": "Signs of the Swarm (USA), Ten56 (Fra), Oceans Ate Alaska (UK) & Face Yourself (Fra-USA)",
     "venue": "Tavastia Klubi",
@@ -4139,6 +4512,27 @@
       "progressive rock",
       "finnish occult rock",
       "finnish prog rock"
+    ]
+  },
+  {
+    "id": 280,
+    "artist": "MOMO",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-02-27T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-27/momo/121407/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "MOMO"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -4608,6 +5002,27 @@
     "genres": [
       "rock",
       "punk rock"
+    ]
+  },
+  {
+    "id": 281,
+    "artist": "The Arki",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-03-13T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-13/the-arki/121626/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "The Arki"
+    ],
+    "genres": [
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {
@@ -5225,6 +5640,28 @@
       "indie",
       "singer-songwriter",
       "indie folk"
+    ]
+  },
+  {
+    "id": 282,
+    "artist": "Tramhaus (NL)",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-04-20T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-04-20/tramhaus-nl/119101/",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-19",
+    "artists": [
+      "Tramhaus"
+    ],
+    "genres": [
+      "post-punk",
+      "rock"
+    ],
+    "venueGenres": [
+      "rock"
     ]
   },
   {

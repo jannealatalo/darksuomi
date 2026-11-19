@@ -207,6 +207,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Arseeni": {
+    "source": "lastfm",
+    "matchedName": "Arseeni",
+    "tags": [
+      "hardcore"
+    ],
+    "fetched": "2026-11-19"
+  },
   "ARTMS World": {
     "source": "notfound",
     "tags": [],
@@ -239,10 +247,26 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Ashes of Perishing": {
+    "source": "musicbrainz",
+    "matchedName": "Ashes of Perishing",
+    "mbid": "c946e9d0-0d87-47fe-b4ad-3fcdd31d6a91",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Aspesti": {
     "source": "musicbrainz",
     "matchedName": "Aspesti",
     "mbid": "b80bf900-61d4-46c3-a5ea-b418dd75412b",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Aukusti Koivisto": {
+    "source": "musicbrainz",
+    "matchedName": "Aukusti Koivisto",
+    "mbid": "eb06e899-77c4-43c5-ba6a-4d30fb2813ed",
     "country": null,
     "tags": [],
     "fetched": "2026-11-19"
@@ -443,6 +467,11 @@
     "fetched": "2026-11-18"
   },
   "Club Anvil": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Club Eternal Flame": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
@@ -685,6 +714,16 @@
       "hip hop",
       "rap",
       "underground hip-hop"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Einvigi": {
+    "source": "lastfm",
+    "matchedName": "Einvigi",
+    "tags": [
+      "blackgaze",
+      "folk metal",
+      "post-black metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -935,6 +974,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Heikki Puska": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Heimo Ilman Menneisyyttä": {
     "source": "notfound",
     "tags": [],
@@ -948,6 +992,14 @@
   "Helsinki Must Be Destroyed": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Helsinski": {
+    "source": "lastfm",
+    "matchedName": "Helsinski",
+    "tags": [
+      "pop"
+    ],
     "fetched": "2026-11-19"
   },
   "Hemma Beast": {
@@ -1122,6 +1174,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Joka v*tun keskiviikko": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Jonne": {
     "source": "lastfm",
     "matchedName": "Jonne",
@@ -1183,6 +1240,14 @@
     "tags": [
       "brazil"
     ],
+    "fetched": "2026-11-19"
+  },
+  "Kaikkeus": {
+    "source": "musicbrainz",
+    "matchedName": "Kaikkeus",
+    "mbid": "70b9f310-3c8d-4d53-a327-4f264f633e3e",
+    "country": null,
+    "tags": [],
     "fetched": "2026-11-19"
   },
   "KAJ på Kulturhuset": {
@@ -1308,6 +1373,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Kosto": {
+    "source": "musicbrainz",
+    "matchedName": "Kosto",
+    "mbid": "0096a051-5941-475b-9383-5e86be53ae87",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Kotiteollisuus": {
     "source": "lastfm",
     "matchedName": "Kotiteollisuus",
@@ -1372,6 +1445,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kuudesta Kymmeneen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "KUUMAA 10": {
     "source": "notfound",
     "tags": [],
@@ -1423,6 +1501,17 @@
   "Leavings-Orkesteri solistinaan Timo Rautiainen": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "LEFT": {
+    "source": "lastfm",
+    "matchedName": "Left",
+    "tags": [
+      "post-rock",
+      "ambient",
+      "nu metal",
+      "instrumental"
+    ],
     "fetched": "2026-11-19"
   },
   "Lemonator": {
@@ -1702,6 +1791,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "MOMO": {
+    "source": "lastfm",
+    "matchedName": "Momo",
+    "tags": [
+      "j-pop",
+      "mpb",
+      "rap"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Morgan Jay": {
     "source": "lastfm",
     "matchedName": "Morgan Jay",
@@ -1722,6 +1821,14 @@
       "rap"
     ],
     "fetched": "2026-11-18"
+  },
+  "Muddy Moonshine": {
+    "source": "musicbrainz",
+    "matchedName": "Muddy Moonshine",
+    "mbid": "373dd6cf-2b07-4f49-9ead-4c29c639247d",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Neljä Ruusua": {
     "source": "lastfm",
@@ -1774,6 +1881,11 @@
     "fetched": "2026-11-19"
   },
   "Night of Famous Musicals": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Northeast Gale": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
@@ -1986,6 +2098,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Psykentucky": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Pääkallo": {
     "source": "lastfm",
     "matchedName": "Pääkallo",
@@ -2184,6 +2301,15 @@
   "Röd Ängel": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Röge": {
+    "source": "lastfm",
+    "matchedName": "Röge",
+    "tags": [
+      "hip hop",
+      "rap"
+    ],
     "fetched": "2026-11-19"
   },
   "S.P.I.T": {
@@ -2552,6 +2678,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "The Arki": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "The Barefoot Brothers": {
     "source": "lastfm",
     "matchedName": "The Barefoot Brothers",
@@ -2609,6 +2740,15 @@
       "rock"
     ],
     "fetched": "2026-11-18"
+  },
+  "The Mist from the Mountains": {
+    "source": "lastfm",
+    "matchedName": "The Mist From The Mountains",
+    "tags": [
+      "black metal",
+      "melodic black metal"
+    ],
+    "fetched": "2026-11-19"
   },
   "The Ocean": {
     "source": "lastfm",
@@ -2715,6 +2855,36 @@
     ],
     "fetched": "2026-11-19"
   },
+  "TINA": {
+    "source": "lastfm",
+    "matchedName": "Tina",
+    "tags": [
+      "rnb",
+      "slovak",
+      "hip hop"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Traitors Among Us": {
+    "source": "lastfm",
+    "matchedName": "Traitors Among Us",
+    "tags": [
+      "electronic",
+      "metalcore",
+      "post-hardcore"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Tramhaus": {
+    "source": "lastfm",
+    "matchedName": "Tramhaus",
+    "tags": [
+      "netherlands",
+      "post-punk",
+      "rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Tuomo": {
     "source": "lastfm",
     "matchedName": "Tuomo",
@@ -2791,6 +2961,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Vaasa Palaa": {
+    "source": "musicbrainz",
+    "matchedName": "Vaasa palaa",
+    "mbid": "0bf96208-83a9-4224-8ccd-c63e63bf8aba",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Vainoa": {
     "source": "lastfm",
     "matchedName": "Vainoa",
@@ -2801,6 +2979,14 @@
       "black metal",
       "blackened crust",
       "hardcore punk"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Venenum Dei": {
+    "source": "lastfm",
+    "matchedName": "Venenum Dei",
+    "tags": [
+      "black metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -2926,6 +3112,14 @@
   "Westlife 25": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "What Awaits Us": {
+    "source": "lastfm",
+    "matchedName": "What awaits us",
+    "tags": [
+      "metalcore"
+    ],
     "fetched": "2026-11-19"
   },
   "Whitechapel": {

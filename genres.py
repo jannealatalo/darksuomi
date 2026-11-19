@@ -56,7 +56,7 @@ JUNK_TAGS = {
     "eurovision", "all", "norway", "norwegian", "belgian", "belgium", "greek",
     "dutch", "polish", "czech", "swiss", "austrian", "icelandic",
     "croatian", "faroese", "need to rate", "check", "brazil", "brazilian",
-    "serbian", "christmas", "oon kayny kattomassa",
+    "serbian", "christmas", "oon kayny kattomassa", "netherlands", "slovak",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -384,7 +384,8 @@ def main() -> int:
                 title = event["artist"]
                 if re.search(r"\b(dj|djs|disko|disco)\b|-disko\b", title, flags=re.I):
                     genres = ["dj night"]
-                elif re.search(r"naurut|stand ?-?up|standup|komiikka", title, flags=re.I):
+                elif re.search(r"naurut|stand ?-?up|standup|komiikka|joka v\*tun keskiviikko",
+                               title, flags=re.I):
                     genres = ["stand-up"]
                 else:
                     genres = [VENUE_GENRES[g] for g in event.get("venueGenres", [])

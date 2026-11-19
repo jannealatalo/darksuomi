@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Adds doors time, band stage times, age limit and room to Tavastia gigs.
+Adds doors time, band stage times, age limit and room to Tavastia and
+Semifinal gigs (both are on tavastiaklubi.fi).
 
 The Tavastia listing only gives dates, but each gig's own page has a
 timetable ("Ovet 20.00 · Us 20.30 · The Flaming Sideburns 21.45"). This
@@ -78,7 +79,7 @@ def main() -> int:
     today = date.today().isoformat()
     stale = (date.today() - timedelta(days=RECHECK_DAYS)).isoformat()
     todo = [e for e in events
-            if e.get("venue") == "Tavastia Klubi"
+            if e.get("venue") in ("Tavastia Klubi", "Semifinal")
             and e["date"][:10] >= today
             and "tavastiaklubi.fi/events/" in e.get("ticketUrl", "")
             and e.get("detailsFetched", "") < stale]

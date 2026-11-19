@@ -80,16 +80,33 @@ class TavastiaAdvancedScraper:
                     if response.status_code == 200:
                         events = self.parse_events(response.text, base_url)
                         if events:
-                            return events
+                            return events + self.fetch_semifinal(base_url)
                         print(f"  No events found on this page")
                 except Exception as e:
                     print(f"  Error: {e}")
                 time.sleep(1)  # Rate limiting
-            
+
             return None
         except Exception as e:
             print(f"Error fetching events: {e}")
             return None
+
+    def fetch_semifinal(self, base_url: str) -> List[Dict]:
+        """Semifinal (the small club next door) has its own list page.
+
+        Its items carry the class "location-semifinal", so parse_events
+        names their venue "Semifinal".
+        """
+        url = f"{base_url}/semifinal/"
+        print(f"🔍 Also reading {url}...")
+        try:
+            time.sleep(1)
+            response = self.session.get(url, timeout=10)
+            response.raise_for_status()
+            return self.parse_events(response.text, base_url)
+        except Exception as e:
+            print(f"  ⚠ Semifinal page failed: {e}")
+            return []
 
     def parse_events(self, html: str, base_url: str) -> List[Dict]:
         """Parse HTML with Tavastia-specific structure"""
@@ -147,6 +164,10 @@ class TavastiaAdvancedScraper:
                     'date': date_obj.isoformat(),
                     'ticketUrl': ticket_url
                 }
+                if venue == 'Semifinal':
+                    # Small rock club: untagged acts default to rock
+                    # (genres.py spots comedy and DJ nights from the title).
+                    event['venueGenres'] = ['rock']
                 
                 events.append(event)
                 event_id += 1
