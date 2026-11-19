@@ -40,11 +40,16 @@ def merge(scraped: list[dict], events: list[dict]) -> int:
     next_id = max((e.get("id", 0) for e in events), default=0) + 1
     added = 0
     for event in scraped:
-        existing = by_url.get(event.get("eventUrl")) or by_key.get(_key(event))
+        same_page = by_url.get(event.get("eventUrl"))
+        existing = same_page or by_key.get(_key(event))
         if existing:
             for field in REFRESHED_FIELDS:
                 if field in event:
                     existing[field] = event[field]
+            if same_page:
+                # Same event page: the title may have been updated (line-up
+                # completed, support act added), so keep it current.
+                existing["artist"] = event["artist"]
             continue
         event["id"] = next_id
         next_id += 1

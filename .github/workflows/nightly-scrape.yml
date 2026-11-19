@@ -56,6 +56,9 @@ jobs:
       - name: Scrape Veikkaus Arena (music only)
         run: python scraper_veikkausarena.py
 
+      - name: Scrape Tiivistämö (concerts only)
+        run: python scraper_tiivistamo.py
+
       - name: Tag genres
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}

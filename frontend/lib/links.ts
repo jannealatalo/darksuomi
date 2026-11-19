@@ -8,6 +8,8 @@ export const VENUE_LINKS: Record<string, string> = {
   "Veikkaus Arena": "https://www.veikkausarena.fi/all-events",
   Semifinal: "https://tavastiaklubi.fi/semifinal/",
   Lepakkomies: "https://www.lepis.fi/",
+  // Former Kulttuuriareena Gloria; run by the City of Helsinki youth services.
+  Tiivistämö: "https://nuorten.hel.fi/en/youth-centers/tiivistamo/",
 };
 
 export type SiteLink = { name: string; url: string };

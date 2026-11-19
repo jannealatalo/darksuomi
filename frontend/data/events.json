@@ -137,6 +137,40 @@
     ]
   },
   {
+    "artist": "Hellsinki Industrial Festival 2026: Extize (FR), Unter null (US), Auger (GB), Hand of Juno (IT), King Satan, Any second (DE), Matt Hart (GB), Old school union",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-11-20T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://www.tiketti.fi/hellsinki-industrial-festival-2026-tiivistamo-helsinki-lippuja/114451",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq65k2rna",
+    "age": "K-18",
+    "id": 312,
+    "artists": [
+      "Extize",
+      "Unter null",
+      "Auger",
+      "Hand of Juno",
+      "King Satan",
+      "Any second",
+      "Matt Hart",
+      "Old school union"
+    ],
+    "genres": [
+      "dark electro",
+      "ebm",
+      "powernoise",
+      "electro-industrial",
+      "industrial",
+      "harsh ebm",
+      "darkwave",
+      "industrial rock",
+      "synthpop",
+      "alternative metal",
+      "industrial metal"
+    ]
+  },
+  {
     "artist": "Suomi Nauraa – Stand Up Show 20.11.",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -392,6 +426,46 @@
     "room": "Tavastia-klubi",
     "doors": "11:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Hellsinki Industrial Festival 2026: Gothminister (NO), Das Ich (DE), Kontravoid (US), Eggvn (MEX), Ambassador21 (BY), Uhrisavu, Sekret Teknik, Dead Undying",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-11-21T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://www.tiketti.fi/hellsinki-industrial-festival-2026-tiivistamo-helsinki-lippuja/114451",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq65k7yrm",
+    "age": "K-18",
+    "id": 313,
+    "artists": [
+      "Gothminister",
+      "Das Ich",
+      "Kontravoid",
+      "Eggvn",
+      "Ambassador21",
+      "Uhrisavu",
+      "Sekret Teknik",
+      "Dead Undying"
+    ],
+    "genres": [
+      "industrial metal",
+      "gothic metal",
+      "industrial",
+      "gothic rock",
+      "darkwave",
+      "ebm",
+      "synthpop",
+      "electronic",
+      "dark electro",
+      "digital hardcore",
+      "breakcore",
+      "rhythmic noise",
+      "post-punk",
+      "synthwave",
+      "death metal",
+      "industrial death metal",
+      "nu metal"
+    ]
   },
   {
     "artist": "Ho, Ho, Ho – It’s Divet Show!",
@@ -1217,7 +1291,7 @@
       "nu metal",
       "hip hop",
       "rap",
-      "rnb",
+      "r&b",
       "soul",
       "psychobilly",
       "neo-soul",
@@ -1345,6 +1419,25 @@
     "room": "Tavastia-klubi",
     "doors": "18:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "MOON WALKER (USA)",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-11-29T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/116496",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agonz7gxqu",
+    "age": "K-18",
+    "id": 314,
+    "artists": [
+      "MOON WALKER"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock",
+      "garage rock"
+    ]
   },
   {
     "artist": "Cory Henry",
@@ -1503,6 +1596,33 @@
     ],
     "genres": [
       "viihde"
+    ]
+  },
+  {
+    "artist": "LOUDER: Søndag, Shere Khan, Limaiset Sedät",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-12-02T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq2y3rxrm",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq2y3rxrm",
+    "age": "S",
+    "price": "Vapaa pääsy",
+    "id": 315,
+    "artists": [
+      "Søndag",
+      "Shere Khan",
+      "Limaiset Sedät"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "alternative rock",
+      "alternative metal",
+      "hardcore",
+      "straight edge",
+      "boston hardcore",
+      "straight edge hardcore"
     ]
   },
   {
@@ -1666,6 +1786,27 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Sonia, Leyla",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-12-04T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqpcnnuaa",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqpcnnuaa",
+    "age": "S/K-18",
+    "id": 316,
+    "artists": [
+      "Sonia",
+      "Leyla"
+    ],
+    "genres": [
+      "pop",
+      "dance",
+      "hip hop",
+      "aor"
+    ]
   },
   {
     "id": 272,
@@ -1904,6 +2045,21 @@
       "blues",
       "hardcore"
     ]
+  },
+  {
+    "artist": "Taistelu itsenäisyydestä 2026: MÖYHY-VEIKOT vs. Draamakuu",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-12-05T20:00:00",
+    "doors": "20:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqgnmo7nm",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqgnmo7nm",
+    "age": "K-18",
+    "id": 317,
+    "artists": [
+      "Taistelu itsenäisyydestä"
+    ],
+    "genres": []
   },
   {
     "artist": "DJ KING S8N",
@@ -2182,6 +2338,21 @@
     "genres": [
       "freakbeat"
     ]
+  },
+  {
+    "artist": "Alma Alanko + support (TBA)",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-12-11T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqvhbvpoq",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqvhbvpoq",
+    "age": "S/K-18",
+    "id": 318,
+    "artists": [
+      "Alma Alanko"
+    ],
+    "genres": []
   },
   {
     "id": 16,
@@ -2921,6 +3092,22 @@
     ]
   },
   {
+    "artist": "Hanad Bandz",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-12-19T22:00:00",
+    "doors": "22:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq7kuagpe",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq7kuagpe",
+    "id": 319,
+    "artists": [
+      "Hanad Bandz"
+    ],
+    "genres": [
+      "r&b"
+    ]
+  },
+  {
     "artist": "Jag är Carola – en musikalisk unik livsberättelse (SWE)",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -3644,6 +3831,26 @@
     "genres": [
       "folk",
       "acoustic"
+    ]
+  },
+  {
+    "artist": "Never Obey Again, Balance Breach, Silence The Echo",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2027-01-16T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq2zhxoya",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agq2zhxoya",
+    "age": "K-18",
+    "id": 320,
+    "artists": [
+      "Never Obey Again",
+      "Balance Breach",
+      "Silence The Echo"
+    ],
+    "genres": [
+      "alternative metal",
+      "metalcore"
     ]
   },
   {
@@ -5144,6 +5351,29 @@
     "venueDefault": "rock"
   },
   {
+    "artist": "Dead Poet Society (USA) + Tigercub (UK)",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2027-03-05T20:30:00",
+    "doors": "20:30",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/119018",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agpp6hqfhu",
+    "age": "K-18",
+    "id": 321,
+    "artists": [
+      "Dead Poet Society",
+      "Tigercub"
+    ],
+    "genres": [
+      "alternative rock",
+      "rock",
+      "blues rock",
+      "garage rock",
+      "grunge",
+      "post-grunge"
+    ]
+  },
+  {
     "artist": "Saxon (GB) – Gods of Thunder Tour",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5410,8 +5640,7 @@
     "detailsFetched": "2026-11-19",
     "id": 155,
     "artists": [
-      "Block of Flats",
-      "support"
+      "Block of Flats"
     ],
     "genres": [
       "alternative rock",
@@ -6288,6 +6517,25 @@
       "melodic death metal",
       "death metal",
       "doom metal"
+    ]
+  },
+  {
+    "artist": "Hang Massive",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2027-04-25T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://hangmassive.com/",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqa5fhtqq",
+    "age": "K-18",
+    "id": 322,
+    "artists": [
+      "Hang Massive"
+    ],
+    "genres": [
+      "hang drum",
+      "instrumental",
+      "ambient"
     ]
   },
   {

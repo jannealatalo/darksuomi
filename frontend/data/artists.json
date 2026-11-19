@@ -140,6 +140,25 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Alma Alanko": {
+    "source": "musicbrainz",
+    "matchedName": "Alma Alanko",
+    "mbid": "831e093b-90c1-48ec-bc4d-dda60333e786",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Ambassador21": {
+    "source": "lastfm",
+    "matchedName": "Ambassador21",
+    "tags": [
+      "digital hardcore",
+      "industrial",
+      "breakcore",
+      "rhythmic noise"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Amorphis": {
     "source": "lastfm",
     "matchedName": "Amorphis",
@@ -213,6 +232,14 @@
       "heavy metal",
       "speed metal",
       "thrash metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Any second": {
+    "source": "lastfm",
+    "matchedName": "Any Second",
+    "tags": [
+      "ebm"
     ],
     "fetched": "2026-11-19"
   },
@@ -301,6 +328,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Auger": {
+    "source": "lastfm",
+    "matchedName": "Auger",
+    "tags": [
+      "darkwave",
+      "industrial rock",
+      "synthpop"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Aukusti Koivisto": {
     "source": "musicbrainz",
     "matchedName": "Aukusti Koivisto",
@@ -347,6 +384,14 @@
       "drone",
       "ambient",
       "liminal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Balance Breach": {
+    "source": "lastfm",
+    "matchedName": "Balance Breach",
+    "tags": [
+      "metalcore"
     ],
     "fetched": "2026-11-19"
   },
@@ -644,6 +689,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Das Ich": {
+    "source": "lastfm",
+    "matchedName": "Das Ich",
+    "tags": [
+      "darkwave",
+      "industrial",
+      "ebm",
+      "gothic rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "David Bowie -disko": {
     "source": "notfound",
     "tags": [],
@@ -657,6 +713,28 @@
       "melodic death metal",
       "gothic metal",
       "dark metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Dead Poet Society": {
+    "source": "lastfm",
+    "matchedName": "DEAD POET SOCIETY",
+    "tags": [
+      "alternative rock",
+      "rock",
+      "my top songs",
+      "blues rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Dead Undying": {
+    "source": "lastfm",
+    "matchedName": "dead undying",
+    "tags": [
+      "industrial metal",
+      "death metal",
+      "industrial death metal",
+      "nu metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -815,6 +893,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Eggvn": {
+    "source": "lastfm",
+    "matchedName": "Eggvn",
+    "tags": [
+      "industrial metal",
+      "industrial",
+      "ebm",
+      "dark electro"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Ei pöllömpi pubivisa by Pöllö": {
     "source": "notfound",
     "tags": [],
@@ -865,6 +954,17 @@
       "hard rock",
       "rock",
       "classic rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Extize": {
+    "source": "lastfm",
+    "matchedName": "Extize",
+    "tags": [
+      "dark electro",
+      "ebm",
+      "powernoise",
+      "electro-industrial"
     ],
     "fetched": "2026-11-19"
   },
@@ -1022,6 +1122,17 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Gothminister": {
+    "source": "lastfm",
+    "matchedName": "Gothminister",
+    "tags": [
+      "industrial metal",
+      "gothic metal",
+      "industrial",
+      "gothic rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Graveyard": {
     "source": "lastfm",
     "matchedName": "Graveyard",
@@ -1085,6 +1196,34 @@
     "tags": [
       "rock",
       "punk rock"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Hanad Bandz": {
+    "source": "lastfm",
+    "matchedName": "Hanad Bandz",
+    "tags": [
+      "rnb",
+      "somalia"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Hand of Juno": {
+    "source": "lastfm",
+    "matchedName": "Hand of Juno",
+    "tags": [
+      "alternative metal",
+      "industrial metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Hang Massive": {
+    "source": "lastfm",
+    "matchedName": "Hang Massive",
+    "tags": [
+      "hang drum",
+      "instrumental",
+      "ambient"
     ],
     "fetched": "2026-11-19"
   },
@@ -1603,6 +1742,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kontravoid": {
+    "source": "lastfm",
+    "matchedName": "Kontravoid",
+    "tags": [
+      "synthpop",
+      "ebm",
+      "industrial",
+      "electronic"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Kosto": {
     "source": "musicbrainz",
     "matchedName": "Kosto",
@@ -1769,6 +1919,21 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "Leyla": {
+    "source": "lastfm",
+    "matchedName": "Leyla",
+    "tags": [
+      "pop",
+      "hip hop",
+      "aor"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Limaiset Sedät": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Linkin Park Night! Jumpdafuckup DJs": {
     "source": "notfound",
     "tags": [],
@@ -1933,6 +2098,14 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Matt Hart": {
+    "source": "lastfm",
+    "matchedName": "Matt Hart",
+    "tags": [
+      "industrial"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Maustetytöt": {
     "source": "lastfm",
     "matchedName": "Maustetytöt",
@@ -2058,6 +2231,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "MOON WALKER": {
+    "source": "lastfm",
+    "matchedName": "Moon Walker",
+    "tags": [
+      "rock",
+      "alternative rock",
+      "my top songs",
+      "garage rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Morgan Jay": {
     "source": "lastfm",
     "matchedName": "Morgan Jay",
@@ -2135,6 +2319,14 @@
   "Neon Nights 80s Disco! DJ Anaheim": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Never Obey Again": {
+    "source": "lastfm",
+    "matchedName": "Never Obey Again",
+    "tags": [
+      "alternative metal"
+    ],
     "fetched": "2026-11-19"
   },
   "New Year’s Eve with Shiraz Lane &": {
@@ -2237,6 +2429,11 @@
     "fetched": "2026-11-19"
   },
   "Old School Electro Set": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Old school union": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
@@ -2824,6 +3021,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Sekret Teknik": {
+    "source": "lastfm",
+    "matchedName": "Sekret Teknik",
+    "tags": [
+      "synthpop",
+      "synthwave",
+      "ebm"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Sgt. Slime": {
     "source": "lastfm",
     "matchedName": "Sgt. Slime",
@@ -2839,6 +3046,17 @@
       "folk metal",
       "power metal",
       "metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Shere Khan": {
+    "source": "lastfm",
+    "matchedName": "Shere Khan",
+    "tags": [
+      "hardcore",
+      "straight edge",
+      "boston hardcore",
+      "straight edge hardcore"
     ],
     "fetched": "2026-11-19"
   },
@@ -2865,6 +3083,14 @@
       "brutal deathcore"
     ],
     "fetched": "2026-11-18"
+  },
+  "Silence The Echo": {
+    "source": "lastfm",
+    "matchedName": "Silence the Echo",
+    "tags": [
+      "metalcore"
+    ],
+    "fetched": "2026-11-19"
   },
   "Sin Cos Tan": {
     "source": "lastfm",
@@ -2929,6 +3155,15 @@
       "alternative",
       "rock",
       "singer-songwriter"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Sonia": {
+    "source": "lastfm",
+    "matchedName": "Sonia",
+    "tags": [
+      "pop",
+      "dance"
     ],
     "fetched": "2026-11-19"
   },
@@ -3091,6 +3326,22 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Søndag": {
+    "source": "lastfm",
+    "matchedName": "Søndag",
+    "tags": [
+      "hard rock",
+      "rock",
+      "alternative rock",
+      "alternative metal"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Taistelu itsenäisyydestä": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-19"
   },
   "Tarja Turunen": {
     "source": "lastfm",
@@ -3301,6 +3552,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Tigercub": {
+    "source": "lastfm",
+    "matchedName": "Tigercub",
+    "tags": [
+      "garage rock",
+      "grunge",
+      "post-grunge",
+      "rock"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Tiia Karoliina": {
     "source": "notfound",
     "tags": [],
@@ -3452,6 +3714,18 @@
   "UNKIND 30 vuotta": {
     "source": "notfound",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Unter null": {
+    "source": "lastfm",
+    "matchedName": "Unter Null",
+    "tags": [
+      "industrial",
+      "dark electro",
+      "ebm",
+      "harsh ebm",
+      "powernoise"
+    ],
     "fetched": "2026-11-19"
   },
   "Us": {

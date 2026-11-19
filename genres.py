@@ -59,6 +59,7 @@ JUNK_TAGS = {
     "serbian", "christmas", "oon kayny kattomassa", "netherlands", "slovak",
     "dr congo", "albania", "albanian", "latvian", "latvia", "lithuanian",
     "russian", "polish", "hungarian", "italian", "spain",
+    "my top songs", "somalia", "somali",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -91,6 +92,8 @@ TAG_ALIASES = {
     "hip hop rnb and dance hall": "hip hop",
     "alternative/indie rock": "indie rock",
     "humor": "stand-up",
+    "rnb": "r&b",
+    "rhythm and blues": "r&b",
     "humour": "stand-up",
     "comedy": "stand-up",
     "stand-up comedy": "stand-up",
@@ -171,8 +174,10 @@ def parse_title(title: str) -> list[dict]:
     # name ("Kauko Röyhkä & Voimaeläin") is handled by trying the full name first.
     for part in re.split(r",\s*|\s+\+\s+|\s+w/\s+|(?<=\))\s*&\s+", title, flags=re.I):
         part = part.strip()
-        # DJs are rarely tagged usefully (and "DJ Anaheim" isn't a band).
-        if not part or re.match(r"^djs?\b", part, flags=re.I):
+        # DJs are rarely tagged usefully (and "DJ Anaheim" isn't a band);
+        # "support (TBA)", "guests" and the like aren't bands either.
+        if not part or re.match(r"^(djs?|support|tba|guests?|special guests?)\b",
+                                part, flags=re.I):
             continue
 
         country = None

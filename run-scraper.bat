@@ -8,6 +8,7 @@ python scraper_lepakkomies.py
 python scraper_kulttuuritalo.py
 python scraper_barloose.py
 python scraper_veikkausarena.py
+python scraper_tiivistamo.py
 python genres.py
 python setlists.py
 python playlists.py
