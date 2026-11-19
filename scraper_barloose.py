@@ -61,7 +61,7 @@ def fetch_upcoming() -> list[dict]:
                 "eventUrl": item["url"],
                 # A rock bar: untagged gigs default to rock (genres.py
                 # recognises DJ and comedy nights from the title first).
-                "venueGenres": ["rock"],
+                "venueDefault": "rock",
             }
             if cost:
                 event["price"] = cost

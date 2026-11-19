@@ -167,7 +167,7 @@ class TavastiaAdvancedScraper:
                 if venue == 'Semifinal':
                     # Small rock club: untagged acts default to rock
                     # (genres.py spots comedy and DJ nights from the title).
-                    event['venueGenres'] = ['rock']
+                    event['venueDefault'] = 'rock'
                 
                 events.append(event)
                 event_id += 1

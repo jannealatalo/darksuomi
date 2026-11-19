@@ -97,8 +97,43 @@
     "genres": [
       "hard rock"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "Forward Folks + The Horribly Ones",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-19T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/forward-folks-the-horribly-ones/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/forward-folks-the-horribly-ones/",
     "venueGenres": [
       "rock"
+    ],
+    "id": 283,
+    "artists": [
+      "Forward Folks",
+      "The Horribly Ones"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Obsidian: Magic of Bass",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-20T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/obsidian-magic-of-bass/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/obsidian-magic-of-bass/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 285,
+    "artists": [
+      "Obsidian"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -172,9 +207,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 2,
@@ -239,8 +272,33 @@
     "genres": [
       "dj night"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "Monsternaut + Mount Palatine + Astral Sleep",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-20T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/monsternaut-mount-palatine-astral-sleep/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/monsternaut-mount-palatine-astral-sleep/",
     "venueGenres": [
-      "rock"
+      "stoner"
+    ],
+    "id": 284,
+    "artists": [
+      "Monsternaut",
+      "Mount Palatine",
+      "Astral Sleep"
+    ],
+    "genres": [
+      "stoner rock",
+      "stoner",
+      "heavy psych",
+      "metal",
+      "doom metal",
+      "psychedelic rock",
+      "death doom metal",
+      "traditional doom metal"
     ]
   },
   {
@@ -264,9 +322,7 @@
       "straight edge",
       "hardcore punk"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Discomania! Midnight City Club DJs Mikke The Flamer & John Curtain",
@@ -301,8 +357,24 @@
     "genres": [
       "dj night"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "The Style is Death #8 – Cyberheartbreak",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-21T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/the-style-is-death-8-cyberheartbreak/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/the-style-is-death-8-cyberheartbreak/",
     "venueGenres": [
-      "rock"
+      "dj"
+    ],
+    "id": 287,
+    "artists": [
+      "The Style is Death #8"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -423,6 +495,31 @@
     ]
   },
   {
+    "artist": "Ongelma + Katujen Äänet + Karanneet Käärmeet + Villit Nautinnot + DJ Paha Hakkaaja",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-21T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot-dj-paha-hakkaaja/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot-dj-paha-hakkaaja/",
+    "venueGenres": [
+      "punk"
+    ],
+    "id": 286,
+    "artists": [
+      "Ongelma",
+      "Katujen Äänet",
+      "Karanneet Käärmeet",
+      "Villit Nautinnot"
+    ],
+    "genres": [
+      "punk",
+      "77 punk",
+      "punk rock",
+      "new wave",
+      "finnish punk"
+    ]
+  },
+  {
     "artist": "The Return of Cobralife w/ Rock-Criminals",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -438,9 +535,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Linkin Park Night! Jumpdafuckup DJs",
@@ -475,9 +570,7 @@
     "genres": [
       "dj night"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 5,
@@ -559,6 +652,24 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-24T18:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 288,
+    "artists": [
+      "Ei pöllömpi pubivisa by Pöllö & Ode"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "artist": "PJK Klubi: Backrooms, Soft Guys, Visio",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -583,9 +694,7 @@
       "electroacoustic",
       "progressive electronic"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Europe – The Final Countdown 40th Anniversary Tour (SOLD OUT!)",
@@ -631,9 +740,7 @@
     "genres": [
       "stand-up"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 7,
@@ -704,8 +811,25 @@
       "acid jazz",
       "downtempo"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "Nättinassut + Nick Cavea suomeksi",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-25T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/nattinassut-nick-cavea-suomeksi/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/nattinassut-nick-cavea-suomeksi/",
     "venueGenres": [
-      "rock"
+      "pop"
+    ],
+    "id": 289,
+    "artists": [
+      "Nättinassut",
+      "Nick Cavea suomeksi"
+    ],
+    "genres": [
+      "pop"
     ]
   },
   {
@@ -726,9 +850,7 @@
       "hip hop",
       "rap"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Krypta, Petri Kautto (soolo)",
@@ -777,8 +899,27 @@
       "indie rock",
       "punk"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "NISKAFLIPPI-TORSTAI: Kokoomus + Myrkytys + Odottaa + Harhaoppi",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-26T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/niskaflippi-torstai-kokoomus-myrkytys-odottaa-harhaoppi/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/niskaflippi-torstai-kokoomus-myrkytys-odottaa-harhaoppi/",
     "venueGenres": [
-      "rock"
+      "hc"
+    ],
+    "id": 290,
+    "artists": [
+      "Kokoomus",
+      "Myrkytys",
+      "Odottaa",
+      "Harhaoppi"
+    ],
+    "genres": [
+      "hardcore"
     ]
   },
   {
@@ -833,6 +974,30 @@
     ]
   },
   {
+    "artist": "Ceaseless Torment + Mutant Blast + Jewel Throne",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-27T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ceaseless-torment-mutant-blast-jewel-throne/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ceaseless-torment-mutant-blast-jewel-throne/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 291,
+    "artists": [
+      "Ceaseless Torment",
+      "Mutant Blast",
+      "Jewel Throne"
+    ],
+    "genres": [
+      "thrash metal",
+      "heavy metal",
+      "metal",
+      "death n roll",
+      "finnish metal"
+    ]
+  },
+  {
     "artist": "Wyatt E (BE) & Five the Hierophant (UK) w/ Radien",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -858,9 +1023,7 @@
       "sludge metal",
       "noise"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Club Anvil – November Edition",
@@ -895,9 +1058,7 @@
     "genres": [
       "dj night"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "KUUMAA 10",
@@ -915,6 +1076,24 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "LEPISKELMÄ-KLUBIN AVAJAISET",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/lepiskelma-klubin-avajaiset/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/lepiskelma-klubin-avajaiset/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 293,
+    "artists": [
+      "LEPISKELMÄ-KLUBIN AVAJAISET"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -968,7 +1147,7 @@
       "Disco Night"
     ],
     "genres": [
-      "dj night"
+      "viihde"
     ]
   },
   {
@@ -992,9 +1171,7 @@
       "electronic",
       "post-hardcore"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 9,
@@ -1049,6 +1226,27 @@
     ]
   },
   {
+    "artist": "Yölentoklubi: Jaakko Kulta + Aaro630 + Pihalla",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-11-28T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/yolentoklubi-jaakko-kulta-aaro630-pihalla/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/yolentoklubi-jaakko-kulta-aaro630-pihalla/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 292,
+    "artists": [
+      "Jaakko Kulta",
+      "Aaro630",
+      "Pihalla"
+    ],
+    "genres": [
+      "pop",
+      "hip hop"
+    ]
+  },
+  {
     "artist": "Bastards, Kadotetut, Widows",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -1069,9 +1267,7 @@
       "hardcore",
       "finnish punk"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Neon Nights 80s Disco! DJ Anaheim",
@@ -1106,9 +1302,7 @@
     "genres": [
       "dj night"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 10,
@@ -1215,9 +1409,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 11,
@@ -1284,9 +1476,7 @@
     "genres": [
       "stand-up"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Dolly Parton Tribute",
@@ -1348,6 +1538,29 @@
     "genres": []
   },
   {
+    "artist": "viola + Vera Wall",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-02T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/viola-vera-wall-lepakkomies-helsinki-lippuja/121199",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/viola-vera-wall/",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 294,
+    "artists": [
+      "viola",
+      "Vera Wall"
+    ],
+    "genres": [
+      "indie",
+      "synthpop",
+      "electronic",
+      "pop",
+      "under 100 listeners"
+    ]
+  },
+  {
     "id": 271,
     "artist": "Club Eternal Flame",
     "venue": "Semifinal",
@@ -1364,9 +1577,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Aeonian Sorrow (FIN/GRE), As The Sun Falls, Halls Of Oblivion (GER)",
@@ -1476,9 +1687,7 @@
       "nu metal",
       "instrumental"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "ALLT (SWE), Avralize (GER), Bite Down (SWE)",
@@ -1506,6 +1715,24 @@
     ]
   },
   {
+    "artist": "Rearviewmirror – A Tribute to Pearl Jam",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-04T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/rearviewmirror-a-tribute-to-pearl-jam-lepakkomies-helsinki-lippuja/121669",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/rearviewmirror-a-tribute-to-pearl-jam/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 295,
+    "artists": [
+      "Rearviewmirror"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Airi’s w/ Michel 11",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -1521,9 +1748,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Hardcore/Emo Club by DJ Larsen1c",
@@ -1652,8 +1877,32 @@
       "old school death metal",
       "finnish death metal"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "TOXIC CLUB VOL. 100: Kryptareflat + Refusal + Kantamus + Surya",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/toxic-club-vol-100-kryptareflat-refusal-kantamus-surya/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/toxic-club-vol-100-kryptareflat-refusal-kantamus-surya/",
     "venueGenres": [
-      "rock"
+      "metal"
+    ],
+    "id": 296,
+    "artists": [
+      "Kryptareflat",
+      "Refusal",
+      "Kantamus",
+      "Surya"
+    ],
+    "genres": [
+      "death metal",
+      "sludge",
+      "metalcore",
+      "stoner rock",
+      "blues",
+      "hardcore"
     ]
   },
   {
@@ -1808,9 +2057,7 @@
     "genres": [
       "stand-up"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Hemma Beast – ”Lihaa ja kissa”",
@@ -1827,6 +2074,27 @@
       "Hemma Beast"
     ],
     "genres": []
+  },
+  {
+    "artist": "Rebo + Rattleshake + Tiny Sequoia",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-09T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/rebo-rattleshake-tiny-sequoia/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/rebo-rattleshake-tiny-sequoia/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 297,
+    "artists": [
+      "Rebo",
+      "Rattleshake",
+      "Tiny Sequoia"
+    ],
+    "genres": [
+      "hard rock",
+      "glam metal"
+    ]
   },
   {
     "id": 15,
@@ -1866,6 +2134,26 @@
       "melodic death metal",
       "death doom metal",
       "death metal"
+    ]
+  },
+  {
+    "artist": "Hulda Huima 15v. Juhlakeikka + Poni",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-10T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/hulda-huima-15v-juhlakeikka-poni/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/hulda-huima-15v-juhlakeikka-poni/",
+    "venueGenres": [
+      "folk"
+    ],
+    "id": 298,
+    "artists": [
+      "Hulda Huima",
+      "Poni"
+    ],
+    "genres": [
+      "acoustic",
+      "pop"
     ]
   },
   {
@@ -1935,6 +2223,29 @@
     ]
   },
   {
+    "artist": "Piritori Debauchery: Hoc est Bellum + Aamutähti + Hautaveri + Earthly Form",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-11T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/piritori-debauchery-hoc-est-bellum-aamutahti-hautaveri-earthly-form/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/piritori-debauchery-hoc-est-bellum-aamutahti-hautaveri-earthly-form/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 299,
+    "artists": [
+      "Hoc est Bellum",
+      "Aamutähti",
+      "Hautaveri",
+      "Earthly Form"
+    ],
+    "genres": [
+      "war metal",
+      "black metal",
+      "finnish black metal"
+    ]
+  },
+  {
     "artist": "Kill With Cover plays Manowar & BoneButton plays Iron Maiden",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -1949,9 +2260,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 17,
@@ -2120,8 +2429,33 @@
       "d-beat",
       "post-black metal"
     ],
+    "venueDefault": "rock"
+  },
+  {
+    "artist": "FI/LV METAL MADNESS: Iron Wings (LV) + Barrel + Ratbreed",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-12T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/fi-lv-metal-madness-iron-wings-lv-barrel-ratbreed/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/fi-lv-metal-madness-iron-wings-lv-barrel-ratbreed/",
     "venueGenres": [
-      "rock"
+      "metal"
+    ],
+    "id": 300,
+    "artists": [
+      "Iron Wings",
+      "Barrel",
+      "Ratbreed"
+    ],
+    "genres": [
+      "thrash metal",
+      "heavy metal",
+      "jazz",
+      "hardcore",
+      "emo",
+      "cello",
+      "female fronted",
+      "traditional heavy metal"
     ]
   },
   {
@@ -2272,9 +2606,7 @@
     "genres": [
       "stand-up"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",
@@ -2473,9 +2805,7 @@
       "rock",
       "country rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Antti Autio – Haahuillen",
@@ -2573,6 +2903,24 @@
     ]
   },
   {
+    "artist": "L’Appel du Vide Presents: MNGLXMPLR + Der Bürokrat + Lola Kumtus + L’Appel du Vide DJ’s",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-19T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/lappel-du-vide-presents-mnglxmplr-der-burokrat-lola-kumtus-lappel-du-vide-djs/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/lappel-du-vide-presents-mnglxmplr-der-burokrat-lola-kumtus-lappel-du-vide-djs/",
+    "venueGenres": [
+      "gothic"
+    ],
+    "id": 301,
+    "artists": [
+      "L’Appel du Vide"
+    ],
+    "genres": [
+      "gothic rock"
+    ]
+  },
+  {
     "artist": "Jag är Carola – en musikalisk unik livsberättelse (SWE)",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -2633,9 +2981,7 @@
     "genres": [
       "hardcore"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Aino & Hajonneet – Livee & Lovee",
@@ -2787,9 +3133,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 28,
@@ -2901,9 +3245,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 30,
@@ -3001,9 +3343,7 @@
       "black metal",
       "melodic black metal"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 31,
@@ -3042,6 +3382,30 @@
     ]
   },
   {
+    "artist": "Pop After Dark: Uhrisavu + Snowed Out + Platronic",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-08T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/pop-after-dark-uhrisavu-snowed-out-platronic/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/pop-after-dark-uhrisavu-snowed-out-platronic/",
+    "venueGenres": [
+      "pop"
+    ],
+    "id": 302,
+    "artists": [
+      "Uhrisavu",
+      "Snowed Out",
+      "Platronic"
+    ],
+    "genres": [
+      "post-punk",
+      "indie rock",
+      "dark pop",
+      "synthpop",
+      "futurepop"
+    ]
+  },
+  {
     "artist": "David Bowie -disko",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -3056,9 +3420,7 @@
     "genres": [
       "dj night"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Uudenvuoden Wieniläiskonsertti: Schönbrunnin Linnanorkesteri (klo 15:00 näytös)",
@@ -3143,6 +3505,30 @@
     "genres": [
       "punk rock",
       "pop punk"
+    ]
+  },
+  {
+    "artist": "BISA + Irrational Cause + Admire the Grim",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-09T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/bisa-irrational-cause-admire-the-grim-lepakkomies-helsinki-lippuja/118712",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/bisa-irrational-cause-admire-the-grim/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 303,
+    "artists": [
+      "BISA",
+      "Irrational Cause",
+      "Admire the Grim"
+    ],
+    "genres": [
+      "melodic death metal",
+      "metalcore",
+      "metal",
+      "finnish metal",
+      "modern metal"
     ]
   },
   {
@@ -3278,6 +3664,28 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "The Coldest Chapter: Scythe Of Sorrow + Frostbite Terror + Rose Heaven",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-16T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/scythe-of-sorrow-frostbite-terror-rose-heaven-lepakkomies-lippuja/121422",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/the-coldest-chapter-scythe-of-sorrow-frostbite-terror-rose-heaven/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 304,
+    "artists": [
+      "Scythe Of Sorrow",
+      "Frostbite Terror",
+      "Rose Heaven"
+    ],
+    "genres": [
+      "melodic death metal",
+      "death metal",
+      "melodic death"
+    ]
   },
   {
     "artist": "Lords of the Sound – The Music of Hans Zimmer",
@@ -3448,6 +3856,49 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Nordic Metal Exchange: Prestige + Sgt. Slime + Torp + Bloodblind",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-22T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/nordic-metal-exchange-prestige-sgt-slime-torp-bloodblind/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/nordic-metal-exchange-prestige-sgt-slime-torp-bloodblind/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 305,
+    "artists": [
+      "Prestige",
+      "Sgt. Slime",
+      "Torp",
+      "Bloodblind"
+    ],
+    "genres": [
+      "thrash metal",
+      "drum and bass",
+      "neurofunk",
+      "speed metal",
+      "jamendo"
+    ]
+  },
+  {
+    "artist": "FFWD – Hardstyle Club",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-23T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ffwd-hardstyle-club/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ffwd-hardstyle-club/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 306,
+    "artists": [
+      "FFWD"
+    ],
+    "genres": [
+      "dj night"
+    ]
   },
   {
     "artist": "Joutsenlampi – Pjotr Tšaikovski",
@@ -3631,9 +4082,7 @@
     "genres": [
       "pop"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 39,
@@ -4112,9 +4561,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 46,
@@ -4531,9 +4978,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "id": 56,
@@ -4696,9 +5141,7 @@
       "electronic",
       "metal"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Saxon (GB) – Gods of Thunder Tour",
@@ -4976,6 +5419,24 @@
     ]
   },
   {
+    "artist": "TOXIC FEST 2027",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-03-12T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/toxic-fest-2027/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/toxic-fest-2027/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 307,
+    "artists": [
+      "TOXIC FEST"
+    ],
+    "genres": [
+      "metal"
+    ]
+  },
+  {
     "artist": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027 (Sold Out!)",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -5005,6 +5466,24 @@
     ]
   },
   {
+    "artist": "TOXIC FEST 2027",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-03-13T19:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/toxic-fest-2027-2/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/toxic-fest-2027-2/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 308,
+    "artists": [
+      "TOXIC FEST"
+    ],
+    "genres": [
+      "metal"
+    ]
+  },
+  {
     "id": 281,
     "artist": "The Arki",
     "venue": "Semifinal",
@@ -5021,9 +5500,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "King Satan (levyjulkkarit), Ghoulstars, Danger Håt",
@@ -5342,9 +5819,7 @@
     "genres": [
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Knipi",
@@ -5443,6 +5918,24 @@
     ]
   },
   {
+    "artist": "Vexed With the Party Line",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-04-02T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/vexed-with-the-party-line/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/vexed-with-the-party-line/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 310,
+    "artists": [
+      "Vexed With the Party Line"
+    ],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
     "id": 71,
     "artist": "J. Karjalainen",
     "venue": "Tavastia Klubi",
@@ -5462,6 +5955,29 @@
     "room": "Tavastia-klubi",
     "doors": "20:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "The Spiritual Bat (ITA) + Fenetzar + Aus Tears",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-04-02T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/the-spiritual-bat-ita-fenetzar-aus-tears/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/the-spiritual-bat-ita-fenetzar-aus-tears/",
+    "venueGenres": [
+      "gothic"
+    ],
+    "id": 309,
+    "artists": [
+      "The Spiritual Bat",
+      "Fenetzar",
+      "Aus Tears"
+    ],
+    "genres": [
+      "gothic rock",
+      "deathrock",
+      "post-punk",
+      "synth punk"
+    ]
   },
   {
     "artist": "Club For Five & Ilmavoimien Big Band: Pave!",
@@ -5660,9 +6176,7 @@
       "post-punk",
       "rock"
     ],
-    "venueGenres": [
-      "rock"
-    ]
+    "venueDefault": "rock"
   },
   {
     "artist": "Timo Kotipelto ja Jarkko Ahola – Voices Unleashed",
@@ -6306,6 +6820,25 @@
       "ambient",
       "alternative",
       "electronic"
+    ]
+  },
+  {
+    "artist": "Britallica (UK) + Spinors (UK)",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-10-15T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/britallica-uk-spinors-uk/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/britallica-uk-spinors-uk/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 311,
+    "artists": [
+      "Britallica",
+      "Spinors"
+    ],
+    "genres": [
+      "metal"
     ]
   },
   {

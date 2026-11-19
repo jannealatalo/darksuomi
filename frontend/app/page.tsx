@@ -12,6 +12,7 @@ import {
 import EventList from "./EventList";
 import SiteFooter from "./SiteFooter";
 import {
+  MEDIA_SITES,
   MERCH_SITES,
   RESALE_SITES,
   TICKET_SITES,
@@ -183,6 +184,7 @@ export default function Home() {
               <LinkRow label="Tickets" links={TICKET_SITES} />
               <LinkRow label="Resale" links={RESALE_SITES} />
               <LinkRow label="Merch" links={MERCH_SITES} />
+              <LinkRow label="Media" links={MEDIA_SITES} />
             </nav>
           </div>
         </div>

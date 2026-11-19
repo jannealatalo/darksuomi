@@ -44,6 +44,9 @@ jobs:
       - name: Scrape On the Rocks
         run: python scraper_rocks.py
 
+      - name: Scrape Lepakkomies
+        run: python scraper_lepakkomies.py
+
       - name: Scrape Kulttuuritalo and KULT
         run: python scraper_kulttuuritalo.py
 

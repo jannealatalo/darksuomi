@@ -36,10 +36,10 @@ DATE_TIME = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4}).*?klo\s*(\d{1,2})[:.](\d{
 DATE_ONLY = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{4})")
 
 
-def fetch_page(page: int) -> str | None:
+def fetch_page(page: int, list_url: str = LIST_URL) -> str | None:
     # The listing uses the Search & Filter plugin's ?sf_paged=N; the /page/N/
     # links in the HTML just return the first page again.
-    url = LIST_URL if page == 1 else f"{LIST_URL}?sf_paged={page}"
+    url = list_url if page == 1 else f"{list_url}?sf_paged={page}"
     resp = requests.get(url, headers=HEADERS, timeout=30)
     if resp.status_code == 404:
         return None
@@ -47,7 +47,7 @@ def fetch_page(page: int) -> str | None:
     return resp.text
 
 
-def parse_events(html: str) -> list[dict]:
+def parse_events(html: str, venue: str = VENUE) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     events = []
     for article in soup.select("article.tapahtuma.loop-item"):
@@ -79,7 +79,7 @@ def parse_events(html: str) -> list[dict]:
 
         events.append({
             "artist": title,
-            "venue": VENUE,
+            "venue": venue,
             "city": CITY,
             "date": f"{year:04d}-{month:02d}-{day:02d}T{hour:02d}:{minute:02d}:00",
             "ticketUrl": tickets[0] if tickets else link["href"],
@@ -89,19 +89,20 @@ def parse_events(html: str) -> list[dict]:
     return events
 
 
-def main() -> int:
+def main(list_url: str = LIST_URL, venue: str = VENUE) -> int:
+    """Scrape a Mediaani-built venue site (On the Rocks, Lepakkomies)."""
     scraped: list[dict] = []
     seen_urls: set[str] = set()
     for page in range(1, MAX_PAGES + 1):
-        html = fetch_page(page)
+        html = fetch_page(page, list_url)
         if html is None:
             break
-        found = [e for e in parse_events(html) if e["eventUrl"] not in seen_urls]
+        found = [e for e in parse_events(html, venue) if e["eventUrl"] not in seen_urls]
         if not found:  # empty page, or the same page served again
             break
         seen_urls.update(e["eventUrl"] for e in found)
         scraped += found
-    print(f"✓ Found {len(scraped)} events at {VENUE}")
+    print(f"✓ Found {len(scraped)} events at {venue}")
     if not scraped:
         return 1  # the site layout probably changed; fail loudly
 
@@ -131,7 +132,7 @@ def main() -> int:
     events.sort(key=lambda e: e["date"])
     with open(EVENTS_FILE, "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
-    print(f"✓ Added {added} new {VENUE} events ({len(events)} events in total)")
+    print(f"✓ Added {added} new {venue} events ({len(events)} events in total)")
     return 0
 
 

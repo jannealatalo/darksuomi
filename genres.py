@@ -57,6 +57,8 @@ JUNK_TAGS = {
     "dutch", "polish", "czech", "swiss", "austrian", "icelandic",
     "croatian", "faroese", "need to rate", "check", "brazil", "brazilian",
     "serbian", "christmas", "oon kayny kattomassa", "netherlands", "slovak",
+    "dr congo", "albania", "albanian", "latvian", "latvia", "lithuanian",
+    "russian", "polish", "hungarian", "italian", "spain",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")
@@ -112,6 +114,8 @@ VENUE_GENRES = {
     "rock": "rock", "pop": "pop", "rap": "rap", "soul-rnb": "r&b",
     "iskelma": "iskelmä", "folk": "folk", "dj": "dj night",
     "stand-up": "stand-up", "other": None,
+    # Lepakkomies categories (same site builder as On the Rocks)
+    "gothic": "gothic rock", "hc": "hardcore", "stoner": "stoner rock",
     # Kulttuuritalo / KULT categories
     "rock-ja-metalli": "rock", "punk-ja-indie": "indie", "pop-ja-rap": "pop",
     "stand-up-ja-viihde": "stand-up", "jazz-ja-viihdemusiikki": "viihde",
@@ -359,6 +363,40 @@ def resolve_artist(act: dict, cache: dict, overrides: dict, refresh: bool) -> tu
     return name, tags
 
 
+DJ_TITLE = re.compile(r"\b(dj|djs|disko|disco)\b|-disko\b", re.I)
+COMEDY_TITLE = re.compile(r"naurut|stand ?-?up|standup|komiikka|joka v\*tun keskiviikko", re.I)
+QUIZ_TITLE = re.compile(r"pubivisa|\bvisailu|\bquiz\b|bingo", re.I)
+
+
+def pick_genres(event: dict, artist_tags: list[str]) -> list[str]:
+    """
+    Decide a gig's genres, most reliable source first:
+      1. the venue labels the gig a DJ night -> "dj night"; the title says
+         it's a comedy or quiz night -> "stand-up" / "viihde" (namesake bands
+         in such titles must not win)
+      2. tags of the artists (Last.fm / MusicBrainz / overrides)
+      3. the venue's own category for this gig (venueGenres)
+      4. a DJ/disco title (checked late: band gigs often have DJs after)
+      5. the venue's general default (venueDefault, e.g. a rock bar)
+    """
+    venue_cats = event.get("venueGenres") or []
+    title = event["artist"]
+    if "dj" in venue_cats:
+        return ["dj night"]
+    if COMEDY_TITLE.search(title):
+        return ["stand-up"]
+    if QUIZ_TITLE.search(title):
+        return ["viihde"]
+    if artist_tags:
+        return artist_tags
+    mapped = [VENUE_GENRES[g] for g in venue_cats if VENUE_GENRES.get(g)]
+    if mapped:
+        return mapped
+    if DJ_TITLE.search(title):
+        return ["dj night"]
+    return [event["venueDefault"]] if event.get("venueDefault") else []
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--refresh", action="store_true", help="re-fetch all artists")
@@ -377,21 +415,8 @@ def main() -> int:
                 name, tags = resolve_artist(act, cache, overrides, args.refresh)
                 artists.append(name)
                 genres += [t for t in tags if t not in genres]
-            if not genres:
-                # Nobody has tagged these artists. Club and comedy nights are
-                # recognised from the title first, then the venue's own
-                # category for the gig (or its default genre) is used.
-                title = event["artist"]
-                if re.search(r"\b(dj|djs|disko|disco)\b|-disko\b", title, flags=re.I):
-                    genres = ["dj night"]
-                elif re.search(r"naurut|stand ?-?up|standup|komiikka|joka v\*tun keskiviikko",
-                               title, flags=re.I):
-                    genres = ["stand-up"]
-                else:
-                    genres = [VENUE_GENRES[g] for g in event.get("venueGenres", [])
-                              if VENUE_GENRES.get(g)]
             event["artists"] = artists
-            event["genres"] = genres
+            event["genres"] = pick_genres(event, genres)
         save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
         save_json(EVENTS_FILE, events)
         print(f"✓ Tagged {len(events)} events ({len(cache)} artists cached)")

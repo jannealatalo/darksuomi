@@ -7,6 +7,7 @@ export const VENUE_LINKS: Record<string, string> = {
   "Bar Loose": "https://barloose.com/",
   "Veikkaus Arena": "https://www.veikkausarena.fi/all-events",
   Semifinal: "https://tavastiaklubi.fi/semifinal/",
+  Lepakkomies: "https://www.lepis.fi/",
 };
 
 export type SiteLink = { name: string; url: string };
@@ -34,4 +35,17 @@ export const MERCH_SITES: SiteLink[] = [
   { name: "Backstage Rock Shop", url: "https://www.backstagerockshop.com/" },
   { name: "Stupido Records", url: "https://www.stupido.fi/" },
   { name: "Inverse", url: "https://inverse.fi/" },
+];
+
+/** Finnish music media: news, reviews, interviews. */
+export const MEDIA_SITES: SiteLink[] = [
+  { name: "Desibeli.net", url: "https://desibeli.net/" },
+  { name: "Kaaoszine", url: "https://kaaoszine.fi/" },
+  { name: "Inferno", url: "https://www.inferno.fi/" },
+  { name: "Soundi", url: "https://www.soundi.fi/" },
+  { name: "Rumba", url: "https://www.rumba.fi/" },
+  { name: "Noise.fi", url: "https://www.noise.fi/" },
+  { name: "IMPE", url: "https://impe.fi/" },
+  { name: "Metalliluola", url: "https://www.metalliluola.fi/" },
+  { name: "Tuonela Magazine", url: "https://www.tuonelamagazine.com/" },
 ];
