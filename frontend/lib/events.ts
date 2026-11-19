@@ -5,6 +5,22 @@ import type { Event } from "../types/events";
 
 export const excludedGenres = new Set<string>(genreConfig.excludeGenres);
 
+/** The header genres as filters, each matching a family of genre tags. */
+export const GENRE_FILTERS: { name: string; patterns: RegExp[] }[] =
+  genreConfig.genreFilters.map((g) => ({
+    name: g.name,
+    patterns: g.patterns.map((p) => new RegExp(p, "i")),
+  }));
+
+export const GENRE_FILTER_NAMES = GENRE_FILTERS.map((g) => g.name);
+
+/** Does the gig have a tag in this header genre (e.g. "Doom": sludge, drone…)? */
+export function matchesGenreFilter(event: Event, name: string): boolean {
+  const filter = GENRE_FILTERS.find((g) => g.name === name);
+  if (!filter) return false;
+  return (event.genres ?? []).some((tag) => filter.patterns.some((re) => re.test(tag)));
+}
+
 /**
  * Genres the site is about. A "*" matches any text, so "*metal*" covers
  * "black metal" and "metalcore"; entries without "*" must match exactly.

@@ -5,8 +5,10 @@ import Link from "next/link";
 import {
   eventArtistNames,
   excludedGenres,
+  GENRE_FILTER_NAMES,
   getEvents,
   isExcludedByGenre,
+  matchesGenreFilter,
   lastScraped,
 } from "../lib/events";
 import EventList from "./EventList";
@@ -42,6 +44,8 @@ export default function Home() {
   const [showOnlyFollowed, setShowOnlyFollowed] = useState(false);
   const [showAllGenres, setShowAllGenres] = useState(false);
   const [hiddenVenues, setHiddenVenues] = useState<Set<string>>(new Set());
+  // Header genres to show; empty = all genres.
+  const [pickedGenres, setPickedGenres] = useState<Set<string>>(new Set());
 
   const isFollowedEvent = (event: Event) =>
     eventArtistNames(event).some((name) => followedArtists.has(name));
@@ -52,11 +56,39 @@ export default function Home() {
       (showAllGenres || !isExcludedByGenre(event)) &&
       (!showOnlyFollowed || isFollowedEvent(event))
   );
+  const inPickedGenres = (e: Event) =>
+    pickedGenres.size === 0 ||
+    [...pickedGenres].some((g) => matchesGenreFilter(e, g));
+  const inShownVenues = (e: Event) => !hiddenVenues.has(e.venue);
+
+  // Each filter's counts reflect the other filter's current choice.
   const venueCounts = new Map<string, number>();
-  for (const e of genreFiltered) {
+  for (const e of genreFiltered.filter(inPickedGenres)) {
     venueCounts.set(e.venue, (venueCounts.get(e.venue) ?? 0) + 1);
   }
-  const filteredEvents = genreFiltered.filter((e) => !hiddenVenues.has(e.venue));
+  const genreCounts = new Map<string, number>();
+  for (const e of genreFiltered.filter(inShownVenues)) {
+    for (const g of GENRE_FILTER_NAMES) {
+      if (matchesGenreFilter(e, g)) genreCounts.set(g, (genreCounts.get(g) ?? 0) + 1);
+    }
+  }
+  const filteredEvents = genreFiltered.filter(
+    (e) => inShownVenues(e) && inPickedGenres(e)
+  );
+
+  const toggleGenre = (genre: string) =>
+    setPickedGenres((prev) => {
+      const next = new Set(prev);
+      if (next.has(genre)) next.delete(genre);
+      else next.add(genre);
+      return next;
+    });
+
+  // Header genre names: show only that genre and jump to the list.
+  const showOnlyGenre = (genre: string) => {
+    setPickedGenres(new Set([genre]));
+    document.getElementById("gig-filters")?.scrollIntoView({ behavior: "smooth" });
+  };
 
   const toggleVenue = (venue: string) =>
     setHiddenVenues((prev) => {
@@ -85,8 +117,25 @@ export default function Home() {
               />
             </h1>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-              <span className="block">Metal • Doom • Stoner • Rock • Punk</span>
-              <span className="block">Goth • Darkwave • Industrial • EBM • Synth</span>
+              {[GENRE_FILTER_NAMES.slice(0, 5), GENRE_FILTER_NAMES.slice(5)].map((row) => (
+                <span key={row[0]} className="block">
+                  {row.map((genre, i) => (
+                    <span key={genre}>
+                      {i > 0 && " • "}
+                      <button
+                        type="button"
+                        onClick={() => showOnlyGenre(genre)}
+                        title={`Show only ${genre} gigs`}
+                        className={`hover:text-white hover:underline underline-offset-4 ${
+                          pickedGenres.has(genre) ? "text-white" : ""
+                        }`}
+                      >
+                        {genre}
+                      </button>
+                    </span>
+                  ))}
+                </span>
+              ))}
               <span className="flex flex-wrap gap-x-4 mt-2">
                 <Link href="/bands" className="text-purple-400 hover:text-purple-300">
                   Bands A–Z: Spotify, Bandcamp, SoundCloud… →
@@ -235,6 +284,39 @@ export default function Home() {
             )}
           </div>
         )}
+
+        <fieldset id="gig-filters" className="mb-4 text-sm text-gray-400 scroll-mt-4">
+          <legend className="mb-1.5 flex items-baseline gap-3">
+            <span>Genres</span>
+            {pickedGenres.size > 0 ? (
+              <button
+                type="button"
+                onClick={() => setPickedGenres(new Set())}
+                className="text-xs text-purple-400 hover:text-purple-300"
+              >
+                show all
+              </button>
+            ) : (
+              <span className="text-xs text-gray-600">tick to show only these</span>
+            )}
+          </legend>
+          <div className="flex flex-wrap gap-x-5 gap-y-1.5">
+            {GENRE_FILTER_NAMES.map((genre) => (
+              <label key={genre} className="inline-flex items-center gap-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={pickedGenres.has(genre)}
+                  onChange={() => toggleGenre(genre)}
+                  className="accent-purple-600"
+                />
+                {genre}
+                <span className="text-gray-600 tabular-nums">
+                  {genreCounts.get(genre) ?? 0}
+                </span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
 
         {allVenues.length > 1 && (
           <fieldset className="mb-6 text-sm text-gray-400">

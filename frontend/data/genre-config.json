@@ -74,5 +74,105 @@
     "MOMO": {
       "genres": []
     }
-  }
+  },
+  "genreFilters": [
+    {
+      "name": "Metal",
+      "patterns": [
+        "metal",
+        "deathcore",
+        "grindcore",
+        "\bgrind\b",
+        "djent"
+      ]
+    },
+    {
+      "name": "Doom",
+      "patterns": [
+        "doom",
+        "sludge",
+        "\bdrone\b",
+        "funeral"
+      ]
+    },
+    {
+      "name": "Stoner",
+      "patterns": [
+        "stoner",
+        "desert rock",
+        "heavy psych",
+        "fuzz"
+      ]
+    },
+    {
+      "name": "Rock",
+      "patterns": [
+        "^rock$",
+        "^suomirock$",
+        "hard rock",
+        "garage",
+        "glam rock",
+        "psychedelic rock",
+        "alternative rock",
+        "progressive rock",
+        "space rock",
+        "noise rock",
+        "post-rock",
+        "blues rock",
+        "classic rock",
+        "sleaze rock",
+        "indie rock",
+        "rock & roll",
+        "rock n roll"
+      ]
+    },
+    {
+      "name": "Punk",
+      "patterns": [
+        "punk",
+        "hardcore",
+        "crust",
+        "d-beat"
+      ]
+    },
+    {
+      "name": "Goth",
+      "patterns": [
+        "goth",
+        "deathrock",
+        "post-punk"
+      ]
+    },
+    {
+      "name": "Darkwave",
+      "patterns": [
+        "darkwave",
+        "dark wave",
+        "coldwave",
+        "minimal wave"
+      ]
+    },
+    {
+      "name": "Industrial",
+      "patterns": [
+        "industrial",
+        "aggrotech"
+      ]
+    },
+    {
+      "name": "EBM",
+      "patterns": [
+        "\bebm\b",
+        "futurepop",
+        "dark electro",
+        "electro-industrial"
+      ]
+    },
+    {
+      "name": "Synth",
+      "patterns": [
+        "synth"
+      ]
+    }
+  ]
 }
