@@ -208,8 +208,12 @@ def parse_title(title: str) -> list[dict]:
         # Trailing "Tour 2026", "X-mas special 2026", "20v", years.
         part = re.sub(r"\s+(tour|x-mas special|special)\b.*$", "", part, flags=re.I)
         part = re.sub(r"\s+\S*-?kiertue\b.*$", "", part, flags=re.I)  # Finnish "tour"
+        part = re.sub(r"\s+\d{1,2}\.\d{1,2}\.(?:\d{2,4})?$", "", part)  # "… 18.3.2027"
         part = re.sub(r"\s+\d{4}$", "", part)
-        part = re.sub(r"\s+-?(levyjulkkarit|konsertti)$", "", part, flags=re.I)
+        # "levyjulkkarit", "-konsertti", "-hyväntekeväisyyskonsertti", "joulukonsertti"
+        # (not "Wieniläiskonsertti" alone, which is the whole show name)
+        part = re.sub(r"\s+(?:-?levyjulkkarit|-?konsertti|-\S+konsertti|joulukonsertti)$",
+                      "", part, flags=re.I)
         part = re.sub(r"\s+\d+-vuotisjuhlakeikka$", "", part, flags=re.I)
         # Anniversaries: "Vainoa 10v.", "VIKI & KÖPI 10V SHOW", "Hector 60v juhla".
         part = re.sub(r"\s+\d+\s*(?:v\b\.?|vuotta\b).*$", "", part, flags=re.I)

@@ -718,7 +718,7 @@
   },
   {
     "id": 5,
-    "artist": "Michael Monroe plays Hanoi Rocks (Ikärajaton)",
+    "artist": "Michael Monroe plays Hanoi Rocks",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
     "date": "2026-11-22T14:00:00",
@@ -771,7 +771,7 @@
   },
   {
     "id": 6,
-    "artist": "Michael Monroe plays Hanoi Rocks (K-18)",
+    "artist": "Michael Monroe plays Hanoi Rocks",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
     "date": "2026-11-22T18:30:00",
@@ -5828,7 +5828,7 @@
   },
   {
     "id": 43,
-    "artist": "louna0nline: starseed album tour (S)",
+    "artist": "louna0nline: starseed album tour",
     "venue": "Tavastia Klubi",
     "city": "Helsinki",
     "date": "2027-02-06T00:00:00",
@@ -7557,7 +7557,7 @@
     "detailsFetched": "2026-11-19",
     "id": 196,
     "artists": [
-      "Ricky-Tick Big Band & Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027"
+      "Ricky-Tick Big Band & Julkinen Sana"
     ],
     "genres": [
       "jazz",
@@ -7702,7 +7702,7 @@
     "detailsFetched": "2026-11-19",
     "id": 141,
     "artists": [
-      "KAJ på Kulturhuset 21.3.2027"
+      "KAJ på Kulturhuset"
     ],
     "genres": [
       "pop",

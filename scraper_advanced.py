@@ -13,6 +13,13 @@ import time
 from typing import List, Dict, Optional
 from urllib.parse import urljoin
 
+# "(S)" / "(Ikärajaton)" = all ages, "(K-18)" = 18+: the age is shown separately.
+AGE_MARK = re.compile(r"\s*\((?:S|K-?\d{1,2}|ikärajaton|sallittu)\)\s*$", re.I)
+
+
+def clean_title(title: str) -> str:
+    return AGE_MARK.sub("", title).strip()
+
 class TavastiaAdvancedScraper:
     """Advanced scraper with Tavastia-specific logic"""
     
@@ -437,6 +444,10 @@ class TavastiaAdvancedScraper:
             (e['artist'].lower().strip(), e['date'][:10])  # day only: doors time is added later
             for e in existing if isinstance(e, dict)
         }
+        # Tavastia's event pages have stable URLs; matching on them keeps two
+        # shows of one day apart (e.g. an all-ages and a K-18 show).
+        by_url = {e['ticketUrl']: e for e in existing
+                  if isinstance(e, dict) and '/events/' in e.get('ticketUrl', '')}
         
         # Add new non-duplicate events
         merged = existing.copy()
@@ -444,6 +455,11 @@ class TavastiaAdvancedScraper:
         # save, so reading it per event gave every new event the same ID.
         next_id = max((e.get('id', 0) for e in existing if isinstance(e, dict)), default=0) + 1
         for event in new_events:
+            event['artist'] = clean_title(event['artist'])
+            same_page = by_url.get(event['ticketUrl'])
+            if same_page:
+                same_page['artist'] = event['artist']  # titles get updated
+                continue
             key = (event['artist'].lower().strip(), event['date'][:10])
             if key not in existing_set:
                 event['id'] = next_id

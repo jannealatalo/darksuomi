@@ -2164,6 +2164,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Julkinen Sana": {
+    "source": "musicbrainz",
+    "matchedName": "Julkinen Sana",
+    "mbid": "3d90c2ff-387c-4d35-be35-bd9354da8427",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-19"
+  },
   "Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027": {
     "source": "notfound",
     "tags": [],
@@ -3791,6 +3799,11 @@
       "jazz",
       "big band"
     ],
+    "fetched": "2026-11-19"
+  },
+  "Ricky-Tick Big Band & Julkinen Sana": {
+    "source": "notfound",
+    "tags": [],
     "fetched": "2026-11-19"
   },
   "Ricky-Tick Big Band & Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027": {
