@@ -72,6 +72,15 @@ jobs:
           SPOTIFY_PLAYLIST_REFRESH_TOKEN: ${{ secrets.SPOTIFY_PLAYLIST_REFRESH_TOKEN }}
         run: python playlists.py
 
+      - name: Update band directory links
+        # MusicBrainz links (+ Spotify search fallback); not critical.
+        continue-on-error: true
+        env:
+          SPOTIFY_PLAYLIST_CLIENT_ID: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_ID }}
+          SPOTIFY_PLAYLIST_CLIENT_SECRET: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_SECRET }}
+          SPOTIFY_PLAYLIST_REFRESH_TOKEN: ${{ secrets.SPOTIFY_PLAYLIST_REFRESH_TOKEN }}
+        run: python bands.py
+
       - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"

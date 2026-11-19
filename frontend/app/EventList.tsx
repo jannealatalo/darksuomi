@@ -59,7 +59,7 @@ export default function EventList({
 function EventItem({ event, followed }: { event: Event; followed: boolean }) {
   const time = eventTime(event);
   return (
-    <li>
+    <li id={`gig-${event.id}`} className="scroll-mt-6">
       <div className="flex items-start gap-2">
         <h3 className="text-lg font-semibold leading-snug text-gray-100">
           {event.artist}

@@ -1,0 +1,4969 @@
+{
+  "10cc": {
+    "genres": [
+      "classic rock",
+      "rock",
+      "pop"
+    ],
+    "display": "10cc",
+    "eventIds": [
+      221
+    ],
+    "mbid": "f37c537b-3557-4031-bfd6-ab63ced32854",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/39775",
+      "spotify": "https://open.spotify.com/artist/6i6WlGzQtXtz7GcC5H5st5",
+      "deezer": "https://www.deezer.com/artist/6111",
+      "homepage": "https://10cc.world/",
+      "apple": "https://music.apple.com/gb/artist/405340",
+      "soundcloud": "https://soundcloud.com/10cc-official",
+      "tidal": "https://tidal.com/artist/27532",
+      "wikidata": "https://www.wikidata.org/wiki/Q169145",
+      "youtube": "https://www.youtube.com/channel/UCjyD_pnM14qs0xwkwvzVsTw",
+      "wikipedia": "https://en.wikipedia.org/wiki/10cc"
+    },
+    "fetched": "2026-11-19"
+  },
+  "AB": {
+    "genres": [
+      "rnb",
+      "soul",
+      "psychobilly"
+    ],
+    "display": "AB",
+    "eventIds": [
+      93
+    ],
+    "mbid": "827b9212-6451-4193-bad5-69e25b8cf66a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/6331758"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Abduktio": {
+    "genres": [
+      "hardcore",
+      "hardcore punk",
+      "punk"
+    ],
+    "display": "Abduktio",
+    "eventIds": [
+      205
+    ],
+    "mbid": "4ef6e8b5-a241-4c1d-8f4a-85037f48d5be",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/925571",
+      "wikidata": "https://www.wikidata.org/wiki/Q5487741",
+      "spotify": "https://open.spotify.com/artist/0GlR9lFfnf7OkEsUVoW9hW",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Abduktio_(yhtye)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Aeonian Sorrow": {
+    "genres": [
+      "gothic doom metal",
+      "doom metal"
+    ],
+    "display": "Aeonian Sorrow",
+    "eventIds": [
+      98
+    ],
+    "mbid": "c9fa37ed-f8da-4d1b-a919-b1ed8b79adb9",
+    "links": {
+      "bandcamp": "https://aeoniansorrow.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/6398849",
+      "spotify": "https://open.spotify.com/artist/5MKv3s6qLAASgv80ilSAN0",
+      "deezer": "https://www.deezer.com/artist/13393547",
+      "homepage": "http://www.aeoniansorrow.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Aeonian_Sorrow/3540438810",
+      "instagram": "https://www.instagram.com/aeoniansorrow/",
+      "soundcloud": "https://soundcloud.com/aeoniansorrow",
+      "tidal": "https://tidal.com/artist/42030568",
+      "youtube": "https://www.youtube.com/channel/UC89ZTlVgSThRUkSFpafJdLw"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Agent Side Grinder": {
+    "genres": [
+      "post-punk",
+      "industrial",
+      "minimal synth"
+    ],
+    "display": "Agent Side Grinder",
+    "eventIds": [
+      84
+    ],
+    "mbid": "edf3d7a0-6de2-4a6d-aa17-9fc842f0f430",
+    "links": {
+      "bandcamp": "https://agentsidegrinder.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/830309",
+      "spotify": "https://open.spotify.com/artist/0kMA8StaJw3CUvN42xCLSe",
+      "deezer": "https://www.deezer.com/artist/394894",
+      "homepage": "http://www.agentsidegrinder.com/",
+      "soundcloud": "https://soundcloud.com/agent-side-grinder",
+      "apple": "https://music.apple.com/gb/artist/394951673",
+      "tidal": "https://tidal.com/artist/3795579",
+      "wikidata": "https://www.wikidata.org/wiki/Q10403156",
+      "wikipedia": "https://en.wikipedia.org/wiki/Agent_Side_Grinder"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Aino & Hajonneet": {
+    "genres": [
+      "punk"
+    ],
+    "display": "Aino & Hajonneet",
+    "eventIds": [
+      115
+    ],
+    "mbid": "1db4f293-ba92-41aa-a59f-bca643dfd317",
+    "links": {
+      "bandcamp": "https://ainojahajonneet.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/10386088",
+      "spotify": "https://open.spotify.com/artist/1sRsNqY5RY8NvNtM0E8Aa6",
+      "instagram": "https://www.instagram.com/ainojahajonneet/",
+      "wikidata": "https://www.wikidata.org/wiki/Q123175072",
+      "youtube": "https://www.youtube.com/channel/UCcmD24_TKusZmfGikoxPBFQ",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Aino_%26_Hajonneet"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Akathartos": {
+    "genres": [
+      "black metal",
+      "russia"
+    ],
+    "display": "Akathartos",
+    "eventIds": [
+      84
+    ],
+    "mbid": "40a07209-58de-40e3-a813-e7042c55a3e0",
+    "links": {
+      "bandcamp": "https://akathartos.bandcamp.com/",
+      "homepage": "https://www.akathartos.com/",
+      "instagram": "https://www.instagram.com/dakathartos/",
+      "soundcloud": "https://soundcloud.com/akathartos",
+      "youtube": "https://www.youtube.com/@akathartos9720",
+      "spotify": "https://open.spotify.com/artist/1tVcsL7UivFnk5zU2TUHFq"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Alice": {
+    "genres": [
+      "pop",
+      "progressive rock",
+      "rock"
+    ],
+    "display": "Alice",
+    "eventIds": [
+      213
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Aliisa Syrjä": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Aliisa Syrjä",
+    "eventIds": [
+      7
+    ],
+    "mbid": "2cf08034-54b2-4c26-ac89-78e3e75e58eb",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/13674865",
+      "spotify": "https://open.spotify.com/artist/22MRXgWTSxSeQG9NLCMezd",
+      "deezer": "https://www.deezer.com/artist/154238372",
+      "apple": "https://music.apple.com/gb/artist/1599971112",
+      "instagram": "https://www.instagram.com/aliisasyrja/",
+      "soundcloud": "https://soundcloud.com/aliisasyrja",
+      "tidal": "https://tidal.com/artist/29705806",
+      "wikidata": "https://www.wikidata.org/wiki/Q115632134",
+      "youtube": "https://www.youtube.com/channel/UCGRQcY-Ao6whf2v1dWP0zRg",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Aliisa_Syrj%C3%A4"
+    },
+    "fetched": "2026-11-19"
+  },
+  "ALLT": {
+    "genres": [
+      "progressive metalcore",
+      "metalcore",
+      "djent"
+    ],
+    "display": "Allt",
+    "eventIds": [
+      99
+    ],
+    "mbid": "bd25b4a6-09ee-4c88-96f3-04464e36c2e5",
+    "links": {
+      "bandcamp": "https://allt.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/8349327",
+      "spotify": "https://open.spotify.com/artist/6YRr0btzGqfQ5K7r23qjEM",
+      "deezer": "https://www.deezer.com/artist/105300172",
+      "homepage": "https://shop.alltband.com/",
+      "instagram": "https://www.instagram.com/alltband/",
+      "soundcloud": "https://soundcloud.com/allt-music",
+      "apple": "https://music.apple.com/se/artist/1529369992",
+      "tidal": "https://tidal.com/artist/21078379",
+      "wikidata": "https://www.wikidata.org/wiki/Q136361440",
+      "youtube": "https://www.youtube.com/channel/UCnIeVbou8giGgw9NtjwSkGw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Allt"
+    },
+    "fetched": "2026-11-19"
+  },
+  "AMORPHIS": {
+    "genres": [
+      "progressive metal",
+      "melodic death metal",
+      "death metal"
+    ],
+    "display": "Amorphis",
+    "eventIds": [
+      192
+    ],
+    "mbid": "efaefde1-e09b-4d49-9d8e-b1304d2ece8d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/113365",
+      "spotify": "https://open.spotify.com/artist/2UOVgpgiNTC6KK0vSC77aD",
+      "deezer": "https://www.deezer.com/artist/3579",
+      "homepage": "https://amorphis.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Amorphis",
+      "apple": "https://music.apple.com/fi/artist/5545051",
+      "instagram": "https://www.instagram.com/amorphisband/",
+      "soundcloud": "https://soundcloud.com/amorphis-official",
+      "tidal": "https://tidal.com/artist/9233",
+      "wikidata": "https://www.wikidata.org/wiki/Q474169",
+      "youtube": "https://www.youtube.com/channel/UC-7JFVd4iyli6EB-ycLUEfA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Amorphis"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Andy and the Rockets": {
+    "genres": [
+      "hard rock",
+      "rock"
+    ],
+    "display": "Andy And The Rockets",
+    "eventIds": [
+      129
+    ],
+    "mbid": "836f14e0-8f5f-493e-b610-c1f33f08f810",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/9957664",
+      "spotify": "https://open.spotify.com/artist/6B1g25y7etRaKrODzS312a"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ane Brun": {
+    "genres": [
+      "singer-songwriter",
+      "acoustic",
+      "indie"
+    ],
+    "display": "Ane Brun",
+    "eventIds": [
+      160
+    ],
+    "mbid": "d735497b-25f9-4503-8fb5-f50150730c18",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/287135",
+      "spotify": "https://open.spotify.com/artist/2L3kwZFd16zjHz9a5kEPAm",
+      "deezer": "https://www.deezer.com/artist/9691",
+      "homepage": "http://anebrun.com/",
+      "instagram": "https://www.instagram.com/anebrun/",
+      "apple": "https://music.apple.com/gb/artist/24134087",
+      "tidal": "https://tidal.com/artist/3524664",
+      "wikidata": "https://www.wikidata.org/wiki/Q256783",
+      "youtube": "https://www.youtube.com/channel/UChihnFNbUit9rhVXCNeTsrQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ane_Brun"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ani Harmi": {
+    "genres": [],
+    "display": "Ani Harmi",
+    "eventIds": [
+      89
+    ],
+    "mbid": "742ae25a-b93a-4fe2-8d48-f3faa1e4902c",
+    "links": {
+      "instagram": "https://www.instagram.com/ani_harmi/",
+      "spotify": "https://open.spotify.com/artist/3Y4vCRHMpmHluzFViYfyPl"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Anis Kiitu": {
+    "genres": [],
+    "display": "Anis Kiitu",
+    "eventIds": [
+      145
+    ],
+    "mbid": "240c8801-f63d-4a7f-95e0-6daed6a9ce64",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6aG23VfB0dVQZomFjXq390",
+      "instagram": "https://www.instagram.com/aniskiitu/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Antti Autio": {
+    "genres": [
+      "indie",
+      "singer-songwriter"
+    ],
+    "display": "Antti Autio",
+    "eventIds": [
+      212
+    ],
+    "mbid": "bf6c9ae2-2c50-4c51-ab0d-89838bff2b93",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3KUc1iwMflU36B2qtCnt6n",
+      "homepage": "http://www.anttiautio.fi/",
+      "wikidata": "https://www.wikidata.org/wiki/Q29418930",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Antti_Autio"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Anvil": {
+    "genres": [
+      "heavy metal",
+      "speed metal",
+      "thrash metal"
+    ],
+    "display": "Anvil",
+    "eventIds": [
+      96
+    ],
+    "mbid": "07a85e96-bb72-4930-b41d-24853f4a4ede",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/399435",
+      "spotify": "https://open.spotify.com/artist/0maNhqGx60ucjS4UaAH6cP",
+      "deezer": "https://www.deezer.com/artist/10237",
+      "homepage": "http://my.tbaytel.net/tgallo/anvil/",
+      "metalArchives": "https://www.metal-archives.com/bands/Anvil/542",
+      "apple": "https://music.apple.com/us/artist/129779577",
+      "wikidata": "https://www.wikidata.org/wiki/Q613022",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anvil_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Arottenbit": {
+    "genres": [
+      "chiptune",
+      "8-bit"
+    ],
+    "display": "Arottenbit",
+    "eventIds": [
+      10
+    ],
+    "mbid": "94eec095-65c7-43d5-9db0-58962e99c1c7",
+    "links": {
+      "bandcamp": "https://arottenbit2029.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2034834",
+      "spotify": "https://open.spotify.com/artist/2taLyeYeGGr5YuXFfldiWa",
+      "deezer": "https://www.deezer.com/artist/127085822",
+      "apple": "https://music.apple.com/gb/artist/1559132739",
+      "tidal": "https://tidal.com/artist/24012820"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Arppa": {
+    "genres": [
+      "rock",
+      "pop",
+      "indie rock"
+    ],
+    "display": "Arppa",
+    "eventIds": [
+      210
+    ],
+    "mbid": "bc02f9fa-cec8-43ca-b7df-f2302139c471",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/8166326",
+      "spotify": "https://open.spotify.com/artist/7BLe6O1Q3UbUsAUh5x6wuv",
+      "instagram": "https://www.instagram.com/arppamusic/",
+      "wikidata": "https://www.wikidata.org/wiki/Q106690159",
+      "youtube": "https://www.youtube.com/channel/UCTj-xfgHkaP66zl64OQQXkA",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Aaro_Airola"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Arttu Wiskari": {
+    "genres": [
+      "pop",
+      "singer-songwriter"
+    ],
+    "display": "Arttu Wiskari",
+    "eventIds": [
+      22,
+      159
+    ],
+    "mbid": "1031d059-2b65-4fc5-9770-eecbfadf1e6f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2999520",
+      "spotify": "https://open.spotify.com/artist/3XqH4FcUOrw2gw7L3BBaDn",
+      "deezer": "https://www.deezer.com/artist/994448",
+      "homepage": "http://www.arttuwiskari.com/",
+      "instagram": "https://www.instagram.com/arttuwiskariofficial/",
+      "apple": "https://music.apple.com/gb/artist/378062269",
+      "tidal": "https://tidal.com/artist/3813031",
+      "wikidata": "https://www.wikidata.org/wiki/Q4801574",
+      "youtube": "https://www.youtube.com/channel/UCS3nTfXXy5i_YKhq7FQytrA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Arttu_Wiskari"
+    },
+    "fetched": "2026-11-19"
+  },
+  "As The Sun Falls": {
+    "genres": [
+      "melodic death metal"
+    ],
+    "display": "As The Sun Falls",
+    "eventIds": [
+      98
+    ],
+    "mbid": "e9d20a82-06a5-4493-9935-ea1ef7f8e7af",
+    "links": {
+      "bandcamp": "https://asthesunfalls.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/7926982",
+      "spotify": "https://open.spotify.com/artist/2Fk4hupgrXoxrjrEGjxKHG",
+      "deezer": "https://www.deezer.com/artist/102579452",
+      "homepage": "https://asthesunfalls.band/",
+      "metalArchives": "https://www.metal-archives.com/bands/As_the_Sun_Falls/3540468668",
+      "instagram": "https://www.instagram.com/asthesunfalls/",
+      "apple": "https://music.apple.com/gb/artist/1525773770",
+      "tidal": "https://tidal.com/artist/20708294",
+      "youtube": "https://www.youtube.com/channel/UCZXmqZtkTxZ6-2gizaHmtTA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Asa": {
+    "genres": [
+      "rap",
+      "hip hop",
+      "political"
+    ],
+    "display": "Asa",
+    "eventIds": [
+      25
+    ],
+    "mbid": "01aaa1b4-4b35-48a3-8a00-5d82591d93d1",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/222365",
+      "spotify": "https://open.spotify.com/artist/0rHtbK2pK4r67coo9EsT7D",
+      "deezer": "https://www.deezer.com/artist/10718011",
+      "tidal": "https://tidal.com/artist/9482772",
+      "wikidata": "https://www.wikidata.org/wiki/Q8352134",
+      "wikipedia": "https://en.wikipedia.org/wiki/Asa_(rapper)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Aspesti": {
+    "genres": [],
+    "display": "Aspesti",
+    "eventIds": [
+      119
+    ],
+    "mbid": "b80bf900-61d4-46c3-a5ea-b418dd75412b",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/18341796",
+      "homepage": "http://aspesti.com/",
+      "spotify": "https://open.spotify.com/artist/6q9o7ESTlnaLCsuFYh91A5"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Avralize": {
+    "genres": [
+      "metalcore",
+      "alternative metal"
+    ],
+    "display": "AVRALIZE",
+    "eventIds": [
+      99
+    ],
+    "mbid": "de331713-b83b-4c8b-8e1e-3b86cb1e33a5",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/14371625",
+      "spotify": "https://open.spotify.com/artist/6h9Yjv46RWsgt2NQ1F6Jb5",
+      "deezer": "https://www.deezer.com/artist/168566847",
+      "homepage": "https://avralize.com/",
+      "instagram": "https://www.instagram.com/avralizemusic/",
+      "apple": "https://music.apple.com/de/artist/1625061405",
+      "tidal": "https://tidal.com/artist/31949961",
+      "wikidata": "https://www.wikidata.org/wiki/Q139961723",
+      "youtube": "https://www.youtube.com/channel/UCVs3G1ZSaT-ZB2LpKcJqPWg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Avralize"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Baby Lasagna": {
+    "genres": [
+      "rock",
+      "croatian",
+      "pop punk"
+    ],
+    "display": "Baby Lasagna",
+    "eventIds": [
+      184
+    ],
+    "mbid": "ac1739a6-4378-42fb-89f6-1f89e32e4369",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/14436671",
+      "spotify": "https://open.spotify.com/artist/1ncWEkB4AQh1rxC8ObpBoH",
+      "deezer": "https://www.deezer.com/artist/237789251",
+      "instagram": "https://www.instagram.com/the_baby_lasagna_/",
+      "apple": "https://music.apple.com/hr/artist/1712556063",
+      "tidal": "https://tidal.com/artist/43023750",
+      "wikidata": "https://www.wikidata.org/wiki/Q124157590",
+      "youtube": "https://www.youtube.com/channel/UCvF3sNJf_ueHl8gVdLb0PYA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Baby_Lasagna"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Backrooms": {
+    "genres": [
+      "drone",
+      "ambient",
+      "liminal"
+    ],
+    "display": "Backrooms",
+    "eventIds": [
+      229
+    ],
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/625NGrk7swcona2P7GeQEB"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Bastards": {
+    "genres": [
+      "hardcore punk",
+      "grindcore",
+      "punk"
+    ],
+    "display": "Bastards",
+    "eventIds": [
+      234
+    ],
+    "mbid": "10827c40-7ce7-4c07-a3f0-3d8b749a1601",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/304349"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ben’s Diapers": {
+    "genres": [],
+    "display": "Ben’s Diapers",
+    "eventIds": [
+      114
+    ],
+    "mbid": "8ae0577f-2b40-4db8-bae5-0a07bba059e1",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1694611"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Bite Down": {
+    "genres": [
+      "metalcore",
+      "hardcore"
+    ],
+    "display": "Bite Down",
+    "eventIds": [
+      99
+    ],
+    "mbid": "9ab75e90-9b91-492e-ad50-d8c3b824c4bc",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0v6hSqiiT4b6n0sEVQY41l",
+      "deezer": "https://www.deezer.com/artist/92492532",
+      "apple": "https://music.apple.com/de/artist/1509971178",
+      "instagram": "https://www.instagram.com/bitedownmusic/",
+      "tidal": "https://tidal.com/artist/19256042"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Black Devils": {
+    "genres": [
+      "freakbeat",
+      "need to rate"
+    ],
+    "display": "Black Devils",
+    "eventIds": [
+      215
+    ],
+    "mbid": "291ca176-b9ac-4122-9138-a504bba0cc0a",
+    "links": {
+      "homepage": "https://www.blackdevils.org/",
+      "spotify": "https://open.spotify.com/artist/7uE4W8qv2wfbCFQGPT8etY"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Black Magic Six": {
+    "genres": [
+      "rock"
+    ],
+    "display": "Black Magic Six",
+    "eventIds": [
+      27
+    ],
+    "mbid": "75590679-d5b1-41fd-9be1-4463af1c9482",
+    "links": {
+      "bandcamp": "https://blackmagicsix.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1849552",
+      "soundcloud": "https://soundcloud.com/blackmagicsix",
+      "wikidata": "https://www.wikidata.org/wiki/Q11854356",
+      "spotify": "https://open.spotify.com/artist/7BxVofynDnOjibq8zQmGtj",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Black_Magic_Six"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Block of Flats": {
+    "genres": [
+      "alternative rock",
+      "alternative metal"
+    ],
+    "display": "Block of Flats",
+    "eventIds": [
+      155
+    ],
+    "mbid": "4a2c8d5f-5830-4196-ba48-0603067014db",
+    "links": {
+      "bandcamp": "https://blockofflats.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/6752082",
+      "spotify": "https://open.spotify.com/artist/1Hr0GjUPxbMDrkRFhXA7p4",
+      "homepage": "https://www.wearebof.com/",
+      "wikidata": "https://www.wikidata.org/wiki/Q79415226",
+      "youtube": "https://www.youtube.com/channel/UCuUktu4CuYJHwLAzsVvweXA",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Block_of_Flats"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Bloodred Hourglass": {
+    "genres": [
+      "melodic death metal",
+      "thrash metal",
+      "metalcore"
+    ],
+    "display": "Bloodred Hourglass",
+    "eventIds": [
+      66
+    ],
+    "mbid": "42004a2e-4066-4556-ba62-f88b9753f93d",
+    "links": {
+      "bandcamp": "https://bloodredhourglassofficial.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3511154",
+      "spotify": "https://open.spotify.com/artist/5LDGgIxaWuRV4KlY6oob6b",
+      "deezer": "https://www.deezer.com/artist/3668191",
+      "homepage": "http://www.brhg.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Bloodred_Hourglass/58377",
+      "soundcloud": "https://soundcloud.com/bloodredhourglass",
+      "apple": "https://music.apple.com/fi/artist/550334387",
+      "tidal": "https://tidal.com/artist/4688111",
+      "youtube": "https://www.youtube.com/channel/UCguHxnpc6flyCMZIH1tqpww"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Blues Pills": {
+    "genres": [
+      "blues rock",
+      "psychedelic rock",
+      "stoner rock"
+    ],
+    "display": "Blues Pills",
+    "eventIds": [
+      14
+    ],
+    "mbid": "5f982ce1-ede9-4949-b0b4-e65dcfae787e",
+    "links": {
+      "bandcamp": "https://bluespills.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2784336",
+      "spotify": "https://open.spotify.com/artist/2lmQ4CUnjmLIIfnwZdRmMY",
+      "deezer": "https://www.deezer.com/artist/2108971",
+      "homepage": "http://www.bluespills.com/",
+      "instagram": "https://www.instagram.com/bluespills/",
+      "soundcloud": "https://soundcloud.com/bluespills",
+      "apple": "https://music.apple.com/de/artist/523499256",
+      "tidal": "https://tidal.com/artist/4591027",
+      "wikidata": "https://www.wikidata.org/wiki/Q15982430",
+      "youtube": "https://www.youtube.com/user/BluesPills",
+      "wikipedia": "https://en.wikipedia.org/wiki/Blues_Pills"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Bombus": {
+    "genres": [
+      "stoner metal",
+      "heavy metal",
+      "hard rock"
+    ],
+    "display": "Bombus",
+    "eventIds": [
+      135
+    ],
+    "mbid": "17388fdd-6a26-4df2-936e-3514670e5e28",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2018663",
+      "spotify": "https://open.spotify.com/artist/3PasuDKJ3UrBlLly6Lih4V",
+      "homepage": "http://www.bombusmusic.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Bombus/3540362871",
+      "soundcloud": "https://soundcloud.com/bombusmusic",
+      "wikidata": "https://www.wikidata.org/wiki/Q16247343",
+      "youtube": "https://www.youtube.com/channel/UCaxGSdcBpC50PW4GsN7FKUQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bombus_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Brujeria": {
+    "genres": [
+      "death metal",
+      "grindcore",
+      "deathgrind"
+    ],
+    "display": "Brujeria",
+    "eventIds": [
+      174
+    ],
+    "mbid": "53f5c37f-8516-46d4-b66e-bf008cea9433",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/261540",
+      "spotify": "https://open.spotify.com/artist/1VV61UepOgsPiOjljK6mBY",
+      "deezer": "https://www.deezer.com/artist/14964",
+      "homepage": "https://www.brujeria.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Brujeria/1347",
+      "instagram": "https://www.instagram.com/brujeria_oficial/",
+      "soundcloud": "https://soundcloud.com/brujeriaofficial",
+      "apple": "https://music.apple.com/us/artist/4163922",
+      "tidal": "https://tidal.com/artist/37409",
+      "wikidata": "https://www.wikidata.org/wiki/Q795030",
+      "wikipedia": "https://en.wikipedia.org/wiki/Brujeria_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Bryan Adams": {
+    "genres": [
+      "rock",
+      "classic rock",
+      "pop"
+    ],
+    "display": "Bryan Adams",
+    "eventIds": [
+      255
+    ],
+    "mbid": "4dbf5678-7a31-406a-abbe-232f8ac2cd63",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/10933",
+      "spotify": "https://open.spotify.com/artist/3Z02hBLubJxuFJfhacLSDc",
+      "deezer": "https://www.deezer.com/artist/170",
+      "homepage": "http://www.bryanadams.com/",
+      "apple": "https://music.apple.com/ca/artist/85932",
+      "instagram": "https://www.instagram.com/bryanadams/",
+      "soundcloud": "https://soundcloud.com/bryan-adams-official",
+      "tidal": "https://tidal.com/artist/7436",
+      "wikidata": "https://www.wikidata.org/wiki/Q482907",
+      "youtube": "https://www.youtube.com/channel/UC58iZEkGZi7ETeXizx_03vg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bryan_Adams"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Brymir": {
+    "genres": [
+      "folk metal",
+      "melodic death metal",
+      "viking metal"
+    ],
+    "display": "Brymir",
+    "eventIds": [
+      66
+    ],
+    "mbid": "8b848759-779b-4069-bb5c-b4d2b725b4f8",
+    "links": {
+      "bandcamp": "https://brymir.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3387549",
+      "spotify": "https://open.spotify.com/artist/3YDtlBGmfvE2Xw0avhHeK5",
+      "deezer": "https://www.deezer.com/artist/648547",
+      "homepage": "http://www.brymir.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Brymir/3540325883",
+      "instagram": "https://www.instagram.com/brymirband/",
+      "soundcloud": "https://soundcloud.com/brymir-official",
+      "apple": "https://music.apple.com/fi/artist/427992410",
+      "tidal": "https://tidal.com/artist/3946677",
+      "wikidata": "https://www.wikidata.org/wiki/Q11854691",
+      "youtube": "https://www.youtube.com/channel/UC2wcZqvzVgiPGA1zhmURHfQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Brymir"
+    },
+    "fetched": "2026-11-19"
+  },
+  "CATCH YOUR BREATH": {
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "alternative metal"
+    ],
+    "display": "Catch Your Breath",
+    "eventIds": [
+      48
+    ],
+    "mbid": "da09ff32-675a-49e9-8362-a97147db5680",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/11834042",
+      "spotify": "https://open.spotify.com/artist/2fqPOGxG12nEERj8YG7p22",
+      "deezer": "https://www.deezer.com/artist/12893803",
+      "homepage": "https://catchyourbreathband.com/",
+      "instagram": "https://www.instagram.com/catchyourbreathband/",
+      "apple": "https://music.apple.com/us/artist/1263726911",
+      "tidal": "https://tidal.com/artist/8972537",
+      "wikidata": "https://www.wikidata.org/wiki/Q130356708",
+      "youtube": "https://www.youtube.com/channel/UCy3sM7-Ay5pjSTEcE6EfpJQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Catch_Your_Breath_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Cory Henry": {
+    "genres": [
+      "jazz",
+      "funk"
+    ],
+    "display": "Cory Henry",
+    "eventIds": [
+      179
+    ],
+    "mbid": "3d475031-f309-4d57-b88d-22cfa40f4e78",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3259345",
+      "spotify": "https://open.spotify.com/artist/21SOnTj5ECwVXeBUTRcP3s",
+      "deezer": "https://www.deezer.com/artist/2795241",
+      "homepage": "https://coryhenry.com/",
+      "apple": "https://music.apple.com/gb/artist/398508609",
+      "tidal": "https://tidal.com/artist/5010837",
+      "wikidata": "https://www.wikidata.org/wiki/Q23664218",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cory_Henry"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Crashdiet": {
+    "genres": [
+      "glam rock",
+      "glam metal",
+      "hard rock"
+    ],
+    "display": "Crashdïet",
+    "eventIds": [
+      42
+    ],
+    "mbid": "36fb40e7-380e-4463-bf4c-358080c11462",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/825015",
+      "spotify": "https://open.spotify.com/artist/1cB013ULmW96lglRcrWTut",
+      "deezer": "https://www.deezer.com/artist/75100",
+      "homepage": "http://crashdiet.org/",
+      "apple": "https://music.apple.com/gb/artist/432965792",
+      "tidal": "https://tidal.com/artist/57370",
+      "wikidata": "https://www.wikidata.org/wiki/Q46252",
+      "youtube": "https://www.youtube.com/user/MrSleaze",
+      "wikipedia": "https://en.wikipedia.org/wiki/Crashd%C3%AFet"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Criminal": {
+    "genres": [
+      "thrash metal",
+      "death metal",
+      "death-thrash metal"
+    ],
+    "display": "Criminal",
+    "eventIds": [
+      174
+    ],
+    "mbid": "34dc3c84-5bfd-4850-b3f1-f9f4ad63d810",
+    "links": {
+      "bandcamp": "https://criminalchile.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/53673",
+      "spotify": "https://open.spotify.com/artist/2obZTQu3NO5oRcIZKY9fOh",
+      "deezer": "https://www.deezer.com/artist/252980",
+      "homepage": "http://www.criminal1.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Criminal/4717",
+      "apple": "https://music.apple.com/us/artist/184204410",
+      "wikidata": "https://www.wikidata.org/wiki/Q492996",
+      "youtube": "https://www.youtube.com/criminalchile",
+      "wikipedia": "https://en.wikipedia.org/wiki/Criminal_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "D'espairsRay": {
+    "genres": [
+      "j-rock",
+      "visual kei",
+      "industrial metal"
+    ],
+    "display": "D'espairsRay",
+    "eventIds": [
+      61
+    ],
+    "mbid": "20fb6261-2468-4eb7-acfa-48bdd67929a6",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/711011",
+      "spotify": "https://open.spotify.com/artist/0HxrabRgphgRhnAVitTCcz",
+      "deezer": "https://www.deezer.com/artist/4432",
+      "homepage": "https://despairsray.com/",
+      "apple": "https://music.apple.com/jp/artist/1895798160",
+      "instagram": "https://www.instagram.com/despairsray_official/",
+      "tidal": "https://tidal.com/artist/3593160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273059",
+      "youtube": "https://www.youtube.com/channel/UCKdrZEQRCC2OXiVyJXLzm9g",
+      "wikipedia": "https://en.wikipedia.org/wiki/D%27espairsRay"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Danger Håt": {
+    "genres": [
+      "punk rock",
+      "rock",
+      "garage punk"
+    ],
+    "display": "Danger Håt",
+    "eventIds": [
+      131
+    ],
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3YHBdu1JD3ZYtFIpcZqlfY"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Dawn Of Solace": {
+    "genres": [
+      "doom metal",
+      "melodic death metal",
+      "gothic metal"
+    ],
+    "display": "Dawn of Solace",
+    "eventIds": [
+      128
+    ],
+    "mbid": "59a86277-44a0-4e69-b784-77b93f35c1fe",
+    "links": {
+      "bandcamp": "https://dawnofsolace.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1279816",
+      "spotify": "https://open.spotify.com/artist/7anjHetVbdSelRpDsZzWY7",
+      "deezer": "https://www.deezer.com/artist/316133",
+      "homepage": "http://www.dawnofsolace.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Dawn_of_Solace/67959",
+      "tidal": "https://tidal.com/artist/3642650",
+      "wikidata": "https://www.wikidata.org/wiki/Q11855872",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dawn_of_Solace"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Death Hawks": {
+    "genres": [
+      "psychedelic rock",
+      "progressive rock",
+      "rock"
+    ],
+    "display": "Death Hawks",
+    "eventIds": [
+      91
+    ],
+    "mbid": "f99dcd9d-63ec-4a14-9267-d0f8e5524a0a",
+    "links": {
+      "bandcamp": "https://deathhawks.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2762960",
+      "homepage": "http://www.deathhawks.com/",
+      "soundcloud": "https://soundcloud.com/deathhawks",
+      "wikidata": "https://www.wikidata.org/wiki/Q20036758",
+      "spotify": "https://open.spotify.com/artist/0x2ktQVEo3hmwjR1UMgpb1",
+      "wikipedia": "https://en.wikipedia.org/wiki/Death_Hawks"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Delfoi Road": {
+    "genres": [
+      "alternative rock",
+      "rock"
+    ],
+    "display": "Delfoi Road",
+    "eventIds": [
+      111
+    ],
+    "mbid": "07dbdd65-e09d-49d7-b546-50d75e8154d2",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3ily8VnF30xRNNMMNuOlmI",
+      "instagram": "https://www.instagram.com/delfoiroad/",
+      "youtube": "https://www.youtube.com/@delfoiroad"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Desperate Measures": {
+    "genres": [
+      "youth crew",
+      "hardcore",
+      "straight edge"
+    ],
+    "display": "Desperate Measures",
+    "eventIds": [
+      225
+    ],
+    "mbid": "73594e60-14bb-4301-9c21-24d27fc30b2f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/774921",
+      "spotify": "https://open.spotify.com/artist/4coDXOCOPdLiPfQl4dX1BD"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Despiser": {
+    "genres": [
+      "death metal",
+      "metal",
+      "new zealand"
+    ],
+    "display": "Despiser",
+    "eventIds": [
+      154
+    ],
+    "mbid": "fe245f99-01ab-4270-81d6-1e37c1ce2858",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5G75DiKSEjJr4KIVozMQ8B",
+      "instagram": "https://www.instagram.com/despiserband/",
+      "youtube": "https://www.youtube.com/@despiser"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Dina Ögon": {
+    "genres": [
+      "soul",
+      "psychedelic pop"
+    ],
+    "display": "Dina Ögon",
+    "eventIds": [
+      65
+    ],
+    "mbid": "dd682352-d506-4d75-90cc-ff8daa0af05a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/10744891",
+      "spotify": "https://open.spotify.com/artist/55Juru3AZOT8GrCxOaV3EI",
+      "instagram": "https://www.instagram.com/dinaogon/",
+      "soundcloud": "https://soundcloud.com/dinaogon",
+      "apple": "https://music.apple.com/se/artist/1564333881",
+      "wikidata": "https://www.wikidata.org/wiki/Q116725483",
+      "youtube": "https://www.youtube.com/channel/UCD_VDC_2rZAq40oGR-Gqfvw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dina_%C3%96gon"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Don Johnson Big Band": {
+    "genres": [
+      "hip hop",
+      "jazz",
+      "electronic"
+    ],
+    "display": "Don Johnson Big Band",
+    "eventIds": [
+      19
+    ],
+    "mbid": "af409a28-59b6-4a22-bead-aed6ebcbf32a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/155958",
+      "homepage": "http://www.donjohnsonbigband.com/",
+      "wikidata": "https://www.wikidata.org/wiki/Q5292848",
+      "spotify": "https://open.spotify.com/artist/3IyO9AT4qU8VLyOUcZfgMg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Don_Johnson_Big_Band"
+    },
+    "fetched": "2026-11-19"
+  },
+  "DragonForce": {
+    "genres": [
+      "power metal",
+      "speed metal",
+      "metal"
+    ],
+    "display": "DragonForce",
+    "eventIds": [
+      173
+    ],
+    "mbid": "ef58d4c9-0d40-42ba-bfab-9186c1483edd",
+    "links": {
+      "bandcamp": "https://dragonforce.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/267042",
+      "spotify": "https://open.spotify.com/artist/2pH3wEn4eYlMMIIQyKPbVR",
+      "deezer": "https://www.deezer.com/artist/4421",
+      "homepage": "http://www.dragonforce.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/DragonForce/2289",
+      "instagram": "https://www.instagram.com/DragonForceHQ/",
+      "soundcloud": "https://soundcloud.com/dragonforceofficial",
+      "apple": "https://music.apple.com/gb/artist/3261249",
+      "tidal": "https://tidal.com/artist/3541180",
+      "wikidata": "https://www.wikidata.org/wiki/Q212715",
+      "youtube": "https://www.youtube.com/dragonforce",
+      "wikipedia": "https://en.wikipedia.org/wiki/DragonForce"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Dynazty": {
+    "genres": [
+      "hard rock",
+      "heavy metal",
+      "power metal"
+    ],
+    "display": "Dynazty",
+    "eventIds": [
+      54
+    ],
+    "mbid": "34ed5c5f-24ca-4034-b9f7-1fa8e476d9be",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2673933",
+      "spotify": "https://open.spotify.com/artist/5deRBvKxJssHVa9n6B7tWV",
+      "deezer": "https://www.deezer.com/artist/818131",
+      "homepage": "http://dynazty.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Dynazty/3540329863",
+      "apple": "https://music.apple.com/gb/artist/326752603",
+      "tidal": "https://tidal.com/artist/3933954",
+      "wikidata": "https://www.wikidata.org/wiki/Q5319192",
+      "youtube": "https://www.youtube.com/channel/UCkEFeF8xAyxy5gYbSbyYhGA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dynazty"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Eevil Stöö": {
+    "genres": [
+      "hip hop",
+      "rap",
+      "underground hip-hop"
+    ],
+    "display": "Eevil Stöö",
+    "eventIds": [
+      138
+    ],
+    "mbid": "4ea14f44-0dc4-441b-b9bf-c92141db4c26",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/218216",
+      "spotify": "https://open.spotify.com/artist/0hD2uZfgcwrRRMcPYQ45pf",
+      "deezer": "https://www.deezer.com/artist/5105633",
+      "apple": "https://music.apple.com/fi/artist/472928744",
+      "tidal": "https://tidal.com/artist/5929737",
+      "wikidata": "https://www.wikidata.org/wiki/Q4145309",
+      "wikipedia": "https://en.wikipedia.org/wiki/Eevil_St%C3%B6%C3%B6"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Eivør": {
+    "genres": [
+      "folk",
+      "faroese",
+      "jazz"
+    ],
+    "display": "Eivør",
+    "eventIds": [
+      214
+    ],
+    "mbid": "cdcc26ed-818f-4c95-b177-b56ac1410f8f",
+    "links": {
+      "bandcamp": "https://eivor.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/366638",
+      "spotify": "https://open.spotify.com/artist/2dB4ya2W1Gvng8gjWSPu2H",
+      "deezer": "https://www.deezer.com/artist/572019",
+      "homepage": "https://www.eivor.com/",
+      "instagram": "https://www.instagram.com/eivormusic/",
+      "soundcloud": "https://soundcloud.com/eivor",
+      "apple": "https://music.apple.com/dk/artist/259306836",
+      "tidal": "https://tidal.com/artist/3587964",
+      "wikidata": "https://www.wikidata.org/wiki/Q272898",
+      "youtube": "https://www.youtube.com/channel/UCjKO6we36tPNC9hCeXUNvgQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Eiv%C3%B8r_(singer)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Erika Vikman": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Erika Vikman",
+    "eventIds": [
+      26
+    ],
+    "mbid": "18664f08-9700-4154-91cc-b7ac4e62da80",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4174619",
+      "spotify": "https://open.spotify.com/artist/6JVB6uiYxpF2K1PGsPRpWR",
+      "deezer": "https://www.deezer.com/artist/5375675",
+      "apple": "https://music.apple.com/us/artist/765942620",
+      "instagram": "https://www.instagram.com/erikavikman/",
+      "soundcloud": "https://soundcloud.com/erikavikman",
+      "tidal": "https://tidal.com/artist/5212194",
+      "wikidata": "https://www.wikidata.org/wiki/Q26211796",
+      "youtube": "https://www.youtube.com/channel/UCR9bJfxXiI1JQHTf2tEWCdg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Erika_Vikman"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Europe": {
+    "genres": [
+      "hard rock",
+      "rock",
+      "classic rock"
+    ],
+    "display": "Europe",
+    "eventIds": [
+      222
+    ],
+    "mbid": "ccfe7a3c-1a45-4984-a8d0-644549cefe61",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/251950",
+      "spotify": "https://open.spotify.com/artist/7Js6Lde8thlIHXggv2SCBz",
+      "deezer": "https://www.deezer.com/artist/1903",
+      "homepage": "http://www.europetheband.com/",
+      "apple": "https://music.apple.com/de/artist/461932",
+      "tidal": "https://tidal.com/artist/554",
+      "wikidata": "https://www.wikidata.org/wiki/Q185144",
+      "youtube": "https://www.youtube.com/channel/UCcVWnNUkJcqn2-7QUIk_wIQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Europe_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Face Yourself": {
+    "genres": [
+      "deathcore",
+      "metalcore"
+    ],
+    "display": "Face Yourself",
+    "eventIds": [
+      46
+    ],
+    "mbid": "669bf3bf-81c2-460f-bdfe-960963a26dac",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/14107327",
+      "spotify": "https://open.spotify.com/artist/26DU5Lk20t68F2rYc2DcNU",
+      "deezer": "https://www.deezer.com/artist/204217757",
+      "homepage": "https://fyourselfband.com/",
+      "instagram": "https://www.instagram.com/fyourselfband/",
+      "soundcloud": "https://soundcloud.com/faceyourself-music",
+      "apple": "https://music.apple.com/gb/artist/1675712139",
+      "tidal": "https://tidal.com/artist/37774876",
+      "youtube": "https://www.youtube.com/channel/UCykSmBKCYoNuLtWE9ayNCQQ"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Fear of Domination": {
+    "genres": [
+      "melodic death metal",
+      "industrial metal",
+      "industrial death metal"
+    ],
+    "display": "Fear Of Domination",
+    "eventIds": [
+      154
+    ],
+    "mbid": "10045d18-3297-425e-a33a-5bf51ce25c5d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2481617",
+      "spotify": "https://open.spotify.com/artist/4KmUqzBGTHWlO46RpvMBUq",
+      "deezer": "https://www.deezer.com/artist/802449",
+      "homepage": "http://www.fod.fi/",
+      "metalArchives": "https://www.metal-archives.com/bands/Fear_of_Domination/125861",
+      "apple": "https://music.apple.com/fi/artist/315775925",
+      "tidal": "https://tidal.com/artist/3934234",
+      "wikidata": "https://www.wikidata.org/wiki/Q18689794",
+      "youtube": "https://www.youtube.com/channel/UC9Xkz1t5jPZ9FD5ga5pbxAg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fear_of_Domination"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Featherfoot": {
+    "genres": [],
+    "display": "Featherfoot",
+    "eventIds": [
+      243
+    ],
+    "mbid": "27e2d864-fabd-4944-9f7c-50b59463a951",
+    "links": {
+      "bandcamp": "https://featherfootband.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/7nPQSOrU5QjVLpgUixnAyy"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Five Finger Death Punch": {
+    "genres": [
+      "groove metal",
+      "metalcore",
+      "metal"
+    ],
+    "display": "Five Finger Death Punch",
+    "eventIds": [
+      253
+    ],
+    "mbid": "7e8571b1-7c5a-4739-bc51-73d422ee9d74",
+    "links": {
+      "bandcamp": "https://fivefingerdeathpunch.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1502727",
+      "spotify": "https://open.spotify.com/artist/5t28BP42x2axFnqOOMg3CM",
+      "deezer": "https://www.deezer.com/artist/158710",
+      "homepage": "http://www.fivefingerdeathpunch.com/",
+      "apple": "https://music.apple.com/us/artist/258875116",
+      "instagram": "https://www.instagram.com/5fdp/",
+      "soundcloud": "https://soundcloud.com/five-finger-death-punch-official",
+      "tidal": "https://tidal.com/artist/3565225",
+      "wikidata": "https://www.wikidata.org/wiki/Q749502",
+      "youtube": "https://www.youtube.com/FiveFingerDeathPunch",
+      "wikipedia": "https://en.wikipedia.org/wiki/Five_Finger_Death_Punch"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Five the Hierophant": {
+    "genres": [
+      "avant-garde metal",
+      "doom metal",
+      "jazz metal"
+    ],
+    "display": "Five The Hierophant",
+    "eventIds": [
+      232
+    ],
+    "mbid": "1798c3da-5bae-44f8-8149-a0aa3928a463",
+    "links": {
+      "bandcamp": "https://five-the-hierophant.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4624576",
+      "spotify": "https://open.spotify.com/artist/7BLGm3lPTk4EeSEIQ4Uc6A",
+      "deezer": "https://www.deezer.com/artist/9768800",
+      "metalArchives": "https://www.metal-archives.com/bands/Five_the_Hierophant/3540432469"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Flok": {
+    "genres": [
+      "noise",
+      "lo-fi",
+      "shoegazer"
+    ],
+    "display": "FloK",
+    "eventIds": [
+      158
+    ],
+    "mbid": "0572d4b3-d488-40e9-baa8-da3500818e33",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3NFqFX6XW6xnM0jewIHFPv",
+      "homepage": "https://flokvocals.com/",
+      "instagram": "https://www.instagram.com/flokvocals/",
+      "youtube": "https://www.youtube.com/@flokvocals"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Floor Jansen": {
+    "genres": [
+      "symphonic metal",
+      "female fronted metal",
+      "better than tarja"
+    ],
+    "display": "Floor Jansen",
+    "eventIds": [
+      190
+    ],
+    "mbid": "1dc9f1ab-3748-46c5-ac64-4a1311680da5",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/309347",
+      "spotify": "https://open.spotify.com/artist/2ZNTJ9Bu9QMJwBboMSpQgJ",
+      "deezer": "https://www.deezer.com/artist/4966005",
+      "homepage": "https://www.floorjansen.com/",
+      "metalArchives": "https://www.metal-archives.com/artists/Floor_Jansen/3767",
+      "apple": "https://music.apple.com/nl/artist/193998422",
+      "instagram": "https://www.instagram.com/floor_jansen_official/",
+      "tidal": "https://tidal.com/artist/9201725",
+      "wikidata": "https://www.wikidata.org/wiki/Q253259",
+      "youtube": "https://www.youtube.com/channel/UCi4E-YBuPhcGdsP_D2Hh4fA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Floor_Jansen"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Fox Confession": {
+    "genres": [],
+    "display": "Fox Confession",
+    "eventIds": [
+      241
+    ],
+    "mbid": "188b2dd6-8035-4f09-999d-2b207d8e83f6",
+    "links": {
+      "bandcamp": "https://foxconfession.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/7153hnaMxbFhFParqxSJHV"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Frank Zappa Memorial Pancake Breakfast": {
+    "genres": [],
+    "display": "Frank Zappa Memorial Pancake Breakfast",
+    "eventIds": [
+      36
+    ],
+    "mbid": "7c17d6ff-d157-417e-ab23-7bda514ffbfb",
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Fulci": {
+    "genres": [
+      "death metal",
+      "brutal death metal",
+      "drone"
+    ],
+    "display": "Fulci",
+    "eventIds": [
+      10
+    ],
+    "mbid": "aa299c3e-ba6d-46fc-99df-313ce341bc20",
+    "links": {
+      "bandcamp": "https://tropicalsun.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4603850",
+      "spotify": "https://open.spotify.com/artist/5rK5iEoGaC5LtoBCiXpCet",
+      "deezer": "https://www.deezer.com/artist/4595093",
+      "homepage": "http://www.fulcicult.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Fulci/3540402608",
+      "instagram": "https://www.instagram.com/fulcicult/",
+      "soundcloud": "https://soundcloud.com/fulci-music",
+      "apple": "https://music.apple.com/it/artist/1466782750",
+      "tidal": "https://tidal.com/artist/6683687"
+    },
+    "fetched": "2026-11-19"
+  },
+  "good boys": {
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "display": "Good Boys",
+    "eventIds": [
+      34
+    ],
+    "mbid": "4167aaf0-c4ca-4f9f-806e-97f49868f362",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/481237",
+      "spotify": "https://open.spotify.com/artist/79hIs89TAEz3EhIuYAJ4bU"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Graveyard": {
+    "genres": [
+      "stoner rock",
+      "psychedelic rock",
+      "hard rock"
+    ],
+    "display": "Graveyard",
+    "eventIds": [
+      14
+    ],
+    "mbid": "4db1a745-6fd0-4801-9cce-99e88bf855e6",
+    "links": {
+      "bandcamp": "https://graveyard-sweden.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1309717",
+      "spotify": "https://open.spotify.com/artist/0hU5urLse5h1Z0b4zQkovL",
+      "deezer": "https://www.deezer.com/artist/278887",
+      "apple": "https://music.apple.com/se/artist/1053094929",
+      "instagram": "https://www.instagram.com/graveyardmusic/",
+      "tidal": "https://tidal.com/artist/3612745",
+      "wikidata": "https://www.wikidata.org/wiki/Q41256",
+      "youtube": "https://www.youtube.com/channel/UC3kS-yPoBIZ84O6uZMZrtYA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Graveyard_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Greg Howe": {
+    "genres": [
+      "guitar virtuoso",
+      "fusion",
+      "jazz fusion"
+    ],
+    "display": "Greg Howe",
+    "eventIds": [
+      134
+    ],
+    "mbid": "63d55bc3-62d6-4005-b9d5-c06f6e84451a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/371366",
+      "deezer": "https://www.deezer.com/artist/8570",
+      "homepage": "http://www.greghowe.com/",
+      "instagram": "https://www.instagram.com/greghoweguitar/",
+      "wikidata": "https://www.wikidata.org/wiki/Q200732",
+      "wikipedia": "https://en.wikipedia.org/wiki/Greg_Howe",
+      "spotify": "https://open.spotify.com/artist/2dunvwAyryLzQqXUNlLoCV"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Guttural Slug": {
+    "genres": [
+      "brutal death metal",
+      "slamming brutal death metal",
+      "death metal"
+    ],
+    "display": "Guttural Slug",
+    "eventIds": [
+      130
+    ],
+    "mbid": "05f7cd86-fb8b-46ae-88d6-911b12be63ed",
+    "links": {
+      "bandcamp": "https://gutturalslug.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3450318",
+      "spotify": "https://open.spotify.com/artist/3vzyZYhXq78QlMV7VghI0e",
+      "deezer": "https://www.deezer.com/artist/7677136",
+      "homepage": "https://www.gutturalslug.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Guttural_Slug/3540357007",
+      "instagram": "https://www.instagram.com/guttural_slug_official/",
+      "soundcloud": "https://soundcloud.com/gutturalslug",
+      "apple": "https://music.apple.com/dk/artist/976672429",
+      "tidal": "https://tidal.com/artist/6679100",
+      "youtube": "https://www.youtube.com/channel/UCGVgUv7I91hTzSf29-U3LRg"
+    },
+    "fetched": "2026-11-19"
+  },
+  "HAEVN": {
+    "genres": [
+      "indie pop",
+      "ambient",
+      "alternative"
+    ],
+    "display": "Haevn",
+    "eventIds": [
+      153
+    ],
+    "mbid": "01a0e918-f59e-4e8f-9d20-2b3085366c8c",
+    "links": {
+      "bandcamp": "https://haevn.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4835048",
+      "spotify": "https://open.spotify.com/artist/65Tmt9uAPTYGl1ZhsOeEJ6",
+      "deezer": "https://www.deezer.com/artist/6758479",
+      "homepage": "https://www.haevnmusic.com/",
+      "instagram": "https://www.instagram.com/haevnmusic/",
+      "soundcloud": "https://soundcloud.com/haevn/",
+      "apple": "https://music.apple.com/gb/artist/922462568",
+      "tidal": "https://tidal.com/artist/7177859",
+      "wikidata": "https://www.wikidata.org/wiki/Q26213102",
+      "youtube": "https://www.youtube.com/channel/UCGIygiYkKxn7g7fFNFdXskg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Haevn"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Halls Of Oblivion": {
+    "genres": [
+      "melodic death metal",
+      "black metal"
+    ],
+    "display": "Halls of Oblivion",
+    "eventIds": [
+      98
+    ],
+    "mbid": "998d3086-71f4-4762-a9ac-a296eee53cc7",
+    "links": {
+      "bandcamp": "https://hallsofoblivion.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5055611",
+      "spotify": "https://open.spotify.com/artist/55ls5qOYhi98RHdGCoUB08",
+      "deezer": "https://www.deezer.com/artist/10671781",
+      "homepage": "https://www.hallsofoblivion.de/",
+      "metalArchives": "https://www.metal-archives.com/bands/Halls_of_Oblivion/3540397255",
+      "instagram": "https://www.instagram.com/hallsofoblivion/",
+      "wikidata": "https://www.wikidata.org/wiki/Q124409207"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Haloo Helsinki!": {
+    "genres": [
+      "rock",
+      "punk rock"
+    ],
+    "display": "Haloo Helsinki!",
+    "eventIds": [
+      178,
+      182
+    ],
+    "mbid": "e80bb0ef-c6bb-4769-8d35-4904617c5704",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1606296",
+      "spotify": "https://open.spotify.com/artist/0JTMRuiDzOCjWuYtWMgv2s",
+      "deezer": "https://www.deezer.com/artist/214938",
+      "homepage": "https://haloohelsinki.fi/",
+      "instagram": "https://www.instagram.com/haloohelsinki_official/",
+      "soundcloud": "https://soundcloud.com/haloo-helsinki",
+      "apple": "https://music.apple.com/fi/artist/266097131",
+      "tidal": "https://tidal.com/artist/64619",
+      "wikidata": "https://www.wikidata.org/wiki/Q864433",
+      "youtube": "https://www.youtube.com/channel/UCFkgWx_suqmP73s2BtnDvXw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Haloo_Helsinki!"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Hauntees": {
+    "genres": [],
+    "display": "Hauntees",
+    "eventIds": [
+      27
+    ],
+    "mbid": "696a6d41-70f6-48cd-ab19-71ce1c8ad3a9",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3o58rxXMPiw9TTDZViId74"
+    },
+    "fetched": "2026-11-19"
+  },
+  "HECTOR": {
+    "genres": [
+      "singer-songwriter",
+      "rock",
+      "pop"
+    ],
+    "display": "Hector",
+    "eventIds": [
+      248
+    ],
+    "mbid": "600bec42-17d9-432b-949c-9ec362b13348",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/374117",
+      "spotify": "https://open.spotify.com/artist/5UaXeIdkgIbWPwnClfQIU5",
+      "deezer": "https://www.deezer.com/artist/65227",
+      "homepage": "https://www.hector.fi/",
+      "apple": "https://music.apple.com/fi/artist/1451535597",
+      "tidal": "https://tidal.com/artist/12548",
+      "wikidata": "https://www.wikidata.org/wiki/Q4040512",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hector_(musician)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Hemma Beast": {
+    "genres": [],
+    "display": "Hemma Beast",
+    "eventIds": [
+      105
+    ],
+    "mbid": "6ac7f977-e555-48dc-ade8-ae5ea6719c06",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2141824",
+      "wikidata": "https://www.wikidata.org/wiki/Q11862233",
+      "spotify": "https://open.spotify.com/artist/4OJdsCIKmim6XvrVByrIxT",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Hemma_Beast"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Henge": {
+    "genres": [
+      "space rock",
+      "stoner rock",
+      "noise rock"
+    ],
+    "display": "Henge",
+    "eventIds": [
+      83
+    ],
+    "mbid": "47b63ff9-7c33-4747-921b-7410f92adbb2",
+    "links": {
+      "bandcamp": "https://hengemusic.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/6089292",
+      "spotify": "https://open.spotify.com/artist/5R09pajxQjiwdUH6Fw4yM5",
+      "deezer": "https://www.deezer.com/artist/10264810",
+      "homepage": "https://hengemusic.com/",
+      "instagram": "https://www.instagram.com/henge_cosmicdross/",
+      "apple": "https://music.apple.com/gb/artist/305386231",
+      "tidal": "https://tidal.com/artist/7769326",
+      "wikidata": "https://www.wikidata.org/wiki/Q85766218",
+      "youtube": "https://www.youtube.com/channel/UCIsYg7VvHTAw9rk3BuMAipw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Henge_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Hola Ghost": {
+    "genres": [
+      "psychobilly",
+      "rockabilly",
+      "flamencore"
+    ],
+    "display": "Hola Ghost",
+    "eventIds": [
+      27
+    ],
+    "mbid": "0d500b31-b6ec-4e7f-b0cc-c326cbc4bf38",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2303803",
+      "homepage": "http://www.holaghost.com/",
+      "wikidata": "https://www.wikidata.org/wiki/Q12316997",
+      "youtube": "https://www.youtube.com/channel/UCFodwRUCxF7q-cPJO-JKxdw",
+      "spotify": "https://open.spotify.com/artist/6YwzWWudq2yuYqyqFZrYvu"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Hulda Huima": {
+    "genres": [
+      "acoustic"
+    ],
+    "display": "Hulda Huima",
+    "eventIds": [
+      89
+    ],
+    "mbid": "6eeacce0-185c-44d6-8b90-738c66817bfb",
+    "links": {
+      "bandcamp": "https://huldahuima.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3390619",
+      "spotify": "https://open.spotify.com/artist/6vDkpskBE9z4iuiHwURlHi",
+      "soundcloud": "https://soundcloud.com/huldahuima",
+      "wikidata": "https://www.wikidata.org/wiki/Q115773556",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Hulda_Huima"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Huora": {
+    "genres": [
+      "punk",
+      "punk rock"
+    ],
+    "display": "Huora",
+    "eventIds": [
+      55,
+      56
+    ],
+    "mbid": "fe93169c-f312-4771-ad9b-a06727dea862",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/5646283",
+      "instagram": "https://www.instagram.com/huoraofficial/",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Huora_(yhtye)",
+      "spotify": "https://open.spotify.com/artist/2FK0OPnng20MwV4TCnm0Ei"
+    },
+    "fetched": "2026-11-19"
+  },
+  "HYRYSYSY": {
+    "genres": [],
+    "display": "Hyrysysy",
+    "eventIds": [
+      183
+    ],
+    "mbid": "5c49d10e-ecad-4e2f-8a75-5f4f0b806d1d",
+    "links": {
+      "apple": "https://music.apple.com/fi/artist/1644103366",
+      "spotify": "https://open.spotify.com/artist/4iV4diBjgL2goSde1Vz00H"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Häiriköt": {
+    "genres": [
+      "ramopunk",
+      "punk"
+    ],
+    "display": "Häiriköt",
+    "eventIds": [
+      225
+    ],
+    "mbid": "876c8724-e5a7-415b-be46-3a6331b6435e",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/854341",
+      "spotify": "https://open.spotify.com/artist/5WL3ZO6NGkuCRSG3DTmCNz",
+      "deezer": "https://www.deezer.com/artist/9925562",
+      "wikidata": "https://www.wikidata.org/wiki/Q11864010",
+      "wikipedia": "https://fi.wikipedia.org/wiki/H%C3%A4irik%C3%B6t"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Idän Voima": {
+    "genres": [
+      "rock",
+      "progressive rock"
+    ],
+    "display": "Idän Voima",
+    "eventIds": [
+      91
+    ],
+    "mbid": "1796ec53-c4db-4cd1-be82-94ac70d26597",
+    "links": {
+      "instagram": "https://www.instagram.com/idanvoima/",
+      "spotify": "https://open.spotify.com/artist/4jSuniwjdnDiusdDsO6WwA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Imminence": {
+    "genres": [
+      "metalcore",
+      "post-hardcore"
+    ],
+    "display": "Imminence",
+    "eventIds": [
+      206
+    ],
+    "mbid": "431ed486-4606-485a-b11d-f05feb860257",
+    "links": {
+      "bandcamp": "https://imminenceswe.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4275183",
+      "spotify": "https://open.spotify.com/artist/7rqJQQxuUOCk052MK5kLsH",
+      "deezer": "https://www.deezer.com/artist/1004734",
+      "homepage": "https://imminenceswe.com/",
+      "instagram": "https://www.instagram.com/imminenceswe/",
+      "soundcloud": "https://soundcloud.com/imminenceofficial",
+      "apple": "https://music.apple.com/se/artist/405241524",
+      "tidal": "https://tidal.com/artist/3845083",
+      "wikidata": "https://www.wikidata.org/wiki/Q20164937",
+      "youtube": "https://www.youtube.com/channel/UCf5TgsgSdK9aGCKtLAO0LbQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Imminence_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Internal Bleeding": {
+    "genres": [
+      "brutal death metal",
+      "death metal",
+      "nydm"
+    ],
+    "display": "Internal Bleeding",
+    "eventIds": [
+      130
+    ],
+    "mbid": "2bf2812e-136f-404a-9ece-45b123ab7605",
+    "links": {
+      "bandcamp": "https://internalbleeding.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/252633",
+      "spotify": "https://open.spotify.com/artist/5gd8Tk70HlpZnwjNzJVA7D",
+      "deezer": "https://www.deezer.com/artist/107312",
+      "homepage": "http://www.internal-bleeding.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Internal_Bleeding/1117",
+      "instagram": "https://www.instagram.com/internal_bleeding/",
+      "soundcloud": "https://soundcloud.com/internal-bleeding-official",
+      "apple": "https://music.apple.com/us/artist/3563173",
+      "tidal": "https://tidal.com/artist/3587615",
+      "wikidata": "https://www.wikidata.org/wiki/Q1666276",
+      "youtube": "https://www.youtube.com/Internalbldng",
+      "wikipedia": "https://en.wikipedia.org/wiki/Internal_Bleeding"
+    },
+    "fetched": "2026-11-19"
+  },
+  "J. Karjalainen": {
+    "genres": [
+      "singer-songwriter",
+      "blues",
+      "rock"
+    ],
+    "display": "J. Karjalainen",
+    "eventIds": [
+      70,
+      71
+    ],
+    "mbid": "ee03c284-c6dc-49b5-ba31-e388157f6ed3",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/284662",
+      "spotify": "https://open.spotify.com/artist/03WFRA66hsZpJ5rqylE0vQ",
+      "deezer": "https://www.deezer.com/artist/244401",
+      "homepage": "http://jkarjalainen.fi/",
+      "instagram": "https://www.instagram.com/jkarjalainenvirallinen/",
+      "apple": "https://music.apple.com/fi/artist/33073286",
+      "tidal": "https://tidal.com/artist/66707",
+      "wikidata": "https://www.wikidata.org/wiki/Q462180",
+      "wikipedia": "https://en.wikipedia.org/wiki/J._Karjalainen"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Jacob Banks": {
+    "genres": [
+      "soul"
+    ],
+    "display": "Jacob Banks",
+    "eventIds": [
+      57
+    ],
+    "mbid": "ca4d7350-e835-4af6-9cbd-1e012e597de4",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3457509",
+      "spotify": "https://open.spotify.com/artist/0AepkoQhYvkjEzzwIcGxdV",
+      "deezer": "https://www.deezer.com/artist/4562106",
+      "homepage": "http://www.mrjacobbanks.com/",
+      "instagram": "https://www.instagram.com/mrjacobbanks/",
+      "soundcloud": "https://soundcloud.com/mrjacobbanks",
+      "tidal": "https://tidal.com/artist/5717353",
+      "wikidata": "https://www.wikidata.org/wiki/Q16995276",
+      "youtube": "https://www.youtube.com/channel/UC4g_Q12d08IgWaaOzfOQNpg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jacob_Banks"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Janne Westerlund": {
+    "genres": [
+      "folk",
+      "acoustic"
+    ],
+    "display": "Janne Westerlund",
+    "eventIds": [
+      145
+    ],
+    "mbid": "ceb64362-9621-48b4-99fc-bcff703e69b9",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/333759",
+      "spotify": "https://open.spotify.com/artist/3DSD8XibWCD36s7p16eC9N",
+      "deezer": "https://www.deezer.com/artist/817379",
+      "soundcloud": "https://soundcloud.com/jannewesterlund",
+      "apple": "https://music.apple.com/fi/artist/312946794",
+      "tidal": "https://tidal.com/artist/6427513",
+      "wikidata": "https://www.wikidata.org/wiki/Q6155188",
+      "wikipedia": "https://en.wikipedia.org/wiki/Janne_Westerlund"
+    },
+    "fetched": "2026-11-19"
+  },
+  "JIPPU": {
+    "genres": [
+      "pop",
+      "singer-songwriter"
+    ],
+    "display": "Jippu",
+    "eventIds": [
+      62
+    ],
+    "mbid": "c8178f7e-7649-4c2d-9c63-0627a3594fd4",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2259019",
+      "spotify": "https://open.spotify.com/artist/0KYGvSXrGDHlExTpandhct",
+      "deezer": "https://www.deezer.com/artist/264279",
+      "homepage": "http://www.jippu.com/",
+      "instagram": "https://www.instagram.com/jippuvirallinen/",
+      "apple": "https://music.apple.com/fi/artist/166504264",
+      "tidal": "https://tidal.com/artist/29061",
+      "wikidata": "https://www.wikidata.org/wiki/Q5488397",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jippu"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Jonne": {
+    "genres": [
+      "folk",
+      "folk metal",
+      "folk rock"
+    ],
+    "display": "Jonne",
+    "eventIds": [
+      117
+    ],
+    "mbid": "30317713-da6a-47e5-a8a9-41aff2bdd303",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4706882",
+      "spotify": "https://open.spotify.com/artist/714oNRAMXuVWRw7v9zaqQa",
+      "deezer": "https://www.deezer.com/artist/1532160",
+      "metalArchives": "https://www.metal-archives.com/bands/Jonne/3540375704",
+      "apple": "https://music.apple.com/gb/artist/274571195",
+      "tidal": "https://tidal.com/artist/4345179"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Joshua Idehen": {
+    "genres": [
+      "jazz",
+      "folk",
+      "soul"
+    ],
+    "display": "Joshua Idehen",
+    "eventIds": [
+      183
+    ],
+    "mbid": "3fc0070f-6b5b-4fc3-b5d3-afc87c80354a",
+    "links": {
+      "bandcamp": "https://joshuaidehen.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2859814",
+      "spotify": "https://open.spotify.com/artist/3PubLnxnO5N2Avr3UvG1Vc",
+      "deezer": "https://www.deezer.com/artist/5168232",
+      "apple": "https://music.apple.com/gb/artist/433436490",
+      "tidal": "https://tidal.com/artist/5919579"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Juha Tapio": {
+    "genres": [
+      "pop",
+      "gospel"
+    ],
+    "display": "Juha Tapio",
+    "eventIds": [
+      4
+    ],
+    "mbid": "f11a8b5c-93ef-42bd-97bc-d93d00538a9d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/709424",
+      "spotify": "https://open.spotify.com/artist/7yD78gcA2QR0sRQM4Lj7sM",
+      "deezer": "https://www.deezer.com/artist/247291",
+      "homepage": "https://www.juhatapio.com/",
+      "instagram": "https://www.instagram.com/juhatapioofficial/",
+      "apple": "https://music.apple.com/fi/artist/15135261",
+      "tidal": "https://tidal.com/artist/12089",
+      "wikidata": "https://www.wikidata.org/wiki/Q4349538",
+      "wikipedia": "https://en.wikipedia.org/wiki/Juha_Tapio"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kadotetut": {
+    "genres": [
+      "punk",
+      "finnish punk"
+    ],
+    "display": "Kadotetut",
+    "eventIds": [
+      234
+    ],
+    "mbid": "35cf329e-d2f3-4cb1-8613-b3715415df5d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1147043",
+      "wikidata": "https://www.wikidata.org/wiki/Q11868856",
+      "spotify": "https://open.spotify.com/artist/494rD7iFv2Yk3PBzktlSzb",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Kadotetut"
+    },
+    "fetched": "2026-11-19"
+  },
+  "KAFF": {
+    "genres": [
+      "brazil"
+    ],
+    "display": "Kaff",
+    "eventIds": [
+      244
+    ],
+    "mbid": "314060d4-6500-4e90-b9cd-8847ec0fffc1",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2436394"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kalush Orchestra": {
+    "genres": [
+      "rap"
+    ],
+    "display": "Kalush Orchestra",
+    "eventIds": [
+      142
+    ],
+    "mbid": "45d9e75f-cbdf-47df-b4e6-1578d8a17e25",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/11103956",
+      "spotify": "https://open.spotify.com/artist/6fNkvAT7XRYuIynD5RTSLf",
+      "deezer": "https://www.deezer.com/artist/171301987",
+      "apple": "https://music.apple.com/ua/artist/1616188070",
+      "tidal": "https://tidal.com/artist/32353593",
+      "wikidata": "https://www.wikidata.org/wiki/Q80808767",
+      "youtube": "https://www.youtube.com/channel/UCmLKOi5GULCxzIyA4ZvHqwA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kalush_Orchestra"
+    },
+    "fetched": "2026-11-19"
+  },
+  "KANONENFIEBER": {
+    "genres": [
+      "black metal",
+      "death metal",
+      "blackened death metal"
+    ],
+    "display": "Kanonenfieber",
+    "eventIds": [
+      194
+    ],
+    "mbid": "b0016af8-3953-47ce-b865-475a770d7b17",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/8833954",
+      "spotify": "https://open.spotify.com/artist/5VI8SBEX7uSvoHsdI5xNVJ",
+      "deezer": "https://www.deezer.com/artist/126959422",
+      "metalArchives": "https://www.metal-archives.com/bands/Kanonenfieber/3540483079",
+      "instagram": "https://www.instagram.com/kanonenfieber/",
+      "soundcloud": "https://soundcloud.com/kanonenfieber",
+      "apple": "https://music.apple.com/de/artist/1558937555",
+      "tidal": "https://tidal.com/artist/23995178",
+      "wikidata": "https://www.wikidata.org/wiki/Q109279516",
+      "youtube": "https://www.youtube.com/channel/UCbrwaeSgw80p_VTFW396Zbg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kanonenfieber"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kauko Röyhkä": {
+    "genres": [
+      "rock",
+      "singer-songwriter"
+    ],
+    "display": "Kauko Röyhkä",
+    "eventIds": [
+      1
+    ],
+    "mbid": "4b4e50fc-ec3c-4ccc-aa50-768a7ca1ab85",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/264322",
+      "wikidata": "https://www.wikidata.org/wiki/Q6378732",
+      "spotify": "https://open.spotify.com/artist/4AjjQiXKLCvflYtcCo0FLz",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kauko_R%C3%B6yhk%C3%A4"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kausti": {
+    "genres": [
+      "rock",
+      "metal"
+    ],
+    "display": "kausti",
+    "eventIds": [
+      104
+    ],
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/384q2iR3LMMr7AIaOsxLAz"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kemmuru": {
+    "genres": [
+      "hip hop",
+      "rap"
+    ],
+    "display": "Kemmuru",
+    "eventIds": [
+      9
+    ],
+    "mbid": "b6cb87f0-9928-4319-96f3-09c302aec8b9",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/216821",
+      "homepage": "http://www.kemmuru.com/",
+      "wikidata": "https://www.wikidata.org/wiki/Q11870889",
+      "spotify": "https://open.spotify.com/artist/33L9dvx9RunAc8HA714dlM",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Kemmuru"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Killer": {
+    "genres": [
+      "heavy metal",
+      "rock",
+      "speed metal"
+    ],
+    "display": "Killer",
+    "eventIds": [
+      96
+    ],
+    "mbid": "d16a0de2-904d-4eed-9e73-c6de0c609701",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1040691",
+      "homepage": "http://users.pandora.be/4-killer/",
+      "metalArchives": "https://www.metal-archives.com/bands/Killer/1644",
+      "wikidata": "https://www.wikidata.org/wiki/Q1741349",
+      "spotify": "https://open.spotify.com/artist/2Ce4WjRfZtYR4Z8Z6fDkOQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Killer_(Belgian_band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "King Satan": {
+    "genres": [
+      "industrial metal"
+    ],
+    "display": "King Satan",
+    "eventIds": [
+      131
+    ],
+    "mbid": "209277e6-bce4-412b-a3b5-6ab0ac25346f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4879902",
+      "spotify": "https://open.spotify.com/artist/1V9mrCXH8tey5uHZlsAxKW",
+      "deezer": "https://www.deezer.com/artist/10493283",
+      "homepage": "http://www.kingsatan.net/",
+      "instagram": "https://www.instagram.com/kingsatanofficial/",
+      "apple": "https://music.apple.com/gb/artist/1121561330",
+      "tidal": "https://tidal.com/artist/7902252",
+      "youtube": "https://www.youtube.com/channel/UC3_nV0hfri-8wi7wzmxWO3Q"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kirkkovene": {
+    "genres": [
+      "punk rock",
+      "pop punk"
+    ],
+    "display": "Kirkkovene",
+    "eventIds": [
+      119
+    ],
+    "mbid": "d895cef8-b187-488d-b835-59e7793a81ad",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0SZkRVbgQe92d3RdjmYh9f",
+      "deezer": "https://www.deezer.com/artist/64761462",
+      "instagram": "https://www.instagram.com/kirkkoveneofficial/",
+      "tidal": "https://tidal.com/artist/15673534",
+      "wikidata": "https://www.wikidata.org/wiki/Q102524844",
+      "youtube": "https://www.youtube.com/KirkkoveneOfficial",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Kirkkovene_(yhtye)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Knipi": {
+    "genres": [
+      "egotrippi"
+    ],
+    "display": "Knipi",
+    "eventIds": [
+      149
+    ],
+    "mbid": "a48a3ecb-c6af-4f1d-936b-952b8e1d3cf8",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/374715",
+      "wikidata": "https://www.wikidata.org/wiki/Q11872010",
+      "spotify": "https://open.spotify.com/artist/4wLgqkai4BYWNKbHcQJi7c",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Knipi"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kotiteollisuus": {
+    "genres": [
+      "metal",
+      "heavy metal",
+      "hard rock"
+    ],
+    "display": "Kotiteollisuus",
+    "eventIds": [
+      101
+    ],
+    "mbid": "44f49e8d-125c-47d4-bab1-37a8a46c5eb9",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/383790",
+      "spotify": "https://open.spotify.com/artist/0r9Q7acXxkDPoqfRfAb9Aw",
+      "deezer": "https://www.deezer.com/artist/4503",
+      "homepage": "http://www.kotiteollisuus.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Hullu_ukko_ja_kotiteollisuus/109795",
+      "wikidata": "https://www.wikidata.org/wiki/Q586933",
+      "youtube": "https://www.youtube.com/user/KTvisio",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kotiteollisuus"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kovaa Rasvaa": {
+    "genres": [
+      "hardcore",
+      "punk",
+      "hardcore punk"
+    ],
+    "display": "Kovaa Rasvaa",
+    "eventIds": [
+      38
+    ],
+    "mbid": "9bfdf44f-f275-4528-b13f-09f76e852898",
+    "links": {
+      "bandcamp": "https://kovaarasvaa.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2790647",
+      "spotify": "https://open.spotify.com/artist/7BcgBWAVeWM6uAqLvKu1yF"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kruna": {
+    "genres": [],
+    "display": "Kruna",
+    "eventIds": [
+      35
+    ],
+    "mbid": "df1a107e-f7b5-445e-aec7-fee1dc3db7f3",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3nTY7ocQQm94VL0cBT1ULe"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Krypta": {
+    "genres": [
+      "black metal",
+      "finnish rock",
+      "progressive rock"
+    ],
+    "display": "Krypta",
+    "eventIds": [
+      90
+    ],
+    "mbid": "7873ba71-f516-4632-8eeb-27fb0af25990",
+    "links": {
+      "bandcamp": "https://kryptayhtye.bandcamp.com/",
+      "homepage": "https://kryptayhtye.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Krypta/41792",
+      "instagram": "https://www.instagram.com/krypta.yhtye/",
+      "spotify": "https://open.spotify.com/artist/4zRDU0LpP6xtY3Owx6ttMl"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Krypts": {
+    "genres": [
+      "death metal",
+      "old school death metal"
+    ],
+    "display": "Krypts",
+    "eventIds": [
+      237
+    ],
+    "mbid": "1bb3087a-0257-46f1-b693-ad99ffe495b2",
+    "links": {
+      "bandcamp": "https://krypts.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1954214",
+      "spotify": "https://open.spotify.com/artist/03p1MQHjSpOnF92Q7OCy9d",
+      "deezer": "https://www.deezer.com/artist/7455632",
+      "homepage": "http://kryptomb.org/",
+      "metalArchives": "https://www.metal-archives.com/bands/Krypts/3540282830",
+      "instagram": "https://www.instagram.com/kryptsdeath/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Käärijä": {
+    "genres": [
+      "rap",
+      "electronic"
+    ],
+    "display": "Käärijä",
+    "eventIds": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "mbid": "7d863b14-ff39-49e0-9efc-956e15769457",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/12914774",
+      "spotify": "https://open.spotify.com/artist/6LkMGN0t3HDNL8hIvma70r",
+      "deezer": "https://www.deezer.com/artist/10350162",
+      "metalArchives": "https://www.metal-archives.com/artists//172349",
+      "instagram": "https://www.instagram.com/paidatonriehuja/",
+      "soundcloud": "https://soundcloud.com/kaarija-music",
+      "apple": "https://music.apple.com/gb/artist/1113418861",
+      "tidal": "https://tidal.com/artist/7817340",
+      "wikidata": "https://www.wikidata.org/wiki/Q57943893",
+      "youtube": "https://www.youtube.com/channel/UC6azl83h9L7uqy0ChHk9VaQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/K%C3%A4%C3%A4rij%C3%A4"
+    },
+    "fetched": "2026-11-19"
+  },
+  "KÖPI": {
+    "genres": [],
+    "display": "KoPi",
+    "eventIds": [
+      245
+    ],
+    "mbid": "d266eac3-24be-4aa8-878a-a879810fa1bd",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/7o5Zl6NC3E8gO3sDoEjyqU"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Kürøishi": {
+    "genres": [
+      "crust",
+      "d-beat",
+      "hardcore"
+    ],
+    "display": "Kürøishi",
+    "eventIds": [
+      185
+    ],
+    "mbid": "646d4f2e-d85f-4f57-af70-8a2067db7ec2",
+    "links": {
+      "bandcamp": "https://mayhempunks.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5617381",
+      "spotify": "https://open.spotify.com/artist/0x2hPueptTF1eBXTctPagB",
+      "soundcloud": "https://soundcloud.com/kuroishidbeat",
+      "wikidata": "https://www.wikidata.org/wiki/Q29020979",
+      "wikipedia": "https://fi.wikipedia.org/wiki/K%C3%BCr%C3%B8ishi"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Lars Winnerbäck": {
+    "genres": [
+      "singer-songwriter",
+      "pop",
+      "rock"
+    ],
+    "display": "Lars Winnerbäck",
+    "eventIds": [
+      63,
+      64
+    ],
+    "mbid": "1723c867-d5c5-4a61-a40b-8c04fa7acf1b",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/366617",
+      "spotify": "https://open.spotify.com/artist/33zLgL7tT1vg7eRpWYX5uI",
+      "deezer": "https://www.deezer.com/artist/12922",
+      "homepage": "http://www.winnerback.se/",
+      "instagram": "https://www.instagram.com/larswinnerback/",
+      "tidal": "https://tidal.com/artist/27486",
+      "wikidata": "https://www.wikidata.org/wiki/Q1384492",
+      "youtube": "https://www.youtube.com/LarsWinnerb%C3%A4ck_LW",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lars_Winnerb%C3%A4ck"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Lemonator": {
+    "genres": [
+      "power pop",
+      "rock",
+      "pop"
+    ],
+    "display": "Lemonator",
+    "eventIds": [
+      114
+    ],
+    "mbid": "896ccb0c-4d76-42d4-907f-274c265d0c0c",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/294610",
+      "spotify": "https://open.spotify.com/artist/5h4YEiojL4Jogb16oikGFH",
+      "homepage": "http://www.lemonator.net/",
+      "instagram": "https://www.instagram.com/lemonatormusic/",
+      "wikidata": "https://www.wikidata.org/wiki/Q18689964",
+      "youtube": "https://www.youtube.com/@LemonatorOfficial",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Lemonator"
+    },
+    "fetched": "2026-11-19"
+  },
+  "louna0nline": {
+    "genres": [
+      "electronic",
+      "rap"
+    ],
+    "display": "louna0nline",
+    "eventIds": [
+      43,
+      44
+    ],
+    "mbid": "3d66dfc8-b1a2-4e24-81f5-cbdaf4ad6112",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/363l8KbAMnNgWeNfH9m6Jy",
+      "deezer": "https://www.deezer.com/artist/294028221",
+      "instagram": "https://www.instagram.com/louna0nline/",
+      "apple": "https://music.apple.com/fi/artist/1776178529",
+      "tidal": "https://tidal.com/artist/51389763"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Lähiöbotox": {
+    "genres": [
+      "nu metal",
+      "hardcore",
+      "groove metal"
+    ],
+    "display": "LÄHIÖBOTOX",
+    "eventIds": [
+      55,
+      56
+    ],
+    "mbid": "6cd9bab1-a48f-432f-adc1-6a14f7761d43",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/7347516",
+      "spotify": "https://open.spotify.com/artist/2DQUFoAlTM6TbSOabVRumg",
+      "deezer": "https://www.deezer.com/artist/50439202",
+      "apple": "https://music.apple.com/fi/artist/1433626437",
+      "tidal": "https://tidal.com/artist/10249254",
+      "wikidata": "https://www.wikidata.org/wiki/Q57944716",
+      "wikipedia": "https://fi.wikipedia.org/wiki/L%C3%A4hi%C3%B6botox"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Lätsä": {
+    "genres": [],
+    "display": "Lätsä",
+    "eventIds": [
+      145
+    ],
+    "mbid": "687597de-8e8a-4d6d-a331-ec417b3a1a0b",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/4xTvZJyOYQjGorEjN954uo",
+      "soundcloud": "https://soundcloud.com/lauri-mattila-228610263"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Maija Vilkkumaa": {
+    "genres": [
+      "rock",
+      "singer-songwriter",
+      "pop"
+    ],
+    "display": "Maija Vilkkumaa",
+    "eventIds": [
+      77,
+      78,
+      211
+    ],
+    "mbid": "5de56a0c-8860-4f7d-a819-51b8dd993ae6",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/524934",
+      "spotify": "https://open.spotify.com/artist/4LhCodjo3UFI0Bu0ZYuOP5",
+      "deezer": "https://www.deezer.com/artist/67091",
+      "homepage": "http://www.maijavilkkumaa.fi/",
+      "instagram": "https://www.instagram.com/maijavilkkumaa/",
+      "tidal": "https://tidal.com/artist/12064",
+      "wikidata": "https://www.wikidata.org/wiki/Q267644",
+      "wikipedia": "https://en.wikipedia.org/wiki/Maija_Vilkkumaa"
+    },
+    "fetched": "2026-11-19"
+  },
+  "MALEVO": {
+    "genres": [
+      "tango",
+      "electronic"
+    ],
+    "display": "Malevo",
+    "eventIds": [
+      176
+    ],
+    "mbid": "6eb6bff6-1feb-4e18-8713-a427f4a9b5a2",
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Manifesto Jukebox": {
+    "genres": [
+      "punk rock"
+    ],
+    "display": "Manifesto Jukebox",
+    "eventIds": [
+      205
+    ],
+    "mbid": "1285eea8-eb10-4e73-8746-9133c79cf084",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/330174",
+      "homepage": "http://www.fireinsidemusic.com/manifestojukebox/",
+      "spotify": "https://open.spotify.com/artist/0YVjr3bb6SuyAOZGrmaFOm"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Mansion": {
+    "genres": [
+      "doom metal",
+      "occult rock"
+    ],
+    "display": "Mansion",
+    "eventIds": [
+      139
+    ],
+    "mbid": "f76947a6-69c9-44ee-96ef-e1e22d3d44c1",
+    "links": {
+      "bandcamp": "https://weshalllive.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1807124",
+      "metalArchives": "https://www.metal-archives.com/bands/Mansion/3540368846",
+      "youtube": "https://www.youtube.com/channel/UC8121x-eN1XxFA8iTSM1VRA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "MARIANAS REST": {
+    "genres": [
+      "doom metal",
+      "melodic death metal",
+      "death doom metal"
+    ],
+    "display": "Marianas Rest",
+    "eventIds": [
+      106
+    ],
+    "mbid": "28091a29-d11e-4fbe-a774-380daa0f7cfb",
+    "links": {
+      "bandcamp": "https://marianasrest.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5446393",
+      "spotify": "https://open.spotify.com/artist/0k4zMzhcTcF2wQcbOMVZxD",
+      "deezer": "https://www.deezer.com/artist/6488395",
+      "homepage": "http://marianasrest.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Marianas_Rest/3540418193",
+      "apple": "https://music.apple.com/fi/artist/912710312",
+      "tidal": "https://tidal.com/artist/5941394",
+      "wikidata": "https://www.wikidata.org/wiki/Q37872880",
+      "youtube": "https://www.youtube.com/channel/UCdcCG_mNj82WjjExpiJEwVA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Marianas_Rest"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Mariska": {
+    "genres": [
+      "rap",
+      "hip hop"
+    ],
+    "display": "Mariska",
+    "eventIds": [
+      72
+    ],
+    "mbid": "4a69da79-be66-41f8-83e5-dc3027a8d41b",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/353298",
+      "spotify": "https://open.spotify.com/artist/69grVcN5UQeX34dKNyV1ut",
+      "deezer": "https://www.deezer.com/artist/8668",
+      "homepage": "https://mariska.fi/",
+      "metalArchives": "https://www.metal-archives.com/artists/Mariska/455858",
+      "instagram": "https://www.instagram.com/mariskamusic/",
+      "apple": "https://music.apple.com/fi/artist/18203109",
+      "tidal": "https://tidal.com/artist/12058",
+      "wikidata": "https://www.wikidata.org/wiki/Q3267303",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mariska_(rapper)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Marko Haavisto & Poutahaukat": {
+    "genres": [
+      "rautalanka",
+      "rock"
+    ],
+    "display": "Marko Haavisto & Poutahaukat",
+    "eventIds": [
+      112
+    ],
+    "mbid": "01e60532-08e8-4ec9-8427-5bf5293a4ff7",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1037594",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Poutahaukat",
+      "spotify": "https://open.spotify.com/artist/4Rk9sQrI4C6qnkJHBDpm2F"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Markus Perttula": {
+    "genres": [
+      "singer-songwriter",
+      "indie folk"
+    ],
+    "display": "Markus Perttula",
+    "eventIds": [
+      140
+    ],
+    "mbid": "949212c4-e497-4b3d-9c1e-75a0db16ad44",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2540862",
+      "spotify": "https://open.spotify.com/artist/0KOsZUUpyfo5qbb7YNEOEv"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Master Boot Record": {
+    "genres": [
+      "chiptune",
+      "industrial metal",
+      "electronic"
+    ],
+    "display": "MASTER BOOT RECORD",
+    "eventIds": [
+      10
+    ],
+    "mbid": "604dd351-5f3a-479f-b33a-615db3b2dcfb",
+    "links": {
+      "bandcamp": "https://masterbootrecord.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5237488",
+      "spotify": "https://open.spotify.com/artist/77s5NAGQbxu8oLstaqSwHE",
+      "deezer": "https://www.deezer.com/artist/12240468",
+      "homepage": "http://mbrserver.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Master_Boot_Record/3540420355",
+      "instagram": "https://www.instagram.com/masterbootrecord/",
+      "soundcloud": "https://soundcloud.com/masterbootrecordmusic",
+      "apple": "https://music.apple.com/gb/artist/1216150815",
+      "tidal": "https://tidal.com/artist/8637920",
+      "wikidata": "https://www.wikidata.org/wiki/Q63193192",
+      "youtube": "https://www.youtube.com/channel/UCEVndLRqBDNcZhBdWo5oepg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Master_Boot_Record_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Maustetytöt": {
+    "genres": [
+      "indie pop",
+      "pop"
+    ],
+    "display": "Maustetytöt",
+    "eventIds": [
+      177
+    ],
+    "mbid": "d3e47480-36ff-4135-b6ad-dc1a60205c1a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/7190862",
+      "spotify": "https://open.spotify.com/artist/7JHNSkrbx2b0w8psFeVE4I",
+      "deezer": "https://www.deezer.com/artist/58122232",
+      "homepage": "https://www.maustetytot.fi/",
+      "instagram": "https://www.instagram.com/maustetytot_yhtye/",
+      "apple": "https://music.apple.com/fi/artist/1450386837",
+      "tidal": "https://tidal.com/artist/10889732",
+      "wikidata": "https://www.wikidata.org/wiki/Q61764510",
+      "wikipedia": "https://en.wikipedia.org/wiki/Maustetyt%C3%B6t"
+    },
+    "fetched": "2026-11-19"
+  },
+  "MELANKOLIA": {
+    "genres": [
+      "dark ambient",
+      "ambient",
+      "ethereal"
+    ],
+    "display": "Melankolia",
+    "eventIds": [
+      133
+    ],
+    "mbid": "5c677cfa-9378-4773-9a7f-e8f4132eda4c",
+    "links": {
+      "bandcamp": "https://melankolia.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1333863",
+      "homepage": "https://melankoliaambient.wordpress.com/",
+      "spotify": "https://open.spotify.com/artist/57dRhxAgBC01FhrKlM03dI"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Melrose Avenue": {
+    "genres": [
+      "metalcore"
+    ],
+    "display": "Melrose avenue",
+    "eventIds": [
+      49
+    ],
+    "mbid": "736ef674-df25-4757-9d6e-f2ca8482c3e5",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/21VOqis8anMJTRx6GqI13b",
+      "deezer": "https://www.deezer.com/artist/168631067",
+      "instagram": "https://www.instagram.com/melr0se_avenue/",
+      "apple": "https://music.apple.com/us/artist/1622150840",
+      "tidal": "https://tidal.com/artist/31961848",
+      "wikidata": "https://www.wikidata.org/wiki/Q124635062",
+      "youtube": "https://www.youtube.com/channel/UCYcZpABcreWT7a93qj_ScwA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Meret": {
+    "genres": [
+      "atm metalcore",
+      "rock progresivo"
+    ],
+    "display": "meret",
+    "eventIds": [
+      74
+    ],
+    "mbid": "4e3189b8-d8c2-4383-ab0e-9d53bc0aaed0",
+    "links": {
+      "bandcamp": "https://meret.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/5skxqz2njk9SyCA2xv3kmh",
+      "deezer": "https://www.deezer.com/artist/5055368",
+      "metalArchives": "https://www.metal-archives.com/bands/Meret/3540583185",
+      "instagram": "https://www.instagram.com/meretdclxvi/",
+      "apple": "https://music.apple.com/us/artist/534885361",
+      "tidal": "https://tidal.com/artist/5052951"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Michael Monroe": {
+    "genres": [
+      "hard rock",
+      "glam rock",
+      "rock"
+    ],
+    "display": "Michael Monroe",
+    "eventIds": [
+      5,
+      6
+    ],
+    "mbid": "f7e854f4-d845-43e3-8b39-6da632e273e2",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1956449",
+      "spotify": "https://open.spotify.com/artist/5Ul6r5lUSOraWUidNnsILZ",
+      "deezer": "https://www.deezer.com/artist/104332",
+      "homepage": "http://www.michaelmonroe.com/",
+      "metalArchives": "https://www.metal-archives.com/artists/Michael_Monroe/332248",
+      "apple": "https://music.apple.com/fi/artist/1216727",
+      "tidal": "https://tidal.com/artist/3500355",
+      "wikidata": "https://www.wikidata.org/wiki/Q1386535",
+      "youtube": "https://www.youtube.com/user/MichaelMonroeTV",
+      "wikipedia": "https://en.wikipedia.org/wiki/Michael_Monroe"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Mikko Kangasjärvi": {
+    "genres": [],
+    "display": "Mikko Kangasjärvi",
+    "eventIds": [
+      144
+    ],
+    "mbid": "b25c9c9d-9b78-42c9-9753-7e62986308e3",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/530475",
+      "wikidata": "https://www.wikidata.org/wiki/Q16299630",
+      "spotify": "https://open.spotify.com/artist/1AUaXBT7RIIjJuxfjc2D8H",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Mikko_Kangasj%C3%A4rvi"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Miller Campbell": {
+    "genres": [
+      "country"
+    ],
+    "display": "Miller Campbell",
+    "eventIds": [
+      41
+    ],
+    "mbid": "f44f8023-fb0f-43e1-a802-223d9133ac39",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6bxc6mv1yH88XRwQjORrKz",
+      "deezer": "https://www.deezer.com/artist/13430715",
+      "homepage": "http://www.millercampbell.com/",
+      "instagram": "https://www.instagram.com/millercampbellmusic/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ministry": {
+    "genres": [
+      "industrial metal",
+      "industrial",
+      "industrial rock"
+    ],
+    "display": "Ministry",
+    "eventIds": [
+      195
+    ],
+    "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+    "links": {
+      "bandcamp": "https://ministryband.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/12209",
+      "spotify": "https://open.spotify.com/artist/1DXylZlWbVvlckNqwvjTEt",
+      "deezer": "https://www.deezer.com/artist/677",
+      "homepage": "http://www.thirteenthplanet.com/ministry/",
+      "metalArchives": "https://www.metal-archives.com/bands/Ministry/59780",
+      "instagram": "https://www.instagram.com/weareministry/",
+      "soundcloud": "https://soundcloud.com/ministryofficial",
+      "apple": "https://music.apple.com/us/artist/609022",
+      "tidal": "https://tidal.com/artist/13630",
+      "wikidata": "https://www.wikidata.org/wiki/Q425772",
+      "youtube": "https://www.youtube.com/channel/UC_KKN2tt7xZYYNJk8nxzhmA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ministry_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Morgan Jay": {
+    "genres": [
+      "acoustic",
+      "pop",
+      "stand-up"
+    ],
+    "display": "Morgan Jay",
+    "eventIds": [
+      207,
+      209
+    ],
+    "mbid": "aaa05117-1d3f-4772-9456-f665bd630143",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3Xs5tR8wVbtxsVGMznCqcR",
+      "homepage": "https://morganjay.com/",
+      "apple": "https://music.apple.com/au/artist/489927666",
+      "instagram": "https://www.instagram.com/morganjay/",
+      "youtube": "https://www.youtube.com/morganisethnic"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Mouhous": {
+    "genres": [
+      "rap"
+    ],
+    "display": "Mouhous",
+    "eventIds": [
+      68
+    ],
+    "mbid": "472a0b69-bd5e-4b67-b3c5-33fc1b8b1366",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/5859733",
+      "spotify": "https://open.spotify.com/artist/4uXWoMQ5N4kmQdBW3nFW4i",
+      "wikidata": "https://www.wikidata.org/wiki/Q54140807",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Mouhous_(yhtye)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Neljä Ruusua": {
+    "genres": [
+      "rock",
+      "pop",
+      "suomirock"
+    ],
+    "display": "Neljä Ruusua",
+    "eventIds": [
+      13
+    ],
+    "mbid": "b74cb0c9-86fe-426c-9d3b-f07f6a2936d5",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/308352",
+      "homepage": "http://www.neljaruusua.com/",
+      "apple": "https://music.apple.com/us/artist/14597645",
+      "wikidata": "https://www.wikidata.org/wiki/Q1336294",
+      "youtube": "https://www.youtube.com/user/neljaruusua",
+      "spotify": "https://open.spotify.com/artist/77ZNPUSoDjoqlD44N0yETT",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nelj%C3%A4_Ruusua"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Nelli Matula": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Nelli Matula",
+    "eventIds": [
+      73
+    ],
+    "mbid": "b2980cb8-513d-496b-bb74-c5b99e725609",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/5195388",
+      "spotify": "https://open.spotify.com/artist/4D8m6VLd1ySVC6A2tzFvrE",
+      "instagram": "https://www.instagram.com/nellimatula/",
+      "apple": "https://music.apple.com/gb/artist/1133588014",
+      "tidal": "https://tidal.com/artist/8007297",
+      "wikidata": "https://www.wikidata.org/wiki/Q29001032",
+      "youtube": "https://www.youtube.com/channel/UC6n2qF9Cq8Dw7Wd_CBm3o7Q",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nelli_Matula"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Nickelback": {
+    "genres": [
+      "rock",
+      "alternative rock",
+      "hard rock"
+    ],
+    "display": "Nickelback",
+    "eventIds": [
+      263
+    ],
+    "mbid": "bc710bcf-8815-42cf-bad2-3f1d12246aeb",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/108713",
+      "spotify": "https://open.spotify.com/artist/6deZN1bslXzeGvOLaLMOIF",
+      "deezer": "https://www.deezer.com/artist/338",
+      "homepage": "https://www.nickelback.com/",
+      "apple": "https://music.apple.com/ca/artist/5280361",
+      "instagram": "https://www.instagram.com/nickelback/",
+      "soundcloud": "https://soundcloud.com/nickelback",
+      "tidal": "https://tidal.com/artist/10672",
+      "wikidata": "https://www.wikidata.org/wiki/Q483802",
+      "youtube": "https://www.youtube.com/channel/UCx5IEfAbL5pqw3fgKgRi6DQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nickelback"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Night Lovell": {
+    "genres": [
+      "cloud rap",
+      "hip hop",
+      "rap"
+    ],
+    "display": "Night Lovell",
+    "eventIds": [
+      172
+    ],
+    "mbid": "c25963ac-b289-4d99-a8dc-06c0ce757f0c",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4192164",
+      "spotify": "https://open.spotify.com/artist/2y246nnP9pQT0E6v3ZMMOO",
+      "deezer": "https://www.deezer.com/artist/7295394",
+      "instagram": "https://www.instagram.com/nightlovell/",
+      "soundcloud": "https://soundcloud.com/night_lovell",
+      "apple": "https://music.apple.com/gb/artist/954917315",
+      "tidal": "https://tidal.com/artist/28246285",
+      "wikidata": "https://www.wikidata.org/wiki/Q50875077",
+      "youtube": "https://www.youtube.com/channel/UCjwf9oA4C9Yzxcg4vjI5GDg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Night_Lovell"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Nubiyan Twist": {
+    "genres": [
+      "jazz",
+      "funk",
+      "afrobeat"
+    ],
+    "display": "Nubiyan Twist",
+    "eventIds": [
+      110
+    ],
+    "mbid": "4fdddb48-b8a0-470d-9db4-e5fc77230d59",
+    "links": {
+      "bandcamp": "https://nubiyantwist.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5071926",
+      "spotify": "https://open.spotify.com/artist/5HNkGissAKlCv88sus7rVO",
+      "deezer": "https://www.deezer.com/artist/6931777",
+      "homepage": "https://www.nubiyantwist.co.uk/",
+      "apple": "https://music.apple.com/us/artist/932010388",
+      "soundcloud": "https://soundcloud.com/nubiyantwist",
+      "tidal": "https://tidal.com/artist/6157664"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Oceans Ate Alaska": {
+    "genres": [
+      "metalcore",
+      "post-hardcore",
+      "progressive metalcore"
+    ],
+    "display": "Oceans Ate Alaska",
+    "eventIds": [
+      46
+    ],
+    "mbid": "c6bf185b-3a3b-408e-a8b9-f51e5ed7371b",
+    "links": {
+      "bandcamp": "https://oceansatealaska.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3464748",
+      "spotify": "https://open.spotify.com/artist/48zUWAXpgEXfpttz23pCNQ",
+      "deezer": "https://www.deezer.com/artist/402540",
+      "homepage": "http://oceansatealaska.co.uk/",
+      "instagram": "https://www.instagram.com/oceansatealaska/",
+      "soundcloud": "https://soundcloud.com/oceansatealaska",
+      "apple": "https://music.apple.com/gb/artist/496384629",
+      "tidal": "https://tidal.com/artist/4489444",
+      "wikidata": "https://www.wikidata.org/wiki/Q13537775",
+      "youtube": "https://www.youtube.com/oceansatealaska",
+      "wikipedia": "https://en.wikipedia.org/wiki/Oceans_Ate_Alaska"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Outi ja olevaiset": {
+    "genres": [],
+    "display": "Outi ja olevaiset",
+    "eventIds": [
+      231
+    ],
+    "mbid": "73d52f38-bdb2-41bd-9f10-c8d7aef3c7f9",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0W726mbGhtKRxjWNZdSfD6",
+      "instagram": "https://www.instagram.com/outijaolevaiset/",
+      "youtube": "https://www.youtube.com/channel/UCTibEm_8kCCPHC3jklyOzcA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Paara": {
+    "genres": [
+      "black metal",
+      "finnish black metal"
+    ],
+    "display": "Paara",
+    "eventIds": [
+      87
+    ],
+    "mbid": "3adb9d19-1bc1-430b-921b-59f64f44cc6b",
+    "links": {
+      "bandcamp": "https://paara.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4470289",
+      "spotify": "https://open.spotify.com/artist/03ohfNo0AGtEhLDi51ddcQ",
+      "deezer": "https://www.deezer.com/artist/8456796",
+      "homepage": "http://www.paaraband.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Paara/3540397373",
+      "instagram": "https://www.instagram.com/paaraband/",
+      "youtube": "https://www.youtube.com/channel/UC13HuKxAJgv5T-GQl-J8xcA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Party Cannon": {
+    "genres": [
+      "brutal death metal",
+      "death metal",
+      "slamming brutal death metal"
+    ],
+    "display": "Party Cannon",
+    "eventIds": [
+      130
+    ],
+    "mbid": "ffe9fbb6-915a-41d9-b7c2-2f3e8a63bd9a",
+    "links": {
+      "bandcamp": "https://partycannon.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1330630",
+      "spotify": "https://open.spotify.com/artist/5Oz5WX5xkESHBH5I4Wp09C",
+      "deezer": "https://www.deezer.com/artist/6896519",
+      "homepage": "https://party-cannon.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Party_Cannon/3540337014",
+      "instagram": "https://www.instagram.com/party_cannon_official/",
+      "soundcloud": "https://soundcloud.com/partycannonofficial",
+      "apple": "https://music.apple.com/gb/artist/906091085",
+      "tidal": "https://tidal.com/artist/5910140",
+      "wikidata": "https://www.wikidata.org/wiki/Q118952619",
+      "youtube": "https://www.youtube.com/channel/UCZ4pe6xoIFn0k_UWe0lkqrA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Party_Cannon"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pesso": {
+    "genres": [
+      "rap",
+      "indie"
+    ],
+    "display": "Pesso",
+    "eventIds": [
+      67
+    ],
+    "mbid": "8e736d5c-78f0-4a68-a6f8-425dadcb3ead",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/372198",
+      "spotify": "https://open.spotify.com/artist/4YfzUV6h9GosDhtdLkwGwN",
+      "instagram": "https://www.instagram.com/mcpesso/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pestigore": {
+    "genres": [
+      "death metal",
+      "old school death metal",
+      "finnish death metal"
+    ],
+    "display": "Pestigore",
+    "eventIds": [
+      237
+    ],
+    "mbid": "040750bf-800a-423b-9fe5-b0b26a398fb2",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4453636",
+      "metalArchives": "https://www.metal-archives.com/bands/Pestigore/36114",
+      "spotify": "https://open.spotify.com/artist/5x6LKbMyJM0DzkqwPwh8nl"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Petri Kautto": {
+    "genres": [
+      "funky",
+      "rock",
+      "soul"
+    ],
+    "display": "Petri Kautto",
+    "eventIds": [
+      90
+    ],
+    "mbid": "12d83f0f-739c-4382-bebf-9039b29cfc50",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/340072",
+      "spotify": "https://open.spotify.com/artist/12OKfkYtOvRzuWmPe7Qjiv"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pikakassa": {
+    "genres": [
+      "grindcore",
+      "crust punk",
+      "pikakassa"
+    ],
+    "display": "Pikakassa",
+    "eventIds": [
+      38
+    ],
+    "mbid": "13c7e653-f163-4578-9eed-7a7ea404104e",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/39fAkpWnxnr2AQ6tW1kMcn"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pitbull": {
+    "genres": [
+      "hip hop",
+      "rap",
+      "reggaeton"
+    ],
+    "display": "Pitbull",
+    "eventIds": [
+      249,
+      250
+    ],
+    "mbid": "d262ea27-3ffe-40f7-b922-85c42d625e67",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/232956",
+      "spotify": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+      "deezer": "https://www.deezer.com/artist/776",
+      "homepage": "http://www.pitbullmusic.com/",
+      "instagram": "https://www.instagram.com/pitbull/",
+      "soundcloud": "https://soundcloud.com/pitbull",
+      "apple": "https://music.apple.com/us/artist/27044968",
+      "tidal": "https://tidal.com/artist/3518085",
+      "wikidata": "https://www.wikidata.org/wiki/Q187844",
+      "youtube": "https://www.youtube.com/channel/UCv8nzwVPQDRjkPCkEsOdEwA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pitbull_(rapper)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pohjola Heavy Jazz Group": {
+    "genres": [],
+    "display": "Pohjola Heavy Jazz Group",
+    "eventIds": [
+      82
+    ],
+    "mbid": "b58b1e3a-2074-426f-b3dc-31a880df90ef",
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Post Pulse": {
+    "genres": [
+      "progressive metal",
+      "death metal",
+      "progressive death metal"
+    ],
+    "display": "Post Pulse",
+    "eventIds": [
+      230
+    ],
+    "mbid": "2cf81ff3-b174-42b6-aefb-a04079d21c2b",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0yxCpGZaZEk8QgiFHIJEBA"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pothamus": {
+    "genres": [
+      "post-metal",
+      "belgium",
+      "post-rock"
+    ],
+    "display": "pothamus",
+    "eventIds": [
+      108
+    ],
+    "mbid": "dd5ed2c5-3662-46bf-8c37-34b8ad8804ec",
+    "links": {
+      "bandcamp": "https://pothamus.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/7048930",
+      "spotify": "https://open.spotify.com/artist/3oKgJ6083BjtllXxDN3TD5",
+      "deezer": "https://www.deezer.com/artist/93096842",
+      "instagram": "https://www.instagram.com/pothamus/",
+      "soundcloud": "https://soundcloud.com/pothamus",
+      "apple": "https://music.apple.com/gb/artist/1510772432",
+      "tidal": "https://tidal.com/artist/19368535",
+      "youtube": "https://www.youtube.com/channel/UCvsQk_cHYO6XQSrq_GDWt1w"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pretty": {
+    "genres": [
+      "garage rock",
+      "grunge",
+      "psychedelic"
+    ],
+    "display": "Pretty",
+    "eventIds": [
+      121
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Pridian": {
+    "genres": [
+      "metalcore",
+      "metal",
+      "industrial metal"
+    ],
+    "display": "Pridian",
+    "eventIds": [
+      66
+    ],
+    "mbid": "e518cb84-fe6a-4938-b6bb-deaa5c8309d3",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6j9qQhHkmEilFly1bGSvpN"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Psychonaut": {
+    "genres": [
+      "post-metal",
+      "progressive metal",
+      "sludge metal"
+    ],
+    "display": "Psychonaut",
+    "eventIds": [
+      108
+    ],
+    "mbid": "55e84562-e29b-4967-8d2b-a7fff673cd1e",
+    "links": {
+      "bandcamp": "https://psychonautband.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4441181",
+      "spotify": "https://open.spotify.com/artist/604HhRLmc5DXNS221XKm3a",
+      "deezer": "https://www.deezer.com/artist/190262",
+      "homepage": "https://psychonautband.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Psychonaut/3540458459",
+      "apple": "https://music.apple.com/be/artist/211277044",
+      "instagram": "https://www.instagram.com/psychonautband/",
+      "soundcloud": "https://soundcloud.com/psychonautband",
+      "tidal": "https://tidal.com/artist/3913063",
+      "wikidata": "https://www.wikidata.org/wiki/Q113133912",
+      "youtube": "https://www.youtube.com/channel/UCXW66rC4_-Swwc4KfEUTP8w"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Pääkallo": {
+    "genres": [
+      "rock",
+      "psychedelic rock",
+      "progressive rock"
+    ],
+    "display": "Pääkallo",
+    "eventIds": [
+      139
+    ],
+    "mbid": "b3a6c650-06af-4b25-9567-769aaaa53d0e",
+    "links": {
+      "bandcamp": "https://paakallo.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/10087990",
+      "spotify": "https://open.spotify.com/artist/4oS3Eml0EsA0H3MKE6CoKq"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Radien": {
+    "genres": [
+      "sludge",
+      "doom metal",
+      "sludge metal"
+    ],
+    "display": "radien",
+    "eventIds": [
+      232
+    ],
+    "mbid": "5d775853-b5cc-4b86-8c0c-06127c577cb6",
+    "links": {
+      "bandcamp": "https://radien.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5707404",
+      "metalArchives": "https://www.metal-archives.com/bands/Radien/3540416541",
+      "instagram": "https://www.instagram.com/radien_band/",
+      "spotify": "https://open.spotify.com/artist/5DLktzlhXK4yTPSA7CD862"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Raskaat Silmät": {
+    "genres": [],
+    "display": "Raskaat Silmät",
+    "eventIds": [
+      231
+    ],
+    "mbid": "664ff33f-141a-43e5-9fba-e0bc43986c35",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5SfWF4dHc2dkyGEAKaCjij",
+      "instagram": "https://www.instagram.com/raskaatsilmat/",
+      "apple": "https://music.apple.com/nz/artist/1807359945",
+      "youtube": "https://www.youtube.com/channel/UCSNH_wLHEQMoYAt0BMhdx2w"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Raskasta Joulua": {
+    "genres": [
+      "metal",
+      "christmas",
+      "power metal"
+    ],
+    "display": "Raskasta Joulua",
+    "eventIds": [
+      252
+    ],
+    "mbid": "79bb3aa2-48db-4acb-8d91-efeae08a3287",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/7527074",
+      "spotify": "https://open.spotify.com/artist/1tJpdWrJMjRN94utnNlOVX",
+      "deezer": "https://www.deezer.com/artist/812744",
+      "homepage": "https://raskastajoulua.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Raskasta_Joulua/3540389872",
+      "instagram": "https://www.instagram.com/raskasta_joulua_official/",
+      "tidal": "https://tidal.com/artist/22806954",
+      "wikidata": "https://www.wikidata.org/wiki/Q18690153",
+      "youtube": "https://www.youtube.com/@raskastajouluaofficial1323",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raskasta_Joulua"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Raswaa koneeseen vol. 2!": {
+    "genres": [],
+    "display": "Raswaa koneeseen vol. 2!",
+    "eventIds": [
+      136
+    ],
+    "mbid": "189650bb-79b4-410e-ae64-dfeb361d952c",
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Red Eleven": {
+    "genres": [
+      "alternative rock",
+      "rock"
+    ],
+    "display": "Red Eleven",
+    "eventIds": [
+      28
+    ],
+    "mbid": "988b1573-1c46-4370-b4e2-f8609224b36d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4273359",
+      "spotify": "https://open.spotify.com/artist/7cnALV9yew7PFrxC9eGYf1"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Reflexion": {
+    "genres": [
+      "gothic metal",
+      "gothic rock",
+      "love metal"
+    ],
+    "display": "Reflexion",
+    "eventIds": [
+      133
+    ],
+    "mbid": "3717ecb5-519f-4c6a-92c0-1a393a99fed3",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/197131",
+      "spotify": "https://open.spotify.com/artist/3o4qS8tQbXzvhqYXxgK0cv",
+      "deezer": "https://www.deezer.com/artist/178458",
+      "homepage": "http://www.reflexionmusic.com/",
+      "tidal": "https://tidal.com/artist/4474621",
+      "wikidata": "https://www.wikidata.org/wiki/Q1193111",
+      "wikipedia": "https://en.wikipedia.org/wiki/Reflexion_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Reilukerho": {
+    "genres": [
+      "rap",
+      "hip hop",
+      "olari"
+    ],
+    "display": "Reilukerho",
+    "eventIds": [
+      40
+    ],
+    "mbid": "9fe07657-3cac-436c-9163-823d043f3163",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/785501",
+      "wikidata": "https://www.wikidata.org/wiki/Q11890446",
+      "spotify": "https://open.spotify.com/artist/6sZ94u1gUMEp8RnGlzGzjc",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Reilukerho"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Remedy": {
+    "genres": [
+      "hip hop",
+      "rap",
+      "wu-fam"
+    ],
+    "display": "Remedy",
+    "eventIds": [
+      120
+    ],
+    "mbid": "5081d42e-29cd-47b3-8406-674435c0482c",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/172737",
+      "spotify": "https://open.spotify.com/artist/0Z5hmVxMatrIWgNi989seP",
+      "deezer": "https://www.deezer.com/artist/107543",
+      "tidal": "https://tidal.com/artist/3617887",
+      "wikidata": "https://www.wikidata.org/wiki/Q7311613",
+      "wikipedia": "https://en.wikipedia.org/wiki/Remedy_(rapper)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ricky-Tick Big Band": {
+    "genres": [
+      "jazz",
+      "big band"
+    ],
+    "display": "Ricky-Tick Big Band",
+    "eventIds": [
+      196
+    ],
+    "mbid": "28453375-e54c-4be4-b3d2-7b1a234c6845",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1823447",
+      "homepage": "https://rtbb.fi/",
+      "soundcloud": "https://soundcloud.com/rickytickbigband",
+      "spotify": "https://open.spotify.com/artist/675Qg2fTWKVFFYEEFvZRTL"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Rise To Fall": {
+    "genres": [
+      "melodic death metal",
+      "modern metal",
+      "metalcore"
+    ],
+    "display": "Rise to Fall",
+    "eventIds": [
+      74
+    ],
+    "mbid": "b7ab4cda-a738-487c-964f-815b10175109",
+    "links": {
+      "bandcamp": "https://risetofall.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2871702",
+      "spotify": "https://open.spotify.com/artist/3xdRLrB6lz0WEh66MUt98U",
+      "deezer": "https://www.deezer.com/artist/324131",
+      "homepage": "http://www.risetofall.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Rise_to_Fall/108805",
+      "instagram": "https://www.instagram.com/risetofallofficial/",
+      "apple": "https://music.apple.com/es/artist/341290558",
+      "tidal": "https://tidal.com/artist/4827817",
+      "youtube": "https://www.youtube.com/channel/UCW0Qi2mQf97hNMdFj3LcD3A"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Rock-Criminals": {
+    "genres": [],
+    "display": "Rock-Criminals",
+    "eventIds": [
+      227
+    ],
+    "mbid": "411d0ab6-75c2-4fea-86b0-d61de1f24163",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3XLpoFPpK93NUbIS6rVsed",
+      "homepage": "https://www.rockcriminals.com/",
+      "instagram": "https://www.instagram.com/rockcriminals/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Rod Stewart": {
+    "genres": [
+      "classic rock",
+      "rock",
+      "soft rock"
+    ],
+    "display": "Rod Stewart",
+    "eventIds": [
+      261
+    ],
+    "mbid": "a35237a0-4f47-40a6-b6f3-1e786db23402",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/11012",
+      "spotify": "https://open.spotify.com/artist/2y8Jo9CKhJvtfeKOsYzRdT",
+      "deezer": "https://www.deezer.com/artist/1440",
+      "homepage": "https://www.rodstewart.com/",
+      "apple": "https://music.apple.com/gb/artist/57471",
+      "soundcloud": "https://soundcloud.com/rodstewartofficial",
+      "tidal": "https://tidal.com/artist/1639",
+      "wikidata": "https://www.wikidata.org/wiki/Q182655",
+      "youtube": "https://www.youtube.com/channel/UCQJ8dGinafM10rIOx5HZsjw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rod_Stewart"
+    },
+    "fetched": "2026-11-19"
+  },
+  "RUSH": {
+    "genres": [
+      "progressive rock",
+      "classic rock",
+      "hard rock"
+    ],
+    "display": "Rush",
+    "eventIds": [
+      254
+    ],
+    "mbid": "534ee493-bfac-4575-a44a-0ae41e2c3fe4",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/61800",
+      "spotify": "https://open.spotify.com/artist/2Hkut4rAAyrQxRdof7FVJq",
+      "deezer": "https://www.deezer.com/artist/8686",
+      "homepage": "https://www.rush.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Rush/1206",
+      "apple": "https://music.apple.com/ca/artist/50526",
+      "instagram": "https://www.instagram.com/rush/",
+      "tidal": "https://tidal.com/artist/19141",
+      "wikidata": "https://www.wikidata.org/wiki/Q203871",
+      "youtube": "https://www.youtube.com/channel/UC5C-Asy_myoWCkLEtZR72SA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rush_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ruusut": {
+    "genres": [
+      "electronic",
+      "synthpop",
+      "pop"
+    ],
+    "display": "Ruusut",
+    "eventIds": [
+      50,
+      51
+    ],
+    "mbid": "5d3ae248-fd34-4caf-b6a6-e0bba5be6488",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/6675083",
+      "spotify": "https://open.spotify.com/artist/5mNowcxxg3M2Iros4GTfXw",
+      "homepage": "https://ruusut.net/",
+      "instagram": "https://www.instagram.com/ruusut555/",
+      "tidal": "https://tidal.com/artist/9506133",
+      "wikidata": "https://www.wikidata.org/wiki/Q55105537",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Ruusut_(yhtye)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "RY X": {
+    "genres": [
+      "folk",
+      "indie",
+      "singer-songwriter"
+    ],
+    "display": "RY X",
+    "eventIds": [
+      180
+    ],
+    "mbid": "3b4cd16e-3a25-4c7b-ada6-33f5ea91e1b1",
+    "links": {
+      "bandcamp": "https://ryxmusic.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2212112",
+      "spotify": "https://open.spotify.com/artist/2KjAo6wVc9d2WcxdxSArpV",
+      "deezer": "https://www.deezer.com/artist/4993003",
+      "homepage": "http://www.ry-x.com/",
+      "instagram": "https://www.instagram.com/ryx/",
+      "soundcloud": "https://soundcloud.com/ry-x",
+      "apple": "https://music.apple.com/au/artist/674065737",
+      "tidal": "https://tidal.com/artist/5020362",
+      "wikidata": "https://www.wikidata.org/wiki/Q7383773",
+      "youtube": "https://www.youtube.com/channel/UCGUUYg1OxfDSpfZK5K073ZA",
+      "wikipedia": "https://en.wikipedia.org/wiki/RY_X"
+    },
+    "fetched": "2026-11-19"
+  },
+  "S.P.I.T": {
+    "genres": [
+      "hard rock"
+    ],
+    "display": "s.p.i.t",
+    "eventIds": [
+      223
+    ],
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/1qEZa31QIwTryhmn4dbTir"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Sabaton": {
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "metal"
+    ],
+    "display": "Sabaton",
+    "eventIds": [
+      256
+    ],
+    "mbid": "39a31de6-763d-48b6-a45c-f7cfad58ffd8",
+    "links": {
+      "bandcamp": "https://sabaton.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/580793",
+      "spotify": "https://open.spotify.com/artist/3o2dn2O0FCVsWDFSh8qxgG",
+      "deezer": "https://www.deezer.com/artist/12022",
+      "homepage": "http://www.sabaton.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Sabaton/484",
+      "instagram": "https://www.instagram.com/sabatonofficial/",
+      "soundcloud": "https://soundcloud.com/sabatonofficial",
+      "apple": "https://music.apple.com/gb/artist/184065032",
+      "tidal": "https://tidal.com/artist/3616281",
+      "wikidata": "https://www.wikidata.org/wiki/Q740159",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sabaton_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Salaliitto": {
+    "genres": [
+      "alternative rock",
+      "indie"
+    ],
+    "display": "Salaliitto",
+    "eventIds": [
+      140
+    ],
+    "mbid": "16256298-ff14-4fad-b76d-c38951cacc7a",
+    "links": {
+      "bandcamp": "https://salaliitto.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4978699",
+      "spotify": "https://open.spotify.com/artist/4UT6iMUHUC3t3UqKEtXHL2",
+      "deezer": "https://www.deezer.com/artist/9609400",
+      "soundcloud": "https://soundcloud.com/salaliitto",
+      "wikidata": "https://www.wikidata.org/wiki/Q23039669",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Salaliitto_(yhtye)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "SARA": {
+    "genres": [
+      "alternative rock",
+      "alternative metal",
+      "alternative"
+    ],
+    "display": "Sara",
+    "eventIds": [
+      39
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Saul Williams": {
+    "genres": [
+      "hip hop",
+      "spoken word",
+      "poetry"
+    ],
+    "display": "Saul Williams",
+    "eventIds": [
+      69
+    ],
+    "mbid": "756cf672-d4ae-4470-a3af-a43d776a211d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/296836",
+      "spotify": "https://open.spotify.com/artist/11K0HIZKfdB6ez0VhIgxPm",
+      "deezer": "https://www.deezer.com/artist/1248",
+      "homepage": "http://www.saulwilliams.com/",
+      "instagram": "https://www.instagram.com/saulwilliams/",
+      "apple": "https://music.apple.com/us/artist/139854",
+      "tidal": "https://tidal.com/artist/30326",
+      "wikidata": "https://www.wikidata.org/wiki/Q533369",
+      "youtube": "https://www.youtube.com/channel/UCkCqa1_2pZOHPXeUU6TCMVA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Saul_Williams"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Saxon": {
+    "genres": [
+      "heavy metal",
+      "nwobhm",
+      "hard rock"
+    ],
+    "display": "Saxon",
+    "eventIds": [
+      157
+    ],
+    "mbid": "bbd80354-597e-4d53-94e4-92b3a7cb8f2c",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/263589",
+      "spotify": "https://open.spotify.com/artist/71vVmHeNgCVSa5SVmfvscU",
+      "deezer": "https://www.deezer.com/artist/8552",
+      "homepage": "http://www.saxon747.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Saxon/626",
+      "instagram": "https://www.instagram.com/saxon.official/",
+      "soundcloud": "https://soundcloud.com/saxon-official",
+      "apple": "https://music.apple.com/ca/artist/3632744",
+      "tidal": "https://tidal.com/artist/10370",
+      "wikidata": "https://www.wikidata.org/wiki/Q504090",
+      "youtube": "https://www.youtube.com/channel/UCq5aTWMw1bH7eoT5ijEBQ6w",
+      "wikipedia": "https://en.wikipedia.org/wiki/Saxon_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Scar Symmentry": {
+    "genres": [
+      "melodic death metal",
+      "progressive metal",
+      "death metal"
+    ],
+    "display": "Scar Symmentry",
+    "eventIds": [
+      74
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Scheitan": {
+    "genres": [
+      "melodic death metal",
+      "black metal",
+      "death'n'roll"
+    ],
+    "display": "Scheitan",
+    "eventIds": [
+      84
+    ],
+    "mbid": "0968ce97-3b18-4d1a-9fe1-a9c6e7a91735",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/134579",
+      "spotify": "https://open.spotify.com/artist/27pumfcMxQX5qxsQ0j2fsd",
+      "deezer": "https://www.deezer.com/artist/162064",
+      "homepage": "https://www.scheitan.se/",
+      "metalArchives": "https://www.metal-archives.com/bands/Scheitan/3241",
+      "apple": "https://music.apple.com/gb/artist/263073774",
+      "tidal": "https://tidal.com/artist/3631402"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Sees": {
+    "genres": [
+      "djent",
+      "math metal",
+      "progressive metal"
+    ],
+    "display": "SeeS",
+    "eventIds": [
+      230
+    ],
+    "mbid": "46c1a680-1ba1-4a64-8df9-46edbf9ce56f",
+    "links": {
+      "bandcamp": "https://sees1.bandcamp.com/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Shaman": {
+    "genres": [
+      "folk metal",
+      "power metal",
+      "metal"
+    ],
+    "display": "Shaman",
+    "eventIds": [
+      117
+    ],
+    "mbid": "9ff3eacb-c52e-40c6-8f0d-b242b05061f0",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/474157",
+      "deezer": "https://www.deezer.com/artist/267922",
+      "metalArchives": "https://www.metal-archives.com/bands/Shaman/1720",
+      "wikidata": "https://www.wikidata.org/wiki/Q212481",
+      "wikipedia": "https://en.wikipedia.org/wiki/Shaman_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Siamese": {
+    "genres": [
+      "alternative rock",
+      "progressive rock",
+      "post-hardcore"
+    ],
+    "display": "Siamese",
+    "eventIds": [
+      132
+    ],
+    "mbid": "4d4760b1-f4de-4792-b63d-895e3f8163ad",
+    "links": {
+      "bandcamp": "https://siamese.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/2729094",
+      "spotify": "https://open.spotify.com/artist/0Hx4gv3eoiodtu6XYHF1X0",
+      "deezer": "https://www.deezer.com/artist/234086921",
+      "homepage": "https://siamese.dk/",
+      "apple": "https://music.apple.com/dk/artist/1236907075",
+      "instagram": "https://www.instagram.com/siamese_band/",
+      "soundcloud": "https://soundcloud.com/siameseofficial",
+      "tidal": "https://tidal.com/artist/6260421",
+      "wikidata": "https://www.wikidata.org/wiki/Q7506742",
+      "youtube": "https://www.youtube.com/channel/UCxCuX_McqR7UpZ1Px2dz9TQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Siamese_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Signs of the Swarm": {
+    "genres": [
+      "deathcore",
+      "brutal deathcore"
+    ],
+    "display": "Signs of the Swarm",
+    "eventIds": [
+      46
+    ],
+    "mbid": "cdeefae7-b8e2-4972-8730-4611013837de",
+    "links": {
+      "bandcamp": "https://signsoftheswarm.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5148843",
+      "spotify": "https://open.spotify.com/artist/0yxJx8OEyDfd7dzLsFuNrS",
+      "deezer": "https://www.deezer.com/artist/10285590",
+      "metalArchives": "https://www.metal-archives.com/bands/Signs_of_the_Swarm/3540444626",
+      "instagram": "https://www.instagram.com/signsoftheswarm/",
+      "soundcloud": "https://soundcloud.com/signsoftheswarm",
+      "apple": "https://music.apple.com/jp/artist/1109559990",
+      "tidal": "https://tidal.com/artist/7791466",
+      "wikidata": "https://www.wikidata.org/wiki/Q51029137",
+      "youtube": "https://www.youtube.com/channel/UClVqgQ87G6YgpiNlB9WoM1Q/about",
+      "wikipedia": "https://en.wikipedia.org/wiki/Signs_of_the_Swarm"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Sin Cos Tan": {
+    "genres": [
+      "synthpop",
+      "electropop",
+      "electronic"
+    ],
+    "display": "Sin Cos Tan",
+    "eventIds": [
+      122
+    ],
+    "mbid": "f4e7ff9b-aab4-48a9-b911-f854da8dd61a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2881457",
+      "homepage": "http://sincostan.net/",
+      "youtube": "https://www.youtube.com/channel/UCock0CV36-TBDUzoWWuqVlw"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Sir Elwood Duo": {
+    "genres": [],
+    "display": "Sir Elwood Duo",
+    "eventIds": [
+      156
+    ],
+    "mbid": "306ca435-5fbe-402d-9a76-24f22323ce15",
+    "links": {
+      "homepage": "http://www.sirelwood.net/",
+      "wikidata": "https://www.wikidata.org/wiki/Q137872",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sir_Elwoodin_hiljaiset_v%C3%A4rit"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Slomosa": {
+    "genres": [
+      "stoner rock"
+    ],
+    "display": "Slomosa",
+    "eventIds": [
+      125
+    ],
+    "mbid": "262c9855-aa44-40f4-a275-cb425c074513",
+    "links": {
+      "bandcamp": "https://slomosa1.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/8069347",
+      "spotify": "https://open.spotify.com/artist/0l7GXb53ndWn97ul8Hpfzd",
+      "deezer": "https://www.deezer.com/artist/75706492",
+      "homepage": "https://www.slomosamusic.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Slomosa/3540549043",
+      "instagram": "https://www.instagram.com/slomosa/",
+      "soundcloud": "https://soundcloud.com/slomosa",
+      "apple": "https://music.apple.com/us/artist/1483330314",
+      "tidal": "https://tidal.com/artist/17031737",
+      "wikidata": "https://www.wikidata.org/wiki/Q113273531",
+      "youtube": "https://www.youtube.com/channel/UCnE59Qxa3nU6JKFtrXjkIgA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Slomosa"
+    },
+    "fetched": "2026-11-19"
+  },
+  "SOMBR": {
+    "genres": [
+      "indie",
+      "alternative",
+      "rock"
+    ],
+    "display": "sombr",
+    "eventIds": [
+      257
+    ],
+    "mbid": "502cf908-9921-48bc-bf0e-265c881c0156",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/4G9NDjRyZFDlJKMRL8hx3S",
+      "deezer": "https://www.deezer.com/artist/145468192",
+      "homepage": "https://www.sombrmusic.com/",
+      "instagram": "https://www.instagram.com/somb.r/",
+      "soundcloud": "https://soundcloud.com/sombrsongs",
+      "apple": "https://music.apple.com/gb/artist/1589842503",
+      "tidal": "https://tidal.com/artist/28398607",
+      "wikidata": "https://www.wikidata.org/wiki/Q133839234",
+      "youtube": "https://www.youtube.com/channel/UCXlqFQmZZOb78teSnAqhuwA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sombr"
+    },
+    "fetched": "2026-11-19"
+  },
+  "SPORT": {
+    "genres": [
+      "emo",
+      "indie",
+      "indie rock"
+    ],
+    "display": "Sport",
+    "eventIds": [
+      231
+    ],
+    "mbid": "cb965ff3-a449-4568-bb48-7050a36d607e",
+    "links": {
+      "bandcamp": "https://sport.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/5kKhcEMSytHUQK1KOHfYxx",
+      "deezer": "https://www.deezer.com/artist/195383867",
+      "apple": "https://music.apple.com/gb/artist/15190074"
+    },
+    "fetched": "2026-11-19"
+  },
+  "St. Aurora": {
+    "genres": [
+      "alternative",
+      "emo",
+      "alternative rock"
+    ],
+    "display": "St. Aurora",
+    "eventIds": [
+      107
+    ],
+    "mbid": "89f5d157-a30f-4603-81dc-cd9c06189445",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3XNz0XuBEJMMnMIrGoYbRY",
+      "deezer": "https://www.deezer.com/artist/119300132",
+      "homepage": "https://www.saintaurora.net/",
+      "apple": "https://music.apple.com/gb/artist/1548000933",
+      "tidal": "https://tidal.com/artist/22962721",
+      "youtube": "https://www.youtube.com/channel/UCP5IclHbdob5T7w0bHLKoFQ"
+    },
+    "fetched": "2026-11-19"
+  },
+  "St. Hood": {
+    "genres": [
+      "hardcore"
+    ],
+    "display": "St. Hood",
+    "eventIds": [
+      38
+    ],
+    "mbid": "cc507eaf-14bd-428b-b907-2cb8eb2d4f84",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1638376",
+      "homepage": "http://www.sthood.net/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "STAM1NA": {
+    "genres": [
+      "thrash metal",
+      "progressive metal",
+      "metal"
+    ],
+    "display": "Stam1na",
+    "eventIds": [
+      8
+    ],
+    "mbid": "f74c7996-4c0b-4ebd-b1e7-219e21c41286",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/669314",
+      "spotify": "https://open.spotify.com/artist/41nB823nb3wxEI25UeGHqG",
+      "deezer": "https://www.deezer.com/artist/405259",
+      "homepage": "http://www.stam1na.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Stam1na/33052",
+      "instagram": "https://www.instagram.com/stam1na_official/",
+      "apple": "https://music.apple.com/fi/artist/472322503",
+      "tidal": "https://tidal.com/artist/3578526",
+      "wikidata": "https://www.wikidata.org/wiki/Q922037",
+      "youtube": "https://www.youtube.com/user/LeminStam1na",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stam1na"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Stepa": {
+    "genres": [
+      "nu metal",
+      "hip hop",
+      "rap"
+    ],
+    "display": "Stepa",
+    "eventIds": [
+      93
+    ],
+    "mbid": "9991917b-7938-4b5d-b588-89753966508d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/793283",
+      "spotify": "https://open.spotify.com/artist/6jx8pM3d8dxQJbN63T1Ehu",
+      "deezer": "https://www.deezer.com/artist/470150",
+      "tidal": "https://tidal.com/artist/3504379",
+      "wikidata": "https://www.wikidata.org/wiki/Q11894427",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Stepa"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Stuka": {
+    "genres": [
+      "rac"
+    ],
+    "display": "Stuka",
+    "eventIds": [
+      84
+    ],
+    "mbid": "e8483905-9c04-4602-ae43-a8ae04ae5ca5",
+    "links": {
+      "bandcamp": "https://stuka4.bandcamp.com/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Sunnan": {
+    "genres": [
+      "psychedelic",
+      "soul"
+    ],
+    "display": "Sunnan",
+    "eventIds": [
+      58
+    ],
+    "mbid": "8fcab432-2617-4a9c-87cb-f95108efe00c",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6sDExcZxGSSO9RMTtBDnAh",
+      "deezer": "https://www.deezer.com/artist/171783617",
+      "instagram": "https://www.instagram.com/sunnan_cinema/",
+      "soundcloud": "https://soundcloud.com/sunnan59378",
+      "apple": "https://music.apple.com/de/artist/1626926561",
+      "tidal": "https://tidal.com/artist/32419102"
+    },
+    "fetched": "2026-11-19"
+  },
+  "support": {
+    "genres": [],
+    "display": "Support",
+    "eventIds": [
+      155
+    ],
+    "mbid": "95489210-4be5-4054-baf5-cae3371df3e0",
+    "links": {
+      "homepage": "http://www.supportpunkrock.com/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Surut": {
+    "genres": [
+      "post-hardcore",
+      "screamo",
+      "black metal"
+    ],
+    "display": "Surut",
+    "eventIds": [
+      239
+    ],
+    "mbid": "d6e45e65-2f3e-4de3-a903-84a671fc4eb8",
+    "links": {
+      "bandcamp": "https://surut.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/8215420",
+      "instagram": "https://www.instagram.com/surutband/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Suzi Quatro": {
+    "genres": [
+      "glam rock",
+      "rock",
+      "classic rock"
+    ],
+    "display": "Suzi Quatro",
+    "eventIds": [
+      152
+    ],
+    "mbid": "2c16cb3f-e85f-4158-889f-ffc038f5792d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/227475",
+      "spotify": "https://open.spotify.com/artist/15jHZ1EZwmm2QDjKctvqJQ",
+      "deezer": "https://www.deezer.com/artist/4391",
+      "homepage": "http://www.suziquatro.com/",
+      "soundcloud": "https://soundcloud.com/suzi-quatro-official",
+      "apple": "https://music.apple.com/au/artist/14586001",
+      "tidal": "https://tidal.com/artist/9034",
+      "wikidata": "https://www.wikidata.org/wiki/Q234750",
+      "youtube": "https://www.youtube.com/channel/UCutQebYflgcV6kCiNKKtbxg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Suzi_Quatro"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Svarta Havet": {
+    "genres": [
+      "black metal",
+      "post-black metal",
+      "blackened hardcore"
+    ],
+    "display": "Svarta Havet",
+    "eventIds": [
+      87,
+      239
+    ],
+    "mbid": "82263560-1644-43d5-ab8a-be4e10f99be3",
+    "links": {
+      "bandcamp": "https://svartahavet.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/6902853",
+      "metalArchives": "https://www.metal-archives.com/bands/Svarta_Havet/3540563461",
+      "instagram": "https://www.instagram.com/svartahavetband/",
+      "tidal": "https://tidal.com/artist/9905843"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Swarm": {
+    "genres": [
+      "industrial",
+      "hardcore",
+      "electronic"
+    ],
+    "display": "Swarm",
+    "eventIds": [
+      243
+    ],
+    "mbid": "9ff2fc0b-2533-4c4f-bb95-2fbd6f3f6437",
+    "links": {
+      "bandcamp": "https://swarmgaze.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/1pS8OtoYEMW7qqVVCEzWce",
+      "deezer": "https://www.deezer.com/artist/168535237",
+      "instagram": "https://www.instagram.com/swarmgaze/",
+      "apple": "https://music.apple.com/gb/artist/1609286713",
+      "tidal": "https://tidal.com/artist/32683404"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Tarja Turunen": {
+    "genres": [
+      "symphonic metal",
+      "female fronted metal"
+    ],
+    "display": "Tarja Turunen",
+    "eventIds": [
+      208
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Ten56": {
+    "genres": [
+      "nu metal",
+      "deathcore",
+      "metalcore"
+    ],
+    "display": "ten56.",
+    "eventIds": [
+      46
+    ],
+    "mbid": "3e8d513b-c7ef-4a66-930b-83b50cccea04",
+    "links": {
+      "bandcamp": "https://ten56.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/10358944",
+      "spotify": "https://open.spotify.com/artist/28dpy0DQotTkBXcTlniQii",
+      "deezer": "https://www.deezer.com/artist/125618982",
+      "instagram": "https://www.instagram.com/ten56hq/",
+      "soundcloud": "https://soundcloud.com/ten56",
+      "apple": "https://music.apple.com/fr/artist/1556817098",
+      "tidal": "https://tidal.com/artist/23811049",
+      "youtube": "https://www.youtube.com/channel/UCGYgNWSU9nfbSoVlkb85lyw"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Terror Shark": {
+    "genres": [
+      "metal",
+      "hardcore",
+      "hardcore metal"
+    ],
+    "display": "Terror Shark",
+    "eventIds": [
+      174
+    ],
+    "mbid": "31b0d839-2bbf-4f5c-b5ef-bdaa79933f9e",
+    "links": {
+      "bandcamp": "https://666terrorshark.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/10133527",
+      "homepage": "http://terrorshark.fr/",
+      "metalArchives": "https://www.metal-archives.com/bands/Terror_Shark/3540410422",
+      "youtube": "https://www.youtube.com/channel/UCYPfXk1ujW-UawhiI_NeFAQ"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Barefoot Brothers": {
+    "genres": [
+      "rock",
+      "country rock"
+    ],
+    "display": "The Barefoot Brothers",
+    "eventIds": [
+      241
+    ],
+    "mbid": "982bdcc5-f6df-4c28-81a6-fc2a9de7382d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/577133",
+      "wikidata": "https://www.wikidata.org/wiki/Q16164506",
+      "wikipedia": "https://fi.wikipedia.org/wiki/The_Barefoot_Brothers"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Chats": {
+    "genres": [
+      "punk",
+      "punk rock",
+      "garage rock"
+    ],
+    "display": "The Chats",
+    "eventIds": [
+      79
+    ],
+    "mbid": "aafe3816-2d68-4528-adda-d68514c940d4",
+    "links": {
+      "bandcamp": "https://thechatslovebeer.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/6195023",
+      "spotify": "https://open.spotify.com/artist/1aQ7P3HtKOQFW16ebjiks1",
+      "deezer": "https://www.deezer.com/artist/13700325",
+      "homepage": "https://www.thechatslovebeer.com/",
+      "instagram": "https://www.instagram.com/thechatslovebeer/",
+      "soundcloud": "https://soundcloud.com/thechats",
+      "tidal": "https://tidal.com/artist/9339344",
+      "wikidata": "https://www.wikidata.org/wiki/Q50825678",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Chats",
+      "youtube": "https://www.youtube.com/channel/UCgnWTNa4bOAC5MEKiSQV2Wg"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Flaming Sideburns": {
+    "genres": [
+      "garage rock",
+      "rock",
+      "rock n roll"
+    ],
+    "display": "The Flaming Sideburns",
+    "eventIds": [
+      2
+    ],
+    "mbid": "61ec51bd-cb8d-4c07-8b9c-632b2f170063",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/491667",
+      "spotify": "https://open.spotify.com/artist/5NRQpL6c1anlSLNuD6KT4v",
+      "deezer": "https://www.deezer.com/artist/10463",
+      "soundcloud": "https://soundcloud.com/theflamingsideburns",
+      "apple": "https://music.apple.com/gb/artist/14332281",
+      "tidal": "https://tidal.com/artist/3560085",
+      "wikidata": "https://www.wikidata.org/wiki/Q1767178",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Flaming_Sideburns"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Halo Effect": {
+    "genres": [
+      "melodic death metal",
+      "death metal"
+    ],
+    "display": "The Halo Effect",
+    "eventIds": [
+      216
+    ],
+    "mbid": "4e6e78c6-160f-4e2b-8b25-3227a4ec677f",
+    "links": {
+      "bandcamp": "https://thehaloeffectse.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/10311520",
+      "spotify": "https://open.spotify.com/artist/2qvK5iLLoDV5mJeAvh5uka",
+      "deezer": "https://www.deezer.com/artist/149492812",
+      "homepage": "https://www.thehaloeffect.band/",
+      "metalArchives": "https://www.metal-archives.com/bands/The_Halo_Effect/3540497081",
+      "instagram": "https://www.instagram.com/thehaloeffectse/",
+      "soundcloud": "https://soundcloud.com/thehaloeffect-music",
+      "apple": "https://music.apple.com/se/artist/1592180647",
+      "tidal": "https://tidal.com/artist/29071140",
+      "wikidata": "https://www.wikidata.org/wiki/Q109555660",
+      "youtube": "https://www.youtube.com/channel/UCR2pGOaIIf5W5FY8uwIkEiA",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Halo_Effect_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "THE HARDKISS": {
+    "genres": [
+      "electronic",
+      "dance",
+      "alternative rock"
+    ],
+    "display": "The Hardkiss",
+    "eventIds": [
+      11
+    ],
+    "mbid": "b72469ab-0235-4ff5-8e39-09c66dcbe305",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2955234",
+      "spotify": "https://open.spotify.com/artist/4IJcztNtY5L7G3qK4yu1qt",
+      "deezer": "https://www.deezer.com/artist/1432088",
+      "homepage": "http://www.thehardkiss.com/",
+      "instagram": "https://www.instagram.com/the_hardkiss/",
+      "apple": "https://music.apple.com/gb/artist/467797614",
+      "tidal": "https://tidal.com/artist/4103264",
+      "wikidata": "https://www.wikidata.org/wiki/Q4051116",
+      "youtube": "https://www.youtube.com/channel/UCgJxsxqbS_lQ3Y-_gbEq-lA",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Hardkiss"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Mission": {
+    "genres": [
+      "gothic rock",
+      "rock"
+    ],
+    "display": "The Mission",
+    "eventIds": [
+      81
+    ],
+    "mbid": "d85e95a3-07c7-4c04-a411-234290615113",
+    "links": {
+      "bandcamp": "https://themissionuk.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/99925",
+      "spotify": "https://open.spotify.com/artist/3DLtpqLMAU6uc0BOJ7JmlM",
+      "deezer": "https://www.deezer.com/artist/6810",
+      "homepage": "https://themissionukband.com/",
+      "apple": "https://music.apple.com/gb/artist/81186",
+      "wikidata": "https://www.wikidata.org/wiki/Q1778916",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Mission_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Ocean": {
+    "genres": [
+      "progressive metal",
+      "post-metal",
+      "sludge"
+    ],
+    "display": "The Ocean",
+    "eventIds": [
+      108
+    ],
+    "mbid": "8d0acf0e-c099-49ac-b4b3-d57ca9eb2561",
+    "links": {
+      "bandcamp": "https://theocean.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/627897",
+      "spotify": "https://open.spotify.com/artist/6fuALtryzj4cq7vkglKLxq",
+      "deezer": "https://www.deezer.com/artist/332642",
+      "homepage": "https://www.theoceancollective.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/The_Ocean_Collective/25189",
+      "apple": "https://music.apple.com/de/artist/47515973",
+      "instagram": "https://www.instagram.com/theoceancollective/",
+      "tidal": "https://tidal.com/artist/3523495",
+      "wikidata": "https://www.wikidata.org/wiki/Q669745",
+      "youtube": "https://www.youtube.com/channel/UCtU2wC8lyQXnqZ6TF2aXmPQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Ocean_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Paisleys": {
+    "genres": [
+      "psychedelic",
+      "psychedelic pop",
+      "psychedelic rock"
+    ],
+    "display": "The Paisleys",
+    "eventIds": [
+      117
+    ],
+    "mbid": "4538f904-70bf-4d26-8cdb-78c4ab0bac68",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1357243"
+    },
+    "fetched": "2026-11-19"
+  },
+  "The Pineapple Thief": {
+    "genres": [
+      "progressive rock",
+      "art rock"
+    ],
+    "display": "The Pineapple Thief",
+    "eventIds": [
+      75
+    ],
+    "mbid": "e8f55abb-a6d5-4e5f-81b4-14f9cc320519",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1158584",
+      "spotify": "https://open.spotify.com/artist/4lrBMUSk8PiNnCEZfsmPAk",
+      "deezer": "https://www.deezer.com/artist/94494",
+      "homepage": "https://www.pineapplethief.com/",
+      "apple": "https://music.apple.com/gb/artist/278648772",
+      "instagram": "https://www.instagram.com/thepineapplethief/",
+      "soundcloud": "https://soundcloud.com/thepineapplethief",
+      "tidal": "https://tidal.com/artist/3604669",
+      "wikidata": "https://www.wikidata.org/wiki/Q38502",
+      "youtube": "https://www.youtube.com/channel/UCiM2ZsguGDiGfsL2sUNatXQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Pineapple_Thief"
+    },
+    "fetched": "2026-11-19"
+  },
+  "These": {
+    "genres": [
+      "deep house",
+      "acid jazz",
+      "downtempo"
+    ],
+    "display": "These",
+    "eventIds": [
+      230
+    ],
+    "mbid": "c990d2d1-418c-4d58-84b5-c745af69552e",
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Thirty Seconds to Mars": {
+    "genres": [
+      "alternative rock",
+      "rock",
+      "alternative"
+    ],
+    "display": "Thirty Seconds to Mars",
+    "eventIds": [
+      258
+    ],
+    "mbid": "d8354b38-e942-4c89-ba93-29323432abc3",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/390829",
+      "spotify": "https://open.spotify.com/artist/0RqtSIYZmd4fiBKVFqyIqD",
+      "deezer": "https://www.deezer.com/artist/390183",
+      "homepage": "https://thirtysecondstomars.com/",
+      "instagram": "https://www.instagram.com/30secondstomars/",
+      "soundcloud": "https://soundcloud.com/thirtysecondstomars",
+      "apple": "https://music.apple.com/us/artist/2307416",
+      "tidal": "https://tidal.com/artist/4865041",
+      "wikidata": "https://www.wikidata.org/wiki/Q40585",
+      "youtube": "https://www.youtube.com/channel/UCK7wTMguyPyPCjhLoOK2rJg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Thirty_Seconds_to_Mars"
+    },
+    "fetched": "2026-11-19"
+  },
+  "TIISU": {
+    "genres": [
+      "rock"
+    ],
+    "display": "Tiisu",
+    "eventIds": [
+      32
+    ],
+    "mbid": "629cb762-2bfc-4156-8a80-8b07a46408cf",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4488398",
+      "spotify": "https://open.spotify.com/artist/5e4KRUBJ6zI9AjtDGXtkAT",
+      "deezer": "https://www.deezer.com/artist/6693167",
+      "homepage": "https://www.tiisu.fi/",
+      "instagram": "https://www.instagram.com/tiisuvirallinen/",
+      "apple": "https://music.apple.com/gb/artist/920239841",
+      "tidal": "https://tidal.com/artist/6014847",
+      "wikidata": "https://www.wikidata.org/wiki/Q18960290",
+      "youtube": "https://www.youtube.com/channel/UCabnI2CrkHt5OzdZBClTwXA",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Tiisu"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Timo Kämäräinen": {
+    "genres": [],
+    "display": "Timo Kämäräinen",
+    "eventIds": [
+      33
+    ],
+    "mbid": "b961490d-111d-460b-8a39-1f0694aa7794",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/709423",
+      "homepage": "https://www.timokamarainen.com/",
+      "soundcloud": "https://soundcloud.com/timo-k-m-r-inen",
+      "wikidata": "https://www.wikidata.org/wiki/Q16981244",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Timo_K%C3%A4m%C3%A4r%C3%A4inen"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Timo Pieni Huijaus": {
+    "genres": [
+      "rap"
+    ],
+    "display": "Timo Pieni Huijaus",
+    "eventIds": [
+      85
+    ],
+    "mbid": "afaf3f27-2abd-4e80-9635-15f0280a0f6c",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/620422",
+      "spotify": "https://open.spotify.com/artist/2CkDX7yl5Vv3Pfva1N2y92",
+      "instagram": "https://www.instagram.com/timopienihuijaus/",
+      "wikidata": "https://www.wikidata.org/wiki/Q4253411",
+      "wikipedia": "https://en.wikipedia.org/wiki/Timo_Pieni_Huijaus"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Tuomo": {
+    "genres": [
+      "soul",
+      "funk",
+      "chillout"
+    ],
+    "display": "Tuomo",
+    "eventIds": [
+      37
+    ],
+    "mbid": "9f405628-6dba-4fc7-9cb0-a86f4daaa6db",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/337063",
+      "spotify": "https://open.spotify.com/artist/3cZ3iH61r1E6iuupRwaGRL",
+      "soundcloud": "https://soundcloud.com/tuomo-100204343",
+      "tidal": "https://tidal.com/artist/3519239",
+      "wikidata": "https://www.wikidata.org/wiki/Q11898681",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tuomo_Pr%C3%A4tt%C3%A4l%C3%A4"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Turisti": {
+    "genres": [
+      "rap",
+      "hip hop",
+      "oon kayny kattomassa"
+    ],
+    "display": "Turisti",
+    "eventIds": [
+      251
+    ],
+    "mbid": "d06b11b5-2ae9-4a72-bbbf-5d615501787f",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6IKJyoGeFRCRDb90U6AEzp",
+      "deezer": "https://www.deezer.com/artist/8783888",
+      "instagram": "https://www.instagram.com/turistiii/",
+      "apple": "https://music.apple.com/fi/artist/1093147013",
+      "tidal": "https://tidal.com/artist/48853510",
+      "wikidata": "https://www.wikidata.org/wiki/Q107038447",
+      "wikipedia": "https://en.wikipedia.org/wiki/Turisti"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Ty Roxy": {
+    "genres": [
+      "electropop",
+      "pop",
+      "experimental"
+    ],
+    "display": "Ty Roxy",
+    "eventIds": [
+      122
+    ],
+    "mbid": "7e397194-7e95-43fe-9c69-6a57347ebdb8",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/4FT8sPqLTd7Eoqdi8i5oJt",
+      "deezer": "https://www.deezer.com/artist/141934852",
+      "instagram": "https://www.instagram.com/rotoxy/",
+      "youtube": "https://www.youtube.com/user/rotogoat"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Uli Jon Roth": {
+    "genres": [
+      "hard rock",
+      "guitar virtuoso",
+      "symphonic rock"
+    ],
+    "display": "Uli Jon Roth",
+    "eventIds": [
+      103
+    ],
+    "mbid": "cc533920-6a69-4b14-96ff-27a4cac89365",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/454216",
+      "spotify": "https://open.spotify.com/artist/2VoP4JXyxNPIoYAFdB5ssQ",
+      "deezer": "https://www.deezer.com/artist/1017790",
+      "homepage": "http://www.ulijonroth.com/",
+      "apple": "https://music.apple.com/fr/artist/201700208",
+      "wikidata": "https://www.wikidata.org/wiki/Q156139",
+      "youtube": "https://www.youtube.com/channel/UCkd4pYkarn1EEg71xxVE-Lg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Uli_Jon_Roth"
+    },
+    "fetched": "2026-11-19"
+  },
+  "UNKIND": {
+    "genres": [
+      "crust",
+      "hardcore",
+      "neocrust"
+    ],
+    "display": "Unkind",
+    "eventIds": [
+      185
+    ],
+    "mbid": "515bbbc4-da82-475d-ace6-63f7c9daf44a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/330171"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Us": {
+    "genres": [],
+    "display": "US",
+    "eventIds": [
+      2
+    ],
+    "mbid": "7ae4c284-330a-404c-ade4-846441d3524d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4394030",
+      "homepage": "http://www.the-music-of-us.com/"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Vainoa": {
+    "genres": [
+      "blackened hardcore",
+      "hardcore",
+      "crust punk"
+    ],
+    "display": "Vainoa",
+    "eventIds": [
+      239
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Vermithor": {
+    "genres": [],
+    "display": "Vermithor",
+    "eventIds": [
+      237
+    ],
+    "mbid": "a171c870-b6a8-4299-aae6-6c4484d253c6",
+    "links": {
+      "bandcamp": "https://vermithor.bandcamp.com/",
+      "instagram": "https://www.instagram.com/vermithorhcdm/",
+      "soundcloud": "https://soundcloud.com/vermithor666",
+      "youtube": "https://www.youtube.com/@VermithorFIN"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Vesterinen Yhtyeineen": {
+    "genres": [
+      "rock",
+      "pop"
+    ],
+    "display": "Vesterinen yhtyeineen",
+    "eventIds": [
+      59,
+      60
+    ],
+    "mbid": "b91290c6-5677-4d53-9c32-5b00a634fb73",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1790234",
+      "spotify": "https://open.spotify.com/artist/5VqqouYMb1I1IZHzEGqkMh",
+      "homepage": "https://vesterinenyhtyeineen.fi/",
+      "instagram": "https://www.instagram.com/vesterinenyhtyeineen/",
+      "wikidata": "https://www.wikidata.org/wiki/Q5217076",
+      "youtube": "https://www.youtube.com/@VesterinenYhtyeineen",
+      "wikipedia": "https://en.wikipedia.org/wiki/Vesterinen_Yhtyeineen"
+    },
+    "fetched": "2026-11-19"
+  },
+  "VIIVI": {
+    "genres": [
+      "finnish female vocalists",
+      "pop"
+    ],
+    "display": "Viivi",
+    "eventIds": [
+      53
+    ],
+    "mbid": "f3fdf535-53f2-4eaa-9121-029335763281",
+    "links": {
+      "instagram": "https://www.instagram.com/viivimusic/",
+      "wikidata": "https://www.wikidata.org/wiki/Q110322505",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Viivi_Orvasto"
+    },
+    "fetched": "2026-11-19"
+  },
+  "VIKI": {
+    "genres": [
+      "serbian",
+      "noise",
+      "folk"
+    ],
+    "display": "Viki",
+    "eventIds": [
+      245
+    ],
+    "mbid": "63c06057-698f-4127-9869-249e6345358e",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/215501"
+    },
+    "fetched": "2026-11-19"
+  },
+  "VIKI & KÖPI": {
+    "genres": [],
+    "display": "VIKI & KÖPI",
+    "eventIds": [
+      245
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Visio": {
+    "genres": [
+      "electronic",
+      "glitch",
+      "post-industrial"
+    ],
+    "display": "Visio",
+    "eventIds": [
+      229
+    ],
+    "mbid": "5a252850-1354-4292-af13-a2b3718475e8",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0zfdjBoCEY4ZNv35zJCWEO",
+      "deezer": "https://www.deezer.com/artist/71477362",
+      "apple": "https://music.apple.com/us/artist/386819985",
+      "tidal": "https://tidal.com/artist/14853196"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Von Hertzen Brothers": {
+    "genres": [
+      "progressive rock",
+      "rock"
+    ],
+    "display": "Von Hertzen Brothers",
+    "eventIds": [
+      21
+    ],
+    "mbid": "298c6d13-4757-437d-a3a6-07d0b3255e5b",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/395648",
+      "spotify": "https://open.spotify.com/artist/5QA702pGd9qa2oWvp21ofG",
+      "deezer": "https://www.deezer.com/artist/77478",
+      "homepage": "https://vonhertzenbrothers.com/",
+      "apple": "https://music.apple.com/fi/artist/63209278",
+      "instagram": "https://www.instagram.com/vonhertzenbrothers/",
+      "soundcloud": "https://soundcloud.com/von-hertzen-brothers-official",
+      "tidal": "https://tidal.com/artist/1627",
+      "wikidata": "https://www.wikidata.org/wiki/Q4412530",
+      "youtube": "https://www.youtube.com/channel/UCJDXxj-e-yCBUDd6sziE-lA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Von_Hertzen_Brothers"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Vvorse": {
+    "genres": [
+      "crust",
+      "hardcore",
+      "d-beat"
+    ],
+    "display": "vvorse",
+    "eventIds": [
+      239
+    ],
+    "mbid": "4cbb09f9-a268-4edb-9f18-3bb40eac492a",
+    "links": {
+      "bandcamp": "https://vvorse.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4905921"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Vörjeans": {
+    "genres": [
+      "rockabilly"
+    ],
+    "display": "Vörjeans",
+    "eventIds": [
+      29,
+      30,
+      31
+    ],
+    "mbid": "6f6c3790-44d2-4b8b-a50c-0927e5bb6261",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/01X8u1zxB9B15hWtwrjZBX",
+      "deezer": "https://www.deezer.com/artist/66288282",
+      "homepage": "https://www.humorgruppenkaj.com/vorjeans",
+      "instagram": "https://www.instagram.com/vorjeans/",
+      "apple": "https://music.apple.com/fi/artist/1465247998",
+      "tidal": "https://tidal.com/artist/15862197"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Wasted": {
+    "genres": [
+      "punk",
+      "punk rock",
+      "finnish punk"
+    ],
+    "display": "Wasted",
+    "eventIds": [
+      205
+    ],
+    "mbid": "52408d10-72d7-48c7-bea5-1998143dcc90",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/330170",
+      "homepage": "http://www.fireinsidemusic.com/wasted/",
+      "instagram": "https://www.instagram.com/wastedpunkrock/",
+      "soundcloud": "https://soundcloud.com/wasted-finland",
+      "wikidata": "https://www.wikidata.org/wiki/Q11902298",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Wasted"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Weezer": {
+    "genres": [
+      "alternative rock",
+      "rock",
+      "alternative"
+    ],
+    "display": "Weezer",
+    "eventIds": [
+      260
+    ],
+    "mbid": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/105730",
+      "spotify": "https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu",
+      "deezer": "https://www.deezer.com/artist/418",
+      "homepage": "https://www.weezer.com/",
+      "apple": "https://music.apple.com/us/artist/115234",
+      "instagram": "https://www.instagram.com/weezer/",
+      "soundcloud": "https://soundcloud.com/weezer",
+      "tidal": "https://tidal.com/artist/30157",
+      "wikidata": "https://www.wikidata.org/wiki/Q209956",
+      "youtube": "https://www.youtube.com/channel/UC7JDBUzkcwRGtQGia3_mMgQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Weezer"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Whitechapel": {
+    "genres": [
+      "deathcore",
+      "death metal",
+      "brutal deathcore"
+    ],
+    "display": "Whitechapel",
+    "eventIds": [
+      170
+    ],
+    "mbid": "56ba013c-610e-4d9b-98ed-c2ccff977a9e",
+    "links": {
+      "bandcamp": "https://whitechapelmetal.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1624715",
+      "spotify": "https://open.spotify.com/artist/5274obTQJjzjyycRyJlfml",
+      "deezer": "https://www.deezer.com/artist/123972",
+      "homepage": "http://www.whitechapelband.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Whitechapel/100482",
+      "instagram": "https://www.instagram.com/whitechapelband/",
+      "soundcloud": "https://soundcloud.com/whitechapelofficial",
+      "apple": "https://music.apple.com/us/artist/127084107",
+      "tidal": "https://tidal.com/artist/3767580",
+      "wikidata": "https://www.wikidata.org/wiki/Q1138974",
+      "youtube": "https://www.youtube.com/channel/UCgSFuJpYy7QHxEoVkAevkOQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Whitechapel_(band)"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Widows": {
+    "genres": [
+      "punk"
+    ],
+    "display": "Widows",
+    "eventIds": [
+      234
+    ],
+    "mbid": "7574c89d-df63-484a-b740-00a995e0c63b",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/358704",
+      "wikidata": "https://www.wikidata.org/wiki/Q11902385",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Widows"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Wolf Parade": {
+    "genres": [
+      "indie rock",
+      "indie",
+      "alternative"
+    ],
+    "display": "Wolf Parade",
+    "eventIds": [
+      76
+    ],
+    "mbid": "b7ddce8b-9e5c-46bd-9d33-41b134ce1a7f",
+    "links": {
+      "bandcamp": "https://wolfparade.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/366836",
+      "spotify": "https://open.spotify.com/artist/0XSqX2PB3C5dTMv7SZaxSm",
+      "deezer": "https://www.deezer.com/artist/4384",
+      "instagram": "https://www.instagram.com/wolfparade/",
+      "apple": "https://music.apple.com/ca/artist/73516820",
+      "tidal": "https://tidal.com/artist/3561926",
+      "wikidata": "https://www.wikidata.org/wiki/Q607581",
+      "youtube": "https://www.youtube.com/channel/UCAGMWuFTrgNrMpxbDLH8k0A",
+      "wikipedia": "https://en.wikipedia.org/wiki/Wolf_Parade"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Wolfram": {
+    "genres": [
+      "electronic",
+      "disco",
+      "ambient"
+    ],
+    "display": "Wolfram",
+    "eventIds": [
+      121
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
+  "Wyatt E": {
+    "genres": [
+      "drone",
+      "post-metal",
+      "post-rock"
+    ],
+    "display": "Wyatt E.",
+    "eventIds": [
+      232
+    ],
+    "mbid": "3432cfdf-9d9a-4e0f-b561-2e6882db84da",
+    "links": {
+      "bandcamp": "https://wyattdoom.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4593226",
+      "spotify": "https://open.spotify.com/artist/70x6QVPo3xBIDNkxzkngdh",
+      "deezer": "https://www.deezer.com/artist/5538582",
+      "metalArchives": "https://www.metal-archives.com/bands/Wyatt_E./3540399604",
+      "instagram": "https://www.instagram.com/wyattdoom/",
+      "soundcloud": "https://soundcloud.com/wyattdoom",
+      "youtube": "https://www.youtube.com/channel/UCRMabY61yi7Ay66Fg4AWduw"
+    },
+    "fetched": "2026-11-19"
+  },
+  "Young Gun Silver Fox": {
+    "genres": [
+      "soft rock",
+      "soul",
+      "west coast"
+    ],
+    "display": "Young Gun Silver Fox",
+    "eventIds": [
+      41
+    ],
+    "mbid": "2e111d6d-fce9-46ff-b33a-7eed7300f9d4",
+    "links": {
+      "bandcamp": "https://younggunsilverfox.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/4676376",
+      "spotify": "https://open.spotify.com/artist/3qQloBz05T6e0rKubNCmjG",
+      "homepage": "https://www.younggunsilverfox.com/",
+      "apple": "https://music.apple.com/be/artist/1033062898",
+      "tidal": "https://tidal.com/artist/7310845"
+    },
+    "fetched": "2026-11-19"
+  }
+}

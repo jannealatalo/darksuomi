@@ -10,3 +10,4 @@ python scraper_veikkausarena.py
 python genres.py
 python setlists.py
 python playlists.py
+python bands.py
