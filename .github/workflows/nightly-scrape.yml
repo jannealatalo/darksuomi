@@ -59,6 +59,9 @@ jobs:
       - name: Scrape Tiivistämö (concerts only)
         run: python scraper_tiivistamo.py
 
+      - name: Scrape Helsingin Jäähalli (concerts only)
+        run: python scraper_jaahalli.py
+
       - name: Tag genres
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}

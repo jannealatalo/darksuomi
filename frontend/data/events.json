@@ -1486,6 +1486,22 @@
     ]
   },
   {
+    "artist": "Taemin",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2026-12-01T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/136099",
+    "eventUrl": "https://helsinginjaahalli.fi/events/136099",
+    "id": 323,
+    "artists": [
+      "Taemin"
+    ],
+    "genres": [
+      "k-pop",
+      "pop"
+    ]
+  },
+  {
     "id": 269,
     "artist": "Kuudesta Kymmeneen",
     "venue": "Semifinal",
@@ -1907,6 +1923,23 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "Beast In Black - Return of the Beast",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/beast-in-black-return-of-the-beast",
+    "eventUrl": "https://helsinginjaahalli.fi/events/beast-in-black-return-of-the-beast",
+    "id": 324,
+    "artists": [
+      "Beast In Black"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "metal"
     ]
   },
   {
@@ -4361,6 +4394,31 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Bullet For My Valentine, Pendulum, Dark Divine",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-02-02T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/bullet-for-my-valentine",
+    "eventUrl": "https://helsinginjaahalli.fi/events/bullet-for-my-valentine",
+    "price": "alk. 59 €",
+    "id": 325,
+    "artists": [
+      "Bullet For My Valentine",
+      "Pendulum",
+      "Dark Divine"
+    ],
+    "genres": [
+      "metalcore",
+      "metal",
+      "hardcore",
+      "emocore",
+      "drum and bass",
+      "electronic",
+      "drum n bass",
+      "dnb"
+    ]
+  },
+  {
     "artist": "Imminence",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -4559,6 +4617,22 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Loboda",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-02-06T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/loboda",
+    "eventUrl": "https://helsinginjaahalli.fi/events/loboda",
+    "id": 326,
+    "artists": [
+      "Loboda"
+    ],
+    "genres": [
+      "pop",
+      "dance"
+    ]
+  },
+  {
     "artist": "10cc",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -4731,6 +4805,24 @@
     ],
     "genres": [
       "stand-up"
+    ]
+  },
+  {
+    "artist": "HOLLYWOOD UNDEAD",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-02-11T18:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/hollywood-undead",
+    "eventUrl": "https://helsinginjaahalli.fi/events/hollywood-undead",
+    "id": 327,
+    "artists": [
+      "HOLLYWOOD UNDEAD"
+    ],
+    "genres": [
+      "rapcore",
+      "rap",
+      "hardcore",
+      "screamo"
     ]
   },
   {
@@ -7046,6 +7138,21 @@
     "detailsFetched": "2026-11-19"
   },
   {
+    "artist": "Till Lindemann",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-10-04T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/till-lindemann",
+    "eventUrl": "https://helsinginjaahalli.fi/events/till-lindemann",
+    "id": 328,
+    "artists": [
+      "Till Lindemann"
+    ],
+    "genres": [
+      "industrial metal"
+    ]
+  },
+  {
     "artist": "HAEVN (NL) – ANIMA Tour 2027",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -7103,6 +7210,23 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Bruce Dickinson",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-11-12T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/bruce-dickinson",
+    "eventUrl": "https://helsinginjaahalli.fi/events/bruce-dickinson",
+    "id": 329,
+    "artists": [
+      "Bruce Dickinson"
+    ],
+    "genres": [
+      "heavy metal",
+      "hard rock",
+      "metal"
+    ]
   },
   {
     "id": 83,
@@ -7172,6 +7296,28 @@
     ],
     "genres": [
       "viihde"
+    ]
+  },
+  {
+    "artist": "Powerwolf, APOCALYPTICA, MAJESTICA",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-12-16T00:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/powerwolf-2",
+    "eventUrl": "https://helsinginjaahalli.fi/events/powerwolf-2",
+    "id": 330,
+    "artists": [
+      "Powerwolf",
+      "APOCALYPTICA",
+      "MAJESTICA"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "metal",
+      "symphonic metal",
+      "instrumental",
+      "symphonic power metal"
     ]
   }
 ]

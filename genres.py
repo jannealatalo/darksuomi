@@ -60,6 +60,7 @@ JUNK_TAGS = {
     "dr congo", "albania", "albanian", "latvian", "latvia", "lithuanian",
     "russian", "polish", "hungarian", "italian", "spain",
     "my top songs", "somalia", "somali",
+    "korean", "japanese", "south korea", "태민",
 }
 # Event / contest tags such as "eurovision 2023 artists" or "umk 2025".
 JUNK_TAG_PATTERN = re.compile(r"eurovision|^umk\b|^\d{4}$")

@@ -243,6 +243,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "APOCALYPTICA": {
+    "source": "lastfm",
+    "matchedName": "Apocalyptica",
+    "tags": [
+      "symphonic metal",
+      "instrumental",
+      "metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Arottenbit": {
     "source": "lastfm",
     "matchedName": "Arottenbit",
@@ -422,6 +432,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Beast In Black": {
+    "source": "lastfm",
+    "matchedName": "Beast in Black",
+    "tags": [
+      "power metal",
+      "heavy metal",
+      "metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Ben’s Diapers": {
     "source": "musicbrainz",
     "matchedName": "Ben’s Diapers",
@@ -551,6 +571,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Bruce Dickinson": {
+    "source": "lastfm",
+    "matchedName": "Bruce Dickinson",
+    "tags": [
+      "heavy metal",
+      "hard rock",
+      "metal"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Brujeria": {
     "source": "lastfm",
     "matchedName": "Brujeria",
@@ -582,6 +612,17 @@
       "symphonic metal"
     ],
     "fetched": "2026-11-18"
+  },
+  "Bullet For My Valentine": {
+    "source": "lastfm",
+    "matchedName": "Bullet for My Valentine",
+    "tags": [
+      "metalcore",
+      "metal",
+      "hardcore",
+      "emocore"
+    ],
+    "fetched": "2026-11-19"
   },
   "CATCH YOUR BREATH": {
     "source": "lastfm",
@@ -687,6 +728,14 @@
     "mbid": "442504f4-bff5-4f12-a96c-c9c09cbf7f5a",
     "country": "GB",
     "tags": [],
+    "fetched": "2026-11-19"
+  },
+  "Dark Divine": {
+    "source": "lastfm",
+    "matchedName": "Dark Divine",
+    "tags": [
+      "metalcore"
+    ],
     "fetched": "2026-11-19"
   },
   "Das Ich": {
@@ -1344,6 +1393,17 @@
     ],
     "fetched": "2026-11-18"
   },
+  "HOLLYWOOD UNDEAD": {
+    "source": "lastfm",
+    "matchedName": "Hollywood Undead",
+    "tags": [
+      "rapcore",
+      "rap",
+      "hardcore",
+      "screamo"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Hulda Huima": {
     "source": "lastfm",
     "matchedName": "Hulda Huima",
@@ -1943,6 +2003,15 @@
     "source": "error",
     "tags": []
   },
+  "Loboda": {
+    "source": "lastfm",
+    "matchedName": "LOBODA",
+    "tags": [
+      "pop",
+      "dance"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Loosen Jytädisko": {
     "source": "notfound",
     "tags": [],
@@ -2012,6 +2081,16 @@
       "pop"
     ],
     "fetched": "2026-11-18"
+  },
+  "MAJESTICA": {
+    "source": "lastfm",
+    "matchedName": "Majestica",
+    "tags": [
+      "power metal",
+      "symphonic power metal",
+      "symphonic metal"
+    ],
+    "fetched": "2026-11-19"
   },
   "MALEVO": {
     "source": "lastfm",
@@ -2494,6 +2573,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Pendulum": {
+    "source": "lastfm",
+    "matchedName": "Pendulum",
+    "tags": [
+      "drum and bass",
+      "electronic",
+      "drum n bass",
+      "dnb"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Pertti Kurikan": {
     "source": "notfound",
     "tags": [],
@@ -2615,6 +2705,16 @@
       "belgium",
       "post-rock",
       "sludge"
+    ],
+    "fetched": "2026-11-19"
+  },
+  "Powerwolf": {
+    "source": "lastfm",
+    "matchedName": "Powerwolf",
+    "tags": [
+      "power metal",
+      "heavy metal",
+      "metal"
     ],
     "fetched": "2026-11-19"
   },
@@ -3338,6 +3438,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Taemin": {
+    "source": "lastfm",
+    "matchedName": "TAEMIN",
+    "tags": [
+      "k-pop",
+      "korean",
+      "태민",
+      "pop"
+    ],
+    "fetched": "2026-11-19"
+  },
   "Taistelu itsenäisyydestä": {
     "source": "notfound",
     "tags": [],
@@ -3575,6 +3686,14 @@
       "rock"
     ],
     "fetched": "2026-11-18"
+  },
+  "Till Lindemann": {
+    "source": "lastfm",
+    "matchedName": "Till Lindemann",
+    "tags": [
+      "industrial metal"
+    ],
+    "fetched": "2026-11-19"
   },
   "Timo Kotipelto ja Jarkko Ahola": {
     "source": "notfound",
