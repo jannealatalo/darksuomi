@@ -1,7 +1,16 @@
 import events from "../data/events.json";
+import ouluEvents from "../data/oulu/events.json";
+import tampereEvents from "../data/tampere/events.json";
 import genreConfig from "../data/genre-config.json";
 import meta from "../data/meta.json";
 import type { Event } from "../types/events";
+import type { CityKey } from "./cities";
+
+const EVENTS_BY_CITY: Record<CityKey, Event[]> = {
+  helsinki: events as Event[],
+  tampere: tampereEvents as Event[],
+  oulu: ouluEvents as Event[],
+};
 
 export const excludedGenres = new Set<string>(genreConfig.excludeGenres);
 
@@ -63,8 +72,8 @@ export const scrapeDay = new Date(meta.lastScraped).toLocaleDateString("sv-SE", 
 });
 
 /** Upcoming events (from the scrape day on), sorted by date and time. */
-export function getEvents(): Event[] {
-  return (events as Event[])
+export function getEvents(city: CityKey = "helsinki"): Event[] {
+  return EVENTS_BY_CITY[city]
     .filter((e) => e.date.slice(0, 10) >= scrapeDay)
     .sort((a, b) => a.date.localeCompare(b.date));
 }

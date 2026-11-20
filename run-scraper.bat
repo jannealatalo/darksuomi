@@ -15,6 +15,10 @@ python scraper_korjaamo.py
 python scraper_sellosali.py
 python scraper_tuska.py
 python genres.py
+rem Experimental city sites (Tampere, Oulu)
+for %%f in (scraper_tampere_*.py scraper_oulu_*.py) do python %%f
+python genres.py --city tampere
+python genres.py --city oulu
 python setlists.py
 python playlists.py
 python bands.py

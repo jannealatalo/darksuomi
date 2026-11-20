@@ -15,6 +15,21 @@ export const VENUE_LINKS: Record<string, string> = {
   "Suvilahti (Tuska)": "https://tuska.fi/",
   Korjaamo: "https://korjaamo.fi/tapahtumat/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
+  // Tampere (experimental site)
+  "Tavara-asema": "https://tavara-asema.fi/",
+  Pakkahuone: "https://tullikamari.fi/",
+  "Tullikamarin Klubi": "https://tullikamari.fi/",
+  Olympia: "https://olympiakortteli.fi/keikat/",
+  "Vastavirta-klubi": "https://vastavirta.net/",
+  "G Livelab Tampere": "https://glivelab.fi/tampere/",
+  "Nokia Arena": "https://nokiaarena.fi/",
+  "Bar Kotelo": "https://barkotelo.fi/",
+  // Oulu (experimental site)
+  "45 Special": "https://45special.com/",
+  Tullisali: "https://www.tullisali.fi/",
+  "Toppila Klubi": "https://toppilaklubi.fi/",
+  "Oulun Musiikkikeskus": "https://www.oulunmusiikkikeskus.fi/",
+  "Ouluhallin parkkialue (Rokki Raikaa)": "https://rokkiraikaa.fi/oulu-2027/",
 };
 
 export type SiteLink = { name: string; url: string };

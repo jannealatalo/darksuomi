@@ -85,6 +85,22 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python genres.py
 
+      - name: Experimental city sites (Tampere, Oulu)
+        # Separate data (frontend/data/<city>/events.json); genres share the
+        # artist cache. No setlist.fm or Spotify calls for these sites. A
+        # broken venue site only gives a warning.
+        continue-on-error: true
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          for city in tampere oulu; do
+            for f in scraper_${city}_*.py; do
+              [ -e "$f" ] || continue
+              python "$f" || echo "::warning::$f failed"
+            done
+            python genres.py --city "$city"
+          done
+
       - name: Build expected setlists
         env:
           SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}

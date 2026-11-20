@@ -1,0 +1,3904 @@
+[
+  {
+    "artist": "Benjamin – Locker Room Tour",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-11-20T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/benjamin-locker-room-tour-20-11-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/benjamin-locker-room-tour-20-11-2026/",
+    "doors": "19:00",
+    "price": "loppuunmyyty",
+    "age": "K-18",
+    "id": 1,
+    "artists": [
+      "Benjamin"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Olavi Uusivirta",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-11-20T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/olavi-uusivirta-20-11-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/olavi-uusivirta-20-11-2026/",
+    "doors": "19:00",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 25,
+    "artists": [
+      "Olavi Uusivirta"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Säilä, Typerä Typerä Mies, Toukokuu",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-20T19:00:00",
+    "ticketUrl": "https://www.facebook.com/events/1755460498881861/",
+    "eventUrl": "https://www.facebook.com/events/1755460498881861/",
+    "doors": "19:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 95,
+    "artists": [
+      "Säilä",
+      "Typerä Typerä Mies",
+      "Toukokuu"
+    ],
+    "genres": [
+      "progressive rock",
+      "art rock"
+    ]
+  },
+  {
+    "artist": "Mimosa & Getto-Otto, Lossi T, Palone, Oiva Vedätys",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-20T21:00:00",
+    "ticketUrl": "https://facebook.com/events/s/mimosa-lossi-t-palone-oiva-ved/1683984883387275/",
+    "eventUrl": "https://facebook.com/events/s/mimosa-lossi-t-palone-oiva-ved/1683984883387275/",
+    "doors": "21:00",
+    "price": "10 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 96,
+    "artists": [
+      "Mimosa & Getto-Otto",
+      "Lossi T",
+      "Palone",
+      "Oiva Vedätys"
+    ],
+    "genres": [
+      "dubstep",
+      "glitch",
+      "electronic",
+      "idm",
+      "deutschrap",
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "SLEETH, AFTERNOON OMENS, DEMONESSA",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-11-20T21:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-11-20",
+    "venueDefault": "rock",
+    "doors": "21:00",
+    "price": "8€",
+    "id": 191,
+    "artists": [
+      "SLEETH",
+      "AFTERNOON OMENS",
+      "DEMONESSA"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "TAITEILE MINULLE TAIVAS : Pinhuusi, Piirimyyjä + open mic, Ayno, Halla",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-21T17:00:00",
+    "ticketUrl": "https://www.facebook.com/events/1158121343463051/",
+    "eventUrl": "https://www.facebook.com/events/1158121343463051/",
+    "doors": "17:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 97,
+    "artists": [
+      "Pinhuusi",
+      "Piirimyyjä",
+      "open mic",
+      "Ayno",
+      "Halla"
+    ],
+    "genres": [
+      "hip hop",
+      "underground hip hop",
+      "rock",
+      "pop",
+      "k-pop",
+      "france",
+      "black metal",
+      "raw black metal",
+      "iranian black metal"
+    ]
+  },
+  {
+    "artist": "TURISTI PRESENTS: MAGIC CITY – ARENA TOUR",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2026-11-21T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/turisti-presents-magic-city-arena-tour-nokia-arena-22033967/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/turisti-presents-magic-city-arena-tour/",
+    "doors": "18:30",
+    "price": "alk. 79,90 €",
+    "id": 184,
+    "artists": [
+      "TURISTI"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "Apulanta",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-11-21T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/apulanta-21-11-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/apulanta-21-11-2026/",
+    "doors": "19:00",
+    "price": "loppuunmyyty",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 26,
+    "artists": [
+      "Apulanta"
+    ],
+    "genres": [
+      "rock",
+      "punk rock",
+      "punk"
+    ]
+  },
+  {
+    "artist": "Pohjasakka, Aivoproteesi, Tohtori Koira, Suicide Sex Cult Propaganda, Punk Ekman",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-21T20:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-11-21-2000",
+    "doors": "20:00",
+    "price": "5 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 98,
+    "artists": [
+      "Pohjasakka",
+      "Aivoproteesi",
+      "Tohtori Koira",
+      "Suicide Sex Cult Propaganda",
+      "Punk Ekman"
+    ],
+    "genres": [
+      "hardcore punk",
+      "finnish hardcore punk",
+      "punk",
+      "finnish hardcore",
+      "finnish punk"
+    ]
+  },
+  {
+    "artist": "Mika Maijala - levynjulkaisukonsertti & 60-vuotisjuhlakonsertti",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-11-21T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/mika-maijala-levynjulkaisukonsertti-60-vuotisjuhla-6a8d70cd771146ea03a54614/",
+    "eventUrl": "https://glivelab.fi/tampere/events/mika-maijala-levynjulkaisukonsertti-60-vuotisjuhla-6a8d70cd771146ea03a54614/",
+    "id": 114,
+    "artists": [
+      "Mika Maijala"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "DISGRAVE, PYRE OF HYPOCRISY",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-11-21T22:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-11-21",
+    "venueDefault": "rock",
+    "doors": "22:00",
+    "price": "10€",
+    "id": 192,
+    "artists": [
+      "DISGRAVE",
+      "PYRE OF HYPOCRISY"
+    ],
+    "genres": [
+      "grindcore",
+      "thrash metal",
+      "crust",
+      "death metal",
+      "metal punk",
+      "crust n roll"
+    ]
+  },
+  {
+    "artist": "TYK @ G Livelab 2026",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-11-24T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/tyk-g-livelab-2026-6aaa8c1886c476232acd8658/",
+    "eventUrl": "https://glivelab.fi/tampere/events/tyk-g-livelab-2026-6aaa8c1886c476232acd8658/",
+    "id": 115,
+    "artists": [
+      "TYK @ G Livelab"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Johanna Iivanainen 50v.-juhlakonsertti",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-11-25T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/johanna-iivanainen-50v-juhlakonsertti-69e9fae8f063f310e3c47d77/",
+    "eventUrl": "https://glivelab.fi/tampere/events/johanna-iivanainen-50v-juhlakonsertti-69e9fae8f063f310e3c47d77/",
+    "id": 116,
+    "artists": [
+      "Johanna Iivanainen"
+    ],
+    "genres": [
+      "jazz",
+      "scandinavian girls"
+    ]
+  },
+  {
+    "artist": "Tabula Rasa, Fantasia",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-11-26T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/tabula-rasa-fantasia-26-11-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/tabula-rasa-fantasia-26-11-2026/",
+    "doors": "18:00",
+    "price": "alk. 35€, ovelta 40€",
+    "age": "K-18",
+    "id": 2,
+    "artists": [
+      "Tabula Rasa",
+      "Fantasia"
+    ],
+    "genres": [
+      "progressive rock",
+      "black metal",
+      "r&b",
+      "soul",
+      "fantasia"
+    ]
+  },
+  {
+    "artist": "Kissa, Lala Salama",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-11-26T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/kissa-lala-salama-26-11-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/kissa-lala-salama-26-11-2026/",
+    "doors": "19:00",
+    "price": "alk. 22,50€, ovelta 25€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 27,
+    "artists": [
+      "Kissa",
+      "Lala Salama"
+    ],
+    "genres": [
+      "hard rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Vapaat äänet 30 vuotta: Lotus Flowers (Angelini - Niescier - Abdou) + Antti Lötjönen (solo)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-11-26T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/vapaat-aanet-30-vuotta-lotus-flowers-angelini-nies-6a2fa0886408b6a331b87890/",
+    "eventUrl": "https://glivelab.fi/tampere/events/vapaat-aanet-30-vuotta-lotus-flowers-angelini-nies-6a2fa0886408b6a331b87890/",
+    "id": 117,
+    "artists": [
+      "Lotus Flowers",
+      "Antti Lötjönen"
+    ],
+    "genres": [
+      "ambient",
+      "electronic",
+      "experimental",
+      "united kingdom",
+      "vaporwave",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Melancholy Mass: Sólstafir (ISL) + Vorna + Cryptic Hatred + Ashen Tomb",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-11-27T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/melancholy-mass-2026-olympia-21874574/",
+    "eventUrl": "https://www.lippu.fi/event/melancholy-mass-2026-olympia-21874574/",
+    "age": "K-18",
+    "id": 83,
+    "artists": [
+      "Sólstafir",
+      "Vorna",
+      "Cryptic Hatred",
+      "Ashen Tomb"
+    ],
+    "genres": [
+      "black metal",
+      "post-black metal",
+      "progressive metal",
+      "post-metal",
+      "folk metal",
+      "pagan metal",
+      "death metal"
+    ]
+  },
+  {
+    "artist": "Anton V. Kivi, Noo, Pekka Tapani",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-27T19:00:00",
+    "ticketUrl": "https://www.facebook.com/events/1107232212038904/",
+    "eventUrl": "https://www.facebook.com/events/1107232212038904/",
+    "doors": "19:00",
+    "room": "Terassi Pub Yläkerta",
+    "id": 99,
+    "artists": [
+      "Anton V. Kivi",
+      "Noo",
+      "Pekka Tapani"
+    ],
+    "genres": [
+      "vocaloid"
+    ]
+  },
+  {
+    "artist": "Josén Pimeä Puoli",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-11-27T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/josen-pimea-puoli-27-11-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/josen-pimea-puoli-27-11-2026/",
+    "doors": "20:00",
+    "price": "alk. 27,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 28,
+    "artists": [
+      "Josén Pimeä Puoli"
+    ],
+    "genres": [
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "Garbagemen, God’s Lonely Men, Wolfmen",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-27T20:00:00",
+    "ticketUrl": "https://cluby.com/vastavirta/events/garbagemen-gods-lonely-men-wolfmen/VENUE_EVENT_2m7dd72_635bea9",
+    "eventUrl": "https://www.facebook.com/events/1699953714892939/",
+    "doors": "20:00",
+    "price": "15 € / 18 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 100,
+    "artists": [
+      "Garbagemen",
+      "God’s Lonely Men",
+      "Wolfmen"
+    ],
+    "genres": [
+      "psychobilly",
+      "swedish rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "WHAT AWAITS US, TRAITORS AMONG US, LUST FOR LILY",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-11-27T22:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-11-27",
+    "venueDefault": "rock",
+    "doors": "22:00",
+    "price": "13/15€",
+    "id": 193,
+    "artists": [
+      "WHAT AWAITS US",
+      "TRAITORS AMONG US",
+      "LUST FOR LILY"
+    ],
+    "genres": [
+      "metalcore",
+      "electronic",
+      "post-hardcore"
+    ]
+  },
+  {
+    "artist": "Master Boot Record + Fulci + Arottenbit",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/master-boot-record-fulci-arottenbit-olympia-21466477/",
+    "eventUrl": "https://www.lippu.fi/event/master-boot-record-fulci-arottenbit-olympia-21466477/",
+    "age": "K-18",
+    "id": 84,
+    "artists": [
+      "Master Boot Record",
+      "Fulci",
+      "Arottenbit"
+    ],
+    "genres": [
+      "chiptune",
+      "industrial metal",
+      "electronic",
+      "synthwave",
+      "death metal",
+      "brutal death metal",
+      "drone",
+      "drone doom",
+      "8-bit"
+    ]
+  },
+  {
+    "artist": "Stam1na, Stoned Statues",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-11-28T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/stam1na-stoned-statues-28-11-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/stam1na-stoned-statues-28-11-2026/",
+    "doors": "18:00",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 29,
+    "artists": [
+      "Stam1na",
+      "Stoned Statues"
+    ],
+    "genres": [
+      "thrash metal",
+      "progressive metal",
+      "metal",
+      "progressive rock",
+      "alternative rock",
+      "alternative metal",
+      "punk"
+    ]
+  },
+  {
+    "artist": "COSTI, uu$er",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-11-28T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/costi-uuer-28-11-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/costi-uuer-28-11-2026/",
+    "doors": "19:00",
+    "price": "alk. 28€, ovelta 32€",
+    "age": "S/K-18",
+    "id": 3,
+    "artists": [
+      "COSTI",
+      "uu$er"
+    ],
+    "genres": [
+      "electronic",
+      "pop",
+      "house",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Wyatt E (be), Fife the Hierophant (uk), Radien",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-28T20:30:00",
+    "ticketUrl": "https://cluby.com/vastavirta/events/wyatt-e-be-fife-the-hierophant-uk-radien/VENUE_EVENT_2m7dd72_7wm5aw5",
+    "eventUrl": "https://www.facebook.com/events/1080865594315952/",
+    "doors": "20:30",
+    "price": "18 € / 20 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 101,
+    "artists": [
+      "Wyatt E",
+      "Fife the Hierophant",
+      "Radien"
+    ],
+    "genres": [
+      "drone",
+      "post-metal",
+      "post-rock",
+      "doom metal",
+      "sludge",
+      "sludge metal",
+      "noise"
+    ]
+  },
+  {
+    "artist": "DIE OBERHERREN (SWE), DHARMA GUNS, ROB COFFINSHAKER (SWE)",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-11-28T21:30:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-11-28",
+    "venueDefault": "rock",
+    "doors": "21:30",
+    "price": "15/18€",
+    "id": 194,
+    "artists": [
+      "DIE OBERHERREN",
+      "DHARMA GUNS",
+      "ROB COFFINSHAKER"
+    ],
+    "genres": [
+      "gothic rock",
+      "alt-country",
+      "country",
+      "death country",
+      "dark country"
+    ]
+  },
+  {
+    "artist": "20 000 Hz, Discoteca Fatale",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-11-29T19:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-11-29-1900",
+    "doors": "19:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 102,
+    "artists": [
+      "20 000 Hz",
+      "Discoteca Fatale"
+    ],
+    "genres": [
+      "house",
+      "electronic",
+      "experimental",
+      "darkwave",
+      "synth",
+      "electroclash"
+    ]
+  },
+  {
+    "artist": "St. Aurora + tba",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-02T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/st-aurora-tba-02-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/st-aurora-tba-02-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 19€, ovelta 22€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 30,
+    "artists": [
+      "St. Aurora"
+    ],
+    "genres": [
+      "alternative",
+      "emo",
+      "alternative rock"
+    ]
+  },
+  {
+    "artist": "Pelle Miljoona & Pispala Punks, Purran lista, Kinnuset",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-02T19:00:00",
+    "ticketUrl": "https://cluby.com/vastavirta/events/pelle-miljoona-pispala-punks-purran-lista-kinnuset/VENUE_EVENT_2m7dd72_7n1mxla",
+    "eventUrl": "https://www.facebook.com/events/1846750509693191/",
+    "doors": "19:00",
+    "price": "14 € / 15 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 103,
+    "artists": [
+      "Pelle Miljoona & Pispala Punks",
+      "Purran lista",
+      "Kinnuset"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Indie Tampereen pikkujoulut",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-02T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/indie-tampereen-pikkujoulut-6ad6f85808290edd80259a5b/",
+    "eventUrl": "https://glivelab.fi/tampere/events/indie-tampereen-pikkujoulut-6ad6f85808290edd80259a5b/",
+    "id": 118,
+    "artists": [
+      "Indie Tampereen pikkujoulut"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Aatulove, Jemina -tuplalevynjulkaisukeikka",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-03T18:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/aatulove-jemina-tuplalevynjulkaisukeikka-03-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/aatulove-jemina-tuplalevynjulkaisukeikka-03-12-2026/",
+    "doors": "18:30",
+    "price": "alk. 23,50€, ovelta 25€",
+    "age": "S/K-18",
+    "room": "Klubi",
+    "id": 31,
+    "artists": [
+      "Aatulove",
+      "Jemina -tuplalevynjulkaisukeikka"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Säädöt, Tabloited (est), Sumu + kikkerikisat",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-03T19:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-03-1900",
+    "doors": "19:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 104,
+    "artists": [
+      "Säädöt",
+      "Tabloited",
+      "Sumu",
+      "kikkerikisat"
+    ],
+    "genres": [
+      "diy",
+      "punk",
+      "ramopunk",
+      "lo-fi",
+      "lo-fi hip hop"
+    ]
+  },
+  {
+    "artist": "Pihlaja",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-04T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/pihlaja-olympia-22058165/",
+    "eventUrl": "https://www.lippu.fi/event/pihlaja-olympia-22058165/",
+    "age": "K-18",
+    "id": 85,
+    "artists": [
+      "Pihlaja"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Blues Pills (SWE), Graveyard (SWE)",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-12-04T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/blues-pills-swe-graveyard-swe-04-12-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/blues-pills-swe-graveyard-swe-04-12-2026/",
+    "doors": "18:00",
+    "price": "alk. 53,50€, ovelta 60€",
+    "age": "K-18",
+    "id": 4,
+    "artists": [
+      "Blues Pills",
+      "Graveyard"
+    ],
+    "genres": [
+      "blues rock",
+      "psychedelic rock",
+      "stoner rock",
+      "hard rock"
+    ]
+  },
+  {
+    "artist": "Hulda Huima duo, Ingrid Yö, Unta",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-04T18:30:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-04-1830",
+    "doors": "18:30",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 105,
+    "artists": [
+      "Hulda Huima duo",
+      "Ingrid Yö",
+      "Unta"
+    ],
+    "genres": [
+      "synthpop",
+      "electronic",
+      "dream pop"
+    ]
+  },
+  {
+    "artist": "Peer Günt 50-vuotisjuhlakeikka",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-04T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/peer-gunt-50-vuotisjuhlakeikka-04-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/peer-gunt-50-vuotisjuhlakeikka-04-12-2026/",
+    "doors": "19:00",
+    "price": "loppuunmyyty",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 32,
+    "artists": [
+      "Peer Günt"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "classic rock"
+    ]
+  },
+  {
+    "artist": "Inariveljet, Ville Leinonen & Hot Heros",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-04T21:00:00",
+    "ticketUrl": "https://app.cluby.com/vastavirta/events/inariveljet-ville-leinonen-hot-heros/jnwr1oa",
+    "eventUrl": "https://www.facebook.com/events/s/inariveljet-ville-leinonen-hot/29548432771443012/",
+    "doors": "21:00",
+    "price": "13 € / 15 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 106,
+    "artists": [
+      "Inariveljet",
+      "Ville Leinonen & Hot Heros"
+    ],
+    "genres": [
+      "folk",
+      "neofolk",
+      "singer-songwriter",
+      "iskelmä",
+      "jazz",
+      "free jazz"
+    ]
+  },
+  {
+    "artist": "Pihlaja: Koviksen kyyneleet -albumikiertue",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-04T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/pihlaja-koviksen-kyyneleet-albumikiertue-6ac3b9fcf64d5bd670d8c32d/",
+    "eventUrl": "https://glivelab.fi/tampere/events/pihlaja-koviksen-kyyneleet-albumikiertue-6ac3b9fcf64d5bd670d8c32d/",
+    "id": 119,
+    "artists": [
+      "Pihlaja"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "AEONIAN SORROW (FI/GR), AS THE SUN FALLS (FI), HALLS OF OBLIVION (DE)",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-12-04T22:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-12-04",
+    "venueDefault": "rock",
+    "doors": "22:00",
+    "price": "12/17€",
+    "id": 195,
+    "artists": [
+      "AEONIAN SORROW",
+      "AS THE SUN FALLS",
+      "HALLS OF OBLIVION"
+    ],
+    "genres": [
+      "gothic doom metal",
+      "doom metal",
+      "melodic death metal",
+      "black metal"
+    ]
+  },
+  {
+    "artist": "Valvomo - Mikä Kesä 20v",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/valvomo-mika-kesa-20v-olympia-21735815/",
+    "eventUrl": "https://www.lippu.fi/event/valvomo-mika-kesa-20v-olympia-21735815/",
+    "age": "K-18",
+    "id": 86,
+    "artists": [
+      "Valvomo"
+    ],
+    "genres": [
+      "ska",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Antti Autio",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-12-05T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/antti-autio-05-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/antti-autio-05-12-2026/",
+    "doors": "17:30",
+    "price": "alk. 34,90€, ovelta 39,90€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 33,
+    "artists": [
+      "Antti Autio"
+    ],
+    "genres": [
+      "indie",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "BACK TO PLAN A : A Solidarity show : Hautaustoimisto, Loppuromahdus, ’áháchí",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-05T17:30:00",
+    "ticketUrl": "https://www.facebook.com/events/1455435830095940/",
+    "eventUrl": "https://www.facebook.com/events/1455435830095940/",
+    "doors": "17:30",
+    "room": "Terassi Pub Yläkerta",
+    "id": 107,
+    "artists": [
+      "A Solidarity show",
+      "Loppuromahdus",
+      "’áháchí"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "PORTION BOYS",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2026-12-05T17:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/portion-boys-nokia-arena-21400450/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/portion-boys-torilla-tavataan-konsertti/",
+    "doors": "17:30",
+    "id": 185,
+    "artists": [
+      "PORTION BOYS"
+    ],
+    "genres": [
+      "dance",
+      "rap"
+    ]
+  },
+  {
+    "artist": "BÄMÄ -levynjulkaisu + Jumiset muijat ry",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/bama-levynjulkaisu-jumiset-muijat-ry-05-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/bama-levynjulkaisu-jumiset-muijat-ry-05-12-2026/",
+    "doors": "20:00",
+    "price": "alk. 23,50€, ovelta 25€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 34,
+    "artists": [
+      "BÄMÄ -levynjulkaisu",
+      "Jumiset muijat ry"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Vacuous (uk), Dome Runner, Throat, Sisar",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-05T20:30:00",
+    "ticketUrl": "https://app.cluby.com/vastavirta/events/vacuous-uk-dome-runner-throat-sisar/opj3p6a",
+    "eventUrl": "https://www.facebook.com/events/1563750082431064",
+    "doors": "20:30",
+    "price": "15 € / 18 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 108,
+    "artists": [
+      "Vacuous",
+      "Dome Runner",
+      "Throat",
+      "Sisar"
+    ],
+    "genres": [
+      "death metal",
+      "old school death metal",
+      "industrial metal",
+      "godflesh",
+      "sludge",
+      "noise rock",
+      "shoegaze",
+      "dream pop",
+      "doomgaze",
+      "dreampop"
+    ]
+  },
+  {
+    "artist": "Julma Henri: P O L A R I S LIVE 2026 + Steen1",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-05T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/julma-henri-p-o-l-a-r-i-s-live-2026-steen1-6a97b41ccbce2b529c44411d/",
+    "eventUrl": "https://glivelab.fi/tampere/events/julma-henri-p-o-l-a-r-i-s-live-2026-steen1-6a97b41ccbce2b529c44411d/",
+    "id": 120,
+    "artists": [
+      "P O L A R I S LIVE",
+      "Steen1"
+    ],
+    "genres": [
+      "rap",
+      "hip hop",
+      "political"
+    ]
+  },
+  {
+    "artist": "KUUKIVI, NAM (NAHKA-ASIAMIEHET), KAIDE LUUKKONEN & LUPAUS",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-12-05T22:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-12-05",
+    "venueDefault": "rock",
+    "doors": "22:00",
+    "price": "Vapaa pääsy",
+    "id": 196,
+    "artists": [
+      "KUUKIVI",
+      "NAM",
+      "KAIDE LUUKKONEN & LUPAUS"
+    ],
+    "genres": [
+      "shwrm-popper",
+      "singer-songwriter",
+      "retro",
+      "folk rock"
+    ]
+  },
+  {
+    "artist": "A.W. Yrjänä",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-10T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/a-w-yrjana-olympia-22017958/",
+    "eventUrl": "https://www.lippu.fi/event/a-w-yrjana-olympia-22017958/",
+    "age": "K-18",
+    "id": 87,
+    "artists": [
+      "A.W. Yrjänä"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Liisa Akimof & Yökerho, Amuri",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-10T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/liisa-akimof-yokerho-amuri-10-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/liisa-akimof-yokerho-amuri-10-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 26,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 35,
+    "artists": [
+      "Liisa Akimof & Yökerho",
+      "Amuri"
+    ],
+    "genres": [
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Free Carmen + Miles Altimera",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-10T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/free-carmen-miles-altimera-6a9e57847696a3cd4f978bdc/",
+    "eventUrl": "https://glivelab.fi/tampere/events/free-carmen-miles-altimera-6a9e57847696a3cd4f978bdc/",
+    "id": 121,
+    "artists": [
+      "Free Carmen",
+      "Miles Altimera"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Herra Ylppö",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-11T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/herra-ylppo-olympia-22017983/",
+    "eventUrl": "https://www.lippu.fi/event/herra-ylppo-olympia-22017983/",
+    "age": "K-18",
+    "id": 88,
+    "artists": [
+      "Herra Ylppö"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock",
+      "post-punk"
+    ]
+  },
+  {
+    "artist": "AAVIKKO - YDINTALVI: METEOR VORTEX, MALAMUTE, GREEN KING",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-12-11T00:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-12-11",
+    "venueDefault": "rock",
+    "price": "10€/PÄIVÄ",
+    "id": 197,
+    "artists": [
+      "METEOR VORTEX",
+      "MALAMUTE",
+      "GREEN KING"
+    ],
+    "genres": [
+      "rock",
+      "psych rock",
+      "space rock",
+      "stoner rock",
+      "indie",
+      "powerpop",
+      "heavy metal"
+    ]
+  },
+  {
+    "artist": "ONEVIOLIN -joulukonsertti",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-12-11T18:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/oneviolin-joulukonsertti-11-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/oneviolin-joulukonsertti-11-12-2026/",
+    "doors": "18:30",
+    "price": "alk. 36,50€, ovelta 40€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 36,
+    "artists": [
+      "ONEVIOLIN"
+    ],
+    "genres": [
+      "instrumental"
+    ]
+  },
+  {
+    "artist": "D1DANI, koira, ROSLUV, nonexx, internet soulja",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-11T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/d1dani-koira-rosluv-nonexx-internet-soulja-11-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/d1dani-koira-rosluv-nonexx-internet-soulja-11-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 20€, ovelta 22€",
+    "age": "S/K-18",
+    "room": "Klubi",
+    "id": 37,
+    "artists": [
+      "D1DANI",
+      "koira",
+      "ROSLUV",
+      "nonexx",
+      "internet soulja"
+    ],
+    "genres": [
+      "rap",
+      "d1vari",
+      "electronic",
+      "trap",
+      "digicore",
+      "indie"
+    ]
+  },
+  {
+    "artist": "Taneli Harma, KoKuFa (Konsta, Kusti & Faarao)",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-11T20:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-11-2000",
+    "doors": "20:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 109,
+    "artists": [
+      "Taneli Harma",
+      "KoKuFa (Konsta",
+      "Kusti & Faarao)"
+    ],
+    "genres": [
+      "rock",
+      "metal",
+      "drunk",
+      "supergroup",
+      "farm",
+      "csajbanda"
+    ]
+  },
+  {
+    "artist": "Luxury Toys (levyjulkkarit) + Jann Wilde & The Neon Comets",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-11T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/luxury-toys-levyjulkkarit-jann-wilde-the-neon-come-6a1d4b18191c59453da7615b/",
+    "eventUrl": "https://glivelab.fi/tampere/events/luxury-toys-levyjulkkarit-jann-wilde-the-neon-come-6a1d4b18191c59453da7615b/",
+    "id": 122,
+    "artists": [
+      "Luxury Toys",
+      "Jann Wilde & The Neon Comets"
+    ],
+    "genres": [
+      "rock",
+      "finnish rock"
+    ]
+  },
+  {
+    "artist": "Haexler (ger), Dehumanisaatio, Mielivalta, Suitsuke",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-11T21:00:00",
+    "ticketUrl": "https://www.facebook.com/events/1085542334482215",
+    "eventUrl": "https://www.facebook.com/events/1085542334482215",
+    "doors": "21:00",
+    "price": "7 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 110,
+    "artists": [
+      "Haexler",
+      "Dehumanisaatio",
+      "Mielivalta",
+      "Suitsuke"
+    ],
+    "genres": [
+      "grindcore",
+      "hardcore",
+      "powerviolence",
+      "punk",
+      "hardcore punk"
+    ]
+  },
+  {
+    "artist": "AAVIKKO - YDINTALVI: KING COYOTE, MONSTERNAUT, CRANEIUM, ORBITER",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-12-12",
+    "venueDefault": "rock",
+    "price": "10€/PÄIVÄ",
+    "id": 198,
+    "artists": [
+      "KING COYOTE",
+      "MONSTERNAUT",
+      "CRANEIUM",
+      "ORBITER"
+    ],
+    "genres": [
+      "stoner rock",
+      "stoner",
+      "rock",
+      "stoner doom",
+      "doom metal"
+    ]
+  },
+  {
+    "artist": "A.W. Yrjänä",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-12T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/a-w-yrjana-12-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/a-w-yrjana-12-12-2026/",
+    "doors": "18:00",
+    "price": "alk. 38€, ovelta 42€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 38,
+    "artists": [
+      "A.W. Yrjänä"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Dingo – Pyhä klaani 40",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/dingo-pyha-klaani-40-12-12-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/dingo-pyha-klaani-40-12-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 30€, ovelta 35€",
+    "age": "K-18",
+    "id": 5,
+    "artists": [
+      "Dingo"
+    ],
+    "genres": [
+      "rock",
+      "suomirock"
+    ]
+  },
+  {
+    "artist": "Erika Vikman",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/erika-vikman-12-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/erika-vikman-12-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 39,
+    "artists": [
+      "Erika Vikman"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Rock Siltanen Group, Taikakaulin",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-12T20:30:00",
+    "ticketUrl": "https://app.cluby.com/vastavirta/events/rock-siltanen-group-taikakaulin/8n5vrrl",
+    "eventUrl": "https://www.facebook.com/events/1613700647105649/",
+    "doors": "20:30",
+    "price": "13 € / 15 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 111,
+    "artists": [
+      "Rock Siltanen Group",
+      "Taikakaulin"
+    ],
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Don Johnson Big Band: Christmas Special 2026",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-12T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/don-johnson-big-band-christmas-special-2026-6a8c062de338e3b83e9419b0/",
+    "eventUrl": "https://glivelab.fi/tampere/events/don-johnson-big-band-christmas-special-2026-6a8c062de338e3b83e9419b0/",
+    "id": 123,
+    "artists": [
+      "Don Johnson Big Band"
+    ],
+    "genres": [
+      "hip hop",
+      "jazz",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "931 ALL AGES MATINEA : Armoton, Vengeful Blood, Rääkkäys, Forced Humility",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-13T14:30:00",
+    "ticketUrl": "https://www.facebook.com/events/1102799702758369/",
+    "eventUrl": "https://www.facebook.com/events/1102799702758369/",
+    "doors": "14:30",
+    "price": "8 € / 4 € alaikäiset",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 112,
+    "artists": [
+      "Armoton",
+      "Vengeful Blood",
+      "Rääkkäys",
+      "Forced Humility"
+    ],
+    "genres": [
+      "hardcore",
+      "metallic hardcore",
+      "hardcore punk"
+    ]
+  },
+  {
+    "artist": "Lauluntekijäyhdistys Kertsi ry:n juhlaklubi: Miljoonasade duo, Nina Kaitaranta, FER",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-16T18:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/lauluntekijayhdistys-kertsi-ryn-juhlaklubi-miljoon-6a7ed96264babc544f76d1a2/",
+    "eventUrl": "https://glivelab.fi/tampere/events/lauluntekijayhdistys-kertsi-ryn-juhlaklubi-miljoon-6a7ed96264babc544f76d1a2/",
+    "id": 124,
+    "artists": [
+      "n juhlaklubi",
+      "Nina Kaitaranta",
+      "FER"
+    ],
+    "genres": [
+      "galiza",
+      "pop",
+      "alternative pop",
+      "electropop"
+    ]
+  },
+  {
+    "artist": "Asa",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-16T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/asa-16-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/asa-16-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 27,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 40,
+    "artists": [
+      "Asa"
+    ],
+    "genres": [
+      "rap",
+      "hip hop",
+      "political"
+    ]
+  },
+  {
+    "artist": "Combichrist (USA) - Electro Combichristmas Tour 2026",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-17T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/combichrist-usa-electro-combichristmas-tour-2026-olympia-21697334/",
+    "eventUrl": "https://www.lippu.fi/event/combichrist-usa-electro-combichristmas-tour-2026-olympia-21697334/",
+    "age": "K-18",
+    "id": 89,
+    "artists": [
+      "Combichrist"
+    ],
+    "genres": [
+      "industrial",
+      "ebm",
+      "dark electro",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Pojat, Vandaalit, Vaavi",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-17T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/pojat-vandaalit-vaavi-17-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/pojat-vandaalit-vaavi-17-12-2026/",
+    "doors": "18:00",
+    "price": "alk. 26,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 41,
+    "artists": [
+      "Pojat",
+      "Vandaalit",
+      "Vaavi"
+    ],
+    "genres": [
+      "punk",
+      "ramopunk",
+      "punk rock",
+      "finnish punk",
+      "post-punk",
+      "new wave"
+    ]
+  },
+  {
+    "artist": "Osmo Ikonen: Joulujuhlat-kiertue",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-17T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/osmo-ikonen-joulujuhlat-kiertue-6a7edfed64babc544f777756/",
+    "eventUrl": "https://glivelab.fi/tampere/events/osmo-ikonen-joulujuhlat-kiertue-6a7edfed64babc544f777756/",
+    "id": 125,
+    "artists": [
+      "Osmo Ikonen"
+    ],
+    "genres": [
+      "pop",
+      "soul"
+    ]
+  },
+  {
+    "artist": "Eva & Manu - Back for the holidays 2026",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/eva-manu-back-for-the-holidays-olympia-21659051/",
+    "eventUrl": "https://www.lippu.fi/event/eva-manu-back-for-the-holidays-olympia-21659051/",
+    "age": "K-18",
+    "id": 90,
+    "artists": [
+      "Eva & Manu"
+    ],
+    "genres": [
+      "folk",
+      "indie"
+    ]
+  },
+  {
+    "artist": "Eva & Manu",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-12-18T17:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/eva-manu-18-12-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/eva-manu-18-12-2026/",
+    "doors": "17:00",
+    "price": "alk. 29,50€, ovelta 35€",
+    "age": "K-18",
+    "id": 6,
+    "artists": [
+      "Eva & Manu"
+    ],
+    "genres": [
+      "folk",
+      "indie"
+    ]
+  },
+  {
+    "artist": "Cledos with support from Dw",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-12-18T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/cledos-with-support-from-dw-18-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/cledos-with-support-from-dw-18-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 32,50€, ovelta 35€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 42,
+    "artists": [
+      "Cledos with support from Dw"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Horsepower – 40-vuotisjuhlakeikka",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/horsepower-40-vuotisjuhlakeikka-18-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/horsepower-40-vuotisjuhlakeikka-18-12-2026/",
+    "doors": "20:00",
+    "price": "alk. 34,50€, ovelta 38€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 43,
+    "artists": [
+      "Horsepower"
+    ],
+    "genres": [
+      "hard rock",
+      "nwobhm",
+      "heavy metal"
+    ]
+  },
+  {
+    "artist": "Screaming Thunders plays CCR & J.C. Fogerty",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-18T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/screaming-thunders-plays-ccr-j-c-fogerty-6a706ceb68571113fe099b13/",
+    "eventUrl": "https://glivelab.fi/tampere/events/screaming-thunders-plays-ccr-j-c-fogerty-6a706ceb68571113fe099b13/",
+    "id": 126,
+    "artists": [
+      "Screaming Thunders"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "SAPATA, ASTRAL SLEEP, DARK KOMET",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-12-18T22:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-12-18",
+    "venueDefault": "rock",
+    "doors": "22:00",
+    "price": "10/12€",
+    "id": 199,
+    "artists": [
+      "SAPATA",
+      "ASTRAL SLEEP",
+      "DARK KOMET"
+    ],
+    "genres": [
+      "doom metal",
+      "death doom metal",
+      "traditional doom metal",
+      "industrial metal",
+      "industrial sludge metal",
+      "sludge metal"
+    ]
+  },
+  {
+    "artist": "Von Hertzen Brothers - Rarities - 25th Anniversary Show",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2026-12-19T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/von-hertzen-brothers-rarities-25th-anniversary-tour-olympia-22065533/",
+    "eventUrl": "https://www.lippu.fi/event/von-hertzen-brothers-rarities-25th-anniversary-tour-olympia-22065533/",
+    "age": "K-18",
+    "id": 91,
+    "artists": [
+      "Von Hertzen Brothers"
+    ],
+    "genres": [
+      "progressive rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Raskasta Joulua 2026",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2026-12-19T18:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/raskasta-joulua-nokia-arena-21585081/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/raskasta-joulua-2026/",
+    "doors": "18:00",
+    "id": 186,
+    "artists": [
+      "Raskasta Joulua"
+    ],
+    "genres": [
+      "metal",
+      "power metal",
+      "heavy metal"
+    ]
+  },
+  {
+    "artist": "Popeda + DJ Juissi",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2026-12-19T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/popeda-dj-juissi-19-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/popeda-dj-juissi-19-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 44,
+    "artists": [
+      "Popeda"
+    ],
+    "genres": [
+      "rock",
+      "suomirock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "BESS",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2026-12-19T20:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/bess-19-12-2026/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/bess-19-12-2026/",
+    "doors": "20:00",
+    "price": "alk. 28,50€, ovelta 30€",
+    "age": "K-18",
+    "id": 7,
+    "artists": [
+      "BESS"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Nenerchy",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-19T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/nenerchy-19-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/nenerchy-19-12-2026/",
+    "doors": "20:00",
+    "price": "alk. 22,50€, ovelta 25€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 45,
+    "artists": [
+      "Nenerchy"
+    ],
+    "genres": [
+      "alternative",
+      "drum and bass"
+    ]
+  },
+  {
+    "artist": "Emma Salokoski & Ilmiliekki Quartet: Joulu, joulu, jul (show & dinner)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-19T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/emma-salokoski-ilmiliekki-quartet-joulu-joulu-jul--6a7ee40564babc544f77f54d/",
+    "eventUrl": "https://glivelab.fi/tampere/events/emma-salokoski-ilmiliekki-quartet-joulu-joulu-jul--6a7ee40564babc544f77f54d/",
+    "id": 127,
+    "artists": [
+      "Joulu",
+      "joulu",
+      "jul"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "SYDÄNYÖN EVANKELIUMI II: HORNA, KRATTI",
+    "venue": "Bar Kotelo",
+    "city": "Tampere",
+    "date": "2026-12-19T22:00:00",
+    "ticketUrl": "https://barkotelo.fi/keikat/",
+    "eventUrl": "https://barkotelo.fi/keikat/#2026-12-19",
+    "venueDefault": "rock",
+    "doors": "22:00",
+    "price": "20€",
+    "id": 200,
+    "artists": [
+      "HORNA",
+      "KRATTI"
+    ],
+    "genres": [
+      "black metal",
+      "raw black metal",
+      "finnish black metal"
+    ]
+  },
+  {
+    "artist": "Screaming Thunders plays CCR & J.C. Fogerty (lisäkeikka)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2026-12-20T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/screaming-thunders-plays-ccr-j-c-fogerty-lisakeikk-6a7da4ad8b4e60e5beff6d67/",
+    "eventUrl": "https://glivelab.fi/tampere/events/screaming-thunders-plays-ccr-j-c-fogerty-lisakeikk-6a7da4ad8b4e60e5beff6d67/",
+    "id": 128,
+    "artists": [
+      "Screaming Thunders"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Skyjoggers, Pystyyn Kuolleet Hipit, Echolove (ee)",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-31T21:30:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-31-2130",
+    "doors": "21:30",
+    "price": "12 € / 14 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 113,
+    "artists": [
+      "Skyjoggers",
+      "Pystyyn Kuolleet Hipit",
+      "Echolove"
+    ],
+    "genres": [
+      "space rock",
+      "stoner rock",
+      "psychedelic rock",
+      "punk",
+      "rock",
+      "indie rock",
+      "blues rock",
+      "estonia",
+      "eesti"
+    ]
+  },
+  {
+    "artist": "Paleface & DJ Leijonamieli",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-02T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/paleface-dj-leijonamieli-6ac7347c5dcec5bb81243b1c/",
+    "eventUrl": "https://glivelab.fi/tampere/events/paleface-dj-leijonamieli-6ac7347c5dcec5bb81243b1c/",
+    "id": 129,
+    "artists": [
+      "Paleface & DJ Leijonamieli"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "deathcore"
+    ]
+  },
+  {
+    "artist": "Raswaa koneeseen vol. 2!",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-05T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/raswaa-koneeseen-vol-2-6ae1c5983951bd572ee33547/",
+    "eventUrl": "https://glivelab.fi/tampere/events/raswaa-koneeseen-vol-2-6ae1c5983951bd572ee33547/",
+    "id": 130,
+    "artists": [
+      "Raswaa koneeseen vol. 2!"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Raswaa koneeseen vol. 2! (lisäkeikka)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-06T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/raswaa-koneeseen-vol-2-lisakeikka-6aec1f7bb64b45ac1735a90c/",
+    "eventUrl": "https://glivelab.fi/tampere/events/raswaa-koneeseen-vol-2-lisakeikka-6aec1f7bb64b45ac1735a90c/",
+    "id": 131,
+    "artists": [
+      "Raswaa koneeseen vol. 2!"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "The Beat From Palookaville (SWE), Donna and the Dynamiters",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-07T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/the-beat-from-palookaville-swe-donna-and-the-dynamiters-07-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/the-beat-from-palookaville-swe-donna-and-the-dynamiters-07-01-2027/",
+    "doors": "19:00",
+    "price": "alk. 25€, ovelta 28€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 46,
+    "artists": [
+      "The Beat From Palookaville",
+      "Donna and the Dynamiters"
+    ],
+    "genres": [
+      "swing",
+      "ska",
+      "rock & roll",
+      "neo-swing",
+      "traditional ska",
+      "female vocal",
+      "3rd wave ska"
+    ]
+  },
+  {
+    "artist": "Fleshgod Apocalypse (ITA), Assemble The Chariots, Whispered, Fear Of Domination, Kneel Before The Death",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-01-08T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/fleshgod-apocalypse-ita-assemble-the-chariots-whispered-fear-of-domination-kneel-before-the-death-08-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/fleshgod-apocalypse-ita-assemble-the-chariots-whispered-fear-of-domination-kneel-before-the-death-08-01-2027/",
+    "doors": "18:00",
+    "price": "alk. 42€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 47,
+    "artists": [
+      "Fleshgod Apocalypse",
+      "Assemble The Chariots",
+      "Whispered",
+      "Fear Of Domination",
+      "Kneel Before The Death"
+    ],
+    "genres": [
+      "technical death metal",
+      "death metal",
+      "brutal death metal",
+      "technical brutal death metal",
+      "deathcore",
+      "symphonic deathcore",
+      "black metal",
+      "melodic death metal",
+      "folk metal",
+      "industrial metal",
+      "industrial death metal"
+    ]
+  },
+  {
+    "artist": "Marjo Leinonen & The BubliCans (levyjulkkarit)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-08T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/marjo-leinonen-the-bublicans-levyjulkkarit-6ac73e24fdabdd84b289ab20/",
+    "eventUrl": "https://glivelab.fi/tampere/events/marjo-leinonen-the-bublicans-levyjulkkarit-6ac73e24fdabdd84b289ab20/",
+    "id": 132,
+    "artists": [
+      "Marjo Leinonen & The BubliCans"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "blues"
+    ]
+  },
+  {
+    "artist": "Jukka Nousiainen & Sini Suvanto -levynjulkaisukeikka",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-09T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levynjulkaisukeikka-09-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levynjulkaisukeikka-09-01-2027/",
+    "doors": "19:00",
+    "price": "alk. 17,50€, ovelta 20€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 48,
+    "artists": [
+      "Jukka Nousiainen & Sini Suvanto -levynjulkaisukeikka"
+    ],
+    "genres": [
+      "lo-fi",
+      "garage rock"
+    ]
+  },
+  {
+    "artist": "Frank Zappa Memorial Pancake Breakfast",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-09T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/frank-zappa-memorial-pancake-breakfast-6ac74138fdabdd84b289f4a7/",
+    "eventUrl": "https://glivelab.fi/tampere/events/frank-zappa-memorial-pancake-breakfast-6ac74138fdabdd84b289f4a7/",
+    "id": 133,
+    "artists": [
+      "Frank Zappa Memorial Pancake Breakfast"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Never Obey Again (ITA), Balance Breach, Silence The Echo",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-13T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/never-obey-again-ita-balance-breach-silence-the-echo-13-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/never-obey-again-ita-balance-breach-silence-the-echo-13-01-2027/",
+    "doors": "18:00",
+    "price": "alk. 25€, ovelta 28€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 49,
+    "artists": [
+      "Never Obey Again",
+      "Balance Breach",
+      "Silence The Echo"
+    ],
+    "genres": [
+      "alternative metal",
+      "metalcore"
+    ]
+  },
+  {
+    "artist": "Wishamalii with Friends",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-14T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/wishamalii-with-friends-6ac745ddfdabdd84b28a7446/",
+    "eventUrl": "https://glivelab.fi/tampere/events/wishamalii-with-friends-6ac745ddfdabdd84b28a7446/",
+    "id": 134,
+    "artists": [
+      "Wishamalii with Friends"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Radiopuhelimet, Aino & Hajonneet, Kohu-63, Riistetyt, Vehje",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-01-15T18:30:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/radiopuhelimet-aino-hajonneet-kohu-63-riistetyt-vehje-15-01-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/radiopuhelimet-aino-hajonneet-kohu-63-riistetyt-vehje-15-01-2027/",
+    "doors": "18:30",
+    "price": "alk. 34,90€, ovelta 39,90€",
+    "age": "K-18",
+    "id": 8,
+    "artists": [
+      "Radiopuhelimet",
+      "Aino & Hajonneet",
+      "Kohu-63",
+      "Riistetyt",
+      "Vehje"
+    ],
+    "genres": [
+      "punk",
+      "rock",
+      "punk rock",
+      "hardcore punk",
+      "finnish punk",
+      "hardcore"
+    ]
+  },
+  {
+    "artist": "Räjäyttäjät, Appendix, Saa Kiljua, Häiriköt, Voimaryhmä",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-01-16T18:30:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/rajayttajat-appendix-saa-kiljua-hairikot-voimaryhma-16-01-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/rajayttajat-appendix-saa-kiljua-hairikot-voimaryhma-16-01-2027/",
+    "doors": "18:30",
+    "price": "alk. 34,90€, ovelta 39,90€",
+    "age": "K-18",
+    "id": 9,
+    "artists": [
+      "Räjäyttäjät",
+      "Appendix",
+      "Saa Kiljua",
+      "Häiriköt",
+      "Voimaryhmä"
+    ],
+    "genres": [
+      "garage rock",
+      "punk",
+      "rock",
+      "hardcore punk",
+      "finnish punk",
+      "alternative",
+      "ramopunk",
+      "ska"
+    ]
+  },
+  {
+    "artist": "Timo Kotipelto & Robustik",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-16T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/timo-kotipelto-robustik-16-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/timo-kotipelto-robustik-16-01-2027/",
+    "doors": "20:00",
+    "price": "alk. 29,50€, ovelta 32€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 50,
+    "artists": [
+      "Timo Kotipelto & Robustik"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "melodic metal"
+    ]
+  },
+  {
+    "artist": "Penniless – Anola 25v-juhlakeikka + Tomi Nordlund & Syvä Joki",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-16T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/penniless-anola-25v-juhlakeikka-tomi-nordlund-syva-6ac794dbfdabdd84b29403ef/",
+    "eventUrl": "https://glivelab.fi/tampere/events/penniless-anola-25v-juhlakeikka-tomi-nordlund-syva-6ac794dbfdabdd84b29403ef/",
+    "id": 135,
+    "artists": [
+      "Penniless",
+      "Tomi Nordlund & Syvä Joki"
+    ],
+    "genres": [
+      "alternative rock",
+      "indie rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "WOLFRAM + support: Pretty",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-21T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/wolfram-support-pretty-21-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/wolfram-support-pretty-21-01-2027/",
+    "doors": "19:00",
+    "price": "alk. 15€, ovelta 18€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 51,
+    "artists": [
+      "WOLFRAM"
+    ],
+    "genres": [
+      "electronic",
+      "disco",
+      "ambient",
+      "electropop"
+    ]
+  },
+  {
+    "artist": "Annika Pudas: Romantica (levyjulkkarit) + Saga Mast",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-21T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/annika-pudas-romantica-levyjulkkarit-saga-mast-6acf28c1bc39c34cb35b4d8d/",
+    "eventUrl": "https://glivelab.fi/tampere/events/annika-pudas-romantica-levyjulkkarit-saga-mast-6acf28c1bc39c34cb35b4d8d/",
+    "id": 136,
+    "artists": [
+      "Romantica",
+      "Saga Mast"
+    ],
+    "genres": [
+      "romantics",
+      "minnesota",
+      "romantica",
+      "folk"
+    ]
+  },
+  {
+    "artist": "Krypta, Flippipuisto, Grillijono K.O.",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-22T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/krypta-flippipuisto-grillijono-k-o-22-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/krypta-flippipuisto-grillijono-k-o-22-01-2027/",
+    "doors": "19:00",
+    "price": "alk. 22,50€, ovelta 25€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 52,
+    "artists": [
+      "Krypta",
+      "Flippipuisto",
+      "Grillijono K.O."
+    ],
+    "genres": [
+      "black metal",
+      "finnish rock",
+      "progressive rock",
+      "rock",
+      "punk",
+      "skate punk"
+    ]
+  },
+  {
+    "artist": "Radio Supernova (levyjulkkarit) + Tamara Luonto",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-22T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/radio-supernova-levyjulkkarit-tamara-luonto-6ac7989efdabdd84b29462c5/",
+    "eventUrl": "https://glivelab.fi/tampere/events/radio-supernova-levyjulkkarit-tamara-luonto-6ac7989efdabdd84b29462c5/",
+    "id": 137,
+    "artists": [
+      "Radio Supernova",
+      "Tamara Luonto"
+    ],
+    "genres": [
+      "shoegaze",
+      "dream pop",
+      "indie rock",
+      "rock",
+      "indie",
+      "punk"
+    ]
+  },
+  {
+    "artist": "Graveyard Johnnys (UK), Dry Tortugas (Ger), Dead Shout (UK), Rockin’ Paradox (Fin) + DJ Paha Setä",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-23T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/graveyard-johnnys-uk-dry-tortugas-ger-dead-shout-uk-rockin-paradox-fin-dj-paha-seta-23-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/graveyard-johnnys-uk-dry-tortugas-ger-dead-shout-uk-rockin-paradox-fin-dj-paha-seta-23-01-2027/",
+    "doors": "18:00",
+    "price": "alk. 35€, ovelta 40€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 53,
+    "artists": [
+      "Graveyard Johnnys",
+      "Dry Tortugas",
+      "Dead Shout",
+      "Rockin’ Paradox"
+    ],
+    "genres": [
+      "psychobilly",
+      "rockabilly"
+    ]
+  },
+  {
+    "artist": "Markku Kanerva Bright White Light (levyjulkkarit)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-27T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/markku-kanerva-bright-white-light-levyjulkkarit-6adf1734ad633bb0ea4722cb/",
+    "eventUrl": "https://glivelab.fi/tampere/events/markku-kanerva-bright-white-light-levyjulkkarit-6adf1734ad633bb0ea4722cb/",
+    "id": 138,
+    "artists": [
+      "Markku Kanerva Bright White Light"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Antti Ahopelto & Etiketti",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-01-28T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/antti-ahopelto-etiketti-28-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/antti-ahopelto-etiketti-28-01-2027/",
+    "doors": "17:30",
+    "price": "alk. 20€, ovelta 20€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 54,
+    "artists": [
+      "Antti Ahopelto & Etiketti"
+    ],
+    "genres": [
+      "pop",
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "Pekka Laine & The Enchanted, Tinyhawk & Bizzarro",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-28T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/pekka-laine-the-enchanted-tinyhawk-bizzarro-28-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/pekka-laine-the-enchanted-tinyhawk-bizzarro-28-01-2027/",
+    "doors": "19:00",
+    "price": "alk. 27,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 55,
+    "artists": [
+      "Pekka Laine & The Enchanted",
+      "Tinyhawk & Bizzarro"
+    ],
+    "genres": [
+      "instrumental rock",
+      "psychedelic",
+      "progressive rock",
+      "instrumental"
+    ]
+  },
+  {
+    "artist": "Dire Straits 50th Anniversary Show by Alchemy",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-01-28T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/dire-straits-50th-anniversary-show-by-alchemy-6ac75800fdabdd84b28c2bae/",
+    "eventUrl": "https://glivelab.fi/tampere/events/dire-straits-50th-anniversary-show-by-alchemy-6ac75800fdabdd84b28c2bae/",
+    "id": 139,
+    "artists": [
+      "Dire Straits 50th Anniversary Show by Alchemy"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Block of Flats",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-01-29T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/block-of-flats-29-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/block-of-flats-29-01-2027/",
+    "doors": "20:00",
+    "price": "alk. 20€, ovelta 22€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 56,
+    "artists": [
+      "Block of Flats"
+    ],
+    "genres": [
+      "alternative rock",
+      "alternative metal"
+    ]
+  },
+  {
+    "artist": "Sara",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-01-30T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/sara-30-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/sara-30-01-2027/",
+    "doors": "19:00",
+    "price": "alk. 29,50€, ovelta 32€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 57,
+    "artists": [
+      "Sara"
+    ],
+    "genres": [
+      "alternative rock",
+      "alternative metal",
+      "alternative"
+    ]
+  },
+  {
+    "artist": "Micke Björklöf & Blue Strip - 35-vuotisjuhlakonsertti",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-03T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/micke-bjorklof-blue-strip-35-vuotisjuhlakonsertti-6ac75a59fdabdd84b28c59c6/",
+    "eventUrl": "https://glivelab.fi/tampere/events/micke-bjorklof-blue-strip-35-vuotisjuhlakonsertti-6ac75a59fdabdd84b28c59c6/",
+    "id": 140,
+    "artists": [
+      "Micke Björklöf & Blue Strip"
+    ],
+    "genres": [
+      "blues",
+      "bluesrock"
+    ]
+  },
+  {
+    "artist": "Maa Ilmasta (levyjulkkarit) + Idän Voima",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-04T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/maa-ilmasta-levyjulkkarit-idan-voima-6ac8914ffdabdd84b2a9182a/",
+    "eventUrl": "https://glivelab.fi/tampere/events/maa-ilmasta-levyjulkkarit-idan-voima-6ac8914ffdabdd84b2a9182a/",
+    "id": 141,
+    "artists": [
+      "Maa Ilmasta",
+      "Idän Voima"
+    ],
+    "genres": [
+      "indie",
+      "instrumental",
+      "progressive rock",
+      "finnish indie",
+      "instrumental rock",
+      "jazz rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "ISKELMÄ GAALA 2027",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2027-02-05T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/iskelma-gaala-2027-nokia-arena-21322462/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/iskelma-gaala-2027/",
+    "id": 187,
+    "artists": [
+      "ISKELMÄ GAALA"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Von Hertzen Brothers, Moon Shot",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-05T18:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/von-hertzen-brothers-moon-shot-05-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/von-hertzen-brothers-moon-shot-05-02-2027/",
+    "doors": "18:30",
+    "price": "alk. 37,50€, ovelta 40€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 58,
+    "artists": [
+      "Von Hertzen Brothers",
+      "Moon Shot"
+    ],
+    "genres": [
+      "progressive rock",
+      "rock",
+      "alternative rock"
+    ]
+  },
+  {
+    "artist": "Louie Blue + Pihalla",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-05T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/louie-blue-pihalla-6adef557ad633bb0ea4465ad/",
+    "eventUrl": "https://glivelab.fi/tampere/events/louie-blue-pihalla-6adef557ad633bb0ea4465ad/",
+    "id": 142,
+    "artists": [
+      "Louie Blue",
+      "Pihalla"
+    ],
+    "genres": [
+      "country",
+      "string band",
+      "blues"
+    ]
+  },
+  {
+    "artist": "Turmion Kätilöt",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-06T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/turmion-katilot-06-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/turmion-katilot-06-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 59,
+    "artists": [
+      "Turmion Kätilöt"
+    ],
+    "genres": [
+      "industrial metal",
+      "industrial",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Saamelaisten kansallispäivä: Wimme & Rinne",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-06T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/saamelaisten-kansallispaiva-wimme-rinne-6af6d339112c7db0ae3f5ba8/",
+    "eventUrl": "https://glivelab.fi/tampere/events/saamelaisten-kansallispaiva-wimme-rinne-6af6d339112c7db0ae3f5ba8/",
+    "id": 143,
+    "artists": [
+      "Saamelaisten kansallispäivä"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Geoff Tate’s Operation Mindcrime",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-02-09T18:30:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/geoff-tates-operation-mindcrime-09-02-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/geoff-tates-operation-mindcrime-09-02-2027/",
+    "doors": "18:30",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "id": 10,
+    "artists": [
+      "Geoff Tate’s Operation Mindcrime"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Aili Ikonen",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-10T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/aili-ikonen-6ac79d4cfdabdd84b294e214/",
+    "eventUrl": "https://glivelab.fi/tampere/events/aili-ikonen-6ac79d4cfdabdd84b294e214/",
+    "id": 144,
+    "artists": [
+      "Aili Ikonen"
+    ],
+    "genres": [
+      "jazz",
+      "finnish jazz",
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "Aukusti Koivisto",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-11T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/aukusti-koivisto-6ac77e1bfdabdd84b291931e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/aukusti-koivisto-6ac77e1bfdabdd84b291931e/",
+    "id": 145,
+    "artists": [
+      "Aukusti Koivisto"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "TX2 (US)",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2027-02-12T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/tx2-us-olympia-21758785/",
+    "eventUrl": "https://www.lippu.fi/event/tx2-us-olympia-21758785/",
+    "age": "S/K-18",
+    "id": 92,
+    "artists": [
+      "TX2"
+    ],
+    "genres": [
+      "pop punk",
+      "alternative",
+      "emo",
+      "metalcore"
+    ]
+  },
+  {
+    "artist": "Ylva Haru: 10-vuotisjuhlakiertue + Nicholas Francett",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-12T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/ylva-haru-10-vuotisjuhlakiertue-nicholas-francett-6ac7a456fdabdd84b296063c/",
+    "eventUrl": "https://glivelab.fi/tampere/events/ylva-haru-10-vuotisjuhlakiertue-nicholas-francett-6ac7a456fdabdd84b296063c/",
+    "id": 146,
+    "artists": [
+      "10-vuotisjuhlakiertue",
+      "Nicholas Francett"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Signs of the Swarm (USA) + Ten56 + Oceans Ate Alaska + Face Yourself",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2027-02-13T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/signs-of-the-swarm-usa-ten56-fra-oceans-ate-alaska-uk-face-yourself-frausa-olympia-22094070/",
+    "eventUrl": "https://www.lippu.fi/event/signs-of-the-swarm-usa-ten56-fra-oceans-ate-alaska-uk-face-yourself-frausa-olympia-22094070/",
+    "age": "K-18",
+    "id": 93,
+    "artists": [
+      "Signs of the Swarm",
+      "Ten56",
+      "Oceans Ate Alaska",
+      "Face Yourself"
+    ],
+    "genres": [
+      "deathcore",
+      "brutal deathcore",
+      "nu metal",
+      "metalcore",
+      "post-hardcore",
+      "progressive metalcore",
+      "emocore"
+    ]
+  },
+  {
+    "artist": "Tampere Filharmonia esittää: Filharmonikot jazzklubitunnelmissa",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-13T14:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/tampere-filharmonia-esittaa-filharmonikot-jazzklub-6ae6fa76d914496cddd77d2e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/tampere-filharmonia-esittaa-filharmonikot-jazzklub-6ae6fa76d914496cddd77d2e/",
+    "id": 147,
+    "artists": [
+      "Tampere Filharmonia esittää"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Kaseva / Starck",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-13T18:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/kaseva-starck-13-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/kaseva-starck-13-02-2027/",
+    "doors": "18:30",
+    "price": "alk. 36,50€, ovelta 40€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 60,
+    "artists": [
+      "Kaseva",
+      "Starck"
+    ],
+    "genres": [
+      "pop",
+      "suomirock"
+    ]
+  },
+  {
+    "artist": "Melrose Avenue (AU)",
+    "venue": "Olympia",
+    "city": "Tampere",
+    "date": "2027-02-17T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/melrose-avenue-au-olympia-21761498/",
+    "eventUrl": "https://www.lippu.fi/event/melrose-avenue-au-olympia-21761498/",
+    "age": "K-18",
+    "id": 94,
+    "artists": [
+      "Melrose Avenue"
+    ],
+    "genres": [
+      "metalcore"
+    ]
+  },
+  {
+    "artist": "Melrose Avenue (AUS)",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-17T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/melrose-avenue-aus-17-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/melrose-avenue-aus-17-02-2027/",
+    "doors": "18:00",
+    "price": "alk. 45€, ovelta 50€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 61,
+    "artists": [
+      "Melrose Avenue"
+    ],
+    "genres": [
+      "metalcore"
+    ]
+  },
+  {
+    "artist": "Valmistaudu rauhaan - Liisa Tavin muistoa kunnioittava ilta",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-18T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/valmistaudu-rauhaan-liisa-tavin-muistoa-kunnioitta-6ac7a787fdabdd84b296924f/",
+    "eventUrl": "https://glivelab.fi/tampere/events/valmistaudu-rauhaan-liisa-tavin-muistoa-kunnioitta-6ac7a787fdabdd84b296924f/",
+    "id": 148,
+    "artists": [
+      "Valmistaudu rauhaan"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "louna0nline",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-18T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/louna0nline-18-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/louna0nline-18-02-2027/",
+    "doors": "20:00",
+    "price": "alk. 25€, ovelta 28€",
+    "room": "Klubi",
+    "id": 62,
+    "artists": [
+      "louna0nline"
+    ],
+    "genres": [
+      "electronic",
+      "rap"
+    ]
+  },
+  {
+    "artist": "Lyttä & Tohtori Getto -levynjulkaisukeikka",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-19T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/lytta-tohtori-getto-levynjulkaisukeikka-19-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/lytta-tohtori-getto-levynjulkaisukeikka-19-02-2027/",
+    "doors": "20:00",
+    "price": "alk. 27,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 63,
+    "artists": [
+      "Lyttä & Tohtori Getto -levynjulkaisukeikka"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "Uuden Musiikin Kilpailu 2027",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2027-02-20T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/umk27-nokia-arena-22188427/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/uuden-musiikin-kilpailu-2027-2/",
+    "id": 188,
+    "artists": [
+      "Uuden Musiikin Kilpailu"
+    ],
+    "genres": [
+      "esc"
+    ]
+  },
+  {
+    "artist": "Trio Libre (Rebecca Roozeman, Artturi Aalto, Anton Mejias)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-20T15:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/trio-libre-rebecca-roozeman-artturi-aalto-anton-me-6acc664302d3c6a350f0f516/",
+    "eventUrl": "https://glivelab.fi/tampere/events/trio-libre-rebecca-roozeman-artturi-aalto-anton-me-6acc664302d3c6a350f0f516/",
+    "id": 149,
+    "artists": [
+      "Trio Libre (Rebecca Roozeman",
+      "Artturi Aalto",
+      "Anton Mejias)"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Striker",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-02-20T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/striker-20-02-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/striker-20-02-2027/",
+    "doors": "18:00",
+    "price": "alk. 65,90€, ovelta 68€",
+    "age": "K-18",
+    "id": 11,
+    "artists": [
+      "Striker"
+    ],
+    "genres": [
+      "heavy metal",
+      "speed metal"
+    ]
+  },
+  {
+    "artist": "F (levyjulkkarit) + Orvokki",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-20T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/f-levyjulkkarit-orvokki-6abbc2819689822943b2f138/",
+    "eventUrl": "https://glivelab.fi/tampere/events/f-levyjulkkarit-orvokki-6abbc2819689822943b2f138/",
+    "id": 150,
+    "artists": [
+      "F",
+      "Orvokki"
+    ],
+    "genres": [
+      "electropop",
+      "art pop"
+    ]
+  },
+  {
+    "artist": "Tarja Turunen + support: Lily Löwe (NOR), Symphonity (CZE)",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-23T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/tarja-turunen-support-lily-lowe-nor-symphonity-cze-23-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/tarja-turunen-support-lily-lowe-nor-symphonity-cze-23-02-2027/",
+    "doors": "18:00",
+    "price": "alk. 47,50€, ovelta 50€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 64,
+    "artists": [
+      "Lily Löwe",
+      "Symphonity"
+    ],
+    "genres": [
+      "melodi grand prix 2022",
+      "hard rock",
+      "screamo",
+      "female vocal",
+      "power metal",
+      "symphonic metal",
+      "symphonic power metal"
+    ]
+  },
+  {
+    "artist": "Finlanders",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-25T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/finlanders-25-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/finlanders-25-02-2027/",
+    "doors": "17:30",
+    "price": "alk. 20€, ovelta 20€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 65,
+    "artists": [
+      "Finlanders"
+    ],
+    "genres": [
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "Lee Rocker (USA), Nick Rumble & The Rockers",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-02-25T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/lee-rocker-usa-nick-rumble-the-rockers-25-02-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/lee-rocker-usa-nick-rumble-the-rockers-25-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 49€, ovelta 55€",
+    "age": "K-18",
+    "id": 12,
+    "artists": [
+      "Lee Rocker",
+      "Nick Rumble & The Rockers"
+    ],
+    "genres": [
+      "rockabilly",
+      "rock & roll",
+      "rock n roll",
+      "rock",
+      "punk"
+    ]
+  },
+  {
+    "artist": "Dynazty (SWE)",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-25T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/dynazty-swe-25-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/dynazty-swe-25-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 33,50€, ovelta 36€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 66,
+    "artists": [
+      "Dynazty"
+    ],
+    "genres": [
+      "hard rock",
+      "heavy metal",
+      "power metal",
+      "hair metal"
+    ]
+  },
+  {
+    "artist": "Lubomyr Melnyk (UA)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-02-25T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/lubomyr-melnyk-ua-6aec4565b64b45ac17386fed/",
+    "eventUrl": "https://glivelab.fi/tampere/events/lubomyr-melnyk-ua-6aec4565b64b45ac17386fed/",
+    "id": 151,
+    "artists": [
+      "Lubomyr Melnyk"
+    ],
+    "genres": [
+      "minimalism",
+      "contemporary classical",
+      "neoclassical",
+      "experimental"
+    ]
+  },
+  {
+    "artist": "Whitechapel + Supports: Sylosis, 200 Stab Wounds, Tribal Gaze",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-02-26T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/whitechapel-supports-sylosis-200-stab-wounds-tribal-gaze-26-02-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/whitechapel-supports-sylosis-200-stab-wounds-tribal-gaze-26-02-2027/",
+    "doors": "18:00",
+    "price": "alk. 51,90€, ovelta 51,90€",
+    "age": "K-18",
+    "id": 13,
+    "artists": [
+      "Sylosis",
+      "200 Stab Wounds",
+      "Tribal Gaze"
+    ],
+    "genres": [
+      "melodic death metal",
+      "thrash metal",
+      "metalcore",
+      "death metal",
+      "brutal death metal",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Mouhous",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-26T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/mouhous-26-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/mouhous-26-02-2027/",
+    "doors": "20:00",
+    "price": "alk. 35€, ovelta 40€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 67,
+    "artists": [
+      "Mouhous"
+    ],
+    "genres": [
+      "rap"
+    ]
+  },
+  {
+    "artist": "Mikko Alatalo & Brothers Band / Coitus Int 50 Revival, Alwari Tuohitorvi Revisited, Nolo & Rähjä, Sidi & Hermottomat",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-27T17:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/mikko-alatalo-brothers-band-coitus-int-50-revival-alwari-tuohitorvi-revisited-nolo-rahja-sidi-hermottomat-27-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/mikko-alatalo-brothers-band-coitus-int-50-revival-alwari-tuohitorvi-revisited-nolo-rahja-sidi-hermottomat-27-02-2027/",
+    "doors": "17:00",
+    "price": "alk. 38,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 68,
+    "artists": [
+      "Mikko Alatalo & Brothers Band",
+      "Coitus Int 50 Revival",
+      "Alwari Tuohitorvi Revisited",
+      "Nolo & Rähjä",
+      "Sidi & Hermottomat"
+    ],
+    "genres": [
+      "rock",
+      "new wave",
+      "post-punk"
+    ]
+  },
+  {
+    "artist": "Ruusut",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-02-27T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/ruusut-27-02-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/ruusut-27-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 37,50€, ovelta 40€",
+    "age": "K-18",
+    "id": 14,
+    "artists": [
+      "Ruusut"
+    ],
+    "genres": [
+      "electronic",
+      "synthpop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Topi Saha (levyjulkkarit) + PK Keränen",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-03T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/topi-saha-levyjulkkarit-pk-keranen-6ac7abdafdabdd84b2972635/",
+    "eventUrl": "https://glivelab.fi/tampere/events/topi-saha-levyjulkkarit-pk-keranen-6ac7abdafdabdd84b2972635/",
+    "id": 152,
+    "artists": [
+      "Topi Saha",
+      "PK Keränen"
+    ],
+    "genres": [
+      "folk",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Mikkey Dee & Friends",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-04T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/mikkey-dee-friends-04-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/mikkey-dee-friends-04-03-2027/",
+    "doors": "19:00",
+    "price": "alk. 49,90€, ovelta 55€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 69,
+    "artists": [
+      "Mikkey Dee & Friends"
+    ],
+    "genres": [
+      "rock",
+      "metal",
+      "indie",
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Pussy Riot: Riot Days + New Age Doom",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-04T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/pussy-riot-riot-days-new-age-doom-6ac393abf64d5bd670d5e5d7/",
+    "eventUrl": "https://glivelab.fi/tampere/events/pussy-riot-riot-days-new-age-doom-6ac393abf64d5bd670d5e5d7/",
+    "id": 153,
+    "artists": [
+      "Riot Days",
+      "New Age Doom"
+    ],
+    "genres": [
+      "experimental"
+    ]
+  },
+  {
+    "artist": "Huora, Lähiöbotox",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-05T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/huora-lahiobotox-05-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/huora-lahiobotox-05-03-2027/",
+    "doors": "19:00",
+    "price": "alk. 33€, ovelta 36€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 70,
+    "artists": [
+      "Huora",
+      "Lähiöbotox"
+    ],
+    "genres": [
+      "punk",
+      "punk rock",
+      "nu metal",
+      "hardcore",
+      "groove metal",
+      "heavy hardcore"
+    ]
+  },
+  {
+    "artist": "Stig + SVN-kollektiivi",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-05T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/stig-svn-kollektiivi-6ae59b4bc94d4c373c1d395e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/stig-svn-kollektiivi-6ae59b4bc94d4c373c1d395e/",
+    "id": 154,
+    "artists": [
+      "Stig",
+      "SVN-kollektiivi"
+    ],
+    "genres": [
+      "pop",
+      "folk"
+    ]
+  },
+  {
+    "artist": "Jonna Tervomaa: Talvehtijat + Kanerva",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-06T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/jonna-tervomaa-talvehtijat-kanerva-6ae9fcf30472b55b86839138/",
+    "eventUrl": "https://glivelab.fi/tampere/events/jonna-tervomaa-talvehtijat-kanerva-6ae9fcf30472b55b86839138/",
+    "id": 155,
+    "artists": [
+      "Talvehtijat",
+      "Kanerva"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Laura Voutilainen – Kerran Keväällä 2",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-10T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/laura-voutilainen-kerran-kevaalla-2-6aea00ad0472b55b868412c8/",
+    "eventUrl": "https://glivelab.fi/tampere/events/laura-voutilainen-kerran-kevaalla-2-6aea00ad0472b55b868412c8/",
+    "id": 156,
+    "artists": [
+      "Laura Voutilainen"
+    ],
+    "genres": [
+      "pop",
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "R.E.M. For The People plays Automatic For The People",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-11T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/r-e-m-for-the-people-plays-automatic-for-the-peopl-6ac7af2afdabdd84b297ab45/",
+    "eventUrl": "https://glivelab.fi/tampere/events/r-e-m-for-the-people-plays-automatic-for-the-peopl-6ac7af2afdabdd84b297ab45/",
+    "id": 157,
+    "artists": [
+      "R.E.M. For The People"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "BLOODRED HOURGLASS + Brymir + Pridian",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-03-12T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/bloodred-hourglass-brymir-pridian-12-03-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/bloodred-hourglass-brymir-pridian-12-03-2027/",
+    "doors": "18:00",
+    "price": "alk. 37€, ovelta 40€",
+    "age": "K-18",
+    "id": 15,
+    "artists": [
+      "BLOODRED HOURGLASS",
+      "Brymir",
+      "Pridian"
+    ],
+    "genres": [
+      "melodic death metal",
+      "thrash metal",
+      "metalcore",
+      "death metal",
+      "folk metal",
+      "viking metal",
+      "symphonic metal",
+      "metal",
+      "industrial metal"
+    ]
+  },
+  {
+    "artist": "ELLIMEI + Aali",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-12T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/ellimei-aali-6ac7b39ffdabdd84b29840ec/",
+    "eventUrl": "https://glivelab.fi/tampere/events/ellimei-aali-6ac7b39ffdabdd84b29840ec/",
+    "id": 158,
+    "artists": [
+      "ELLIMEI",
+      "Aali"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "The Ghost Of Bruce Springsteen & The E Street Band",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-13T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/the-ghost-of-bruce-springsteen-the-e-street-band-6ac7b64bfdabdd84b298a544/",
+    "eventUrl": "https://glivelab.fi/tampere/events/the-ghost-of-bruce-springsteen-the-e-street-band-6ac7b64bfdabdd84b298a544/",
+    "id": 159,
+    "artists": [
+      "The Ghost Of Bruce Springsteen & The E Street Band"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Robert Finley (USA)",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-03-17T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/robert-finley-usa-17-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/robert-finley-usa-17-03-2027/",
+    "doors": "19:00",
+    "price": "alk. 49,90€, ovelta 55€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 71,
+    "artists": [
+      "Robert Finley"
+    ],
+    "genres": [
+      "blues",
+      "soul"
+    ]
+  },
+  {
+    "artist": "The Halo Effect (SWE) + Lacuna Coil (ITA), Omnium Gatherum",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-18T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/the-halo-effect-swe-lacuna-coil-ita-omnium-gatherum-18-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/the-halo-effect-swe-lacuna-coil-ita-omnium-gatherum-18-03-2027/",
+    "doors": "18:00",
+    "price": "alk. 49€, ovelta 55€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 72,
+    "artists": [
+      "The Halo Effect",
+      "Lacuna Coil",
+      "Omnium Gatherum"
+    ],
+    "genres": [
+      "melodic death metal",
+      "death metal",
+      "gothic metal",
+      "metal",
+      "female fronted metal"
+    ]
+  },
+  {
+    "artist": "Noora Louhimo",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-03-18T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/noora-louhimo-18-03-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/noora-louhimo-18-03-2027/",
+    "doors": "19:00",
+    "price": "alk. 34€, ovelta 38€",
+    "age": "S/K-18",
+    "id": 16,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Lasten Hautausmaa",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-03-19T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/lasten-hautausmaa-19-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/lasten-hautausmaa-19-03-2027/",
+    "doors": "20:00",
+    "price": "alk. 25€, ovelta 28€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 73,
+    "artists": [
+      "Lasten Hautausmaa"
+    ],
+    "genres": [
+      "post-punk",
+      "rock",
+      "alternative rock"
+    ]
+  },
+  {
+    "artist": "Mikko Innanen & Aki Rissanen (levyjulkkarit)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-20T14:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/mikko-innanen-aki-rissanen-levyjulkkarit-6ac7b9d0fdabdd84b2991c94/",
+    "eventUrl": "https://glivelab.fi/tampere/events/mikko-innanen-aki-rissanen-levyjulkkarit-6ac7b9d0fdabdd84b2991c94/",
+    "id": 160,
+    "artists": [
+      "Mikko Innanen & Aki Rissanen"
+    ],
+    "genres": [
+      "jazz",
+      "saxophone",
+      "juma",
+      "piano"
+    ]
+  },
+  {
+    "artist": "Mikko Kuustonen",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-03-20T18:30:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/mikko-kuustonen-20-03-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/mikko-kuustonen-20-03-2027/",
+    "doors": "18:30",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "id": 17,
+    "artists": [
+      "Mikko Kuustonen"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Jaakko Kulta",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-20T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/jaakko-kulta-6ace3b266d93fd2ef9603f1e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/jaakko-kulta-6ace3b266d93fd2ef9603f1e/",
+    "id": 161,
+    "artists": [
+      "Jaakko Kulta"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Sofie Birch (DEN)",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-03-24T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/sofie-birch-den-24-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/sofie-birch-den-24-03-2027/",
+    "doors": "19:00",
+    "price": "alk. 24€, ovelta 28€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 74,
+    "artists": [
+      "Sofie Birch"
+    ],
+    "genres": [
+      "ambient",
+      "the flourishing zoo",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Kyösti Mäkimattila & Ajaton Sointu",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-25T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/kyosti-makimattila-ajaton-sointu-25-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/kyosti-makimattila-ajaton-sointu-25-03-2027/",
+    "doors": "17:30",
+    "price": "alk. 20€, ovelta 20€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 75,
+    "artists": [
+      "Kyösti Mäkimattila & Ajaton Sointu"
+    ],
+    "genres": [
+      "tango",
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "Puuluup (EE)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-25T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/puuluup-ee-6ae9c8430472b55b867f1f20/",
+    "eventUrl": "https://glivelab.fi/tampere/events/puuluup-ee-6ae9c8430472b55b867f1f20/",
+    "id": 162,
+    "artists": [
+      "Puuluup"
+    ],
+    "genres": [
+      "folk",
+      "estonia"
+    ]
+  },
+  {
+    "artist": "Stepa + Kukkatalo",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-26T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/stepa-kukkatalo-6ae6fefed914496cddd7c86a/",
+    "eventUrl": "https://glivelab.fi/tampere/events/stepa-kukkatalo-6ae6fefed914496cddd7c86a/",
+    "id": 163,
+    "artists": [
+      "Stepa",
+      "Kukkatalo"
+    ],
+    "genres": [
+      "nu metal",
+      "hip hop",
+      "rap",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Nelli Matula",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-03-27T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/nelli-matula-27-03-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/nelli-matula-27-03-2027/",
+    "doors": "19:00",
+    "price": "alk. 29,50€, ovelta 35€",
+    "age": "K-18",
+    "id": 18,
+    "artists": [
+      "Nelli Matula"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Pesso (levyjulkkarit) + Edicti",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-27T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/pesso-levyjulkkarit-edicti-6ae70362d914496cddd81001/",
+    "eventUrl": "https://glivelab.fi/tampere/events/pesso-levyjulkkarit-edicti-6ae70362d914496cddd81001/",
+    "id": 164,
+    "artists": [
+      "Pesso",
+      "Edicti"
+    ],
+    "genres": [
+      "rap",
+      "indie"
+    ]
+  },
+  {
+    "artist": "Dänkki Briha + Möyhy-Veikot",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-03-31T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/dankki-briha-moyhy-veikot-6ae5a420c94d4c373c1da073/",
+    "eventUrl": "https://glivelab.fi/tampere/events/dankki-briha-moyhy-veikot-6ae5a420c94d4c373c1da073/",
+    "id": 165,
+    "artists": [
+      "Dänkki Briha",
+      "Möyhy-Veikot"
+    ],
+    "genres": [
+      "rap",
+      "hip hop",
+      "antifolk",
+      "progressive rock",
+      "psychedelic rock",
+      "heavy psych"
+    ]
+  },
+  {
+    "artist": "Jippu",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-01T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/jippu-6af41bb684b299840296ffc7/",
+    "eventUrl": "https://glivelab.fi/tampere/events/jippu-6af41bb684b299840296ffc7/",
+    "id": 166,
+    "artists": [
+      "Jippu"
+    ],
+    "genres": [
+      "pop",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Misha + Hannibal & Lecters",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-03T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/misha-hannibal-lecters-6ae86c21c46067957e877a34/",
+    "eventUrl": "https://glivelab.fi/tampere/events/misha-hannibal-lecters-6ae86c21c46067957e877a34/",
+    "id": 167,
+    "artists": [
+      "Misha",
+      "Hannibal & Lecters"
+    ],
+    "genres": [
+      "neurofunk",
+      "drum and bass",
+      "electronic",
+      "progressive rock",
+      "psychedelic rock"
+    ]
+  },
+  {
+    "artist": "Charlie Hunter & Ella Feingold (US)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-08T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/charlie-hunter-ella-feingold-us-6ac7bdeffdabdd84b2999a69/",
+    "eventUrl": "https://glivelab.fi/tampere/events/charlie-hunter-ella-feingold-us-6ac7bdeffdabdd84b2999a69/",
+    "id": 168,
+    "artists": [
+      "Charlie Hunter & Ella Feingold"
+    ],
+    "genres": [
+      "jazz",
+      "guitar",
+      "jazz fusion",
+      "funk"
+    ]
+  },
+  {
+    "artist": "Vesterinen Yhtyeineen",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-04-09T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/vesterinen-yhtyeineen-09-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/vesterinen-yhtyeineen-09-04-2027/",
+    "doors": "19:00",
+    "price": "alk. 39,90€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 76,
+    "artists": [
+      "Vesterinen Yhtyeineen"
+    ],
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Sir Elwood Duo: Voitto Auringolle 2027",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-09T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/sir-elwood-duo-voitto-auringolle-2027-6ac894a14ead0d22dd5d936c/",
+    "eventUrl": "https://glivelab.fi/tampere/events/sir-elwood-duo-voitto-auringolle-2027-6ac894a14ead0d22dd5d936c/",
+    "id": 169,
+    "artists": [
+      "Sir Elwood Duo"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Jarkko Martikainen",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-14T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/jarkko-martikainen-6af41e2484b2998402973024/",
+    "eventUrl": "https://glivelab.fi/tampere/events/jarkko-martikainen-6af41e2484b2998402973024/",
+    "id": 170,
+    "artists": [
+      "Jarkko Martikainen"
+    ],
+    "genres": [
+      "singer-songwriter",
+      "rock",
+      "progressive rock"
+    ]
+  },
+  {
+    "artist": "Mariska",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-04-16T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/mariska-16-04-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/mariska-16-04-2027/",
+    "doors": "19:00",
+    "price": "alk. 34€, ovelta 38€",
+    "age": "K-18",
+    "id": 19,
+    "artists": [
+      "Mariska"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "Ville Ahonen",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-16T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/ville-ahonen-6ae875a0c46067957e884a82/",
+    "eventUrl": "https://glivelab.fi/tampere/events/ville-ahonen-6ae875a0c46067957e884a82/",
+    "id": 171,
+    "artists": [
+      "Ville Ahonen"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Aino & Hajonneet + Sibyl Vane (EE)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-17T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/aino-hajonneet-sibyl-vane-ee-6ae980d1c46067957e97e508/",
+    "eventUrl": "https://glivelab.fi/tampere/events/aino-hajonneet-sibyl-vane-ee-6ae980d1c46067957e97e508/",
+    "id": 172,
+    "artists": [
+      "Aino & Hajonneet",
+      "Sibyl Vane"
+    ],
+    "genres": [
+      "punk",
+      "indie rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Tangokuningatar 2026 Raija Mäntyniemi",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-04-22T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/tangokuningatar-2026-raija-mantyniemi-22-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/tangokuningatar-2026-raija-mantyniemi-22-04-2027/",
+    "doors": "17:30",
+    "price": "alk. 20€, ovelta 20€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 77,
+    "artists": [
+      "Tangokuningatar 2026 Raija Mäntyniemi"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Tamikrest (ML)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-22T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/tamikrest-ml-6ac8c2754ead0d22dd616b34/",
+    "eventUrl": "https://glivelab.fi/tampere/events/tamikrest-ml-6ac8c2754ead0d22dd616b34/",
+    "id": 173,
+    "artists": [
+      "Tamikrest"
+    ],
+    "genres": [
+      "desert blues",
+      "mali",
+      "african",
+      "world",
+      "blues"
+    ]
+  },
+  {
+    "artist": "AMORPHIS – Borderland Finland 2027",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-04-23T18:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/amorphis-borderland-finland-2027-23-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/amorphis-borderland-finland-2027-23-04-2027/",
+    "doors": "18:00",
+    "price": "alk. 64,90€, ovelta 67€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 78,
+    "artists": [
+      "AMORPHIS"
+    ],
+    "genres": [
+      "progressive metal",
+      "melodic death metal",
+      "death metal",
+      "doom metal"
+    ]
+  },
+  {
+    "artist": "Joose Keskitalo & The Mystic Revelation of Teppo Repo: Tiet etääntyvät meistä (levyjulkkarit)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-23T21:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/joose-keskitalo-the-mystic-revelation-of-teppo-rep-6ae85658c46067957e8507c3/",
+    "eventUrl": "https://glivelab.fi/tampere/events/joose-keskitalo-the-mystic-revelation-of-teppo-rep-6ae85658c46067957e8507c3/",
+    "id": 174,
+    "artists": [
+      "Joose Keskitalo & The Mystic Revelation of Teppo Repo"
+    ],
+    "genres": [
+      "folk",
+      "singer-songwriter",
+      "lo-fi",
+      "acoustic",
+      "experimental",
+      "instrumental"
+    ]
+  },
+  {
+    "artist": "Lizz Wright & Kenny Banks Sr. (US)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-24T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/lizz-wright-kenny-banks-sr-us-6ac8803cfdabdd84b2a77fca/",
+    "eventUrl": "https://glivelab.fi/tampere/events/lizz-wright-kenny-banks-sr-us-6ac8803cfdabdd84b2a77fca/",
+    "id": 175,
+    "artists": [
+      "Lizz Wright & Kenny Banks Sr."
+    ],
+    "genres": [
+      "jazz",
+      "soul",
+      "vocal jazz"
+    ]
+  },
+  {
+    "artist": "Siamese (DEN)",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-04-24T21:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/siamese-den-24-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/siamese-den-24-04-2027/",
+    "doors": "21:00",
+    "price": "alk. 32,50€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 79,
+    "artists": [
+      "Siamese"
+    ],
+    "genres": [
+      "alternative rock",
+      "progressive rock",
+      "post-hardcore"
+    ]
+  },
+  {
+    "artist": "Curtis Salgado (US)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-28T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/curtis-salgado-us-6ae59884c94d4c373c1d15d4/",
+    "eventUrl": "https://glivelab.fi/tampere/events/curtis-salgado-us-6ae59884c94d4c373c1d15d4/",
+    "id": 176,
+    "artists": [
+      "Curtis Salgado"
+    ],
+    "genres": [
+      "blues",
+      "blues rock"
+    ]
+  },
+  {
+    "artist": "Paul Oxley's Unit (UK/FI)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-04-29T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/paul-oxleys-unit-uk-fi-6ac8cb224ead0d22dd62132e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/paul-oxleys-unit-uk-fi-6ac8cb224ead0d22dd62132e/",
+    "id": 177,
+    "artists": [
+      "Paul Oxley's Unit"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Pelle Miljoona & Pispala Punks – G Livelabin vappu 2027",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-05-01T20:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/pelle-miljoona-pispala-punks-g-livelabin-vappu-202-6ae8532dc46067957e84bb48/",
+    "eventUrl": "https://glivelab.fi/tampere/events/pelle-miljoona-pispala-punks-g-livelabin-vappu-202-6ae8532dc46067957e84bb48/",
+    "id": 178,
+    "artists": [
+      "Pelle Miljoona & Pispala Punks"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "IN FLAMES – EUROPEAN TOUR 2027",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2027-05-03T17:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/in-flames-european-tour-2027-nokia-arena-22038377/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/in-flames-european-tour-2027/",
+    "doors": "17:00",
+    "price": "alk. 59 €",
+    "id": 189,
+    "artists": [
+      "IN FLAMES"
+    ],
+    "genres": [
+      "melodic death metal",
+      "death metal",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Mark Hummel Blues All Stars (US)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-05-06T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/mark-hummel-blues-all-stars-us-6ad878e88f9fe5157cfe2ad6/",
+    "eventUrl": "https://glivelab.fi/tampere/events/mark-hummel-blues-all-stars-us-6ad878e88f9fe5157cfe2ad6/",
+    "id": 179,
+    "artists": [
+      "Mark Hummel Blues All Stars"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Cyrille Aimée (FR/US) & UMO Helsinki Jazz Orchestra",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-05-12T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/cyrille-aimee-fr-us-umo-helsinki-jazz-orchestra-6ad0c0f62678a6f250d55543/",
+    "eventUrl": "https://glivelab.fi/tampere/events/cyrille-aimee-fr-us-umo-helsinki-jazz-orchestra-6ad0c0f62678a6f250d55543/",
+    "id": 180,
+    "artists": [
+      "Cyrille Aimée",
+      "UMO Helsinki Jazz Orchestra"
+    ],
+    "genres": [
+      "jazz",
+      "soul",
+      "guitar",
+      "piano",
+      "instrumental"
+    ]
+  },
+  {
+    "artist": "Adele Sauros Basel Smash + Aili Julia",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-05-13T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/adele-sauros-basel-smash-aili-julia-6ae886c3c46067957e89f4d5/",
+    "eventUrl": "https://glivelab.fi/tampere/events/adele-sauros-basel-smash-aili-julia-6ae886c3c46067957e89f4d5/",
+    "id": 181,
+    "artists": [
+      "Adele Sauros Basel Smash",
+      "Aili Julia"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Greg Foat (UK)",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-05-15T15:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/greg-foat-uk-6aeb388024be25908912f82e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/greg-foat-uk-6aeb388024be25908912f82e/",
+    "id": 182,
+    "artists": [
+      "Greg Foat"
+    ],
+    "genres": [
+      "jazz",
+      "nu jazz"
+    ]
+  },
+  {
+    "artist": "Johanna Försti: Pardon, Ms. Parton",
+    "venue": "G Livelab Tampere",
+    "city": "Tampere",
+    "date": "2027-05-19T19:00:00",
+    "ticketUrl": "https://glivelab.fi/tampere/events/johanna-forsti-pardon-ms-parton-6ae88ad6c46067957e8a614e/",
+    "eventUrl": "https://glivelab.fi/tampere/events/johanna-forsti-pardon-ms-parton-6ae88ad6c46067957e8a614e/",
+    "id": 183,
+    "artists": [
+      "Pardon",
+      "Ms. Parton"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Keiski & ENO",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-05-20T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/keiski-eno-20-05-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/keiski-eno-20-05-2027/",
+    "doors": "17:30",
+    "price": "alk. 20€, ovelta 20€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 80,
+    "artists": [
+      "Keiski & ENO"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Witchcraft (SWE)",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-05-20T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/witchcraft-swe-20-05-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/witchcraft-swe-20-05-2027/",
+    "doors": "19:00",
+    "price": "alk. 30€, ovelta 35€",
+    "age": "K-18",
+    "id": 20,
+    "artists": [
+      "Witchcraft"
+    ],
+    "genres": [
+      "doom metal",
+      "stoner rock",
+      "hard rock",
+      "stoner"
+    ]
+  },
+  {
+    "artist": "Endstand, Foreseen, Gray State, Kovaa Rasvaa, Ecotage, Plasma, Armoton",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-05-22T17:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/endstand-foreseen-gray-state-kovaa-rasvaa-ecotage-plasma-armoton-22-05-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/endstand-foreseen-gray-state-kovaa-rasvaa-ecotage-plasma-armoton-22-05-2027/",
+    "doors": "17:30",
+    "price": "alk. 30€, ovelta 35€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 81,
+    "artists": [
+      "Endstand",
+      "Foreseen",
+      "Gray State",
+      "Kovaa Rasvaa",
+      "Ecotage",
+      "Plasma",
+      "Armoton"
+    ],
+    "genres": [
+      "hardcore",
+      "hardcore punk",
+      "punk",
+      "thrash metal",
+      "crossover",
+      "metalcore",
+      "metallic hardcore",
+      "goregrind",
+      "grindcore",
+      "groovy goregrind"
+    ]
+  },
+  {
+    "artist": "Scar Symmetry (SWE) + supports: Rise To Fall (ESP), Meret",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-05-28T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/scar-symmetry-swe-supports-rise-to-fall-esp-meret-28-05-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/scar-symmetry-swe-supports-rise-to-fall-esp-meret-28-05-2027/",
+    "doors": "18:00",
+    "price": "alk. 30€, ovelta 35€",
+    "age": "K-18",
+    "id": 21,
+    "artists": [
+      "Rise To Fall",
+      "Meret"
+    ],
+    "genres": [
+      "melodic death metal",
+      "modern metal",
+      "metalcore",
+      "atm metalcore",
+      "rock progresivo"
+    ]
+  },
+  {
+    "artist": "U.K. SUBS (UK) – Final Tour with special guest: Desperate Measures (NZ/UK) and supports: Appendix, Häiriköt",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-05-29T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/u-k-subs-uk-final-tour-with-special-guest-desperate-measures-nz-uk-and-supports-appendix-hairikot-29-05-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/u-k-subs-uk-final-tour-with-special-guest-desperate-measures-nz-uk-and-supports-appendix-hairikot-29-05-2027/",
+    "doors": "18:00",
+    "price": "alk. 45€, ovelta 49€",
+    "age": "K-18",
+    "id": 22,
+    "artists": [
+      "Desperate Measures and supports",
+      "Häiriköt"
+    ],
+    "genres": [
+      "ramopunk",
+      "punk"
+    ]
+  },
+  {
+    "artist": "The Pineapple Thief (UK)",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-06-02T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/the-pineapple-thief-uk-02-06-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/the-pineapple-thief-uk-02-06-2027/",
+    "doors": "19:00",
+    "price": "alk. 42€, ovelta 45€",
+    "age": "K-18",
+    "id": 23,
+    "artists": [
+      "The Pineapple Thief"
+    ],
+    "genres": [
+      "progressive rock",
+      "art rock"
+    ]
+  },
+  {
+    "artist": "Glow Festival 2027",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2027-08-28T00:00:00",
+    "ticketUrl": "https://nokiaarena.fi/event/glow-festival-2027/",
+    "eventUrl": "https://nokiaarena.fi/event/glow-festival-2027/",
+    "id": 190,
+    "artists": [
+      "Glow Festival"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Pohjola Heavy Jazz Group",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-10-20T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/pohjola-heavy-jazz-group-20-10-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/pohjola-heavy-jazz-group-20-10-2027/",
+    "doors": "19:00",
+    "price": "alk. 39,50€, ovelta 45€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 82,
+    "artists": [
+      "Pohjola Heavy Jazz Group"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Kanonenfieber (GER)",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-11-23T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/kanonenfieber-ger-23-11-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/kanonenfieber-ger-23-11-2027/",
+    "doors": "18:00",
+    "price": "alk. 48,50€",
+    "age": "K-18",
+    "id": 24,
+    "artists": [
+      "Kanonenfieber"
+    ],
+    "genres": [
+      "black metal",
+      "death metal",
+      "blackened death metal"
+    ]
+  }
+]

@@ -18,6 +18,7 @@ Usage:
   python genres.py            # tag events, fetch only uncached artists
   python genres.py --refresh  # re-fetch every artist
   python genres.py --report   # print every genre seen, with event counts
+  python genres.py --city tampere  # the Tampere site's events (shared artist cache)
 """
 
 import argparse
@@ -176,13 +177,14 @@ def parse_title(title: str) -> list[dict]:
         title = m.group(2)
     else:
         # "<Show name>: band, band, band" -> the list after the colon.
-        m = re.match(r"^[^:,]+:\s*(.+(?:,|\s\+\s|\sw/\s).+)$", title, flags=re.I)
+        m = re.match(r"^[^:,]+:\s*(.+(?:,|\s\+\s|\sw/\s|\s/\s).+)$", title, flags=re.I)
         if m:
             title = m.group(1)
     # Split on commas, " + ", " w/ " and "&" right after a country code
     # ("Wyatt E (BE) & Five the Hierophant (UK)"); other " & " inside a band
     # name ("Kauko Röyhkä & Voimaeläin") is handled by trying the full name first.
-    for part in re.split(r",\s*|\s+\+\s+|\s+w/\s+|(?<=\))\s*&\s+", title, flags=re.I):
+    # " / " too ("AARO630 / JAAKKO KULTA / PIHALLA"); " // " is a different thing.
+    for part in re.split(r",\s*|\s+\+\s+|\s+w/\s+|\s+/\s+|(?<=\))\s*&\s+", title, flags=re.I):
         part = part.strip()
         # DJs are rarely tagged usefully (and "DJ Anaheim" isn't a band);
         # "support (TBA)", "guests" and the like aren't bands either.
@@ -423,9 +425,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--refresh", action="store_true", help="re-fetch all artists")
     parser.add_argument("--report", action="store_true", help="print genre counts and exit")
+    parser.add_argument("--city", help="tampere / oulu: that site's events.json")
     args = parser.parse_args()
 
-    events = load_json(EVENTS_FILE, [])
+    from eventstore import events_file
+    events_path = events_file(args.city)
+    events = load_json(events_path, [])
     cache = load_json(CACHE_FILE, {})
     config = load_json(CONFIG_FILE, {})
     overrides = config.get("artistOverrides", {})
@@ -440,7 +445,7 @@ def main() -> int:
             event["artists"] = artists
             event["genres"] = pick_genres(event, genres)
         save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
-        save_json(EVENTS_FILE, events)
+        save_json(events_path, events)
         print(f"✓ Tagged {len(events)} events ({len(cache)} artists cached)")
 
     # Report: every genre with how many events carry it.

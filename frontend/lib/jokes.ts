@@ -21,6 +21,8 @@ export const NO_GIG_JOKES = [
   "A quiet day. Tune your guitar. Then tune it again.",
   "No gigs today – re-read the liner notes of your favourite album.",
   "Nothing tonight. Finally time to argue online about the best Children of Bodom album.",
+  "Nothing today, a nice day for a funeral.",
+  "Nothing today, a good day to listen to the latest Sunn O))) album. 10 times.",
 ];
 
 /** For several empty days in a row; "{n}" becomes the number of days. */
@@ -30,7 +32,11 @@ export const NO_GIG_RANGE_JOKES = [
   "{n} quiet days. Practise your headbanging in front of the mirror.",
   "No gigs for {n} days. Your band T-shirts deserve a wash.",
   "{n} days of silence. Even Sunn O))) would call that too quiet.",
-  "Nothing for {n} days. Start a band – you have time.",
+  "{n} days without gigs. Time to finally finish that 40-minute doom song.",
+  "Nothing for {n} days. Your tinnitus will think you've retired.",
+  "{n} gigless days. Grow your hair a few millimetres longer.",
+  "{n} days of nothing. Even the merch table is lonely.",
+  "Nothing for {n} days – go stare at a frozen lake, very black metal.",
 ];
 
 /** The same date always gets the same joke (stable across page loads). */

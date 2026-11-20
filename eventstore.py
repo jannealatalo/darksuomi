@@ -5,12 +5,27 @@ A scraped gig matches an existing one by its event page URL, or else by
 venue + day + title. Matches get their changing fields refreshed; new gigs
 get the next free id. Gigs are never deleted here (past ones just stop
 showing on the site).
+
+Helsinki gigs live in frontend/data/events.json; the experimental city sites
+(darksuomi.fi/tampere, /oulu) keep theirs in frontend/data/<city>/events.json.
+Pass `city=` to work on those.
 """
 
 import json
 from pathlib import Path
 
-EVENTS_FILE = Path(__file__).resolve().parent / "frontend" / "data" / "events.json"
+DATA_DIR = Path(__file__).resolve().parent / "frontend" / "data"
+EVENTS_FILE = DATA_DIR / "events.json"
+CITIES = ("tampere", "oulu")  # experimental sites, separate from Helsinki
+
+
+def events_file(city: str | None = None) -> Path:
+    """events.json of Helsinki (default) or of one of the CITIES."""
+    if city in (None, "", "helsinki"):
+        return EVENTS_FILE
+    if city not in CITIES:
+        raise ValueError(f"unknown city {city!r}")
+    return DATA_DIR / city / "events.json"
 
 # Fields a venue scraper may refresh on an already-known gig.
 REFRESHED_FIELDS = ("date", "ticketUrl", "eventUrl", "venue", "venueGenres",
@@ -18,14 +33,19 @@ REFRESHED_FIELDS = ("date", "ticketUrl", "eventUrl", "venue", "venueGenres",
                     "doors", "age", "schedule", "detailsFetched")
 
 
-def load_events() -> list[dict]:
-    with open(EVENTS_FILE, encoding="utf-8") as f:
+def load_events(city: str | None = None) -> list[dict]:
+    path = events_file(city)
+    if not path.exists():
+        return []
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_events(events: list[dict]) -> None:
+def save_events(events: list[dict], city: str | None = None) -> None:
     events.sort(key=lambda e: e["date"])
-    with open(EVENTS_FILE, "w", encoding="utf-8") as f:
+    path = events_file(city)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
 
 
