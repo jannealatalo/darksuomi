@@ -24,9 +24,9 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -35,43 +35,58 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper-requirements.txt
 
+      # Each venue step may fail on its own (site down, layout changed)
+      # without stopping the rest: that venue just keeps yesterday's data.
       - name: Scrape Tavastia
+        continue-on-error: true
         run: python scraper_advanced.py
 
       - name: Tavastia doors and stage times
+        continue-on-error: true
         run: python enrich_tavastia.py
 
       - name: Scrape On the Rocks
+        continue-on-error: true
         run: python scraper_rocks.py
 
       - name: Scrape Lepakkomies
+        continue-on-error: true
         run: python scraper_lepakkomies.py
 
       - name: Scrape Kulttuuritalo and KULT
+        continue-on-error: true
         run: python scraper_kulttuuritalo.py
 
       - name: Scrape Bar Loose
+        continue-on-error: true
         run: python scraper_barloose.py
 
       - name: Scrape Veikkaus Arena (music only)
+        continue-on-error: true
         run: python scraper_veikkausarena.py
 
       - name: Scrape Tiivistämö (concerts only)
+        continue-on-error: true
         run: python scraper_tiivistamo.py
 
       - name: Scrape Helsingin Jäähalli (concerts only)
+        continue-on-error: true
         run: python scraper_jaahalli.py
 
       - name: Scrape Olympiastadion (music only)
+        continue-on-error: true
         run: python scraper_stadion.py
 
       - name: Scrape Korjaamo (music only)
+        continue-on-error: true
         run: python scraper_korjaamo.py
 
       - name: Scrape Sellosali, Espoo (music only)
+        continue-on-error: true
         run: python scraper_sellosali.py
 
       - name: Tuska festival line-up (weekly, on Mondays)
+        continue-on-error: true
         # Festival line-ups change slowly; a manual run always checks too.
         run: |
           if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
