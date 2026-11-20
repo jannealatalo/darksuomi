@@ -1,40 +1,48 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import type { ExpectedSetlist } from "../lib/setlists";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("fi-FI", { timeZone: "Europe/Helsinki" });
 }
 
-/** Collapsible expected setlist(s) for one event. */
+/**
+ * "Setlist stuff" for one event, collapsed by default: the expected
+ * setlist(s) and the links to each act's latest show (`latestShows`).
+ */
 export default function ExpectedSetlists({
   setlists,
   special,
   playlistUrl,
+  latestShows,
 }: {
   setlists: ExpectedSetlist[];
   special: boolean;
   playlistUrl: string | null;
+  latestShows?: ReactNode;
 }) {
   const [open, setOpen] = useState(false);
-  if (setlists.length === 0) return null;
+  if (setlists.length === 0 && !latestShows && !playlistUrl) return null;
+  const hasContent = setlists.length > 0 || !!latestShows;
   const showArtistNames = setlists.length > 1;
 
   return (
     <div className="mt-1 text-sm">
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-        <button
-          type="button"
-          onClick={() => setOpen(!open)}
-          aria-expanded={open}
-          className="inline-flex items-center gap-1.5 text-gray-300 hover:text-white"
-        >
-          <span aria-hidden="true" className={`text-xs transition-transform ${open ? "rotate-90" : ""}`}>
-            ▶
-          </span>
-          Expected setlist
-        </button>
+        {hasContent && (
+          <button
+            type="button"
+            onClick={() => setOpen(!open)}
+            aria-expanded={open}
+            className="inline-flex items-center gap-1.5 text-gray-300 hover:text-white"
+          >
+            <span aria-hidden="true" className={`text-xs transition-transform ${open ? "rotate-90" : ""}`}>
+              ▶
+            </span>
+            Setlist stuff
+          </button>
+        )}
 
         {playlistUrl && (
           <a
@@ -53,7 +61,10 @@ export default function ExpectedSetlists({
 
       {open && (
       <div className="mt-2 pl-4 border-l border-gray-800 space-y-4">
-        {special && (
+        {setlists.length > 0 && (
+          <p className="text-xs uppercase tracking-wide text-gray-500 -mb-2">Expected setlist</p>
+        )}
+        {special && setlists.length > 0 && (
           <p className="text-xs text-amber-400">
             Special show: the setlist will likely differ from their usual set.
           </p>
@@ -106,6 +117,15 @@ export default function ExpectedSetlists({
             </div>
           );
         })}
+
+        {latestShows && (
+          <div>
+            {setlists.length > 0 && (
+              <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">Latest shows</p>
+            )}
+            {latestShows}
+          </div>
+        )}
       </div>
       )}
     </div>
