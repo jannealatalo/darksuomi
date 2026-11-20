@@ -36,11 +36,14 @@ export const NO_GIG_RANGE_JOKES = [
   "Nothing for {n} days – a perfect time to finally alphabetise your vinyl.",
   "{n} quiet days. Practise your headbanging in front of the mirror.",
   "No gigs for {n} days. Your band T-shirts deserve a wash.",
-  "{n} days without gigs. Time to finally finish that 40-minute doom song.",
+  "{n} days without gigs. You might want to play [Hillbilly Fuckery](https://open.spotify.com/track/4nrlUlG4vX6CxTxX7Hsbuo) on repeat while waiting for the next gig.",
   "Nothing for {n} days. Your tinnitus will think you've retired.",
   "{n} gigless days. Grow your hair a few millimetres longer.",
   "{n} days of nothing. Even the merch table is lonely.",
   "Nothing for {n} days – go stare at a frozen lake, very black metal.",
+  "{n} days without anything, but no worries, [Ajattara](https://open.spotify.com/artist/19WQljDiwhjoGNc8CMbQgn) has many good albums to check out.",
+  "{n} very quiet days. This is not normal. Is the Simulation failing?",
+  "There's nothing to see in {n} days. But [Rock Siltanen Group](https://open.spotify.com/artist/6ymNbj6lLTOuuqaMsIuFUr) might help with the anxiety.",
 ];
 
 /** Second line of the header; a random one on every visit. */
