@@ -23,6 +23,11 @@ export const NO_GIG_JOKES = [
   "Nothing tonight. Finally time to argue online about the best Children of Bodom album.",
   "Nothing today, a nice day for a funeral.",
   "Nothing today, a good day to listen to the [latest Sunn O))) album](https://open.spotify.com/album/1grbT4stwprQnmPMxshbbI). 10 times.",
+  "No gigs today. A good day to check out [Veriteras' latest album](https://open.spotify.com/album/1DKpwS1MGQMDE46wennc0l).",
+  "Nope. No gigs today. It's [Sorcia](https://open.spotify.com/artist/1Yy3XvKls9yjdnRQAhcrK5) day.",
+  "No gigs today – but there's always [Zombie Eater](https://open.spotify.com/artist/1Gd0bnQiWDvWFnoMSJe2Ll).",
+  "No gigs today, but no worries: play [Year of the Cobra](https://open.spotify.com/artist/1EVrYCCBDAobe64D8pUG0h) on 11.",
+  "No gigs today – check out some old [Indica](https://open.spotify.com/artist/1Nc6H2qbH5SljekjNBTX7m) record instead.",
 ];
 
 /** For several empty days in a row; "{n}" becomes the number of days. */
