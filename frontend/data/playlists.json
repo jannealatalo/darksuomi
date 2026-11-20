@@ -1,4 +1,22 @@
 {
+  "https://clubstadion.fi/tulevat-tapahtumat/": {
+    "id": "0wyyP5WPVlpJDaiESY1b4s",
+    "url": "https://open.spotify.com/playlist/0wyyP5WPVlpJDaiESY1b4s",
+    "hash": "4ee2352be170033f47cdcaa2fb2d3bd0e81872d2",
+    "tracks": 13
+  },
+  "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/": {
+    "id": "32QrjBfURPEAt2RllgJ1H1",
+    "url": "https://open.spotify.com/playlist/32QrjBfURPEAt2RllgJ1H1",
+    "hash": "057a134d3afd9308dd217e246b3034107601497e",
+    "tracks": 11
+  },
+  "https://kulttuuritalo.fi/tapahtuma/2026-11-25/europe-the-final-countdown-40th-anniversary-tour/": {
+    "id": "2ZzqGULT4XDN8s4MG20slW",
+    "url": "https://open.spotify.com/playlist/2ZzqGULT4XDN8s4MG20slW",
+    "hash": "cf1d339aeea9f436dcb2e0d6bb1647022a244fbe",
+    "tracks": 19
+  },
   "https://tavastiaklubi.fi/events/2026-11-19/kauko-royhka-voimaelain/121402/": {
     "id": "3FPSjEPXpR3bVRn6nV9VBu",
     "url": "https://open.spotify.com/playlist/3FPSjEPXpR3bVRn6nV9VBu",
@@ -20,13 +38,13 @@
   "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120874/": {
     "id": "2udZgdysBtJ6fLY7AG5IgB",
     "url": "https://open.spotify.com/playlist/2udZgdysBtJ6fLY7AG5IgB",
-    "hash": "cee082577609279bb6ee11afcb48d3cdb6ac4598",
+    "hash": "f96bf16cc53b781d104595aab259117df94f9ea7",
     "tracks": 16
   },
   "https://tavastiaklubi.fi/events/2026-11-22/michael-monroe-plays-hanoi-rocks/120875/": {
     "id": "4zj9dEZn0o6r38OxG6GDvf",
     "url": "https://open.spotify.com/playlist/4zj9dEZn0o6r38OxG6GDvf",
-    "hash": "cfaa953ba46aa4d4d3c2cba284712821cdd95adb",
+    "hash": "f96bf16cc53b781d104595aab259117df94f9ea7",
     "tracks": 16
   },
   "https://tavastiaklubi.fi/events/2026-11-25/aliisa-syrja/118917/": {
@@ -44,8 +62,8 @@
   "https://tavastiaklubi.fi/events/2026-11-29/master-boot-record-ita-fulci-ita-arottenbit-ita/116589/": {
     "id": "2Qezw5rOFuBuM3UjE71xlH",
     "url": "https://open.spotify.com/playlist/2Qezw5rOFuBuM3UjE71xlH",
-    "hash": "20ce0f3fd592af80ba800ca498c92740477c02a8",
-    "tracks": 25
+    "hash": "088e513957b618980964872659321025266cc989",
+    "tracks": 35
   },
   "https://tavastiaklubi.fi/events/2026-12-01/the-hardkiss-ua/112283/": {
     "id": "6164WwMs9zoXlwL5Enb6du",
@@ -53,11 +71,29 @@
     "hash": "a09ad10888cba41b18e00f8a2fc83691408ab7ad",
     "tracks": 18
   },
+  "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot-dj-paha-hakkaaja/": {
+    "id": "5xoH8UUpZF6Ih6GdkTyKUw",
+    "url": "https://open.spotify.com/playlist/5xoH8UUpZF6Ih6GdkTyKUw",
+    "hash": "b5a2cd4640df14a2d396f241d64587e20922d34c",
+    "tracks": 9
+  },
+  "https://www.tiketti.fi/hellsinki-industrial-festival-2026-tiivistamo-helsinki-lippuja/114451": {
+    "id": "0uA2vAeeXWOTwFiatsqhsr",
+    "url": "https://open.spotify.com/playlist/0uA2vAeeXWOTwFiatsqhsr",
+    "hash": "872d502b2033db63d23b66165a5895809dd1623b",
+    "tracks": 15
+  },
   "https://www.tiketti.fi/hif-2026-pre-club-on-the-rocks-helsinki-lippuja/120878": {
     "id": "0WEOFka8Fx5BfU4guQ12ON",
     "url": "https://open.spotify.com/playlist/0WEOFka8Fx5BfU4guQ12ON",
     "hash": "c3584a35226b115c48c97978187b1b655a055e4b",
     "tracks": 11
+  },
+  "https://www.tiketti.fi/tapahtuma/117803": {
+    "id": "06tl9oERT7yrHXu9BAQ2wL",
+    "url": "https://open.spotify.com/playlist/06tl9oERT7yrHXu9BAQ2wL",
+    "hash": "c3c4a2488c67f899a4af738f74264577df7cfa26",
+    "tracks": 24
   },
   "https://www.tiketti.fi/tapahtuma/119847": {
     "id": "1siQ2TFO3lGVToogXH4Y6l",
@@ -70,5 +106,11 @@
     "url": "https://open.spotify.com/playlist/19JDUk9fyVlLd7HP7h0P4C",
     "hash": "588643f10befeabe05d348b51767219e29dad04c",
     "tracks": 7
+  },
+  "https://www.tiketti.fi/wyatt-e-be-five-the-hierophant-uk-w-radien-bar-loose-lippuja/121030": {
+    "id": "1sz5wQrSgBJfZji7H7t2rH",
+    "url": "https://open.spotify.com/playlist/1sz5wQrSgBJfZji7H7t2rH",
+    "hash": "2502ee7cd69ab60e29814aa25f127acf61c12608",
+    "tracks": 11
   }
 }

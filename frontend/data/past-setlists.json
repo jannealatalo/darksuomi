@@ -1,1 +1,26 @@
-{}
+{
+  "1": {
+    "setlists": {
+      "Kauko Röyhkä": {
+        "url": "https://www.setlist.fm/setlist/kauko-royhka/2026/tavastia-helsinki-finland-4b7aa3f6.html",
+        "songs": 17
+      }
+    },
+    "checked": "2026-11-20"
+  },
+  "84": {
+    "setlists": {},
+    "checked": "2026-11-20"
+  },
+  "187": {
+    "setlists": {}
+  },
+  "223": {
+    "setlists": {},
+    "checked": "2026-11-20"
+  },
+  "283": {
+    "setlists": {},
+    "checked": "2026-11-20"
+  }
+}

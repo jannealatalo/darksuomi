@@ -108,7 +108,7 @@
     ]
   },
   {
-    "artist": "TAITEILE MINULLE TAIVAS : Pinhuusi, Piirimyyjä + open mic, Ayno, Halla",
+    "artist": "TAITEILE MINULLE TAIVAS : Pinhuusi, Piirimyyjä, Pinhuusi, runo open mic, Ayno, Halla",
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
     "date": "2026-11-21T17:00:00",
@@ -121,13 +121,12 @@
     "artists": [
       "Pinhuusi",
       "Piirimyyjä",
-      "open mic",
+      "Pinhuusi",
+      "runo open mic",
       "Ayno",
       "Halla"
     ],
     "genres": [
-      "hip hop",
-      "underground hip hop",
       "rock",
       "pop",
       "k-pop",
@@ -645,6 +644,27 @@
       "Indie Tampereen pikkujoulut"
     ],
     "genres": []
+  },
+  {
+    "artist": "St. Aurora + support: Melankolia",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2026-12-02T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/st-aurora-support-melankolia-02-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/st-aurora-support-melankolia-02-12-2026/",
+    "doors": "19:00",
+    "price": "alk. 19€, ovelta 22€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 202,
+    "artists": [
+      "St. Aurora"
+    ],
+    "genres": [
+      "alternative",
+      "emo",
+      "alternative rock"
+    ]
   },
   {
     "artist": "Aatulove, Jemina -tuplalevynjulkaisukeikka",
@@ -2388,6 +2408,25 @@
     ]
   },
   {
+    "artist": "Trickbag (SWE)",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-10T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/trickbag-swe-10-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/trickbag-swe-10-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 28,50€, ovelta 32€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 203,
+    "artists": [
+      "Trickbag"
+    ],
+    "genres": [
+      "blues"
+    ]
+  },
+  {
     "artist": "Aukusti Koivisto",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -2835,6 +2874,27 @@
     "id": 14,
     "artists": [
       "Ruusut"
+    ],
+    "genres": [
+      "electronic",
+      "synthpop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Ruusut + Kastehelmi",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-02-27T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/ruusut-kastehelmi-27-02-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/ruusut-kastehelmi-27-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 37,50€, ovelta 40€",
+    "age": "K-18",
+    "id": 201,
+    "artists": [
+      "Ruusut",
+      "Kastehelmi"
     ],
     "genres": [
       "electronic",

@@ -92,8 +92,14 @@
     "fetched": "2026-11-19"
   },
   "AARO630": {
-    "source": "error",
-    "tags": []
+    "source": "musicbrainz",
+    "matchedName": "Aaro630",
+    "mbid": "c51c83c6-ccb7-417b-adca-ec9d0aca3cd6",
+    "country": "FI",
+    "tags": [
+      "hip hop"
+    ],
+    "fetched": "2026-11-20"
   },
   "Aatulove": {
     "source": "musicbrainz",
@@ -504,9 +510,19 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Are": {
+    "source": "lastfm",
+    "matchedName": "Are",
+    "tags": [
+      "hip hop",
+      "rap"
+    ],
+    "fetched": "2026-11-20"
+  },
   "Are & Kriso": {
-    "source": "error",
-    "tags": []
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Arja Koriseva X Auringon Lapset": {
     "source": "notfound",
@@ -2381,8 +2397,9 @@
     "fetched": "2026-11-19"
   },
   "GRAVEMARCH": {
-    "source": "error",
-    "tags": []
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Graveyard": {
     "source": "lastfm",
@@ -2699,6 +2716,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Heimosudet": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Hellgate Necrosodomy": {
     "source": "lastfm",
@@ -3570,6 +3592,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kastehelmi": {
+    "source": "musicbrainz",
+    "matchedName": "Kastehelmi",
+    "mbid": "a1106d59-9742-4854-a6f9-022eb1ff62d0",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-20"
+  },
   "KATRI YLANDER": {
     "source": "lastfm",
     "matchedName": "Katri Ylander",
@@ -3874,6 +3904,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Kriso": {
+    "source": "lastfm",
+    "matchedName": "Kriso",
+    "tags": [
+      "hip hop",
+      "rap",
+      "skill street entertainment"
+    ],
+    "fetched": "2026-11-20"
   },
   "Kruna": {
     "source": "musicbrainz",
@@ -4335,6 +4375,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Lust For Lily": {
+    "source": "lastfm",
+    "matchedName": "Lust For Lily",
+    "tags": [
+      "metalcore"
+    ],
+    "fetched": "2026-11-20"
+  },
   "Luxury Toys": {
     "source": "lastfm",
     "matchedName": "Luxury Toys",
@@ -4580,6 +4628,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Markus Krunegård": {
+    "source": "lastfm",
+    "matchedName": "Markus Krunegård",
+    "tags": [
+      "indie pop",
+      "pop",
+      "indie"
+    ],
+    "fetched": "2026-11-20"
+  },
   "Markus Perttula": {
     "source": "lastfm",
     "matchedName": "Markus Perttula",
@@ -4704,6 +4762,14 @@
       "stoner rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Metsatöll": {
+    "source": "lastfm",
+    "matchedName": "Metsatöll",
+    "tags": [
+      "folk metal"
+    ],
+    "fetched": "2026-11-20"
   },
   "MIASMATIC": {
     "source": "lastfm",
@@ -5039,6 +5105,11 @@
       "death n roll"
     ],
     "fetched": "2026-11-19"
+  },
+  "Muusikoiden pikkujouluspesiaali": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Myrkytys": {
     "source": "notfound",
@@ -5558,8 +5629,12 @@
     "fetched": "2026-11-19"
   },
   "Pauli Hanhiniemi": {
-    "source": "error",
-    "tags": []
+    "source": "musicbrainz",
+    "matchedName": "Pauli Hanhiniemi",
+    "mbid": "457c502c-010a-4e24-88d2-404281b8e5d2",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Pave!": {
     "source": "musicbrainz",
@@ -5634,6 +5709,11 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "PERUTTU": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
+  },
   "Pesso": {
     "source": "lastfm",
     "matchedName": "Pesso",
@@ -5686,8 +5766,12 @@
     "fetched": "2026-11-19"
   },
   "PIHALLA": {
-    "source": "error",
-    "tags": []
+    "source": "musicbrainz",
+    "matchedName": "Pihalla",
+    "mbid": "c7ff8807-7eb6-47d2-890c-72ac77fe19b7",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Pihlaja": {
     "source": "musicbrainz",
@@ -5943,8 +6027,12 @@
     "fetched": "2026-11-19"
   },
   "PYRYTHEKID": {
-    "source": "error",
-    "tags": []
+    "source": "musicbrainz",
+    "matchedName": "Pyrythekid",
+    "mbid": "28559765-e142-4bc3-816b-fd09223dfc29",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Pystyyn Kuolleet Hipit": {
     "source": "lastfm",
@@ -6314,8 +6402,14 @@
     "fetched": "2026-11-19"
   },
   "Rotosrock": {
-    "source": "error",
-    "tags": []
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
+  },
+  "runo open mic": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-20"
   },
   "Ruokangas": {
     "source": "notfound",
@@ -7836,6 +7930,14 @@
       "death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Trickbag": {
+    "source": "lastfm",
+    "matchedName": "Trickbag",
+    "tags": [
+      "blues"
+    ],
+    "fetched": "2026-11-20"
   },
   "Trio Libre (Rebecca Roozeman": {
     "source": "notfound",

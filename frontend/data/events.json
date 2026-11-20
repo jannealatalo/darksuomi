@@ -1461,7 +1461,7 @@
     ]
   },
   {
-    "artist": "Disco Night",
+    "artist": "PERUTTU: Disco Night",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2026-11-28T19:30:00",
@@ -1481,7 +1481,7 @@
     "detailsFetched": "2026-11-19",
     "id": 168,
     "artists": [
-      "Disco Night"
+      "PERUTTU"
     ],
     "genres": [
       "viihde"
@@ -1808,6 +1808,28 @@
       "metal"
     ],
     "id": 96,
+    "artists": [
+      "Anvil",
+      "Killer"
+    ],
+    "genres": [
+      "heavy metal",
+      "speed metal",
+      "thrash metal",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Anvil (CAN), Killer (BEL)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-01T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/117803",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/anvil-can-killer-bel/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 426,
     "artists": [
       "Anvil",
       "Killer"
@@ -2716,6 +2738,26 @@
     ]
   },
   {
+    "artist": "Kausti, Heimosudet",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-08T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121286",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/kausti-heimosudet/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 427,
+    "artists": [
+      "Kausti",
+      "Heimosudet"
+    ],
+    "genres": [
+      "rock",
+      "metal"
+    ]
+  },
+  {
     "id": 273,
     "artist": "Joka v*tun keskiviikko: Teemu Vesterinen",
     "venue": "Semifinal",
@@ -3059,6 +3101,28 @@
       "melodic death metal",
       "metal",
       "melodic hardcore"
+    ]
+  },
+  {
+    "artist": "St. Aurora – 6th Birthday Bash, Lust For Lily",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-11T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121809",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/st-aurora-6th-birthday-bash-lust-for-lily/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 428,
+    "artists": [
+      "St. Aurora",
+      "Lust For Lily"
+    ],
+    "genres": [
+      "alternative",
+      "emo",
+      "alternative rock",
+      "metalcore"
     ]
   },
   {
@@ -3413,6 +3477,22 @@
     "genres": [
       "viihde"
     ]
+  },
+  {
+    "artist": "Muusikoiden pikkujouluspesiaali feat. Törkypojat vol. 2",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-15T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122599",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/muusikoiden-pikkujouluspesiaali-feat-torkypojat-vol-2/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 429,
+    "artists": [
+      "Muusikoiden pikkujouluspesiaali"
+    ],
+    "genres": []
   },
   {
     "artist": "Leavings-Orkesteri solistinaan Timo Rautiainen: Varasteleva Joulupukki",
@@ -6297,6 +6377,24 @@
     ]
   },
   {
+    "artist": "Metsatöll (EST)",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-02-13T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122425",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/metsatoll-est/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 430,
+    "artists": [
+      "Metsatöll"
+    ],
+    "genres": [
+      "folk metal"
+    ]
+  },
+  {
     "artist": "Arttu Wiskari – Suomi Finland PRKL",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -7352,6 +7450,26 @@
     ]
   },
   {
+    "id": 425,
+    "artist": "Markus Krunegård (SWE)",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-03-12T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-12/markus-krunegard-swe/122489/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-20",
+    "artists": [
+      "Markus Krunegård"
+    ],
+    "genres": [
+      "indie pop",
+      "pop",
+      "indie"
+    ]
+  },
+  {
     "artist": "TOXIC FEST 2027",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -7873,6 +7991,23 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-19"
+  },
+  {
+    "artist": "Jonna Tervomaa",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-03-31T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/jonna-tervomaa-sellosali-22397627/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq6rflac4",
+    "id": 431,
+    "artists": [
+      "Jonna Tervomaa"
+    ],
+    "genres": [
+      "pop",
+      "rock"
+    ]
   },
   {
     "id": 70,
