@@ -132,7 +132,10 @@ jobs:
 
       - name: Update band directory links
         # MusicBrainz links (+ Spotify search fallback); not critical.
+        # bands.py stops and saves after 8 minutes by itself (the rest is
+        # done the next night); this cap is only for a complete hang.
         continue-on-error: true
+        timeout-minutes: 15
         env:
           SPOTIFY_PLAYLIST_CLIENT_ID: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_ID }}
           SPOTIFY_PLAYLIST_CLIENT_SECRET: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_SECRET }}

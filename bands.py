@@ -41,6 +41,9 @@ BANDS_FILE = DATA_DIR / "bands.json"
 RECHECK_DAYS = 30
 MAX_MB_REQUESTS = 900        # ~15 min at 1 request/second
 MAX_SPOTIFY_SEARCHES = 60    # shares the playlist app's daily limit
+# Stop looking up after this long and save. Bands done so far get today's
+# date and are skipped next time, so a slow night only delays the rest.
+TIME_BUDGET_SECONDS = 8 * 60
 
 # Gigs whose strongest genre is one of these are not band gigs.
 NOT_BANDS = {"stand-up", "dj night", "viihde"}
@@ -216,6 +219,7 @@ def main() -> int:
     spotify = SpotifySearch()
     bands: dict[str, dict] = {}
     looked_up = 0
+    deadline = time.monotonic() + TIME_BUDGET_SECONDS
     try:
         for name in sorted(wanted, key=str.casefold):
             entry = dict(old.get(name, {}))
@@ -228,6 +232,8 @@ def main() -> int:
             if not args.refresh and entry.get("fetched", "") >= stale:
                 bands[name] = entry
                 continue
+            if time.monotonic() > deadline:
+                raise RuntimeError(f"time budget of {TIME_BUDGET_SECONDS // 60} min used")
 
             mbid = genre_entry.get("mbid") or entry.get("mbid")
             if not mbid:
