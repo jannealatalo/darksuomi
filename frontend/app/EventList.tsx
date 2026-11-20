@@ -23,14 +23,17 @@ export default function EventList({
   events,
   isFollowed,
   past = false,
+  jokes = true,
 }: {
   events: Event[];
   isFollowed?: (event: Event) => boolean;
   past?: boolean;
+  /** Off while searching: jokes between search results would be noise. */
+  jokes?: boolean;
 }) {
   const days = groupByDay(events);
   // Empty days in the shown (filtered) list get a joke; not for past gigs.
-  const gaps = past ? new Map<string, GigGap>() : gapsBefore(days);
+  const gaps = past || !jokes ? new Map<string, GigGap>() : gapsBefore(days);
 
   return (
     <div>

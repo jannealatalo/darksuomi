@@ -26,6 +26,8 @@ import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
 import { useEffect, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
 import { CITIES, type CityKey } from "../lib/cities";
+import { matchesSearch } from "../lib/search";
+import SearchBox from "./SearchBox";
 
 /**
  * The gig calendar of one city: Helsinki on the front page, and the
@@ -57,6 +59,7 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
   const [hiddenVenues, setHiddenVenues] = useState<Set<string>>(new Set());
   // Main genres the visitor unticked; empty = every gig is shown.
   const [hiddenGenres, setHiddenGenres] = useState<Set<string>>(new Set());
+  const [search, setSearch] = useState("");
 
   const isFollowedEvent = (event: Event) =>
     eventArtistNames(event).some((name) => followedArtists.has(name));
@@ -85,8 +88,19 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
     }
   }
   const filteredEvents = genreFiltered.filter(
-    (e) => inShownVenues(e) && inPickedGenres(e)
+    (e) => inShownVenues(e) && inPickedGenres(e) && matchesSearch(e, search)
   );
+  const searching = search.trim() !== "";
+  // Matches the filters hide, so a search for a hidden band isn't a dead end.
+  const hiddenMatches = searching
+    ? events.filter((e) => matchesSearch(e, search)).length - filteredEvents.length
+    : 0;
+  const clearFilters = () => {
+    setHiddenGenres(new Set());
+    setHiddenVenues(new Set());
+    setShowAllGenres(true);
+    setShowOnlyFollowed(false);
+  };
 
   const toggleGenre = (genre: string) =>
     setHiddenGenres((prev) => {
@@ -421,18 +435,42 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
 
         <hr className="border-gray-800 mb-6" />
 
+        <div className="mb-6">
+          <SearchBox value={search} onChange={setSearch} />
+          {searching && (
+            <p className="mt-2 text-xs text-gray-500">
+              {filteredEvents.length} {filteredEvents.length === 1 ? "gig" : "gigs"} found
+              {hiddenMatches > 0 && (
+                <>
+                  {" · "}
+                  {hiddenMatches} more hidden by your filters{" "}
+                  <button
+                    type="button"
+                    onClick={clearFilters}
+                    className="text-purple-400 hover:text-purple-300"
+                  >
+                    show them
+                  </button>
+                </>
+              )}
+            </p>
+          )}
+        </div>
+
         {showOnlyFollowed && (
           <p className="text-sm text-green-500 mb-4">Showing only artists you follow</p>
         )}
 
         {filteredEvents.length === 0 ? (
           <p className="text-gray-400">
-            {showOnlyFollowed
-              ? "No upcoming events for artists you follow"
-              : "No upcoming events"}
+            {searching
+              ? "Nothing found. Maybe they broke up. Maybe they never existed."
+              : showOnlyFollowed
+                ? "No upcoming events for artists you follow"
+                : "No upcoming events"}
           </p>
         ) : (
-          <EventList events={filteredEvents} isFollowed={isFollowedEvent} />
+          <EventList events={filteredEvents} isFollowed={isFollowedEvent} jokes={!searching} />
         )}
 
         <SiteFooter />

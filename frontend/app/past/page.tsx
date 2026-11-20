@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getPastEvents } from "../../lib/events";
-import EventList from "../EventList";
+import PastGigList from "./PastGigList";
 import SiteFooter from "../SiteFooter";
 
 export const metadata: Metadata = {
@@ -47,11 +47,7 @@ export default function PastGigsPage() {
           </p>
         </header>
 
-        {events.length === 0 ? (
-          <p className="text-gray-400">No past gigs yet.</p>
-        ) : (
-          <EventList events={events} past />
-        )}
+        <PastGigList events={events} />
 
         <SiteFooter />
       </div>
