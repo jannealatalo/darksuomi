@@ -97,6 +97,20 @@
         "classic rock",
         "rock"
       ]
+    },
+    "Stepa & UMO Helsinki Jazz Orchestra": {
+      "genres": [
+        "jazz",
+        "big band",
+        "rap"
+      ]
+    },
+    "Noora Louhimo": {
+      "genres": [
+        "heavy metal",
+        "power metal",
+        "rock"
+      ]
     }
   },
   "genreFilters": [

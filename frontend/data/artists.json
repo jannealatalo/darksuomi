@@ -2396,6 +2396,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Graham Bonnet": {
+    "source": "lastfm",
+    "matchedName": "Graham Bonnet",
+    "tags": [
+      "hard rock",
+      "classic rock",
+      "rock",
+      "great voice"
+    ],
+    "fetched": "2026-11-20"
+  },
   "GRAVEMARCH": {
     "source": "notfound",
     "tags": [],
@@ -2536,6 +2547,17 @@
       "punk"
     ],
     "fetched": "2026-11-19"
+  },
+  "Halina Rice": {
+    "source": "lastfm",
+    "matchedName": "Halina Rice",
+    "tags": [
+      "electronic",
+      "piano",
+      "techno",
+      "experimental"
+    ],
+    "fetched": "2026-11-20"
   },
   "Halla": {
     "source": "lastfm",
@@ -3518,6 +3540,14 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "KAJ": {
+    "source": "lastfm",
+    "matchedName": "KAJ",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-20"
   },
   "KAJ på Kulturhuset": {
     "source": "notfound",
@@ -4956,6 +4986,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Minttu": {
+    "source": "lastfm",
+    "matchedName": "Minttu",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-20"
+  },
   "Mirkka": {
     "source": "musicbrainz",
     "matchedName": "Mirkka Liimatta",
@@ -5089,6 +5127,16 @@
       "jazz"
     ],
     "fetched": "2026-11-19"
+  },
+  "Mustasch": {
+    "source": "lastfm",
+    "matchedName": "Mustasch",
+    "tags": [
+      "stoner rock",
+      "hard rock",
+      "rock"
+    ],
+    "fetched": "2026-11-20"
   },
   "Mustonen": {
     "source": "notfound",
@@ -7561,6 +7609,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "The Ghoulstars": {
+    "source": "lastfm",
+    "matchedName": "The Ghoulstars",
+    "tags": [
+      "horror punk",
+      "heavy metal"
+    ],
+    "fetched": "2026-11-20"
+  },
   "The Halo Effect": {
     "source": "lastfm",
     "matchedName": "The Halo Effect",
@@ -8648,6 +8705,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Zero Nine": {
+    "source": "lastfm",
+    "matchedName": "Zero Nine",
+    "tags": [
+      "hard rock",
+      "heavy metal",
+      "rock"
+    ],
+    "fetched": "2026-11-20"
   },
   "’áháchí": {
     "source": "notfound",

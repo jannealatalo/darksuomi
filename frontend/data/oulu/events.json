@@ -50,6 +50,34 @@
     ]
   },
   {
+    "artist": "Halina Rice",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-11-20T21:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/halina-rice/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/halina-rice/",
+    "price": "10€",
+    "doors": "21:00",
+    "schedule": [
+      {
+        "time": "22:00",
+        "name": "Halina Rice"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 46,
+    "artists": [
+      "Halina Rice"
+    ],
+    "genres": [
+      "electronic",
+      "piano",
+      "techno",
+      "experimental"
+    ]
+  },
+  {
     "artist": "Vapaat Kädet -festivaalin pääkonsertit: Aprapat, Pietu Arvola, Heta Bilaletdin, Draamakuu, The Fuckings, Manööverit, Resin Organ, Gwenifer Raymond, Antti Rekilä & Hänen Rytmi-Dandynsä",
     "venue": "Tukikohta",
     "city": "Oulu",
@@ -84,6 +112,54 @@
       "folk",
       "guitar",
       "americana"
+    ]
+  },
+  {
+    "artist": "ANKARA: Stam1na, Zero Nine, Mustasch, Graham Bonnet",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-11-21T16:30:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/ankara-graham-bonnet-mustasch-stam1na-zero-nine/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/ankara-graham-bonnet-mustasch-stam1na-zero-nine/",
+    "price": "79,90€ | VIP 99,90€",
+    "doors": "16:30",
+    "schedule": [
+      {
+        "time": "18:00",
+        "name": "Graham Bonnet"
+      },
+      {
+        "time": "19:45",
+        "name": "Mustasch"
+      },
+      {
+        "time": "21:30",
+        "name": "Zero Nine"
+      },
+      {
+        "time": "23:30",
+        "name": "Stam1na"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 47,
+    "artists": [
+      "Stam1na",
+      "Zero Nine",
+      "Mustasch",
+      "Graham Bonnet"
+    ],
+    "genres": [
+      "thrash metal",
+      "progressive metal",
+      "metal",
+      "hard rock",
+      "heavy metal",
+      "rock",
+      "stoner rock",
+      "classic rock",
+      "great voice"
     ]
   },
   {
@@ -252,6 +328,31 @@
     "genres": []
   },
   {
+    "artist": "Mikko Alatalo - MAALAISPOJAN MATKAKERTOMUS",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-03T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/mikko-alatalo-maalaispojan-matkakertomus/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/mikko-alatalo-maalaispojan-matkakertomus/",
+    "price": "34,90€",
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Mikko Alatalo"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 48,
+    "artists": [
+      "Mikko Alatalo"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "artist": "Uleåborg Distortion Fest Vol 3: DRAGSVIK, KÄTYRLAUMA, MAAILMANLOPPU, FERNET UNDERGROUND",
     "venue": "Tukikohta",
     "city": "Oulu",
@@ -272,6 +373,41 @@
       "hardcore",
       "punk",
       "power pop",
+      "indie rock"
+    ]
+  },
+  {
+    "artist": "Arppa - Akustisesti saleissa",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-04T18:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/arppa-akustisesti-saleissa/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/arppa-akustisesti-saleissa/",
+    "price": "34,90€ | VIP 44,90€ (sold out)",
+    "doors": "18:00",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Arppa"
+      },
+      {
+        "time": "19:45",
+        "name": "Väliaika"
+      },
+      {
+        "time": "20:15",
+        "name": "Arppa"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 49,
+    "artists": [
+      "Arppa"
+    ],
+    "genres": [
+      "rock",
+      "pop",
       "indie rock"
     ]
   },
@@ -352,6 +488,31 @@
     "genres": []
   },
   {
+    "artist": "Erika Vikman - Syksy 2026",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/erika-vikman-syksy-2026/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/erika-vikman-syksy-2026/",
+    "price": "39,90€",
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Erika Vikman"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 50,
+    "artists": [
+      "Erika Vikman"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "artist": "Adi L Hasla",
     "venue": "Toppila Klubi",
     "city": "Oulu",
@@ -367,6 +528,31 @@
     "genres": [
       "rap",
       "hip hop"
+    ]
+  },
+  {
+    "artist": "Minttu",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-11T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/minttu/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/minttu/",
+    "price": "26,90€ / VIP 39,90€",
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Minttu"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 51,
+    "artists": [
+      "Minttu"
+    ],
+    "genres": [
+      "pop"
     ]
   },
   {
@@ -387,6 +573,40 @@
       "pop",
       "rock brasil",
       "electropop"
+    ]
+  },
+  {
+    "artist": "Turmion Kätilöt + The Ghoulstars",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/turmion-katilot/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/turmion-katilot/",
+    "price": "36,50€ / VIP 49,50€",
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "The Ghoulstars"
+      },
+      {
+        "time": "21:00",
+        "name": "Turmion Kätilöt"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 52,
+    "artists": [
+      "Turmion Kätilöt",
+      "The Ghoulstars"
+    ],
+    "genres": [
+      "industrial metal",
+      "industrial",
+      "metal",
+      "horror punk",
+      "heavy metal"
     ]
   },
   {
@@ -425,6 +645,33 @@
     ]
   },
   {
+    "artist": "Asa: Terveisiä kaaoksesta 20v",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-17T20:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/asa-terveisia-kaaoksesta-20v/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/asa-terveisia-kaaoksesta-20v/",
+    "price": "25€ / VIP 39,90€",
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Asa"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 53,
+    "artists": [
+      "Asa"
+    ],
+    "genres": [
+      "rap",
+      "hip hop",
+      "political"
+    ]
+  },
+  {
     "artist": "AXEL KALA + PYRYTHEKID",
     "venue": "45 Special",
     "city": "Oulu",
@@ -441,6 +688,29 @@
     "genres": [
       "rap"
     ]
+  },
+  {
+    "artist": "Leavings-Orkesteri solistinaan Timo Rautiainen - Varasteleva Joulupukki",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/leavings-orkesteri-solistinaan-timo-rautiainen-varasteleva-joulupukki/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/leavings-orkesteri-solistinaan-timo-rautiainen-varasteleva-joulupukki/",
+    "price": "39,90€",
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Leavings-Orkesteri solistinaan Timo Rautiainen - Varasteleva Joulupukki"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 54,
+    "artists": [
+      "Leavings-Orkesteri solistinaan Timo Rautiainen"
+    ],
+    "genres": []
   },
   {
     "artist": "YÖLENTO-KLUBIKIERTUE: AARO630 / JAAKKO KULTA / PIHALLA",
@@ -460,6 +730,30 @@
     ],
     "genres": [
       "hip hop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "KAJ",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-19T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/kaj-s/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/kaj-s/",
+    "price": "39,90€",
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "KAJ"
+      }
+    ],
+    "detailsFetched": true,
+    "id": 55,
+    "artists": [
+      "KAJ"
+    ],
+    "genres": [
       "pop"
     ]
   },
@@ -801,6 +1095,31 @@
     ]
   },
   {
+    "artist": "Noora Louhimo - Inner Goddess Spring Tour 2027",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-03-13T21:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/noora-louhimo-inner-goddess-spring-tour-2027/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/noora-louhimo-inner-goddess-spring-tour-2027/",
+    "price": "34,90€",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Noora Louhimo"
+      }
+    ],
+    "detailsFetched": true,
+    "id": 56,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "heavy metal",
+      "power metal",
+      "rock"
+    ]
+  },
+  {
     "artist": "J. Karjalainen",
     "venue": "Tullisali",
     "city": "Oulu",
@@ -849,6 +1168,31 @@
     ]
   },
   {
+    "artist": "louna0nline: starseed album tour",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-03-26T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/louna0nline-starseed-album-tour-s-k18/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/louna0nline-starseed-album-tour-s-k18/",
+    "price": "25€ (S/K18)",
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "louna0nline"
+      }
+    ],
+    "detailsFetched": true,
+    "id": 57,
+    "artists": [
+      "louna0nline"
+    ],
+    "genres": [
+      "electronic",
+      "rap"
+    ]
+  },
+  {
     "artist": "Heikki Hela & Marzi Nyman",
     "venue": "Toppila Klubi",
     "city": "Oulu",
@@ -864,6 +1208,32 @@
     "genres": []
   },
   {
+    "artist": "Vesterinen Yhtyeineen: Paluu klubeille 2027",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-04-03T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/vesterinen-yhtyeineen-paluu-klubeille-2027/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/vesterinen-yhtyeineen-paluu-klubeille-2027/",
+    "price": "39,90€",
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Vesterinen Yhtyeineen"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 58,
+    "artists": [
+      "Vesterinen Yhtyeineen"
+    ],
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "artist": "Lyttä & Tohtori Getto",
     "venue": "45 Special",
     "city": "Oulu",
@@ -877,6 +1247,57 @@
       "Lyttä & Tohtori Getto"
     ],
     "genres": []
+  },
+  {
+    "artist": "Nelli Matula",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-04-17T20:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/nelli-matula/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/nelli-matula/",
+    "price": "32,90€",
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Nelli Matula"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 59,
+    "artists": [
+      "Nelli Matula"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Stepa & UMO Helsinki Jazz Orchestra",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-04-29T19:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/stepa-umo-helsinki-jazz-orchestra/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/stepa-umo-helsinki-jazz-orchestra/",
+    "price": "42,90€",
+    "schedule": [
+      {
+        "time": "19:00",
+        "name": "Stepa & UMO Helsinki Jazz Orchestra"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 60,
+    "artists": [
+      "Stepa & UMO Helsinki Jazz Orchestra"
+    ],
+    "genres": [
+      "jazz",
+      "big band",
+      "rap"
+    ]
   },
   {
     "artist": "Rokki Raikaa Oulu 2027 (2.–3.7.): D-A-D, Tarja Turunen, Sonata Arctica, Lordi, The 69 Eyes, Korpiklaani, Insomnium, Leningrad Cowboys, Charon, Huora, Sara",

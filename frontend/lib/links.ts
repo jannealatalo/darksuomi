@@ -27,6 +27,7 @@ export const VENUE_LINKS: Record<string, string> = {
   // Oulu (experimental site)
   "45 Special": "https://45special.com/",
   Tullisali: "https://www.tullisali.fi/",
+  Tarkastamo: "https://tarkastamo-oulu.fi/tapahtumat/",
   "Toppila Klubi": "https://toppilaklubi.fi/",
   "Oulun Musiikkikeskus": "https://www.oulunmusiikkikeskus.fi/",
   "Ouluhallin parkkialue (Rokki Raikaa)": "https://rokkiraikaa.fi/oulu-2027/",
