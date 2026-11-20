@@ -117,7 +117,8 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
       <div className="max-w-4xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 mb-8">
           <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-            <h1>
+            {/* shrink-0: long header text must not squeeze the square logo. */}
+            <h1 className="shrink-0">
               {/* On the city sites the logo leads back to the main (Helsinki) site. */}
               <Link href="/" aria-label={isMain ? undefined : "Dark Suomi Helsinki"}>
                 <Image
