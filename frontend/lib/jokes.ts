@@ -38,6 +38,19 @@ export const NO_GIG_RANGE_JOKES = [
   "Nothing for {n} days – go stare at a frozen lake, very black metal.",
 ];
 
+/** Second line of the header; a random one on every visit. */
+export const TAGLINES = [
+  "Life is short, winters are long. Go see a band.",
+  "Sunlight is overrated anyway.",
+  "Cheaper than therapy, louder too.",
+  "It's dark outside anyway.",
+  "Bring earplugs. Leave hope at the door.",
+  "Seasonal affective disorder, now with a soundtrack.",
+  "Black clothes are always in season here.",
+  "Nobody smiles at a doom gig. Perfect.",
+  "No small talk needed. The band is too loud anyway.",
+];
+
 /** The same date always gets the same joke (stable across page loads). */
 function pick(list: string[], key: string): string {
   let hash = 0;

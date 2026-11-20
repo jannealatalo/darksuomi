@@ -23,7 +23,8 @@ import {
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { TAGLINES } from "../lib/jokes";
 import { CITIES, type CityKey } from "../lib/cities";
 
 /**
@@ -44,6 +45,13 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
       : spotifyError
         ? "Couldn't load your Spotify artists. Try logging in again."
         : null;
+  // The page is pre-rendered, so the random tagline is picked in the
+  // browser after load (null until then, keeping server and client equal).
+  const [tagline, setTagline] = useState<string | null>(null);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one random pick per visit
+    setTagline(TAGLINES[Math.floor(Math.random() * TAGLINES.length)]);
+  }, []);
   const [showOnlyFollowed, setShowOnlyFollowed] = useState(false);
   const [showAllGenres, setShowAllGenres] = useState(false);
   const [hiddenVenues, setHiddenVenues] = useState<Set<string>>(new Set());
@@ -124,6 +132,20 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
               </Link>
             </h1>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
+              {/* What the site is, in one breath. */}
+              <span className="block text-gray-200">
+                List of dark and loud gigs in{" "}
+                {isMain ? "Helsinki-Espoo" : CITIES.find((c) => c.key === city)?.name} area from
+                the main venues on one page.
+              </span>
+              {/* Fixed height, so the page doesn't jump when the line appears. */}
+              <span
+                className={`block mb-2 min-h-[1.5em] text-xs sm:text-sm text-gray-500 italic transition-opacity duration-500 ${
+                  tagline ? "opacity-100" : "opacity-0"
+                }`}
+              >
+                {tagline ?? " "}
+              </span>
               {[GENRE_FILTER_NAMES.slice(0, 6), GENRE_FILTER_NAMES.slice(6)].map((row) => (
                 <span key={row[0]} className="block">
                   {row.map((genre, i) => (
