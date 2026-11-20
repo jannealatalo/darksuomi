@@ -116,10 +116,23 @@ def main(list_url: str = LIST_URL, venue: str = VENUE) -> int:
 
     by_key = {key(e): e for e in events}
     by_url = {e["eventUrl"]: e for e in events if e.get("eventUrl")}
+
+    # A renamed gig ("Killer (BE)" -> "Killer (BEL)") gets a new page address
+    # too, but keeps its ticket link; match on that so it isn't added twice.
+    def ticket_key(e: dict) -> tuple | None:
+        if not e.get("ticketUrl") or e["ticketUrl"] == e.get("eventUrl"):
+            return None
+        return (e["venue"], e["date"][:10], e["ticketUrl"])
+
+    by_ticket = {ticket_key(e): e for e in events if ticket_key(e)}
     next_id = max((e.get("id", 0) for e in events), default=0) + 1
     added = 0
     for event in scraped:
         existing = by_url.get(event["eventUrl"]) or by_key.get(key(event))
+        renamed = None if existing else by_ticket.get(ticket_key(event))
+        if renamed:
+            renamed["artist"] = event["artist"]
+            existing = renamed
         if existing:
             # Keep details current (time, ticket link, venue genres).
             for field in ("date", "ticketUrl", "eventUrl", "venueGenres"):

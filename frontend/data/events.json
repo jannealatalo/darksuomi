@@ -1813,28 +1813,6 @@
     "detailsFetched": "2026-11-21"
   },
   {
-    "artist": "Anvil (CAN), Killer (BE)",
-    "venue": "On the Rocks",
-    "city": "Helsinki",
-    "date": "2026-12-01T19:00:00",
-    "ticketUrl": "https://www.tiketti.fi/tapahtuma/117803",
-    "eventUrl": "https://www.rocks.fi/tapahtumat/anvil-can-killer-be/",
-    "venueGenres": [
-      "metal"
-    ],
-    "id": 96,
-    "artists": [
-      "Anvil",
-      "Killer"
-    ],
-    "genres": [
-      "heavy metal",
-      "speed metal",
-      "thrash metal",
-      "rock"
-    ]
-  },
-  {
     "artist": "Anvil (CAN), Killer (BEL)",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -1844,7 +1822,7 @@
     "venueGenres": [
       "metal"
     ],
-    "id": 426,
+    "id": 96,
     "artists": [
       "Anvil",
       "Killer"
@@ -2749,25 +2727,6 @@
     ]
   },
   {
-    "artist": "Kausti",
-    "venue": "On the Rocks",
-    "city": "Helsinki",
-    "date": "2026-12-08T19:00:00",
-    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121286",
-    "eventUrl": "https://www.rocks.fi/tapahtumat/kausti/",
-    "venueGenres": [
-      "metal"
-    ],
-    "id": 104,
-    "artists": [
-      "Kausti"
-    ],
-    "genres": [
-      "rock",
-      "metal"
-    ]
-  },
-  {
     "artist": "Kausti, Heimosudet",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -2777,7 +2736,7 @@
     "venueGenres": [
       "metal"
     ],
-    "id": 427,
+    "id": 104,
     "artists": [
       "Kausti",
       "Heimosudet"
@@ -3066,23 +3025,25 @@
     "detailsFetched": "2026-11-21"
   },
   {
-    "artist": "St. Aurora – 6th Birthday Bash",
+    "artist": "St. Aurora – 6th Birthday Bash, Lust For Lily",
     "venue": "On the Rocks",
     "city": "Helsinki",
     "date": "2026-12-11T20:00:00",
     "ticketUrl": "https://www.tiketti.fi/tapahtuma/121809",
-    "eventUrl": "https://www.rocks.fi/tapahtumat/st-aurora-6th-birthday-bash/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/st-aurora-6th-birthday-bash-lust-for-lily/",
     "venueGenres": [
       "rock"
     ],
     "id": 107,
     "artists": [
-      "St. Aurora"
+      "St. Aurora",
+      "Lust For Lily"
     ],
     "genres": [
       "alternative",
       "emo",
-      "alternative rock"
+      "alternative rock",
+      "metalcore"
     ]
   },
   {
@@ -3135,28 +3096,6 @@
       "melodic death metal",
       "metal",
       "melodic hardcore"
-    ]
-  },
-  {
-    "artist": "St. Aurora – 6th Birthday Bash, Lust For Lily",
-    "venue": "On the Rocks",
-    "city": "Helsinki",
-    "date": "2026-12-11T20:00:00",
-    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121809",
-    "eventUrl": "https://www.rocks.fi/tapahtumat/st-aurora-6th-birthday-bash-lust-for-lily/",
-    "venueGenres": [
-      "rock"
-    ],
-    "id": 428,
-    "artists": [
-      "St. Aurora",
-      "Lust For Lily"
-    ],
-    "genres": [
-      "alternative",
-      "emo",
-      "alternative rock",
-      "metalcore"
     ]
   },
   {
