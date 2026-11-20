@@ -17,7 +17,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 187,
     "artists": [
       "A.W. Yrjänä Eidolon",
@@ -49,8 +48,7 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "doors": "19:00"
   },
   {
     "artist": "Hellsinki Industrial Festival 2026 Pre-Club: Scheitan (SWE), Agent Side Grinder (SWE), Stuka, Akathartos, DJ Vade Retro (GBR)",
@@ -205,7 +203,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 198,
     "artists": [
       "Suomi Nauraa"
@@ -251,7 +248,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "TINA"
     ],
@@ -288,8 +284,7 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "doors": "20:00"
   },
   {
     "artist": "Timo Pieni Huijaus (levyjulkkarit), Tiia Karoliina, KC4",
@@ -442,7 +437,8 @@
     "age": "Ikärajaton",
     "room": "Tavastia-klubi",
     "doors": "11:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Hellsinki Industrial Festival 2026: Gothminister (NO), Das Ich (DE), Kontravoid (US), Eggvn (MEX), Ambassador21 (BY), Uhrisavu, Sekret Teknik, Dead Undying",
@@ -500,14 +496,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 217,
     "artists": [
       "Ho",
       "Ho",
       "Ho"
     ],
-    "genres": []
+    "genres": [],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Päkä – Pullomeri, levyjulkkarit",
@@ -585,7 +582,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "48 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Paara (levyjulkkarit), Svarta Havet",
@@ -623,7 +621,6 @@
     ],
     "doors": "20:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 205,
     "artists": [
       "Wasted",
@@ -636,7 +633,9 @@
       "finnish punk",
       "hardcore",
       "hardcore punk"
-    ]
+    ],
+    "price": "alk. 29,10€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Ongelma + Katujen Äänet + Karanneet Käärmeet + Villit Nautinnot + DJ Paha Hakkaaja",
@@ -740,7 +739,8 @@
     "age": "Ikärajaton",
     "room": "Tavastia-klubi",
     "doors": "14:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "ARTMS World Tour – Art of BLUE BLOOD",
@@ -760,14 +760,15 @@
       }
     ],
     "age": "S, osa katsomosta K-18",
-    "detailsFetched": "2026-11-19",
     "id": 186,
     "artists": [
       "ARTMS World"
     ],
     "genres": [
       "pop"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 6,
@@ -793,7 +794,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:30",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
@@ -875,7 +877,6 @@
     "venueGenres": [],
     "doors": "17:30",
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 222,
     "artists": [
       "Europe"
@@ -884,7 +885,9 @@
       "hard rock",
       "rock",
       "classic rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 266,
@@ -902,14 +905,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Joka v*tun keskiviikko"
     ],
     "genres": [
       "stand-up"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 7,
@@ -933,7 +937,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "28 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Hulda Huima, Ani Harmi",
@@ -1048,7 +1053,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Röge"
     ],
@@ -1056,7 +1060,9 @@
       "hip hop",
       "rap"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "18 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Krypta, Petri Kautto (soolo)",
@@ -1204,7 +1210,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Death Hawks, Idän Voima",
@@ -1411,14 +1418,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 203,
     "artists": [
       "Mimmien pikkujoulut -stand up show"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 26,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Roky Erickson -tribute, Wolfmen",
@@ -1461,7 +1469,7 @@
     ]
   },
   {
-    "artist": "PERUTTU: Disco Night",
+    "artist": "Disco Night",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2026-11-28T19:30:00",
@@ -1478,14 +1486,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 168,
     "artists": [
-      "PERUTTU"
+      "Disco Night"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 268,
@@ -1497,7 +1506,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "What Awaits Us",
       "Traitors Among Us",
@@ -1508,7 +1516,9 @@
       "electronic",
       "post-hardcore"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "15 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 9,
@@ -1533,7 +1543,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Stepa & Heimo Ilman Menneisyyttä, AB",
@@ -1675,7 +1686,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "MOON WALKER (USA)",
@@ -1714,7 +1726,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 179,
     "artists": [
       "Cory Henry"
@@ -1722,7 +1733,9 @@
     "genres": [
       "jazz",
       "funk"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "HEO On The Rocks",
@@ -1768,14 +1781,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Kuudesta Kymmeneen"
     ],
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "18€ at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 11,
@@ -1795,7 +1809,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "55 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Anvil (CAN), Killer (BE)",
@@ -1857,14 +1872,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Joka v*tun keskiviikko"
     ],
     "genres": [
       "stand-up"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "20 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Dolly Parton Tribute",
@@ -1884,14 +1900,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 181,
     "artists": [
       "Dolly Parton Tribute"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 28,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "LOUDER: Søndag, Shere Khan, Limaiset Sedät",
@@ -1934,7 +1951,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "status": "cancelled",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "SWINGIN’ CHRISTMAS: Reunion Big Band & Alex Ikonen",
@@ -2057,14 +2075,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Club Eternal Flame"
     ],
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "12 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Aeonian Sorrow (FIN/GRE), As The Sun Falls, Halls Of Oblivion (GER)",
@@ -2101,7 +2120,6 @@
     ],
     "doors": "19:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 183,
     "artists": [
       "Joshua Idehen",
@@ -2113,7 +2131,9 @@
       "soul",
       "pop",
       "spoken word"
-    ]
+    ],
+    "price": "alk. 27,90€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The 69 Eyes",
@@ -2196,7 +2216,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Sonia, Leyla",
@@ -2229,7 +2250,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "LEFT"
     ],
@@ -2239,7 +2259,9 @@
       "nu metal",
       "instrumental"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "15 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "ALLT (SWE), Avralize (GER), Bite Down (SWE)",
@@ -2264,7 +2286,8 @@
       "thall",
       "alternative metal",
       "hardcore"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Rearviewmirror – A Tribute to Pearl Jam",
@@ -2373,6 +2396,8 @@
       "Noora Louhimo"
     ],
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ]
   },
@@ -2394,14 +2419,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 163,
     "artists": [
       "FCF Wrestling"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 25,90€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "HECTOR 60V TAITEILIJAJUHLA",
@@ -2443,7 +2469,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "58 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Jokrates – missä sä haluisit olla? -albumikiertue",
@@ -2480,6 +2507,8 @@
       "Noora Louhimo"
     ],
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ]
   },
@@ -2685,7 +2714,6 @@
       }
     ],
     "age": "S, osa katsomosta K-18",
-    "detailsFetched": "2026-11-19",
     "id": 213,
     "artists": [
       "Alice"
@@ -2694,7 +2722,9 @@
       "pop",
       "progressive rock",
       "rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Pitbull - I'm Back!",
@@ -2773,14 +2803,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Joka v*tun keskiviikko"
     ],
     "genres": [
       "stand-up"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Hemma Beast – ”Lihaa ja kissa”",
@@ -2888,7 +2919,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "MARIANAS REST – The Last Dance: A Night of Remembrance",
@@ -2988,14 +3020,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 215,
     "artists": [
       "Black Devils"
     ],
     "genres": [
       "freakbeat"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Alma Alanko + support (TBA)",
@@ -3029,7 +3062,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "St. Aurora – 6th Birthday Bash",
@@ -3159,7 +3193,8 @@
     "age": "Ikärajaton",
     "room": "Tavastia-klubi",
     "doors": "15:00",
-    "detailsFetched": "2026-11-19"
+    "price": "50 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Arppa – Akustisesti saleissa",
@@ -3179,7 +3214,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 210,
     "artists": [
       "Arppa"
@@ -3188,7 +3222,9 @@
       "rock",
       "pop",
       "indie rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Yllätysten ilta -stand up",
@@ -3208,14 +3244,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 220,
     "artists": [
       "Yllätysten ilta -stand up"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 26,50€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Turisti presents: Magic City Arena Tour",
@@ -3300,7 +3337,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The Ocean (GER), Psychonaut (BEL), Pothamus (BEL)",
@@ -3325,7 +3363,8 @@
       "experimental",
       "sludge metal",
       "post-rock"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Vainoa 10v. w/ Surut, Vvorse, Svarta Havet",
@@ -3469,14 +3508,15 @@
       }
     ],
     "age": "Ei ikärajaa",
-    "detailsFetched": "2026-11-19",
     "id": 171,
     "artists": [
       "Sibelius-lukion JouluShow"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Muusikoiden pikkujouluspesiaali feat. Törkypojat vol. 2",
@@ -3512,14 +3552,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 219,
     "artists": [
       "Leavings-Orkesteri solistinaan Timo Rautiainen"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 19,
@@ -3539,7 +3580,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "33 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Plusminuszero, Delfoi Road",
@@ -3610,14 +3652,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 151,
     "artists": [
       "Metallica Tribute with producer Flemming Rasmussen"
     ],
     "genres": [
       "rock"
-    ]
+    ],
+    "price": "alk. 15,50€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Jesse Kaikuranta: Christmas Jazz",
@@ -3656,7 +3699,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "36 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Marko Haavisto & Poutahaukat",
@@ -3733,7 +3777,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 158,
     "artists": [
       "Flok"
@@ -3742,7 +3785,9 @@
       "noise",
       "lo-fi",
       "shoegazer"
-    ]
+    ],
+    "price": "alk. 30,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Raskasta Joulua",
@@ -3806,7 +3851,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 211,
     "artists": [
       "Maija Vilkkumaa"
@@ -3815,7 +3859,9 @@
       "rock",
       "singer-songwriter",
       "pop"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Johanna Försti: Mistä Tuntee Joulun?",
@@ -3848,7 +3894,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Combichrist (USA): Old School Electro Set, Sirkuit Preiker",
@@ -3956,7 +4003,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 212,
     "artists": [
       "Antti Autio"
@@ -3964,7 +4010,9 @@
     "genres": [
       "indie",
       "singer-songwriter"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Under the Mistle Tease 2026",
@@ -3984,14 +4032,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 137,
     "artists": [
       "Under the Mistle Tease"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 36,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 22,
@@ -4010,7 +4059,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "36 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Lemonator, Ben’s Diapers",
@@ -4085,14 +4135,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 193,
     "artists": [
       "Jag är Carola"
     ],
     "genres": [
       "pop"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 23,
@@ -4108,7 +4159,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19"
+    "price": "10 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 274,
@@ -4120,7 +4172,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Kosto",
       "Arseeni"
@@ -4128,7 +4179,9 @@
     "genres": [
       "hardcore"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "16 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Aino & Hajonneet – Livee & Lovee",
@@ -4162,7 +4215,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "23:30",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Aivovuoto, Eevil Stöö, DJ Kridlokk: UG Tapes",
@@ -4207,7 +4260,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "30 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 26,
@@ -4224,7 +4278,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "We Love Helsinki: Uudenvuodentanssit 2027",
@@ -4271,14 +4326,15 @@
     "venueGenres": [],
     "doors": "21:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 143,
     "artists": [
       "Kultsan uudenvuoden disko"
     ],
     "genres": [
       "dj night"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 27,
@@ -4302,7 +4358,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "28 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 275,
@@ -4314,7 +4371,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Kaikkeus",
       "Vaasa Palaa"
@@ -4322,7 +4378,9 @@
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "16 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 28,
@@ -4341,7 +4399,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "30 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Jonne (levyjulkkarit), Shaman, The Paisleys",
@@ -4409,7 +4468,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Dan and Phil – The Hard Launch World Tour (Lisäkeikka)",
@@ -4429,14 +4489,15 @@
       }
     ],
     "age": "Ei ikärajaa",
-    "detailsFetched": "2026-11-19",
     "id": 191,
     "artists": [
       "Dan and Phil"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 276,
@@ -4448,7 +4509,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Muddy Moonshine",
       "Northeast Gale",
@@ -4457,7 +4517,9 @@
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "14 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 30,
@@ -4475,7 +4537,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Dan and Phil – The Hard Launch World Tour",
@@ -4495,14 +4558,15 @@
       }
     ],
     "age": "Ei ikärajaa",
-    "detailsFetched": "2026-11-19",
     "id": 200,
     "artists": [
       "Dan and Phil"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Griefton Sons + Barnyard Pickers",
@@ -4522,7 +4586,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 147,
     "artists": [
       "Griefton Sons",
@@ -4530,7 +4593,9 @@
     ],
     "genres": [
       "blues"
-    ]
+    ],
+    "price": "alk. 20,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 277,
@@ -4542,7 +4607,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Einvigi",
       "The Mist from the Mountains",
@@ -4555,7 +4619,9 @@
       "black metal",
       "melodic black metal"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "18 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 31,
@@ -4573,7 +4639,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Berlin Project III – David Bowie 80th Anniversary Tribute Show",
@@ -4676,12 +4743,13 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 202,
     "artists": [
       "Uudenvuoden Wieniläiskonsertti"
     ],
-    "genres": []
+    "genres": [],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Uudenvuoden Wieniläiskonsertti: Schönbrunnin Linnanorkesteri (klo 19:00 näytös)",
@@ -4699,12 +4767,13 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 201,
     "artists": [
       "Uudenvuoden Wieniläiskonsertti"
     ],
-    "genres": []
+    "genres": [],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 32,
@@ -4722,7 +4791,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "32 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Kirkkovene, Kirkkovene & Eero Eksyksissä plays Tyrävyö, Aspesti",
@@ -4779,11 +4849,11 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Heikki Puska"
     ],
-    "genres": []
+    "genres": [],
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Drink Floyd",
@@ -4817,7 +4887,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 154,
     "artists": [
       "Fear of Domination",
@@ -4830,7 +4899,9 @@
       "death metal",
       "metal",
       "new zealand"
-    ]
+    ],
+    "price": "alk. 22,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Lämpiöklubi: Hulda Huima",
@@ -4887,7 +4958,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "30 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Remedy (SWE)",
@@ -4927,7 +4999,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 145,
     "artists": [
       "Anis Kiitu",
@@ -4937,7 +5008,9 @@
     "genres": [
       "folk",
       "acoustic"
-    ]
+    ],
+    "price": "alk. 20,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Never Obey Again, Balance Breach, Silence The Echo",
@@ -4990,7 +5063,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "30 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The Coldest Chapter: Scythe Of Sorrow + Frostbite Terror + Rose Heaven",
@@ -5032,14 +5106,15 @@
       }
     ],
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 199,
     "artists": [
       "Lords of the Sound"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 35,
@@ -5061,7 +5136,8 @@
     "age": "Ikärajaton",
     "room": "Tavastia-klubi",
     "doors": "17:30",
-    "detailsFetched": "2026-11-19"
+    "price": "25 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Kevin Bridges: Here If You Need Me – European Tour 2026/27",
@@ -5081,14 +5157,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 218,
     "artists": [
       "Kevin Bridges"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Jazz Sabbath (UK)",
@@ -5120,7 +5197,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "32 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Wolfram, Pretty",
@@ -5180,7 +5258,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 185,
     "artists": [
       "UNKIND",
@@ -5192,7 +5269,9 @@
       "neocrust",
       "hardcore punk",
       "d-beat"
-    ]
+    ],
+    "price": "alk. 25,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Mirkka & Flores",
@@ -5255,7 +5334,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "42 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Nordic Metal Exchange: Prestige + Sgt. Slime + Torp + Bloodblind",
@@ -5318,14 +5398,15 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 166,
     "artists": [
       "Joutsenlampi"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 38,
@@ -5350,7 +5431,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "26 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Sin Cos Tan, Ty Roxy",
@@ -5441,14 +5523,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 146,
     "artists": [
       "Ismo Leikola"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Lämpiöklubi: Aizhan Sultan",
@@ -5483,7 +5566,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 164,
     "artists": [
       "Rakkaudella Rauli"
@@ -5491,7 +5573,9 @@
     "genres": [
       "viihde",
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Salaliitto + Markus Perttula",
@@ -5513,7 +5597,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 140,
     "artists": [
       "Salaliitto",
@@ -5524,7 +5607,9 @@
       "indie",
       "singer-songwriter",
       "indie folk"
-    ]
+    ],
+    "price": "alk. 25,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Lämpiöklubi: The Moontwins",
@@ -5573,14 +5658,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Helsinski"
     ],
     "genres": [
       "pop"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "16 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 39,
@@ -5600,7 +5686,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 30.1.2026",
@@ -5621,7 +5708,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 165,
     "artists": [
       "Rakkaudella Rauli"
@@ -5629,7 +5715,9 @@
     "genres": [
       "viihde",
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Alchemy – Dire Straits 50th Anniversary",
@@ -5696,7 +5784,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "32 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Bullet For My Valentine, Pendulum, Dark Divine",
@@ -5735,7 +5824,6 @@
     ],
     "doors": "18:30",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 206,
     "artists": [
       "Imminence"
@@ -5743,7 +5831,9 @@
     "genres": [
       "metalcore",
       "post-hardcore"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 41,
@@ -5765,7 +5855,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Night Lovell",
@@ -5779,7 +5869,6 @@
     ],
     "doors": "18:00",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 172,
     "artists": [
       "Night Lovell"
@@ -5789,7 +5878,9 @@
       "hip hop",
       "rap",
       "trap"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Jussi Hakulisen laulut: Mikko Kangasjärvi, Markus Salo ja Jari Latomaa",
@@ -5811,7 +5902,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 144,
     "artists": [
       "Mikko Kangasjärvi",
@@ -5821,7 +5911,9 @@
       "blues",
       "pop",
       "rock"
-    ]
+    ],
+    "price": "alk. 33,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Ane Brun (NO) – I Thought We Were The Same Nordic Tour 2027",
@@ -5835,7 +5927,6 @@
     ],
     "doors": "18:00",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 160,
     "artists": [
       "Ane Brun"
@@ -5844,7 +5935,9 @@
       "singer-songwriter",
       "acoustic",
       "indie"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 42,
@@ -5865,7 +5958,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "49 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Vimma",
@@ -5923,7 +6017,8 @@
     ],
     "age": "Ikärajaton",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 44,
@@ -5941,7 +6036,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Loboda",
@@ -5977,7 +6073,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 221,
     "artists": [
       "10cc"
@@ -5986,7 +6081,9 @@
       "classic rock",
       "rock",
       "pop"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Helsinki Must Be Destroyed",
@@ -6018,7 +6115,6 @@
     ],
     "doors": "17:30",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 190,
     "artists": [
       "Floor Jansen"
@@ -6027,7 +6123,9 @@
       "symphonic metal",
       "female fronted metal",
       "better than tarja"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Night of Famous Musicals",
@@ -6047,14 +6145,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 189,
     "artists": [
       "Night of Famous Musicals"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Slomosa (NOR)",
@@ -6087,7 +6186,6 @@
     ],
     "doors": "18:00",
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 184,
     "artists": [
       "Baby Lasagna"
@@ -6098,7 +6196,9 @@
       "techno",
       "house",
       "industrial metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 45,
@@ -6114,7 +6214,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Thomas Green (AUS): Brainstorm",
@@ -6218,14 +6319,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Aukusti Koivisto"
     ],
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "24 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 46,
@@ -6252,7 +6354,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Dawn Of Solace (levyjulkkarit)",
@@ -6293,14 +6396,15 @@
       }
     ],
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 148,
     "artists": [
       "Iconic Voices of Enigma Live Show"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 48,
@@ -6320,7 +6424,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19"
+    "price": "40 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Kalush Orchestra (UA)",
@@ -6341,14 +6446,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 142,
     "artists": [
       "Kalush Orchestra"
     ],
     "genres": [
       "rap"
-    ]
+    ],
+    "price": "alk. 35,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "TX2 (US)",
@@ -6412,7 +6518,6 @@
       }
     ],
     "age": "Ei ikärajaa",
-    "detailsFetched": "2026-11-19",
     "id": 159,
     "artists": [
       "Arttu Wiskari"
@@ -6420,7 +6525,9 @@
     "genres": [
       "pop",
       "singer-songwriter"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 49,
@@ -6438,7 +6545,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Emil Karlsen (SÁ/NO)",
@@ -6498,7 +6605,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Freud Marx Engels & Jung Revisited",
@@ -6581,7 +6689,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Andy and the Rockets (SWE)",
@@ -6647,7 +6756,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "36 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Five Finger Death Punch: 20th Anniversary World Tour",
@@ -6683,7 +6793,6 @@
     ],
     "doors": "17:30",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 208,
     "artists": [
       "Tarja Turunen"
@@ -6691,7 +6800,9 @@
     "genres": [
       "symphonic metal",
       "female fronted metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 54,
@@ -6712,7 +6823,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "EDU 50 vee JUHLAVUOSI: Edumania + Edu Kehäkettunen (levyjulkkarit)",
@@ -6759,7 +6870,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Whitechapel – Burn Forever Tour",
@@ -6773,7 +6885,6 @@
     ],
     "doors": "18:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 170,
     "artists": [
       "Whitechapel"
@@ -6782,7 +6893,9 @@
       "deathcore",
       "death metal",
       "brutal deathcore"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "MUSAMUSA-klubi: JATAO + Mansion + Pääkallo",
@@ -6800,7 +6913,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 139,
     "artists": [
       "JATAO",
@@ -6815,7 +6927,9 @@
       "progressive rock",
       "finnish occult rock",
       "finnish prog rock"
-    ]
+    ],
+    "price": "alk. 25,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Penniless, Suosikki",
@@ -6853,14 +6967,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "MOMO"
     ],
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "17 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 56,
@@ -6884,7 +6999,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Church of Britney",
@@ -6920,7 +7036,6 @@
     ],
     "doors": "18:30",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 207,
     "artists": [
       "Morgan Jay"
@@ -6932,7 +7047,9 @@
       "electronic",
       "autotune",
       "edm"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 57,
@@ -6950,7 +7067,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Morgan Jay: La Dolce Vita Tour",
@@ -6964,7 +7081,6 @@
     ],
     "doors": "18:30",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 209,
     "artists": [
       "Morgan Jay"
@@ -6976,7 +7092,9 @@
       "electronic",
       "autotune",
       "edm"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 58,
@@ -6995,7 +7113,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "36 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Pussy Riot: Riot Days",
@@ -7038,7 +7157,6 @@
       }
     ],
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 176,
     "artists": [
       "MALEVO"
@@ -7046,7 +7164,9 @@
     "genres": [
       "tango",
       "electronic"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The House Is Rockin: Songs of Tina Turner and Elton John",
@@ -7143,7 +7263,6 @@
     ],
     "doors": "16:45",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 157,
     "artists": [
       "Saxon"
@@ -7153,7 +7272,9 @@
       "nwobhm",
       "hard rock",
       "metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 59,
@@ -7178,7 +7299,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "EU VOMITOUR 2027 – TRUE SLAM EDITION: Party Cannon, Internal Bleeding, Guttural Slug",
@@ -7221,14 +7343,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 204,
     "artists": [
       "DANIEL SLOSS"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 60,
@@ -7253,7 +7376,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 61,
@@ -7273,7 +7396,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:30",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Brujeria (MX) + Criminal (CL) + Terror Shark",
@@ -7287,7 +7411,6 @@
     ],
     "doors": "19:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 174,
     "artists": [
       "Brujeria",
@@ -7304,7 +7427,9 @@
       "metal",
       "hardcore",
       "hardcore metal"
-    ]
+    ],
+    "price": "alk. 33,60€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "MICHAEL STARRING BEN – DIRECT FROM LONDON’S WEST END",
@@ -7325,7 +7450,6 @@
       }
     ],
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 175,
     "artists": [
       "MICHAEL STARRING BEN"
@@ -7333,7 +7457,9 @@
     "genres": [
       "viihde",
       "pop"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 62,
@@ -7352,7 +7478,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Noora Louhimo – Inner Goddess Spring Tour 2027 -S- /",
@@ -7373,6 +7499,8 @@
       "Noora Louhimo"
     ],
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ]
   },
@@ -7395,7 +7523,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 178,
     "artists": [
       "Haloo Helsinki!"
@@ -7403,7 +7530,9 @@
     "genres": [
       "rock",
       "punk rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Block of Flats + support",
@@ -7417,7 +7546,6 @@
     ],
     "doors": "19:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 155,
     "artists": [
       "Block of Flats"
@@ -7425,7 +7553,9 @@
     "genres": [
       "alternative rock",
       "alternative metal"
-    ]
+    ],
+    "price": "alk. 22,60€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Tony O’Connel & Markus Asunta with Eugene Chernov – St. Patrick’s Day Tour",
@@ -7459,7 +7589,6 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-20",
     "artists": [
       "Markus Krunegård"
     ],
@@ -7467,7 +7596,8 @@
       "indie pop",
       "pop",
       "indie"
-    ]
+    ],
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "TOXIC FEST 2027",
@@ -7506,7 +7636,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 182,
     "artists": [
       "Haloo Helsinki!"
@@ -7514,7 +7643,9 @@
     "genres": [
       "rock",
       "punk rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "TOXIC FEST 2027",
@@ -7544,14 +7675,15 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "The Arki"
     ],
     "genres": [
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "15 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "King Satan (levyjulkkarit), Ghoulstars, Danger Håt",
@@ -7595,7 +7727,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "75 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 64,
@@ -7615,7 +7748,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "75 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The Halo Effect – European Tour 2027",
@@ -7629,7 +7763,6 @@
     ],
     "doors": "18:00",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 216,
     "artists": [
       "The Halo Effect"
@@ -7637,7 +7770,9 @@
     "genres": [
       "melodic death metal",
       "death metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Hallintohimmeli",
@@ -7673,7 +7808,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 196,
     "artists": [
       "Ricky-Tick Big Band & Julkinen Sana"
@@ -7681,7 +7815,9 @@
     "genres": [
       "jazz",
       "big band"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Robert Finley (US)",
@@ -7741,7 +7877,6 @@
       }
     ],
     "age": "Ei ikärajaa",
-    "detailsFetched": "2026-11-19",
     "id": 150,
     "artists": [
       "KAJ på Kulturhuset"
@@ -7749,7 +7884,9 @@
     "genres": [
       "pop",
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "DJ Kridlokk + Eevil Stöö",
@@ -7769,7 +7906,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 138,
     "artists": [
       "Eevil Stöö"
@@ -7778,7 +7914,9 @@
       "hip hop",
       "rap",
       "underground hip-hop"
-    ]
+    ],
+    "price": "alk. 25,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 65,
@@ -7797,7 +7935,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "40 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "KAJ på Kulturhuset 21.3.2027",
@@ -7818,7 +7957,6 @@
       }
     ],
     "age": "Ei ikärajaa",
-    "detailsFetched": "2026-11-19",
     "id": 141,
     "artists": [
       "KAJ på Kulturhuset"
@@ -7826,7 +7964,9 @@
     "genres": [
       "pop",
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 66,
@@ -7854,7 +7994,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "18:00",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Eivør",
@@ -7866,7 +8007,6 @@
     "venueGenres": [],
     "doors": "18:00",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 214,
     "artists": [
       "Eivør"
@@ -7874,7 +8014,9 @@
     "genres": [
       "folk",
       "jazz"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 67,
@@ -7893,7 +8035,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "27 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Ida Elina – Kantele is Pop",
@@ -7925,7 +8068,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "KAFF – The Celebration of 40 Years of Crazy Nights and 50 Years of Love Gun",
@@ -7942,6 +8086,25 @@
       "rock"
     ],
     "venueDefault": "rock"
+  },
+  {
+    "id": 432,
+    "artist": "Mouhous (klo 23:30)",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-03-26T23:30:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-26/mouhous/122533/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "23:30",
+    "price": "38 € at the door",
+    "detailsFetched": "2026-11-21",
+    "artists": [
+      "Mouhous"
+    ],
+    "genres": [
+      "rap"
+    ]
   },
   {
     "artist": "Knipi",
@@ -7962,14 +8125,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 149,
     "artists": [
       "Knipi"
     ],
     "genres": [
       "egotrippi"
-    ]
+    ],
+    "price": "alk. 33,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 69,
@@ -7990,7 +8154,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Jonna Tervomaa",
@@ -8027,7 +8191,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The Rock Orchestra by Candlelight – Helsinki",
@@ -8047,14 +8212,15 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 161,
     "artists": [
       "The Rock Orchestra by Candlelight"
     ],
     "genres": [
       "rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Genom Natten (SE)",
@@ -8132,7 +8298,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "status": "sold out",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The Spiritual Bat (ITA) + Fenetzar + Aus Tears",
@@ -8175,14 +8342,15 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 162,
     "artists": [
       "Pave!"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Sir Elwood Duo – Voitto Auringolle 2027",
@@ -8202,14 +8370,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 156,
     "artists": [
       "Sir Elwood Duo"
     ],
     "genres": [
       "rock"
-    ]
+    ],
+    "price": "alk. 33,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "RUSH: Fifty Something",
@@ -8251,7 +8420,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "38 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Laura Voutilainen - Kerran Keväällä 2",
@@ -8312,7 +8482,6 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 177,
     "artists": [
       "Maustetytöt"
@@ -8320,7 +8489,9 @@
     "genres": [
       "indie pop",
       "pop"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Suzi Quatro “ROCKIN’ ON!”",
@@ -8341,7 +8512,6 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 152,
     "artists": [
       "Suzi Quatro"
@@ -8350,7 +8520,9 @@
       "glam rock",
       "rock",
       "classic rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "RY X",
@@ -8365,7 +8537,6 @@
     ],
     "doors": "18:00",
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 180,
     "artists": [
       "RY X"
@@ -8375,7 +8546,9 @@
       "indie",
       "singer-songwriter",
       "indie folk"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 282,
@@ -8387,7 +8560,6 @@
     "age": "K-18",
     "room": "Semifinal",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19",
     "artists": [
       "Tramhaus"
     ],
@@ -8395,7 +8567,9 @@
       "post-punk",
       "rock"
     ],
-    "venueDefault": "rock"
+    "venueDefault": "rock",
+    "price": "22 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Timo Kotipelto ja Jarkko Ahola – Voices Unleashed",
@@ -8415,14 +8589,15 @@
       }
     ],
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 169,
     "artists": [
       "Timo Kotipelto ja Jarkko Ahola"
     ],
     "genres": [
       "rock"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "DragonForce",
@@ -8436,7 +8611,6 @@
     ],
     "doors": "18:30",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 173,
     "artists": [
       "DragonForce"
@@ -8446,7 +8620,9 @@
       "speed metal",
       "metal",
       "extreme power metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Sir Elwood Duo: Voitto Auringolle",
@@ -8497,7 +8673,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "38 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "AMORPHIS – Borderland Finland",
@@ -8511,7 +8688,6 @@
     ],
     "doors": "18:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 192,
     "artists": [
       "AMORPHIS"
@@ -8521,7 +8697,9 @@
       "melodic death metal",
       "death metal",
       "doom metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Hang Massive",
@@ -8579,7 +8757,6 @@
     ],
     "doors": "18:00",
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 195,
     "artists": [
       "Ministry"
@@ -8589,7 +8766,9 @@
       "industrial",
       "industrial rock",
       "metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Reflexion, MELANKOLIA",
@@ -8675,14 +8854,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 167,
     "artists": [
       "Bianca del Rio"
     ],
     "genres": [
       "stand-up"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "SOMBR // You Are The Reason Tour // Helsinki",
@@ -8765,12 +8945,13 @@
       }
     ],
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 197,
     "artists": [
       "Helsinki Lit"
     ],
-    "genres": []
+    "genres": [],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Bombus (SWE)",
@@ -8856,7 +9037,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Raswaa koneeseen vol. 2!",
@@ -8917,7 +9099,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Rod Stewart: The Final Encore",
@@ -8978,7 +9161,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "price": "42 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Westlife 25: The Anniversary World Tour",
@@ -9194,7 +9378,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 78,
@@ -9213,7 +9398,8 @@
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "ISAC ELLIOT - THE STADIUM",
@@ -9264,7 +9450,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 80,
@@ -9278,7 +9464,7 @@
     ],
     "genres": [],
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "id": 81,
@@ -9297,7 +9483,7 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "20:00",
-    "detailsFetched": "2026-11-19"
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Till Lindemann",
@@ -9327,7 +9513,6 @@
     ],
     "doors": "18:30",
     "age": "K-18, osa katsomosta ikärajaton",
-    "detailsFetched": "2026-11-19",
     "id": 153,
     "artists": [
       "HAEVN"
@@ -9337,7 +9522,9 @@
       "ambient",
       "alternative",
       "electronic"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Britallica (UK) + Spinors (UK)",
@@ -9371,7 +9558,8 @@
     "genres": [],
     "age": "K-18",
     "room": "Tavastia-klubi",
-    "detailsFetched": "2026-11-19"
+    "price": "45 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Bruce Dickinson",
@@ -9408,7 +9596,8 @@
     "age": "K-18",
     "room": "Tavastia-klubi",
     "doors": "19:00",
-    "detailsFetched": "2026-11-19"
+    "price": "35 € at the door",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "KANONENFIEBER (DE)",
@@ -9422,7 +9611,6 @@
     ],
     "doors": "18:30",
     "age": "S/K-18",
-    "detailsFetched": "2026-11-19",
     "id": 194,
     "artists": [
       "KANONENFIEBER"
@@ -9431,7 +9619,9 @@
       "black metal",
       "death metal",
       "blackened death metal"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "The 12 Tenors – Legacy Tour",
@@ -9451,14 +9641,15 @@
       }
     ],
     "age": "K-18",
-    "detailsFetched": "2026-11-19",
     "id": 188,
     "artists": [
       "The 12 Tenors"
     ],
     "genres": [
       "viihde"
-    ]
+    ],
+    "price": "alk. 48,00€",
+    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Powerwolf, APOCALYPTICA, MAJESTICA",

@@ -16,4 +16,6 @@ export type Event = {
   age?: string;
   /** Ticket price as the venue writes it ("14€", "Vapaa pääsy!", ...). */
   price?: string;
+  /** Ticket sales, from the venue listing; absent while on sale. */
+  status?: "sold out" | "cancelled";
 };

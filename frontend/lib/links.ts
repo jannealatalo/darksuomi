@@ -15,7 +15,7 @@ export const VENUE_LINKS: Record<string, string> = {
   "Suvilahti (Tuska)": "https://tuska.fi/",
   Korjaamo: "https://korjaamo.fi/tapahtumat/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
-  // Tampere (experimental site)
+  // Tampere
   "Tavara-asema": "https://tavara-asema.fi/",
   Pakkahuone: "https://tullikamari.fi/",
   "Tullikamarin Klubi": "https://tullikamari.fi/",
@@ -24,7 +24,7 @@ export const VENUE_LINKS: Record<string, string> = {
   "G Livelab Tampere": "https://glivelab.fi/tampere/",
   "Nokia Arena": "https://nokiaarena.fi/",
   "Bar Kotelo": "https://barkotelo.fi/",
-  // Oulu (experimental site)
+  // Oulu
   "45 Special": "https://45special.com/",
   Tullisali: "https://www.tullisali.fi/",
   Tarkastamo: "https://tarkastamo-oulu.fi/tapahtumat/",

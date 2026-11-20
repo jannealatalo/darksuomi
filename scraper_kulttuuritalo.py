@@ -6,7 +6,7 @@ Scraper for Helsingin Kulttuuritalo and its club stage KULT
 Gigs come from the site's WordPress API (post type "tapahtuma"): title, date
 (from the event URL), hall ("KULT" or the main "Kulttuuritalo" hall) and the
 venue's genre category. For each upcoming gig, the event page is read once a
-week for the doors time, start time, age limit and ticket link.
+week for the doors time, start time, age limit, price and ticket link.
 
 Both halls are stored as separate venues ("KULT", "Kulttuuritalo") so the
 site's venue filter can tell them apart.
@@ -110,6 +110,11 @@ def page_details(url: str) -> dict:
         elif label == "ikäraja" and value:
             details["age"] = value
 
+    # "Liput alkaen 32,00 € + tilausmaksut ..." -> "alk. 32,00 €"
+    m = re.search(r"Liput\s+alkaen\s+(\d[\d,.]*\s*€)", soup.get_text(" "), re.I)
+    if m:
+        details["price"] = f"alk. {' '.join(m.group(1).split())}"
+
     for a in soup.select("a.fl-button[href]"):
         if TICKET_HOSTS.search(a["href"]):
             details["ticketUrl"] = a["href"]
@@ -131,7 +136,7 @@ def main() -> int:
         previous = known.get(event["eventUrl"])
         if previous and previous.get("detailsFetched", "") >= stale:
             # Fresh enough: keep the details we already have.
-            for field in ("date", "doors", "age", "ticketUrl", "detailsFetched"):
+            for field in ("date", "doors", "age", "price", "ticketUrl", "detailsFetched"):
                 if field in previous:
                     event[field] = previous[field]
             continue
@@ -151,6 +156,8 @@ def main() -> int:
             event["schedule"] = [{"time": d["start"], "name": "Show starts"}]
         if d.get("age"):
             event["age"] = d["age"]
+        if d.get("price"):
+            event["price"] = d["price"]
         if d.get("ticketUrl"):
             event["ticketUrl"] = d["ticketUrl"]
         event["detailsFetched"] = date.today().isoformat()

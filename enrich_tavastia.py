@@ -13,6 +13,7 @@ the last 7 days and stores, in frontend/data/events.json:
   schedule   -> [{"time": "20:30", "name": "Us"}, ...]
   age        -> "K-18" / "S" / ...
   room       -> "Tavastia-klubi" / "Semifinal" / ...
+  price      -> "55 € at the door" (door price; advance prices are in a widget)
   detailsFetched -> date of the check
 
 Usage:
@@ -65,6 +66,12 @@ def parse_page(html: str) -> dict:
         if schedule:
             details["schedule"] = schedule
 
+    # Advance prices come from a Tiketti widget, so only the door price
+    # ("55 € Ovelta") is in the page itself, when the gig has one.
+    door = soup.select_one(".door-price")
+    if door and re.search(r"\d", door.get_text()):
+        details["price"] = f"{' '.join(door.get_text().split())} at the door"
+
     for field, selector in (("age", ".age"), ("room", ".location")):
         el = soup.select_one(selector)
         if el and el.get_text(strip=True):
@@ -96,7 +103,7 @@ def main() -> int:
             print(f"  ! {event['artist'][:50]}: {e}", file=sys.stderr)
             continue
         details = parse_page(resp.text)
-        for key in ("schedule", "age", "room", "doors"):
+        for key in ("schedule", "age", "room", "doors", "price"):
             if key in details:
                 event[key] = details[key]
         if "doors" in details:

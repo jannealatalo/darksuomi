@@ -17,6 +17,15 @@ from urllib.parse import urljoin
 AGE_MARK = re.compile(r"\s*\((?:S|K-?\d{1,2}|ikärajaton|sallittu)\)\s*$", re.I)
 
 
+def sale_status(class_str: str) -> Optional[str]:
+    """Listing classes -> "sold out" / "cancelled" (None while on sale)."""
+    if 'status-cancelled' in class_str:
+        return 'cancelled'
+    if 'status-sold_out' in class_str or 'status-fully_booked' in class_str:
+        return 'sold out'
+    return None
+
+
 def clean_title(title: str) -> str:
     return AGE_MARK.sub("", title).strip()
 
@@ -171,6 +180,9 @@ class TavastiaAdvancedScraper:
                     'date': date_obj.isoformat(),
                     'ticketUrl': ticket_url
                 }
+                status = sale_status(class_str)
+                if status:
+                    event['status'] = status
                 if venue == 'Semifinal':
                     # Small rock club: untagged acts default to rock
                     # (genres.py spots comedy and DJ nights from the title).
@@ -459,6 +471,11 @@ class TavastiaAdvancedScraper:
             same_page = by_url.get(event['ticketUrl'])
             if same_page:
                 same_page['artist'] = event['artist']  # titles get updated
+                # Sale status changes (extra tickets can come back on sale).
+                if event.get('status'):
+                    same_page['status'] = event['status']
+                else:
+                    same_page.pop('status', None)
                 continue
             key = (event['artist'].lower().strip(), event['date'][:10])
             if key not in existing_set:

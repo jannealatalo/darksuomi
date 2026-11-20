@@ -77,7 +77,9 @@ def parse_events(html: str, venue: str = VENUE) -> list[dict]:
         genres = [c.removeprefix("tapahtumaluokka-") for c in article.get("class", [])
                   if c.startswith("tapahtumaluokka-")]
 
+        sold_out = article.select_one(".lippujen-lisatieto.loppuunmyyty")
         events.append({
+            **({"status": "sold out"} if sold_out else {}),
             "artist": title,
             "venue": venue,
             "city": CITY,
@@ -122,6 +124,10 @@ def main(list_url: str = LIST_URL, venue: str = VENUE) -> int:
             # Keep details current (time, ticket link, venue genres).
             for field in ("date", "ticketUrl", "eventUrl", "venueGenres"):
                 existing[field] = event[field]
+            if event.get("status"):
+                existing["status"] = event["status"]
+            else:
+                existing.pop("status", None)
             continue
         event["id"] = next_id
         next_id += 1

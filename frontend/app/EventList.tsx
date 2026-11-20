@@ -78,6 +78,14 @@ export default function EventList({
   );
 }
 
+const SOLD_OUT_PRICE = /^\s*(loppuunmyyty|sold out)\s*$/i;
+
+/** "sold out" / "cancelled": from the venue listing, or a price that says so. */
+function saleStatus(event: Event): Event["status"] {
+  if (event.status) return event.status;
+  return event.price && SOLD_OUT_PRICE.test(event.price) ? "sold out" : undefined;
+}
+
 function EventItem({
   event,
   followed,
@@ -88,10 +96,17 @@ function EventItem({
   past: boolean;
 }) {
   const time = eventTime(event);
+  const status = past ? undefined : saleStatus(event);
+  // A price of just "loppuunmyyty" is shown as the sold-out mark instead.
+  const price = event.price && !SOLD_OUT_PRICE.test(event.price) ? event.price : null;
   return (
     <li id={`gig-${event.id}`} className="scroll-mt-6">
       <div className="flex items-start gap-2">
-        <h3 className="text-lg font-semibold leading-snug text-gray-100">
+        <h3
+          className={`text-lg font-semibold leading-snug ${
+            status === "cancelled" ? "text-gray-500 line-through" : "text-gray-100"
+          }`}
+        >
           {event.artist}
         </h3>
         {followed && (
@@ -110,7 +125,21 @@ function EventItem({
         {event.venue} · {event.city}
         {time && <> · doors {time}</>}
         {event.age && <> · {event.age}</>}
-        {event.price && <> · {event.price}</>}
+        {price && <> · {price}</>}
+        {status && (
+          <>
+            {" "}
+            <span
+              className={`ml-1 rounded px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide ${
+                status === "cancelled"
+                  ? "bg-gray-800 text-gray-300"
+                  : "bg-red-900/60 text-red-300"
+              }`}
+            >
+              {status}
+            </span>
+          </>
+        )}
       </p>
 
       {event.schedule && event.schedule.length > 0 && (

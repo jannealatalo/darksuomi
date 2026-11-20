@@ -31,7 +31,7 @@ import SearchBox from "./SearchBox";
 
 /**
  * The gig calendar of one city: Helsinki on the front page, and the
- * experimental Tampere and Oulu sites under /tampere and /oulu.
+ * Tampere and Oulu sites under /tampere and /oulu.
  */
 export default function GigCalendar({ events, city }: { events: Event[]; city: CityKey }) {
   const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
@@ -191,7 +191,7 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                     </Link>
                   </span>
                   <span className="block mt-1 text-xs text-gray-500">
-                    Helsinki & Espoo · experimental:{" "}
+                    Helsinki & Espoo · also:{" "}
                     {CITIES.filter((c) => c.key !== "helsinki").map((c, i) => (
                       <span key={c.key}>
                         {i > 0 && " · "}
@@ -207,7 +207,7 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                   <span className="text-gray-200 font-semibold">
                     {CITIES.find((c) => c.key === city)?.name}
                   </span>{" "}
-                  <span className="text-xs text-gray-500">(experimental) ·</span>{" "}
+                  <span className="text-xs text-gray-500">·</span>{" "}
                   {CITIES.filter((c) => c.key !== city).map((c, i) => (
                     <span key={c.key} className="text-xs">
                       {i > 0 && " · "}
