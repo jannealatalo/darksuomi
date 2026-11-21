@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "How Dark Suomi handles personal data.",
 };
 
-const UPDATED = "20.11.2026";
+const UPDATED = "21.11.2026";
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -48,8 +48,23 @@ export default function PrivacyPage() {
         <Section title="Browsing the site">
           <p>
             You can use the gig listing without logging in. Dark Suomi has no
-            analytics, no advertising and no tracking cookies, and it does not
-            load fonts or scripts from third-party services.
+            advertising and no tracking cookies, and it does not load fonts or
+            scripts from third-party services.
+          </p>
+          <p>
+            To see how much the site is used, Dark Suomi uses{" "}
+            <a
+              href="https://vercel.com/docs/analytics/privacy-policy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-purple-300"
+            >
+              Vercel Web Analytics
+            </a>
+            . It counts page views anonymously: it uses no cookies, does not store
+            IP addresses and cannot follow you across sites or days. Only
+            summary numbers are kept, such as which pages are visited, the
+            referring site, the country and the device type.
           </p>
           <p>
             The site is hosted by Vercel. Like any web host, Vercel keeps short-term
