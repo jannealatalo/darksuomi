@@ -72,6 +72,37 @@ NOT_MUSIC_TITLE = re.compile(r"kirppis|kirpputori|stand ?-?up|lasten|nukketeatte
                              r"luento|työpaja|bingo|visa\b|quiz|karaoke|tanssikurssi|"
                              r"perhepaket|\bvip\b|pysäköinti|parking|tiernapoja|"
                              r"joulukonsertti|kauneimmat joululaulut", re.I)
+# Genre words in a description ("melodista death metallia") -> venueGenres,
+# used by genres.py when Last.fm doesn't know the act (e.g. a club night
+# named after itself). Specific genres first; the general ones only when no
+# specific one matched.
+DESC_GENRES_SPECIFIC = [
+    ("melodic death metal", re.compile(r"\bmelodi\w*\s+death\s*metal", re.I)),
+    ("death metal", re.compile(r"(?<!melodista )(?<!melodic )\bdeath\s*metal", re.I)),
+    ("black metal", re.compile(r"\bblack\s*metal", re.I)),
+    ("thrash metal", re.compile(r"\bthrash", re.I)),
+    ("doom", re.compile(r"\bdoom", re.I)),
+    ("progressive metal", re.compile(r"\bprogressiivi\w*\s+metal|\bprogressive\s+metal", re.I)),
+    ("heavy metal", re.compile(r"\bheavy\s*metal|\bhevi\w*", re.I)),
+    ("hard rock", re.compile(r"\bhard\s*rock", re.I)),
+    ("hc", re.compile(r"\bhardcore\b(?!\s*techno)", re.I)),
+    ("gothic", re.compile(r"\bgoth|\bdeathrock", re.I)),
+    ("stoner", re.compile(r"\bstoner", re.I)),
+]
+DESC_GENRES_GENERAL = [
+    ("metal", re.compile(r"metal", re.I)),
+    ("punk", re.compile(r"punk", re.I)),
+    ("rock", re.compile(r"\brock\b|\brokki", re.I)),
+]
+
+
+def description_genres(title: str, desc: str, venue: str) -> list[str]:
+    # "Hevimesta" itself is a "hevi" word: drop venue names before matching.
+    text = re.sub(re.escape(venue) + r"\w*", " ", f"{title} {desc}", flags=re.I)
+    found = [k for k, rx in DESC_GENRES_SPECIFIC if rx.search(text)]
+    return found or [k for k, rx in DESC_GENRES_GENERAL if rx.search(text)]
+
+
 AGE = re.compile(r"\b(S\s*/\s*K-?\s?18|K-?\s?18)\b", re.I)
 
 
@@ -216,6 +247,9 @@ def to_events(page: dict) -> list[dict]:
             lo, hi = price["min"], price.get("max")
             fmt = lambda x: f"{x:g}".replace(".", ",")
             event["price"] = f"{fmt(lo)} €" if hi in (None, lo) else f"{fmt(lo)}–{fmt(hi)} €"
+        genres = description_genres(title, desc, venue)
+        if genres:
+            event["venueGenres"] = genres
         age = AGE.search(name) or AGE.search(desc)
         if age:
             event["age"] = age.group(1).upper().replace(" ", "").replace("K18", "K-18")

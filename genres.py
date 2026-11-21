@@ -125,6 +125,11 @@ VENUE_GENRES = {
     "gothic": "gothic rock", "hc": "hardcore", "stoner": "stoner rock",
     # Ääniwalli: genre words found in a gig's description
     "doom": "doom metal",
+    # MunOulu (Oulu): genre words found in a gig's description
+    "melodic death metal": "melodic death metal", "death metal": "death metal",
+    "black metal": "black metal", "thrash metal": "thrash metal",
+    "heavy metal": "heavy metal", "progressive metal": "progressive metal",
+    "hard rock": "hard rock",
     # Kulttuuritalo / KULT categories
     "rock-ja-metalli": "rock", "punk-ja-indie": "indie", "pop-ja-rap": "pop",
     "stand-up-ja-viihde": "stand-up", "jazz-ja-viihdemusiikki": "viihde",
