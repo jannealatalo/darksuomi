@@ -17,7 +17,7 @@ export const NO_GIG_JOKES = [
   "Systeemi ei toimi. James was here.",
   "A day to visit [Bodom Bar & Sauna](https://www.bodombar.com/) in Espoo.",
   "No gigs today. Your neighbours say thank you.",
-  "Nothing on. Put on Sunn O))) at full volume and pretend it's a gig.",
+  "Nothing on. Put on [Life Metal](https://open.spotify.com/album/7A10XxbkAl4hIQRMp4NyKO) by Sunn O))) at full volume and pretend it's a gig.",
   "A quiet day. Tune your guitar. Then tune it again.",
   "No gigs today – re-read the liner notes of your favourite album.",
   "Nothing tonight. Finally time to argue online about the best Children of Bodom album.",
