@@ -62,12 +62,17 @@ export default function ExpectedSetlists({
       {open && (
       <div className="mt-2 pl-4 border-l border-gray-800 space-y-4">
         {setlists.length > 0 && (
-          <p className="text-xs uppercase tracking-wide text-gray-500 -mb-2">Expected setlist</p>
-        )}
-        {special && setlists.length > 0 && (
-          <p className="text-xs text-amber-400">
-            Special show: the setlist will likely differ from their usual set.
-          </p>
+          // Heading and special-show note in one block, closer to the songs
+          // (mb-2 overrides space-y-4's gap). A negative margin on the heading
+          // used to pull the note up over it.
+          <div className="space-y-1 mb-2">
+            <p className="text-xs uppercase tracking-wide text-gray-500">Expected setlist</p>
+            {special && (
+              <p className="text-xs text-amber-400">
+                Special show: the setlist will likely differ from their usual set.
+              </p>
+            )}
+          </div>
         )}
 
         {setlists.map((s) => {
