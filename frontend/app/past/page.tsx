@@ -7,7 +7,7 @@ import SiteFooter from "../SiteFooter";
 export const metadata: Metadata = {
   title: "Past gigs – Dark Suomi",
   description:
-    "Recent alternative gigs in Finland with their actual setlists from setlist.fm, and one-click Spotify playlists of them.",
+    "Recent alternative gigs in Helsinki, Espoo, Tampere and Oulu with their actual setlists from setlist.fm, and one-click Spotify playlists of them.",
 };
 
 export default function PastGigsPage() {
@@ -23,7 +23,8 @@ export default function PastGigsPage() {
         <header className="mb-6 space-y-2">
           <h1 className="text-3xl font-bold text-gray-100">Past gigs</h1>
           <p className="text-sm text-gray-400 max-w-2xl">
-            Gigs of the last three months, newest first. When fans have added the
+            Gigs of the last three months in Helsinki &amp; Espoo, Tampere and Oulu,
+            newest first. When fans have added the
             night&apos;s setlist to{" "}
             <a
               href="https://www.setlist.fm"

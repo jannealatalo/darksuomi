@@ -81,7 +81,7 @@ export default function EventList({
               <ul className="space-y-4">
                 {day.events.map((event) => (
                   <EventItem
-                    key={event.id}
+                    key={`${event.site ?? ""}${event.id}`}
                     event={event}
                     followed={isFollowed?.(event) ?? false}
                     past={past}
@@ -118,7 +118,10 @@ function EventItem({
   // A price of just "loppuunmyyty" is shown as the sold-out mark instead.
   const price = event.price && !SOLD_OUT_PRICE.test(event.price) ? event.price : null;
   return (
-    <li id={`gig-${event.id}`} className="scroll-mt-6">
+    <li
+      id={event.site && event.site !== "helsinki" ? `gig-${event.site}-${event.id}` : `gig-${event.id}`}
+      className="scroll-mt-6"
+    >
       <div className="flex items-start gap-2">
         <h3
           className={`text-lg font-semibold leading-snug ${

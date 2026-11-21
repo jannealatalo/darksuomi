@@ -2,10 +2,16 @@
 """
 Expected setlists for Dark Suomi events, built from setlist.fm.
 
-For every artist in frontend/data/events.json (the `artists` field written by
-genres.py), fetch their recent setlists from setlist.fm and work out a likely
-setlist: songs played in a good share of recent shows, in their usual order,
-with encores last. Results go to frontend/data/setlists.json, keyed by artist.
+For every artist in the gig lists of Helsinki (frontend/data/events.json),
+Tampere and Oulu (frontend/data/<city>/events.json) (the `artists` field
+written by genres.py), fetch their recent setlists from setlist.fm and work
+out a likely setlist: songs played in a good share of recent shows, in their
+usual order, with encores last. Results go to frontend/data/setlists.json,
+keyed by artist, shared by all cities.
+
+Past gigs' actual setlists go to frontend/data/past-setlists.json, keyed by
+event id: "42" for Helsinki, "tampere:42" / "oulu:42" for the other cities
+(each city's ids start from 1).
 
 Needs SETLISTFM_API_KEY in the environment.
 
@@ -25,6 +31,7 @@ from pathlib import Path
 
 import requests
 
+from eventstore import CITIES, load_events
 from genres import _norm, load_json, parse_title, save_json
 
 ROOT = Path(__file__).resolve().parent
@@ -45,7 +52,7 @@ MIN_SHARE = 0.25         # a song must be in at least 25% of shows
 CACHE_DAYS = 7           # re-fetch an artist after this many days
 
 # setlist.fm allows 2 requests/second and 1440/day per API key.
-MAX_FETCHES_PER_RUN = 40     # artists (re)fetched per run, oldest first
+MAX_FETCHES_PER_RUN = 60     # artists (re)fetched per run, oldest first
 MAX_REQUESTS_PER_RUN = 1000  # hard stop, leaves room for manual runs
 
 PAST_CHECK_DAYS = 30   # look for a past gig's actual setlist this long
@@ -224,12 +231,17 @@ def build(name: str, country: str | None, mbid: str | None) -> dict:
     }
 
 
-def find_past_setlists(events: list[dict], cache: dict) -> None:
+def past_key(city: str | None, event: dict) -> str:
+    """past-setlists.json key: "42" (Helsinki), "tampere:42"."""
+    return f"{city}:{event['id']}" if city else str(event["id"])
+
+
+def find_past_setlists(events_by_city: dict[str | None, list[dict]], cache: dict) -> None:
     """
     For gigs of the last PAST_CHECK_DAYS days, look up the actual setlist of
     that night on setlist.fm (by artist and date). Fans usually add setlists
     within a day or two, so each gig is re-checked once a day until found.
-    Results: frontend/data/past-setlists.json, keyed by event id.
+    Results: frontend/data/past-setlists.json, keyed by past_key().
     """
     today = date.today()
     oldest = (today - timedelta(days=PAST_CHECK_DAYS)).isoformat()
@@ -243,11 +255,12 @@ def find_past_setlists(events: list[dict], cache: dict) -> None:
             names += entry.get("parts", []) if entry.get("status") == "split" else [name]
         return [n for n in names if cache.get(n, {}).get("mbid")]
 
-    for event in events:
+    gigs = [(city, e) for city, events in events_by_city.items() for e in events]
+    for city, event in gigs:
         day = event["date"][:10]
         if not (oldest <= day < today.isoformat()):
             continue
-        key = str(event["id"])
+        key = past_key(city, event)
         entry = state.setdefault(key, {"setlists": {}})
         missing = [n for n in acts(event) if n not in entry["setlists"]]
         if not missing or entry.get("checked") == today.isoformat():
@@ -266,9 +279,13 @@ def find_past_setlists(events: list[dict], cache: dict) -> None:
 
     # Forget gigs that are too old to show.
     keep_from = (today - timedelta(days=PAST_SHOW_DAYS)).isoformat()
-    known = {str(e["id"]): e["date"][:10] for e in events}
+    known = {past_key(city, e): e["date"][:10] for city, e in gigs}
     state = {k: v for k, v in state.items() if known.get(k, "") >= keep_from}
-    save_json(PAST_SETLISTS_FILE, dict(sorted(state.items(), key=lambda kv: int(kv[0]))))
+
+    def order(kv):
+        city, _, num = kv[0].rpartition(":")
+        return (city, int(num))
+    save_json(PAST_SETLISTS_FILE, dict(sorted(state.items(), key=order)))
     found = sum(len(v["setlists"]) for v in state.values())
     print(f"✓ Past gigs: {found} actual setlists known ({checks} lookups this run)")
 
@@ -284,7 +301,9 @@ def main() -> int:
         print("SETLISTFM_API_KEY is not set", file=sys.stderr)
         return 1
 
-    events = load_json(EVENTS_FILE, [])
+    # Helsinki first: its artists come first among equally due ones.
+    events_by_city = {None: load_events(), **{c: load_events(c) for c in CITIES}}
+    events = [e for city_events in events_by_city.values() for e in city_events]
     genre_cache = load_json(ARTISTS_FILE, {})
     cache = load_json(SETLISTS_FILE, {})
     stale_before = (date.today() - timedelta(days=CACHE_DAYS)).isoformat()
@@ -333,7 +352,7 @@ def main() -> int:
     save_json(SETLISTS_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
 
     try:
-        find_past_setlists(events, cache)
+        find_past_setlists(events_by_city, cache)
     except BudgetExhausted:
         print("  ! past-gig lookups stopped (daily budget)", file=sys.stderr)
     except (requests.RequestException, RuntimeError) as e:

@@ -79,11 +79,16 @@ export function getEvents(city: CityKey = "helsinki"): Event[] {
 }
 
 /** Gigs of the last `days` days (before the scrape day), newest first. */
+/**
+ * Past gigs of every city site, newest first. Each gig carries `site`, since
+ * ids are only unique within one city's list.
+ */
 export function getPastEvents(days = 90): Event[] {
   const d = new Date(`${scrapeDay}T12:00:00Z`);
   d.setUTCDate(d.getUTCDate() - days);
   const from = d.toISOString().slice(0, 10);
-  return (events as Event[])
+  return (Object.entries(EVENTS_BY_CITY) as [CityKey, Event[]][])
+    .flatMap(([site, list]) => list.map((e) => ({ ...e, site })))
     .filter((e) => e.date.slice(0, 10) < scrapeDay && e.date.slice(0, 10) >= from)
     .sort((a, b) => b.date.localeCompare(a.date));
 }

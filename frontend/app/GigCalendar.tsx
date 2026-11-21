@@ -33,6 +33,16 @@ import SearchBox from "./SearchBox";
  * The gig calendar of one city: Helsinki on the front page, and the
  * Tampere and Oulu sites under /tampere and /oulu.
  */
+// Header buttons, styled like the Spotify login button so they read as links.
+const NAV_BUTTON =
+  "inline-flex items-center rounded px-2.5 py-1 text-xs font-semibold text-purple-100 " +
+  "bg-purple-900/60 border border-purple-700 hover:bg-purple-700 hover:text-white transition-colors";
+const CITY_BUTTON =
+  "inline-flex items-center rounded px-2 py-0.5 border border-gray-700 text-gray-300 " +
+  "hover:border-purple-500 hover:text-white transition-colors";
+const CITY_BUTTON_ACTIVE =
+  "inline-flex items-center rounded px-2 py-0.5 border border-gray-500 bg-gray-800 text-white";
+
 export default function GigCalendar({ events, city }: { events: Event[]; city: CityKey }) {
   const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
   const allVenues = [...new Set(events.map((e) => e.venue))].sort((a, b) =>
@@ -180,58 +190,32 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                   ))}
                 </span>
               ))}
-              {isMain ? (
-                <>
-                  <span className="flex flex-wrap gap-x-4 mt-2">
-                    <Link href="/bands" className="text-purple-400 hover:text-purple-300">
-                      Bands A–Z: Spotify, Bandcamp, SoundCloud… →
-                    </Link>
-                    <Link href="/past" className="text-purple-400 hover:text-purple-300">
-                      Past gigs & setlists →
-                    </Link>
-                    <Link href="/updates" className="text-purple-400 hover:text-purple-300">
-                      Daily updates →
-                    </Link>
-                  </span>
-                  <span className="block mt-1 text-xs text-gray-500">
-                    Helsinki & Espoo · also:{" "}
-                    {CITIES.filter((c) => c.key !== "helsinki").map((c, i) => (
-                      <span key={c.key}>
-                        {i > 0 && " · "}
-                        <Link href={c.path} className="text-purple-400 hover:text-purple-300">
-                          {c.name} →
-                        </Link>
-                      </span>
-                    ))}
-                  </span>
-                </>
-              ) : (
-                <span className="block mt-2">
-                  <span className="text-gray-200 font-semibold">
-                    {CITIES.find((c) => c.key === city)?.name}
-                  </span>{" "}
-                  <span className="text-xs text-gray-500">·</span>{" "}
-                  {CITIES.filter((c) => c.key !== city).map((c, i) => (
-                    <span key={c.key} className="text-xs">
-                      {i > 0 && " · "}
-                      <Link href={c.path} className="text-purple-400 hover:text-purple-300">
-                        {c.name}
-                      </Link>
+              {/* Site pages and the other cities, as buttons (like the Spotify login). */}
+              <span className="flex flex-wrap gap-2 mt-3">
+                <Link href="/bands" className={NAV_BUTTON} title="Links to Spotify, Bandcamp, SoundCloud…">
+                  Band Directory
+                </Link>
+                <Link href="/past" className={NAV_BUTTON}>
+                  Past gigs & setlists
+                </Link>
+                <Link href="/updates" className={NAV_BUTTON}>
+                  Subscribe to daily updates
+                </Link>
+              </span>
+              <span className="flex flex-wrap items-center gap-1.5 mt-2 text-xs">
+                <span className="text-gray-500 mr-0.5">City:</span>
+                {CITIES.map((c) =>
+                  c.key === city ? (
+                    <span key={c.key} aria-current="page" className={CITY_BUTTON_ACTIVE}>
+                      {c.key === "helsinki" ? "Helsinki & Espoo" : c.name}
                     </span>
-                  ))}
-                  <span className="block mt-2">
-                    <Link
-                      href="/bands"
-                      className="text-purple-400 hover:text-purple-300"
-                    >
-                      Bands A–Z: Spotify, Bandcamp, SoundCloud… →
+                  ) : (
+                    <Link key={c.key} href={c.path} className={CITY_BUTTON}>
+                      {c.key === "helsinki" ? "Helsinki & Espoo" : c.name}
                     </Link>
-                    <Link href="/updates" className="ml-4 text-purple-400 hover:text-purple-300">
-                      Daily updates →
-                    </Link>
-                  </span>
-                </span>
-              )}
+                  )
+                )}
+              </span>
             </p>
           </div>
 

@@ -1466,6 +1466,144 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Anssi Kela": {
+    "mbid": "7d55d189-67d5-4ff4-abe4-311459bd999b",
+    "url": "https://www.setlist.fm/setlists/anssi-kela-bd6193a.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/anssi-kela/2026/jarvenpaa-talo-jarvenpaa-finland-7b775aac.html",
+      "date": "2026-11-20",
+      "venue": "Järvenpää-talo",
+      "city": "Järvenpää",
+      "songs": 20
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-08-28",
+    "to": "2026-11-20",
+    "songs": [
+      {
+        "name": "Mikan faijan BMW",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Esko Riihelän painajainen",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Kaksi sisarta",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Kaunotar ja basisti",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Rva Ruusunen",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Harhaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Puistossa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Kissanpäivät",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Nummela",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "P niin kuin puukko",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Miten sydämet toimii?",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Neljäs huhtikuuta",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Aamu",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Ilves",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Palava silta",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Sut puhallan pois",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "1972",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Levoton tyttö",
+        "encore": true,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Piirrä minuun tie",
+        "encore": true,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Milla",
+        "encore": true,
+        "cover": null,
+        "playedPct": 93
+      }
+    ]
+  },
   "Antti Autio": {
     "mbid": "bf6c9ae2-2c50-4c51-ab0d-89838bff2b93",
     "url": "https://www.setlist.fm/setlists/antti-autio-13cb4131.html",
@@ -2206,6 +2344,48 @@
         "encore": false,
         "cover": null,
         "playedPct": 100
+      }
+    ]
+  },
+  "Atomirotta": {
+    "mbid": "98c75201-88a9-4147-81e1-dc6d3b5bacf7",
+    "url": "https://www.setlist.fm/setlists/atomirotta-3d93dab.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/atomirotta/2026/treffipub-helsinki-finland-737cd249.html",
+      "date": "2026-11-20",
+      "venue": "Treffipub",
+      "city": "Helsinki",
+      "songs": 2
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-04-30",
+    "to": "2026-11-20",
+    "songs": [
+      {
+        "name": "Itsestäänselvää",
+        "encore": false,
+        "cover": null,
+        "playedPct": 40
+      },
+      {
+        "name": "Nostetaan maljaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "Hima taas",
+        "encore": false,
+        "cover": null,
+        "playedPct": 40
+      },
+      {
+        "name": "Aurinkoon",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
       }
     ]
   },
@@ -3290,9 +3470,27 @@
     "status": "too-few-setlists",
     "basedOn": 1
   },
+  "Bon Scott Boys": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-21"
+  },
   "Boulevard Drift": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
+  },
+  "Boycott": {
+    "mbid": "9fdd9c2f-a4a6-4221-ba5b-cbd68bd02afd",
+    "url": "https://www.setlist.fm/setlists/boycott-bd785b2.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/boycott/2026/g-livelab-tampere-finland-371dd6b.html",
+      "date": "2026-08-21",
+      "venue": "G Livelab",
+      "city": "Tampere",
+      "songs": 14
+    },
+    "status": "too-few-setlists",
+    "basedOn": 2
   },
   "Britallica": {
     "mbid": "f27c6ca9-90a7-44f7-8021-13e2aca28383",
@@ -5159,6 +5357,10 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Divine Bloodshed": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-21"
+  },
   "Dolly Parton Tribute": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
@@ -5619,6 +5821,13 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Ecotage": {
+    "mbid": "fab25cd1-569f-4d30-b6a5-0d976fcbf977",
+    "url": "https://www.setlist.fm/setlists/ecotage-33e2401d.html",
+    "fetched": "2026-11-21",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Edu Kehäkettunen": {
     "mbid": "5d5972ed-5f6b-44e7-87db-360335786264",
     "url": "https://www.setlist.fm/setlists/edu-kehakettunen-23d4b017.html",
@@ -6015,6 +6224,72 @@
     "fetched": "2026-11-20",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "Emilia Sisco": {
+    "mbid": "17ccecff-de7a-465a-aeab-9f7f96a48464",
+    "url": "https://www.setlist.fm/setlists/emilia-sisco-2bfab47a.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/emilia-sisco/2026/lasipalatsin-aukio-helsinki-finland-53742f29.html",
+      "date": "2026-05-16",
+      "venue": "Lasipalatsin Aukio",
+      "city": "Helsinki",
+      "songs": 8
+    },
+    "status": "ok",
+    "basedOn": 5,
+    "from": "2025-08-09",
+    "to": "2026-05-16",
+    "songs": [
+      {
+        "name": "Say Yes",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Your Girl",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Love So Divine",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Too Late",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Don't Believe You Like That",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Don't Let Nobody",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Lemon & Lime Sours",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Trouble",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      }
+    ]
   },
   "Emodisko": {
     "status": "artist-not-found",
@@ -9896,6 +10171,72 @@
       }
     ]
   },
+  "Irina": {
+    "mbid": "8b95d10e-bc87-4aab-9404-39941f76bcb8",
+    "url": "https://www.setlist.fm/setlists/irina-5bd6bbcc.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/irina/2026/tahtiniementie-7-heinola-finland-3b7d0058.html",
+      "date": "2026-11-14",
+      "venue": "Tähtiniementie 7",
+      "city": "Heinola",
+      "songs": 8
+    },
+    "status": "ok",
+    "basedOn": 9,
+    "from": "2025-09-19",
+    "to": "2026-11-14",
+    "songs": [
+      {
+        "name": "Älä sano mitään",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "Kuurupiiloa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Hiljaisuus",
+        "encore": false,
+        "cover": null,
+        "playedPct": 78
+      },
+      {
+        "name": "Miksi hänkin on täällä?",
+        "encore": false,
+        "cover": null,
+        "playedPct": 44
+      },
+      {
+        "name": "Vahva",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Haluun olla yksin",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Pokka",
+        "encore": false,
+        "cover": null,
+        "playedPct": 78
+      },
+      {
+        "name": "Kymmenen kirosanaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      }
+    ]
+  },
   "Iron Wings": {
     "mbid": "092b22a9-397c-42d6-9894-6f02fbd05c59",
     "url": "https://www.setlist.fm/setlists/iron-wings-33fdd035.html",
@@ -10565,6 +10906,228 @@
     },
     "status": "too-few-setlists",
     "basedOn": 1
+  },
+  "Jiri Nikkinen The Beatles Tribute Band": {
+    "mbid": "83830952-8352-4814-bfb4-fcd19c90f27e",
+    "url": "https://www.setlist.fm/setlists/jiri-nikkinen-the-beatles-tribute-band-33f320ed.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/jiri-nikkinen-the-beatles-tribute-band/2026/kult-klubi-helsinki-finland-1370612d.html",
+      "date": "2026-08-07",
+      "venue": "KULT-klubi",
+      "city": "Helsinki",
+      "songs": 41
+    },
+    "status": "ok",
+    "basedOn": 3,
+    "from": "2025-09-11",
+    "to": "2026-08-07",
+    "songs": [
+      {
+        "name": "Taxman",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Eleanor Rigby",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "I'm Only Sleeping",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Love You To",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Yellow Submarine",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "She Said She Said",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Good Day Sunshine",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "And Your Bird Can Sing",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Here, There and Everywhere",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "For No One",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Doctor Robert",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "I Want to Tell You",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "I Want to Hold Your Hand",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "This Boy",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Got to Get You Into My Life",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Tomorrow Never Knows",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "You've Really Got a Hold on Me",
+        "encore": false,
+        "cover": "The Miracles",
+        "playedPct": 33
+      },
+      {
+        "name": "Lady Madonna",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "The Long and Winding Road",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Penny Lane",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "All You Need Is Love",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 33
+      },
+      {
+        "name": "Day Tripper",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "All My Loving",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "It Won't Be Long",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Get Back",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "I Wanna Be Your Man",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "I Saw Her Standing There",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Nowhere Man",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Roll Over Beethoven",
+        "encore": false,
+        "cover": "Chuck Berry",
+        "playedPct": 67
+      },
+      {
+        "name": "Don't Let Me Down",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "She Loves You",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Help!",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      },
+      {
+        "name": "Dizzy, Miss Lizzy",
+        "encore": false,
+        "cover": "Larry Williams",
+        "playedPct": 67
+      },
+      {
+        "name": "Hey Jude",
+        "encore": false,
+        "cover": "The Beatles",
+        "playedPct": 67
+      }
+    ]
   },
   "Johanna Försti": {
     "mbid": "9679dd4f-f716-4f33-8719-c53776c01234",
@@ -11569,6 +12132,78 @@
         "encore": true,
         "cover": null,
         "playedPct": 67
+      }
+    ]
+  },
+  "Kauko Röyhkä & Röyhkeät": {
+    "mbid": "c4d2e533-67c2-4b80-bd21-1bf9a8dc2312",
+    "url": "https://www.setlist.fm/setlists/kauko-royhka-and-royhkeat-53e23f59.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/kauko-royhka-and-royhkeat/2026/paavalinkirkko-helsinki-finland-737eaa75.html",
+      "date": "2026-08-30",
+      "venue": "Paavalinkirkko",
+      "city": "Helsinki",
+      "songs": 9
+    },
+    "status": "ok",
+    "basedOn": 3,
+    "from": "2026-04-11",
+    "to": "2026-08-30",
+    "songs": [
+      {
+        "name": "Mieluummin vanha kuin aikuinen",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Pois valoista",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Majavalakki",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Talo meren rannalla",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Laulujen nainen",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Kovat pojat",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Lauralle",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Paha maa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Paska kaupunki",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
       }
     ]
   },
@@ -12911,6 +13546,66 @@
   "Linkin Park Night! Jumpdafuckup DJs": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
+  },
+  "Litku Klemetti": {
+    "mbid": "ada4bd5c-9ac0-414a-a2f1-5e7836b7b27e",
+    "url": "https://www.setlist.fm/setlists/litku-klemetti-23ce2cbf.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/litku-klemetti/2026/pakkahuone-tampere-finland-5b7d5bb0.html",
+      "date": "2026-11-14",
+      "venue": "Pakkahuone",
+      "city": "Tampere",
+      "songs": 20
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-05-22",
+    "to": "2026-11-14",
+    "songs": [
+      {
+        "name": "Rajut jätkät",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "Splätter",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Iskä",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Juna Kainuuseen",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Jääkuningatar",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Cringe",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Lippissukupolven joutsenlaulu",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      }
+    ]
   },
   "Loboda": {
     "mbid": "8544e819-41a1-47ce-8c78-d8c44ec099e4",
@@ -14721,6 +15416,10 @@
         "playedPct": 100
       }
     ]
+  },
+  "Michael Monroe acoustic solo": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-21"
   },
   "MICHAEL STARRING BEN": {
     "mbid": "78411cc5-b3e4-41fd-a5c2-96587f01a858",
@@ -16648,6 +17347,144 @@
       }
     ]
   },
+  "Peer Günt": {
+    "mbid": "f41dffcf-2edb-4939-999d-2cc28c7b7daa",
+    "url": "https://www.setlist.fm/setlists/peer-gunt-23d6040f.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/peer-gunt/2026/tavastia-helsinki-finland-3b4844b4.html",
+      "date": "2026-08-22",
+      "venue": "Tavastia",
+      "city": "Helsinki",
+      "songs": 28
+    },
+    "status": "ok",
+    "basedOn": 11,
+    "from": "2025-02-15",
+    "to": "2026-08-22",
+    "songs": [
+      {
+        "name": "We Are Gonna Rock You",
+        "encore": false,
+        "cover": null,
+        "playedPct": 55
+      },
+      {
+        "name": "When Hell Breaks Loose",
+        "encore": false,
+        "cover": null,
+        "playedPct": 55
+      },
+      {
+        "name": "Hard Through the Night",
+        "encore": false,
+        "cover": null,
+        "playedPct": 82
+      },
+      {
+        "name": "Bad Girls",
+        "encore": false,
+        "cover": null,
+        "playedPct": 45
+      },
+      {
+        "name": "Bartender",
+        "encore": false,
+        "cover": null,
+        "playedPct": 82
+      },
+      {
+        "name": "Motorcycle Woman",
+        "encore": false,
+        "cover": null,
+        "playedPct": 45
+      },
+      {
+        "name": "Leather Aunt Jean",
+        "encore": false,
+        "cover": null,
+        "playedPct": 45
+      },
+      {
+        "name": "Black Train",
+        "encore": false,
+        "cover": null,
+        "playedPct": 45
+      },
+      {
+        "name": "I Take Your Money (and Honey)",
+        "encore": false,
+        "cover": null,
+        "playedPct": 45
+      },
+      {
+        "name": "Street 69",
+        "encore": false,
+        "cover": null,
+        "playedPct": 91
+      },
+      {
+        "name": "Fuck the Jazz",
+        "encore": false,
+        "cover": null,
+        "playedPct": 82
+      },
+      {
+        "name": "Scarecrow Shoes",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Train Train",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Losing My Mind",
+        "encore": false,
+        "cover": null,
+        "playedPct": 91
+      },
+      {
+        "name": "Years on the Road",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Hellborn Man",
+        "encore": false,
+        "cover": null,
+        "playedPct": 45
+      },
+      {
+        "name": "Let Her In",
+        "encore": false,
+        "cover": null,
+        "playedPct": 82
+      },
+      {
+        "name": "Backseat",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "I Don't Wanna Be a Rock 'n' Roll Star",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Bad Boys Are Here",
+        "encore": true,
+        "cover": null,
+        "playedPct": 64
+      }
+    ]
+  },
   "Pekka Laine & The Enchanted": {
     "mbid": "bf538ce0-cd7a-44c5-ad60-7a88c9a06e99",
     "url": "https://www.setlist.fm/setlists/pekka-laine-and-the-enchanted-4bf317f6.html",
@@ -18059,6 +18896,102 @@
     },
     "status": "too-few-setlists",
     "basedOn": 1
+  },
+  "Risto": {
+    "mbid": "ef93da9e-2e6a-49e6-a139-6844f0a428a2",
+    "url": "https://www.setlist.fm/setlists/risto-3bd60c14.html",
+    "fetched": "2026-11-21",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/risto/2026/aaniwalli-helsinki-finland-7b7ddef4.html",
+      "date": "2026-11-07",
+      "venue": "Ääniwalli",
+      "city": "Helsinki",
+      "songs": 36
+    },
+    "status": "ok",
+    "basedOn": 9,
+    "from": "2025-01-31",
+    "to": "2026-11-07",
+    "songs": [
+      {
+        "name": "Harmaa kivinen kuu",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Hengitä",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Jaahuu taivas aukeaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Harmaa lintu etääntyy",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Mikä estää olemasta ihan kaikki?",
+        "encore": false,
+        "cover": null,
+        "playedPct": 89
+      },
+      {
+        "name": "Nina, olen palasina",
+        "encore": false,
+        "cover": null,
+        "playedPct": 44
+      },
+      {
+        "name": "Tervetuloa pullonkaulaan",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Vibraatiot kohdillaan/PTSD ei lopu milloinkaan",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Pakko polttaa loppuun",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      },
+      {
+        "name": "Rakkauden rock",
+        "encore": false,
+        "cover": null,
+        "playedPct": 89
+      },
+      {
+        "name": "Ehkä elämä voittaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Putoan kaivossa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Uusi aika",
+        "encore": false,
+        "cover": null,
+        "playedPct": 56
+      }
+    ]
   },
   "Robert Finley": {
     "mbid": "30c56507-1f30-4d60-b056-66d432e472de",
@@ -21451,6 +22384,13 @@
   "The House Is Rockin": {
     "status": "artist-not-found",
     "fetched": "2026-11-20"
+  },
+  "The Miracle": {
+    "mbid": "a8ec32b6-7ef0-4692-9ff5-756a7721bd68",
+    "url": "https://www.setlist.fm/setlists/the-miracle-439d83b3.html",
+    "fetched": "2026-11-21",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "The Mission": {
     "mbid": "d85e95a3-07c7-4c04-a411-234290615113",

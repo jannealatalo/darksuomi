@@ -12,6 +12,8 @@ export type Event = {
   artist: string;
   venue: string;
   city: string;
+  /** Which city site lists the gig (set on the combined past gigs page). */
+  site?: "helsinki" | "tampere" | "oulu";
   date: string;
   ticketUrl: string;
   /** The gig's own page where the scraper found it (usually the venue's site). */

@@ -111,6 +111,8 @@ const pastSetlists = pastSetlistData as Record<
 
 /** The actual setlists of a past gig, as found on setlist.fm. */
 export function actualSetlists(event: Event): ShowLink[] {
-  const found = pastSetlists[String(event.id)]?.setlists ?? {};
+  // setlists.py keys: "42" for Helsinki, "tampere:42" for the other cities.
+  const key = event.site && event.site !== "helsinki" ? `${event.site}:${event.id}` : String(event.id);
+  const found = pastSetlists[key]?.setlists ?? {};
   return Object.entries(found).map(([artist, s]) => ({ artist, url: s.url }));
 }
