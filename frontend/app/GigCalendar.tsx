@@ -218,7 +218,7 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                   ))}
                   <span className="block mt-2">
                     <Link
-                      href={`${CITIES.find((c) => c.key === city)?.path}/bands`}
+                      href="/bands"
                       className="text-purple-400 hover:text-purple-300"
                     >
                       Bands A–Z: Spotify, Bandcamp, SoundCloud… →

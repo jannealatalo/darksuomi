@@ -22,17 +22,17 @@ const BANDS_BY_CITY: Record<CityKey, Record<string, BandEntry>> = {
   oulu: ouluBandData as Record<string, BandEntry>,
 };
 
-/** The city's band directory page: /bands, /tampere/bands, /oulu/bands. */
-export function bandsPath(city: CityKey): string {
-  const path = CITIES.find((c) => c.key === city)?.path ?? "/";
-  return `${path === "/" ? "" : path}/bands`;
-}
+/** The one band directory, for every city. */
+export const BANDS_PATH = "/bands";
+
+/** An upcoming gig in the directory, with its city's gig list. */
+export type BandGig = Event & { gigsPath: string; cityName: string };
 
 export type Band = {
   name: string;
   genres: string[];
   links: Partial<Record<LinkKind, string>>;
-  gigs: Event[];
+  gigs: BandGig[];
 };
 
 /** Search pages for the main services, used when no profile link is known. */
@@ -52,20 +52,36 @@ export function isMetal(genres: string[]): boolean {
   return genres.some((g) => /metal|doom|grind|-core|core$|sludge/.test(g));
 }
 
-/** Bands with upcoming gigs, alphabetically, with their gigs attached. */
-export function getBands(city: CityKey = "helsinki"): Band[] {
-  const upcoming = new Map(getEvents(city).map((e) => [e.id, e]));
-  return Object.entries(BANDS_BY_CITY[city])
-    .map(([name, b]) => ({
-      name: b.display || name,
-      genres: b.genres ?? [],
-      links: b.links ?? {},
-      gigs: (b.eventIds ?? [])
+/**
+ * Bands with upcoming gigs in any city, alphabetically, with their gigs
+ * attached. A band in several cities' data is one entry (matched by
+ * bandSlug, which also folds spelling variants like "KANONENFIEBER").
+ */
+export function getBands(): Band[] {
+  const bands = new Map<string, Band>();
+  for (const city of CITIES) {
+    const upcoming = new Map(getEvents(city.key).map((e) => [e.id, e]));
+    for (const [key, b] of Object.entries(BANDS_BY_CITY[city.key])) {
+      const gigs = (b.eventIds ?? [])
         .map((id) => upcoming.get(id))
         .filter((e): e is Event => Boolean(e))
-        .sort((a, c) => a.date.localeCompare(c.date)),
-    }))
-    .filter((b) => b.gigs.length > 0)
+        .map((e) => ({ ...e, gigsPath: city.path, cityName: city.name }));
+      if (gigs.length === 0) continue;
+      const name = b.display || key;
+      const slug = bandSlug(name);
+      const known = bands.get(slug);
+      if (!known) {
+        bands.set(slug, { name, genres: b.genres ?? [], links: { ...b.links }, gigs });
+        continue;
+      }
+      known.links = { ...b.links, ...known.links };
+      if (known.genres.length === 0) known.genres = b.genres ?? [];
+      const ids = new Set(known.gigs.map((g) => `${g.gigsPath}${g.id}`));
+      known.gigs.push(...gigs.filter((g) => !ids.has(`${g.gigsPath}${g.id}`)));
+    }
+  }
+  return [...bands.values()]
+    .map((b) => ({ ...b, gigs: b.gigs.sort((a, c) => a.date.localeCompare(c.date)) }))
     .sort((a, b) => a.name.localeCompare(b.name, "fi", { sensitivity: "base" }));
 }
 
@@ -82,13 +98,12 @@ export function letterOf(name: string): string {
  */
 export function withBandInfo(events: Event[], city: CityKey = "helsinki"): Event[] {
   const byEvent = new Map<number, GigBand[]>();
-  const directory = bandsPath(city);
   for (const [key, b] of Object.entries(BANDS_BY_CITY[city])) {
     const name = b.display || key;
     const links = b.links ?? {};
     for (const id of b.eventIds ?? []) {
       const list = byEvent.get(id) ?? [];
-      list.push({ name, links, href: `${directory}#band-${bandSlug(name)}` });
+      list.push({ name, links, href: `${BANDS_PATH}#band-${bandSlug(name)}` });
       byEvent.set(id, list);
     }
   }

@@ -18,21 +18,15 @@ function shortDate(iso: string) {
 }
 
 /** Searchable A–Z list of bands with their links and upcoming gigs. */
-export default function BandDirectory({
-  bands,
-  gigsPath = "/",
-}: {
-  bands: Band[];
-  /** The city's gig list, for the gig date links: "/", "/tampere"… */
-  gigsPath?: string;
-}) {
+export default function BandDirectory({ bands }: { bands: Band[] }) {
   const [query, setQuery] = useState("");
   const q = query.trim().toLocaleLowerCase("fi");
   const shown = q
     ? bands.filter(
         (b) =>
           b.name.toLocaleLowerCase("fi").includes(q) ||
-          b.genres.some((g) => g.includes(q))
+          b.genres.some((g) => g.includes(q)) ||
+          b.gigs.some((g) => g.cityName.toLocaleLowerCase("fi").includes(q))
       )
     : bands;
 
@@ -50,8 +44,8 @@ export default function BandDirectory({
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search bands or genres…"
-          aria-label="Search bands or genres"
+          placeholder="Search bands, genres or cities…"
+          aria-label="Search bands, genres or cities"
           className="w-full rounded bg-gray-900 border border-gray-700 px-3 py-2 text-gray-100 placeholder-gray-500 focus:outline-none focus:border-purple-500"
         />
         {!q && (
@@ -74,7 +68,7 @@ export default function BandDirectory({
           </h2>
           <ul className="divide-y divide-gray-900">
             {list.map((band) => (
-              <BandRow key={band.name} band={band} gigsPath={gigsPath} />
+              <BandRow key={band.name} band={band} />
             ))}
           </ul>
         </section>
@@ -83,7 +77,7 @@ export default function BandDirectory({
   );
 }
 
-function BandRow({ band, gigsPath }: { band: Band; gigsPath: string }) {
+function BandRow({ band }: { band: Band }) {
   const confirmed = LINK_LABELS.filter(([kind]) => band.links[kind]);
   const q = encodeURIComponent(band.name);
   const searches: [string, string, (q: string) => string][] = SEARCH_LINKS.filter(
@@ -106,9 +100,10 @@ function BandRow({ band, gigsPath }: { band: Band; gigsPath: string }) {
         {band.gigs.map((gig, i) => (
           <span key={gig.id}>
             {i > 0 && <span className="text-gray-600"> · </span>}
-            <Link href={`${gigsPath}#gig-${gig.id}`} className="hover:text-white">
+            <Link href={`${gig.gigsPath}#gig-${gig.id}`} className="hover:text-white">
               <span className="font-semibold text-gray-100">{shortDate(gig.date)}</span>{" "}
               {gig.venue}
+              {gig.cityName !== "Helsinki" && <span className="text-gray-400">, {gig.cityName}</span>}
             </Link>
           </span>
         ))}

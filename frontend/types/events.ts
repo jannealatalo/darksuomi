@@ -1,7 +1,7 @@
 /** A band on the bill, from the band directory (see withBandInfo). */
 export type GigBand = {
   name: string;
-  /** The band in its city's directory, e.g. /tampere/bands#band-<slug> */
+  /** The band in its city's directory, /bands#band-<slug> */
   href: string;
   links: Partial<Record<string, string>>;
 };
