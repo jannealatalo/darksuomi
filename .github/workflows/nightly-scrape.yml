@@ -81,6 +81,20 @@ jobs:
         continue-on-error: true
         run: python scraper_korjaamo.py
 
+      - name: Scrape Dubrovnik (only gigs whose genres fit)
+        continue-on-error: true
+        env:
+          # Genres are looked up while scraping, to keep only fitting gigs.
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_dubrovnik.py
+
+      - name: Scrape Ääniwalli (only gigs whose genres fit)
+        continue-on-error: true
+        env:
+          # Genres are looked up while scraping, to keep only fitting gigs.
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_aaniwalli.py
+
       - name: Scrape Sellosali, Espoo (music only)
         continue-on-error: true
         run: python scraper_sellosali.py

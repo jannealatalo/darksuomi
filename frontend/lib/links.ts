@@ -14,6 +14,8 @@ export const VENUE_LINKS: Record<string, string> = {
   Olympiastadion: "https://www.stadion.fi/en/events/events",
   "Suvilahti (Tuska)": "https://tuska.fi/",
   Korjaamo: "https://korjaamo.fi/tapahtumat/",
+  Dubrovnik: "https://www.dubrovnik.fi/",
+  Ääniwalli: "https://aaniwalli.fi/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
   // Tampere
   "Tavara-asema": "https://tavara-asema.fi/",

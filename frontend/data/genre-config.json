@@ -67,6 +67,21 @@
     "*indie*"
   ],
   "artistOverrides": {
+    "Mikkey Dee with Friends": {
+      "genres": ["hard rock", "heavy metal"]
+    },
+    "SAMUEL MORIERO": {
+      "genres": ["hard techno", "dj night"]
+    },
+    "SKRYPTION": {
+      "genres": ["hard techno", "dj night"]
+    },
+    "Paleface": {
+      "genres": ["hip hop", "rap"]
+    },
+    "Diya": {
+      "genres": ["pop"]
+    },
     "Us": {
       "genres": []
     },

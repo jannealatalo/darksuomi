@@ -424,6 +424,23 @@
     ]
   },
   {
+    "venue": "Dubrovnik",
+    "city": "Helsinki",
+    "date": "2026-11-21T00:00:00",
+    "eventUrl": "https://www.dubrovnik.fi/keikat/maustetytot/",
+    "ticketUrl": "https://www.dubrovnik.fi/keikat/maustetytot/",
+    "status": "sold out",
+    "artist": "Maustetytöt",
+    "id": 433,
+    "artists": [
+      "Maustetytöt"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
     "id": 3,
     "artist": "Levymessut",
     "venue": "Tavastia Klubi",
@@ -439,6 +456,49 @@
     "doors": "11:00",
     "status": "sold out",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "ARCHSPIRE (CA) + supports: Crown Magnetar, The Zenith Passage, Analepsy",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2026-11-21T17:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-04-13-archspire_ca__supports_crown_magnetar_the_zenith_passage_analepsy",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/117416",
+    "room": "Room 1",
+    "doors": "17:00",
+    "age": "K-18",
+    "id": 438,
+    "artists": [
+      "Crown Magnetar",
+      "The Zenith Passage",
+      "Analepsy"
+    ],
+    "genres": [
+      "deathcore",
+      "brutal deathcore",
+      "technical death metal",
+      "death metal",
+      "brutal death metal",
+      "slamming brutal death metal"
+    ],
+    "schedule": [
+      {
+        "time": "18:05",
+        "name": "ANALEPSY"
+      },
+      {
+        "time": "18:50",
+        "name": "THE ZENIT PASSAGE"
+      },
+      {
+        "time": "19:40",
+        "name": "CROWN MAGNETAR"
+      },
+      {
+        "time": "20:45",
+        "name": "ARCHSPIRE"
+      }
+    ]
   },
   {
     "artist": "Hellsinki Industrial Festival 2026: Gothminister (NO), Das Ich (DE), Kontravoid (US), Eggvn (MEX), Ambassador21 (BY), Uhrisavu, Sekret Teknik, Dead Undying",
@@ -716,6 +776,23 @@
     "venueDefault": "rock"
   },
   {
+    "venue": "Dubrovnik",
+    "city": "Helsinki",
+    "date": "2026-11-22T00:00:00",
+    "eventUrl": "https://www.dubrovnik.fi/keikat/maustetytot-lisakeikka-s/",
+    "ticketUrl": "https://www.tiketti.fi/maustetytot-s-dubrovnik-helsinki-lippuja/121225",
+    "age": "S",
+    "artist": "Maustetytöt lisäkeikka (S)",
+    "id": 434,
+    "artists": [
+      "Maustetytöt"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
     "id": 5,
     "artist": "Michael Monroe plays Hanoi Rocks",
     "venue": "Tavastia Klubi",
@@ -741,6 +818,50 @@
     "doors": "14:00",
     "status": "sold out",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "ARCHSPIRE (CA) + Supports: Crown Magnetar, The Zenith Passage, Analepsy",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2026-11-22T16:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-11-22-archspire_ca__supports_crown_magnetar_the_zenith_passage_analepsy",
+    "ticketUrl": "https://www.tiketti.fi/archspire-crown-magnetar-the-zenith-passage-analepsy-lippuja/118889",
+    "room": "Room 1",
+    "price": "49,50 €",
+    "doors": "16:00",
+    "age": "K-18",
+    "id": 439,
+    "artists": [
+      "Crown Magnetar",
+      "The Zenith Passage",
+      "Analepsy"
+    ],
+    "genres": [
+      "deathcore",
+      "brutal deathcore",
+      "technical death metal",
+      "death metal",
+      "brutal death metal",
+      "slamming brutal death metal"
+    ],
+    "schedule": [
+      {
+        "time": "17:05",
+        "name": "ANALEPSY"
+      },
+      {
+        "time": "17:50",
+        "name": "THE ZENIT PASSAGE"
+      },
+      {
+        "time": "18:40",
+        "name": "CROWN MAGNETAR"
+      },
+      {
+        "time": "19:45",
+        "name": "ARCHSPIRE"
+      }
+    ]
   },
   {
     "artist": "ARTMS World Tour – Art of BLUE BLOOD",
@@ -1355,6 +1476,27 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "Melancholy Mass Helsinki 2026",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2026-11-28T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-11-28-melancholy_mass_helsinki_2026",
+    "ticketUrl": "https://www.tiketti.fi/melancholy-mass-helsinki-2026-aaniwalli-helsinki-lippuja/119062",
+    "room": "Room 1",
+    "venueGenres": [
+      "metal"
+    ],
+    "price": "46 € at the door",
+    "age": "K-18",
+    "id": 440,
+    "artists": [
+      "Melancholy Mass Helsinki"
+    ],
+    "genres": [
+      "metal"
     ]
   },
   {
@@ -2862,6 +3004,24 @@
     ]
   },
   {
+    "venue": "Dubrovnik",
+    "city": "Helsinki",
+    "date": "2026-12-10T00:00:00",
+    "eventUrl": "https://www.dubrovnik.fi/keikat/ghosts-on-tv-longing-louisa/",
+    "ticketUrl": "https://www.tiketti.fi/ghosts-on-tv-longing-louisa-dubrovnik-helsinki-lippuja/121020",
+    "artist": "Ghosts on TV + Longing Louisa",
+    "id": 435,
+    "artists": [
+      "Ghosts on TV",
+      "Longing Louisa"
+    ],
+    "genres": [
+      "post rock",
+      "indie rock",
+      "post-punk"
+    ]
+  },
+  {
     "id": 15,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -2959,6 +3119,30 @@
     "genres": [
       "acoustic",
       "pop"
+    ]
+  },
+  {
+    "artist": "Mental Cruelty (DE) + special guests: Ov Sulfur, Extermination Dismemberment, Arcranius",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2026-12-11T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-12-11-mental_cruelty_de__special_guests_ov_sulfur_extermination_dismemberment_arcranius",
+    "ticketUrl": "https://www.ticketmaster.fi/event/mental-cruelty-lippuja/585297311",
+    "room": "Room 1",
+    "price": "38 €",
+    "age": "K-18",
+    "id": 441,
+    "artists": [
+      "Ov Sulfur",
+      "Extermination Dismemberment",
+      "Arcranius"
+    ],
+    "genres": [
+      "deathcore",
+      "blackened deathcore",
+      "brutal death metal",
+      "slamming brutal death metal",
+      "death metal"
     ]
   },
   {
@@ -3427,6 +3611,24 @@
       "funk",
       "afrobeat",
       "soul"
+    ]
+  },
+  {
+    "venue": "Dubrovnik",
+    "city": "Helsinki",
+    "date": "2026-12-15T00:00:00",
+    "eventUrl": "https://www.dubrovnik.fi/keikat/jp-leppaluoto-joulu-pohjolassa/",
+    "ticketUrl": "https://www.tiketti.fi/jp-leppaluoto-joulu-pohjolassa-dubrovnik-helsinki-lippuja/120780",
+    "artist": "JP Leppäluoto: Joulu Pohjolassa",
+    "id": 436,
+    "artists": [
+      "JP Leppäluoto"
+    ],
+    "genres": [
+      "acoustic",
+      "rock",
+      "singer-songwriter",
+      "hard rock"
     ]
   },
   {
@@ -3903,6 +4105,24 @@
     ]
   },
   {
+    "venue": "Dubrovnik",
+    "city": "Helsinki",
+    "date": "2026-12-19T00:00:00",
+    "eventUrl": "https://www.dubrovnik.fi/keikat/rebekka-holi-hannaeerika/",
+    "ticketUrl": "https://www.tiketti.fi/rebekka-holi-hannaeerika-dubrovnik-helsinki-lippuja/121226",
+    "artist": "Rebekka Holi + Hannaeerika",
+    "id": 437,
+    "artists": [
+      "Rebekka Holi",
+      "Hannaeerika"
+    ],
+    "genres": [
+      "european",
+      "singer songwriter",
+      "indie"
+    ]
+  },
+  {
     "artist": "KATRI YLANDER – ON TULOSSA JOULU",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -4054,6 +4274,27 @@
     ],
     "genres": [
       "r&b"
+    ]
+  },
+  {
+    "artist": "TÝR (FO) - Valhalla Calling Europe Tour 2026",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2026-12-20T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-12-20-tr_fo__valhalla_calling_europe_tour_2026",
+    "ticketUrl": "https://www.ticketmaster.fi/event/386000473",
+    "room": "Room 1",
+    "price": "44,90 €",
+    "age": "K-18",
+    "id": 443,
+    "artists": [
+      "TÝR"
+    ],
+    "genres": [
+      "folk metal",
+      "viking metal",
+      "progressive metal",
+      "pagan metal"
     ]
   },
   {
@@ -4918,6 +5159,27 @@
       "hip hop",
       "rap",
       "wu-fam"
+    ]
+  },
+  {
+    "artist": "Nordic Death Mass",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2027-01-16T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2027-01-16-nordic_death_mass",
+    "ticketUrl": "https://www.tiketti.fi/nordic-death-mass-aaniwalli-helsinki-lippuja/121220",
+    "room": "Room 1+1",
+    "venueGenres": [
+      "metal"
+    ],
+    "price": "17 €",
+    "age": "K-18",
+    "id": 444,
+    "artists": [
+      "Nordic Death Mass"
+    ],
+    "genres": [
+      "metal"
     ]
   },
   {
@@ -6699,6 +6961,34 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Uncle Acid and The Deadbeats (UK) + Conan (UK), Earth Tongue (NZ)",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2027-02-22T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-08-29-uncle_acid_and_the_deadbeats_uk__conan_earth_tongue",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120423",
+    "room": "Room 1",
+    "price": "45 €",
+    "age": "K-18",
+    "id": 445,
+    "artists": [
+      "Uncle Acid and The Deadbeats",
+      "Conan",
+      "Earth Tongue"
+    ],
+    "genres": [
+      "psychedelic rock",
+      "doom metal",
+      "psychedelic",
+      "traditional doom metal",
+      "sludge",
+      "stoner metal",
+      "stoner rock",
+      "fuzz",
+      "heavy psych"
+    ]
+  },
+  {
     "artist": "Five Finger Death Punch: 20th Anniversary World Tour",
     "venue": "Veikkaus Arena",
     "city": "Helsinki",
@@ -7034,6 +7324,24 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Mikkey Dee with Friends",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2027-03-03T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2027-03-03-mikkey_dee_with_friends",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121939",
+    "room": "Room 1",
+    "age": "K-18",
+    "id": 446,
+    "artists": [
+      "Mikkey Dee with Friends"
+    ],
+    "genres": [
+      "hard rock",
+      "heavy metal"
+    ]
   },
   {
     "id": 58,
@@ -8951,6 +9259,27 @@
     ],
     "genres": [
       "rock"
+    ]
+  },
+  {
+    "artist": "U.K. Subs – The Final Tour 2027",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2027-05-28T00:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2027-05-28-uk_subs__the_final_tour_2027",
+    "ticketUrl": "https://www.tiketti.fi/u-k-subs-aaniwalli-helsinki-lippuja/122321",
+    "room": "Room 1",
+    "price": "45 €",
+    "age": "K-18",
+    "id": 447,
+    "artists": [
+      "U.K. Subs"
+    ],
+    "genres": [
+      "punk",
+      "punk rock",
+      "street punk",
+      "oi"
     ]
   },
   {

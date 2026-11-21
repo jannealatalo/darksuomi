@@ -123,6 +123,8 @@ VENUE_GENRES = {
     "stand-up": "stand-up", "other": None,
     # Lepakkomies categories (same site builder as On the Rocks)
     "gothic": "gothic rock", "hc": "hardcore", "stoner": "stoner rock",
+    # Ääniwalli: genre words found in a gig's description
+    "doom": "doom metal",
     # Kulttuuritalo / KULT categories
     "rock-ja-metalli": "rock", "punk-ja-indie": "indie", "pop-ja-rap": "pop",
     "stand-up-ja-viihde": "stand-up", "jazz-ja-viihdemusiikki": "viihde",
@@ -203,6 +205,8 @@ def parse_title(title: str) -> list[dict]:
         part = re.sub(r"\s*[“”\"«][^“”\"»]*[“”\"»]", "", part)
         # Drop all parentheses: country codes, age limits, release-party notes.
         part = re.sub(r"\s*\([^)]*\)", "", part)
+        # "Maustetytöt lisäkeikka" (extra show) -> Maustetytöt.
+        part = re.sub(r"\s+(?:lisäkeikka|lisänäytös|extra show)$", "", part, flags=re.I)
         # Headliner comes before a dash or colon: "X – tour name", "X: show".
         part = re.split(r"\s+[–—-]\s+|:\s+|\s+//\s+", part)[0]
         # Tribute / special shows: "X plays Y", "X goes Tavastia", "X feat. Y".
@@ -385,6 +389,27 @@ def resolve_artist(act: dict, cache: dict, overrides: dict, refresh: bool) -> tu
     for sub in re.split(r"\s+&\s+", name):
         tags += [t for t in tidy(get(sub)["tags"]) if t not in tags]
     return name, tags
+
+
+ALWAYS_SHOW_TOP_TAGS = 5  # as in frontend/lib/events.ts
+
+
+def shown_by_default(genres: list[str], config: dict) -> bool:
+    """
+    Would the site show a gig with these genres by default? The same rule as
+    isExcludedByGenre() in frontend/lib/events.ts: a core genre
+    (alwaysShowGenres) among the strongest tags, or a header-genre tag while
+    the strongest tag isn't excluded (pop, jazz, iskelmä…).
+    """
+    top = genres[:ALWAYS_SHOW_TOP_TAGS]
+    core = [re.compile("^" + ".*".join(re.escape(p) for p in pattern.split("*")) + "$")
+            for pattern in config.get("alwaysShowGenres", [])]
+    if any(c.match(tag) for c in core for tag in top):
+        return True
+    if not top or top[0] in set(config.get("excludeGenres", [])):
+        return False
+    return any(re.search(p, tag, flags=re.I)
+               for g in config.get("genreFilters", []) for p in g["patterns"] for tag in top)
 
 
 DJ_TITLE = re.compile(r"\b(dj|djs|disko|disco)\b|-disko\b", re.I)
