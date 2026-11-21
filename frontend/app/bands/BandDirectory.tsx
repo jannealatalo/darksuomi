@@ -6,6 +6,7 @@ import {
   LINK_LABELS,
   METAL_ARCHIVES_SEARCH,
   SEARCH_LINKS,
+  bandSlug,
   isMetal,
   letterOf,
   type Band,
@@ -86,7 +87,7 @@ function BandRow({ band }: { band: Band }) {
   }
 
   return (
-    <li className="py-3">
+    <li id={`band-${bandSlug(band.name)}`} className="py-3 scroll-mt-32">
       <div className="flex flex-wrap items-baseline gap-x-3">
         <h3 className="text-lg font-semibold text-gray-100">{band.name}</h3>
         {band.genres.length > 0 && (

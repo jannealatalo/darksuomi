@@ -188,12 +188,14 @@ function EventItem({
             Tickets
           </a>
           {/* Expected setlist and latest shows fold under one "Setlist stuff"
-              toggle, so a festival bill doesn't fill the screen with links. */}
+              toggle, and band links under "Band info", so a festival bill
+              doesn't fill the screen with links. */}
           <ExpectedSetlists
             setlists={expectedSetlists(event)}
             special={isSpecialShow(event)}
             playlistUrl={playlistUrl(event)}
             latestShows={latestShows(event).length > 0 ? <LatestShows shows={latestShows(event)} /> : null}
+            bands={event.bands}
           />
         </div>
       )}

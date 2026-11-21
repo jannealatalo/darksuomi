@@ -1,29 +1,36 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import Link from "next/link";
+import { LINK_LABELS } from "../lib/bandLinks";
 import type { ExpectedSetlist } from "../lib/setlists";
+import type { GigBand } from "../types/events";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("fi-FI", { timeZone: "Europe/Helsinki" });
 }
 
 /**
- * "Setlist stuff" for one event, collapsed by default: the expected
- * setlist(s) and the links to each act's latest show (`latestShows`).
+ * "Setlist stuff" and "Band info" for one event, both collapsed by default:
+ * the expected setlist(s) and the links to each act's latest show
+ * (`latestShows`); and each band's links from the band directory (`bands`).
  */
 export default function ExpectedSetlists({
   setlists,
   special,
   playlistUrl,
   latestShows,
+  bands = [],
 }: {
   setlists: ExpectedSetlist[];
   special: boolean;
   playlistUrl: string | null;
   latestShows?: ReactNode;
+  bands?: GigBand[];
 }) {
   const [open, setOpen] = useState(false);
-  if (setlists.length === 0 && !latestShows && !playlistUrl) return null;
+  const [bandsOpen, setBandsOpen] = useState(false);
+  if (setlists.length === 0 && !latestShows && !playlistUrl && bands.length === 0) return null;
   const hasContent = setlists.length > 0 || !!latestShows;
   const showArtistNames = setlists.length > 1;
 
@@ -44,6 +51,20 @@ export default function ExpectedSetlists({
           </button>
         )}
 
+        {bands.length > 0 && (
+          <button
+            type="button"
+            onClick={() => setBandsOpen(!bandsOpen)}
+            aria-expanded={bandsOpen}
+            className="inline-flex items-center gap-1.5 text-gray-300 hover:text-white"
+          >
+            <span aria-hidden="true" className={`text-xs transition-transform ${bandsOpen ? "rotate-90" : ""}`}>
+              ▶
+            </span>
+            Band info
+          </button>
+        )}
+
         {playlistUrl && (
           <a
             href={playlistUrl}
@@ -58,6 +79,8 @@ export default function ExpectedSetlists({
           </a>
         )}
       </div>
+
+      {bandsOpen && <BandInfo bands={bands} />}
 
       {open && (
       <div className="mt-2 pl-4 border-l border-gray-800 space-y-4">
@@ -148,5 +171,42 @@ function Song({ song }: { song: ExpectedSetlist["songs"][number] }) {
         <span className="text-gray-600 text-xs"> · sometimes</span>
       )}
     </li>
+  );
+}
+
+/** Each band's links (Spotify, Bandcamp, homepage…) and its directory entry. */
+function BandInfo({ bands }: { bands: GigBand[] }) {
+  return (
+    <ul className="mt-2 pl-4 border-l border-gray-800 space-y-2">
+      {bands.map((band) => {
+        const links = LINK_LABELS.filter(([kind]) => band.links[kind]);
+        return (
+          <li key={band.slug}>
+            <span className="font-semibold text-gray-200">{band.name}</span>
+            <span className="text-gray-600"> · </span>
+            {links.length === 0 && <span className="text-gray-500">no links found · </span>}
+            {links.map(([kind, label]) => (
+              <span key={kind}>
+                <a
+                  href={band.links[kind]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300"
+                >
+                  {label}
+                </a>
+                <span className="text-gray-600"> · </span>
+              </span>
+            ))}
+            <Link
+              href={`/bands#band-${band.slug}`}
+              className="text-gray-400 hover:text-gray-200 whitespace-nowrap"
+            >
+              in directory →
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }

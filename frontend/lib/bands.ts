@@ -1,11 +1,9 @@
 import bandData from "../data/bands.json";
 import { getEvents } from "./events";
-import type { Event } from "../types/events";
+import type { Event, GigBand } from "../types/events";
+import { LINK_LABELS, bandSlug, type LinkKind } from "./bandLinks";
 
-export type LinkKind =
-  | "spotify" | "bandcamp" | "soundcloud" | "tidal" | "apple" | "deezer"
-  | "youtube" | "discogs" | "metalArchives" | "wikipedia" | "homepage"
-  | "instagram";
+export { LINK_LABELS, bandSlug, type LinkKind };
 
 type BandEntry = {
   display?: string;
@@ -20,22 +18,6 @@ export type Band = {
   links: Partial<Record<LinkKind, string>>;
   gigs: Event[];
 };
-
-/** Labels in display order. */
-export const LINK_LABELS: [LinkKind, string][] = [
-  ["spotify", "Spotify"],
-  ["bandcamp", "Bandcamp"],
-  ["soundcloud", "SoundCloud"],
-  ["tidal", "Tidal"],
-  ["apple", "Apple Music"],
-  ["deezer", "Deezer"],
-  ["youtube", "YouTube"],
-  ["discogs", "Discogs"],
-  ["metalArchives", "Metal Archives"],
-  ["wikipedia", "Wikipedia"],
-  ["homepage", "Homepage"],
-  ["instagram", "Instagram"],
-];
 
 /** Search pages for the main services, used when no profile link is known. */
 export const SEARCH_LINKS: [LinkKind, string, (q: string) => string][] = [
@@ -75,4 +57,32 @@ export function getBands(): Band[] {
 export function letterOf(name: string): string {
   const first = name.trim().charAt(0).toLocaleUpperCase("fi");
   return /[A-ZÅÄÖ]/.test(first) ? first : "#";
+}
+
+/**
+ * The gig list's "Band info": each gig gets the directory entries of its
+ * bands (name, anchor, links), in the order they appear in the title. Done
+ * on the server so the browser gets only these, not all of bands.json.
+ */
+export function withBandInfo(events: Event[]): Event[] {
+  const byEvent = new Map<number, GigBand[]>();
+  for (const [key, b] of Object.entries(bandData as Record<string, BandEntry>)) {
+    const name = b.display || key;
+    const links = b.links ?? {};
+    for (const id of b.eventIds ?? []) {
+      const list = byEvent.get(id) ?? [];
+      list.push({ name, slug: bandSlug(name), links });
+      byEvent.set(id, list);
+    }
+  }
+  return events.map((e) => {
+    const bands = byEvent.get(e.id);
+    if (!bands) return e;
+    const title = e.artist.toLowerCase();
+    const pos = (b: GigBand) => {
+      const i = title.indexOf(b.name.toLowerCase());
+      return i < 0 ? title.length : i;
+    };
+    return { ...e, bands: [...bands].sort((a, b) => pos(a) - pos(b)) };
+  });
 }
