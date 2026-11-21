@@ -6,6 +6,8 @@ export type Event = {
   city: string;
   date: string;
   ticketUrl: string;
+  /** The gig's own page where the scraper found it (usually the venue's site). */
+  eventUrl?: string;
   /** Artist names parsed from the title (added by genres.py). */
   artists?: string[];
   /** Genre tags, strongest first (added by genres.py). */

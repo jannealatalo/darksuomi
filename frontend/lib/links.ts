@@ -74,3 +74,30 @@ export const MEDIA_SITES: SiteLink[] = [
   { name: "Metalliluola", url: "https://www.metalliluola.fi/" },
   { name: "Tuonela Magazine", url: "https://www.tuonelamagazine.com/" },
 ];
+
+/** Ticket shops: a link there is "Tickets", not the venue's page. */
+const TICKET_SHOPS =
+  /(^|\.)(tiketti\.fi|lippu\.fi|ticketmaster\.\w+|livenation\.\w+|eventbrite\.[\w.]+|biletti\.fi|eventu\.al|weezevent\.com|cluby\.com|holvi\.com)$/;
+
+function isTicketShop(url: string): boolean {
+  try {
+    return TICKET_SHOPS.test(new URL(url).hostname);
+  } catch {
+    return true; // not a usable URL
+  }
+}
+
+/**
+ * Where the venue name of a gig links: the gig's page at the venue (or the
+ * listing it was found in) when there is one, else the venue's home page.
+ */
+export function venueUrl(event: {
+  venue: string;
+  eventUrl?: string;
+  ticketUrl: string;
+}): string | undefined {
+  for (const url of [event.eventUrl, event.ticketUrl]) {
+    if (url && !isTicketShop(url)) return url;
+  }
+  return VENUE_LINKS[event.venue];
+}
