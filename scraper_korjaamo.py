@@ -40,15 +40,24 @@ def page_url(n: int) -> str:
     return LIST_URL if n == 1 else f"{LIST_URL}sivu/{n}/"
 
 
-def parse_cards(html: str) -> list[dict]:
+COMEDY_CATS = re.compile(r"^event_cat-(stand-up|komedia)")
+
+
+def parse_cards(html: str, kind: str = "music") -> list[dict]:
+    """Event cards of one list page: music events, or with kind="comedy" the
+    stand-up / comedy ones (for the stand-up site, standup.py)."""
     soup = BeautifulSoup(html, "html.parser")
     events = []
     for li in soup.select("li.wp-block-post.event"):
         classes = li.get("class", [])
         genres = [c.removeprefix("genres-") for c in classes if c.startswith("genres-")]
-        is_music = any(MUSIC_CATS.match(c) for c in classes) or bool(genres)
-        if not is_music or any(NOT_MUSIC_CATS.match(c) for c in classes):
-            continue
+        if kind == "comedy":
+            if not any(COMEDY_CATS.match(c) for c in classes):
+                continue
+        else:
+            is_music = any(MUSIC_CATS.match(c) for c in classes) or bool(genres)
+            if not is_music or any(NOT_MUSIC_CATS.match(c) for c in classes):
+                continue
 
         link = li.select_one(".event-card__title a")
         meta = li.select_one(".event-card__meta")
@@ -88,20 +97,26 @@ def parse_cards(html: str) -> list[dict]:
     return events
 
 
-def main() -> int:
+def fetch(kind: str = "music") -> list[dict]:
+    """Every list page's events of this kind (see parse_cards)."""
     scraped, seen = [], set()
     for n in range(1, MAX_PAGES + 1):
         resp = requests.get(page_url(n), headers=HEADERS, timeout=30)
         if resp.status_code == 404:
             break
         resp.raise_for_status()
-        found = [e for e in parse_cards(resp.text) if e["eventUrl"] not in seen]
+        found = [e for e in parse_cards(resp.text, kind) if e["eventUrl"] not in seen]
         if not found and n > 1 and "wp-block-post" not in resp.text:
             break
         seen.update(e["eventUrl"] for e in found)
         scraped += found
         if f"sivu/{n + 1}/" not in resp.text:
             break
+    return scraped
+
+
+def main() -> int:
+    scraped = fetch()
 
     today = date.today().isoformat()
     scraped = [e for e in scraped if e["date"][:10] >= today]

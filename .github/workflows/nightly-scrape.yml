@@ -114,6 +114,12 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python genres.py
 
+      - name: Stand-up shows for Itse Keksityt Vitsit (/standup)
+        # Comedy from the venue scrapes above, Korjaamo's stand-up category
+        # and the Helsinki/Espoo event APIs -> data/standup/events.json.
+        continue-on-error: true
+        run: python standup.py
+
       - name: Experimental city sites (Tampere, Oulu)
         # Separate data (frontend/data/<city>/events.json); genres share the
         # artist cache. No setlist.fm or Spotify calls for these sites. A
@@ -146,6 +152,7 @@ jobs:
 
       - name: Update band directory links
         # MusicBrainz links (+ Spotify search fallback); not critical.
+        # One run covers Helsinki, Tampere and Oulu (data/<city>/bands.json).
         # bands.py stops and saves after 8 minutes by itself (the rest is
         # done the next night); this cap is only for a complete hang.
         continue-on-error: true

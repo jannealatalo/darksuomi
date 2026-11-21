@@ -10,9 +10,16 @@ import { useEffect } from "react";
 export default function SearchBox({
   value,
   onChange,
+  placeholder = "Search bands, venues, genres…",
+  label = "Search gigs",
+  clearLabel = "Clear search",
 }: {
   value: string;
   onChange: (value: string) => void;
+  /** Texts, for the Finnish stand-up page. */
+  placeholder?: string;
+  label?: string;
+  clearLabel?: string;
 }) {
   useEffect(() => {
     const q = new URLSearchParams(window.location.search).get("q");
@@ -52,15 +59,15 @@ export default function SearchBox({
         value={value}
         onChange={(e) => update(e.target.value)}
         onKeyDown={(e) => e.key === "Escape" && update("")}
-        placeholder="Search bands, venues, genres…"
-        aria-label="Search gigs"
+        placeholder={placeholder}
+        aria-label={label}
         className="w-full rounded border border-gray-700 bg-gray-950 py-2 pl-9 pr-9 text-sm text-gray-100 placeholder-gray-500 focus:border-purple-500 focus:outline-none [&::-webkit-search-cancel-button]:appearance-none"
       />
       {value && (
         <button
           type="button"
           onClick={() => update("")}
-          aria-label="Clear search"
+          aria-label={clearLabel}
           className="absolute right-2 top-1/2 -translate-y-1/2 px-1.5 text-gray-400 hover:text-white"
         >
           ✕
