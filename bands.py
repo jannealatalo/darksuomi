@@ -11,11 +11,15 @@ per run, shares that app's limit with playlists.py). Links that are still
 missing are shown on the site as search links instead.
 
 Comedy, DJ and "entertainment" bills, and names nobody recognises, are left
-out. Results: frontend/data/bands.json. Each band is re-checked monthly.
+out. Results: frontend/data/bands.json for Helsinki and
+frontend/data/<city>/bands.json for the city sites (Tampere, Oulu). One run
+covers all of them: a band playing in several cities is looked up once.
+Each band is re-checked monthly.
 
 Usage:
   python bands.py              # look up new / stale bands
   python bands.py --refresh    # re-check every band
+  python bands.py --minutes 30 # a longer time budget (default 8 minutes)
 """
 
 import argparse
@@ -33,10 +37,13 @@ from genres import (USER_AGENT, _norm, load_json, musicbrainz_lookup,
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "frontend" / "data"
-EVENTS_FILE = DATA_DIR / "events.json"
 ARTISTS_FILE = DATA_DIR / "artists.json"
 CONFIG_FILE = DATA_DIR / "genre-config.json"
-BANDS_FILE = DATA_DIR / "bands.json"
+CITY_KEYS = ("helsinki", "tampere", "oulu")
+
+
+def bands_file(city: str) -> Path:
+    return DATA_DIR / "bands.json" if city == "helsinki" else DATA_DIR / city / "bands.json"
 
 RECHECK_DAYS = 30
 MAX_MB_REQUESTS = 900        # ~15 min at 1 request/second
@@ -203,23 +210,43 @@ def band_names_by_event(events: list[dict], genre_cache: dict) -> dict[str, list
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--refresh", action="store_true", help="re-check every band")
+    parser.add_argument("--minutes", type=float, default=TIME_BUDGET_SECONDS / 60,
+                        help="time budget for lookups (default %(default)s)")
     args = parser.parse_args()
 
-    events = load_json(EVENTS_FILE, [])
+    from eventstore import events_file
     genre_cache = load_json(ARTISTS_FILE, {})
     overrides = load_json(CONFIG_FILE, {}).get("artistOverrides", {})
-    old = load_json(BANDS_FILE, {})
-    wanted = band_names_by_event(events, genre_cache)
-    for name in overrides:  # hand-checked artists count as known
-        for event in events:
-            if name in (event.get("artists") or []) and event["id"] not in wanted.get(name, []):
-                wanted.setdefault(name, []).append(event["id"])
+    # Band -> gig ids, per city (ids are only unique within a city).
+    wanted_by_city: dict[str, dict[str, list[int]]] = {}
+    old_by_city: dict[str, dict] = {}
+    for city in CITY_KEYS:
+        events = load_json(events_file(city), [])
+        city_wanted = band_names_by_event(events, genre_cache)
+        for name in overrides:  # hand-checked artists count as known
+            for event in events:
+                if (name in (event.get("artists") or [])
+                        and event["id"] not in city_wanted.get(name, [])):
+                    city_wanted.setdefault(name, []).append(event["id"])
+        wanted_by_city[city] = city_wanted
+        old_by_city[city] = load_json(bands_file(city), {})
+
+    # Look each band up once: the freshest earlier result from any city.
+    old: dict[str, dict] = {}
+    for city_old in old_by_city.values():
+        for name, entry in city_old.items():
+            if entry.get("fetched", "") > old.get(name, {}).get("fetched", ""):
+                old[name] = entry
+    wanted: dict[str, list[int]] = {}
+    for city_wanted in wanted_by_city.values():
+        for name in city_wanted:
+            wanted.setdefault(name, [])
 
     stale = (date.today() - timedelta(days=RECHECK_DAYS)).isoformat()
     spotify = SpotifySearch()
     bands: dict[str, dict] = {}
     looked_up = 0
-    deadline = time.monotonic() + TIME_BUDGET_SECONDS
+    deadline = time.monotonic() + args.minutes * 60
     try:
         for name in sorted(wanted, key=str.casefold):
             entry = dict(old.get(name, {}))
@@ -228,12 +255,11 @@ def main() -> int:
             # Last.fm / MusicBrainz spelling: "Amorphis", not "AMORPHIS".
             matched = genre_entry.get("matchedName") or name
             entry["display"] = matched if _norm(matched) == _norm(name) else name
-            entry["eventIds"] = sorted(set(wanted[name]))
             if not args.refresh and entry.get("fetched", "") >= stale:
                 bands[name] = entry
                 continue
             if time.monotonic() > deadline:
-                raise RuntimeError(f"time budget of {TIME_BUDGET_SECONDS // 60} min used")
+                raise RuntimeError(f"time budget of {args.minutes:g} min used")
 
             mbid = genre_entry.get("mbid") or entry.get("mbid")
             if not mbid:
@@ -254,13 +280,20 @@ def main() -> int:
         # Keep everything not reached yet as it was.
         for name in wanted:
             if name not in bands and name in old:
-                bands[name] = {**old[name], "eventIds": sorted(set(wanted[name]))}
+                bands[name] = dict(old[name])
     finally:
         try:
             print(f"  Wikipedia links added: {add_wikipedia_links(bands)}")
         except requests.RequestException as e:
             print(f"  ! Wikipedia lookup failed: {e}")
-        save_json(BANDS_FILE, dict(sorted(bands.items(), key=lambda kv: kv[0].casefold())))
+        # Each city's file: its own bands, with its own gig ids.
+        for city, city_wanted in wanted_by_city.items():
+            city_bands = {name: {**bands[name], "eventIds": sorted(set(ids))}
+                          for name, ids in city_wanted.items() if name in bands}
+            path = bands_file(city)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            save_json(path, dict(sorted(city_bands.items(), key=lambda kv: kv[0].casefold())))
+            print(f"  {city}: {len(city_bands)} bands")
 
     with_links = sum(1 for b in bands.values() if b.get("links"))
     print(f"✓ {len(bands)} bands ({with_links} with links), {looked_up} looked up, "

@@ -18,7 +18,14 @@ function shortDate(iso: string) {
 }
 
 /** Searchable A–Z list of bands with their links and upcoming gigs. */
-export default function BandDirectory({ bands }: { bands: Band[] }) {
+export default function BandDirectory({
+  bands,
+  gigsPath = "/",
+}: {
+  bands: Band[];
+  /** The city's gig list, for the gig date links: "/", "/tampere"… */
+  gigsPath?: string;
+}) {
   const [query, setQuery] = useState("");
   const q = query.trim().toLocaleLowerCase("fi");
   const shown = q
@@ -67,7 +74,7 @@ export default function BandDirectory({ bands }: { bands: Band[] }) {
           </h2>
           <ul className="divide-y divide-gray-900">
             {list.map((band) => (
-              <BandRow key={band.name} band={band} />
+              <BandRow key={band.name} band={band} gigsPath={gigsPath} />
             ))}
           </ul>
         </section>
@@ -76,7 +83,7 @@ export default function BandDirectory({ bands }: { bands: Band[] }) {
   );
 }
 
-function BandRow({ band }: { band: Band }) {
+function BandRow({ band, gigsPath }: { band: Band; gigsPath: string }) {
   const confirmed = LINK_LABELS.filter(([kind]) => band.links[kind]);
   const q = encodeURIComponent(band.name);
   const searches: [string, string, (q: string) => string][] = SEARCH_LINKS.filter(
@@ -99,7 +106,7 @@ function BandRow({ band }: { band: Band }) {
         {band.gigs.map((gig, i) => (
           <span key={gig.id}>
             {i > 0 && <span className="text-gray-600"> · </span>}
-            <Link href={`/#gig-${gig.id}`} className="hover:text-white">
+            <Link href={`${gigsPath}#gig-${gig.id}`} className="hover:text-white">
               <span className="font-semibold text-gray-100">{shortDate(gig.date)}</span>{" "}
               {gig.venue}
             </Link>

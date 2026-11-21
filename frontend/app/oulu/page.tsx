@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withBandInfo } from "../../lib/bands";
 import { getEvents } from "../../lib/events";
 import GigCalendar from "../GigCalendar";
 
@@ -9,5 +10,5 @@ export const metadata: Metadata = {
 
 /** Oulu site: its own venues and data (data/oulu/events.json). */
 export default function OuluPage() {
-  return <GigCalendar events={getEvents("oulu")} city="oulu" />;
+  return <GigCalendar events={withBandInfo(getEvents("oulu"), "oulu")} city="oulu" />;
 }

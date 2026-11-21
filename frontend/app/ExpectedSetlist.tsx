@@ -181,7 +181,7 @@ function BandInfo({ bands }: { bands: GigBand[] }) {
       {bands.map((band) => {
         const links = LINK_LABELS.filter(([kind]) => band.links[kind]);
         return (
-          <li key={band.slug}>
+          <li key={band.href}>
             <span className="font-semibold text-gray-200">{band.name}</span>
             <span className="text-gray-600"> · </span>
             {links.length === 0 && <span className="text-gray-500">no links found · </span>}
@@ -199,7 +199,7 @@ function BandInfo({ bands }: { bands: GigBand[] }) {
               </span>
             ))}
             <Link
-              href={`/bands#band-${band.slug}`}
+              href={band.href}
               className="text-gray-400 hover:text-gray-200 whitespace-nowrap"
             >
               in directory →

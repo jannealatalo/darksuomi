@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withBandInfo } from "../../lib/bands";
 import { getEvents } from "../../lib/events";
 import GigCalendar from "../GigCalendar";
 
@@ -9,5 +10,5 @@ export const metadata: Metadata = {
 
 /** Tampere site: its own venues and data (data/tampere/events.json). */
 export default function TamperePage() {
-  return <GigCalendar events={getEvents("tampere")} city="tampere" />;
+  return <GigCalendar events={withBandInfo(getEvents("tampere"), "tampere")} city="tampere" />;
 }

@@ -1,4 +1,8 @@
 import bandData from "../data/bands.json";
+import ouluBandData from "../data/oulu/bands.json";
+import tampereBandData from "../data/tampere/bands.json";
+import type { CityKey } from "./cities";
+import { CITIES } from "./cities";
 import { getEvents } from "./events";
 import type { Event, GigBand } from "../types/events";
 import { LINK_LABELS, bandSlug, type LinkKind } from "./bandLinks";
@@ -11,6 +15,18 @@ type BandEntry = {
   eventIds?: number[];
   links?: Partial<Record<LinkKind, string>>;
 };
+
+const BANDS_BY_CITY: Record<CityKey, Record<string, BandEntry>> = {
+  helsinki: bandData as Record<string, BandEntry>,
+  tampere: tampereBandData as Record<string, BandEntry>,
+  oulu: ouluBandData as Record<string, BandEntry>,
+};
+
+/** The city's band directory page: /bands, /tampere/bands, /oulu/bands. */
+export function bandsPath(city: CityKey): string {
+  const path = CITIES.find((c) => c.key === city)?.path ?? "/";
+  return `${path === "/" ? "" : path}/bands`;
+}
 
 export type Band = {
   name: string;
@@ -37,9 +53,9 @@ export function isMetal(genres: string[]): boolean {
 }
 
 /** Bands with upcoming gigs, alphabetically, with their gigs attached. */
-export function getBands(): Band[] {
-  const upcoming = new Map(getEvents().map((e) => [e.id, e]));
-  return Object.entries(bandData as Record<string, BandEntry>)
+export function getBands(city: CityKey = "helsinki"): Band[] {
+  const upcoming = new Map(getEvents(city).map((e) => [e.id, e]));
+  return Object.entries(BANDS_BY_CITY[city])
     .map(([name, b]) => ({
       name: b.display || name,
       genres: b.genres ?? [],
@@ -64,14 +80,15 @@ export function letterOf(name: string): string {
  * bands (name, anchor, links), in the order they appear in the title. Done
  * on the server so the browser gets only these, not all of bands.json.
  */
-export function withBandInfo(events: Event[]): Event[] {
+export function withBandInfo(events: Event[], city: CityKey = "helsinki"): Event[] {
   const byEvent = new Map<number, GigBand[]>();
-  for (const [key, b] of Object.entries(bandData as Record<string, BandEntry>)) {
+  const directory = bandsPath(city);
+  for (const [key, b] of Object.entries(BANDS_BY_CITY[city])) {
     const name = b.display || key;
     const links = b.links ?? {};
     for (const id of b.eventIds ?? []) {
       const list = byEvent.get(id) ?? [];
-      list.push({ name, slug: bandSlug(name), links });
+      list.push({ name, links, href: `${directory}#band-${bandSlug(name)}` });
       byEvent.set(id, list);
     }
   }

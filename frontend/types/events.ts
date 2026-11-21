@@ -1,8 +1,8 @@
 /** A band on the bill, from the band directory (see withBandInfo). */
 export type GigBand = {
   name: string;
-  /** Anchor in /bands: /bands#band-<slug> */
-  slug: string;
+  /** The band in its city's directory, e.g. /tampere/bands#band-<slug> */
+  href: string;
   links: Partial<Record<string, string>>;
 };
 
@@ -28,6 +28,6 @@ export type Event = {
   price?: string;
   /** Ticket sales, from the venue listing; absent while on sale. */
   status?: "sold out" | "cancelled";
-  /** Directory entries of the bands on the bill (Helsinki front page only). */
+  /** Directory entries of the bands on the bill (upcoming gigs only). */
   bands?: GigBand[];
 };
