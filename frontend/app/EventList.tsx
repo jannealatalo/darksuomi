@@ -257,9 +257,7 @@ function LatestShows({ shows }: { shows: ShowLink[] }) {
 
 /** Past gigs: the actual setlist of that night, once someone has added it. */
 function PastSetlists({ shows }: { shows: ShowLink[] }) {
-  if (shows.length === 0) {
-    return <p className="text-sm text-gray-500 mt-1">No setlist on setlist.fm yet.</p>;
-  }
+  if (shows.length === 0) return null;
   const many = shows.length > 1;
   return (
     <div className="mt-1 space-y-0.5 text-sm text-gray-300">
