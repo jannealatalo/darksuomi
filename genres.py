@@ -396,6 +396,93 @@ def resolve_artist(act: dict, cache: dict, overrides: dict, refresh: bool) -> tu
     return name, tags
 
 
+# ---------------------------------------------------------------------------
+# Tribute gigs: the covered band's genres
+# ---------------------------------------------------------------------------
+
+_TRIBUTE_END = r"(?=\s+&\s+[^&]+?\s+plays\b|,|\s+(?:feat\.?|featuring|with)\s|\s+[–—-]\s+|\s*\(|$)"
+_TRIBUTE_PATTERNS = [
+    # "Bon Scott Boys plays AC/DC", "Screaming Thunders plays CCR & J.C. Fogerty"
+    re.compile(r"\bplays\s+(.+?)" + _TRIBUTE_END, re.I),
+    # "Rearviewmirror – A Tribute to Pearl Jam"
+    re.compile(r"\btribute\s+to\s+(.+?)" + _TRIBUTE_END, re.I),
+    # "The Miracle - A Night with Queen - Freddie Mercury 80v."
+    re.compile(r"\ba night with\s+(.+?)" + _TRIBUTE_END, re.I),
+]
+# "Dolly Parton Tribute", "Roky Erickson -tribute", "A Pink Floyd Tribute Show",
+# "Jiri Nikkinen The Beatles Tribute Band", "David Bowie 80th Anniversary Tribute":
+# checked per title segment (between commas, dashes and colons).
+_SEGMENT_SPLIT = re.compile(r",|\s[-–—]\s|[–—:]")
+_X_TRIBUTE = re.compile(r"^\s*(.+?)\s*-?\s*tribute\b", re.I)
+
+
+def _tidy_target(text: str) -> list[str]:
+    text = re.sub(r"\s+\d+(?:st|nd|rd|th)?\s+anniversary\b.*$", "", text, flags=re.I)
+    text = re.sub(r"^(?:a|an|the ultimate)\s+", "", text.strip(), flags=re.I)
+    return [n.strip(" -–—.") for n in re.split(r"\s+&\s+|\s+and\s+", text) if n.strip(" -–—.")]
+
+
+def tribute_targets(title: str) -> list[tuple[str, bool]]:
+    """
+    Bands a tribute gig covers, from its title, each with whether the name
+    may have the tribute act's name in front ("Jiri Nikkinen The Beatles
+    Tribute Band"). "Kill With Cover plays Manowar & BoneButton plays Iron
+    Maiden" -> [("Manowar", False), ("Iron Maiden", False)]. Empty for an
+    ordinary gig.
+    """
+    title = re.sub(r"\s*[“”\"«][^“”\"»]*[“”\"»]", "", title)  # quoted album names
+    found: list[tuple[str, bool]] = []
+
+    def add(names, loose):
+        for name in names:
+            if name.casefold() not in (f.casefold() for f, _ in found):
+                found.append((name, loose))
+
+    for pattern in _TRIBUTE_PATTERNS:
+        for m in pattern.finditer(title):
+            add(_tidy_target(m.group(1)), False)
+        if found:
+            return found
+    for segment in _SEGMENT_SPLIT.split(title):
+        m = _X_TRIBUTE.match(segment)
+        if m:
+            add(_tidy_target(m.group(1)), True)
+    return found
+
+
+def _covered_tags(name: str, loose: bool, cache: dict, overrides: dict, refresh: bool) -> list[str]:
+    """Tags of a covered band; a loose name ("Jiri Nikkinen The Beatles")
+    also tries its last three / two words ("The Beatles")."""
+    words = name.split()
+    tries = [name] + ([" ".join(words[-n:]) for n in (3, 2) if len(words) > n] if loose else [])
+    for candidate in tries:
+        if len(_norm(candidate)) <= 2:
+            continue
+        _name, tags = resolve_artist({"name": candidate, "country": None}, cache, overrides, refresh)
+        if tags:
+            return tags
+    return []
+
+
+def gig_tags(title: str, cache: dict, overrides: dict,
+             refresh: bool = False) -> tuple[list[str], list[str]]:
+    """
+    (artists, tags) of a gig title. A tribute gig ("X plays Y", "Tribute to
+    Y", "Y Tribute") gets the covered bands' tags: the tribute act itself is
+    rarely known to Last.fm, or is a namesake. Its own tags are the fallback.
+    """
+    artists, tags = [], []
+    for act in parse_title(title):
+        name, act_tags = resolve_artist(act, cache, overrides, refresh)
+        artists.append(name)
+        tags += [t for t in act_tags if t not in tags]
+    covered = []
+    for target, loose in tribute_targets(title):
+        covered += [t for t in _covered_tags(target, loose, cache, overrides, refresh)
+                    if t not in covered]
+    return artists, (covered or tags)
+
+
 ALWAYS_SHOW_TOP_TAGS = 5  # as in frontend/lib/events.ts
 
 
@@ -467,11 +554,7 @@ def main() -> int:
 
     if not args.report:
         for event in events:
-            artists, genres = [], []
-            for act in parse_title(event["artist"]):
-                name, tags = resolve_artist(act, cache, overrides, args.refresh)
-                artists.append(name)
-                genres += [t for t in tags if t not in genres]
+            artists, genres = gig_tags(event["artist"], cache, overrides, args.refresh)
             event["artists"] = artists
             event["genres"] = pick_genres(event, genres)
         save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))

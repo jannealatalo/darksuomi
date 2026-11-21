@@ -17,6 +17,8 @@ export const VENUE_LINKS: Record<string, string> = {
   Dubrovnik: "https://www.dubrovnik.fi/",
   Ääniwalli: "https://aaniwalli.fi/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
+  // Tuusula, at Hotel Krapi; the club gigs are listed in its web shop.
+  "Krapin Paja": "https://kauppa.krapinpaja.fi/category/pajan-klubit",
   // Tampere
   "Tavara-asema": "https://tavara-asema.fi/",
   Pakkahuone: "https://tullikamari.fi/",

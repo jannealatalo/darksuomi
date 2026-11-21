@@ -1544,7 +1544,11 @@
     "artists": [
       "Screaming Thunders"
     ],
-    "genres": []
+    "genres": [
+      "classic rock",
+      "rock",
+      "southern rock"
+    ]
   },
   {
     "artist": "SAPATA, ASTRAL SLEEP, DARK KOMET",
@@ -1715,7 +1719,11 @@
     "artists": [
       "Screaming Thunders"
     ],
-    "genres": []
+    "genres": [
+      "classic rock",
+      "rock",
+      "southern rock"
+    ]
   },
   {
     "artist": "Skyjoggers, Pystyyn Kuolleet Hipit, Echolove (ee)",

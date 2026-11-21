@@ -95,10 +95,7 @@ def add_details(event: dict, html: str) -> None:
 
 def tag(event: dict, cache: dict, overrides: dict) -> list[str]:
     """The gig's genres, the same way genres.py tags it every night."""
-    tags = []
-    for act in g.parse_title(event["artist"]):
-        _name, artist_tags = g.resolve_artist(act, cache, overrides, refresh=False)
-        tags += [t for t in artist_tags if t not in tags]
+    _artists, tags = g.gig_tags(event["artist"], cache, overrides)
     return g.pick_genres(event, tags)
 
 

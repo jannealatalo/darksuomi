@@ -67,6 +67,12 @@
     "*indie*"
   ],
   "artistOverrides": {
+    "Michael Monroe acoustic solo": {
+      "genres": ["hard rock", "glam rock", "punk rock"]
+    },
+    "Kauko Röyhkä & Röyhkeät": {
+      "genres": ["rock", "suomirock"]
+    },
     "Mikkey Dee with Friends": {
       "genres": ["hard rock", "heavy metal"]
     },

@@ -803,9 +803,8 @@
       "Michael Monroe"
     ],
     "genres": [
-      "hard rock",
       "glam rock",
-      "rock"
+      "hard rock"
     ],
     "schedule": [
       {
@@ -902,9 +901,8 @@
       "Michael Monroe"
     ],
     "genres": [
-      "hard rock",
       "glam rock",
-      "rock"
+      "hard rock"
     ],
     "schedule": [
       {
@@ -1589,7 +1587,12 @@
       "Wolfmen"
     ],
     "genres": [
-      "rock"
+      "psychedelic",
+      "rock",
+      "singer-songwriter",
+      "classic rock",
+      "garage rock",
+      "psychedelic rock"
     ]
   },
   {
@@ -2025,7 +2028,9 @@
       "Dolly Parton Tribute"
     ],
     "genres": [
-      "viihde"
+      "country",
+      "singer-songwriter",
+      "folk"
     ],
     "price": "alk. 28,00€",
     "detailsFetched": "2026-11-21"
@@ -2183,6 +2188,27 @@
     ],
     "genres": [
       "rap"
+    ]
+  },
+  {
+    "artist": "Kotiteollisuus",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2026-12-03T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/kotiteollisuus-s2026",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/kotiteollisuus-s2026",
+    "doors": "18:30",
+    "price": "36,50 €",
+    "status": "sold out",
+    "id": 462,
+    "artists": [
+      "Kotiteollisuus"
+    ],
+    "genres": [
+      "metal",
+      "heavy metal",
+      "hard rock",
+      "finnish metal"
     ]
   },
   {
@@ -2444,7 +2470,9 @@
       "Rearviewmirror"
     ],
     "genres": [
-      "rock"
+      "grunge",
+      "rock",
+      "alternative rock"
     ]
   },
   {
@@ -3060,6 +3088,26 @@
     ]
   },
   {
+    "artist": "Maija Vilkkumaa",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2026-12-10T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/vilkkumaa-s2026",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/vilkkumaa-s2026",
+    "doors": "18:30",
+    "price": "47,00 €",
+    "status": "sold out",
+    "id": 463,
+    "artists": [
+      "Maija Vilkkumaa"
+    ],
+    "genres": [
+      "rock",
+      "singer-songwriter",
+      "pop"
+    ]
+  },
+  {
     "id": 15,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -3351,7 +3399,12 @@
       "Kill With Cover"
     ],
     "genres": [
-      "rock"
+      "heavy metal",
+      "power metal",
+      "metal",
+      "true metal",
+      "nwobhm",
+      "hard rock"
     ],
     "venueDefault": "rock"
   },
@@ -3451,6 +3504,24 @@
     "genres": [
       "rap",
       "hip hop"
+    ]
+  },
+  {
+    "artist": "Irina",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2026-12-12T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/irina-s2026",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/irina-s2026",
+    "doors": "18:30",
+    "price": "36,50 €",
+    "id": 464,
+    "artists": [
+      "Irina"
+    ],
+    "genres": [
+      "pop",
+      "rock"
     ]
   },
   {
@@ -3854,7 +3925,9 @@
       "Metallica Tribute with producer Flemming Rasmussen"
     ],
     "genres": [
-      "rock"
+      "heavy metal",
+      "metal",
+      "hard rock"
     ],
     "price": "alk. 15,50€",
     "detailsFetched": "2026-11-21"
@@ -3880,6 +3953,25 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Michael Monroe acoustic solo",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2026-12-17T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/michael-monroe-s2026",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/michael-monroe-s2026",
+    "doors": "18:30",
+    "price": "33,50 €",
+    "id": 465,
+    "artists": [
+      "Michael Monroe acoustic solo"
+    ],
+    "genres": [
+      "hard rock",
+      "glam rock",
+      "punk rock"
     ]
   },
   {
@@ -4500,6 +4592,27 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Anssi Kela",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2026-12-27T16:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/anssi-kela-s2026",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/anssi-kela-s2026",
+    "doors": "16:30",
+    "price": "37,50 €",
+    "status": "sold out",
+    "id": 466,
+    "artists": [
+      "Anssi Kela"
+    ],
+    "genres": [
+      "pop",
+      "rock",
+      "singer-songwriter",
+      "suomirock"
+    ]
+  },
+  {
     "artist": "Aivovuoto, Eevil Stöö, DJ Kridlokk: UG Tapes",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -4736,7 +4849,9 @@
     ],
     "genres": [
       "alternative rock",
-      "rock"
+      "rock",
+      "alternative",
+      "metal"
     ],
     "age": "K-18",
     "room": "Tavastia-klubi",
@@ -4769,6 +4884,26 @@
       "psychedelic",
       "psychedelic pop",
       "psychedelic rock"
+    ]
+  },
+  {
+    "artist": "Bon Scott Boys plays AC/DC",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-05T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/bon-scott-boys-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/bon-scott-boys-k2027",
+    "doors": "18:30",
+    "price": "30,00 €",
+    "id": 478,
+    "artists": [
+      "Bon Scott Boys"
+    ],
+    "genres": [
+      "hard rock",
+      "classic rock",
+      "rock",
+      "heavy metal"
     ]
   },
   {
@@ -4911,6 +5046,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Jiri Nikkinen The Beatles Tribute Band",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-08T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/nikkinen-beatles-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/nikkinen-beatles-k2027",
+    "doors": "18:30",
+    "price": "35,00 €",
+    "id": 479,
+    "artists": [
+      "Jiri Nikkinen The Beatles Tribute Band"
+    ],
+    "genres": [
+      "classic rock",
+      "rock"
+    ]
+  },
+  {
     "artist": "Griefton Sons + Barnyard Pickers",
     "venue": "KULT",
     "city": "Helsinki",
@@ -4999,7 +5152,9 @@
       "Berlin Project III"
     ],
     "genres": [
-      "rock"
+      "glam rock",
+      "rock",
+      "classic rock"
     ]
   },
   {
@@ -5153,8 +5308,7 @@
       "Aspesti"
     ],
     "genres": [
-      "punk rock",
-      "pop punk"
+      "rock"
     ]
   },
   {
@@ -5364,6 +5518,25 @@
     ],
     "genres": [
       "metal"
+    ]
+  },
+  {
+    "artist": "Peer Günt",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-16T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/peer-gunt-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/peer-gunt-k2027",
+    "doors": "18:30",
+    "price": "37,50 €",
+    "id": 467,
+    "artists": [
+      "Peer Günt"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "classic rock"
     ]
   },
   {
@@ -5684,6 +5857,26 @@
     ]
   },
   {
+    "artist": "Risto",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-22T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/risto-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/risto-k2027",
+    "doors": "18:30",
+    "price": "31,00 €",
+    "id": 468,
+    "artists": [
+      "Risto"
+    ],
+    "genres": [
+      "indie",
+      "experimental",
+      "rock",
+      "indie rock"
+    ]
+  },
+  {
     "artist": "Timo Kotipelto & Robustik",
     "venue": "Sellosali",
     "city": "Espoo",
@@ -5792,6 +5985,26 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "The Miracle - A Night with Queen - Freddie Mercury 80v. -juhlakiertue",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-23T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/miracle-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/miracle-k2027",
+    "doors": "18:30",
+    "price": "36,50 €",
+    "id": 480,
+    "artists": [
+      "The Miracle"
+    ],
+    "genres": [
+      "classic rock",
+      "rock",
+      "hard rock",
+      "glam rock"
+    ]
   },
   {
     "id": 38,
@@ -5961,6 +6174,24 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Kauko Röyhkä & Röyhkeät",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-29T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/kauko-royhka-royhkeat-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/kauko-royhka-royhkeat-k2027",
+    "doors": "18:30",
+    "price": "33,50 €",
+    "id": 469,
+    "artists": [
+      "Kauko Röyhkä & Röyhkeät"
+    ],
+    "genres": [
+      "rock",
+      "suomirock"
+    ]
   },
   {
     "artist": "Salaliitto + Markus Perttula",
@@ -6466,6 +6697,25 @@
     ]
   },
   {
+    "artist": "Timo Kotipelto & Robustik - Rock The Acoustic Metal",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-02-06T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/timo-kotipelto-robustik-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/timo-kotipelto-robustik-k2027",
+    "doors": "18:30",
+    "price": "33,50 €",
+    "id": 470,
+    "artists": [
+      "Timo Kotipelto & Robustik"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "melodic metal"
+    ]
+  },
+  {
     "artist": "10cc",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -6866,6 +7116,25 @@
     "doors": "18:00",
     "price": "40 € at the door",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Boycott",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-02-13T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/boycott-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/boycott-k2027",
+    "doors": "18:30",
+    "price": "41,00 €",
+    "id": 471,
+    "artists": [
+      "Boycott"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "finnish rock"
+    ]
   },
   {
     "artist": "Kalush Orchestra (UA)",
@@ -7648,6 +7917,24 @@
     ]
   },
   {
+    "artist": "Jonna Tervomaa - Talvehtijat",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-03-04T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/jonna-tervomaa-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/jonna-tervomaa-k2027",
+    "doors": "18:30",
+    "price": "36,50 €",
+    "id": 472,
+    "artists": [
+      "Jonna Tervomaa"
+    ],
+    "genres": [
+      "pop",
+      "rock"
+    ]
+  },
+  {
     "artist": "MALEVO – Argentina-show",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -8043,6 +8330,26 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Emilia Sisco",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-03-12T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/emilia-sisco-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/emilia-sisco-k2027",
+    "doors": "18:30",
+    "price": "33,50 €",
+    "id": 473,
+    "artists": [
+      "Emilia Sisco"
+    ],
+    "genres": [
+      "reggae",
+      "blues",
+      "helsinki",
+      "soul"
+    ]
+  },
+  {
     "artist": "Block of Flats + support",
     "venue": "KULT",
     "city": "Helsinki",
@@ -8395,6 +8702,24 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Atomirotta",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-03-20T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/atomirotta-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/atomirotta-k2027",
+    "doors": "18:30",
+    "price": "34,50 €",
+    "id": 474,
+    "artists": [
+      "Atomirotta"
+    ],
+    "genres": [
+      "hip hop",
+      "rock"
+    ]
   },
   {
     "artist": "DJ Kridlokk + Eevil Stöö",
@@ -8758,6 +9083,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Litku Klemetti",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-04-01T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/litku-klemetti-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/litku-klemetti-k2027",
+    "doors": "18:30",
+    "price": "35,00 €",
+    "id": 475,
+    "artists": [
+      "Litku Klemetti"
+    ],
+    "genres": [
+      "indie",
+      "lo-fi"
+    ]
+  },
+  {
     "artist": "Genom Natten (SE)",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -8857,6 +9200,25 @@
       "deathrock",
       "post-punk",
       "synth punk"
+    ]
+  },
+  {
+    "artist": "Topmost",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-04-03T13:00:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/topmost-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/topmost-k2027",
+    "doors": "13:00",
+    "price": "35,50 €",
+    "id": 476,
+    "artists": [
+      "Topmost"
+    ],
+    "genres": [
+      "psychedelic",
+      "rock",
+      "oldies"
     ]
   },
   {
@@ -9324,6 +9686,25 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Death Hawks – Mieletön skaala -klubi",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-05-05T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/msk-death-hawks-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/msk-death-hawks-k2027",
+    "doors": "18:30",
+    "price": "31,00 €",
+    "id": 477,
+    "artists": [
+      "Death Hawks"
+    ],
+    "genres": [
+      "psychedelic rock",
+      "progressive rock",
+      "rock"
+    ]
+  },
+  {
     "artist": "Reflexion, MELANKOLIA",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -9564,6 +9945,9 @@
       "Roger Waters Presents LEGACY"
     ],
     "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock",
       "rock"
     ]
   },
