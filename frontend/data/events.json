@@ -1611,7 +1611,7 @@
     ]
   },
   {
-    "artist": "Disco Night",
+    "artist": "PERUTTU: Disco Night",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2026-11-28T19:30:00",
@@ -1630,7 +1630,7 @@
     "age": "K-18",
     "id": 168,
     "artists": [
-      "Disco Night"
+      "PERUTTU"
     ],
     "genres": [
       "viihde"
@@ -2300,6 +2300,26 @@
     ]
   },
   {
+    "artist": "Sir Liselot Band + Levoton Elämä + Stinkbird",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-03T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/sir-liselot-band-levoton-elama-stinkbird/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/sir-liselot-band-levoton-elama-stinkbird/",
+    "venueGenres": [
+      "indie"
+    ],
+    "id": 448,
+    "artists": [
+      "Sir Liselot Band",
+      "Levoton Elämä",
+      "Stinkbird"
+    ],
+    "genres": [
+      "indie"
+    ]
+  },
+  {
     "artist": "Masked Singer in Concert",
     "venue": "Veikkaus Arena",
     "city": "Helsinki",
@@ -2501,6 +2521,24 @@
       "power metal",
       "heavy metal",
       "metal"
+    ]
+  },
+  {
+    "artist": "Saturnus Events Presents: Raver May Cry",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/saturnus-events-presents-raver-may-cry/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/saturnus-events-presents-raver-may-cry/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 449,
+    "artists": [
+      "Saturnus Events"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -3143,6 +3181,24 @@
       "brutal death metal",
       "slamming brutal death metal",
       "death metal"
+    ]
+  },
+  {
+    "artist": "Destination Hardcore: Derailment",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-11T00:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/destination-hardcore-derailment/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/destination-hardcore-derailment/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 450,
+    "artists": [
+      "Destination Hardcore"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -3974,6 +4030,24 @@
     ]
   },
   {
+    "artist": "Neonya!! Party",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/neonya-party-lepakkomies-helsinki-lippuja/122553",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/neonya-party/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 452,
+    "artists": [
+      "Neonya!! Party"
+    ],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
     "artist": "Maija Vilkkumaa – Karaoke-queen",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -4102,6 +4176,34 @@
       "stand-up",
       "pop",
       "iskelmä"
+    ]
+  },
+  {
+    "artist": "Pelko + Pepita Vanni + Akseli Hiltunen & Kanssaloisaktivistit",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/pelko-pepita-vanni-akseli-hiltunen-kanssaloisaktivistit/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/pelko-pepita-vanni-akseli-hiltunen-kanssaloisaktivistit/",
+    "venueGenres": [
+      "indie"
+    ],
+    "id": 451,
+    "artists": [
+      "Pelko",
+      "Pepita Vanni",
+      "Akseli Hiltunen & Kanssaloisaktivistit"
+    ],
+    "genres": [
+      "helsinki",
+      "trauma rock",
+      "traumarock",
+      "rock",
+      "indie",
+      "progressive rock",
+      "alternative",
+      "suomi-rock",
+      "alternative rock"
     ]
   },
   {
@@ -4444,6 +4546,30 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Back to Plan A – Benefit Show: Naakka + Aus Tears + Ewiges Feuer",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-30T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/back-to-plan-a-benefit-show-naakka-aus-tears-ewiges-feuer/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/back-to-plan-a-benefit-show-naakka-aus-tears-ewiges-feuer/",
+    "venueGenres": [
+      "electro"
+    ],
+    "id": 453,
+    "artists": [
+      "Naakka",
+      "Aus Tears",
+      "Ewiges Feuer"
+    ],
+    "genres": [
+      "ebm",
+      "synthpunk",
+      "electro-industrial",
+      "synth punk",
+      "post-punk"
+    ]
+  },
+  {
     "id": 26,
     "artist": "Erika Vikman",
     "venue": "Tavastia Klubi",
@@ -4540,6 +4666,42 @@
     "doors": "20:00",
     "price": "28 € at the door",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "BLOODSTAINED METAL BATFEST – FRIDAY",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-01T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/bloodstained-metal-batfest-friday/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/bloodstained-metal-batfest-friday/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 454,
+    "artists": [
+      "BLOODSTAINED METAL BATFEST"
+    ],
+    "genres": [
+      "metal"
+    ]
+  },
+  {
+    "artist": "BLOODSTAINED METAL BATFEST – SATURDAY",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-02T19:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/bloodstained-metal-batfest-saturday/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/bloodstained-metal-batfest-saturday/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 455,
+    "artists": [
+      "BLOODSTAINED METAL BATFEST"
+    ],
+    "genres": [
+      "metal"
+    ]
   },
   {
     "id": 275,
@@ -5048,6 +5210,28 @@
       "Drink Floyd"
     ],
     "genres": []
+  },
+  {
+    "artist": "Tynnyri (Levyjulkkarit) + Angry Adults + Primitive Future",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-14T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/tynnyri-levyjulkkarit-angry-adults-primitive-future/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/tynnyri-levyjulkkarit-angry-adults-primitive-future/",
+    "venueGenres": [
+      "punk"
+    ],
+    "id": 456,
+    "artists": [
+      "Tynnyri",
+      "Angry Adults",
+      "Primitive Future"
+    ],
+    "genres": [
+      "rock",
+      "punk",
+      "hardcore"
+    ]
   },
   {
     "artist": "Fear of Domination + Despiser",
@@ -5989,6 +6173,31 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Rats Will Feast + Hauraus + Landscape Suicide",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-01-30T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/rats-will-feast-hauraus-landscape-suicide/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/rats-will-feast-hauraus-landscape-suicide/",
+    "venueGenres": [
+      "hc"
+    ],
+    "id": 457,
+    "artists": [
+      "Rats Will Feast",
+      "Hauraus",
+      "Landscape Suicide"
+    ],
+    "genres": [
+      "chaotic hardcore",
+      "hardcore",
+      "post-rock",
+      "screamo",
+      "emo",
+      "post-hardcore"
+    ]
+  },
+  {
     "artist": "Bullet For My Valentine, Pendulum, Dark Divine",
     "venue": "Helsingin Jäähalli",
     "city": "Helsinki",
@@ -6301,6 +6510,36 @@
       "Helsinki Must Be Destroyed"
     ],
     "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Us",
+    "venue": "KULT",
+    "city": "Helsinki",
+    "date": "2027-02-06T20:00:00",
+    "ticketUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/kult-us/",
+    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2027-02-06/kult-us/",
+    "venueGenres": [
+      "punk-ja-indie",
+      "rock-ja-metalli"
+    ],
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Show starts"
+      }
+    ],
+    "age": "K-18",
+    "price": "alk. 22,00€",
+    "detailsFetched": "2026-11-21",
+    "id": 461,
+    "artists": [
+      "Us"
+    ],
+    "genres": [
+      "indie",
       "rock"
     ]
   },
@@ -7053,6 +7292,28 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Mutation (SWE) + Hekatoxen + Morte Profana",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-02-25T20:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/mutation-swe-hekatoxen-morte-profana/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/mutation-swe-hekatoxen-morte-profana/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 458,
+    "artists": [
+      "Mutation",
+      "Hekatoxen",
+      "Morte Profana"
+    ],
+    "genres": [
+      "death metal",
+      "old school death metal",
+      "black death"
+    ]
   },
   {
     "artist": "EDU 50 vee JUHLAVUOSI: Edumania + Edu Kehäkettunen (levyjulkkarit)",
@@ -8335,6 +8596,33 @@
     "venueDefault": "rock"
   },
   {
+    "artist": "Unholy Easter: Liar (BE) + Length Of Time (BE) + Ecotage + Divine Bloodshed",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-03-26T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/unholy-easter-2027-lepakkomies-helsinki-tickets/122304",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/unholy-easter-liar-be-length-of-time-be-ecotage-divine-bloodshed/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 459,
+    "artists": [
+      "Liar",
+      "Length Of Time",
+      "Ecotage",
+      "Divine Bloodshed"
+    ],
+    "genres": [
+      "metalcore",
+      "future garage",
+      "hardcore",
+      "h8000",
+      "electronic",
+      "metallic hardcore",
+      "hardcore punk"
+    ]
+  },
+  {
     "id": 432,
     "artist": "Mouhous (klo 23:30)",
     "venue": "Tavastia Klubi",
@@ -8685,6 +8973,24 @@
     "genres": [
       "pop",
       "iskelmä"
+    ]
+  },
+  {
+    "artist": "Spirit Possession (USA) + Support",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2027-04-14T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/spirit-possession-usa-lepakkomies-helsinki-lippuja/122344",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/spirit-possession-usa-support/",
+    "venueGenres": [
+      "metal"
+    ],
+    "id": 460,
+    "artists": [
+      "Spirit Possession"
+    ],
+    "genres": [
+      "black metal"
     ]
   },
   {

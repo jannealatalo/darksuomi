@@ -2029,6 +2029,23 @@
     ]
   },
   {
+    "artist": "Tino Ahlgren Duo",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-01-19T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/tino-ahlgren-duo-19-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/tino-ahlgren-duo-19-01-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 205,
+    "artists": [
+      "Tino Ahlgren Duo"
+    ],
+    "genres": []
+  },
+  {
     "artist": "WOLFRAM + support: Pretty",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
@@ -2140,6 +2157,23 @@
     ]
   },
   {
+    "artist": "Jere Toivonen & Pekka Juntunen",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-01-26T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/jere-toivonen-pekka-juntunen-26-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/jere-toivonen-pekka-juntunen-26-01-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 206,
+    "artists": [
+      "Jere Toivonen & Pekka Juntunen"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Markku Kanerva Bright White Light (levyjulkkarit)",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -2247,6 +2281,26 @@
       "alternative rock",
       "alternative metal",
       "alternative"
+    ]
+  },
+  {
+    "artist": "Anu Keronen & Saturnus",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-02T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/anu-keronen-saturnus-02-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/anu-keronen-saturnus-02-02-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 207,
+    "artists": [
+      "Anu Keronen & Saturnus"
+    ],
+    "genres": [
+      "doom metal",
+      "death doom metal"
     ]
   },
   {
@@ -2530,6 +2584,23 @@
       "pop",
       "suomirock"
     ]
+  },
+  {
+    "artist": "Esko Koivuluoma Duo",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-02-16T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/esko-koivuluoma-duo-16-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/esko-koivuluoma-duo-16-02-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 208,
+    "artists": [
+      "Esko Koivuluoma Duo"
+    ],
+    "genres": []
   },
   {
     "artist": "Melrose Avenue (AU)",
@@ -2903,6 +2974,23 @@
     ]
   },
   {
+    "artist": "Risto Nevala Duo",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-02T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/risto-nevala-duo-02-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/risto-nevala-duo-02-03-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 209,
+    "artists": [
+      "Risto Nevala Duo"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Topi Saha (levyjulkkarit) + PK Keränen",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -3015,6 +3103,27 @@
     "genres": []
   },
   {
+    "artist": "Sakke Kotilainen & Focus",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-09T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/sakke-kotilainen-focus-09-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/sakke-kotilainen-focus-09-03-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 210,
+    "artists": [
+      "Sakke Kotilainen & Focus"
+    ],
+    "genres": [
+      "progressive rock",
+      "classic rock",
+      "rock"
+    ]
+  },
+  {
     "artist": "Laura Voutilainen – Kerran Keväällä 2",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -3101,6 +3210,28 @@
     "genres": []
   },
   {
+    "artist": "Johanna Debreczeni & Pekka Juntunen",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-16T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/johanna-debreczeni-pekka-juntunen-16-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/johanna-debreczeni-pekka-juntunen-16-03-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 211,
+    "artists": [
+      "Johanna Debreczeni & Pekka Juntunen"
+    ],
+    "genres": [
+      "pop",
+      "tango",
+      "iskelmä",
+      "queen of tango"
+    ]
+  },
+  {
     "artist": "Robert Finley (USA)",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
@@ -3160,6 +3291,8 @@
       "Noora Louhimo"
     ],
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ]
   },
@@ -3347,6 +3480,23 @@
     ]
   },
   {
+    "artist": "Tenho Keväänranta",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-03-30T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/tenho-kevaanranta-30-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/tenho-kevaanranta-30-03-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 212,
+    "artists": [
+      "Tenho Keväänranta"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Dänkki Briha + Möyhy-Veikot",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -3404,6 +3554,23 @@
     ]
   },
   {
+    "artist": "Helena Lerkkanen & Jani Helenius",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-04-06T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/helena-lerkkanen-jani-helenius-06-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/helena-lerkkanen-jani-helenius-06-04-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 213,
+    "artists": [
+      "Helena Lerkkanen & Jani Helenius"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Charlie Hunter & Ella Feingold (US)",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -3452,6 +3619,21 @@
     "artists": [
       "Sir Elwood Duo"
     ],
+    "genres": []
+  },
+  {
+    "artist": "tba",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-04-13T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/tba-13-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/tba-13-04-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 214,
+    "artists": [],
     "genres": []
   },
   {
@@ -3520,6 +3702,23 @@
       "indie rock",
       "rock"
     ]
+  },
+  {
+    "artist": "Kyösti Lindeman",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-04-20T12:30:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/kyosti-lindeman-20-04-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/kyosti-lindeman-20-04-2027/",
+    "doors": "12:30",
+    "price": "ovelta 12,00€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 215,
+    "artists": [
+      "Kyösti Lindeman"
+    ],
+    "genres": []
   },
   {
     "artist": "Tangokuningatar 2026 Raija Mäntyniemi",
@@ -3952,6 +4151,26 @@
     "price": "alk. 48,50€",
     "age": "K-18",
     "id": 24,
+    "artists": [
+      "Kanonenfieber"
+    ],
+    "genres": [
+      "black metal",
+      "death metal",
+      "blackened death metal"
+    ]
+  },
+  {
+    "artist": "Kanonenfieber (GER) + support: Groza (GER)",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-11-23T18:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/kanonenfieber-ger-support-groza-ger-23-11-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/kanonenfieber-ger-support-groza-ger-23-11-2027/",
+    "doors": "18:00",
+    "price": "alk. 48,50€",
+    "age": "K-18",
+    "id": 204,
     "artists": [
       "Kanonenfieber"
     ],

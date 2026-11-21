@@ -59,6 +59,12 @@
     "hash": "c7ea78dc0bed1017b3d6f9348db3b487b3fc0816",
     "tracks": 12
   },
+  "https://tavastiaklubi.fi/events/2026-11-28/what-awaits-us-traitors-among-us-ashes-of-perishing/122061/": {
+    "id": "1jOldwmjKyfJWzBFHzFgEy",
+    "url": "https://open.spotify.com/playlist/1jOldwmjKyfJWzBFHzFgEy",
+    "hash": "d8c51647783eae92e93b8554e690297e636633e4",
+    "tracks": 17
+  },
   "https://tavastiaklubi.fi/events/2026-11-29/master-boot-record-ita-fulci-ita-arottenbit-ita/116589/": {
     "id": "2Qezw5rOFuBuM3UjE71xlH",
     "url": "https://open.spotify.com/playlist/2Qezw5rOFuBuM3UjE71xlH",
@@ -71,11 +77,41 @@
     "hash": "a09ad10888cba41b18e00f8a2fc83691408ab7ad",
     "tracks": 18
   },
+  "https://tavastiaklubi.fi/events/2026-12-04/nelja-ruusua/119854/": {
+    "id": "7BU9e3FJyfYHSaRaXezhkJ",
+    "url": "https://open.spotify.com/playlist/7BU9e3FJyfYHSaRaXezhkJ",
+    "hash": "174fc4684630a88ce93eca43c9d7333b2a866aef",
+    "tracks": 18
+  },
+  "https://www.dubrovnik.fi/keikat/maustetytot/": {
+    "id": "1fPJM2YAhKV2uApk1KwiD4",
+    "url": "https://open.spotify.com/playlist/1fPJM2YAhKV2uApk1KwiD4",
+    "hash": "197f08674113c8d7a74ac4292090d7591a79f305",
+    "tracks": 17
+  },
   "https://www.lepis.fi/tapahtumat/ongelma-katujen-aanet-karanneet-kaarmeet-villit-nautinnot-dj-paha-hakkaaja/": {
     "id": "5xoH8UUpZF6Ih6GdkTyKUw",
     "url": "https://open.spotify.com/playlist/5xoH8UUpZF6Ih6GdkTyKUw",
     "hash": "b5a2cd4640df14a2d396f241d64587e20922d34c",
     "tracks": 9
+  },
+  "https://www.lippu.fi/event/only-the-poets-uk-alex-spencer-uk-kulttuuritehdas-korjaamo-21905302/?affiliate=ADV&language=fi": {
+    "id": "2OzMQaQS347d9E66NXSZxC",
+    "url": "https://open.spotify.com/playlist/2OzMQaQS347d9E66NXSZxC",
+    "hash": "904b3b429db0537a84167af162297107dd6f21eb",
+    "tracks": 24
+  },
+  "https://www.lippu.fi/event/the-69-eyes-sellosali-21719876/": {
+    "id": "12BcGI3lS9kx3VibwSVnyT",
+    "url": "https://open.spotify.com/playlist/12BcGI3lS9kx3VibwSVnyT",
+    "hash": "ec5b0778ca36c5a6a24bf6d113377f9d63b5b0df",
+    "tracks": 17
+  },
+  "https://www.tiketti.fi/archspire-crown-magnetar-the-zenith-passage-analepsy-lippuja/118889": {
+    "id": "1ErM9GXPuuOLqoRW6TNrDz",
+    "url": "https://open.spotify.com/playlist/1ErM9GXPuuOLqoRW6TNrDz",
+    "hash": "143d1fc3c2c9658f4258519427e1856a34d9d82a",
+    "tracks": 27
   },
   "https://www.tiketti.fi/hellsinki-industrial-festival-2026-tiivistamo-helsinki-lippuja/114451": {
     "id": "0uA2vAeeXWOTwFiatsqhsr",
@@ -88,6 +124,24 @@
     "url": "https://open.spotify.com/playlist/0WEOFka8Fx5BfU4guQ12ON",
     "hash": "c3584a35226b115c48c97978187b1b655a055e4b",
     "tracks": 11
+  },
+  "https://www.tiketti.fi/maustetytot-s-dubrovnik-helsinki-lippuja/121225": {
+    "id": "5fq8d84FIJihU2BYa6iEOA",
+    "url": "https://open.spotify.com/playlist/5fq8d84FIJihU2BYa6iEOA",
+    "hash": "df360fed267d21a9b9340719de2674381bca1bd2",
+    "tracks": 17
+  },
+  "https://www.tiketti.fi/tapahtuma/116496": {
+    "id": "3XD6SLbsi6texryAMK5BCi",
+    "url": "https://open.spotify.com/playlist/3XD6SLbsi6texryAMK5BCi",
+    "hash": "97d24bf060b95ab31f7322f16fc31e99b5028417",
+    "tracks": 15
+  },
+  "https://www.tiketti.fi/tapahtuma/117416": {
+    "id": "50aHzgRsVK9mWyCixNMWMV",
+    "url": "https://open.spotify.com/playlist/50aHzgRsVK9mWyCixNMWMV",
+    "hash": "d00336d8216cf89a5cc3eff95757dacc29df78cc",
+    "tracks": 27
   },
   "https://www.tiketti.fi/tapahtuma/117803": {
     "id": "06tl9oERT7yrHXu9BAQ2wL",
@@ -106,6 +160,12 @@
     "url": "https://open.spotify.com/playlist/19JDUk9fyVlLd7HP7h0P4C",
     "hash": "588643f10befeabe05d348b51767219e29dad04c",
     "tracks": 7
+  },
+  "https://www.tiketti.fi/tapahtuma/122043": {
+    "id": "74op8tK6V1kRsJ7J09stW1",
+    "url": "https://open.spotify.com/playlist/74op8tK6V1kRsJ7J09stW1",
+    "hash": "909aac69bb540fe44cbd4c1c4580b0f04818935b",
+    "tracks": 13
   },
   "https://www.tiketti.fi/wyatt-e-be-five-the-hierophant-uk-w-radien-bar-loose-lippuja/121030": {
     "id": "1sz5wQrSgBJfZji7H7t2rH",

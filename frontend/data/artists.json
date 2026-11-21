@@ -276,6 +276,24 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Akseli Hiltunen": {
+    "source": "lastfm",
+    "matchedName": "Akseli Hiltunen",
+    "tags": [
+      "rock",
+      "indie",
+      "progressive rock",
+      "alternative",
+      "suomi-rock",
+      "alternative rock"
+    ],
+    "fetched": "2026-11-21"
+  },
+  "Akseli Hiltunen & Kanssaloisaktivistit": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Alchemy": {
     "source": "lastfm",
     "matchedName": "ALCHEMY",
@@ -413,6 +431,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Angry Adults": {
+    "source": "musicbrainz",
+    "matchedName": "Angry Adults",
+    "mbid": "27137633-70d4-4437-a1ac-5ad66cd6b2ee",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Ani Harmi": {
     "source": "musicbrainz",
     "matchedName": "Ani Harmi",
@@ -491,6 +517,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-20"
+  },
+  "Anu Keronen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
+  "Anu Keronen & Saturnus": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Anvil": {
     "source": "lastfm",
@@ -990,6 +1026,11 @@
       "death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "BLOODSTAINED METAL BATFEST": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Blosarit": {
     "source": "notfound",
@@ -1544,6 +1585,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Destination Hardcore": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "DHARMA GUNS": {
     "source": "musicbrainz",
     "matchedName": "Dharma Guns",
@@ -1628,6 +1674,11 @@
       "crust n roll"
     ],
     "fetched": "2026-11-19"
+  },
+  "Divine Bloodshed": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Diya": {
     "source": "lastfm",
@@ -1969,6 +2020,11 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Esko Koivuluoma Duo": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Ethnic Heritage Ensemble": {
     "source": "lastfm",
     "matchedName": "Ethnic Heritage Ensemble",
@@ -2018,6 +2074,14 @@
       "r&b"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ewiges Feuer": {
+    "source": "musicbrainz",
+    "matchedName": "Ewiges Feuer",
+    "mbid": "1b3c320e-f538-43ef-8108-f52bbaa772ef",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Extermination Dismemberment": {
     "source": "lastfm",
@@ -2255,6 +2319,16 @@
       "electronic"
     ],
     "fetched": "2026-11-19"
+  },
+  "Focus": {
+    "source": "lastfm",
+    "matchedName": "Focus",
+    "tags": [
+      "progressive rock",
+      "classic rock",
+      "rock"
+    ],
+    "fetched": "2026-11-21"
   },
   "FOO FIGHTERS": {
     "source": "lastfm",
@@ -2809,6 +2883,16 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "Hauraus": {
+    "source": "lastfm",
+    "matchedName": "Hauraus",
+    "tags": [
+      "screamo",
+      "emo",
+      "post-hardcore"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Hautaveri": {
     "source": "lastfm",
     "matchedName": "Hautaveri",
@@ -2882,6 +2966,25 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-20"
+  },
+  "Hekatoxen": {
+    "source": "lastfm",
+    "matchedName": "Hekatoxen",
+    "tags": [
+      "death metal",
+      "old school death metal"
+    ],
+    "fetched": "2026-11-21"
+  },
+  "Helena Lerkkanen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
+  "Helena Lerkkanen & Jani Helenius": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Hellgate Necrosodomy": {
     "source": "lastfm",
@@ -3336,6 +3439,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Jani Helenius": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Jann Wilde & The Neon Comets": {
     "source": "musicbrainz",
     "matchedName": "Jann Wilde & The Neon Comets",
@@ -3406,6 +3514,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Jere Toivonen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
+  "Jere Toivonen & Pekka Juntunen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Jesse Kaikuranta": {
     "source": "lastfm",
     "matchedName": "Jesse Kaikuranta",
@@ -3440,6 +3558,22 @@
       "singer-songwriter"
     ],
     "fetched": "2026-11-19"
+  },
+  "Johanna Debreczeni": {
+    "source": "lastfm",
+    "matchedName": "Johanna Debreczeni",
+    "tags": [
+      "pop",
+      "tango",
+      "iskelmä",
+      "queen of tango"
+    ],
+    "fetched": "2026-11-21"
+  },
+  "Johanna Debreczeni & Pekka Juntunen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Johanna Försti": {
     "source": "musicbrainz",
@@ -3780,6 +3914,11 @@
       "blackened death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Kanssaloisaktivistit": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Kantamus": {
     "source": "lastfm",
@@ -4215,6 +4354,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kyösti Lindeman": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Kyösti Mäkimattila": {
     "source": "lastfm",
     "matchedName": "Kyösti Mäkimattila",
@@ -4288,6 +4432,11 @@
       "rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Landscape Suicide": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Lars Winnerbäck": {
     "source": "lastfm",
@@ -4376,6 +4525,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Length Of Time": {
+    "source": "lastfm",
+    "matchedName": "Length Of Time",
+    "tags": [
+      "metalcore",
+      "hardcore",
+      "h8000"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Leningrad Cowboys": {
     "source": "lastfm",
     "matchedName": "Leningrad Cowboys",
@@ -4390,6 +4549,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Levoton Elämä": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "levyjulkkarit": {
     "source": "notfound",
@@ -4410,6 +4574,18 @@
       "aor"
     ],
     "fetched": "2026-11-19"
+  },
+  "Liar": {
+    "source": "lastfm",
+    "matchedName": "Liar",
+    "tags": [
+      "metalcore",
+      "future garage",
+      "hardcore",
+      "h8000",
+      "electronic"
+    ],
+    "fetched": "2026-11-21"
   },
   "Liisa Akimof": {
     "source": "lastfm",
@@ -5310,6 +5486,15 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Morte Profana": {
+    "source": "lastfm",
+    "matchedName": "Morte Profana",
+    "tags": [
+      "black death",
+      "death metal"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Motivus x Ääniwalli": {
     "source": "notfound",
     "tags": [],
@@ -5381,6 +5566,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Mutation": {
+    "source": "lastfm",
+    "matchedName": "Mutation",
+    "tags": [
+      "death metal"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Muusikoiden pikkujouluspesiaali": {
     "source": "notfound",
     "tags": [],
@@ -5405,6 +5598,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Naakka": {
+    "source": "lastfm",
+    "matchedName": "Naakka",
+    "tags": [
+      "ebm",
+      "synthpunk",
+      "electro-industrial"
+    ],
+    "fetched": "2026-11-21"
   },
   "NAM": {
     "source": "lastfm",
@@ -5454,6 +5657,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Neonya!! Party": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Never Obey Again": {
     "source": "lastfm",
@@ -5965,6 +6173,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Pekka Juntunen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Pekka Laine & The Enchanted": {
     "source": "musicbrainz",
     "matchedName": "Pekka Laine & The Enchanted",
@@ -5980,6 +6193,16 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Pelko": {
+    "source": "lastfm",
+    "matchedName": "Pelko",
+    "tags": [
+      "helsinki",
+      "trauma rock",
+      "traumarock"
+    ],
+    "fetched": "2026-11-21"
   },
   "Pelle Miljoona & Pispala Punks": {
     "source": "musicbrainz",
@@ -6009,6 +6232,11 @@
       "rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Pepita Vanni": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Pertti Kurikan": {
     "source": "notfound",
@@ -6310,6 +6538,14 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Primitive Future": {
+    "source": "lastfm",
+    "matchedName": "Primitive Future",
+    "tags": [
+      "hardcore"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Psychonaut": {
     "source": "lastfm",
     "matchedName": "Psychonaut",
@@ -6509,6 +6745,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Rats Will Feast": {
+    "source": "lastfm",
+    "matchedName": "RATS WILL FEAST",
+    "tags": [
+      "chaotic hardcore",
+      "hardcore",
+      "post-rock"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Rattleshake": {
     "source": "lastfm",
     "matchedName": "Rattleshake",
@@ -6659,6 +6905,11 @@
       "metalcore"
     ],
     "fetched": "2026-11-18"
+  },
+  "Risto Nevala Duo": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "ROB COFFINSHAKER": {
     "source": "lastfm",
@@ -6896,6 +7147,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Sakke Kotilainen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
+  "Sakke Kotilainen & Focus": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Salaliitto": {
     "source": "lastfm",
     "matchedName": "Salaliitto",
@@ -6955,6 +7216,20 @@
       "alternative"
     ],
     "fetched": "2026-11-19"
+  },
+  "Saturnus": {
+    "source": "lastfm",
+    "matchedName": "Saturnus",
+    "tags": [
+      "doom metal",
+      "death doom metal"
+    ],
+    "fetched": "2026-11-21"
+  },
+  "Saturnus Events": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Saul Williams": {
     "source": "lastfm",
@@ -7179,6 +7454,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Sir Liselot Band": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Sirkuit Preiker": {
     "source": "notfound",
     "tags": [],
@@ -7332,6 +7612,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Spirit Possession": {
+    "source": "lastfm",
+    "matchedName": "Spirit Possession",
+    "tags": [
+      "black metal"
+    ],
+    "fetched": "2026-11-21"
+  },
   "Split Dogs": {
     "source": "lastfm",
     "matchedName": "Split Dogs",
@@ -7444,6 +7732,14 @@
       "folk"
     ],
     "fetched": "2026-11-19"
+  },
+  "Stinkbird": {
+    "source": "musicbrainz",
+    "matchedName": "Stinkbird",
+    "mbid": "cdc852a6-5e1c-404e-bc16-441115a9c018",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Stoned Statues": {
     "source": "lastfm",
@@ -7827,6 +8123,11 @@
       "metalcore"
     ],
     "fetched": "2026-11-18"
+  },
+  "Tenho Keväänranta": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
   },
   "Terror Shark": {
     "source": "lastfm",
@@ -8240,6 +8541,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Tino Ahlgren Duo": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-21"
+  },
   "Tiny Sequoia": {
     "source": "notfound",
     "tags": [],
@@ -8468,6 +8774,15 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Tynnyri": {
+    "source": "lastfm",
+    "matchedName": "Tynnyri",
+    "tags": [
+      "rock",
+      "punk"
+    ],
+    "fetched": "2026-11-21"
   },
   "Typerä Typerä Mies": {
     "source": "notfound",

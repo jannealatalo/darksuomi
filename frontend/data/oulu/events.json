@@ -83,7 +83,7 @@
     "city": "Oulu",
     "date": "2026-11-21T16:00:00",
     "ticketUrl": "https://www.paskakaupunni.fi/vapaatkadet/#liput",
-    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6ad8d04ba57d2b0487764acc#2026-11-21",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6ad8d04ba57d2b0487764acc",
     "doors": "16:00",
     "price": "25–45 €",
     "age": "K-18",
@@ -607,6 +607,24 @@
       "metal",
       "horror punk",
       "heavy metal"
+    ]
+  },
+  {
+    "artist": "Noora Louhimo – Joulun hetki",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/noora-louhimo-joulun-hetki-oulun-musiikkikeskus-21333802/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/69941b0ba108c6f785ad80b6",
+    "doors": "19:00",
+    "id": 61,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "heavy metal",
+      "power metal",
+      "rock"
     ]
   },
   {
