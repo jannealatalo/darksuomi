@@ -146,7 +146,7 @@ jobs:
       - name: Daily updates log (new gigs since the last commit)
         # frontend/data/updates.json -> darksuomi.fi/updates
         continue-on-error: true
-        run: python changelog.py --mail-file "$RUNNER_TEMP/new-gigs.txt"
+        run: python changelog.py --mail-file "$RUNNER_TEMP/new-gigs.txt" --markdown-file "$RUNNER_TEMP/new-gigs.md"
 
       - name: Build expected setlists
         env:
@@ -176,14 +176,16 @@ jobs:
         run: python bands.py
 
       - name: Email the new gigs
-        # Needs the secrets SMTP_USERNAME, SMTP_PASSWORD (an app password)
-        # and MAIL_TO; without them this step just says so.
+        # To the owner (secrets SMTP_USERNAME, SMTP_PASSWORD = an app password,
+        # MAIL_TO) and to newsletter subscribers (secret BUTTONDOWN_API_KEY).
+        # Missing secrets just skip that part.
         continue-on-error: true
         env:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-        run: python send_updates_email.py "$RUNNER_TEMP/new-gigs.txt"
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: python send_updates_email.py "$RUNNER_TEMP/new-gigs.txt" "$RUNNER_TEMP/new-gigs.md"
 
       - name: Commit and push data
         run: |

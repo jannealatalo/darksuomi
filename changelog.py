@@ -11,7 +11,8 @@ is committed. It compares each city's events.json with the last commit
   - Only upcoming gigs the site shows by default (genres.shown_by_default)
     are listed; the others are just counted per city ("hidden").
   - With --mail-file, a plain-text email body is written there when there
-    is something new (send_updates_email.py sends it).
+    is something new, and with --markdown-file a Markdown one for the
+    newsletter (send_updates_email.py sends them).
 
 Usage:
   python changelog.py
@@ -101,9 +102,33 @@ def mail_body(day: str, gigs: list[dict], hidden: dict[str, int]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def mail_markdown(day: str, gigs: list[dict], hidden: dict[str, int]) -> str:
+    """The same list for the newsletter (Buttondown reads Markdown)."""
+    lines = []
+    for city in ("helsinki", *CITIES):
+        mine = [x for x in gigs if x["city"] == city]
+        if not mine:
+            continue
+        lines += [f"## {CITY_NAMES[city]}", ""]
+        for x in mine:
+            where = x["venue"] + (f", {x['place']}" if x["place"] not in ("", "Helsinki") else "")
+            extra = f" **{x['status']}**" if x.get("status") else ""
+            genres = f" · _{', '.join(x['genres'])}_" if x["genres"] else ""
+            url = f"{SITE}{CITY_PATHS[city]}#gig-{x['id']}"
+            lines.append(f"- {fi_date(x['date'])} **[{x['artist']}]({url})**{extra}  ")
+            lines.append(f"  {where}{genres}")
+        lines.append("")
+    more = sum(hidden.values())
+    if more:
+        lines += [f"(+ {more} more not shown by the default genre filter)", ""]
+    lines += [f"All daily updates: [{SITE}/updates]({SITE}/updates)"]
+    return "\n".join(lines) + "\n"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--mail-file", help="write an email body here when there are new gigs")
+    parser.add_argument("--markdown-file", help="the same as Markdown, for the newsletter")
     parser.add_argument("--dry-run", action="store_true", help="print, save nothing")
     args = parser.parse_args()
 
@@ -140,6 +165,8 @@ def main() -> int:
     if args.mail_file and gigs:
         Path(args.mail_file).write_text(mail_body(today, gigs, hidden), encoding="utf-8")
         print(f"✓ Email body written to {args.mail_file}")
+    if args.markdown_file and gigs:
+        Path(args.markdown_file).write_text(mail_markdown(today, gigs, hidden), encoding="utf-8")
     return 0
 
 

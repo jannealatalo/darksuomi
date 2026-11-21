@@ -122,6 +122,26 @@ export default function PrivacyPage() {
           </p>
         </Section>
 
+        <Section title="Daily updates by email (optional)">
+          <p>
+            If you subscribe to the daily updates, your email address is stored by{" "}
+            <a
+              href="https://buttondown.com/legal/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-purple-300"
+            >
+              Buttondown
+            </a>
+            , the newsletter service that sends the emails. It is used only to send
+            you the list of new gigs, on the days there are some. Buttondown asks
+            you to confirm the subscription by email, and every email has an
+            unsubscribe link; unsubscribing removes you from the list. Dark Suomi
+            does not share or sell the list. To have your address deleted, use the
+            unsubscribe link or contact {mail}.
+          </p>
+        </Section>
+
         <Section title="Links and playlists">
           <p>
             Gig, ticket, Spotify playlist and setlist links lead to other services
@@ -135,7 +155,8 @@ export default function PrivacyPage() {
             Under the EU General Data Protection Regulation you can ask what data
             concerns you and ask for it to be corrected or deleted. Because Dark Suomi
             stores no personal data on its own servers, logging out (or clearing your
-            browser&apos;s cookies for darksuomi.fi) removes everything. For questions,
+            browser&apos;s cookies for darksuomi.fi) removes everything; an email
+            subscription is removed by unsubscribing. For questions,
             contact {mail}. You can also contact the Finnish Data Protection
             Ombudsman (tietosuoja.fi).
           </p>
@@ -143,11 +164,15 @@ export default function PrivacyPage() {
 
         <Section title="Suomeksi lyhyesti">
           <p>
-            Dark Suomi ei käytä analytiikkaa, mainoksia eikä seurantaevästeitä.
+            Dark Suomi ei käytä mainoksia eikä seurantaevästeitä. Kävijämäärät
+            lasketaan nimettömästi Vercel Web Analyticsilla ilman evästeitä.
             Vapaaehtoinen Spotify-kirjautuminen lukee vain seuraamasi artistit;
             nimesi ja kirjautumistiedot säilyvät salattuna evästeenä omassa
-            selaimessasi, eikä niitä tallenneta palvelimelle. Sivuston ylläpitäjä
-            Vercel säilyttää tavanomaisia teknisiä lokitietoja. Yhteydenotot:{" "}
+            selaimessasi, eikä niitä tallenneta palvelimelle. Jos tilaat päivittäiset
+            keikkapäivitykset sähköpostiin, osoitteesi säilyttää uutiskirjepalvelu
+            Buttondown, ja tilauksen voi perua jokaisen viestin linkistä. Sivuston
+            ylläpitäjä Vercel säilyttää tavanomaisia teknisiä lokitietoja.
+            Yhteydenotot:{" "}
             {mail}.
           </p>
         </Section>

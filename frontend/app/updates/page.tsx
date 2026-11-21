@@ -4,6 +4,7 @@ import { CITIES } from "../../lib/cities";
 import { scrapeDay } from "../../lib/events";
 import { getUpdates, type NewGig } from "../../lib/updates";
 import SiteFooter from "../SiteFooter";
+import SubscribeForm from "./SubscribeForm";
 
 export const metadata: Metadata = {
   title: "Daily updates – Dark Suomi",
@@ -36,6 +37,7 @@ export default function UpdatesPage() {
             with the default genres are listed; the rest are counted. The last four
             months are kept.
           </p>
+          <SubscribeForm />
         </header>
 
         {days.length === 0 && <p className="text-gray-400">No new gigs logged yet.</p>}
