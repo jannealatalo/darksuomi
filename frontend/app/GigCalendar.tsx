@@ -25,6 +25,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
 import { useEffect, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
+import { InstallButton } from "./AppShell";
 import { CITIES, type CityKey } from "../lib/cities";
 import { matchesSearch } from "../lib/search";
 import SearchBox from "./SearchBox";
@@ -201,6 +202,7 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                 <Link href="/updates" className={NAV_BUTTON}>
                   Subscribe to daily updates
                 </Link>
+                <InstallButton className={NAV_BUTTON} />
               </span>
               <span className="flex flex-wrap items-center gap-1.5 mt-2 text-xs">
                 <span className="text-gray-500 mr-0.5">City:</span>
