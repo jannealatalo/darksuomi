@@ -1,0 +1,252 @@
+[
+  {
+    "day": "2026-11-21",
+    "gigs": [
+      {
+        "id": 462,
+        "city": "helsinki",
+        "artist": "Kotiteollisuus",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2026-12-03T18:30:00",
+        "genres": [
+          "metal",
+          "heavy metal",
+          "hard rock"
+        ],
+        "status": "sold out"
+      },
+      {
+        "id": 463,
+        "city": "helsinki",
+        "artist": "Maija Vilkkumaa",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2026-12-10T18:30:00",
+        "genres": [
+          "rock",
+          "singer-songwriter",
+          "pop"
+        ],
+        "status": "sold out"
+      },
+      {
+        "id": 464,
+        "city": "helsinki",
+        "artist": "Irina",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2026-12-12T18:30:00",
+        "genres": [
+          "pop",
+          "rock"
+        ]
+      },
+      {
+        "id": 465,
+        "city": "helsinki",
+        "artist": "Michael Monroe acoustic solo",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2026-12-17T18:30:00",
+        "genres": [
+          "hard rock",
+          "glam rock",
+          "punk rock"
+        ]
+      },
+      {
+        "id": 466,
+        "city": "helsinki",
+        "artist": "Anssi Kela",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2026-12-27T16:30:00",
+        "genres": [
+          "pop",
+          "rock",
+          "singer-songwriter"
+        ],
+        "status": "sold out"
+      },
+      {
+        "id": 478,
+        "city": "helsinki",
+        "artist": "Bon Scott Boys plays AC/DC",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-05T18:30:00",
+        "genres": [
+          "hard rock",
+          "classic rock",
+          "rock"
+        ]
+      },
+      {
+        "id": 479,
+        "city": "helsinki",
+        "artist": "Jiri Nikkinen The Beatles Tribute Band",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-08T18:30:00",
+        "genres": [
+          "classic rock",
+          "rock"
+        ]
+      },
+      {
+        "id": 467,
+        "city": "helsinki",
+        "artist": "Peer Günt",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-16T18:30:00",
+        "genres": [
+          "hard rock",
+          "rock",
+          "classic rock"
+        ]
+      },
+      {
+        "id": 468,
+        "city": "helsinki",
+        "artist": "Risto",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-22T18:30:00",
+        "genres": [
+          "indie",
+          "experimental",
+          "rock"
+        ]
+      },
+      {
+        "id": 480,
+        "city": "helsinki",
+        "artist": "The Miracle - A Night with Queen - Freddie Mercury 80v. -juhlakiertue",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-23T18:30:00",
+        "genres": [
+          "classic rock",
+          "rock",
+          "hard rock"
+        ]
+      },
+      {
+        "id": 469,
+        "city": "helsinki",
+        "artist": "Kauko Röyhkä & Röyhkeät",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-29T18:30:00",
+        "genres": [
+          "rock",
+          "suomirock"
+        ]
+      },
+      {
+        "id": 470,
+        "city": "helsinki",
+        "artist": "Timo Kotipelto & Robustik - Rock The Acoustic Metal",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-02-06T18:30:00",
+        "genres": [
+          "power metal",
+          "heavy metal",
+          "melodic metal"
+        ]
+      },
+      {
+        "id": 471,
+        "city": "helsinki",
+        "artist": "Boycott",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-02-13T18:30:00",
+        "genres": [
+          "hard rock",
+          "rock",
+          "finnish rock"
+        ]
+      },
+      {
+        "id": 472,
+        "city": "helsinki",
+        "artist": "Jonna Tervomaa - Talvehtijat",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-03-04T18:30:00",
+        "genres": [
+          "pop",
+          "rock"
+        ]
+      },
+      {
+        "id": 473,
+        "city": "helsinki",
+        "artist": "Emilia Sisco",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-03-12T18:30:00",
+        "genres": [
+          "reggae",
+          "blues",
+          "helsinki"
+        ]
+      },
+      {
+        "id": 474,
+        "city": "helsinki",
+        "artist": "Atomirotta",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-03-20T18:30:00",
+        "genres": [
+          "hip hop",
+          "rock"
+        ]
+      },
+      {
+        "id": 475,
+        "city": "helsinki",
+        "artist": "Litku Klemetti",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-04-01T18:30:00",
+        "genres": [
+          "indie",
+          "lo-fi"
+        ]
+      },
+      {
+        "id": 476,
+        "city": "helsinki",
+        "artist": "Topmost",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-04-03T13:00:00",
+        "genres": [
+          "psychedelic",
+          "rock",
+          "oldies"
+        ]
+      },
+      {
+        "id": 477,
+        "city": "helsinki",
+        "artist": "Death Hawks – Mieletön skaala -klubi",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-05-05T18:30:00",
+        "genres": [
+          "psychedelic rock",
+          "progressive rock",
+          "rock"
+        ]
+      }
+    ],
+    "hidden": {}
+  }
+]

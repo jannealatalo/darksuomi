@@ -95,6 +95,13 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python scraper_aaniwalli.py
 
+      - name: Scrape Krapin Paja, Tuusula (only gigs whose genres fit)
+        continue-on-error: true
+        env:
+          # Genres are looked up while scraping, to keep only fitting gigs.
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_krapinpaja.py
+
       - name: Scrape Sellosali, Espoo (music only)
         continue-on-error: true
         run: python scraper_sellosali.py
@@ -136,6 +143,11 @@ jobs:
             python genres.py --city "$city"
           done
 
+      - name: Daily updates log (new gigs since the last commit)
+        # frontend/data/updates.json -> darksuomi.fi/updates
+        continue-on-error: true
+        run: python changelog.py --mail-file "$RUNNER_TEMP/new-gigs.txt"
+
       - name: Build expected setlists
         env:
           SETLISTFM_API_KEY: ${{ secrets.SETLISTFM_API_KEY }}
@@ -162,6 +174,16 @@ jobs:
           SPOTIFY_PLAYLIST_CLIENT_SECRET: ${{ secrets.SPOTIFY_PLAYLIST_CLIENT_SECRET }}
           SPOTIFY_PLAYLIST_REFRESH_TOKEN: ${{ secrets.SPOTIFY_PLAYLIST_REFRESH_TOKEN }}
         run: python bands.py
+
+      - name: Email the new gigs
+        # Needs the secrets SMTP_USERNAME, SMTP_PASSWORD (an app password)
+        # and MAIL_TO; without them this step just says so.
+        continue-on-error: true
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python send_updates_email.py "$RUNNER_TEMP/new-gigs.txt"
 
       - name: Commit and push data
         run: |

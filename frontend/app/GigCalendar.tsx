@@ -189,6 +189,9 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                     <Link href="/past" className="text-purple-400 hover:text-purple-300">
                       Past gigs & setlists →
                     </Link>
+                    <Link href="/updates" className="text-purple-400 hover:text-purple-300">
+                      Daily updates →
+                    </Link>
                   </span>
                   <span className="block mt-1 text-xs text-gray-500">
                     Helsinki & Espoo · also:{" "}
@@ -222,6 +225,9 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                       className="text-purple-400 hover:text-purple-300"
                     >
                       Bands A–Z: Spotify, Bandcamp, SoundCloud… →
+                    </Link>
+                    <Link href="/updates" className="ml-4 text-purple-400 hover:text-purple-300">
+                      Daily updates →
                     </Link>
                   </span>
                 </span>
