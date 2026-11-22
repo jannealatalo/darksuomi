@@ -126,7 +126,7 @@ def parse_cards(page_html: str, titles: dict[str, str], venue_for) -> list[dict]
             if pm:
                 prices.append(f"{pm.group(1).lower()} {pm.group(2)}")
             elif i.lower() == "loppuunmyyty":
-                prices.append("loppuunmyyty")
+                event["status"] = "sold out"
         if prices:
             event["price"] = ", ".join(prices)
         age = next((age_label(i) for i in info if age_label(i)), None)

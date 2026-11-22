@@ -73,6 +73,7 @@ def parse(items: list[dict]) -> list[dict]:
         if m:
             age = norm_age(m.group(1))
             name = AGE_IN_TITLE.sub(" ", name)
+        sold_out = bool(SOLD_OUT.search(name))
         name = " ".join(SOLD_OUT.sub(" ", name).split()).strip(" -–")
         if not age:
             m = AGE_IN_TEXT.search(long_desc)
@@ -92,6 +93,8 @@ def parse(items: list[dict]) -> list[dict]:
             "ticketUrl": page,
             "eventUrl": page,
         }
+        if sold_out:
+            event["status"] = "sold out"
         price = " ".join(text(item.get("descriptions")).split())
         if price and re.search(r"\d", price) and len(price) <= 40:
             event["price"] = price

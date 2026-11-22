@@ -115,8 +115,10 @@ def fetch_concerts(api: str = API, place: str = PLACE_ID, venue: str = VENUE,
             name = ((item.get("name") or {}).get("fi") or (item.get("name") or {}).get("en") or "").strip()
             start = finnish_time(item["start_time"])
             title = " ".join(AGE_IN_TITLE.sub(" ", name).split())
-            # "(LOPPUUNMYYTY)" = sold out; not part of the act's name.
-            title = re.sub(r"\s*\((?:loppuunmyyty|sold out|täynnä)\)\s*", " ", title, flags=re.I).strip()
+            # "(LOPPUUNMYYTY)" = sold out: a status, not part of the act's name.
+            sold_out = re.compile(r"\s*\((?:loppuunmyyty|sold out|täynnä)\)\s*", re.I)
+            is_sold_out = bool(sold_out.search(title))
+            title = sold_out.sub(" ", title).strip()
             if skip_re and skip_re.search(title):
                 continue
 
@@ -149,6 +151,8 @@ def fetch_concerts(api: str = API, place: str = PLACE_ID, venue: str = VENUE,
                 event["age"] = age
             if any(o.get("is_free") for o in offers):
                 event["price"] = "Vapaa pääsy"
+            if is_sold_out:
+                event["status"] = "sold out"
             events.append(event)
         url, params = (data.get("meta") or {}).get("next"), None
         if not url:

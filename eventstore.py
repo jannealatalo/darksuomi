@@ -12,6 +12,7 @@ Pass `city=` to work on those.
 """
 
 import json
+import re
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent / "frontend" / "data"
@@ -49,6 +50,27 @@ def save_events(events: list[dict], city: str | None = None) -> None:
         json.dump(events, f, indent=2, ensure_ascii=False)
 
 
+# Status words some venues put in the title: "Europe – … Tour (SOLD OUT!)",
+# "PERUTTU: Disco Night". The site shows a status badge instead.
+_SOLD_OUT = re.compile(r"\s*[(\[]?\s*\b(?:sold\s*out|loppuunmyyty)\b\s*!*\s*[)\]]?", re.I)
+_CANCELLED = re.compile(
+    r"^\s*(?:peruttu|cancell?ed)\s*[:!–—-]+\s*|\s*[(\[]\s*(?:peruttu|cancell?ed)\s*!*\s*[)\]]", re.I)
+
+
+def status_from_title(event: dict) -> None:
+    """Move a sold-out / cancelled note from the title to event["status"]."""
+    title = event["artist"]
+    if _CANCELLED.search(title):
+        event["status"] = "cancelled"
+        title = _CANCELLED.sub(" ", title)
+    elif _SOLD_OUT.search(title):
+        event["status"] = "sold out"
+        title = _SOLD_OUT.sub(" ", title)
+    else:
+        return
+    event["artist"] = " ".join(title.split()).strip(" -–—:")
+
+
 def _key(e: dict) -> tuple:
     return (e["venue"], e["date"][:10], e["artist"].casefold().strip())
 
@@ -60,6 +82,7 @@ def merge(scraped: list[dict], events: list[dict]) -> int:
     next_id = max((e.get("id", 0) for e in events), default=0) + 1
     added = 0
     for event in scraped:
+        status_from_title(event)
         same_page = by_url.get(event.get("eventUrl"))
         existing = same_page or by_key.get(_key(event))
         if existing:
@@ -70,6 +93,8 @@ def merge(scraped: list[dict], events: list[dict]) -> int:
                 # Same event page: the title may have been updated (line-up
                 # completed, support act added), so keep it current.
                 existing["artist"] = event["artist"]
+            if event.get("status"):
+                existing["status"] = event["status"]
             continue
         event["id"] = next_id
         next_id += 1

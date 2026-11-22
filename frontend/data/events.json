@@ -987,7 +987,7 @@
     "venueDefault": "rock"
   },
   {
-    "artist": "Europe – The Final Countdown 40th Anniversary Tour (SOLD OUT!)",
+    "artist": "Europe – The Final Countdown 40th Anniversary Tour",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2026-11-25T17:30:00",
@@ -1006,7 +1006,8 @@
       "classic rock"
     ],
     "price": "alk. 48,00€",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "id": 266,
@@ -1614,7 +1615,7 @@
     ]
   },
   {
-    "artist": "PERUTTU: Disco Night",
+    "artist": "Disco Night",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2026-11-28T19:30:00",
@@ -1639,7 +1640,8 @@
       "viihde"
     ],
     "price": "alk. 48,00€",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "cancelled"
   },
   {
     "id": 268,
@@ -8433,7 +8435,7 @@
     ]
   },
   {
-    "artist": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027 (Sold Out!)",
+    "artist": "Haloo Helsinki! – 20-vuotisjuhlakiertue 2027",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2027-03-13T17:30:00",
@@ -8460,7 +8462,8 @@
       "punk rock"
     ],
     "price": "alk. 48,00€",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "artist": "TOXIC FEST 2027",
@@ -9661,7 +9664,7 @@
     ]
   },
   {
-    "artist": "Ministry (US) Hate To Go – Goodbye Europe 2027 Tour (Sold Out!)",
+    "artist": "Ministry (US) Hate To Go – Goodbye Europe 2027 Tour",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
     "date": "2027-05-01T18:00:00",
@@ -9683,7 +9686,8 @@
       "metal"
     ],
     "price": "alk. 48,00€",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "artist": "Death Hawks – Mieletön skaala -klubi",

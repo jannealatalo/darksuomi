@@ -7,7 +7,6 @@
     "ticketUrl": "https://tavara-asema.fi/ohjelma/benjamin-locker-room-tour-20-11-2026/",
     "eventUrl": "https://tavara-asema.fi/ohjelma/benjamin-locker-room-tour-20-11-2026/",
     "doors": "19:00",
-    "price": "loppuunmyyty",
     "age": "K-18",
     "id": 1,
     "artists": [
@@ -15,7 +14,8 @@
     ],
     "genres": [
       "pop"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Olavi Uusivirta",
@@ -162,7 +162,6 @@
     "ticketUrl": "https://tullikamari.fi/tapahtumat/apulanta-21-11-2026/",
     "eventUrl": "https://tullikamari.fi/tapahtumat/apulanta-21-11-2026/",
     "doors": "19:00",
-    "price": "loppuunmyyty",
     "age": "K-18",
     "room": "Pakkahuone",
     "id": 26,
@@ -173,7 +172,8 @@
       "rock",
       "punk rock",
       "punk"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Pohjasakka, Aivoproteesi, Tohtori Koira, Suicide Sex Cult Propaganda, Punk Ekman",
@@ -775,7 +775,6 @@
     "ticketUrl": "https://tullikamari.fi/tapahtumat/peer-gunt-50-vuotisjuhlakeikka-04-12-2026/",
     "eventUrl": "https://tullikamari.fi/tapahtumat/peer-gunt-50-vuotisjuhlakeikka-04-12-2026/",
     "doors": "19:00",
-    "price": "loppuunmyyty",
     "age": "K-18",
     "room": "Klubi",
     "id": 32,
@@ -786,7 +785,8 @@
       "hard rock",
       "rock",
       "classic rock"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Inariveljet, Ville Leinonen & Hot Heros",
