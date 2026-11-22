@@ -30,6 +30,8 @@
         {"name": "tampere", "topic": "Gigs in Tampere: https://darksuomi.fi/tampere"},
         {"name": "oulu", "topic": "Gigs in Oulu: https://darksuomi.fi/oulu"},
         {"name": "gig-buddies", "topic": "Looking for company to a gig? Ask here."},
+        {"name": "photos-videos", "topic": "Post all of your concert photos and videos here!"},
+        {"name": "merch-table", "topic": "Discuss and share photos of what merch is or was being sold at shows."},
         {"name": "tickets", "slowmodeSeconds": 600,
          "topic": "Links to official resale only (Ticketmaster/Lippu.fi, Tiketti, TicketSwap). No private sales, no DMs, no payment requests."}
       ]

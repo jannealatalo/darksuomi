@@ -234,6 +234,13 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python send_updates_email.py "$RUNNER_TEMP/new-gigs.txt" "$RUNNER_TEMP/new-gigs.md"
 
+      - name: Discord events (the next 20 gigs)
+        # Discord's Events list; secret DISCORD_BOT_TOKEN (missing: skipped).
+        continue-on-error: true
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python discord_events.py --apply
+
       - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"
