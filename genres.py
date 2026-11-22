@@ -554,13 +554,15 @@ def pick_genres(event: dict, artist_tags: list[str]) -> list[str]:
 # Dark Suomi's genres stays (Stam1na's pikkujoulut), and so do comedy shows,
 # which standup.py picks up for /standup.
 CHRISTMAS_TITLE = re.compile(r"\bjoulu|\bjoulun|christmas|\bx-?mas\b|\bjul(?:konsert\w*)?\b", re.I)
-COMEDY_TITLE = re.compile(r"stand.?up|komedia|comedy|koomik|qoomik", re.I)
+# Its own name: it used to be a second COMEDY_TITLE, which silently replaced
+# pick_genres' pattern above (so "Joka v*tun keskiviikko" got "rock").
+CHRISTMAS_COMEDY_TITLE = re.compile(r"stand.?up|komedia|comedy|koomik|qoomik", re.I)
 
 
 def is_generic_christmas_show(event: dict, config: dict) -> bool:
     title = event.get("artist", "")
     genres = event.get("genres", [])
-    return (bool(CHRISTMAS_TITLE.search(title)) and not COMEDY_TITLE.search(title)
+    return (bool(CHRISTMAS_TITLE.search(title)) and not CHRISTMAS_COMEDY_TITLE.search(title)
             and "stand-up" not in genres and not shown_by_default(genres, config))
 
 def main() -> int:
