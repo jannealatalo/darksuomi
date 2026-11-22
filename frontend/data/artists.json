@@ -14,6 +14,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "1991": {
+    "source": "lastfm",
+    "matchedName": "1991",
+    "tags": [
+      "ambient",
+      "electronic",
+      "experimental",
+      "drone"
+    ],
+    "fetched": "2026-11-22"
+  },
   "19:26": {
     "source": "lastfm",
     "matchedName": "19:26",
@@ -422,6 +433,26 @@
       "slamming brutal death metal"
     ],
     "fetched": "2026-11-21"
+  },
+  "Andromedik": {
+    "source": "lastfm",
+    "matchedName": "Andromedik",
+    "tags": [
+      "drum and bass",
+      "electronic"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "André Rieu": {
+    "source": "lastfm",
+    "matchedName": "André Rieu",
+    "tags": [
+      "classical",
+      "instrumental",
+      "andre rieu",
+      "folk"
+    ],
+    "fetched": "2026-11-22"
   },
   "Andy and the Rockets": {
     "source": "lastfm",
@@ -933,6 +964,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "BED BY 10PM": {
+    "source": "musicbrainz",
+    "matchedName": "Bed by 10pm",
+    "mbid": "9450711c-0127-4768-9042-145d1e693cb3",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Beleth’s Trumpet": {
     "source": "musicbrainz",
     "matchedName": "Beleth's Trumpet",
@@ -998,6 +1037,15 @@
       "hardcore"
     ],
     "fetched": "2026-11-19"
+  },
+  "Bizi": {
+    "source": "lastfm",
+    "matchedName": "Bizi",
+    "tags": [
+      "rap",
+      "hip hop"
+    ],
+    "fetched": "2026-11-22"
   },
   "Black Devils": {
     "source": "lastfm",
@@ -1093,6 +1141,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Bo Kaspers Orkester": {
+    "source": "lastfm",
+    "matchedName": "Bo Kaspers Orkester",
+    "tags": [
+      "jazz",
+      "pop",
+      "svenskt"
+    ],
+    "fetched": "2026-11-22"
   },
   "Bombus": {
     "source": "lastfm",
@@ -1321,6 +1379,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Code Black": {
+    "source": "lastfm",
+    "matchedName": "Code Black",
+    "tags": [
+      "hardstyle"
+    ],
+    "fetched": "2026-11-22"
   },
   "Coitus Int 50 Revival": {
     "source": "notfound",
@@ -1674,6 +1740,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "DIDnBASS": {
+    "source": "musicbrainz",
+    "matchedName": "DIDnBASS",
+    "mbid": "628f63bf-8a55-4739-9e20-40c31740ac32",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "DIE OBERHERREN": {
     "source": "lastfm",
     "matchedName": "Die Oberherren",
@@ -1750,6 +1824,11 @@
       "crust n roll"
     ],
     "fetched": "2026-11-19"
+  },
+  "Disney On Ice": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Divine Bloodshed": {
     "source": "notfound",
@@ -2044,6 +2123,15 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Elias Kaskinen": {
+    "source": "lastfm",
+    "matchedName": "Elias Kaskinen",
+    "tags": [
+      "dance",
+      "pop"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Ella Feingold": {
     "source": "musicbrainz",
     "matchedName": "Ella Feingold",
@@ -2223,6 +2311,16 @@
       "electro-industrial"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ezhel": {
+    "source": "lastfm",
+    "matchedName": "Ezhel",
+    "tags": [
+      "hip hop",
+      "reggae",
+      "rap"
+    ],
+    "fetched": "2026-11-22"
   },
   "F": {
     "source": "lastfm",
@@ -2839,6 +2937,14 @@
       "metallic hardcore"
     ],
     "fetched": "2026-11-19"
+  },
+  "Gunz For Hire": {
+    "source": "lastfm",
+    "matchedName": "Gunz For Hire",
+    "tags": [
+      "hardstyle"
+    ],
+    "fetched": "2026-11-22"
   },
   "Guttural Slug": {
     "source": "lastfm",
@@ -3615,6 +3721,38 @@
     ],
     "fetched": "2026-11-19"
   },
+  "James Marriott": {
+    "source": "lastfm",
+    "matchedName": "James Marriott",
+    "tags": [
+      "power pop",
+      "alternative rock",
+      "switzerland",
+      "indie rock"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "JAMES MARRIOTT": {
+    "source": "lastfm",
+    "matchedName": "James Marriott",
+    "tags": [
+      "power pop",
+      "alternative rock",
+      "switzerland",
+      "indie rock"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Jamie Duffy": {
+    "source": "lastfm",
+    "matchedName": "Jamie Duffy",
+    "tags": [
+      "piano",
+      "classical",
+      "irish"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Jani Helenius": {
     "source": "notfound",
     "tags": [],
@@ -3845,6 +3983,21 @@
       "spoken word"
     ],
     "fetched": "2026-11-19"
+  },
+  "José Carreras": {
+    "source": "lastfm",
+    "matchedName": "José Carreras",
+    "tags": [
+      "opera",
+      "classical",
+      "tenor"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "José Carreras & Plácido Domingo": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Josén Pimeä Puoli": {
     "source": "lastfm",
@@ -4084,6 +4237,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "KANINE": {
+    "source": "lastfm",
+    "matchedName": "Kanine",
+    "tags": [
+      "deathcore",
+      "slamming deathcore"
+    ],
+    "fetched": "2026-11-22"
+  },
   "KANONENFIEBER": {
     "source": "lastfm",
     "matchedName": "Kanonenfieber",
@@ -4317,6 +4479,17 @@
       "hard rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Klangkuenstler": {
+    "source": "lastfm",
+    "matchedName": "Klangkuenstler",
+    "tags": [
+      "techno",
+      "electronic",
+      "minimal",
+      "hard techno"
+    ],
+    "fetched": "2026-11-22"
   },
   "Klassikot": {
     "source": "notfound",
@@ -4560,6 +4733,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Kyiv Classic Ballet": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Kyösti Lindeman": {
     "source": "notfound",
@@ -4985,6 +5163,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Luontosinfonia-elokuvakonsertti": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "LUPAUS": {
     "source": "musicbrainz",
     "matchedName": "Lupaus",
@@ -5211,6 +5394,24 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-20"
+  },
+  "Marcin": {
+    "source": "lastfm",
+    "matchedName": "Marcin",
+    "tags": [
+      "instrumental",
+      "guitar"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "MARCIN": {
+    "source": "lastfm",
+    "matchedName": "Marcin",
+    "tags": [
+      "instrumental",
+      "guitar"
+    ],
+    "fetched": "2026-11-22"
   },
   "MARIANAS REST": {
     "source": "lastfm",
@@ -5727,6 +5928,28 @@
       "garage rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Morcheeba": {
+    "source": "lastfm",
+    "matchedName": "Morcheeba",
+    "tags": [
+      "trip-hop",
+      "chillout",
+      "electronic",
+      "downtempo"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "MORCHEEBA": {
+    "source": "lastfm",
+    "matchedName": "Morcheeba",
+    "tags": [
+      "trip-hop",
+      "chillout",
+      "electronic",
+      "downtempo"
+    ],
+    "fetched": "2026-11-22"
   },
   "Morgan Jay": {
     "source": "lastfm",
@@ -6428,6 +6651,26 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Paul Smith": {
+    "source": "lastfm",
+    "matchedName": "Paul Smith",
+    "tags": [
+      "singer-songwriter",
+      "indie",
+      "alternative rock"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "PAUL SMITH": {
+    "source": "lastfm",
+    "matchedName": "Paul Smith",
+    "tags": [
+      "singer-songwriter",
+      "indie",
+      "alternative rock"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Pauli Hanhiniemi": {
     "source": "musicbrainz",
     "matchedName": "Pauli Hanhiniemi",
@@ -6529,6 +6772,11 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "PERNILLE HAALAND": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Pertti Kurikan": {
     "source": "notfound",
     "tags": [],
@@ -6562,6 +6810,16 @@
       "finnish death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Pete Parkkonen": {
+    "source": "lastfm",
+    "matchedName": "Pete Parkkonen",
+    "tags": [
+      "rock",
+      "idols",
+      "grunge"
+    ],
+    "fetched": "2026-11-22"
   },
   "Petri Kautto": {
     "source": "lastfm",
@@ -6688,6 +6946,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Plácido Domingo": {
+    "source": "lastfm",
+    "matchedName": "Plácido Domingo",
+    "tags": [
+      "opera",
+      "classical",
+      "tenor"
+    ],
+    "fetched": "2026-11-22"
   },
   "Pohjasakka": {
     "source": "lastfm",
@@ -6847,6 +7115,15 @@
       "hardcore"
     ],
     "fetched": "2026-11-21"
+  },
+  "Project One": {
+    "source": "lastfm",
+    "matchedName": "Project One",
+    "tags": [
+      "hardstyle",
+      "electronic"
+    ],
+    "fetched": "2026-11-22"
   },
   "Psychonaut": {
     "source": "lastfm",
@@ -7378,6 +7655,17 @@
       "rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ruthless": {
+    "source": "lastfm",
+    "matchedName": "Ruthless",
+    "tags": [
+      "heavy metal",
+      "power metal",
+      "us power metal",
+      "jumpstyle"
+    ],
+    "fetched": "2026-11-22"
   },
   "Ruusut": {
     "source": "lastfm",
@@ -7956,6 +8244,25 @@
       "dance"
     ],
     "fetched": "2026-11-19"
+  },
+  "SOPPGIROBYGGET": {
+    "source": "lastfm",
+    "matchedName": "Soppgirobygget",
+    "tags": [
+      "russemusikk",
+      "russ music"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "SOTA": {
+    "source": "lastfm",
+    "matchedName": "Sota",
+    "tags": [
+      "jump up",
+      "drum and bass",
+      "dnb"
+    ],
+    "fetched": "2026-11-22"
   },
   "Speed": {
     "source": "lastfm",
@@ -8970,6 +9277,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Tomas Ledin": {
+    "source": "lastfm",
+    "matchedName": "Tomas Ledin",
+    "tags": [
+      "pop",
+      "singer-songwriter",
+      "svenskt"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Tomi Nordlund": {
     "source": "musicbrainz",
     "matchedName": "Tomi Nordlund",
@@ -9336,6 +9653,11 @@
       "esc"
     ],
     "fetched": "2026-11-19"
+  },
+  "Uudenvuoden wieniläiskonsertit": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Uudenvuoden Wieniläiskonsertti": {
     "source": "notfound",
@@ -9755,6 +10077,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Wilkinson": {
+    "source": "lastfm",
+    "matchedName": "Wilkinson",
+    "tags": [
+      "drum and bass",
+      "liquid funk",
+      "neurofunk",
+      "dnb"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Wishamalii with Friends": {
     "source": "notfound",
     "tags": [],
@@ -9854,10 +10187,26 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Younghearted": {
+    "source": "lastfm",
+    "matchedName": "YOUNGHEARTED",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Yökerho": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Zelecter": {
+    "source": "musicbrainz",
+    "matchedName": "Zelecter",
+    "mbid": "e7bcd778-ceb9-481a-8e76-7328ba629374",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Zero Nine": {
     "source": "lastfm",

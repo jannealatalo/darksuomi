@@ -129,6 +129,13 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python scraper_aaniwalli.py
 
+      - name: Scrape Apollo Live Club (only gigs whose genres fit)
+        continue-on-error: true
+        env:
+          # Genres are looked up while scraping, to keep only fitting gigs.
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_apollo.py
+
       - name: Scrape Krapin Paja, Tuusula (only gigs whose genres fit)
         continue-on-error: true
         env:

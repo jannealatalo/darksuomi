@@ -504,6 +504,17 @@ def shown_by_default(genres: list[str], config: dict) -> bool:
                for g in config.get("genreFilters", []) for p in g["patterns"] for tag in top)
 
 
+# Genres kept by the scrapers that filter while scraping (Dubrovnik,
+# Ääniwalli, Krapin Paja, Apollo) although the site hides them by default:
+# they're listed under "Show hidden genres", like at every other venue.
+KEEP_HIDDEN_GENRES = re.compile(r"\btrip[- ]?hop\b", re.I)
+
+
+def keep_when_scraping(genres: list[str], config: dict) -> bool:
+    """Should a filtering scraper keep a gig with these genres?"""
+    return shown_by_default(genres, config) or any(KEEP_HIDDEN_GENRES.search(t) for t in genres)
+
+
 DJ_TITLE = re.compile(r"\b(dj|djs|disko|disco)\b|-disko\b", re.I)
 COMEDY_TITLE = re.compile(r"naurut|stand ?-?up|standup|komiikka|joka v\*tun keskiviikko", re.I)
 QUIZ_TITLE = re.compile(r"pubivisa|\bvisailu|\bquiz\b|bingo", re.I)

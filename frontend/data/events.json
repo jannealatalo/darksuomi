@@ -1634,7 +1634,7 @@
     "age": "K-18",
     "id": 168,
     "artists": [
-      "PERUTTU"
+      "Disco Night"
     ],
     "genres": [
       "viihde"
@@ -9518,6 +9518,26 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "MORCHEEBA",
+    "venue": "Apollo Live Club",
+    "city": "Helsinki",
+    "date": "2027-04-21T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/artist/morcheeba/",
+    "eventUrl": "https://apolloliveclub.fi/morcheeba/",
+    "price": "37,90€",
+    "age": "K-18",
+    "id": 482,
+    "artists": [
+      "MORCHEEBA"
+    ],
+    "genres": [
+      "trip-hop",
+      "chillout",
+      "electronic",
+      "downtempo"
+    ]
+  },
+  {
     "artist": "DragonForce",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -9706,6 +9726,26 @@
       "psychedelic rock",
       "progressive rock",
       "rock"
+    ]
+  },
+  {
+    "artist": "JAMES MARRIOTT",
+    "venue": "Apollo Live Club",
+    "city": "Helsinki",
+    "date": "2027-05-05T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/artist/james-marriott/",
+    "eventUrl": "https://apolloliveclub.fi/james-marriott/",
+    "price": "35,16€",
+    "age": "S",
+    "id": 481,
+    "artists": [
+      "JAMES MARRIOTT"
+    ],
+    "genres": [
+      "power pop",
+      "alternative rock",
+      "switzerland",
+      "indie rock"
     ]
   },
   {

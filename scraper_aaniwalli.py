@@ -196,7 +196,7 @@ def main() -> int:
             # No band found: fall back to the genres the gig page mentions.
             event["venueGenres"] = description_genres(page(event))
             tags = tag(event, cache, overrides)
-        keep = g.shown_by_default(tags, config)
+        keep = g.keep_when_scraping(tags, config)
         if args.all or keep:
             print(f"  {'+' if keep else '-'} {event['date'][:10]} {event['artist']}  {tags[:4]}")
         if keep:
