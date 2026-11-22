@@ -1379,7 +1379,8 @@
       "ebm",
       "dark electro",
       "electronic"
-    ]
+    ],
+    "status": "cancelled"
   },
   {
     "artist": "Pojat, Vandaalit, Vaavi",
@@ -1801,6 +1802,32 @@
       "rock",
       "pop",
       "blues"
+    ]
+  },
+  {
+    "artist": "Miseria Ultima, Sortaja, Stuka",
+    "venue": "Varjobaari",
+    "city": "Tampere",
+    "date": "2027-01-08T20:00:00",
+    "eventUrl": "https://gothiceventsfinland.blogspot.com/2026/11/08012027-miseria-ultima-sortaja-stuka.html",
+    "ticketUrl": "https://gothiceventsfinland.blogspot.com/2026/11/08012027-miseria-ultima-sortaja-stuka.html",
+    "venueDefault": "goth",
+    "price": "10€",
+    "id": 216,
+    "artists": [
+      "Miseria Ultima",
+      "Sortaja",
+      "Stuka"
+    ],
+    "genres": [
+      "ebm",
+      "dark electro",
+      "powernoise",
+      "rhythmic noise",
+      "tbm",
+      "tribal industrial",
+      "electropunk",
+      "industrial"
     ]
   },
   {

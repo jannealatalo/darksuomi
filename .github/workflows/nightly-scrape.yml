@@ -188,6 +188,19 @@ jobs:
             python genres.py --city "$city"
           done
 
+      - name: Gothic Events Finland (goth/industrial gigs the venue scrapers miss)
+        # A hand-kept calendar: adds gigs at places with no gig list of their
+        # own (Varjobaari, Tampere) and passes on cancellations. Runs after
+        # all venue scrapers so it can skip the gigs they already have.
+        continue-on-error: true
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          python scraper_gothicevents.py
+          python genres.py
+          python genres.py --city tampere
+          python genres.py --city oulu
+
       - name: Daily updates log (new gigs since the last commit)
         # frontend/data/updates.json -> darksuomi.fi/updates
         continue-on-error: true

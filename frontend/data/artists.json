@@ -6010,6 +6010,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Miseria Ultima": {
+    "source": "lastfm",
+    "matchedName": "Miseria Ultima",
+    "tags": [
+      "ebm",
+      "dark electro"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Misha": {
     "source": "lastfm",
     "matchedName": "Misha",
@@ -8471,6 +8480,19 @@
     "tags": [
       "russemusikk",
       "russ music"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Sortaja": {
+    "source": "lastfm",
+    "matchedName": "Sortaja",
+    "tags": [
+      "powernoise",
+      "ebm",
+      "rhythmic noise",
+      "tbm",
+      "dark electro",
+      "tribal industrial"
     ],
     "fetched": "2026-11-22"
   },
