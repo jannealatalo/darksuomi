@@ -37,7 +37,8 @@
     {
       "name": "Community",
       "channels": [
-        {"name": "tips", "topic": "A gig or venue missing from darksuomi.fi? A wrong genre? Tell us."},
+        {"name": "missing-gigs", "topic": "A gig missing from darksuomi.fi, or a wrong genre, date or venue? Tell us here."},
+        {"name": "venue-suggestions", "topic": "Suggest a venue, club or festival darksuomi.fi should follow. A link to its gig list helps."},
         {"name": "off-topic", "topic": "Everything else."}
       ]
     },
@@ -90,7 +91,7 @@
     {
       "channel": "rules",
       "pin": true,
-      "text": "**Welcome to Dark Suomi** – the Discord of https://darksuomi.fi, the calendar of metal, punk, goth, industrial and other dark and loud gigs in Helsinki, Espoo, Tampere and Oulu.\n\n1. Be decent. No harassment, hate or slurs.\n2. Gig talk in the city channels, finding company in #gig-buddies, missing gigs and venues in #tips.\n3. **Tickets:** only links to official resale (Ticketmaster/Lippu.fi, Tiketti, TicketSwap) in #tickets. No private sales, no \"DM me\", no MobilePay or bank transfers.\n4. No spam or self-promotion outside the topic. Bands may post their own gigs in the city channels.\n5. Nobody from Dark Suomi will ever DM you about tickets or ask for your password.\n\nNew gigs are posted to #announcements every night."
+      "text": "**Welcome to Dark Suomi** – the Discord of https://darksuomi.fi, the calendar of metal, punk, goth, industrial and other dark and loud gigs in Helsinki, Espoo, Tampere and Oulu.\n\n1. Be decent. No harassment, hate or slurs.\n2. Gig talk in the city channels, finding company in #gig-buddies, missing gigs and wrong info in #missing-gigs, new venues in #venue-suggestions.\n3. **Tickets:** only links to official resale (Ticketmaster/Lippu.fi, Tiketti, TicketSwap) in #tickets. No private sales, no \"DM me\", no MobilePay or bank transfers.\n4. No spam or self-promotion outside the topic. Bands may post their own gigs in the city channels.\n5. Nobody from Dark Suomi will ever DM you about tickets or ask for your password.\n\nNew gigs are posted to #announcements every night."
     },
     {
       "channel": "tickets",
