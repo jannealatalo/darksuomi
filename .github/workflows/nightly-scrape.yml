@@ -147,6 +147,10 @@ jobs:
         continue-on-error: true
         run: python scraper_sellosali.py
 
+      - name: Scrape Espoon kulttuurikeskus, Tapiola (music only)
+        continue-on-error: true
+        run: python scraper_kulttuurikeskus.py
+
       - name: Tuska festival line-up (weekly, on Mondays)
         continue-on-error: true
         # Festival line-ups change slowly; a manual run always checks too.

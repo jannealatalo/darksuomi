@@ -214,6 +214,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "After Work": {
+    "source": "lastfm",
+    "matchedName": "After Work",
+    "tags": [
+      "jazz",
+      "ambient",
+      "instrumental"
+    ],
+    "fetched": "2026-11-22"
+  },
   "AFTERNOON OMENS": {
     "source": "notfound",
     "tags": [],
@@ -497,6 +507,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Anna Airola": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
+  "Anna Airola & UMO Jazz Orchestra": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Anna Tsuchiya": {
     "source": "lastfm",
     "matchedName": "Anna Tsuchiya",
@@ -608,6 +628,11 @@
       "metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Appalakkien kevät": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Appendix": {
     "source": "lastfm",
@@ -831,6 +856,11 @@
     ],
     "fetched": "2026-11-21"
   },
+  "Atte Trio": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Auger": {
     "source": "lastfm",
     "matchedName": "Auger",
@@ -942,6 +972,11 @@
       "cello"
     ],
     "fetched": "2026-11-19"
+  },
+  "Baselin herkut": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Bastards": {
     "source": "lastfm",
@@ -1354,6 +1389,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Classic Rock Show": {
+    "source": "musicbrainz",
+    "matchedName": "The Classic Rock Show",
+    "mbid": "8f93830f-803a-4389-a244-4aa907452dc1",
+    "country": "NL",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Cledos": {
     "source": "lastfm",
@@ -1784,6 +1827,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Dirty Years": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Disco Night": {
     "source": "notfound",
     "tags": [],
@@ -2168,6 +2216,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Elämäni biisi": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Emil Karlsen": {
     "source": "lastfm",
     "matchedName": "Emil Karlsen",
@@ -2248,6 +2301,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "ETTA": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "EU VOMITOUR": {
     "source": "notfound",
@@ -3185,6 +3243,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "HEHKU": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Heikki Hela & Marzi Nyman": {
     "source": "musicbrainz",
     "matchedName": "Heikki Hela & Marzi Nyman",
@@ -3322,6 +3385,11 @@
     ],
     "fetched": "2026-11-20"
   },
+  "Hetken mysteeri": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Ho": {
     "source": "notfound",
     "tags": [],
@@ -3439,6 +3507,16 @@
     ],
     "fetched": "2026-11-20"
   },
+  "Hyljätyt": {
+    "source": "lastfm",
+    "matchedName": "HYLJÄTYT",
+    "tags": [
+      "hardcore",
+      "punk",
+      "hardcore punk"
+    ],
+    "fetched": "2026-11-22"
+  },
   "HYRYSYSY": {
     "source": "musicbrainz",
     "matchedName": "Hyrysysy",
@@ -3500,6 +3578,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Iiro": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "IKINÄ": {
     "source": "lastfm",
     "matchedName": "IKINÄ",
@@ -3509,6 +3592,11 @@
       "metalcore"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ilta Kummelin kanssa": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Iltapäiväkonsertti": {
     "source": "notfound",
@@ -3533,6 +3621,14 @@
       "metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ina Forsman": {
+    "source": "lastfm",
+    "matchedName": "Ina Forsman",
+    "tags": [
+      "blues"
+    ],
+    "fetched": "2026-11-22"
   },
   "Inariveljet": {
     "source": "lastfm",
@@ -3811,10 +3907,24 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Jeesuksen seitsemän sanaa ristillä": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Jemina -tuplalevynjulkaisukeikka": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Jenni Vartiainen": {
+    "source": "lastfm",
+    "matchedName": "Jenni Vartiainen",
+    "tags": [
+      "pop",
+      "alternative"
+    ],
+    "fetched": "2026-11-22"
   },
   "Jepa Lambert": {
     "source": "lastfm",
@@ -3972,6 +4082,20 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Jore Marjaranta": {
+    "source": "lastfm",
+    "matchedName": "Jore Marjaranta",
+    "tags": [
+      "rock",
+      "pop"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Jore Marjaranta & Olli Ahvenlahti": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Joshua Idehen": {
     "source": "lastfm",
     "matchedName": "Joshua Idehen",
@@ -4016,6 +4140,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "JOULUNA": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Joutsenlampi": {
     "source": "notfound",
@@ -4131,6 +4260,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Juuret-festivaali": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Juuso Paason Tulevat Käsitteet": {
     "source": "notfound",
@@ -4323,6 +4457,11 @@
       "finnish punk"
     ],
     "fetched": "2026-11-19"
+  },
+  "Kauheimmat joululaulut": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Kauko Röyhkä": {
     "source": "lastfm",
@@ -4842,6 +4981,11 @@
       "alternative rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Lauluni aiheet": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Laura Voutilainen": {
     "source": "lastfm",
@@ -5411,6 +5555,11 @@
       "instrumental",
       "guitar"
     ],
+    "fetched": "2026-11-22"
+  },
+  "Maria W Horn presents Melting Pillars Of Snow": {
+    "source": "notfound",
+    "tags": [],
     "fetched": "2026-11-22"
   },
   "MARIANAS REST": {
@@ -6416,6 +6565,22 @@
     ],
     "fetched": "2026-11-20"
   },
+  "Olli Ahvenlahti": {
+    "source": "lastfm",
+    "matchedName": "Olli Ahvenlahti",
+    "tags": [
+      "jazz"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Olli Ahvenlahti New Quintet": {
+    "source": "musicbrainz",
+    "matchedName": "Olli Ahvenlahti New Quintet",
+    "mbid": "e6412b51-c7ec-4000-828f-a944653f1fbf",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Olli Halonen": {
     "source": "musicbrainz",
     "matchedName": "Olli Halonen",
@@ -6471,6 +6636,11 @@
       "underground hip hop"
     ],
     "fetched": "2026-11-19"
+  },
+  "Opiskelutoverit": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Oranssi Pazuzu": {
     "source": "lastfm",
@@ -7230,6 +7400,11 @@
     ],
     "fetched": "2026-11-21"
   },
+  "Queer-festivaali": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "R.E.M. For The People": {
     "source": "notfound",
     "tags": [],
@@ -7286,10 +7461,20 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Rajaton Joulu 2026": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Rakkaudella Rauli": {
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Rakkauden kielin": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Rami Helin Presents": {
     "source": "notfound",
@@ -7536,6 +7721,20 @@
       "soul"
     ],
     "fetched": "2026-11-19"
+  },
+  "Robin": {
+    "source": "lastfm",
+    "matchedName": "Robin",
+    "tags": [
+      "pop",
+      "psychobilly"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Robin & Atte Trio": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Robustik": {
     "source": "notfound",
@@ -7822,6 +8021,14 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "Samuli Edelmann": {
+    "source": "lastfm",
+    "matchedName": "Samuli Edelmann",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-22"
+  },
   "sane": {
     "source": "lastfm",
     "matchedName": "Sane",
@@ -7859,6 +8066,14 @@
       "alternative"
     ],
     "fetched": "2026-11-19"
+  },
+  "Satu Sopanen": {
+    "source": "musicbrainz",
+    "matchedName": "Satu Sopanen",
+    "mbid": "5b01bae9-265f-4ee4-9fa1-c53ab1d7a955",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Saturnus": {
     "source": "lastfm",
@@ -7976,6 +8191,11 @@
       "hip hop"
     ],
     "fetched": "2026-11-21"
+  },
+  "Sgt. Pepper’s 60 Years": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Sgt. Slime": {
     "source": "lastfm",
@@ -8622,6 +8842,11 @@
       "art rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Säkenöivä": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Sätilä": {
     "source": "lastfm",
@@ -9569,6 +9794,21 @@
     ],
     "fetched": "2026-11-19"
   },
+  "UMO Helsinki Jazz Orchestra & Satu Sopanen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
+  "UMO Jazz Orchestra": {
+    "source": "lastfm",
+    "matchedName": "UMO Jazz Orchestra",
+    "tags": [
+      "jazz",
+      "big band",
+      "contemporary jazz"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Uncle Acid and The Deadbeats": {
     "source": "lastfm",
     "matchedName": "Uncle Acid and the Deadbeats",
@@ -9786,6 +10026,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Vesala": {
+    "source": "lastfm",
+    "matchedName": "Edward Vesala",
+    "tags": [
+      "jazz",
+      "free jazz",
+      "drums"
+    ],
+    "fetched": "2026-11-22"
   },
   "Vesta": {
     "source": "lastfm",

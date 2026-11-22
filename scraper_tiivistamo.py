@@ -6,7 +6,8 @@ activity moved here in 2019). Note: gloria.fi is an unrelated magazine.
 Tiivistämö is run by the City of Helsinki, so its events come from the city's
 open Linked Events API (https://api.hel.fi/linkedevents/). Only concerts are
 kept: events with the "konsertit" keyword (no breakdance contests, salsa or
-poetry nights). Cancelled and postponed events are skipped.
+poetry nights). Cancelled and postponed events are skipped (rescheduled ones
+have their new date and are kept).
 
 Festival days (e.g. Hellsinki Industrial Festival) are separate events that
 share one description listing every day's line-up; that day's acts are put
@@ -107,7 +108,7 @@ def fetch_concerts(api: str = API, place: str = PLACE_ID, venue: str = VENUE,
                         for k in item.get("keywords", []) if isinstance(k, dict)}
             if not keywords & set(music_keywords) or keywords & set(skip_keywords):
                 continue
-            if item.get("event_status") not in (None, "EventScheduled"):
+            if item.get("event_status") not in (None, "EventScheduled", "EventRescheduled"):
                 continue
             if item.get("super_event_type"):  # umbrella events duplicate their days
                 continue

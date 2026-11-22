@@ -1,25 +1,5 @@
 [
   {
-    "title": "Iikka Kivi - Protestinauru Stand Up Show",
-    "venue": "Arena-näyttämö - Helsingin kaupunginteatteri",
-    "city": "Helsinki",
-    "date": "2026-11-21T19:00:00",
-    "ticketUrl": "https://www.lippu.fi/artist/iikka-kivi/iikka-kivi-protestinauru-stand-up-show-4142280/?affiliate=ADV&language=fi",
-    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:21590552",
-    "source": "helsinki-api",
-    "age": "K-18"
-  },
-  {
-    "title": "Club Act!One",
-    "venue": "Studio Pasila",
-    "city": "Helsinki",
-    "date": "2026-11-21T21:00:00",
-    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
-    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:21437903",
-    "source": "helsinki-api",
-    "age": "K-18"
-  },
-  {
     "title": "Naurukorjaamo: Saviharju, Holmström, Valima, Raitala, Saarinen",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -440,6 +420,15 @@
     "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agowqgcage",
     "source": "espoo-api",
     "age": "K-16"
+  },
+  {
+    "title": "Ilta Kummelin kanssa",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-05-22T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/ilta-kummelin-kanssa-espoon-kulttuurikeskus-22113261/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqlhycdtu",
+    "source": "espoo-api"
   },
   {
     "title": "Niko Kivelä – SANANVAPAUS",

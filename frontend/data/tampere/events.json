@@ -1102,25 +1102,6 @@
     ]
   },
   {
-    "artist": "ONEVIOLIN -joulukonsertti",
-    "venue": "Pakkahuone",
-    "city": "Tampere",
-    "date": "2026-12-11T18:30:00",
-    "ticketUrl": "https://tullikamari.fi/tapahtumat/oneviolin-joulukonsertti-11-12-2026/",
-    "eventUrl": "https://tullikamari.fi/tapahtumat/oneviolin-joulukonsertti-11-12-2026/",
-    "doors": "18:30",
-    "price": "alk. 36,50€, ovelta 40€",
-    "age": "K-18",
-    "room": "Pakkahuone",
-    "id": 36,
-    "artists": [
-      "ONEVIOLIN"
-    ],
-    "genres": [
-      "instrumental"
-    ]
-  },
-  {
     "artist": "D1DANI, koira, ROSLUV, nonexx, internet soulja",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
@@ -1317,23 +1298,6 @@
     ]
   },
   {
-    "artist": "Don Johnson Big Band: Christmas Special 2026",
-    "venue": "G Livelab Tampere",
-    "city": "Tampere",
-    "date": "2026-12-12T21:00:00",
-    "ticketUrl": "https://glivelab.fi/tampere/events/don-johnson-big-band-christmas-special-2026-6a8c062de338e3b83e9419b0/",
-    "eventUrl": "https://glivelab.fi/tampere/events/don-johnson-big-band-christmas-special-2026-6a8c062de338e3b83e9419b0/",
-    "id": 123,
-    "artists": [
-      "Don Johnson Big Band"
-    ],
-    "genres": [
-      "hip hop",
-      "jazz",
-      "electronic"
-    ]
-  },
-  {
     "artist": "931 ALL AGES MATINEA : Armoton, Vengeful Blood, Rääkkäys, Forced Humility",
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
@@ -1441,22 +1405,6 @@
       "finnish punk",
       "post-punk",
       "new wave"
-    ]
-  },
-  {
-    "artist": "Osmo Ikonen: Joulujuhlat-kiertue",
-    "venue": "G Livelab Tampere",
-    "city": "Tampere",
-    "date": "2026-12-17T19:00:00",
-    "ticketUrl": "https://glivelab.fi/tampere/events/osmo-ikonen-joulujuhlat-kiertue-6a7edfed64babc544f777756/",
-    "eventUrl": "https://glivelab.fi/tampere/events/osmo-ikonen-joulujuhlat-kiertue-6a7edfed64babc544f777756/",
-    "id": 125,
-    "artists": [
-      "Osmo Ikonen"
-    ],
-    "genres": [
-      "pop",
-      "soul"
     ]
   },
   {
@@ -1667,24 +1615,6 @@
     "genres": [
       "alternative",
       "drum and bass"
-    ]
-  },
-  {
-    "artist": "Emma Salokoski & Ilmiliekki Quartet: Joulu, joulu, jul (show & dinner)",
-    "venue": "G Livelab Tampere",
-    "city": "Tampere",
-    "date": "2026-12-19T21:00:00",
-    "ticketUrl": "https://glivelab.fi/tampere/events/emma-salokoski-ilmiliekki-quartet-joulu-joulu-jul--6a7ee40564babc544f77f54d/",
-    "eventUrl": "https://glivelab.fi/tampere/events/emma-salokoski-ilmiliekki-quartet-joulu-joulu-jul--6a7ee40564babc544f77f54d/",
-    "id": 127,
-    "artists": [
-      "Joulu",
-      "joulu",
-      "jul"
-    ],
-    "genres": [
-      "rap",
-      "hip hop"
     ]
   },
   {

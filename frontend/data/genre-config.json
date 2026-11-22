@@ -68,25 +68,46 @@
   ],
   "artistOverrides": {
     "Michael Monroe acoustic solo": {
-      "genres": ["hard rock", "glam rock", "punk rock"]
+      "genres": [
+        "hard rock",
+        "glam rock",
+        "punk rock"
+      ]
     },
     "Kauko Röyhkä & Röyhkeät": {
-      "genres": ["rock", "suomirock"]
+      "genres": [
+        "rock",
+        "suomirock"
+      ]
     },
     "Mikkey Dee with Friends": {
-      "genres": ["hard rock", "heavy metal"]
+      "genres": [
+        "hard rock",
+        "heavy metal"
+      ]
     },
     "SAMUEL MORIERO": {
-      "genres": ["hard techno", "dj night"]
+      "genres": [
+        "hard techno",
+        "dj night"
+      ]
     },
     "SKRYPTION": {
-      "genres": ["hard techno", "dj night"]
+      "genres": [
+        "hard techno",
+        "dj night"
+      ]
     },
     "Paleface": {
-      "genres": ["hip hop", "rap"]
+      "genres": [
+        "hip hop",
+        "rap"
+      ]
     },
     "Diya": {
-      "genres": ["pop"]
+      "genres": [
+        "pop"
+      ]
     },
     "Us": {
       "genres": []
@@ -131,6 +152,25 @@
         "heavy metal",
         "power metal",
         "rock"
+      ]
+    },
+    "Vesala": {
+      "genres": [
+        "finnish pop",
+        "pop"
+      ]
+    },
+    "Classic Rock Show": {
+      "genres": [
+        "classic rock",
+        "rock"
+      ]
+    },
+    "Maria W Horn presents Melting Pillars Of Snow": {
+      "genres": [
+        "drone",
+        "experimental",
+        "ambient"
       ]
     }
   },

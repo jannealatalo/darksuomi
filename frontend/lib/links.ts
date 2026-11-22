@@ -18,6 +18,7 @@ export const VENUE_LINKS: Record<string, string> = {
   Ääniwalli: "https://aaniwalli.fi/",
   "Apollo Live Club": "https://apolloliveclub.fi/tapahtumat/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
+  "Espoon kulttuurikeskus": "https://www.espoo.fi/fi/espoon-kulttuurikeskus/espoon-kulttuurikeskuksen-tapahtumat",
   // Tuusula, at Hotel Krapi; the club gigs are listed in its web shop.
   "Krapin Paja": "https://kauppa.krapinpaja.fi/category/pajan-klubit",
   // Tampere

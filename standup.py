@@ -47,7 +47,7 @@ LINKED_EVENTS = [
      "https://www.espoo.fi/fi/tapahtumat/{id}", "Espoo"),
 ]
 STANDUP_KEYWORDS = "yso:p9244,yso:p15401"  # stand up -komiikka, koomikot
-TEXT_SEARCHES = ("stand up", "standup", "stand-up", "koomikko", "komiikka")
+TEXT_SEARCHES = ("stand up", "standup", "stand-up", "koomikko", "komiikka", "sketsi")
 CITY_NAME = re.compile(r"\b(helsin\w*|helsingfors|espoo\w*|esbo)\b", re.I)  # "Espoon kaupunki"
 # "Club Act!One K-18", "Niko Kivelä (K16)": the age limit goes to its own field.
 AGE_AT_END = re.compile(r"\s*[(\[]?\b(K-?\s?1[268]|S\s*/\s*K-?18|S)\b[)\]]?\s*$", re.I)
@@ -58,8 +58,8 @@ COMEDY_TITLE = re.compile(
     r"roast|joka v\*tun keskiviikko|komiikka", re.I)
 # ...but not these, even if the title has a comedy word.
 NOT_COMEDY = re.compile(r"pubivisa|visailu|quiz|bingo|wrestling|painia|disko|disco", re.I)
-# A description that clearly speaks of stand-up.
-STANDUP_TEXT = re.compile(r"stand[\s-]?up|standup", re.I)
+# A description that clearly speaks of stand-up (or sketch comedy: "Ilta Kummelin kanssa").
+STANDUP_TEXT = re.compile(r"stand[\s-]?up|standup|sketsiviih|sketsikomedi|koomikkoryhm", re.I)
 
 
 def norm(text: str) -> str:

@@ -1029,7 +1029,7 @@
       "Joka v*tun keskiviikko"
     ],
     "genres": [
-      "stand-up"
+      "rock"
     ],
     "venueDefault": "rock",
     "status": "sold out",
@@ -1162,6 +1162,20 @@
       "indie",
       "rock"
     ]
+  },
+  {
+    "artist": "Queer-festivaali: Pidot!",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-11-26T18:30:00",
+    "doors": "18:30",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/queer-festivaali-pidot/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpio2cq4e",
+    "id": 483,
+    "artists": [
+      "Queer-festivaali"
+    ],
+    "genres": []
   },
   {
     "id": 267,
@@ -1300,6 +1314,38 @@
       "folk",
       "pop",
       "want to see live"
+    ]
+  },
+  {
+    "artist": "Knipi - Sivellinvetoja",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-11-27T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/knipi-espoon-kulttuurikeskus-21658158/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpaeiuo3q",
+    "id": 484,
+    "artists": [
+      "Knipi"
+    ],
+    "genres": [
+      "egotrippi"
+    ]
+  },
+  {
+    "artist": "Minttu",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-11-27T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/minttu-espoon-kulttuurikeskus-21718003/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpghasbqq",
+    "id": 485,
+    "artists": [
+      "Minttu"
+    ],
+    "genres": [
+      "pop"
     ]
   },
   {
@@ -1613,6 +1659,39 @@
       "pop",
       "singer-songwriter"
     ]
+  },
+  {
+    "artist": "Jenni Vartiainen: Vedenalaista",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-11-28T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/jenni-vartiainen-vedenalaista-konserttisalikiertue-2026-espoon-kulttuurikeskus-21553772/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:ago25rk6wa",
+    "status": "sold out",
+    "id": 486,
+    "artists": [
+      "Jenni Vartiainen"
+    ],
+    "genres": [
+      "pop",
+      "alternative"
+    ]
+  },
+  {
+    "artist": "ETTA",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-11-28T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/etta-espoon-kulttuurikeskus-21697108/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpdtyiami",
+    "status": "cancelled",
+    "id": 487,
+    "artists": [
+      "ETTA"
+    ],
+    "genres": []
   },
   {
     "artist": "Disco Night",
@@ -2001,7 +2080,7 @@
       "Joka v*tun keskiviikko"
     ],
     "genres": [
-      "stand-up"
+      "rock"
     ],
     "venueDefault": "rock",
     "price": "20 € at the door",
@@ -2082,22 +2161,6 @@
     "detailsFetched": "2026-11-21"
   },
   {
-    "artist": "SWINGIN’ CHRISTMAS: Reunion Big Band & Alex Ikonen",
-    "venue": "On the Rocks",
-    "city": "Helsinki",
-    "date": "2026-12-02T19:00:00",
-    "ticketUrl": "https://www.tiketti.fi/swingin-christmas-on-the-rocks-helsinki-lippuja/121511",
-    "eventUrl": "https://www.rocks.fi/tapahtumat/swingin-christmas-reunion-big-band-alex-ikonen/",
-    "venueGenres": [
-      "other"
-    ],
-    "id": 97,
-    "artists": [
-      "Reunion Big Band & Alex Ikonen"
-    ],
-    "genres": []
-  },
-  {
     "artist": "Virve Rosti, Freeman & Menneisyyden Vangit",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -2125,26 +2188,6 @@
       "pop",
       "rap",
       "rock"
-    ]
-  },
-  {
-    "artist": "Jepa Lambert: Soulful Christmas",
-    "venue": "Sellosali",
-    "city": "Espoo",
-    "date": "2026-12-02T19:00:00",
-    "doors": "19:00",
-    "ticketUrl": "https://www.tiketti.fi/tapahtuma/118526",
-    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpf3t37su",
-    "id": 399,
-    "artists": [
-      "Jepa Lambert"
-    ],
-    "genres": [
-      "soul",
-      "pop",
-      "r&b",
-      "gospel",
-      "diva"
     ]
   },
   {
@@ -2406,6 +2449,22 @@
       "dance",
       "hip hop",
       "aor"
+    ]
+  },
+  {
+    "artist": "Samuli Edelmann: Piano & Laulut",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-04T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/samuli-edelmann/samuli-edelmann-piano-laulut-4234535/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpldnbkcy",
+    "id": 489,
+    "artists": [
+      "Samuli Edelmann"
+    ],
+    "genres": [
+      "pop"
     ]
   },
   {
@@ -2701,6 +2760,25 @@
     ]
   },
   {
+    "artist": "Stam1na: Dirty Years 2026 + Hyljätyt",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-05T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/stam1na/stam1na-dirty-years-2026-kiertue-4226888/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqed6qxmu",
+    "id": 490,
+    "artists": [
+      "Dirty Years",
+      "Hyljätyt"
+    ],
+    "genres": [
+      "hardcore",
+      "punk",
+      "hardcore punk"
+    ]
+  },
+  {
     "artist": "Kotiteollisuus",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -2976,7 +3054,7 @@
       "Joka v*tun keskiviikko"
     ],
     "genres": [
-      "stand-up"
+      "rock"
     ],
     "venueDefault": "rock",
     "status": "sold out",
@@ -3090,6 +3168,20 @@
     ]
   },
   {
+    "artist": "Olli Ahvenlahti New Quintet",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-10T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://www.lippu.fi/event/olli-ahvenlahti-new-quintet-espoon-kulttuurikeskus-21610567/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:ago37uvkfe",
+    "id": 493,
+    "artists": [
+      "Olli Ahvenlahti New Quintet"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Maija Vilkkumaa",
     "venue": "Krapin Paja",
     "city": "Tuusula",
@@ -3165,6 +3257,20 @@
     "genres": [
       "instrumental"
     ]
+  },
+  {
+    "artist": "Rakkauden kielin",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-10T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/rakkauden-kielin/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpio5wj64",
+    "id": 494,
+    "artists": [
+      "Rakkauden kielin"
+    ],
+    "genres": []
   },
   {
     "artist": "Helsingi: Leave The Light On / Helsingi Choir",
@@ -3249,6 +3355,24 @@
     ],
     "genres": [
       "dj night"
+    ]
+  },
+  {
+    "artist": "After Work: Ranskalaisin sävelin",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-11T17:00:00",
+    "doors": "17:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/after-work-ranskalaisin-savelin/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpipdbstu",
+    "id": 495,
+    "artists": [
+      "After Work"
+    ],
+    "genres": [
+      "jazz",
+      "ambient",
+      "instrumental"
     ]
   },
   {
@@ -3431,6 +3555,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Anna Airola & UMO Jazz Orchestra: Pähkinänsärkijä",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-12T17:00:00",
+    "doors": "17:00",
+    "ticketUrl": "https://www.lippu.fi/event/anna-airola-umo-pahkinansarkija-espoon-kulttuurikeskus-21623290/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:ago7cww6ae",
+    "id": 496,
+    "artists": [
+      "Anna Airola & UMO Jazz Orchestra"
+    ],
+    "genres": [
+      "jazz",
+      "big band",
+      "contemporary jazz"
+    ]
+  },
+  {
     "artist": "Arppa – Akustisesti saleissa",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -3570,6 +3712,23 @@
     ],
     "genres": [
       "rock"
+    ]
+  },
+  {
+    "artist": "Eva & Manu - Back for the holidays",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-12T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/eva-manu-back-for-the-holidays-espoon-kulttuurikeskus-21646144/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:ago7yaf7vq",
+    "id": 497,
+    "artists": [
+      "Eva & Manu"
+    ],
+    "genres": [
+      "folk",
+      "indie"
     ]
   },
   {
@@ -3761,34 +3920,6 @@
     ]
   },
   {
-    "artist": "Sibelius-lukion JouluShow",
-    "venue": "Kulttuuritalo",
-    "city": "Helsinki",
-    "date": "2026-12-15T18:00:00",
-    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Sibelius-lukion-JouluShow/167120/405724/details",
-    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-15/sibelius-lukion-joulushow-3/",
-    "venueGenres": [
-      "jazz-ja-viihdemusiikki"
-    ],
-    "doors": "18:00",
-    "schedule": [
-      {
-        "time": "19:00",
-        "name": "Show starts"
-      }
-    ],
-    "age": "Ei ikärajaa",
-    "id": 171,
-    "artists": [
-      "Sibelius-lukion JouluShow"
-    ],
-    "genres": [
-      "viihde"
-    ],
-    "price": "alk. 48,00€",
-    "detailsFetched": "2026-11-21"
-  },
-  {
     "artist": "Muusikoiden pikkujouluspesiaali feat. Törkypojat vol. 2",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -3803,55 +3934,6 @@
       "Muusikoiden pikkujouluspesiaali"
     ],
     "genres": []
-  },
-  {
-    "artist": "Leavings-Orkesteri solistinaan Timo Rautiainen: Varasteleva Joulupukki",
-    "venue": "Kulttuuritalo",
-    "city": "Helsinki",
-    "date": "2026-12-16T17:30:00",
-    "ticketUrl": "https://kulttuuritalo.lippu.fi/event/Leavings-Orkesteri-solistinaan-Timo-Rautiainen:-Varasteleva-Joulupukki/163401/392314/details",
-    "eventUrl": "https://kulttuuritalo.fi/tapahtuma/2026-12-16/leavings-timo-rautiainen-varasteleva-joulupukki/",
-    "venueGenres": [
-      "jazz-ja-viihdemusiikki"
-    ],
-    "doors": "17:30",
-    "schedule": [
-      {
-        "time": "19:00",
-        "name": "Show starts"
-      }
-    ],
-    "age": "K-18",
-    "id": 219,
-    "artists": [
-      "Leavings-Orkesteri solistinaan Timo Rautiainen"
-    ],
-    "genres": [
-      "viihde"
-    ],
-    "price": "alk. 48,00€",
-    "detailsFetched": "2026-11-21"
-  },
-  {
-    "id": 19,
-    "artist": "Don Johnson Big Band X-mas special 2026",
-    "venue": "Tavastia Klubi",
-    "city": "Helsinki",
-    "date": "2026-12-16T19:00:00",
-    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-16/don-johnson-big-band-x-mas-special-2026/120573/",
-    "artists": [
-      "Don Johnson Big Band"
-    ],
-    "genres": [
-      "hip hop",
-      "jazz",
-      "electronic"
-    ],
-    "age": "K-18",
-    "room": "Tavastia-klubi",
-    "doors": "19:00",
-    "price": "33 € at the door",
-    "detailsFetched": "2026-11-21"
   },
   {
     "artist": "Plusminuszero, Delfoi Road",
@@ -3886,7 +3968,7 @@
       "Iggy’s Afterwork Naurut"
     ],
     "genres": [
-      "stand-up"
+      "rock"
     ],
     "venueDefault": "rock"
   },
@@ -3933,29 +4015,6 @@
     ],
     "price": "alk. 15,50€",
     "detailsFetched": "2026-11-21"
-  },
-  {
-    "artist": "Jesse Kaikuranta: Christmas Jazz",
-    "venue": "Korjaamo",
-    "city": "Helsinki",
-    "date": "2026-12-17T18:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/jesse-kaikuranta-christmas-jazz-kulttuuritehdas-korjaamo-22035473/?affiliate=ADV&language=fi",
-    "eventUrl": "https://korjaamo.fi/tapahtumat/jesse-kaikuranta-christmas-jazz/",
-    "venueGenres": [
-      "jazz",
-      "pop"
-    ],
-    "doors": "18:00",
-    "price": "25 € / 27 €",
-    "age": "K-18",
-    "room": "Vintti",
-    "id": 360,
-    "artists": [
-      "Jesse Kaikuranta"
-    ],
-    "genres": [
-      "pop"
-    ]
   },
   {
     "artist": "Michael Monroe acoustic solo",
@@ -4037,18 +4096,22 @@
     ]
   },
   {
-    "artist": "Konstan joulu",
-    "venue": "Sellosali",
+    "artist": "Jore Marjaranta & Olli Ahvenlahti: Joulun tuoksu",
+    "venue": "Espoon kulttuurikeskus",
     "city": "Espoo",
     "date": "2026-12-17T19:00:00",
     "doors": "19:00",
-    "ticketUrl": "https://www.lippu.fi/event/konsta-hietanen-konstan-joulu-sellosali-21756584/",
-    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpkwlzffu",
-    "id": 406,
+    "ticketUrl": "https://www.lippu.fi/event/jore-marjaranta-olli-ahvenlahti-espoon-kulttuurikeskus-21717627/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agphfmsgky",
+    "id": 499,
     "artists": [
-      "Konstan joulu"
+      "Jore Marjaranta & Olli Ahvenlahti"
     ],
-    "genres": []
+    "genres": [
+      "rock",
+      "pop",
+      "jazz"
+    ]
   },
   {
     "artist": "Flok – Sydäntalvi",
@@ -4173,18 +4236,20 @@
     "detailsFetched": "2026-11-21"
   },
   {
-    "artist": "Johanna Försti: Mistä Tuntee Joulun?",
-    "venue": "Sellosali",
+    "artist": "Ina Forsman: Motown Christmas",
+    "venue": "Espoon kulttuurikeskus",
     "city": "Espoo",
     "date": "2026-12-18T19:00:00",
     "doors": "19:00",
-    "ticketUrl": "https://www.lippu.fi/event/johanna-foersti-mistae-tuntee-joulun-sellosali-21720027/",
-    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpi2fopta",
-    "id": 407,
+    "ticketUrl": "https://www.lippu.fi/event/ina-forsman-motown-christmas-espoon-kulttuurikeskus-21752287/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agp7cjngxm",
+    "id": 500,
     "artists": [
-      "Johanna Försti"
+      "Ina Forsman"
     ],
-    "genres": []
+    "genres": [
+      "blues"
+    ]
   },
   {
     "id": 21,
@@ -4319,28 +4384,6 @@
     ]
   },
   {
-    "artist": "KATRI YLANDER – ON TULOSSA JOULU",
-    "venue": "Korjaamo",
-    "city": "Helsinki",
-    "date": "2026-12-19T15:30:00",
-    "ticketUrl": "https://www.lippu.fi/event/katri-ylander-on-tulossa-joulu-kulttuuritehdas-korjaamo-22427867/?affiliate=ADV&language=fi",
-    "eventUrl": "https://korjaamo.fi/tapahtumat/katri-ylander-on-tulossa-joulu/",
-    "venueGenres": [
-      "pop"
-    ],
-    "doors": "15:30",
-    "price": "22,60 € / 25 €",
-    "age": "K-18",
-    "room": "Kulmasali",
-    "id": 364,
-    "artists": [
-      "KATRI YLANDER"
-    ],
-    "genres": [
-      "pop"
-    ]
-  },
-  {
     "artist": "Antti Autio – Haahuillen",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -4396,6 +4439,24 @@
     ],
     "price": "alk. 36,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Vesala - Laulumailla",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-19T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/vesala-laulumailla-konserttisalikiertue-2026-espoon-kulttuurikeskus-21624557/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:ago7nfusmq",
+    "status": "sold out",
+    "id": 502,
+    "artists": [
+      "Vesala"
+    ],
+    "genres": [
+      "finnish pop",
+      "pop"
+    ]
   },
   {
     "id": 22,
@@ -4520,6 +4581,24 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Vesala - Laulumailla LISÄKEIKKA",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2026-12-20T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/vesala-laulumailla-konserttisalikiertue-2026-espoon-kulttuurikeskus-21655042/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpcwgbiry",
+    "status": "sold out",
+    "id": 503,
+    "artists": [
+      "Vesala"
+    ],
+    "genres": [
+      "finnish pop",
+      "pop"
+    ]
   },
   {
     "id": 23,
@@ -5368,6 +5447,20 @@
     "genres": []
   },
   {
+    "artist": "Appalakkien kevät",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-01-14T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/appalakkien-kevat/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpippjfo4",
+    "id": 505,
+    "artists": [
+      "Appalakkien kevät"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Tynnyri (Levyjulkkarit) + Angry Adults + Primitive Future",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -5785,6 +5878,20 @@
       "psychedelic",
       "psychedelic rock"
     ]
+  },
+  {
+    "artist": "Baselin herkut",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-01-21T18:30:00",
+    "doors": "18:30",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/baselin-herkut/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplmt462q",
+    "id": 506,
+    "artists": [
+      "Baselin herkut"
+    ],
+    "genres": []
   },
   {
     "artist": "Pekka Laine & The Enchanted",
@@ -6559,6 +6666,38 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Opiskelutoverit",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-04T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/opiskelutoverit/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplmzrrqq",
+    "id": 507,
+    "artists": [
+      "Opiskelutoverit"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "After Work: Bolognasta Wieniin",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-05T17:00:00",
+    "doors": "17:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/after-work-bolognasta-wieniin/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplngx4xy",
+    "id": 508,
+    "artists": [
+      "After Work"
+    ],
+    "genres": [
+      "jazz",
+      "ambient",
+      "instrumental"
+    ]
+  },
+  {
     "artist": "Ane Brun (NO) – I Thought We Were The Same Nordic Tour 2027",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -7194,6 +7333,20 @@
     ]
   },
   {
+    "artist": "Elämäni biisi -konsertti",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-13T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1037255272",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq2mmk7je",
+    "id": 509,
+    "artists": [
+      "Elämäni biisi"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Metsatöll (EST)",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -7361,6 +7514,20 @@
     ]
   },
   {
+    "artist": "Hetken mysteeri",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-18T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/hetken-mysteeri/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplnjyale",
+    "id": 510,
+    "artists": [
+      "Hetken mysteeri"
+    ],
+    "genres": []
+  },
+  {
     "artist": "K-40 Rave",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -7381,6 +7548,37 @@
     "genres": [
       "electronic"
     ]
+  },
+  {
+    "artist": "Kaseva",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-19T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/kaseva-espoon-kulttuurikeskus-22389072/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq4bhoc7a",
+    "id": 511,
+    "artists": [
+      "Kaseva"
+    ],
+    "genres": [
+      "pop",
+      "suomirock"
+    ]
+  },
+  {
+    "artist": "Kiitos Katri Helena -konsertti",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-19T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/espoon-kulttuurikeskus-espoon-kulttuurikeskus-21549272/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agowqlw2qe",
+    "id": 512,
+    "artists": [
+      "Kiitos Katri Helena"
+    ],
+    "genres": []
   },
   {
     "id": 51,
@@ -7442,6 +7640,24 @@
     ],
     "genres": [
       "rock"
+    ]
+  },
+  {
+    "artist": "Iiro, Robin & Atte Trio",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-20T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/iiro-robin-atte-trio/iiro-robin-atte-trio-4167599/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpif34y7y",
+    "id": 513,
+    "artists": [
+      "Iiro",
+      "Robin & Atte Trio"
+    ],
+    "genres": [
+      "pop",
+      "psychobilly"
     ]
   },
   {
@@ -7610,6 +7826,23 @@
     ]
   },
   {
+    "artist": "Classic Rock Show - next chapter",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-26T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.netticket.fi/classic-rock-show-next-chapter",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqb5otaqe",
+    "id": 531,
+    "artists": [
+      "Classic Rock Show"
+    ],
+    "genres": [
+      "classic rock",
+      "rock"
+    ]
+  },
+  {
     "id": 55,
     "artist": "Huora, Lähiöbotox",
     "venue": "Tavastia Klubi",
@@ -7691,6 +7924,24 @@
     ],
     "price": "alk. 25,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Maria W Horn presents Melting Pillars Of Snow",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-27T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/maria-w-horn-melting-pillars-of-snow-espoon-kulttuurikeskus-22209841/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqpmoneli",
+    "id": 514,
+    "artists": [
+      "Maria W Horn presents Melting Pillars Of Snow"
+    ],
+    "genres": [
+      "drone",
+      "experimental",
+      "ambient"
+    ]
   },
   {
     "artist": "Penniless, Suosikki",
@@ -7919,6 +8170,21 @@
     ]
   },
   {
+    "artist": "Johanna Försti: Pardon, Ms. Parton",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-03T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/johanna-forsti-pardon-ms-parton-espoon-kulttuurikeskus-22418726/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq47gayzi",
+    "id": 515,
+    "artists": [
+      "Pardon",
+      "Ms. Parton"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Jonna Tervomaa - Talvehtijat",
     "venue": "Krapin Paja",
     "city": "Tuusula",
@@ -7934,6 +8200,38 @@
     "genres": [
       "pop",
       "rock"
+    ]
+  },
+  {
+    "artist": "Lauluni aiheet",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-04T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/espoon-kulttuurikeskus/lauluni-aiheet-4294003/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq7hhfksa",
+    "id": 516,
+    "artists": [
+      "Lauluni aiheet"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "After Work: Tulilintu",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-05T17:00:00",
+    "doors": "17:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/after-work-tulilintu/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplobp6ui",
+    "id": 517,
+    "artists": [
+      "After Work"
+    ],
+    "genres": [
+      "jazz",
+      "ambient",
+      "instrumental"
     ]
   },
   {
@@ -8100,6 +8398,23 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Maustetytöt - MT Unplugged",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-06T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/maustetytot-mt-unplugged-espoon-kulttuurikeskus-22119375/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqkr7shke",
+    "id": 518,
+    "artists": [
+      "Maustetytöt"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
     "artist": "EU VOMITOUR 2027 – TRUE SLAM EDITION: Party Cannon, Internal Bleeding, Guttural Slug",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -8257,6 +8572,20 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Juuret-festivaali: Muuttolinnut",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-11T18:30:00",
+    "doors": "18:30",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/juuret-festivaali-muuttolinnut/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplogm4fi",
+    "id": 519,
+    "artists": [
+      "Juuret-festivaali"
+    ],
+    "genres": []
   },
   {
     "id": 62,
@@ -8484,6 +8813,23 @@
     ]
   },
   {
+    "artist": "The 69 Eyes - Tour Acustica 2027",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-13T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.tiketti.fi/the-69-eyes-tapiolasali-espoon-kulttuurikeskus-espoo-lippuja/121071",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq275yfim",
+    "id": 520,
+    "artists": [
+      "The 69 Eyes"
+    ],
+    "genres": [
+      "gothic rock",
+      "gothic metal"
+    ]
+  },
+  {
     "id": 281,
     "artist": "The Arki",
     "venue": "Semifinal",
@@ -8677,6 +9023,25 @@
     "genres": []
   },
   {
+    "artist": "UMO Helsinki Jazz Orchestra & Satu Sopanen – Taikapeitto",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-20T15:00:00",
+    "doors": "15:00",
+    "ticketUrl": "https://www.lippu.fi/event/umo-satu-sopanen-taikapeitto-espoon-kulttuurikeskus-22085535/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqias6zo4",
+    "id": 521,
+    "artists": [
+      "UMO Helsinki Jazz Orchestra & Satu Sopanen"
+    ],
+    "genres": [
+      "guitar",
+      "jazz",
+      "piano",
+      "instrumental"
+    ]
+  },
+  {
     "artist": "KAJ på Kulturhuset",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -8753,6 +9118,22 @@
     ],
     "price": "alk. 25,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Aliisa Syrjä",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-20T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/aliisa-syrja-espoon-kulttuurikeskus-22419072/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq64ol5bq",
+    "id": 522,
+    "artists": [
+      "Aliisa Syrjä"
+    ],
+    "genres": [
+      "pop"
+    ]
   },
   {
     "id": 65,
@@ -8885,6 +9266,20 @@
     "id": 421,
     "artists": [
       "Ida Elina"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Jeesuksen seitsemän sanaa ristillä",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-25T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/jeesuksen-seitseman-sanaa-ristilla/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agploijlo4",
+    "id": 523,
+    "artists": [
+      "Jeesuksen seitsemän sanaa ristillä"
     ],
     "genres": []
   },
@@ -9281,6 +9676,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "After Work: Nuoruus",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-04-09T17:00:00",
+    "doors": "17:00",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/after-work-nuoruus/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplwbo2te",
+    "id": 524,
+    "artists": [
+      "After Work"
+    ],
+    "genres": [
+      "jazz",
+      "ambient",
+      "instrumental"
+    ]
+  },
+  {
     "artist": "RUSH: Fifty Something",
     "venue": "Veikkaus Arena",
     "city": "Helsinki",
@@ -9412,6 +9825,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Haloo Helsinki! - 20-vuotisjuhlakiertue 2027",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-04-17T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/haloo-helsinki-20-vuotisjuhlakiertue-2027-espoon-kulttuurikeskus-22057815/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqilllzo4",
+    "status": "sold out",
+    "id": 525,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
+  },
+  {
     "artist": "Suzi Quatro “ROCKIN’ ON!”",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -9441,6 +9872,24 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Haloo Helsinki! - 20-vuotisjuhlakiertue 2027",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-04-18T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/haloo-helsinki-20-vuotisjuhlakiertue-2027-espoon-kulttuurikeskus-22068837/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqlg2x3mi",
+    "status": "sold out",
+    "id": 526,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
   },
   {
     "artist": "RY X",
@@ -9749,6 +10198,20 @@
     ]
   },
   {
+    "artist": "Säkenöivä",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-05-06T18:30:00",
+    "doors": "18:30",
+    "ticketUrl": "https://tapiolasinfonietta.fi/konsertit/sakenoiva/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agplxlcmmq",
+    "id": 527,
+    "artists": [
+      "Säkenöivä"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Reflexion, MELANKOLIA",
     "venue": "On the Rocks",
     "city": "Helsinki",
@@ -9794,6 +10257,22 @@
     ]
   },
   {
+    "artist": "Mikko Kuustonen",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-05-07T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/event/mikko-kuustonen-espoon-kulttuurikeskus-22252039/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqrwbqusq",
+    "id": 528,
+    "artists": [
+      "Mikko Kuustonen"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "artist": "Sabaton",
     "venue": "Veikkaus Arena",
     "city": "Helsinki",
@@ -9812,6 +10291,23 @@
       "power metal",
       "heavy metal",
       "metal"
+    ]
+  },
+  {
+    "artist": "Sgt. Pepper’s 60 Years: The Beatles Tribute Show",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-05-08T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121848",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqzyinzci",
+    "id": 529,
+    "artists": [
+      "Sgt. Pepper’s 60 Years"
+    ],
+    "genres": [
+      "classic rock",
+      "rock"
     ]
   },
   {

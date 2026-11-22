@@ -549,6 +549,20 @@ def pick_genres(event: dict, artist_tags: list[str]) -> list[str]:
     return [event["venueDefault"]] if event.get("venueDefault") else []
 
 
+# Christmas concerts (choirs, "Christmas Jazz", "Joulun tuoksu"…) aren't listed
+# at all, not even under "Show hidden genres". A Christmas gig by a band in
+# Dark Suomi's genres stays (Stam1na's pikkujoulut), and so do comedy shows,
+# which standup.py picks up for /standup.
+CHRISTMAS_TITLE = re.compile(r"\bjoulu|\bjoulun|christmas|\bx-?mas\b|\bjul(?:konsert\w*)?\b", re.I)
+COMEDY_TITLE = re.compile(r"stand.?up|komedia|comedy|koomik|qoomik", re.I)
+
+
+def is_generic_christmas_show(event: dict, config: dict) -> bool:
+    title = event.get("artist", "")
+    genres = event.get("genres", [])
+    return (bool(CHRISTMAS_TITLE.search(title)) and not COMEDY_TITLE.search(title)
+            and "stand-up" not in genres and not shown_by_default(genres, config))
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--refresh", action="store_true", help="re-fetch all artists")
@@ -569,6 +583,10 @@ def main() -> int:
             event["artists"] = artists
             event["genres"] = pick_genres(event, genres)
         save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
+        christmas = [e for e in events if is_generic_christmas_show(e, config)]
+        if christmas:
+            events = [e for e in events if e not in christmas]
+            print(f"✓ Dropped {len(christmas)} Christmas shows outside Dark Suomi's genres")
         save_json(events_path, events)
         print(f"✓ Tagged {len(events)} events ({len(cache)} artists cached)")
 
