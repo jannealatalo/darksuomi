@@ -261,7 +261,8 @@
       "Black Devils"
     ],
     "genres": [
-      "freakbeat"
+      "rock and roll",
+      "rock"
     ]
   },
   {
@@ -301,7 +302,7 @@
     ]
   },
   {
-    "artist": "Power Metal Night",
+    "artist": "Power Metal Night: Barrel, Burning Point, Steel Systems",
     "venue": "Toppila Klubi",
     "city": "Oulu",
     "date": "2026-11-28T20:00:00",
@@ -311,9 +312,16 @@
     "price": "10 €",
     "id": 29,
     "artists": [
-      "Power Metal Night"
+      "Barrel",
+      "Burning Point",
+      "Steel Systems"
     ],
-    "genres": []
+    "genres": [
+      "heavy metal",
+      "thrash metal",
+      "stoner rock",
+      "power metal"
+    ]
   },
   {
     "artist": "Pauli Hanhiniemi – Mies ja kitara",
@@ -328,7 +336,10 @@
     "artists": [
       "Pauli Hanhiniemi"
     ],
-    "genres": []
+    "genres": [
+      "suomirock",
+      "rock"
+    ]
   },
   {
     "artist": "Mikko Alatalo - MAALAISPOJAN MATKAKERTOMUS",
@@ -564,6 +575,29 @@
     ]
   },
   {
+    "artist": "Erja Lyytinen & Friends: Blue Christmas 2026",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2026-12-11T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/erja-lyytinen-friends-blue-christmas-2026-oulun-musiikkikeskus-21670028/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6a02d65dfaedccb9e99bda29",
+    "doors": "19:00",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 62,
+    "artists": [
+      "Erja Lyytinen & Friends"
+    ],
+    "genres": [
+      "blues",
+      "blues rock",
+      "indie",
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
     "artist": "OLGA – #YOLO CLUB TOUR 2026",
     "venue": "45 Special",
     "city": "Oulu",
@@ -777,7 +811,10 @@
     "artists": [
       "A.W. Yrjänä"
     ],
-    "genres": []
+    "genres": [
+      "alternative rock",
+      "suomirock"
+    ]
   },
   {
     "artist": "Are & Kriso",
@@ -1023,6 +1060,26 @@
     ]
   },
   {
+    "artist": "The 69 Eyes - Tour Acustica 2027",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-03-05T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/the-69-eyes-tour-acustica-2027-oulun-musiikkikeskus-22152989/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6ab38215de8da6769510d2ee",
+    "doors": "19:00",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 63,
+    "artists": [
+      "The 69 Eyes"
+    ],
+    "genres": [
+      "gothic rock",
+      "gothic metal"
+    ]
+  },
+  {
     "artist": "Mikkey Dee",
     "venue": "Tullisali",
     "city": "Oulu",
@@ -1079,6 +1136,25 @@
       "synthpop",
       "pop",
       "electropop"
+    ]
+  },
+  {
+    "artist": "emma & matilda - Akustinen Konserttisalikiertue 2027´",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-03-12T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/emma-matilda-akustinen-konserttisalikiertue-2027-oulun-musiikkikeskus-22391109/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6af41c138fedac473118a39a",
+    "doors": "19:00",
+    "id": 64,
+    "artists": [
+      "emma & matilda"
+    ],
+    "genres": [
+      "bedroom pop",
+      "indie pop",
+      "acoustic",
+      "indie"
     ]
   },
   {
@@ -1264,6 +1340,57 @@
     "genres": []
   },
   {
+    "artist": "Maustetytöt - MT Unplugged",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-04-04T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/maustetytot-mt-unplugged-oulun-musiikkikeskus-22131670/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6aab9614de8da6769502f051",
+    "doors": "19:00",
+    "id": 65,
+    "artists": [
+      "Maustetytöt"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Haloo Helsinki! 20-vuotisjuhlakiertue",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-04-10T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/haloo-helsinki-20-vuotisjuhlakiertue-2027-oulun-musiikkikeskus-22075937/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6aa10c3cecc01243791d170e#2027-04-10",
+    "doors": "19:00",
+    "id": 66,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
+  },
+  {
+    "artist": "Haloo Helsinki! 20-vuotisjuhlakiertue",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-04-11T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/haloo-helsinki-20-vuotisjuhlakiertue-2027-oulun-musiikkikeskus-22121322/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6aa10c3cecc01243791d170e#2027-04-11",
+    "doors": "19:00",
+    "id": 67,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
+  },
+  {
     "artist": "Nelli Matula",
     "venue": "Tarkastamo",
     "city": "Oulu",
@@ -1286,6 +1413,42 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Rammstein Symphonic Tribute",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-04-18T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/oulun-musiikkikeskus-rammstein-symphonic-tribute-oulu-oulun-musiikkikeskus-22396217/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6af56d838fedac4731347245",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 68,
+    "artists": [
+      "Rammstein Symphonic Tribute"
+    ],
+    "genres": [
+      "industrial metal",
+      "neue deutsche härte",
+      "symphonic metal"
+    ]
+  },
+  {
+    "artist": "Sgt. Pepper’s 60 Years: The Beatles Tribute Show",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-04-21T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/sgt-peppers-60-years-the-beatles-tribute-show-oulun-musiikkikeskus-22328307/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6ae1a6a18fedac4731385220",
+    "doors": "19:00",
+    "id": 69,
+    "artists": [
+      "Sgt. Pepper’s 60 Years"
+    ],
+    "genres": [
+      "classic rock",
+      "rock"
     ]
   },
   {

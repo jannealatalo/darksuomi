@@ -3398,7 +3398,8 @@
       "Black Devils"
     ],
     "genres": [
-      "freakbeat"
+      "rock and roll",
+      "rock"
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
@@ -3826,10 +3827,7 @@
     "genres": [
       "thrash metal",
       "heavy metal",
-      "jazz",
-      "hardcore",
-      "emo",
-      "cello",
+      "stoner rock",
       "female fronted",
       "traditional heavy metal"
     ]
@@ -3984,7 +3982,10 @@
     "artists": [
       "A.W. Yrjänä"
     ],
-    "genres": []
+    "genres": [
+      "alternative rock",
+      "suomirock"
+    ]
   },
   {
     "artist": "Metallica ”Ride The Lightning” Tribute with producer Flemming Rasmussen",

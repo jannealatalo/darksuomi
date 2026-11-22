@@ -178,6 +178,55 @@
         "electropunk",
         "industrial"
       ]
+    },
+    "Gloria!": {
+      "genres": [
+        "baroque",
+        "classical"
+      ]
+    },
+    "IRWIN": {
+      "genres": [
+        "iskelmä",
+        "finnish"
+      ]
+    },
+    "Rammstein Symphonic": {
+      "genres": [
+        "industrial metal",
+        "neue deutsche härte",
+        "symphonic metal"
+      ]
+    },
+    "Barrel": {
+      "genres": [
+        "heavy metal",
+        "thrash metal",
+        "stoner rock"
+      ]
+    },
+    "Steel Systems": {
+      "genres": [
+        "heavy metal"
+      ]
+    },
+    "Black Devils": {
+      "genres": [
+        "rock and roll",
+        "rock"
+      ]
+    },
+    "A.W. Yrjänä": {
+      "genres": [
+        "alternative rock",
+        "suomirock"
+      ]
+    },
+    "Pauli Hanhiniemi": {
+      "genres": [
+        "suomirock",
+        "rock"
+      ]
     }
   },
   "genreFilters": [

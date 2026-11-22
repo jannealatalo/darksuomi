@@ -153,6 +153,15 @@
     ],
     "fetched": "2026-11-19"
   },
+  "ABBA": {
+    "source": "lastfm",
+    "matchedName": "ABBA",
+    "tags": [
+      "pop",
+      "disco"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Abduktio": {
     "source": "lastfm",
     "matchedName": "Abduktio",
@@ -741,6 +750,11 @@
     ],
     "fetched": "2026-11-18"
   },
+  "ARTTU WISKARI Suomi Finland PRKL": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Artturi Aalto": {
     "source": "notfound",
     "tags": [],
@@ -1107,6 +1121,11 @@
     ],
     "fetched": "2026-11-20"
   },
+  "Blind Symphony": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Block of Flats": {
     "source": "lastfm",
     "matchedName": "Block of Flats",
@@ -1287,6 +1306,15 @@
       "emocore"
     ],
     "fetched": "2026-11-19"
+  },
+  "Burning Point": {
+    "source": "lastfm",
+    "matchedName": "Burning Point",
+    "tags": [
+      "power metal",
+      "heavy metal"
+    ],
+    "fetched": "2026-11-22"
   },
   "BÄMÄ": {
     "source": "lastfm",
@@ -2221,6 +2249,11 @@
     "tags": [],
     "fetched": "2026-11-22"
   },
+  "ELÄMÄNI BIISI": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Emil Karlsen": {
     "source": "lastfm",
     "matchedName": "Emil Karlsen",
@@ -2239,6 +2272,17 @@
       "soul"
     ],
     "fetched": "2026-11-21"
+  },
+  "emma & matilda": {
+    "source": "lastfm",
+    "matchedName": "emma & matilda",
+    "tags": [
+      "bedroom pop",
+      "indie pop",
+      "acoustic",
+      "indie"
+    ],
+    "fetched": "2026-11-22"
   },
   "Emma Salokoski & Ilmiliekki Quartet": {
     "source": "lastfm",
@@ -2271,6 +2315,20 @@
       "pop"
     ],
     "fetched": "2026-11-18"
+  },
+  "Erja Lyytinen": {
+    "source": "lastfm",
+    "matchedName": "Erja Lyytinen",
+    "tags": [
+      "blues",
+      "blues rock"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Erja Lyytinen & Friends": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Esko Koivuluoma Duo": {
     "source": "notfound",
@@ -2780,6 +2838,11 @@
       "drone doom"
     ],
     "fetched": "2026-11-18"
+  },
+  "Gaala Liveshow": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Gaerea": {
     "source": "lastfm",
@@ -3750,6 +3813,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Itsenäisyyspäivän kansalaisjuhla": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "J. Karjalainen": {
     "source": "lastfm",
     "matchedName": "J. Karjalainen",
@@ -3898,6 +3966,15 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Jazz at Lincoln Center Orchestra with Wynton Marsalis": {
+    "source": "lastfm",
+    "matchedName": "Jazz At Lincoln Center Orchestra",
+    "tags": [
+      "jazz",
+      "swing"
+    ],
+    "fetched": "2026-11-22"
   },
   "Jazz Sabbath": {
     "source": "lastfm",
@@ -4873,6 +4950,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kuuran koruissa": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Kyiv Classic Ballet": {
     "source": "notfound",
     "tags": [],
@@ -4896,6 +4978,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Kyösti Mäkimattila & Leif Lindeman": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "KÄTYRLAUMA": {
     "source": "lastfm",
@@ -5035,6 +5122,15 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Leif Lindeman": {
+    "source": "lastfm",
+    "matchedName": "Leif Lindeman",
+    "tags": [
+      "tango",
+      "finnish tango"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Leija Lautamaja": {
     "source": "lastfm",
     "matchedName": "Leija Lautamaja",
@@ -5078,6 +5174,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Let's Vits Again": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Levoton Elämä": {
     "source": "notfound",
@@ -6029,6 +6130,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "MNOZIL BRASS": {
+    "source": "lastfm",
+    "matchedName": "Mnozil Brass",
+    "tags": [
+      "brass"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Modem": {
     "source": "lastfm",
     "matchedName": "Modem",
@@ -6367,6 +6476,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "night of Adele": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Night of Famous Musicals": {
     "source": "notfound",
     "tags": [],
@@ -6517,6 +6631,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "of Adele": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Oiro Pena": {
     "source": "lastfm",
     "matchedName": "Oiro Pena",
@@ -6598,6 +6717,11 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "OMJ": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Omnium Gatherum": {
     "source": "lastfm",
     "matchedName": "Omnium Gatherum",
@@ -6606,6 +6730,16 @@
       "death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "One night of Adele": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
+  "One night of Adele Tribute": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "ONEVIOLIN": {
     "source": "lastfm",
@@ -6705,6 +6839,11 @@
     ],
     "fetched": "2026-11-21"
   },
+  "OSKM": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Osmo Ikonen": {
     "source": "lastfm",
     "matchedName": "Osmo Ikonen",
@@ -6713,6 +6852,11 @@
       "soul"
     ],
     "fetched": "2026-11-19"
+  },
+  "Oulun konservatorio": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Outi ja olevaiset": {
     "source": "musicbrainz",
@@ -6847,6 +6991,15 @@
       "singer-songwriter",
       "indie",
       "alternative rock"
+    ],
+    "fetched": "2026-11-22"
+  },
+  "Paula Koivuniemi": {
+    "source": "lastfm",
+    "matchedName": "Paula Koivuniemi",
+    "tags": [
+      "iskelmä",
+      "pop"
     ],
     "fetched": "2026-11-22"
   },
@@ -7470,6 +7623,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Rajaton Joulu": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Rajaton Joulu 2026": {
     "source": "notfound",
     "tags": [],
@@ -7489,6 +7647,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Rammstein Symphonic Tribute": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
+  "Raparperitaivas": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Rare Maiden": {
     "source": "musicbrainz",
@@ -8178,6 +8346,15 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Semmarit": {
+    "source": "lastfm",
+    "matchedName": "Seminaarinmäen Mieslaulajat",
+    "tags": [
+      "choir",
+      "a cappella"
+    ],
+    "fetched": "2026-11-22"
+  },
   "Sepi Kumpulainen Christmas": {
     "source": "notfound",
     "tags": [],
@@ -8600,6 +8777,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-20"
+  },
+  "Steel Systems": {
+    "source": "musicbrainz",
+    "matchedName": "Steel Systems",
+    "mbid": "f2c6d097-ae6a-4752-aedf-d0cac100a2ba",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Steen 1": {
     "source": "lastfm",
@@ -9046,6 +9231,11 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "TENOREIDEN JOULU": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Terror Shark": {
     "source": "lastfm",
     "matchedName": "Terror Shark",
@@ -9198,6 +9388,17 @@
       "heavy metal"
     ],
     "fetched": "2026-11-20"
+  },
+  "THE GRAND STARS ORCHESTRA": {
+    "source": "lastfm",
+    "matchedName": "The Grand Stars Orchestra",
+    "tags": [
+      "film music",
+      "soundtrack",
+      "orchestral",
+      "symphonic"
+    ],
+    "fetched": "2026-11-22"
   },
   "The Halo Effect": {
     "source": "lastfm",
@@ -9396,6 +9597,11 @@
       "noise rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ti-Ti Nallen Rytmiretki": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Tigercub": {
     "source": "lastfm",
@@ -10059,6 +10265,11 @@
     ],
     "fetched": "2026-11-22"
   },
+  "Vesku Musiikkinäytelmä": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
+  },
   "Vesta": {
     "source": "lastfm",
     "matchedName": "Vesta",
@@ -10471,6 +10682,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "YÖLINTU ja RNO": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-22"
   },
   "Zelecter": {
     "source": "musicbrainz",

@@ -19,8 +19,10 @@ Usage:
 """
 
 import html
+import json
 import re
 import sys
+import time
 from datetime import date
 
 import requests
@@ -59,6 +61,38 @@ def price_text(cost: str) -> str | None:
     return cost.replace("€", " €").replace("  ", " ").strip()
 
 
+def performers(url: str) -> list[str]:
+    """
+    The line-up from the event page's schema.org data ("performer":
+    [{"name": "Barrel"}, …]). The API's description and excerpt can't be
+    used: they show another event's text.
+    """
+    try:
+        resp = requests.get(url, headers={"User-Agent": HEADERS["User-Agent"]}, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"  ! {url}: {e}", file=sys.stderr)
+        return []
+    names = []
+    for block in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', resp.text, re.S):
+        try:
+            data = json.loads(block)
+        except ValueError:
+            continue
+        for node in data.get("@graph", [data]) if isinstance(data, dict) else []:
+            if node.get("@type") == "Event":
+                names += [html.unescape(p["name"]).strip() for p in node.get("performer") or []
+                          if isinstance(p, dict) and p.get("name")]
+    return names
+
+
+def with_lineup(title: str, acts: list[str]) -> str:
+    """"Power Metal Night" + [Barrel, …] -> "Power Metal Night: Barrel, …";
+    a title that already names the acts stays as it is."""
+    missing = [a for a in acts if a.casefold() not in title.casefold()]
+    return f"{title}: {', '.join(acts)}" if missing else title
+
+
 def fetch_venue(cat_id: int, venue: str) -> list[dict]:
     events = []
     params = {"categories": cat_id, "per_page": 50, "start_date": date.today().isoformat()}
@@ -77,8 +111,9 @@ def fetch_venue(cat_id: int, venue: str) -> list[dict]:
             if not re.match(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}", start):
                 continue
             hhmm = start[11:16]
+            time.sleep(0.5)
             event = {
-                "artist": title,
+                "artist": with_lineup(title, performers(item["url"])),
                 "venue": venue,
                 "city": CITY,
                 "date": f"{start[:10]}T{hhmm}:00",

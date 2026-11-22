@@ -9,7 +9,8 @@ listing of their own:
   - Tukikohta (Sorvarintie 5)       - DIY band club (punk, metal, noise fests)
   - Oulun Energia Areena            - arena; music events only (not ice hockey)
   - Oulun Musiikkikeskus (Madetojan sali, Pohjankartanon sali) - concert hall;
-    only gigs whose title/description mentions rock, metal, punk, goth ...
+    gigs whose title/description mentions rock, metal, punk, goth ..., or
+    whose acts' genres the site shows by default (keep_by_genre)
 
 Mun Oulu runs on the LocalHub "Bubster" platform. Its public JSON search
 (/api/collection/<site id>/content/general-search?start=...&end=...) returns
@@ -37,6 +38,7 @@ from datetime import date, timedelta
 
 import requests
 
+import genres as g
 from eventstore import load_events, merge, save_events
 from scraper_tiivistamo import finnish_time
 
@@ -208,8 +210,9 @@ def to_events(page: dict) -> list[dict]:
     if not title or NOT_MUSIC_TITLE.search(title):
         return []
     desc = plain(page.get("descriptionLong") or page.get("descriptionShort") or "")
-    if gated and not (ROCKISH.search(title) or ROCKISH_DESC.search(desc)):
-        return []
+    # Gated venues: a rock/metal word passes at once; the rest are checked
+    # by the acts' genres in main() (keep_by_genre).
+    needs_genre_check = gated and not (ROCKISH.search(title) or ROCKISH_DESC.search(desc))
     ev = page.get("event") or {}
     if ev.get("isCancelled") or ev.get("isSuperEvent"):
         return []
@@ -238,6 +241,8 @@ def to_events(page: dict) -> list[dict]:
             "_source": page.get("sourceName") or "",
             "_title": title,  # without the line-up, for de-duplication
         }
+        if needs_genre_check:
+            event["_genreCheck"] = True
         if start.strftime("%H:%M") != "00:00" and not ev.get("startTimeMissing"):
             event["doors"] = start.strftime("%H:%M")
         else:
@@ -294,6 +299,29 @@ def dedupe(events: list[dict], all_pages: list[dict]) -> list[dict]:
     return sorted(result, key=lambda e: e["date"])
 
 
+def keep_by_genre(events: list[dict]) -> list[dict]:
+    """
+    Concert-hall gigs without a rock/metal word are kept only if the acts'
+    genres would show by default (The 69 Eyes acoustic, Haloo Helsinki,
+    Maustetytöt…), the same check as scraper_dubrovnik.py. Tags come from
+    the artist cache or Last.fm (cached in artists.json).
+    """
+    cache = g.load_json(g.CACHE_FILE, {})
+    config = g.load_json(g.CONFIG_FILE, {})
+    overrides = config.get("artistOverrides", {})
+    kept = []
+    for e in events:
+        if e.pop("_genreCheck", False):
+            _artists, tags = g.gig_tags(e["artist"], cache, overrides)
+            tags = g.pick_genres(e, tags)
+            if not g.keep_when_scraping(tags, config):
+                continue
+            print(f"  + {e['venue']}: {e['date'][:10]} {e['artist']}  {tags[:3]}")
+        kept.append(e)
+    g.save_json(g.CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
+    return kept
+
+
 def main() -> int:
     try:
         pages = fetch_all()
@@ -306,7 +334,7 @@ def main() -> int:
 
     today = date.today().isoformat()
     scraped = [e for p in pages for e in to_events(p) if e["date"][:10] >= today]
-    scraped = dedupe(scraped, pages)
+    scraped = keep_by_genre(dedupe(scraped, pages))
     by_venue = {}
     for e in scraped:
         by_venue[e["venue"]] = by_venue.get(e["venue"], 0) + 1
