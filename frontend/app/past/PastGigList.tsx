@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { matchesSearch } from "../../lib/search";
+import { useToday } from "../../lib/today";
 import type { Event } from "../../types/events";
 import EventList from "../EventList";
 import SearchBox from "../SearchBox";
@@ -9,8 +10,11 @@ import SearchBox from "../SearchBox";
 /** Past gigs with the search field (the page itself is a server component). */
 export default function PastGigList({ events }: { events: Event[] }) {
   const [search, setSearch] = useState("");
+  const today = useToday();
   const searching = search.trim() !== "";
-  const shown = events.filter((e) => matchesSearch(e, search));
+  const shown = events.filter(
+    (e) => e.date.slice(0, 10) < today && matchesSearch(e, search),
+  );
 
   return (
     <>
