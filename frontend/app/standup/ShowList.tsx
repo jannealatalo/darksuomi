@@ -3,10 +3,14 @@
 import { useState } from "react";
 import { groupShowsByDay, matchesShow, showTime, type Show } from "../../lib/standup";
 import SearchBox from "../SearchBox";
+import { useToday } from "../../lib/today";
 
 /** The searchable list of shows, grouped by day under month headings. */
-export default function ShowList({ shows }: { shows: Show[] }) {
+export default function ShowList({ shows: allShows }: { shows: Show[] }) {
   const [search, setSearch] = useState("");
+  // From today on by the visitor's clock, even if the nightly update is late.
+  const today = useToday();
+  const shows = allShows.filter((s) => s.date.slice(0, 10) >= today);
   const shown = search.trim() ? shows.filter((s) => matchesShow(s, search)) : shows;
   const days = groupShowsByDay(shown);
 

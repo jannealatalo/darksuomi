@@ -5,9 +5,14 @@ name: Nightly scrape
 
 on:
   schedule:
-    # 02:00 UTC = 04:00 Finnish winter time / 05:00 summer time.
-    # GitHub may start scheduled runs a few minutes late.
-    - cron: "0 2 * * *"
+    # Cron is in UTC: 22:15 UTC = 00:15 Finnish winter time (01:15 in
+    # summer), so the site has the new day's data right after midnight.
+    # GitHub starts busy on-the-hour schedules hours late (09:19 UTC instead
+    # of 02:00 in Nov 2026), hence an odd minute, plus a backup start at
+    # 01:47 UTC (03:47 Finnish) that only scrapes if the first hasn't run
+    # (see the "check" job).
+    - cron: "15 22 * * *"
+    - cron: "47 1 * * *"
   # Lets you run it by hand: Actions tab -> Nightly scrape -> Run workflow.
   workflow_dispatch:
 
@@ -18,8 +23,37 @@ concurrency:
   group: nightly-scrape
   cancel-in-progress: false
 
+# The scripts' "today" (date.today(), date) is the Finnish date: at 00:15
+# Finnish time it's still yesterday in UTC.
+env:
+  TZ: Europe/Helsinki
+
 jobs:
+  check:
+    # A scheduled start is skipped when today's scrape has already run
+    # (the backup cron); a manual run always scrapes.
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.due.outputs.run }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: frontend/data/meta.json
+          sparse-checkout-cone-mode: false
+      - id: due
+        run: |
+          last=$(python3 -c "import json; print(json.load(open('frontend/data/meta.json'))['lastScraped'][:10])")
+          today=$(date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$last" = "$today" ]; then
+            echo "Already scraped today ($last); skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
   scrape:
+    needs: check
+    if: needs.check.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -110,7 +144,7 @@ jobs:
         continue-on-error: true
         # Festival line-ups change slowly; a manual run always checks too.
         run: |
-          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "$(date +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             python scraper_tuska.py
           else
             echo "Not Monday; skipping the weekly Tuska check."
@@ -196,5 +230,5 @@ jobs:
             echo "No data changes."
             exit 0
           fi
-          git commit -m "Nightly data update $(date -u +%Y-%m-%d)"
+          git commit -m "Nightly data update $(date +%Y-%m-%d)"
           git push

@@ -170,9 +170,9 @@ export type GigGap = { from: string; to: string; days: number; label: string };
  * Runs of days without any gig in `days` (already grouped, ascending),
  * from the scrape day up to the last listed day.
  */
-export function gapsBefore(days: EventDay[]): Map<string, GigGap> {
+export function gapsBefore(days: EventDay[], from: string = scrapeDay): Map<string, GigGap> {
   const gaps = new Map<string, GigGap>(); // keyed by the day the gap precedes
-  let cursor = scrapeDay;
+  let cursor = from;
   for (const day of days) {
     if (day.key > cursor) {
       const to = addDays(day.key, -1);

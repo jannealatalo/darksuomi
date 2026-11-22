@@ -25,6 +25,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
 import { useEffect, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
+import { useToday } from "../lib/today";
 import { InstallButton } from "./AppShell";
 import { CITIES, type CityKey } from "../lib/cities";
 import { matchesSearch } from "../lib/search";
@@ -44,7 +45,17 @@ const CITY_BUTTON =
 const CITY_BUTTON_ACTIVE =
   "inline-flex items-center rounded px-2 py-0.5 border border-gray-500 bg-gray-800 text-white";
 
-export default function GigCalendar({ events, city }: { events: Event[]; city: CityKey }) {
+export default function GigCalendar({
+  events: allEvents,
+  city,
+}: {
+  events: Event[];
+  city: CityKey;
+}) {
+  // Gigs from today on by the visitor's clock (the list was built at the
+  // last scrape, which may have been yesterday).
+  const today = useToday();
+  const events = allEvents.filter((e) => e.date.slice(0, 10) >= today);
   const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
   const allVenues = [...new Set(events.map((e) => e.venue))].sort((a, b) =>
     a.localeCompare(b, "fi")
@@ -470,7 +481,12 @@ export default function GigCalendar({ events, city }: { events: Event[]; city: C
                 : "No upcoming events"}
           </p>
         ) : (
-          <EventList events={filteredEvents} isFollowed={isFollowedEvent} jokes={!searching} />
+          <EventList
+            events={filteredEvents}
+            isFollowed={isFollowedEvent}
+            jokes={!searching}
+            from={today}
+          />
         )}
 
         <SiteFooter />
