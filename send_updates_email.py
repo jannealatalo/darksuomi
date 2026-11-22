@@ -4,7 +4,8 @@ Send the nightly "new gigs" summary written by changelog.py:
 
   1. to the site owner by SMTP (plain text), and
   2. to the newsletter subscribers through Buttondown (Markdown), which
-     keeps the subscriber list, confirmations and unsubscribe links.
+     keeps the subscriber list, confirmations and unsubscribe links, and
+  3. to the Dark Suomi Discord's #announcements through a webhook.
 
 Settings come from environment variables (GitHub secrets in the nightly job):
   SMTP_USERNAME       the sending account, e.g. a Gmail address
@@ -12,6 +13,7 @@ Settings come from environment variables (GitHub secrets in the nightly job):
   MAIL_TO             where to send; several addresses separated by commas
   SMTP_HOST           optional, default smtp.gmail.com (port 465, SSL)
   BUTTONDOWN_API_KEY  the newsletter's API key (buttondown.com/requests)
+  DISCORD_WEBHOOK_URL the #announcements webhook (discord_setup.py makes it)
 
 Missing settings, or no body file (no new gigs), skip that part.
 
@@ -22,6 +24,7 @@ Usage:
 import os
 import smtplib
 import sys
+import time
 from email.message import EmailMessage
 from pathlib import Path
 
@@ -68,6 +71,38 @@ def send_newsletter(subject: str, markdown: str) -> None:
     print(f"✓ Newsletter sent to Buttondown (status: {status}): {subject}")
 
 
+def discord_chunks(text: str, limit: int = 1900) -> list[str]:
+    """Discord takes 2,000 characters per message: split at line breaks."""
+    chunks, current = [], ""
+    for line in text.splitlines():
+        if current and len(current) + len(line) + 1 > limit:
+            chunks.append(current)
+            current = ""
+        current += line[:limit] + "\n"
+    if current.strip():
+        chunks.append(current)
+    return chunks
+
+
+def send_discord(subject: str, markdown: str) -> None:
+    url = env("DISCORD_WEBHOOK_URL")
+    if not url:
+        print("DISCORD_WEBHOOK_URL not set; Discord skipped.")
+        return
+    for i, chunk in enumerate(discord_chunks(f"**{subject}**\n\n{markdown}")):
+        if i:
+            time.sleep(1)
+        resp = requests.post(
+            url,
+            # flags 4: no link previews; no @mentions from gig titles.
+            json={"content": chunk, "flags": 4, "allowed_mentions": {"parse": []}},
+            timeout=30,
+        )
+        if resp.status_code >= 300:
+            raise SystemExit(f"Discord refused the post: HTTP {resp.status_code} {resp.text[:300]}")
+    print(f"✓ Posted to Discord: {subject}")
+
+
 def main() -> int:
     text_file = Path(sys.argv[1]) if len(sys.argv) > 1 else None
     md_file = Path(sys.argv[2]) if len(sys.argv) > 2 else None
@@ -87,6 +122,11 @@ def main() -> int:
             send_newsletter(subject, md_file.read_text(encoding="utf-8"))
         except (requests.RequestException, SystemExit) as e:
             print(f"! Newsletter failed: {e}", file=sys.stderr)
+            failed = True
+        try:
+            send_discord(subject, md_file.read_text(encoding="utf-8"))
+        except (requests.RequestException, SystemExit) as e:
+            print(f"! Discord post failed: {e}", file=sys.stderr)
             failed = True
     return 1 if failed else 0
 

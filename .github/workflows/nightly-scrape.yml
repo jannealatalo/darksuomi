@@ -222,7 +222,8 @@ jobs:
 
       - name: Email the new gigs
         # To the owner (secrets SMTP_USERNAME, SMTP_PASSWORD = an app password,
-        # MAIL_TO) and to newsletter subscribers (secret BUTTONDOWN_API_KEY).
+        # MAIL_TO), to newsletter subscribers (secret BUTTONDOWN_API_KEY) and
+        # to the Discord's #announcements (secret DISCORD_WEBHOOK_URL).
         # Missing secrets just skip that part.
         continue-on-error: true
         env:
@@ -230,6 +231,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python send_updates_email.py "$RUNNER_TEMP/new-gigs.txt" "$RUNNER_TEMP/new-gigs.md"
 
       - name: Commit and push data

@@ -1,0 +1,101 @@
+{
+  "server": {
+    "name": "Dark Suomi",
+    "icon": "frontend/public/icons/icon-512.png",
+    "verificationLevel": 2,
+    "explicitContentFilter": 2,
+    "defaultNotifications": "mentions"
+  },
+  "roles": [
+    {
+      "name": "Moderator",
+      "color": "#9333ea",
+      "hoist": true,
+      "permissions": ["KICK_MEMBERS", "BAN_MEMBERS", "VIEW_AUDIT_LOG", "MANAGE_MESSAGES",
+                      "MANAGE_NICKNAMES", "MANAGE_THREADS", "MODERATE_MEMBERS"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Dark Suomi",
+      "channels": [
+        {"name": "rules", "topic": "Read these first.", "readOnly": true},
+        {"name": "announcements", "topic": "New gigs found by darksuomi.fi every night.", "readOnly": true}
+      ]
+    },
+    {
+      "name": "Gigs",
+      "channels": [
+        {"name": "helsinki-espoo", "topic": "Gigs in Helsinki, Espoo and around: https://darksuomi.fi"},
+        {"name": "tampere", "topic": "Gigs in Tampere: https://darksuomi.fi/tampere"},
+        {"name": "oulu", "topic": "Gigs in Oulu: https://darksuomi.fi/oulu"},
+        {"name": "gig-buddies", "topic": "Looking for company to a gig? Ask here."},
+        {"name": "tickets", "slowmodeSeconds": 600,
+         "topic": "Links to official resale only (Ticketmaster/Lippu.fi, Tiketti, TicketSwap). No private sales, no DMs, no payment requests."}
+      ]
+    },
+    {
+      "name": "Community",
+      "channels": [
+        {"name": "tips", "topic": "A gig or venue missing from darksuomi.fi? A wrong genre? Tell us."},
+        {"name": "off-topic", "topic": "Everything else."}
+      ]
+    },
+    {
+      "name": "Moderation",
+      "private": true,
+      "channels": [
+        {"name": "mod-log", "topic": "AutoMod alerts."}
+      ]
+    }
+  ],
+  "remove": ["general", "General", "Text Channels", "Voice Channels"],
+  "automod": {
+    "alertChannel": "mod-log",
+    "rules": [
+      {
+        "name": "Tickets: no private sales",
+        "onlyIn": ["tickets"],
+        "keywords": ["dm me", "pm me", "dm:ssä", "dm:llä", "yksityisviest*", "*mobilepay*", "*mobile pay*",
+                     "tilisiirto*", "tilille", "iban", "paypal*", "revolut*", "swish", "venmo", "maksu ensin"],
+        "blockMessage": "Only links to official resale in #tickets: no private sales, DMs or payment requests."
+      },
+      {
+        "name": "Tickets: official resale links only",
+        "onlyIn": ["tickets"],
+        "regex": ["https?://\\S+", "www\\.\\S+"],
+        "allow": ["*ticketmaster.*", "*lippu.fi*", "*tiketti.fi*", "*ticketswap.*", "*darksuomi.fi*"],
+        "blockMessage": "In #tickets you can only link to Ticketmaster/Lippu.fi, Tiketti or TicketSwap."
+      },
+      {
+        "name": "Block suspected spam",
+        "spam": true
+      },
+      {
+        "name": "Block mention spam",
+        "mentionLimit": 5
+      },
+      {
+        "name": "Block slurs",
+        "presets": ["SLURS"]
+      }
+    ]
+  },
+  "webhook": {
+    "channel": "announcements",
+    "name": "Dark Suomi gigs",
+    "envVar": "DISCORD_WEBHOOK_URL"
+  },
+  "messages": [
+    {
+      "channel": "rules",
+      "pin": true,
+      "text": "**Welcome to Dark Suomi** – the Discord of https://darksuomi.fi, the calendar of metal, punk, goth, industrial and other dark and loud gigs in Helsinki, Espoo, Tampere and Oulu.\n\n1. Be decent. No harassment, hate or slurs.\n2. Gig talk in the city channels, finding company in #gig-buddies, missing gigs and venues in #tips.\n3. **Tickets:** only links to official resale (Ticketmaster/Lippu.fi, Tiketti, TicketSwap) in #tickets. No private sales, no \"DM me\", no MobilePay or bank transfers.\n4. No spam or self-promotion outside the topic. Bands may post their own gigs in the city channels.\n5. Nobody from Dark Suomi will ever DM you about tickets or ask for your password.\n\nNew gigs are posted to #announcements every night."
+    },
+    {
+      "channel": "tickets",
+      "pin": true,
+      "text": "**Selling or looking for tickets?** Post a link to the ticket seller's official resale (Ticketmaster/Lippu.fi, Tiketti) or to TicketSwap. They reissue the ticket to the buyer and hold the money until the gig.\n\nNo private sales here. **Anyone who offers tickets in DMs and wants MobilePay or a bank transfer is almost certainly a scammer.** Report them to a Moderator."
+    }
+  ]
+}
