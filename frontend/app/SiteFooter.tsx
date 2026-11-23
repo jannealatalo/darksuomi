@@ -1,5 +1,6 @@
 import Link from "next/link";
 import meta from "../data/meta.json";
+import VisitCounter from "./VisitCounter";
 
 export const CONTACT_EMAIL = "jamesturhapuro@gmail.com";
 
@@ -24,6 +25,7 @@ export default function SiteFooter() {
         <Link href="/privacy" className="text-purple-400 hover:text-purple-300">
           Privacy
         </Link>
+        <VisitCounter />
       </p>
       <p className="text-gray-300">
         Like Dark Suomi? Support the scene: go to gigs, buy tickets and merch

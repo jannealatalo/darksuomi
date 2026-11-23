@@ -67,6 +67,12 @@ export default function PrivacyPage() {
             referring site, the country and the device type.
           </p>
           <p>
+            The visit count in the footer is a single number: your browser adds
+            one to it once per session, and it remembers that it already did so
+            in session storage (not a cookie), which is forgotten when you close
+            the tab. Nothing about you is stored with the number.
+          </p>
+          <p>
             The site is hosted by Vercel. Like any web host, Vercel keeps short-term
             technical server logs (such as IP address, browser type and the page
             requested) to run and protect the service. See{" "}
