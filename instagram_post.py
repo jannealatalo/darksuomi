@@ -29,6 +29,7 @@ import argparse
 import html
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -49,6 +50,36 @@ RAW_BASE = "https://raw.githubusercontent.com/jannealatalo/darksuomi/main/instag
 GRAPH = "https://graph.facebook.com/v27.0"
 USERNAME = "darksuomievents"
 KEEP_WEEKS = 8  # older folders under instagram/ are removed
+
+# The venues' own Instagram accounts (checked November 2026), @mentioned
+# in the caption. Venues without a known account are left out.
+VENUE_INSTAGRAM = {
+    "Tavastia Klubi": "tavastiaklubi", "Semifinal": "semifinalhelsinki",
+    "Kulttuuritalo": "kultsahelsinki", "KULT": "kult_helsinki", "Korjaamo": "korjaamo",
+    "On the Rocks": "ontherockshelsinki", "Lepakkomies": "lepishelsinki",
+    "Bar Loose": "barloose", "Veikkaus Arena": "veikkausarena",
+    "G Livelab": "glivelabhelsinki", "Tiivistämö": "tiivistamo",
+    "Suvilahti (Tuska)": "tuskafestival", "Ääniwalli": "aaniwalli",
+    "Helsingin Jäähalli": "helsinginjaahalli", "Olympiastadion": "olympiastadionhelsinki",
+    "Dubrovnik": "dubrovnikclub", "Apollo Live Club": "apolloliveclub",
+    "Espoon kulttuurikeskus": "espoonkulttuurikeskus", "Sellosali": "sellosali",
+    "Krapin Paja": "krapinpaja",
+    "G Livelab Tampere": "glivelabtampere", "Pakkahuone": "tullikamaritre",
+    "Tullikamarin Klubi": "tullikamaritre", "Tavara-asema": "tavaraasematre",
+    "Vastavirta-klubi": "vastavirta_klubi", "Olympia": "olympiakortteli",
+    "Bar Kotelo": "barkotelo", "Nokia Arena": "nokiaarena", "Varjobaari": "varjobaari",
+    "Tarkastamo": "tarkastamo_oulu", "Tullisali": "tullisali",
+    "Oulun Musiikkikeskus": "oulunmusiikkikeskus", "Toppila Klubi": "toppilaklubi",
+    "Tukikohta": "tukikohta_oulu", "Hevimesta": "hevimestaoulu", "Kantakrouvi": "kantakrouvi",
+}
+BAND_FILES = {
+    "helsinki": ROOT / "frontend" / "data" / "bands.json",
+    "tampere": ROOT / "frontend" / "data" / "tampere" / "bands.json",
+    "oulu": ROOT / "frontend" / "data" / "oulu" / "bands.json",
+}
+MAX_TAGS = 20  # Instagram's limit of people tagged in one picture
+TAG_X, TAG_STEP = 0.15, 0.2  # tags along the gig's line (shares of the width)
+MAX_VENUE_MENTIONS = 15  # in the caption, the venues with most gigs first
 
 CITY_TITLES = {"helsinki": "HELSINKI", "tampere": "TAMPERE", "oulu": "OULU"}
 DAYS = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
@@ -92,9 +123,52 @@ def week_gigs(start: date) -> dict[str, list[dict]]:
                 and start.isoformat() <= e["date"][:10] < end.isoformat()
                 and g.shown_by_default(e.get("genres", []), config)]
         gigs.sort(key=lambda e: (e["date"], e["artist"].casefold()))
+        for e in gigs:
+            e["_site"] = city
         if gigs:
             out[city] = gigs
     return out
+
+
+def band_handles() -> dict[tuple[str, int], list[str]]:
+    """(site, event id) -> the Instagram handles of the gig's bands, from
+    the band directory's links."""
+    out: dict[tuple[str, int], list[str]] = {}
+    for site, path in BAND_FILES.items():
+        for band in g.load_json(path, {}).values():
+            url = (band.get("links") or {}).get("instagram") or ""
+            m = re.search(r"instagram\.com/([A-Za-z0-9_.]+)", url)
+            if not m or m.group(1).lower() in ("p", "explore", "reel", "accounts"):
+                continue
+            for event_id in band.get("eventIds", []):
+                handles = out.setdefault((site, event_id), [])
+                if m.group(1).lower() not in handles:
+                    handles.append(m.group(1).lower())
+    return out
+
+
+def picture_tags(pages: list[list[tuple]]) -> list[dict]:
+    """The bands to tag in each picture, placed on their gig's line:
+    [{"image": 1, "username": ..., "x": ..., "y": ..., "gig": ...}]."""
+    handles = band_handles()
+    tags = []
+    for image, rows in enumerate(pages, 1):
+        y = 48 + 150  # top of the list (padding + header)
+        seen: set[str] = set()
+        for kind, value in rows:
+            height = {"city": CITY_H, "day": DAY_H, "gig": GIG_H}[kind]
+            if kind == "gig":
+                on_line = 0
+                for h in handles.get((value["_site"], value["id"]), []):
+                    if h not in seen and len(seen) < MAX_TAGS:
+                        seen.add(h)
+                        x = min(TAG_X + TAG_STEP * on_line, 0.9)
+                        on_line += 1
+                        tags.append({"image": image, "username": h, "x": round(x, 2),
+                                     "y": round((y + height / 2) / HEIGHT, 4),
+                                     "gig": gig_name(value)})
+            y += height
+    return tags
 
 
 def gig_name(e: dict) -> str:
@@ -205,12 +279,20 @@ def screenshot(browser: str, html_file: Path, png: Path, profile: Path) -> None:
 
 def caption(by_city: dict[str, list[dict]], start: date) -> str:
     counts = " · ".join(f"{CITY_TITLES[c].title()} {len(gs)}" for c, gs in by_city.items())
+    gig_counts: dict[str, int] = {}
+    for gigs in by_city.values():
+        for e in gigs:
+            if h := VENUE_INSTAGRAM.get(e["venue"]):
+                gig_counts[h] = gig_counts.get(h, 0) + 1
+    venues = [f"@{h}" for h in sorted(gig_counts, key=lambda h: -gig_counts[h])]
+    venues = venues[:MAX_VENUE_MENTIONS]
     tags = ["#darksuomi", "#keikat", "#livemusic", "#metal", "#punk", "#goth", "#rock"]
     tags += ["#" + c for c in by_city]
     return (f"🦇 GIGS THIS WEEK · {date_range(start)}\n\n"
             f"{counts} gigs — swipe through the week 👉\n\n"
             "Full list, tickets and setlists: darksuomi.fi (link in bio)\n"
             "Something missing? Tell us in the comments.\n\n"
+            + (f"📍 {' '.join(venues)}\n\n" if venues else "")
             + " ".join(tags))
 
 
@@ -242,6 +324,9 @@ def build(start: date) -> Path | None:
                 im.convert("RGB").crop((0, 0, WIDTH, HEIGHT)).save(
                     folder / f"{i}.jpg", "JPEG", quality=90, optimize=True)
     (folder / "caption.txt").write_text(caption(by_city, start) + "\n", encoding="utf-8")
+    tags = picture_tags(pages)
+    (folder / "tags.json").write_text(json.dumps(tags, indent=1, ensure_ascii=False) + "\n",
+                                      encoding="utf-8")
 
     # Keep the last weeks only.
     for old in OUT_DIR.iterdir():
@@ -252,11 +337,16 @@ def build(start: date) -> Path | None:
             pass
 
     total = sum(len(v) for v in by_city.values())
-    print(f"{total} gigs on {len(pages)} picture(s) in {folder.relative_to(ROOT)}")
+    print(f"{total} gigs on {len(pages)} picture(s) in {folder.relative_to(ROOT)}, "
+          f"{len(tags)} band tag(s)")
     return folder
 
 
 # --- Instagram API ---------------------------------------------------------
+
+class ApiError(Exception):
+    pass
+
 
 def api(method: str, path: str, **params) -> dict:
     params["access_token"] = os.environ["INSTAGRAM_ACCESS_TOKEN"]
@@ -264,8 +354,8 @@ def api(method: str, path: str, **params) -> dict:
     data = r.json() if r.content else {}
     if not r.ok or "error" in data:
         err = data.get("error", {})
-        raise SystemExit(f"Instagram API {method} /{path}: HTTP {r.status_code} "
-                         f"{err.get('message', r.text[:300])} (code {err.get('code')})")
+        raise ApiError(f"Instagram API {method} /{path}: HTTP {r.status_code} "
+                       f"{err.get('message', r.text[:300])} (code {err.get('code')})")
     return data
 
 
@@ -291,6 +381,36 @@ def wait_ready(container: str) -> None:
     raise SystemExit(f"Instagram media {container} still not ready.")
 
 
+def taggable(ig: str, handles: set[str]) -> set[str]:
+    """The handles Instagram can tag: existing professional accounts, found
+    with the API's business discovery. If the token can't use business
+    discovery, all are tried (and a picture whose tags fail is posted
+    without them)."""
+    ok = set()
+    for h in sorted(handles):
+        try:
+            api("GET", ig, fields=f"business_discovery.username({h}){{username}}")
+            ok.add(h)
+        except ApiError as e:
+            if "(code 110)" in str(e) or "(code 100)" in str(e):
+                print(f"  not taggable: @{h}")
+            else:
+                print(f"  Business discovery unavailable ({e}); trying all tags.")
+                return set(handles)
+    return ok
+
+
+def item(ig: str, url: str, tags: list[dict], **params) -> str:
+    """A media container for one picture, with its tags if Instagram takes them."""
+    if tags:
+        user_tags = json.dumps([{k: t[k] for k in ("username", "x", "y")} for t in tags])
+        try:
+            return api("POST", f"{ig}/media", image_url=url, user_tags=user_tags, **params)["id"]
+        except ApiError as e:
+            print(f"  tags refused for {url.rsplit('/', 1)[-1]}, posting it untagged: {e}")
+    return api("POST", f"{ig}/media", image_url=url, **params)["id"]
+
+
 def publish(folder: Path) -> None:
     ig = account_id()
     pictures = sorted(folder.glob("*.jpg"), key=lambda p: int(p.stem))
@@ -300,11 +420,20 @@ def publish(folder: Path) -> None:
         if requests.head(url, timeout=30).status_code != 200:
             raise SystemExit(f"{url} isn't reachable: push the folder first.")
 
+    tags_file = folder / "tags.json"
+    tags = json.loads(tags_file.read_text(encoding="utf-8")) if tags_file.exists() else []
+    ok = taggable(ig, {t["username"] for t in tags}) if tags else set()
+    tags = [t for t in tags if t["username"] in ok]
+    print(f"Tagging {len(tags)} band account(s).")
+
+    def tags_of(n: int) -> list[dict]:
+        return [t for t in tags if t["image"] == n]
+
     if len(urls) == 1:
-        container = api("POST", f"{ig}/media", image_url=urls[0], caption=text)["id"]
+        container = item(ig, urls[0], tags_of(1), caption=text)
     else:
-        children = [api("POST", f"{ig}/media", image_url=u, is_carousel_item="true")["id"]
-                    for u in urls]
+        children = [item(ig, u, tags_of(n), is_carousel_item="true")
+                    for n, u in enumerate(urls, 1)]
         for c in children:
             wait_ready(c)
         container = api("POST", f"{ig}/media", media_type="CAROUSEL",
@@ -327,9 +456,18 @@ def main() -> int:
         print("INSTAGRAM_ACCESS_TOKEN is not set.", file=sys.stderr)
         return 1
     if args.check:
-        ig = account_id()
-        info = api("GET", ig, fields="username,media_count")
-        print(f"Token works: @{info.get('username')} ({info.get('media_count')} posts), id {ig}")
+        try:
+            ig = account_id()
+            info = api("GET", ig, fields="username,media_count")
+            print(f"Token works: @{info.get('username')} ({info.get('media_count')} posts), id {ig}")
+            # Which of this week's band accounts could be tagged?
+            pages = paginate(week_gigs(args.start or datetime.now().date()))
+            handles = {t["username"] for t in picture_tags(pages)}
+            ok = taggable(ig, handles)
+            print(f"{len(ok)} of {len(handles)} band accounts this week can be tagged.")
+        except ApiError as e:
+            print(e, file=sys.stderr)
+            return 1
         return 0
 
     start = args.start or datetime.now().date()
@@ -342,7 +480,11 @@ def main() -> int:
         if not (folder / "caption.txt").exists():
             print(f"Nothing built in {folder}.", file=sys.stderr)
             return 1
-        publish(folder)
+        try:
+            publish(folder)
+        except ApiError as e:
+            print(e, file=sys.stderr)
+            return 1
     return 0
 
 

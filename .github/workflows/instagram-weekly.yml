@@ -103,6 +103,12 @@ jobs:
             echo '```'
             cat "$dir/caption.txt"
             echo '```'
+            if [ -f "$dir/tags.json" ]; then
+              echo
+              echo "**Band tags** (only existing professional accounts are tagged when posting):"
+              echo
+              python3 -c "import json,sys; [print(f\"- picture {t['image']}: @{t['username']} ({t['gig']})\") for t in json.load(open(sys.argv[1], encoding='utf-8'))]" "$dir/tags.json"
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Post to Instagram
