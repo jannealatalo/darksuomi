@@ -40,12 +40,15 @@ function VenueName({ event }: { event: Event }) {
 export default function EventList({
   events,
   isFollowed,
+  isListened,
   past = false,
   jokes = true,
   from,
 }: {
   events: Event[];
   isFollowed?: (event: Event) => boolean;
+  /** In the visitor's Last.fm top artists. */
+  isListened?: (event: Event) => boolean;
   past?: boolean;
   /** First day of the list, for the no-gig jokes (default: the scrape day). */
   from?: string;
@@ -87,6 +90,7 @@ export default function EventList({
                     key={`${event.site ?? ""}${event.id}`}
                     event={event}
                     followed={isFollowed?.(event) ?? false}
+                    listened={isListened?.(event) ?? false}
                     past={past}
                   />
                 ))}
@@ -110,10 +114,12 @@ function saleStatus(event: Event): Event["status"] {
 function EventItem({
   event,
   followed,
+  listened,
   past,
 }: {
   event: Event;
   followed: boolean;
+  listened: boolean;
   past: boolean;
 }) {
   const time = eventTime(event);
@@ -142,6 +148,14 @@ function EventItem({
           >
             <path d={SPOTIFY_ICON} />
           </svg>
+        )}
+        {listened && (
+          <span
+            className="mt-1 shrink-0 rounded bg-red-900/60 px-1 text-xs font-semibold text-red-300"
+            title="One of your most played artists on Last.fm"
+          >
+            ♫ Last.fm
+          </span>
         )}
       </div>
 

@@ -23,6 +23,8 @@ import {
 import type { Event } from "../types/events";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useSpotifyFollowedArtists } from "../lib/useSpotifyFollowedArtists";
+import { useLastfmArtists } from "../lib/useLastfmArtists";
+import LastfmBox from "./LastfmBox";
 import { useEffect, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
 import { useToday } from "../lib/today";
@@ -63,6 +65,8 @@ export default function GigCalendar({
   const isMain = city === "helsinki";
   const { data: session } = useSession();
   const { followedArtists, error: spotifyError } = useSpotifyFollowedArtists();
+  const { lastfmUser, setLastfmUser, lastfmArtists, lastfmLoading, lastfmError } =
+    useLastfmArtists();
   const spotifyProblem =
     session?.error === "RefreshTokenError"
       ? "Your Spotify login has expired. Please log in again."
@@ -87,12 +91,24 @@ export default function GigCalendar({
 
   const isFollowedEvent = (event: Event) =>
     eventArtistNames(event).some((name) => followedArtists.has(name));
+  const isListenedEvent = (event: Event) =>
+    eventArtistNames(event).some((name) => lastfmArtists.has(name));
+  // "My artists": followed on Spotify or among the Last.fm top artists.
+  const isMyEvent = (event: Event) => isFollowedEvent(event) || isListenedEvent(event);
+  // Counted among the gigs the genre filter shows, like the list itself.
+  const listenedGigCount = events.filter(
+    (e) => (showAllGenres || !isExcludedByGenre(e)) && isListenedEvent(e)
+  ).length;
+  const hasFollowedArtists = !!session && followedArtists.size > 0;
+  const hasMyArtists = hasFollowedArtists || lastfmArtists.size > 0;
+  // Removing the last source of "my artists" also turns the filter off.
+  const onlyMine = showOnlyFollowed && hasMyArtists;
 
   // Genre and follow filters first; venue counts are based on this list.
   const genreFiltered = events.filter(
     (event) =>
       (showAllGenres || !isExcludedByGenre(event)) &&
-      (!showOnlyFollowed || isFollowedEvent(event))
+      (!onlyMine || isMyEvent(event))
   );
   // All ticked shows everything; otherwise a gig needs a ticked genre.
   const inPickedGenres = (e: Event) =>
@@ -169,7 +185,6 @@ export default function GigCalendar({
       return next;
     });
 
-  const hasFollowedArtists = followedArtists.size > 0;
 
   const siteLinks = (
     <nav
@@ -281,32 +296,46 @@ export default function GigCalendar({
           <div className="hidden md:block md:max-w-xs md:shrink-0">{siteLinks}</div>
         </div>
 
-        {session && hasFollowedArtists && (
-          <div className="mb-6">
+        <div className="mb-6 space-y-3">
+          <LastfmBox
+            user={lastfmUser}
+            onUserChange={setLastfmUser}
+            loading={lastfmLoading}
+            error={lastfmError}
+            artistCount={lastfmArtists.size}
+            gigCount={listenedGigCount}
+          />
+        {hasMyArtists && (
+          <div>
             <button
-              onClick={() => setShowOnlyFollowed(!showOnlyFollowed)}
+              onClick={() => setShowOnlyFollowed(!onlyMine)}
               className={`px-4 py-2 rounded flex items-center gap-2 transition ${
-                showOnlyFollowed
+                onlyMine
                   ? "bg-green-600 hover:bg-green-700"
                   : "bg-gray-700 hover:bg-gray-600"
               }`}
             >
-              <svg
+              {hasFollowedArtists ? (
+                <svg
                 className="w-4 h-4"
                 viewBox="0 0 24 24"
                 fill="currentColor"
               >
                 <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-12-1.5-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15.179 10.561 18.72 12.84c.361.21.599.659.359 1.2zm.12-3.36C15.312 8.322 8.654 8.034 5.409 9.425c-.589.25-1.238-.056-1.488-.646-.25-.59.056-1.24.646-1.488 4.326-1.822 11.461-1.471 15.174 1.971.406.325.344 1.025-.067 1.407-.413.347-1.113.291-1.519-.034z" />
               </svg>
-              {showOnlyFollowed
-                ? "Showing only followed artists"
-                : "Show only artists I follow"}
+              ) : (
+                <span aria-hidden="true">♫</span>
+              )}
+              {onlyMine ? "Showing only my artists" : "Show only my artists"}
             </button>
-            <p className="text-xs text-gray-500 mt-2">
-              {followedArtists.size} artists followed
-            </p>
+            {hasFollowedArtists && (
+              <p className="text-xs text-gray-500 mt-2">
+                {followedArtists.size} artists followed on Spotify
+              </p>
+            )}
           </div>
         )}
+        </div>
 
         {/* Genre and venue checkboxes, collapsed by default to keep the
             top of the page short on phones. */}
@@ -451,22 +480,23 @@ export default function GigCalendar({
           )}
         </div>
 
-        {showOnlyFollowed && (
-          <p className="text-sm text-green-500 mb-4">Showing only artists you follow</p>
+        {onlyMine && (
+          <p className="text-sm text-green-500 mb-4">Showing only your artists</p>
         )}
 
         {filteredEvents.length === 0 ? (
           <p className="text-gray-400">
             {searching
               ? "Nothing found. Maybe they broke up. Maybe they never existed."
-              : showOnlyFollowed
-                ? "No upcoming events for artists you follow"
+              : onlyMine
+                ? "No upcoming gigs by your artists"
                 : "No upcoming events"}
           </p>
         ) : (
           <EventList
             events={filteredEvents}
-            isFollowed={isFollowedEvent}
+            isFollowed={hasFollowedArtists ? isFollowedEvent : undefined}
+            isListened={isListenedEvent}
             jokes={!searching}
             from={today}
           />
