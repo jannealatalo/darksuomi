@@ -1,0 +1,110 @@
+name: Instagram weekly post
+
+# Every Monday morning: "GIGS THIS WEEK" pictures of the next 7 days
+# (instagram_post.py), committed to instagram/<date>/ and shown in the run's
+# summary. They're posted to @darksuomievents only when the repository
+# variable INSTAGRAM_AUTOPOST is "true" (Settings -> Secrets and variables
+# -> Actions -> Variables); until then each run is a draft to look at.
+#
+# By hand: Actions tab -> Instagram weekly post -> Run workflow, with
+# mode "draft", "check" (does the token work?) or "post" (posts now).
+#
+# Needs the secret INSTAGRAM_ACCESS_TOKEN (Meta app "DarkSuomi Poster").
+
+on:
+  schedule:
+    # Cron is UTC: 07:23 UTC = 09:23 Finnish winter time (10:23 in summer),
+    # after the nightly scrape. An odd minute, as busy on-the-hour schedules
+    # start late.
+    - cron: "23 7 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "draft = pictures only, check = test the token, post = post to Instagram now"
+        type: choice
+        options: [draft, check, post]
+        default: draft
+      start:
+        description: "First day, YYYY-MM-DD (empty = today)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-weekly
+  cancel-in-progress: false
+
+env:
+  TZ: Europe/Helsinki
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+      MODE: ${{ github.event_name == 'schedule' && (vars.INSTAGRAM_AUTOPOST == 'true' && 'post' || 'draft') || inputs.mode }}
+      START: ${{ inputs.start }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scraper-requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scraper-requirements.txt pillow
+
+      - name: Check the Instagram token
+        if: env.MODE == 'check' || env.MODE == 'post'
+        run: python instagram_post.py --check
+
+      - name: Draw the pictures
+        if: env.MODE != 'check'
+        id: build
+        run: |
+          start="${START:-$(date +%F)}"
+          echo "start=$start" >> "$GITHUB_OUTPUT"
+          python instagram_post.py --start "$start"
+
+      - name: Commit the pictures
+        # Instagram fetches them from GitHub, so they must be pushed first.
+        if: env.MODE != 'check'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add instagram
+          if git diff --cached --quiet; then
+            echo "No picture changes."
+          else
+            git commit -m "Instagram pictures for ${{ steps.build.outputs.start }}"
+            for i in 1 2 3; do
+              git pull --rebase && git push && break
+              sleep 10
+            done
+          fi
+
+      - name: Show them in the summary
+        if: env.MODE != 'check'
+        run: |
+          dir="instagram/${{ steps.build.outputs.start }}"
+          [ -d "$dir" ] || { echo "No gigs this week, nothing drawn." >> "$GITHUB_STEP_SUMMARY"; exit 0; }
+          sha=$(git rev-parse HEAD)
+          {
+            echo "## Instagram post ($MODE) for ${{ steps.build.outputs.start }}"
+            echo
+            for f in $(ls "$dir"/*.jpg | sort -V); do
+              echo "<img src=\"https://raw.githubusercontent.com/${{ github.repository }}/$sha/$f\" width=\"360\">"
+            done
+            echo
+            echo '```'
+            cat "$dir/caption.txt"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Post to Instagram
+        if: env.MODE == 'post'
+        run: python instagram_post.py --post --no-build --start "${{ steps.build.outputs.start }}"
