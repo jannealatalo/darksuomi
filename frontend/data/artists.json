@@ -8730,6 +8730,19 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Spotlight": {
+    "source": "lastfm",
+    "matchedName": "Spotlight",
+    "tags": [
+      "k-rock",
+      "korean alternative",
+      "krock",
+      "korean alternative rock",
+      "transformers soundtrack",
+      "korean indie rock"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Spuget": {
     "source": "notfound",
     "tags": [],

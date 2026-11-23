@@ -768,6 +768,28 @@
     ]
   },
   {
+    "artist": "TALVIPUUTARHA : Hulda Huima duo, Ingrid Yö, Unta",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-04T18:30:00",
+    "ticketUrl": "https://www.facebook.com/events/3015423552151974/",
+    "eventUrl": "https://www.facebook.com/events/3015423552151974/",
+    "doors": "18:30",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 221,
+    "artists": [
+      "Hulda Huima duo",
+      "Ingrid Yö",
+      "Unta"
+    ],
+    "genres": [
+      "synthpop",
+      "electronic",
+      "dream pop"
+    ]
+  },
+  {
     "artist": "Peer Günt 50-vuotisjuhlakeikka",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",

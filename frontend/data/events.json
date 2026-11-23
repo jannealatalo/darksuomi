@@ -1314,7 +1314,8 @@
       "folk",
       "pop",
       "want to see live"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Knipi - Sivellinvetoja",
@@ -1347,6 +1348,34 @@
     "genres": [
       "pop"
     ]
+  },
+  {
+    "artist": "Wyatt E (BE) & Five the Hierophant (UK) w/ Radien",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-11-27T19:30:00",
+    "ticketUrl": "https://www.tiketti.fi/wyatt-e-be-five-the-hierophant-uk-w-radien-bar-loose-lippuja/121030",
+    "eventUrl": "https://barloose.com/live/wyatt-e-be-fife-the-hierophant-uk-w-radien/",
+    "price": "14€",
+    "id": 232,
+    "artists": [
+      "Wyatt E",
+      "Five the Hierophant",
+      "Radien"
+    ],
+    "genres": [
+      "drone",
+      "post-metal",
+      "post-rock",
+      "doom metal",
+      "avant-garde metal",
+      "jazz metal",
+      "experimental",
+      "sludge",
+      "sludge metal",
+      "noise"
+    ],
+    "venueDefault": "rock"
   },
   {
     "id": 8,
@@ -1423,34 +1452,6 @@
       "death n roll",
       "finnish metal"
     ]
-  },
-  {
-    "artist": "Wyatt E (BE) & Five the Hierophant (UK) w/ Radien",
-    "venue": "Bar Loose",
-    "city": "Helsinki",
-    "date": "2026-11-27T20:30:00",
-    "ticketUrl": "https://www.tiketti.fi/wyatt-e-be-five-the-hierophant-uk-w-radien-bar-loose-lippuja/121030",
-    "eventUrl": "https://barloose.com/live/wyatt-e-be-fife-the-hierophant-uk-w-radien/",
-    "price": "14€",
-    "id": 232,
-    "artists": [
-      "Wyatt E",
-      "Five the Hierophant",
-      "Radien"
-    ],
-    "genres": [
-      "drone",
-      "post-metal",
-      "post-rock",
-      "doom metal",
-      "avant-garde metal",
-      "jazz metal",
-      "experimental",
-      "sludge",
-      "sludge metal",
-      "noise"
-    ],
-    "venueDefault": "rock"
   },
   {
     "artist": "Club Anvil – November Edition",
@@ -2341,7 +2342,8 @@
     "genres": [
       "gothic rock",
       "gothic metal"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Väreet 2026: Ethnic Heritage Ensemble (US), Fire! Orchestra (SE/DK/NO/PT/FR)",
@@ -2717,7 +2719,8 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "price": "58 € at the door",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "artist": "Jokrates – missä sä haluisit olla? -albumikiertue",
@@ -2757,7 +2760,8 @@
       "heavy metal",
       "power metal",
       "rock"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Stam1na: Dirty Years 2026 + Hyljätyt",
@@ -3059,6 +3063,29 @@
     "venueDefault": "rock",
     "status": "sold out",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Spotlight - Open mic nights",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2026-12-09T18:30:00",
+    "doors": "18:30",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqoz5gp5m",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqoz5gp5m",
+    "age": "S",
+    "price": "Vapaa pääsy",
+    "id": 536,
+    "artists": [
+      "Spotlight"
+    ],
+    "genres": [
+      "k-rock",
+      "korean alternative",
+      "krock",
+      "korean alternative rock",
+      "transformers soundtrack",
+      "korean indie rock"
+    ]
   },
   {
     "artist": "Hemma Beast – ”Lihaa ja kissa”",

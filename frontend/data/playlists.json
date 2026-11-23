@@ -5,6 +5,18 @@
     "hash": "4ee2352be170033f47cdcaa2fb2d3bd0e81872d2",
     "tracks": 13
   },
+  "https://helsinginjaahalli.fi/events/beast-in-black-return-of-the-beast": {
+    "id": "3nzyUslTGZaxqMt4c4AgLx",
+    "url": "https://open.spotify.com/playlist/3nzyUslTGZaxqMt4c4AgLx",
+    "hash": "f80c0b86f1f08d5beecb597eca89a0d03d4640d9",
+    "tracks": 17
+  },
+  "https://kauppa.krapinpaja.fi/product/kotiteollisuus-s2026": {
+    "id": "3a7qlEnIwWeYkuGt0zykqA",
+    "url": "https://open.spotify.com/playlist/3a7qlEnIwWeYkuGt0zykqA",
+    "hash": "ca00327ed38ac11881b116ab29454599a8feb266",
+    "tracks": 12
+  },
   "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/": {
     "id": "32QrjBfURPEAt2RllgJ1H1",
     "url": "https://open.spotify.com/playlist/32QrjBfURPEAt2RllgJ1H1",
@@ -14,7 +26,7 @@
   "https://kulttuuritalo.fi/tapahtuma/2026-11-25/europe-the-final-countdown-40th-anniversary-tour/": {
     "id": "2ZzqGULT4XDN8s4MG20slW",
     "url": "https://open.spotify.com/playlist/2ZzqGULT4XDN8s4MG20slW",
-    "hash": "cf1d339aeea9f436dcb2e0d6bb1647022a244fbe",
+    "hash": "0cd66a6b2744961418714373966f085773ba3c90",
     "tracks": 19
   },
   "https://tavastiaklubi.fi/events/2026-11-19/kauko-royhka-voimaelain/121402/": {
@@ -83,6 +95,12 @@
     "hash": "174fc4684630a88ce93eca43c9d7333b2a866aef",
     "tracks": 18
   },
+  "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/": {
+    "id": "61tXgQxGJf2d2GU8eNuNR3",
+    "url": "https://open.spotify.com/playlist/61tXgQxGJf2d2GU8eNuNR3",
+    "hash": "5dc84d2f41f4e74ba31f0cb804f2dd5bd5e33cf2",
+    "tracks": 30
+  },
   "https://www.dubrovnik.fi/keikat/maustetytot/": {
     "id": "1fPJM2YAhKV2uApk1KwiD4",
     "url": "https://open.spotify.com/playlist/1fPJM2YAhKV2uApk1KwiD4",
@@ -95,6 +113,18 @@
     "hash": "b5a2cd4640df14a2d396f241d64587e20922d34c",
     "tracks": 9
   },
+  "https://www.lippu.fi/event/21330994": {
+    "id": "7L9EZdwSQ5ahoDTpHjwBbV",
+    "url": "https://open.spotify.com/playlist/7L9EZdwSQ5ahoDTpHjwBbV",
+    "hash": "402747995993ab3138121c18650195d7d5723080",
+    "tracks": 11
+  },
+  "https://www.lippu.fi/event/noora-louhimo-joulun-hetki-sellosali-22136428/": {
+    "id": "3Lij4FZXDyo1L4zsMNxTjE",
+    "url": "https://open.spotify.com/playlist/3Lij4FZXDyo1L4zsMNxTjE",
+    "hash": "71b2c3d58478b2074fa4c409bfae69c384a1df32",
+    "tracks": 11
+  },
   "https://www.lippu.fi/event/only-the-poets-uk-alex-spencer-uk-kulttuuritehdas-korjaamo-21905302/?affiliate=ADV&language=fi": {
     "id": "2OzMQaQS347d9E66NXSZxC",
     "url": "https://open.spotify.com/playlist/2OzMQaQS347d9E66NXSZxC",
@@ -106,6 +136,30 @@
     "url": "https://open.spotify.com/playlist/12BcGI3lS9kx3VibwSVnyT",
     "hash": "ec5b0778ca36c5a6a24bf6d113377f9d63b5b0df",
     "tracks": 17
+  },
+  "https://www.lippu.fi/event/viikate-v30v-syksy-kulttuuritehdas-korjaamo-21659489/?affiliate=ADV&language=fi": {
+    "id": "0pbQRQpJcWgPo27fAeKcKE",
+    "url": "https://open.spotify.com/playlist/0pbQRQpJcWgPo27fAeKcKE",
+    "hash": "0c591f9bfcbf177ebecca0b624b8d5bb2c64883b",
+    "tracks": 28
+  },
+  "https://www.rocks.fi/tapahtumat/allt-swe-avralize-ger-bite-down-swe/": {
+    "id": "5ANJ2V3geoNup9ZT4duUj1",
+    "url": "https://open.spotify.com/playlist/5ANJ2V3geoNup9ZT4duUj1",
+    "hash": "a3afd3f3fde77db23064910d9572b61c80368236",
+    "tracks": 20
+  },
+  "https://www.ticketmaster.fi/event/22187702?brand=fi_livenation": {
+    "id": "2rvOK756CSSDbBlXVI77BI",
+    "url": "https://open.spotify.com/playlist/2rvOK756CSSDbBlXVI77BI",
+    "hash": "7c9937ae128511816ed65840f0e565d21d70ad2d",
+    "tracks": 15
+  },
+  "https://www.tiketti.fi/airi-s-michel-11-bar-loose-helsinki-lippuja/120786": {
+    "id": "1P3NdJw8KAbhgb6XGa1PuM",
+    "url": "https://open.spotify.com/playlist/1P3NdJw8KAbhgb6XGa1PuM",
+    "hash": "0a6cec8d62b0fd92b67fef4ce86ba6559c17efc2",
+    "tracks": 5
   },
   "https://www.tiketti.fi/archspire-crown-magnetar-the-zenith-passage-analepsy-lippuja/118889": {
     "id": "1ErM9GXPuuOLqoRW6TNrDz",
@@ -154,6 +208,12 @@
     "url": "https://open.spotify.com/playlist/1siQ2TFO3lGVToogXH4Y6l",
     "hash": "a83d017b07bcf8fa97f8992e3d5de6635a5d4913",
     "tracks": 10
+  },
+  "https://www.tiketti.fi/tapahtuma/121251": {
+    "id": "7gPy9p3wgR4BgpG9vcHJbq",
+    "url": "https://open.spotify.com/playlist/7gPy9p3wgR4BgpG9vcHJbq",
+    "hash": "83cf478185b2571f2e3938b51be5f9ce5f9fe44d",
+    "tracks": 12
   },
   "https://www.tiketti.fi/tapahtuma/121596": {
     "id": "19JDUk9fyVlLd7HP7h0P4C",

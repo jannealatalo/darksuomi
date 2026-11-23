@@ -9,18 +9,58 @@
     "checked": "2026-11-20"
   },
   "2": {
+    "setlists": {
+      "The Flaming Sideburns": {
+        "url": "https://www.setlist.fm/setlist/the-flaming-sideburns/2026/tavastia-helsinki-finland-b7f4dca.html",
+        "songs": 19
+      }
+    },
+    "checked": "2026-11-23"
+  },
+  "3": {
+    "setlists": {}
+  },
+  "4": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
+  },
+  "5": {
+    "setlists": {
+      "Michael Monroe": {
+        "url": "https://www.setlist.fm/setlist/michael-monroe/2026/tavastia-helsinki-finland-b7e1d9a.html",
+        "songs": 29
+      }
+    },
+    "checked": "2026-11-23"
+  },
+  "6": {
+    "setlists": {
+      "Michael Monroe": {
+        "url": "https://www.setlist.fm/setlist/michael-monroe/2026/tavastia-helsinki-finland-b7e1d9a.html",
+        "songs": 29
+      }
+    },
+    "checked": "2026-11-23"
   },
   "84": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "85": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "86": {
+    "setlists": {}
+  },
+  "87": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "88": {
+    "setlists": {}
+  },
+  "186": {
     "setlists": {}
   },
   "187": {
@@ -29,47 +69,143 @@
   "198": {
     "setlists": {}
   },
+  "205": {
+    "setlists": {
+      "Wasted": {
+        "url": "https://www.setlist.fm/setlist/wasted/2026/kult-klubi-helsinki-finland-6b756eba.html",
+        "songs": 11
+      },
+      "Abduktio": {
+        "url": "https://www.setlist.fm/setlist/abduktio/2026/kult-klubi-helsinki-finland-73756eb9.html",
+        "songs": 7
+      },
+      "Manifesto Jukebox": {
+        "url": "https://www.setlist.fm/setlist/manifesto-jukebox/2026/kult-klubi-helsinki-finland-7b756eb8.html",
+        "songs": 9
+      }
+    },
+    "checked": "2026-11-23"
+  },
+  "217": {
+    "setlists": {}
+  },
   "223": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "224": {
     "setlists": {}
   },
   "225": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "226": {
     "setlists": {}
   },
+  "227": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "228": {
+    "setlists": {}
+  },
   "245": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "265": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "283": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "284": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
   },
   "285": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
+  },
+  "286": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "287": {
+    "setlists": {}
   },
   "312": {
-    "setlists": {},
-    "checked": "2026-11-21"
+    "setlists": {
+      "King Satan": {
+        "url": "https://www.setlist.fm/setlist/king-satan/2026/tiivistamo-helsinki-finland-4b7a9756.html",
+        "songs": 6
+      }
+    },
+    "checked": "2026-11-23"
+  },
+  "313": {
+    "setlists": {
+      "Gothminister": {
+        "url": "https://www.setlist.fm/setlist/gothminister/2026/tiivistamo-helsinki-finland-437a972f.html",
+        "songs": 14
+      }
+    },
+    "checked": "2026-11-23"
   },
   "331": {
     "setlists": {},
-    "checked": "2026-11-21"
+    "checked": "2026-11-23"
+  },
+  "339": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "340": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "433": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "434": {
+    "setlists": {
+      "Maustetytöt": {
+        "url": "https://www.setlist.fm/setlist/maustetytot/2026/dubrovnik-helsinki-finland-5b7da740.html",
+        "songs": 16
+      }
+    },
+    "checked": "2026-11-23"
+  },
+  "438": {
+    "setlists": {
+      "Crown Magnetar": {
+        "url": "https://www.setlist.fm/setlist/crown-magnetar/2026/aaniwalli-helsinki-finland-6b766a6a.html",
+        "songs": 11
+      },
+      "The Zenith Passage": {
+        "url": "https://www.setlist.fm/setlist/the-zenith-passage/2026/aaniwalli-helsinki-finland-6b766a46.html",
+        "songs": 7
+      },
+      "Analepsy": {
+        "url": "https://www.setlist.fm/setlist/analepsy/2026/aaniwalli-helsinki-finland-b76655e.html",
+        "songs": 7
+      }
+    },
+    "checked": "2026-11-23"
+  },
+  "439": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "oulu:1": {
+    "setlists": {}
+  },
+  "oulu:27": {
+    "setlists": {}
   },
   "oulu:36": {
     "setlists": {}
@@ -77,22 +213,72 @@
   "oulu:37": {
     "setlists": {}
   },
+  "oulu:38": {
+    "setlists": {}
+  },
+  "oulu:39": {
+    "setlists": {}
+  },
   "oulu:46": {
     "setlists": {}
   },
-  "tampere:1": {
+  "oulu:47": {
     "setlists": {}
+  },
+  "tampere:1": {
+    "setlists": {},
+    "checked": "2026-11-23"
   },
   "tampere:25": {
-    "setlists": {}
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "tampere:26": {
+    "setlists": {
+      "Apulanta": {
+        "url": "https://www.setlist.fm/setlist/apulanta/2026/pakkahuone-tampere-finland-337674d9.html",
+        "songs": 19
+      }
+    },
+    "checked": "2026-11-23"
   },
   "tampere:95": {
-    "setlists": {}
+    "setlists": {
+      "Säilä": {
+        "url": "https://www.setlist.fm/setlist/saila/2026/vastavirta-klubi-tampere-finland-137a8dd1.html",
+        "songs": 10
+      }
+    },
+    "checked": "2026-11-23"
   },
   "tampere:96": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "tampere:97": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "tampere:98": {
     "setlists": {}
   },
+  "tampere:114": {
+    "setlists": {}
+  },
+  "tampere:184": {
+    "setlists": {
+      "TURISTI": {
+        "url": "https://www.setlist.fm/setlist/turisti/2026/nokia-arena-tampere-finland-637172c7.html",
+        "songs": 29
+      }
+    },
+    "checked": "2026-11-23"
+  },
   "tampere:191": {
+    "setlists": {},
+    "checked": "2026-11-23"
+  },
+  "tampere:192": {
     "setlists": {}
   }
 }

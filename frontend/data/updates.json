@@ -1,5 +1,37 @@
 [
   {
+    "day": "2026-11-23",
+    "gigs": [
+      {
+        "id": 221,
+        "city": "tampere",
+        "artist": "TALVIPUUTARHA : Hulda Huima duo, Ingrid Yö, Unta",
+        "venue": "Vastavirta-klubi",
+        "place": "Tampere",
+        "date": "2026-12-04T18:30:00",
+        "genres": [
+          "synthpop",
+          "electronic",
+          "dream pop"
+        ]
+      },
+      {
+        "id": 536,
+        "city": "helsinki",
+        "artist": "Spotlight - Open mic nights",
+        "venue": "Tiivistämö",
+        "place": "Helsinki",
+        "date": "2026-12-09T18:30:00",
+        "genres": [
+          "k-rock",
+          "korean alternative",
+          "krock"
+        ]
+      }
+    ],
+    "hidden": {}
+  },
+  {
     "day": "2026-11-21",
     "gigs": [
       {
