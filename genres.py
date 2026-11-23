@@ -488,6 +488,24 @@ def gig_tags(title: str, cache: dict, overrides: dict,
 ALWAYS_SHOW_TOP_TAGS = 5  # as in frontend/lib/events.ts
 
 
+# Core genres that are too mild on their own for keep_fitting(core_only=True):
+# at a theatre or a pop bar these are mostly singer-songwriters and covers.
+MILD_CORE = {"rock", "*indie*", "*synth*", "suomirock", "blues rock", "alternative rock",
+             "progressive rock", "post-rock", "psychedelic rock", "space rock",
+             "garage rock", "glam rock"}
+
+
+def is_core(genres: list[str], config: dict, heavy_only: bool = False) -> bool:
+    """
+    Is a core genre (alwaysShowGenres: metal, punk, goth...) among the
+    strongest tags? heavy_only: not counting the MILD_CORE ones.
+    """
+    core = [re.compile("^" + ".*".join(re.escape(p) for p in pattern.split("*")) + "$")
+            for pattern in config.get("alwaysShowGenres", [])
+            if not (heavy_only and pattern in MILD_CORE)]
+    return any(c.match(tag) for c in core for tag in genres[:ALWAYS_SHOW_TOP_TAGS])
+
+
 def shown_by_default(genres: list[str], config: dict) -> bool:
     """
     Would the site show a gig with these genres by default? The same rule as
@@ -495,11 +513,9 @@ def shown_by_default(genres: list[str], config: dict) -> bool:
     (alwaysShowGenres) among the strongest tags, or a header-genre tag while
     the strongest tag isn't excluded (pop, jazz, iskelmä…).
     """
-    top = genres[:ALWAYS_SHOW_TOP_TAGS]
-    core = [re.compile("^" + ".*".join(re.escape(p) for p in pattern.split("*")) + "$")
-            for pattern in config.get("alwaysShowGenres", [])]
-    if any(c.match(tag) for c in core for tag in top):
+    if is_core(genres, config):
         return True
+    top = genres[:ALWAYS_SHOW_TOP_TAGS]
     if not top or top[0] in set(config.get("excludeGenres", [])):
         return False
     return any(re.search(p, tag, flags=re.I)
@@ -517,11 +533,14 @@ def keep_when_scraping(genres: list[str], config: dict) -> bool:
     return shown_by_default(genres, config) or any(KEEP_HIDDEN_GENRES.search(t) for t in genres)
 
 
-def keep_fitting(gigs: list[dict], show_all: bool = False) -> list[dict]:
+def keep_fitting(gigs: list[dict], show_all: bool = False, core_only: bool = False) -> list[dict]:
     """
     For scrapers of mixed venues (jazz, rap, club nights...): look up the
     bands' tags right away and return only the gigs that fit Dark Suomi
     (keep_when_scraping). Prints the kept gigs, or every gig with show_all.
+    core_only: stricter, for mainstream venues (theatres, pop bars) whose
+    rock and indie gigs are mostly not ours: keep only heavy core genres
+    (metal, punk, goth, industrial, hard rock...; not MILD_CORE).
     """
     cache = load_json(CACHE_FILE, {})
     config = load_json(CONFIG_FILE, {})
@@ -530,7 +549,7 @@ def keep_fitting(gigs: list[dict], show_all: bool = False) -> list[dict]:
     for event in gigs:
         _artists, tags = gig_tags(event["artist"], cache, overrides)
         genres = pick_genres(event, tags)
-        keep = keep_when_scraping(genres, config)
+        keep = is_core(genres, config, heavy_only=True) if core_only else keep_when_scraping(genres, config)
         if show_all or keep:
             print(f"  {'+' if keep else '-'} {event['date'][:10]} {event['artist']}  {genres[:4]}")
         if keep:

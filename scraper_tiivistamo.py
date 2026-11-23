@@ -161,11 +161,21 @@ def fetch_concerts(api: str = API, place: str = PLACE_ID, venue: str = VENUE,
     return events
 
 
-def run(**kwargs) -> int:
-    """Fetch, merge into events.json and report (used by venue scripts)."""
+def run(fit_genres: bool = False, core_only: bool = False, **kwargs) -> int:
+    """
+    Fetch, merge into events.json and report (used by venue scripts).
+    fit_genres: keep only gigs that fit Dark Suomi (for mixed venues);
+    core_only: only metal, punk, goth... (genres.keep_fitting).
+    """
     venue = kwargs.get("venue", VENUE)
     scraped = fetch_concerts(**kwargs)
     print(f"✓ Found {len(scraped)} upcoming concerts at {venue}")
+    if fit_genres:
+        import genres
+        scraped = genres.keep_fitting(scraped, show_all="--all" in sys.argv, core_only=core_only)
+        if "--all" in sys.argv:
+            return 0
+        print(f"✓ {len(scraped)} of them fit Dark Suomi")
     events = load_events()
     added = merge(scraped, events)
     save_events(events)

@@ -19,6 +19,8 @@ export const VENUE_LINKS: Record<string, string> = {
   "Apollo Live Club": "https://apolloliveclub.fi/tapahtumat/",
   "G Livelab": "https://glivelab.fi/",
   "Kuudes Linja": "https://www.kuudeslinja.com/",
+  "Savoy-teatteri": "https://www.savoyteatteri.fi/",
+  Kannusali: "https://www.espoo.fi/fi/kannusali",
   // Vantaa; Rokki Raikaa's "Vantaan suurimmat rokit" show.
   Myyrmäkihalli: "https://rokkiraikaa.fi/rokki-raikaa-vantaan-suurimmat-rokit/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",

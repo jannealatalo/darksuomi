@@ -149,6 +149,18 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python scraper_kuudeslinja.py
 
+      - name: Scrape Savoy-teatteri (only metal, punk, goth... gigs)
+        continue-on-error: true
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_savoy.py
+
+      - name: Scrape Kannusali, Espoo (only metal, punk, goth... gigs)
+        continue-on-error: true
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_kannusali.py
+
       - name: Rokki Raikaa shows in Vantaa / Espoo / Helsinki
         continue-on-error: true
         run: python scraper_rokkiraikaa.py
