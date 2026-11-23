@@ -3,6 +3,19 @@
     "day": "2026-11-23",
     "gigs": [
       {
+        "id": 538,
+        "city": "helsinki",
+        "artist": "NEØV + Ruissalo Amping",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2026-11-28T20:00:00",
+        "genres": [
+          "shoegaze",
+          "indie pop",
+          "post-rock"
+        ]
+      },
+      {
         "id": 221,
         "city": "tampere",
         "artist": "TALVIPUUTARHA : Hulda Huima duo, Ingrid Yö, Unta",
@@ -13,6 +26,159 @@
           "synthpop",
           "electronic",
           "dream pop"
+        ]
+      },
+      {
+        "id": 539,
+        "city": "helsinki",
+        "artist": "Radiopuhelimet + Janne Westerlund",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2026-12-05T20:00:00",
+        "genres": [
+          "punk",
+          "rock",
+          "punk rock"
+        ]
+      },
+      {
+        "id": 540,
+        "city": "helsinki",
+        "artist": "Silmien Takana: Asla Jo – Tavoittelu, yhteisö ja nähdyksi tuleminen",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2026-12-18T20:00:00",
+        "genres": [
+          "indie",
+          "pop"
+        ]
+      },
+      {
+        "id": 541,
+        "city": "helsinki",
+        "artist": "Marjo Leinonen & Bublicans",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-01-15T20:00:00",
+        "genres": [
+          "rock",
+          "pop",
+          "blues"
+        ]
+      },
+      {
+        "id": 542,
+        "city": "helsinki",
+        "artist": "G Livelab Helsinki 10 vuotta: Modem + Waldemar Blom",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-01-29T20:00:00",
+        "genres": [
+          "synthpop",
+          "glitch",
+          "idm"
+        ]
+      },
+      {
+        "id": 543,
+        "city": "helsinki",
+        "artist": "Kaseva",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-02-04T19:00:00",
+        "genres": [
+          "pop",
+          "suomirock"
+        ]
+      },
+      {
+        "id": 544,
+        "city": "helsinki",
+        "artist": "Maa ilmasta + Idän voima",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-02-05T20:00:00",
+        "genres": [
+          "indie",
+          "instrumental",
+          "progressive rock"
+        ]
+      },
+      {
+        "id": 545,
+        "city": "helsinki",
+        "artist": "Lubomyr Melnyk",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-02-24T19:00:00",
+        "genres": [
+          "minimalism",
+          "contemporary classical",
+          "neoclassical"
+        ]
+      },
+      {
+        "id": 546,
+        "city": "helsinki",
+        "artist": "Juhlat",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-02-27T20:00:00",
+        "genres": [
+          "indie pop",
+          "indie",
+          "finnish indie"
+        ]
+      },
+      {
+        "id": 547,
+        "city": "helsinki",
+        "artist": "Jarkko Martikainen (solo)",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-04-15T19:00:00",
+        "genres": [
+          "singer-songwriter",
+          "rock",
+          "progressive rock"
+        ]
+      },
+      {
+        "id": 548,
+        "city": "helsinki",
+        "artist": "Louie Blue + Pihalla",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-04-17T20:00:00",
+        "genres": [
+          "country",
+          "string band",
+          "blues"
+        ]
+      },
+      {
+        "id": 549,
+        "city": "helsinki",
+        "artist": "Tamikrest",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-04-21T19:00:00",
+        "genres": [
+          "desert blues",
+          "mali",
+          "african"
+        ]
+      },
+      {
+        "id": 550,
+        "city": "helsinki",
+        "artist": "Curtis Salgado",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-04-27T19:00:00",
+        "genres": [
+          "blues",
+          "blues rock"
         ]
       }
     ],

@@ -223,7 +223,13 @@
     "setlists": {}
   },
   "oulu:47": {
-    "setlists": {}
+    "setlists": {
+      "Stam1na": {
+        "url": "https://www.setlist.fm/setlist/stam1na/2026/tarkastamo-oulu-finland-3b77487c.html",
+        "songs": 1
+      }
+    },
+    "checked": "2026-11-23"
   },
   "tampere:1": {
     "setlists": {},
@@ -260,10 +266,12 @@
     "checked": "2026-11-23"
   },
   "tampere:98": {
-    "setlists": {}
+    "setlists": {},
+    "checked": "2026-11-23"
   },
   "tampere:114": {
-    "setlists": {}
+    "setlists": {},
+    "checked": "2026-11-23"
   },
   "tampere:184": {
     "setlists": {

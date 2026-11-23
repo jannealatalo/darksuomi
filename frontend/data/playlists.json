@@ -5,6 +5,12 @@
     "hash": "4ee2352be170033f47cdcaa2fb2d3bd0e81872d2",
     "tracks": 13
   },
+  "https://glivelab.fi/events/neov-ruissalo-amping-6995742bb4588faa143afc17/": {
+    "id": "2LLt4fX3pcj3rRYRyFwe1j",
+    "url": "https://open.spotify.com/playlist/2LLt4fX3pcj3rRYRyFwe1j",
+    "hash": "54ff1c7dccda01d41886a4326608fb905eb7d0df",
+    "tracks": 8
+  },
   "https://helsinginjaahalli.fi/events/beast-in-black-return-of-the-beast": {
     "id": "3nzyUslTGZaxqMt4c4AgLx",
     "url": "https://open.spotify.com/playlist/3nzyUslTGZaxqMt4c4AgLx",
@@ -17,6 +23,12 @@
     "hash": "ca00327ed38ac11881b116ab29454599a8feb266",
     "tracks": 12
   },
+  "https://kauppa.krapinpaja.fi/product/vilkkumaa-s2026": {
+    "id": "6GusAjOZpMF5y2huBr2LF4",
+    "url": "https://open.spotify.com/playlist/6GusAjOZpMF5y2huBr2LF4",
+    "hash": "d23644250c0ff1497e8965cff4727c359e27ed8a",
+    "tracks": 14
+  },
   "https://kulttuuritalo.fi/tapahtuma/2026-11-21/kult-wasted/": {
     "id": "32QrjBfURPEAt2RllgJ1H1",
     "url": "https://open.spotify.com/playlist/32QrjBfURPEAt2RllgJ1H1",
@@ -28,6 +40,18 @@
     "url": "https://open.spotify.com/playlist/2ZzqGULT4XDN8s4MG20slW",
     "hash": "0cd66a6b2744961418714373966f085773ba3c90",
     "tracks": 19
+  },
+  "https://kulttuuritalo.lippu.fi/event/Alice-Amazing-Circus-Show/164740/397560/details": {
+    "id": "2nBbaR7k3usQ3TRvjs3Sn6",
+    "url": "https://open.spotify.com/playlist/2nBbaR7k3usQ3TRvjs3Sn6",
+    "hash": "5f5a84461411630df650cbc354e0c4f85a7fedb1",
+    "tracks": 23
+  },
+  "https://kulttuuritalo.lippu.fi/event/Black-Devils-30th-Anniversary-Show-K-18/164504/396636/details": {
+    "id": "5Z7ih3bPnCelZyVnxjqIQd",
+    "url": "https://open.spotify.com/playlist/5Z7ih3bPnCelZyVnxjqIQd",
+    "hash": "c245176f0bcad50de4e4a0e4bb6004e6f83176f4",
+    "tracks": 22
   },
   "https://tavastiaklubi.fi/events/2026-11-19/kauko-royhka-voimaelain/121402/": {
     "id": "3FPSjEPXpR3bVRn6nV9VBu",
@@ -119,6 +143,12 @@
     "hash": "402747995993ab3138121c18650195d7d5723080",
     "tracks": 11
   },
+  "https://www.lippu.fi/event/dungen-kulttuuritehdas-korjaamo-21877249/?affiliate=ADV&language=fi": {
+    "id": "2upwEbrkpw1hve1CFDxvPG",
+    "url": "https://open.spotify.com/playlist/2upwEbrkpw1hve1CFDxvPG",
+    "hash": "51cb9c1e5e046a1eeb53511f9e63776d0582e0d5",
+    "tracks": 5
+  },
   "https://www.lippu.fi/event/noora-louhimo-joulun-hetki-sellosali-22136428/": {
     "id": "3Lij4FZXDyo1L4zsMNxTjE",
     "url": "https://open.spotify.com/playlist/3Lij4FZXDyo1L4zsMNxTjE",
@@ -155,6 +185,12 @@
     "hash": "7c9937ae128511816ed65840f0e565d21d70ad2d",
     "tracks": 15
   },
+  "https://www.ticketmaster.fi/event/mental-cruelty-lippuja/585297311": {
+    "id": "0kfAuLFznGFQaTdnIZAxdU",
+    "url": "https://open.spotify.com/playlist/0kfAuLFznGFQaTdnIZAxdU",
+    "hash": "f5f89e8fdf0f32749397496917a02b175e1bb413",
+    "tracks": 15
+  },
   "https://www.tiketti.fi/airi-s-michel-11-bar-loose-helsinki-lippuja/120786": {
     "id": "1P3NdJw8KAbhgb6XGa1PuM",
     "url": "https://open.spotify.com/playlist/1P3NdJw8KAbhgb6XGa1PuM",
@@ -166,6 +202,12 @@
     "url": "https://open.spotify.com/playlist/1ErM9GXPuuOLqoRW6TNrDz",
     "hash": "143d1fc3c2c9658f4258519427e1856a34d9d82a",
     "tracks": 27
+  },
+  "https://www.tiketti.fi/ghosts-on-tv-longing-louisa-dubrovnik-helsinki-lippuja/121020": {
+    "id": "3nzyc3A157H5UYAHxFbCrX",
+    "url": "https://open.spotify.com/playlist/3nzyc3A157H5UYAHxFbCrX",
+    "hash": "5498b56ea27501cce1ef2494469e4a315229ab4d",
+    "tracks": 6
   },
   "https://www.tiketti.fi/hellsinki-industrial-festival-2026-tiivistamo-helsinki-lippuja/114451": {
     "id": "0uA2vAeeXWOTwFiatsqhsr",
@@ -208,6 +250,18 @@
     "url": "https://open.spotify.com/playlist/1siQ2TFO3lGVToogXH4Y6l",
     "hash": "a83d017b07bcf8fa97f8992e3d5de6635a5d4913",
     "tracks": 10
+  },
+  "https://www.tiketti.fi/tapahtuma/120876": {
+    "id": "78mFdLiMS9Rx4QXAJeNyCG",
+    "url": "https://open.spotify.com/playlist/78mFdLiMS9Rx4QXAJeNyCG",
+    "hash": "4b41941e68f51adde57b515a0aaa46feb94947bc",
+    "tracks": 10
+  },
+  "https://www.tiketti.fi/tapahtuma/120881": {
+    "id": "6MMvrG2WrhZr8Cd6Z6yQAo",
+    "url": "https://open.spotify.com/playlist/6MMvrG2WrhZr8Cd6Z6yQAo",
+    "hash": "2d26442c4c64b17984333988ae457a76f6530d2c",
+    "tracks": 17
   },
   "https://www.tiketti.fi/tapahtuma/121251": {
     "id": "7gPy9p3wgR4BgpG9vcHJbq",

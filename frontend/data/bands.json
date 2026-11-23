@@ -656,6 +656,23 @@
     },
     "fetched": "2026-11-20"
   },
+  "Asla Jo": {
+    "genres": [
+      "indie",
+      "pop"
+    ],
+    "display": "Asla Jo",
+    "mbid": "7325af58-5068-446b-ad58-6fb915fd38d8",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5z6VH7BWb3QDIAhdMILyG4",
+      "instagram": "https://www.instagram.com/asla.jo/",
+      "tidal": "https://tidal.com/artist/24896007"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      540
+    ]
+  },
   "Aspesti": {
     "genres": [],
     "display": "Aspesti",
@@ -1228,6 +1245,18 @@
     },
     "fetched": "2026-11-19"
   },
+  "Bublicans": {
+    "genres": [],
+    "display": "BubliCans",
+    "mbid": "bc13af82-c41a-4ac7-bf9b-751a3c9eceaf",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/1cYnvyVSINiWMoxNwMSnSf"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      541
+    ]
+  },
   "Bullet For My Valentine": {
     "genres": [
       "metalcore",
@@ -1467,6 +1496,28 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Criminal_(band)"
     },
     "fetched": "2026-11-19"
+  },
+  "Curtis Salgado": {
+    "genres": [
+      "blues",
+      "blues rock"
+    ],
+    "display": "Curtis Salgado",
+    "mbid": "7f12b47b-c76b-441a-b113-36992107ee62",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/877185",
+      "spotify": "https://open.spotify.com/artist/2VDoygKzNasudJOR0X1RH0",
+      "deezer": "https://www.deezer.com/artist/93879",
+      "homepage": "http://www.curtissalgado.com/",
+      "apple": "https://music.apple.com/us/artist/78506563",
+      "tidal": "https://tidal.com/artist/3813389",
+      "wikidata": "https://www.wikidata.org/wiki/Q1145645",
+      "wikipedia": "https://en.wikipedia.org/wiki/Curtis_Salgado"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      550
+    ]
   },
   "D'espairsRay": {
     "genres": [
@@ -3289,6 +3340,22 @@
     },
     "fetched": "2026-11-19"
   },
+  "Idän voima": {
+    "genres": [
+      "rock",
+      "progressive rock"
+    ],
+    "display": "Idän Voima",
+    "mbid": "1796ec53-c4db-4cd1-be82-94ac70d26597",
+    "links": {
+      "instagram": "https://www.instagram.com/idanvoima/",
+      "spotify": "https://open.spotify.com/artist/4jSuniwjdnDiusdDsO6WwA"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      544
+    ]
+  },
   "IKINÄ": {
     "genres": [
       "alternative metal",
@@ -3586,7 +3653,8 @@
     ],
     "display": "Janne Westerlund",
     "eventIds": [
-      145
+      145,
+      539
     ],
     "mbid": "ceb64362-9621-48b4-99fc-bcff703e69b9",
     "links": {
@@ -3600,6 +3668,27 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Janne_Westerlund"
     },
     "fetched": "2026-11-19"
+  },
+  "Jarkko Martikainen": {
+    "genres": [
+      "singer-songwriter",
+      "rock",
+      "progressive rock"
+    ],
+    "display": "Jarkko Martikainen",
+    "mbid": "fb2d82c2-9096-4457-b086-717c544c11f6",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/459865",
+      "spotify": "https://open.spotify.com/artist/466GWVoauVVD15fGVapVKv",
+      "homepage": "http://www.jarkkomartikainen.fi/",
+      "wikidata": "https://www.wikidata.org/wiki/Q13569900",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jarkko_Martikainen",
+      "youtube": "https://www.youtube.com/channel/UCvjEMEC-MonzsMZEte6IPGw"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      547
+    ]
   },
   "Jazz Sabbath": {
     "genres": [
@@ -3846,6 +3935,29 @@
     },
     "fetched": "2026-11-20"
   },
+  "Juhlat": {
+    "genres": [
+      "indie pop",
+      "indie",
+      "finnish indie"
+    ],
+    "display": "Juhlat",
+    "mbid": "df8bdf8b-41a5-46fe-b484-beaa6bb72dad",
+    "links": {
+      "bandcamp": "https://juhlat.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/7261209",
+      "spotify": "https://open.spotify.com/artist/01D2EFqqME5IHfIUEuU4el",
+      "deezer": "https://www.deezer.com/artist/114234842",
+      "instagram": "https://www.instagram.com/juhlat/",
+      "apple": "https://music.apple.com/gb/artist/1541462008",
+      "tidal": "https://tidal.com/artist/22289774",
+      "youtube": "https://www.youtube.com/@juhlat9623"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      546
+    ]
+  },
   "Jukka Nousiainen": {
     "genres": [
       "lo-fi",
@@ -4029,7 +4141,8 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      511
+      511,
+      543
     ]
   },
   "Kauko Röyhkä & Röyhkeät": {
@@ -4599,6 +4712,23 @@
     },
     "fetched": "2026-11-20"
   },
+  "Louie Blue": {
+    "genres": [
+      "country",
+      "string band",
+      "blues"
+    ],
+    "display": "Louie Blue",
+    "mbid": "73668a29-a59b-4c2a-8e8c-a3d74b0b5634",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/06AJvANXmsNIEFFA00yhYf",
+      "instagram": "https://www.instagram.com/blueberrylouie/"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      548
+    ]
+  },
   "louna0nline": {
     "genres": [
       "electronic",
@@ -4633,6 +4763,29 @@
       "spotify": "https://open.spotify.com/artist/7i6h22ezHqGU7V6vQCCfE3"
     },
     "fetched": "2026-11-20"
+  },
+  "Lubomyr Melnyk": {
+    "genres": [
+      "minimalism",
+      "contemporary classical",
+      "neoclassical"
+    ],
+    "display": "Lubomyr Melnyk",
+    "mbid": "d39d2f12-8202-4f76-ae5b-b29a11902168",
+    "links": {
+      "bandcamp": "https://lubomyrmelnyk.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1113436",
+      "spotify": "https://open.spotify.com/artist/0G9qoAVEY16XVywzpxP4wP",
+      "deezer": "https://www.deezer.com/artist/3834241",
+      "homepage": "http://www.lubomyr.com/",
+      "instagram": "https://www.instagram.com/lubomyrmelnyk/",
+      "wikidata": "https://www.wikidata.org/wiki/Q6695520",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lubomyr_Melnyk"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      545
+    ]
   },
   "Lust For Lily": {
     "genres": [
@@ -4724,6 +4877,22 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Matthieu_Chedid"
     },
     "fetched": "2026-11-20"
+  },
+  "Maa ilmasta": {
+    "genres": [
+      "indie",
+      "instrumental",
+      "progressive rock"
+    ],
+    "display": "Maa Ilmasta",
+    "mbid": "a5f5643c-e3c5-46ea-97a9-d9e85dc3117a",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5Wqh3aJ3MbqaFy3xjxwZjV"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      544
+    ]
   },
   "Madmans Esprit": {
     "genres": [
@@ -4895,6 +5064,27 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Mariska_(rapper)"
     },
     "fetched": "2026-11-19"
+  },
+  "Marjo Leinonen": {
+    "genres": [
+      "rock",
+      "pop",
+      "blues"
+    ],
+    "display": "Marjo Leinonen",
+    "mbid": "4371cae0-4fe6-4a21-938e-32107367d963",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/500723",
+      "spotify": "https://open.spotify.com/artist/0sVBF3d3j88xc2q9Gxi4kl",
+      "deezer": "https://www.deezer.com/artist/397746",
+      "tidal": "https://tidal.com/artist/3588052",
+      "wikidata": "https://www.wikidata.org/wiki/Q16983666",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Marjo_Leinonen"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      541
+    ]
   },
   "Marko Haavisto & Poutahaukat": {
     "genres": [
@@ -5271,6 +5461,25 @@
     },
     "fetched": "2026-11-20"
   },
+  "Modem": {
+    "genres": [
+      "synthpop",
+      "glitch",
+      "idm"
+    ],
+    "display": "Modem",
+    "mbid": "1ef3c371-32ab-4a01-a50f-ed66ee95a877",
+    "links": {
+      "bandcamp": "https://modemagerecords.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/11073986",
+      "spotify": "https://open.spotify.com/artist/7CQG9lCRpxkuALUS2wbTia",
+      "instagram": "https://www.instagram.com/modemagerecords/"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      542
+    ]
+  },
   "MOMO": {
     "genres": [
       "j-pop",
@@ -5530,6 +5739,27 @@
       "youtube": "https://www.youtube.com/channel/UCEJBYu3DLkmyeN6cb9auVFw"
     },
     "fetched": "2026-11-20"
+  },
+  "NEØV": {
+    "genres": [
+      "shoegaze",
+      "indie pop",
+      "post-rock"
+    ],
+    "display": "NEØV",
+    "mbid": "ff8bd9c1-f689-4da0-9fce-01aaf2fdf0a5",
+    "links": {
+      "bandcamp": "https://neovfin.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3790140",
+      "spotify": "https://open.spotify.com/artist/6TgS8LDntw71vz2Wf7TJ8h",
+      "homepage": "http://neov.fi/",
+      "wikidata": "https://www.wikidata.org/wiki/Q22025117",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ne%C3%B8v"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      538
+    ]
   },
   "Nickelback": {
     "genres": [
@@ -6058,7 +6288,8 @@
     "genres": [],
     "display": "Pihalla",
     "eventIds": [
-      292
+      292,
+      548
     ],
     "mbid": "c7ff8807-7eb6-47d2-890c-72ac77fe19b7",
     "links": {
@@ -6397,6 +6628,25 @@
       "spotify": "https://open.spotify.com/artist/7qQvJxz9c9UhruJdxMSdtx"
     },
     "fetched": "2026-11-20"
+  },
+  "Radiopuhelimet": {
+    "genres": [
+      "punk",
+      "rock",
+      "punk rock"
+    ],
+    "display": "Radiopuhelimet",
+    "mbid": "838e3977-5246-4040-9137-c6ecbc292896",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/267885",
+      "homepage": "http://www.radiopuhelimet.net/",
+      "wikidata": "https://www.wikidata.org/wiki/Q7281310",
+      "wikipedia": "https://en.wikipedia.org/wiki/Radiopuhelimet"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      539
+    ]
   },
   "Rare Maiden": {
     "genres": [],
@@ -6784,6 +7034,25 @@
       "spotify": "https://open.spotify.com/artist/6mDJ7DQ4UxizF9ZshUJ4bi"
     },
     "fetched": "2026-11-20"
+  },
+  "Ruissalo Amping": {
+    "genres": [
+      "shoegaze"
+    ],
+    "display": "Ruissalo Amping",
+    "mbid": "c328f9a9-aaf9-47b3-8344-7cdbbb01431b",
+    "links": {
+      "bandcamp": "https://ruissaloamping.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/10869271",
+      "spotify": "https://open.spotify.com/artist/4QDeAU9HtX67G4UHNC4dPd",
+      "homepage": "http://ruissaloamping.fi/",
+      "instagram": "https://www.instagram.com/ruissaloamping/",
+      "soundcloud": "https://soundcloud.com/ruissaloamping"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      538
+    ]
   },
   "RUSH": {
     "genres": [
@@ -7509,22 +7778,6 @@
     },
     "fetched": "2026-11-19"
   },
-  "Spotlight": {
-    "genres": [
-      "k-rock",
-      "korean alternative",
-      "krock"
-    ],
-    "display": "Spotlight",
-    "mbid": "4756bfae-2513-4b52-879c-72df387bb9f2",
-    "links": {
-      "spotify": "https://open.spotify.com/artist/45wbn0XSlPyZ6v7PMPlzP4"
-    },
-    "fetched": "2026-11-23",
-    "eventIds": [
-      536
-    ]
-  },
   "St. Aurora": {
     "genres": [
       "alternative",
@@ -7879,6 +8132,32 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Taemin"
     },
     "fetched": "2026-11-20"
+  },
+  "Tamikrest": {
+    "genres": [
+      "desert blues",
+      "mali",
+      "african"
+    ],
+    "display": "Tamikrest",
+    "mbid": "57b481d3-b44a-4573-9fce-2c2e21710912",
+    "links": {
+      "bandcamp": "https://tamikrest.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1718950",
+      "spotify": "https://open.spotify.com/artist/6nZ1wn9URV4oWk4UKuG872",
+      "deezer": "https://www.deezer.com/artist/90764",
+      "homepage": "http://tamikrest.net/",
+      "instagram": "https://www.instagram.com/tamikrest.official/",
+      "apple": "https://music.apple.com/gb/artist/273609759",
+      "tidal": "https://tidal.com/artist/3599717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1515351",
+      "youtube": "https://www.youtube.com/channel/UCgMiy1tOfcsBLNjDg766qjA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tamikrest"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      549
+    ]
   },
   "Tarja Turunen": {
     "genres": [
