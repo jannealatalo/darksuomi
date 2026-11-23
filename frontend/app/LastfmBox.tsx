@@ -2,9 +2,16 @@
 
 import { useState } from "react";
 
+// Same look as the other filter rows (genre/venue, DarkSuomi recommended):
+// the label in text-sm, details in small grey text.
+const ROW = "flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-gray-300";
+const DETAIL = "text-xs text-gray-500";
+const LINK = "text-purple-400 hover:text-purple-300";
+
 /**
- * "Your bands from Last.fm": a username field (no login), or the name in
- * use with a way to change or remove it.
+ * The Last.fm filter row: a username field (no login), or, once a name is
+ * given, a "show only bands I listen to" checkbox with the name and a way
+ * to change or remove it.
  */
 export default function LastfmBox({
   user,
@@ -31,66 +38,63 @@ export default function LastfmBox({
   const [draft, setDraft] = useState("");
 
   if (user && !editing) {
+    const ready = !loading && !error;
     return (
-      <p className="text-xs text-gray-400">
-        Last.fm:{" "}
-        <a
-          href={`https://www.last.fm/user/${encodeURIComponent(user)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-red-300 hover:text-red-200"
+      <div className={ROW}>
+        <label
+          className={`inline-flex items-center gap-2 ${
+            ready && gigCount > 0 ? "cursor-pointer hover:text-white" : "text-gray-500"
+          }`}
         >
-          {user}
-        </a>
-        {" · "}
-        {loading ? (
-          "loading your artists…"
-        ) : error === "not-found" ? (
-          <span role="alert" className="text-red-400">no such Last.fm user</span>
-        ) : error ? (
-          <span role="alert" className="text-red-400">Last.fm didn&apos;t answer, try again later</span>
-        ) : (
-          <>
-            {gigCount} {gigCount === 1 ? "gig" : "gigs"} by your top {artistCount} artists
-            {gigCount > 0 && (
-              <>
-                {" · "}
-                <button
-                  type="button"
-                  onClick={() => onOnlyTheseChange(!onlyThese)}
-                  aria-pressed={onlyThese}
-                  className={
-                    onlyThese
-                      ? "rounded bg-red-800 px-1.5 font-semibold text-red-50 hover:bg-red-700"
-                      : "text-purple-400 hover:text-purple-300"
-                  }
-                >
-                  {onlyThese ? "showing only these ✕" : "show only these"}
-                </button>
-              </>
-            )}
-          </>
-        )}
-        {" · "}
-        <button
-          type="button"
-          onClick={() => {
-            setDraft(user);
-            setEditing(true);
-          }}
-          className="text-purple-400 hover:text-purple-300"
-        >
-          change
-        </button>
-        {" · "}
-        <button
-          type="button"
-          onClick={() => onUserChange("")}
-          className="text-purple-400 hover:text-purple-300"
-        >
-          remove
-        </button>
-      </p>
+          <input
+            type="checkbox"
+            checked={onlyThese}
+            disabled={!ready || gigCount === 0}
+            onChange={(e) => onOnlyTheseChange(e.target.checked)}
+            className="accent-purple-600"
+          />
+          Show only bands I listen to on Last.fm
+        </label>
+        <span className={DETAIL}>
+          (
+          <a
+            href={`https://www.last.fm/user/${encodeURIComponent(user)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={LINK}
+          >
+            {user}
+          </a>
+          {": "}
+          {loading ? (
+            "loading your artists…"
+          ) : error === "not-found" ? (
+            <span role="alert" className="text-red-400">no such Last.fm user</span>
+          ) : error ? (
+            <span role="alert" className="text-red-400">Last.fm didn&apos;t answer, try again later</span>
+          ) : (
+            <>
+              {gigCount} {gigCount === 1 ? "gig" : "gigs"} by your top {artistCount} artists
+            </>
+          )}
+          {" · "}
+          <button
+            type="button"
+            onClick={() => {
+              setDraft(user);
+              setEditing(true);
+            }}
+            className={LINK}
+          >
+            change
+          </button>
+          {" · "}
+          <button type="button" onClick={() => onUserChange("")} className={LINK}>
+            remove
+          </button>
+          )
+        </span>
+      </div>
     );
   }
 
@@ -101,9 +105,9 @@ export default function LastfmBox({
         onUserChange(draft);
         setEditing(false);
       }}
-      className="flex flex-wrap items-center gap-2 text-xs text-gray-400"
+      className={ROW}
     >
-      <label htmlFor="lastfm-user">Find gigs by bands you listen to: your Last.fm username</label>
+      <label htmlFor="lastfm-user">Show bands I listen to on Last.fm:</label>
       <input
         id="lastfm-user"
         value={draft}
@@ -111,22 +115,18 @@ export default function LastfmBox({
         maxLength={15}
         autoComplete="off"
         spellCheck={false}
-        placeholder="username"
-        className="w-32 rounded border border-gray-700 bg-gray-900 px-2 py-1 text-gray-200 focus:border-red-500 focus:outline-none"
+        placeholder="Last.fm username"
+        className="w-36 rounded border border-gray-700 bg-gray-900 px-2 py-0.5 text-xs text-gray-200 focus:border-purple-500 focus:outline-none"
       />
       <button
         type="submit"
         disabled={!draft.trim()}
-        className="rounded bg-red-800 px-2.5 py-1 font-semibold text-red-50 hover:bg-red-700 disabled:opacity-50"
+        className="rounded border border-purple-700 bg-purple-900/60 px-2 py-0.5 text-xs font-semibold text-purple-100 hover:bg-purple-700 disabled:opacity-50"
       >
         Show
       </button>
       {editing && (
-        <button
-          type="button"
-          onClick={() => setEditing(false)}
-          className="text-purple-400 hover:text-purple-300"
-        >
+        <button type="button" onClick={() => setEditing(false)} className={`text-xs ${LINK}`}>
           cancel
         </button>
       )}

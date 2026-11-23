@@ -90,6 +90,9 @@ export default function GigCalendar({
   const listenedGigCount = events.filter(
     (e) => (showAllGenres || !isExcludedByGenre(e)) && isListenedEvent(e)
   ).length;
+  const recommendedGigCount = events.filter(
+    (e) => (showAllGenres || !isExcludedByGenre(e)) && isRecommendedEvent(e)
+  ).length;
   // Removing the Last.fm user also turns its filter off.
   const lastfmOn = onlyLastfm && lastfmArtists.size > 0;
   const recommendedOn = onlyRecommended && recommendedArtists.size > 0;
@@ -292,41 +295,16 @@ export default function GigCalendar({
           <div className="hidden md:block md:max-w-xs md:shrink-0">{siteLinks}</div>
         </div>
 
-        <div className="mb-6 space-y-3">
-        {recommendedArtists.size > 0 && (
-          <button
-            type="button"
-            onClick={() => setOnlyRecommended(!onlyRecommended)}
-            aria-pressed={recommendedOn}
-            className={`px-4 py-2 rounded flex items-center gap-2 transition ${
-              recommendedOn
-                ? "bg-purple-700 hover:bg-purple-600 text-white"
-                : "bg-gray-800 hover:bg-gray-700"
-            }`}
-          >
-            <span aria-hidden="true">★</span>
-            Filter what DarkSuomi recommends
-          </button>
-        )}
-          <LastfmBox
-            user={lastfmUser}
-            onUserChange={setLastfmUser}
-            loading={lastfmLoading}
-            error={lastfmError}
-            artistCount={lastfmArtists.size}
-            gigCount={listenedGigCount}
-            onlyThese={lastfmOn}
-            onOnlyTheseChange={setOnlyLastfm}
-          />
-        </div>
 
-        {/* Genre and venue checkboxes, collapsed by default to keep the
-            top of the page short on phones. */}
+        {/* Filters, one row each in the same style: genre and venue
+            (checkboxes collapsed by default to keep the top of the page
+            short on phones), DarkSuomi recommended, Last.fm. */}
+        <div className="mb-6 space-y-2">
         <details
           id="gig-filters"
           open={filtersOpen}
           onToggle={(e) => setFiltersOpen(e.currentTarget.open)}
-          className="mb-4 scroll-mt-4"
+          className="scroll-mt-4"
         >
           <summary className="cursor-pointer select-none text-sm text-gray-300 hover:text-white mb-2">
             Filter by genre and venue
@@ -437,6 +415,35 @@ export default function GigCalendar({
             </fieldset>
           )}
         </details>
+
+        {recommendedArtists.size > 0 && (
+          <label className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-gray-300 cursor-pointer hover:text-white">
+            <span className="inline-flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={onlyRecommended}
+                onChange={(e) => setOnlyRecommended(e.target.checked)}
+                className="accent-purple-600"
+              />
+              Show only DarkSuomi recommended
+            </span>
+            <span className="text-xs text-gray-500">
+              ({recommendedGigCount} {recommendedGigCount === 1 ? "gig" : "gigs"})
+            </span>
+          </label>
+        )}
+
+          <LastfmBox
+            user={lastfmUser}
+            onUserChange={setLastfmUser}
+            loading={lastfmLoading}
+            error={lastfmError}
+            artistCount={lastfmArtists.size}
+            gigCount={listenedGigCount}
+            onlyThese={lastfmOn}
+            onOnlyTheseChange={setOnlyLastfm}
+          />
+        </div>
 
 
         <hr className="border-gray-800 mb-6" />
