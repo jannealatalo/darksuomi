@@ -6,10 +6,17 @@ import meta from "../data/meta.json";
 import type { Event } from "../types/events";
 import type { CityKey } from "./cities";
 
+/**
+ * Stand-up shows (genre "stand-up") stay in the data, where standup.py
+ * picks them up for /standup, but aren't gigs: they're left out of the gig
+ * lists completely, also under "Show hidden genres".
+ */
+const isGig = (e: Event) => !(e.genres ?? []).includes("stand-up");
+
 const EVENTS_BY_CITY: Record<CityKey, Event[]> = {
-  helsinki: events as Event[],
-  tampere: tampereEvents as Event[],
-  oulu: ouluEvents as Event[],
+  helsinki: (events as Event[]).filter(isGig),
+  tampere: (tampereEvents as Event[]).filter(isGig),
+  oulu: (ouluEvents as Event[]).filter(isGig),
 };
 
 export const excludedGenres = new Set<string>(genreConfig.excludeGenres);

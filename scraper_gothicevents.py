@@ -10,7 +10,9 @@ The events page (/p/events.html) has one line per event:
    Varjobaari, Tampere"
 and each post has the time ("20:00-", "Doors: 20:00", "Ovet: 19:00"), the
 price ("Liput: 10€") and sometimes a ticket link. The post also says
-"Tapahtuma on peruttu!" when an event is cancelled.
+"Tapahtuma on peruttu!" when an event is cancelled. These are read from
+the blog's JSON feed (the start of each post as plain text, 150 posts per
+request): loading each post page from GitHub's runners gets HTTP 429.
 
 Only events in Dark Suomi's cities are used (Helsinki, Espoo, Vantaa ->
 the main site; Tampere; Oulu). An event is left out when a venue scraper
@@ -26,6 +28,7 @@ Usage:
 """
 
 import argparse
+import html
 import re
 import sys
 import time
@@ -37,6 +40,8 @@ from bs4 import BeautifulSoup
 from eventstore import load_events, merge, save_events
 
 LIST_URL = "https://gothiceventsfinland.blogspot.com/p/events.html"
+FEED_URL = "https://gothiceventsfinland.blogspot.com/feeds/posts/default?alt=json&max-results=150"
+FEED_PAGES = 3
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                          "(KHTML, like Gecko) Chrome/130.0 Safari/537.36"}
 SITE_OF_CITY = {"helsinki": "helsinki", "espoo": "helsinki", "vantaa": "helsinki",
@@ -133,6 +138,61 @@ def post_details(url: str) -> dict:
     return out
 
 
+def feed_summaries() -> dict[str, str]:
+    """
+    Post URL -> the start of the post as plain text, for the newest
+    FEED_PAGES * 150 posts (Blogger's JSON feed gives 150 per request; about
+    a year of posts). Loading each post page from GitHub's runners gets
+    HTTP 429 from Google.
+    """
+    entries = []
+    for page in range(FEED_PAGES):
+        try:
+            resp = requests.get(FEED_URL, params={"start-index": 1 + 150 * page},
+                                headers=HEADERS, timeout=60)
+            resp.raise_for_status()
+            got = resp.json()["feed"].get("entry", [])
+        except (requests.RequestException, ValueError, KeyError) as e:
+            print(f"  ! feed: {e}", file=sys.stderr)
+            break
+        entries += got
+        if len(got) < 150:
+            break
+    out = {}
+    for e in entries:
+        url = next((l["href"] for l in e.get("link", []) if l.get("rel") == "alternate"), None)
+        text = html.unescape((e.get("summary") or e.get("content") or {}).get("$t", ""))
+        if url and text:
+            out[url.replace("http://", "https://")] = " ".join(text.split())
+    return out
+
+
+def summary_details(text: str) -> dict:
+    """post_details() from a feed summary, whose lines are glued together:
+    "08.01.2027Live:Miseria UltimaSortajaDJ:AlbiinoVarjobaari, Tampere 20:00-Liput: 10€…"."""
+    out = {"live": bool(re.search(r"live\s*:", text, re.I)),
+           "dj": bool(re.search(r"\bdj\b|dj\s*:", text, re.I)),  # "StukaDJ:Albiino"
+           "cancelled": bool(CANCELLED.search(text[:80]))}
+    # "Doors: 20.00", "Ovet klo 20:00", else the first "20:00" (the date is "08.01.2027").
+    m = (re.search(r"(ovet|doors)(?:\s*klo)?\s*:?\s*(\d{1,2})[:.](\d{2})", text, re.I)
+         or re.search(r"()\b(\d{1,2}):(\d{2})", text))
+    if m and int(m.group(2)) < 24:
+        out["time"] = f"{int(m.group(2)):02d}:{m.group(3)}"
+        if m.group(1):
+            out["doors"] = out["time"]
+    m = re.search(r"(?:liput|tickets|pääsymaksu|hinta)(?:\s+alkaen)?\s*:\s*"
+                  r"(\d[\d,.]*\s*€(?:\s*/\s*[^€:]{0,25}?\d[\d,.]*\s*€)*)", text, re.I)
+    if m:
+        out["price"] = m.group(1).strip()
+    elif re.search(r"ei pääsymaksua|vapaa pääsy|free entry", text, re.I):
+        out["price"] = "free"
+    tickets = [u.rstrip(".,)") for u in re.findall(r"https?://[^\s*]+", text)
+               if "blogger" not in u and "blogspot" not in u]
+    if tickets:
+        out["ticketUrl"] = tickets[0]
+    return out
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--dry-run", action="store_true", help="only print, don't save")
@@ -144,6 +204,7 @@ def main() -> int:
     items = [i for i in parse_list(resp.text)
              if i["date"] >= today and i["city"].casefold() in SITE_OF_CITY]
     print(f"Gothic Events Finland: {len(items)} upcoming events in Dark Suomi's cities")
+    summaries = feed_summaries() if items else {}
 
     stores = {}
     scraped = {}
@@ -156,9 +217,12 @@ def main() -> int:
         if not item["url"]:  # a line without its own post
             item["url"] = f"{LIST_URL}#{item['date'].isoformat()}-{re.sub(r'\W+', '-', item['title'].casefold())[:40]}"
             details = {"live": True, "dj": False, "cancelled": False}
+        elif item["url"].replace("http://", "https://") in summaries:
+            details = summary_details(summaries[item["url"].replace("http://", "https://")])
         else:
-            # Google sometimes rate-limits Blogger for GitHub's runners (HTTP
-            # 429): skip that event tonight instead of failing the whole run.
+            # Not in the feed (an old post): load the post itself. Google
+            # sometimes rate-limits Blogger for GitHub's runners (HTTP 429):
+            # skip that event tonight instead of failing the whole run.
             time.sleep(1)
             try:
                 details = post_details(item["url"])
