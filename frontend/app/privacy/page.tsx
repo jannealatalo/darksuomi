@@ -82,44 +82,36 @@ export default function PrivacyPage() {
           </p>
           <p>
             Filter choices (genres, venues) are kept only in the open page and are
-            forgotten when you leave it.
+            forgotten when you leave it. &quot;Filter what DarkSuomi recommends&quot;
+            uses a list of bands kept on the site; it needs nothing from you.
           </p>
         </Section>
 
-        <Section title="Logging in with Spotify (optional, invite only)">
+        <Section title="Your Last.fm username (optional)">
           <p>
-            If you log in with Spotify, the site asks Spotify only for permission to
-            read the artists you follow. With that:
+            If you enter a Last.fm username to find gigs by bands you listen to:
           </p>
           <ul className="list-disc pl-5 space-y-1">
             <li>
-              Your Spotify display name and the login tokens are kept in an encrypted
-              login cookie in your own browser. Dark Suomi has no user database and
-              does not store them on any server.
+              The username is remembered only in your own browser (local storage),
+              so the site can show your bands on your next visit. Removing it on the
+              page, or clearing the site data, forgets it.
             </li>
             <li>
-              Your followed artists are fetched directly from Spotify by your browser
-              and used only to mark and filter gigs on the page. They are not saved
-              or sent anywhere else.
-            </li>
-            <li>
-              The login cookie is strictly necessary for the login to work, so no
-              cookie consent banner is needed. It lasts up to 30 days, or until you
-              log out.
+              The site&apos;s server asks{" "}
+              <a
+                href="https://www.last.fm/legal/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-400 hover:text-purple-300"
+              >
+                Last.fm
+              </a>{" "}
+              for that user&apos;s public list of most played artists and keeps the
+              answer in a temporary cache for a few hours. Nothing is saved in a
+              database, and no login or password is involved.
             </li>
           </ul>
-          <p>
-            You can remove the site&apos;s access at any time from your{" "}
-            <a
-              href="https://www.spotify.com/account/apps/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple-400 hover:text-purple-300"
-            >
-              Spotify account&apos;s app settings
-            </a>
-            . Logging out deletes the login cookie.
-          </p>
         </Section>
 
         <Section title="Daily updates by email (optional)">
@@ -154,8 +146,8 @@ export default function PrivacyPage() {
           <p>
             Under the EU General Data Protection Regulation you can ask what data
             concerns you and ask for it to be corrected or deleted. Because Dark Suomi
-            stores no personal data on its own servers, logging out (or clearing your
-            browser&apos;s cookies for darksuomi.fi) removes everything; an email
+            stores no personal data on its own servers, clearing your browser&apos;s
+            site data for darksuomi.fi removes everything; an email
             subscription is removed by unsubscribing. For questions,
             contact {mail}. You can also contact the Finnish Data Protection
             Ombudsman (tietosuoja.fi).
@@ -166,9 +158,9 @@ export default function PrivacyPage() {
           <p>
             Dark Suomi ei käytä mainoksia eikä seurantaevästeitä. Kävijämäärät
             lasketaan nimettömästi Vercel Web Analyticsilla ilman evästeitä.
-            Vapaaehtoinen Spotify-kirjautuminen lukee vain seuraamasi artistit;
-            nimesi ja kirjautumistiedot säilyvät salattuna evästeenä omassa
-            selaimessasi, eikä niitä tallenneta palvelimelle. Jos tilaat päivittäiset
+            Jos annat Last.fm-käyttäjänimen, se muistetaan vain omassa
+            selaimessasi, ja palvelin hakee Last.fm:stä sen julkisen listan
+            kuunnelluimmista artisteista (välimuistissa muutaman tunnin). Jos tilaat päivittäiset
             keikkapäivitykset sähköpostiin, osoitteesi säilyttää uutiskirjepalvelu
             Buttondown, ja tilauksen voi perua jokaisen viestin linkistä. Sivuston
             ylläpitäjä Vercel säilyttää tavanomaisia teknisiä lokitietoja.

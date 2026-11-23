@@ -13,6 +13,8 @@ export default function LastfmBox({
   error,
   artistCount,
   gigCount,
+  onlyThese,
+  onOnlyTheseChange,
 }: {
   user: string;
   onUserChange: (user: string) => void;
@@ -21,6 +23,9 @@ export default function LastfmBox({
   artistCount: number;
   /** Upcoming gigs (in the shown city) by the user's artists. */
   gigCount: number;
+  /** Showing only the gigs by the user's artists. */
+  onlyThese: boolean;
+  onOnlyTheseChange: (on: boolean) => void;
 }) {
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState("");
@@ -47,6 +52,23 @@ export default function LastfmBox({
         ) : (
           <>
             {gigCount} {gigCount === 1 ? "gig" : "gigs"} by your top {artistCount} artists
+            {gigCount > 0 && (
+              <>
+                {" · "}
+                <button
+                  type="button"
+                  onClick={() => onOnlyTheseChange(!onlyThese)}
+                  aria-pressed={onlyThese}
+                  className={
+                    onlyThese
+                      ? "rounded bg-red-800 px-1.5 font-semibold text-red-50 hover:bg-red-700"
+                      : "text-purple-400 hover:text-purple-300"
+                  }
+                >
+                  {onlyThese ? "showing only these ✕" : "show only these"}
+                </button>
+              </>
+            )}
           </>
         )}
         {" · "}

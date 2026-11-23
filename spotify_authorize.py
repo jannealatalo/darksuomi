@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-One-time setup: authorize the Dark Suomi Spotify account for playlists.py.
+One-time setup: authorize the Dark Suomi Spotify account for playlists.py
+and recommended.py.
 
 Uses the separate "Dark Suomi playlists" Spotify app (not the website's app),
 so the nightly playlist job can never rate-limit the website's login.
@@ -32,7 +33,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
 
 REDIRECT_URI = "http://127.0.0.1:3000/api/auth/callback/spotify"
-SCOPES = "playlist-modify-public playlist-modify-private ugc-image-upload"
+# user-follow-read: recommended.py lists the bands the account follows.
+SCOPES = "playlist-modify-public playlist-modify-private ugc-image-upload user-follow-read"
 
 
 def user_env(name: str) -> str | None:

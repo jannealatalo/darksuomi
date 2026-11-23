@@ -13,9 +13,6 @@ import {
 import type { Event } from "../types/events";
 import ExpectedSetlists from "./ExpectedSetlist";
 
-const SPOTIFY_ICON =
-  "M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-12-1.5-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15.179 10.561 18.72 12.84c.361.21.599.659.359 1.2zm.12-3.36C15.312 8.322 8.654 8.034 5.409 9.425c-.589.25-1.238-.056-1.488-.646-.25-.59.056-1.24.646-1.488 4.326-1.822 11.461-1.471 15.174 1.971.406.325.344 1.025-.067 1.407-.413.347-1.113.291-1.519-.034z";
-
 /** The venue name, linked to the gig's page at the venue when known. */
 function VenueName({ event }: { event: Event }) {
   const url = venueUrl(event);
@@ -39,14 +36,15 @@ function VenueName({ event }: { event: Event }) {
  */
 export default function EventList({
   events,
-  isFollowed,
+  isRecommended,
   isListened,
   past = false,
   jokes = true,
   from,
 }: {
   events: Event[];
-  isFollowed?: (event: Event) => boolean;
+  /** By a band DarkSuomi recommends (followed by its Spotify account). */
+  isRecommended?: (event: Event) => boolean;
   /** In the visitor's Last.fm top artists. */
   isListened?: (event: Event) => boolean;
   past?: boolean;
@@ -89,7 +87,7 @@ export default function EventList({
                   <EventItem
                     key={`${event.site ?? ""}${event.id}`}
                     event={event}
-                    followed={isFollowed?.(event) ?? false}
+                    recommended={isRecommended?.(event) ?? false}
                     listened={isListened?.(event) ?? false}
                     past={past}
                   />
@@ -113,12 +111,12 @@ function saleStatus(event: Event): Event["status"] {
 
 function EventItem({
   event,
-  followed,
+  recommended,
   listened,
   past,
 }: {
   event: Event;
-  followed: boolean;
+  recommended: boolean;
   listened: boolean;
   past: boolean;
 }) {
@@ -139,15 +137,13 @@ function EventItem({
         >
           {event.artist}
         </h3>
-        {followed && (
-          <svg
-            className="w-4 h-4 mt-1 shrink-0 text-green-500"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            aria-label="You follow this artist on Spotify"
+        {recommended && (
+          <span
+            className="mt-1 shrink-0 rounded bg-purple-900/60 px-1 text-xs font-semibold text-purple-200"
+            title="DarkSuomi recommends this band"
           >
-            <path d={SPOTIFY_ICON} />
-          </svg>
+            ★ DarkSuomi
+          </span>
         )}
         {listened && (
           <span
