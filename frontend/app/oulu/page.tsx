@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { withBandInfo } from "../../lib/bands";
 import { getEvents } from "../../lib/events";
 import GigCalendar from "../GigCalendar";
+import GigJsonLd from "../GigJsonLd";
 
 export const metadata: Metadata = {
   title: "Dark Suomi Oulu",
@@ -10,5 +11,11 @@ export const metadata: Metadata = {
 
 /** Oulu site: its own venues and data (data/oulu/events.json). */
 export default function OuluPage() {
-  return <GigCalendar events={withBandInfo(getEvents("oulu"), "oulu")} city="oulu" />;
+  const events = getEvents("oulu");
+  return (
+    <>
+      <GigJsonLd events={events} city="oulu" />
+      <GigCalendar events={withBandInfo(events, "oulu")} city="oulu" />
+    </>
+  );
 }
