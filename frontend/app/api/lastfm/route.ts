@@ -18,15 +18,19 @@ type TopArtistsResponse = {
   topartists?: { artist?: { name: string }[] };
 };
 
-type Result = { artists: string[] } | { error: "not-found" | "unavailable" };
+type Result = { artists: string[] } | { error: "not-found" };
 
+/**
+ * Cached per user. A missing key or a Last.fm hiccup throws instead of
+ * returning, so the failure isn't cached and the next request tries again.
+ */
 async function topArtists(user: string): Promise<Result> {
   "use cache";
   // Listening changes slowly; one Last.fm call per user per few hours is plenty.
   cacheLife("hours");
 
   const key = process.env.LASTFM_API_KEY;
-  if (!key) return { error: "unavailable" };
+  if (!key) throw new Error("LASTFM_API_KEY is not set");
 
   const url = new URL("https://ws.audioscrobbler.com/2.0/");
   url.search = new URLSearchParams({
@@ -38,17 +42,15 @@ async function topArtists(user: string): Promise<Result> {
     format: "json",
   }).toString();
 
-  try {
-    const response = await fetch(url, { headers: { "User-Agent": "DarkSuomi/1.0" } });
-    const data: TopArtistsResponse = await response.json();
-    // Error 6: no such user.
-    if (data.error === 6) return { error: "not-found" };
-    if (!response.ok || data.error) return { error: "unavailable" };
-    const names = (data.topartists?.artist ?? []).map((a) => a.name.toLowerCase());
-    return { artists: [...new Set(names)] };
-  } catch {
-    return { error: "unavailable" };
+  const response = await fetch(url, { headers: { "User-Agent": "DarkSuomi/1.0" } });
+  const data: TopArtistsResponse = await response.json();
+  // Error 6: no such user.
+  if (data.error === 6) return { error: "not-found" };
+  if (!response.ok || data.error) {
+    throw new Error(`Last.fm error ${data.error ?? response.status}: ${data.message ?? ""}`);
   }
+  const names = (data.topartists?.artist ?? []).map((a) => a.name.toLowerCase());
+  return { artists: [...new Set(names)] };
 }
 
 export async function GET(request: NextRequest) {
@@ -57,10 +59,14 @@ export async function GET(request: NextRequest) {
     return Response.json({ error: "not-found" }, { status: 404 });
   }
   // Last.fm usernames are case-insensitive: one cache entry per user.
-  const result = await topArtists(user.toLowerCase());
-  if ("error" in result) {
-    return Response.json(result, { status: result.error === "not-found" ? 404 : 502 });
+  let result: Result;
+  try {
+    result = await topArtists(user.toLowerCase());
+  } catch (error) {
+    console.error("Last.fm top artists failed:", error);
+    return Response.json({ error: "unavailable" }, { status: 502 });
   }
+  if ("error" in result) return Response.json(result, { status: 404 });
   return Response.json(result, {
     headers: { "Cache-Control": "public, s-maxage=21600, stale-while-revalidate=86400" },
   });
