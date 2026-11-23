@@ -335,6 +335,17 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "Albert": {
+    "source": "lastfm",
+    "matchedName": "Albert",
+    "tags": [
+      "electronic",
+      "techno",
+      "breakbeat",
+      "dance"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Alchemy": {
     "source": "lastfm",
     "matchedName": "ALCHEMY",
@@ -978,6 +989,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Baby Blu": {
+    "source": "musicbrainz",
+    "matchedName": "Baby Blu",
+    "mbid": "61f3e646-3f6a-4e3d-9d91-48d1fcae0ff8",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
   "Baby Lasagna": {
     "source": "lastfm",
     "matchedName": "Baby Lasagna",
@@ -1000,6 +1019,17 @@
       "liminal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Bad Apples": {
+    "source": "lastfm",
+    "matchedName": "Bad Apples",
+    "tags": [
+      "lo-fi",
+      "indie",
+      "club",
+      "new wave"
+    ],
+    "fetched": "2026-11-23"
   },
   "Balance Breach": {
     "source": "lastfm",
@@ -1163,6 +1193,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-22"
+  },
+  "Blindboünd": {
+    "source": "musicbrainz",
+    "matchedName": "Blindboünd",
+    "mbid": "12f2a6da-d93c-42ef-89ac-371512e1cb73",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Block of Flats": {
     "source": "lastfm",
@@ -1374,6 +1412,24 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Cardinals Folly": {
+    "source": "lastfm",
+    "matchedName": "Cardinals Folly",
+    "tags": [
+      "doom metal",
+      "traditional doom metal"
+    ],
+    "fetched": "2026-11-23"
+  },
+  "Caskets Open": {
+    "source": "lastfm",
+    "matchedName": "Caskets Open",
+    "tags": [
+      "doom metal",
+      "traditional doom metal"
+    ],
+    "fetched": "2026-11-23"
   },
   "CATCH YOUR BREATH": {
     "source": "lastfm",
@@ -1589,6 +1645,11 @@
       "brutal deathcore"
     ],
     "fetched": "2026-11-21"
+  },
+  "Crushroom": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Cryptic Hatred": {
     "source": "lastfm",
@@ -1817,6 +1878,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Demonic Death Judge": {
+    "source": "lastfm",
+    "matchedName": "Demonic Death Judge",
+    "tags": [
+      "sludge",
+      "stoner metal",
+      "sludge metal",
+      "doom metal"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Desperate Measures": {
     "source": "lastfm",
     "matchedName": "Desperate Measures",
@@ -1857,6 +1929,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Dharma Guns": {
+    "source": "musicbrainz",
+    "matchedName": "Dharma Guns",
+    "mbid": "fb234a55-e167-4ea4-876b-2ef23547816d",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
   "DIDnBASS": {
     "source": "musicbrainz",
     "matchedName": "DIDnBASS",
@@ -1872,6 +1952,14 @@
       "gothic rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Die Oberherren": {
+    "source": "lastfm",
+    "matchedName": "Die Oberherren",
+    "tags": [
+      "gothic rock"
+    ],
+    "fetched": "2026-11-23"
   },
   "Dina Ögon": {
     "source": "lastfm",
@@ -2255,6 +2343,14 @@
       "jazz"
     ],
     "fetched": "2026-11-19"
+  },
+  "Elektrus Erektus": {
+    "source": "musicbrainz",
+    "matchedName": "Elektrus Erektus",
+    "mbid": "425d5a63-519f-4a72-a064-ac464a41fc45",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Elias Kaskinen": {
     "source": "lastfm",
@@ -2901,6 +2997,11 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Fulci & Arottenbit": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
   "Gaala Liveshow": {
     "source": "notfound",
     "tags": [],
@@ -3134,6 +3235,11 @@
       "metallic hardcore"
     ],
     "fetched": "2026-11-19"
+  },
+  "Guns N’ Roses + Museo plays Muse": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Gunz For Hire": {
     "source": "lastfm",
@@ -3529,6 +3635,15 @@
     "tags": [],
     "fetched": "2026-11-22"
   },
+  "Hites": {
+    "source": "lastfm",
+    "matchedName": "hites",
+    "tags": [
+      "alternative rock",
+      "noise rock"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Ho": {
     "source": "notfound",
     "tags": [],
@@ -3831,6 +3946,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Ira": {
+    "source": "lastfm",
+    "matchedName": "IRA",
+    "tags": [
+      "rock",
+      "polish rock",
+      "hard rock"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Irina": {
     "source": "lastfm",
     "matchedName": "Irina",
@@ -4123,6 +4248,17 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "Jess By The Lake": {
+    "source": "lastfm",
+    "matchedName": "Jess By The Lake",
+    "tags": [
+      "rock",
+      "psychedelic rock",
+      "space rock",
+      "occult rock"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Jesse Kaikuranta": {
     "source": "lastfm",
     "matchedName": "Jesse Kaikuranta",
@@ -4231,6 +4367,11 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Joni Ekman Group": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Jonna Tervomaa": {
     "source": "lastfm",
@@ -4753,6 +4894,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kielarit": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
   "Kiitos Katri Helena": {
     "source": "notfound",
     "tags": [],
@@ -5169,6 +5315,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Laineen Kasperi": {
+    "source": "lastfm",
+    "matchedName": "Laineen Kasperi",
+    "tags": [
+      "hip hop",
+      "rap",
+      "experimental"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Lala Salama": {
     "source": "lastfm",
     "matchedName": "Lala Salama",
@@ -5215,6 +5371,15 @@
       "iskelmä"
     ],
     "fetched": "2026-11-19"
+  },
+  "Lavina": {
+    "source": "lastfm",
+    "matchedName": "Lavina",
+    "tags": [
+      "progressive metal",
+      "metal"
+    ],
+    "fetched": "2026-11-23"
   },
   "Leave The Light On": {
     "source": "musicbrainz",
@@ -5753,6 +5918,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Malla": {
+    "source": "lastfm",
+    "matchedName": "Malla",
+    "tags": [
+      "house"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Manifesto Jukebox": {
     "source": "lastfm",
     "matchedName": "Manifesto Jukebox",
@@ -5929,6 +6102,16 @@
       "stand-up"
     ],
     "fetched": "2026-11-19"
+  },
+  "Mary Ann Hawkins": {
+    "source": "lastfm",
+    "matchedName": "Mary Ann Hawkins",
+    "tags": [
+      "surf rock",
+      "surf",
+      "instrumental"
+    ],
+    "fetched": "2026-11-23"
   },
   "Marzi Nyman": {
     "source": "lastfm",
@@ -6470,6 +6653,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Museo": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
   "Musica Nova Helsinki": {
     "source": "notfound",
     "tags": [],
@@ -6685,6 +6873,19 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Nikke": {
+    "source": "musicbrainz",
+    "matchedName": "Nikke",
+    "mbid": "300d3267-37d3-4739-9a56-deb642c8d95b",
+    "country": "CN",
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
+  "Nikke & The Whiskars": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Nikkinen The Beatles": {
     "source": "notfound",
@@ -7535,6 +7736,16 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "Pohjolan Ilmari": {
+    "source": "lastfm",
+    "matchedName": "Pohjolan Ilmari",
+    "tags": [
+      "psychedelic rock",
+      "alternative rock",
+      "finnish rock"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Point Break": {
     "source": "lastfm",
     "matchedName": "Point Break",
@@ -7746,6 +7957,11 @@
       "death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Pyry Laakso": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "PYRYTHEKID": {
     "source": "musicbrainz",
@@ -8139,6 +8355,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Rob Coffinshaker": {
+    "source": "lastfm",
+    "matchedName": "Rob Coffinshaker",
+    "tags": [
+      "alt-country",
+      "country",
+      "death country",
+      "dark country"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Robert Finley": {
     "source": "lastfm",
     "matchedName": "Robert Finley",
@@ -8251,7 +8478,7 @@
     "tags": [
       "trap",
       "rap",
-      "digicore"
+      "hyperpop"
     ],
     "fetched": "2026-11-19"
   },
@@ -8320,6 +8547,11 @@
       "indie folk"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ryym": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
   },
   "Räjäyttäjät": {
     "source": "lastfm",
@@ -8505,6 +8737,15 @@
       "alternative"
     ],
     "fetched": "2026-11-19"
+  },
+  "Sara Parkman": {
+    "source": "lastfm",
+    "matchedName": "Sara Parkman",
+    "tags": [
+      "folk",
+      "experimental"
+    ],
+    "fetched": "2026-11-23"
   },
   "Satu Sopanen": {
     "source": "musicbrainz",
@@ -8976,6 +9217,15 @@
     ],
     "fetched": "2026-11-21"
   },
+  "Spiritus Mortis": {
+    "source": "lastfm",
+    "matchedName": "Spiritus Mortis",
+    "tags": [
+      "doom metal",
+      "traditional doom metal"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Split Dogs": {
     "source": "lastfm",
     "matchedName": "Split Dogs",
@@ -9210,6 +9460,16 @@
     ],
     "fetched": "2026-11-18"
   },
+  "Sunniva": {
+    "source": "lastfm",
+    "matchedName": "Sunniva",
+    "tags": [
+      "sludge",
+      "doom metal",
+      "post-metal"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Suomi Nauraa": {
     "source": "notfound",
     "tags": [],
@@ -9387,6 +9647,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "T.Jarva & The Dark Place": {
+    "source": "lastfm",
+    "matchedName": "T.Jarva & The Dark Place",
+    "tags": [
+      "folk",
+      "alt-country",
+      "acoustic"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Tabloited": {
     "source": "lastfm",
     "matchedName": "Tabloited",
@@ -9494,6 +9764,15 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "Teini-Pää": {
+    "source": "lastfm",
+    "matchedName": "Teini-Pää",
+    "tags": [
+      "pop punk",
+      "wuss punk"
+    ],
+    "fetched": "2026-11-23"
+  },
   "Teleks": {
     "source": "lastfm",
     "matchedName": "Teleks",
@@ -9534,6 +9813,16 @@
       "hardcore metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Terveet Kädet": {
+    "source": "lastfm",
+    "matchedName": "Terveet Kädet",
+    "tags": [
+      "hardcore punk",
+      "punk",
+      "hardcore"
+    ],
+    "fetched": "2026-11-23"
   },
   "The 12 Tenors": {
     "source": "musicbrainz",
@@ -9838,6 +10127,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "The Whiskars": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-23"
+  },
   "The Zenith Passage": {
     "source": "lastfm",
     "matchedName": "The Zenith Passage",
@@ -10118,6 +10412,16 @@
       "rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Trebla": {
+    "source": "lastfm",
+    "matchedName": "Trebla",
+    "tags": [
+      "hip hop",
+      "reggae",
+      "dancehall"
+    ],
+    "fetched": "2026-11-23"
   },
   "Tribal Gaze": {
     "source": "lastfm",
@@ -10663,6 +10967,17 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "ville1000000": {
+    "source": "lastfm",
+    "matchedName": "ville1000000",
+    "tags": [
+      "trap",
+      "hyperpop",
+      "rap",
+      "cloud rap"
+    ],
+    "fetched": "2026-11-23"
   },
   "Villit Nautinnot": {
     "source": "notfound",

@@ -104,6 +104,8 @@ TAG_ALIASES = {
     "drag queen": "stand-up",
     "drag": "stand-up",
     "rock 'n' roll": "rock & roll",
+    # Hyperpop rap; would otherwise pass as metal/punk via "*core".
+    "digicore": "hyperpop",
 }
 
 # Country codes used in Tavastia titles, e.g. "Crashdiet (SWE)".
@@ -513,6 +515,28 @@ KEEP_HIDDEN_GENRES = re.compile(r"\btrip[- ]?hop\b", re.I)
 def keep_when_scraping(genres: list[str], config: dict) -> bool:
     """Should a filtering scraper keep a gig with these genres?"""
     return shown_by_default(genres, config) or any(KEEP_HIDDEN_GENRES.search(t) for t in genres)
+
+
+def keep_fitting(gigs: list[dict], show_all: bool = False) -> list[dict]:
+    """
+    For scrapers of mixed venues (jazz, rap, club nights...): look up the
+    bands' tags right away and return only the gigs that fit Dark Suomi
+    (keep_when_scraping). Prints the kept gigs, or every gig with show_all.
+    """
+    cache = load_json(CACHE_FILE, {})
+    config = load_json(CONFIG_FILE, {})
+    overrides = config.get("artistOverrides", {})
+    kept = []
+    for event in gigs:
+        _artists, tags = gig_tags(event["artist"], cache, overrides)
+        genres = pick_genres(event, tags)
+        keep = keep_when_scraping(genres, config)
+        if show_all or keep:
+            print(f"  {'+' if keep else '-'} {event['date'][:10]} {event['artist']}  {genres[:4]}")
+        if keep:
+            kept.append(event)
+    save_json(CACHE_FILE, dict(sorted(cache.items(), key=lambda kv: kv[0].casefold())))
+    return kept
 
 
 DJ_TITLE = re.compile(r"\b(dj|djs|disko|disco)\b|-disko\b", re.I)

@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parent
 UPDATES_FILE = DATA_DIR / "updates.json"
 KEEP_DAYS = 120
 SITE = "https://www.darksuomi.fi"
-CITY_NAMES = {"helsinki": "Helsinki & Espoo", "tampere": "Tampere", "oulu": "Oulu"}
+CITY_NAMES = {"helsinki": "Helsinki, Espoo & Vantaa", "tampere": "Tampere", "oulu": "Oulu"}
 CITY_PATHS = {"helsinki": "/", "tampere": "/tampere", "oulu": "/oulu"}
 
 

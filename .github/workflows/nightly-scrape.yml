@@ -143,6 +143,16 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python scraper_glivelab.py
 
+      - name: Scrape Kuudes Linja (only gigs whose genres fit)
+        continue-on-error: true
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: python scraper_kuudeslinja.py
+
+      - name: Rokki Raikaa shows in Vantaa / Espoo / Helsinki
+        continue-on-error: true
+        run: python scraper_rokkiraikaa.py
+
       - name: Scrape Krapin Paja, Tuusula (only gigs whose genres fit)
         continue-on-error: true
         env:

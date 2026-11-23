@@ -18,6 +18,9 @@ export const VENUE_LINKS: Record<string, string> = {
   Ääniwalli: "https://aaniwalli.fi/",
   "Apollo Live Club": "https://apolloliveclub.fi/tapahtumat/",
   "G Livelab": "https://glivelab.fi/",
+  "Kuudes Linja": "https://www.kuudeslinja.com/",
+  // Vantaa; Rokki Raikaa's "Vantaan suurimmat rokit" show.
+  Myyrmäkihalli: "https://rokkiraikaa.fi/rokki-raikaa-vantaan-suurimmat-rokit/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
   "Espoon kulttuurikeskus": "https://www.espoo.fi/fi/espoon-kulttuurikeskus/espoon-kulttuurikeskuksen-tapahtumat",
   // Tuusula, at Hotel Krapi; the club gigs are listed in its web shop.
@@ -31,6 +34,8 @@ export const VENUE_LINKS: Record<string, string> = {
   "G Livelab Tampere": "https://glivelab.fi/tampere/",
   "Nokia Arena": "https://nokiaarena.fi/",
   "Bar Kotelo": "https://barkotelo.fi/",
+  F54: "https://f54.fi/ohjelma/",
+  "Hakametsän jäähallin piha-alue (Rokki Raikaa)": "https://rokkiraikaa.fi/tampere-2027/",
   // Oulu
   "45 Special": "https://45special.com/",
   Tullisali: "https://www.tullisali.fi/",

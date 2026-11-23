@@ -591,12 +591,12 @@
     ]
   },
   {
-    "artist": "St. Aurora + tba",
+    "artist": "St. Aurora + support: Melankolia",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
     "date": "2026-12-02T19:00:00",
-    "ticketUrl": "https://tullikamari.fi/tapahtumat/st-aurora-tba-02-12-2026/",
-    "eventUrl": "https://tullikamari.fi/tapahtumat/st-aurora-tba-02-12-2026/",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/st-aurora-support-melankolia-02-12-2026/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/st-aurora-support-melankolia-02-12-2026/",
     "doors": "19:00",
     "price": "alk. 19€, ovelta 22€",
     "age": "K-18",
@@ -644,27 +644,6 @@
       "Indie Tampereen pikkujoulut"
     ],
     "genres": []
-  },
-  {
-    "artist": "St. Aurora + support: Melankolia",
-    "venue": "Tullikamarin Klubi",
-    "city": "Tampere",
-    "date": "2026-12-02T19:00:00",
-    "ticketUrl": "https://tullikamari.fi/tapahtumat/st-aurora-support-melankolia-02-12-2026/",
-    "eventUrl": "https://tullikamari.fi/tapahtumat/st-aurora-support-melankolia-02-12-2026/",
-    "doors": "19:00",
-    "price": "alk. 19€, ovelta 22€",
-    "age": "K-18",
-    "room": "Klubi",
-    "id": 202,
-    "artists": [
-      "St. Aurora"
-    ],
-    "genres": [
-      "alternative",
-      "emo",
-      "alternative rock"
-    ]
   },
   {
     "artist": "Aatulove, Jemina -tuplalevynjulkaisukeikka",
@@ -1150,7 +1129,7 @@
       "d1vari",
       "electronic",
       "trap",
-      "digicore",
+      "hyperpop",
       "indie"
     ]
   },
@@ -2926,26 +2905,6 @@
     ]
   },
   {
-    "artist": "Ruusut",
-    "venue": "Tavara-asema",
-    "city": "Tampere",
-    "date": "2027-02-27T19:00:00",
-    "ticketUrl": "https://tavara-asema.fi/ohjelma/ruusut-27-02-2027/",
-    "eventUrl": "https://tavara-asema.fi/ohjelma/ruusut-27-02-2027/",
-    "doors": "19:00",
-    "price": "alk. 37,50€, ovelta 40€",
-    "age": "K-18",
-    "id": 14,
-    "artists": [
-      "Ruusut"
-    ],
-    "genres": [
-      "electronic",
-      "synthpop",
-      "pop"
-    ]
-  },
-  {
     "artist": "Ruusut + Kastehelmi",
     "venue": "Tavara-asema",
     "city": "Tampere",
@@ -2955,7 +2914,7 @@
     "doors": "19:00",
     "price": "alk. 37,50€, ovelta 40€",
     "age": "K-18",
-    "id": 201,
+    "id": 14,
     "artists": [
       "Ruusut",
       "Kastehelmi"
@@ -4134,26 +4093,6 @@
     "genres": []
   },
   {
-    "artist": "Kanonenfieber (GER)",
-    "venue": "Tavara-asema",
-    "city": "Tampere",
-    "date": "2027-11-23T18:00:00",
-    "ticketUrl": "https://tavara-asema.fi/ohjelma/kanonenfieber-ger-23-11-2027/",
-    "eventUrl": "https://tavara-asema.fi/ohjelma/kanonenfieber-ger-23-11-2027/",
-    "doors": "18:00",
-    "price": "alk. 48,50€",
-    "age": "K-18",
-    "id": 24,
-    "artists": [
-      "Kanonenfieber"
-    ],
-    "genres": [
-      "black metal",
-      "death metal",
-      "blackened death metal"
-    ]
-  },
-  {
     "artist": "Kanonenfieber (GER) + support: Groza (GER)",
     "venue": "Tavara-asema",
     "city": "Tampere",
@@ -4163,7 +4102,7 @@
     "doors": "18:00",
     "price": "alk. 48,50€",
     "age": "K-18",
-    "id": 204,
+    "id": 24,
     "artists": [
       "Kanonenfieber"
     ],
