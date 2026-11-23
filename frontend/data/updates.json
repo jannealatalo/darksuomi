@@ -14,19 +14,6 @@
           "electronic",
           "dream pop"
         ]
-      },
-      {
-        "id": 536,
-        "city": "helsinki",
-        "artist": "Spotlight - Open mic nights",
-        "venue": "Tiivistämö",
-        "place": "Helsinki",
-        "date": "2026-12-09T18:30:00",
-        "genres": [
-          "k-rock",
-          "korean alternative",
-          "krock"
-        ]
       }
     ],
     "hidden": {}

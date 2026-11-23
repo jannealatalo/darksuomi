@@ -174,4 +174,5 @@ def run(**kwargs) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(run())
+    # Open mic nights ("Spotlight - Open mic nights") aren't gigs.
+    sys.exit(run(skip_title=r"open[ -]?mic"))
