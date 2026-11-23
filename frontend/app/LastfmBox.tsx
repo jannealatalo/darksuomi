@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 
 // Same look as the other filter rows (genre/venue, DarkSuomi recommended):
 // the label in text-sm, details in small grey text.
@@ -35,6 +35,8 @@ export default function LastfmBox({
   onOnlyTheseChange: (on: boolean) => void;
 }) {
   const [editing, setEditing] = useState(false);
+  // Unique per page: Next keeps visited city pages alive (hidden).
+  const inputId = useId();
   const [draft, setDraft] = useState("");
 
   if (user && !editing) {
@@ -107,9 +109,9 @@ export default function LastfmBox({
       }}
       className={ROW}
     >
-      <label htmlFor="lastfm-user">Show bands I listen to on Last.fm:</label>
+      <label htmlFor={inputId}>Show bands I listen to on Last.fm:</label>
       <input
-        id="lastfm-user"
+        id={inputId}
         value={draft}
         onChange={(e) => setDraft(e.target.value)}
         maxLength={15}

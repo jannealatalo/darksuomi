@@ -24,7 +24,7 @@ import type { Event } from "../types/events";
 import { recommendedArtists } from "../lib/recommended";
 import { useLastfmArtists } from "../lib/useLastfmArtists";
 import LastfmBox from "./LastfmBox";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
 import { useToday } from "../lib/today";
 import { InstallButton } from "./AppShell";
@@ -80,6 +80,9 @@ export default function GigCalendar({
   const [hiddenGenres, setHiddenGenres] = useState<Set<string>>(new Set());
   const [search, setSearch] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  // A ref, not an id: Next keeps visited city pages alive (hidden), so ids
+  // would repeat in the document.
+  const filtersRef = useRef<HTMLDetailsElement>(null);
   const [showOtherGenreList, setShowOtherGenreList] = useState(false);
 
   const isRecommendedEvent = (event: Event) =>
@@ -173,7 +176,7 @@ export default function GigCalendar({
   const showOnlyGenre = (genre: string) => {
     setHiddenGenres(new Set(GENRE_FILTER_NAMES.filter((g) => g !== genre)));
     setFiltersOpen(true);
-    document.getElementById("gig-filters")?.scrollIntoView({ behavior: "smooth" });
+    filtersRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const toggleVenue = (venue: string) =>
@@ -301,7 +304,7 @@ export default function GigCalendar({
             short on phones), DarkSuomi recommended, Last.fm. */}
         <div className="mb-6 space-y-2">
         <details
-          id="gig-filters"
+          ref={filtersRef}
           open={filtersOpen}
           onToggle={(e) => setFiltersOpen(e.currentTarget.open)}
           className="scroll-mt-4"
@@ -552,7 +555,7 @@ function LinkRow({ label, links }: { label: string; links: SiteLink[] }) {
     <p>
       {label}:{" "}
       {links.map((link, i) => (
-        <span key={link.url}>
+        <span key={link.name}>
           {i > 0 && " · "}
           <a
             href={link.url}

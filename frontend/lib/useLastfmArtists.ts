@@ -1,23 +1,49 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 
 const STORAGE_KEY = "darksuomi.lastfmUser";
 const EMPTY = new Set<string>();
 
-function readStoredUser(): string {
+// The username is one shared value for the whole site: Next keeps visited
+// city pages alive (hidden), so each must see a change made on another at
+// once. It lives in localStorage, with a copy in memory for when storage
+// is blocked (private mode), and listeners for the open pages.
+let memoryUser: string | null = null;
+const listeners = new Set<() => void>();
+
+function readUser(): string {
+  if (memoryUser !== null) return memoryUser;
   try {
-    return localStorage.getItem(STORAGE_KEY) ?? "";
+    memoryUser = localStorage.getItem(STORAGE_KEY) ?? "";
   } catch {
-    return "";
+    memoryUser = "";
   }
+  return memoryUser;
 }
 
-function storeUser(user: string) {
+function writeUser(user: string) {
+  memoryUser = user;
   try {
     if (user) localStorage.setItem(STORAGE_KEY, user);
     else localStorage.removeItem(STORAGE_KEY);
   } catch {
-    // Private mode or blocked storage: the filter just isn't remembered.
+    // Private mode or blocked storage: the name lasts until the tab closes.
   }
+  listeners.forEach((notify) => notify());
+}
+
+function subscribe(notify: () => void) {
+  listeners.add(notify);
+  // Other tabs of the site changing the name.
+  const onStorage = (e: StorageEvent) => {
+    if (e.key !== STORAGE_KEY) return;
+    memoryUser = e.newValue ?? "";
+    notify();
+  };
+  window.addEventListener("storage", onStorage);
+  return () => {
+    listeners.delete(notify);
+    window.removeEventListener("storage", onStorage);
+  };
 }
 
 /**
@@ -25,7 +51,8 @@ function storeUser(user: string) {
  * /api/lastfm. The username is remembered in this browser.
  */
 export function useLastfmArtists() {
-  const [user, setUserState] = useState("");
+  // "" on the server and during hydration (the page is pre-rendered).
+  const user = useSyncExternalStore(subscribe, readUser, () => "");
   // Results are stored with the user they were fetched for, so changing
   // the user shows "loading" without resetting state inside the effect.
   const [result, setResult] = useState<{
@@ -33,13 +60,6 @@ export function useLastfmArtists() {
     artists: Set<string>;
     error: "not-found" | "unavailable" | null;
   } | null>(null);
-
-  // The page is pre-rendered, so the stored name is read after load.
-  useEffect(() => {
-    const stored = readStoredUser();
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- restore once per visit
-    if (stored) setUserState(stored);
-  }, []);
 
   useEffect(() => {
     if (!user) return;
@@ -65,11 +85,7 @@ export function useLastfmArtists() {
     };
   }, [user]);
 
-  const setUser = (next: string) => {
-    const trimmed = next.trim();
-    storeUser(trimmed);
-    setUserState(trimmed);
-  };
+  const setUser = (next: string) => writeUser(next.trim());
 
   const isCurrent = !!user && result?.user === user;
   return {
