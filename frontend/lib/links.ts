@@ -17,6 +17,7 @@ export const VENUE_LINKS: Record<string, string> = {
   Dubrovnik: "https://www.dubrovnik.fi/",
   Ääniwalli: "https://aaniwalli.fi/",
   "Apollo Live Club": "https://apolloliveclub.fi/tapahtumat/",
+  "G Livelab": "https://glivelab.fi/",
   Sellosali: "https://www.espoo.fi/fi/sellosalin-tapahtumat?topics=Musiikki",
   "Espoon kulttuurikeskus": "https://www.espoo.fi/fi/espoon-kulttuurikeskus/espoon-kulttuurikeskuksen-tapahtumat",
   // Tuusula, at Hotel Krapi; the club gigs are listed in its web shop.

@@ -28,6 +28,7 @@ Usage:
 import argparse
 import re
 import sys
+import time
 from datetime import date
 
 import requests
@@ -156,7 +157,14 @@ def main() -> int:
             item["url"] = f"{LIST_URL}#{item['date'].isoformat()}-{re.sub(r'\W+', '-', item['title'].casefold())[:40]}"
             details = {"live": True, "dj": False, "cancelled": False}
         else:
-            details = post_details(item["url"])
+            # Google sometimes rate-limits Blogger for GitHub's runners (HTTP
+            # 429): skip that event tonight instead of failing the whole run.
+            time.sleep(1)
+            try:
+                details = post_details(item["url"])
+            except requests.RequestException as e:
+                print(f"  ! skipped {item['date']} {item['title']}: {e}", file=sys.stderr)
+                continue
         if same_day:
             if details["cancelled"]:
                 for e in same_day:

@@ -505,7 +505,7 @@ def shown_by_default(genres: list[str], config: dict) -> bool:
 
 
 # Genres kept by the scrapers that filter while scraping (Dubrovnik,
-# Ääniwalli, Krapin Paja, Apollo) although the site hides them by default:
+# Ääniwalli, Krapin Paja, Apollo, G Livelab) although the site hides them by default:
 # they're listed under "Show hidden genres", like at every other venue.
 KEEP_HIDDEN_GENRES = re.compile(r"\btrip[- ]?hop\b", re.I)
 

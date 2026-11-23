@@ -1094,6 +1094,23 @@
     "genres": []
   },
   {
+    "artist": "Maria Ylipää & Marzi Nyman",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2026-11-25T19:00:00",
+    "ticketUrl": "https://glivelab.fi/events/maria-ylipaa-marzi-nyman-68c3cfbcd97cbb14aa37e681/",
+    "eventUrl": "https://glivelab.fi/events/maria-ylipaa-marzi-nyman-68c3cfbcd97cbb14aa37e681/",
+    "id": 532,
+    "artists": [
+      "Maria Ylipää & Marzi Nyman"
+    ],
+    "genres": [
+      "pop",
+      "musical",
+      "chanson"
+    ]
+  },
+  {
     "artist": "Post Pulse, Sees, These",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -1813,6 +1830,24 @@
     "genres": [
       "pop",
       "hip hop"
+    ]
+  },
+  {
+    "artist": "NEØV + Ruissalo Amping",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2026-11-28T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/neov-ruissalo-amping-6995742bb4588faa143afc17/",
+    "eventUrl": "https://glivelab.fi/events/neov-ruissalo-amping-6995742bb4588faa143afc17/",
+    "id": 533,
+    "artists": [
+      "NEØV",
+      "Ruissalo Amping"
+    ],
+    "genres": [
+      "shoegaze",
+      "indie pop",
+      "post-rock"
     ]
   },
   {
@@ -2890,6 +2925,26 @@
       "melancholic",
       "depressive rock",
       "alternative"
+    ]
+  },
+  {
+    "artist": "Radiopuhelimet + Janne Westerlund",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2026-12-05T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/radiopuhelimet-janne-westerlund-69957458b4588faa143afde8/",
+    "eventUrl": "https://glivelab.fi/events/radiopuhelimet-janne-westerlund-69957458b4588faa143afde8/",
+    "id": 534,
+    "artists": [
+      "Radiopuhelimet",
+      "Janne Westerlund"
+    ],
+    "genres": [
+      "punk",
+      "rock",
+      "punk rock",
+      "folk",
+      "acoustic"
     ]
   },
   {
@@ -4394,6 +4449,23 @@
     ]
   },
   {
+    "artist": "Silmien Takana: Asla Jo – Tavoittelu, yhteisö ja nähdyksi tuleminen",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/silmien-takana-asla-jo-tavoittelu-yhteiso-ja-nahdy-69957515b4588faa143b07d4/",
+    "eventUrl": "https://glivelab.fi/events/silmien-takana-asla-jo-tavoittelu-yhteiso-ja-nahdy-69957515b4588faa143b07d4/",
+    "id": 535,
+    "artists": [
+      "Asla Jo",
+      "yhteisö ja nähdyksi tuleminen"
+    ],
+    "genres": [
+      "indie",
+      "pop"
+    ]
+  },
+  {
     "venue": "Dubrovnik",
     "city": "Helsinki",
     "date": "2026-12-19T00:00:00",
@@ -5623,6 +5695,23 @@
     ]
   },
   {
+    "artist": "Marjo Leinonen & Bublicans",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-01-15T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/marjo-leinonen-bublicans-levynjulkkarit-6aa902e6b7a25a2b008f3c9f/",
+    "eventUrl": "https://glivelab.fi/events/marjo-leinonen-bublicans-levynjulkkarit-6aa902e6b7a25a2b008f3c9f/",
+    "id": 536,
+    "artists": [
+      "Marjo Leinonen & Bublicans"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "blues"
+    ]
+  },
+  {
     "artist": "Nordic Death Mass",
     "venue": "Ääniwalli",
     "city": "Helsinki",
@@ -6443,6 +6532,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "G Livelab Helsinki 10 vuotta: Modem + Waldemar Blom",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-01-29T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/g-livelab-helsinki-10-vuotta-modem-waldemar-blom-6ac4e37e2157f84d8dddd9cd/",
+    "eventUrl": "https://glivelab.fi/events/g-livelab-helsinki-10-vuotta-modem-waldemar-blom-6ac4e37e2157f84d8dddd9cd/",
+    "id": 537,
+    "artists": [
+      "Modem",
+      "Waldemar Blom"
+    ],
+    "genres": [
+      "synthpop",
+      "glitch",
+      "idm"
+    ]
+  },
+  {
     "artist": "Rakkaudella Rauli – Tähtiin kirjoitettu tarina 30.1.2026",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -6708,6 +6815,22 @@
     "genres": []
   },
   {
+    "artist": "Kaseva",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-02-04T19:00:00",
+    "ticketUrl": "https://glivelab.fi/events/kaseva-6aa9041cb7a25a2b008f541e/",
+    "eventUrl": "https://glivelab.fi/events/kaseva-6aa9041cb7a25a2b008f541e/",
+    "id": 538,
+    "artists": [
+      "Kaseva"
+    ],
+    "genres": [
+      "pop",
+      "suomirock"
+    ]
+  },
+  {
     "artist": "After Work: Bolognasta Wieniin",
     "venue": "Espoon kulttuurikeskus",
     "city": "Espoo",
@@ -6808,6 +6931,28 @@
       "Helsinki Must Be Destroyed"
     ],
     "genres": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Maa ilmasta + Idän voima",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-02-05T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/maa-ilmasta-levynjulkkarit-idan-voima-6aa9043db7a25a2b008f5614/",
+    "eventUrl": "https://glivelab.fi/events/maa-ilmasta-levynjulkkarit-idan-voima-6aa9043db7a25a2b008f5614/",
+    "id": 539,
+    "artists": [
+      "Maa ilmasta",
+      "Idän voima"
+    ],
+    "genres": [
+      "indie",
+      "instrumental",
+      "progressive rock",
+      "finnish indie",
+      "instrumental rock",
+      "jazz rock",
       "rock"
     ]
   },
@@ -7809,6 +7954,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Lubomyr Melnyk",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-02-24T19:00:00",
+    "ticketUrl": "https://glivelab.fi/events/lubomyr-melnyk-ua-6ad73ae37e6125ccf25f9ebf/",
+    "eventUrl": "https://glivelab.fi/events/lubomyr-melnyk-ua-6ad73ae37e6125ccf25f9ebf/",
+    "id": 540,
+    "artists": [
+      "Lubomyr Melnyk"
+    ],
+    "genres": [
+      "minimalism",
+      "contemporary classical",
+      "neoclassical",
+      "experimental"
+    ]
+  },
+  {
     "artist": "Mutation (SWE) + Hekatoxen + Morte Profana",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -8062,6 +8225,24 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Juhlat",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-02-27T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/juhlat-levynjulkkarit-6aa9049fb7a25a2b008f64de/",
+    "eventUrl": "https://glivelab.fi/events/juhlat-levynjulkkarit-6aa9049fb7a25a2b008f64de/",
+    "id": 541,
+    "artists": [
+      "Juhlat"
+    ],
+    "genres": [
+      "indie pop",
+      "indie",
+      "finnish indie",
+      "dream pop"
     ]
   },
   {
@@ -9800,6 +9981,23 @@
     ]
   },
   {
+    "artist": "Jarkko Martikainen (solo)",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-04-15T19:00:00",
+    "ticketUrl": "https://glivelab.fi/events/jarkko-martikainen-solo-6adf4b82ad633bb0ea4be43a/",
+    "eventUrl": "https://glivelab.fi/events/jarkko-martikainen-solo-6adf4b82ad633bb0ea4be43a/",
+    "id": 542,
+    "artists": [
+      "Jarkko Martikainen"
+    ],
+    "genres": [
+      "singer-songwriter",
+      "rock",
+      "progressive rock"
+    ]
+  },
+  {
     "artist": "F, Orvokki",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -9868,6 +10066,24 @@
     "genres": [
       "rock",
       "punk rock"
+    ]
+  },
+  {
+    "artist": "Louie Blue + Pihalla",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-04-17T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/louie-blue-pihalla-6adf4bb9ad633bb0ea4be7aa/",
+    "eventUrl": "https://glivelab.fi/events/louie-blue-pihalla-6adf4bb9ad633bb0ea4be7aa/",
+    "id": 543,
+    "artists": [
+      "Louie Blue",
+      "Pihalla"
+    ],
+    "genres": [
+      "country",
+      "string band",
+      "blues"
     ]
   },
   {
@@ -10015,6 +10231,25 @@
     ]
   },
   {
+    "artist": "Tamikrest",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-04-21T19:00:00",
+    "ticketUrl": "https://glivelab.fi/events/tamikrest-ml-6ac8c4c94ead0d22dd61948e/",
+    "eventUrl": "https://glivelab.fi/events/tamikrest-ml-6ac8c4c94ead0d22dd61948e/",
+    "id": 544,
+    "artists": [
+      "Tamikrest"
+    ],
+    "genres": [
+      "desert blues",
+      "mali",
+      "african",
+      "world",
+      "blues"
+    ]
+  },
+  {
     "artist": "DragonForce",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -10158,6 +10393,22 @@
       "indie",
       "singer-songwriter",
       "alternative"
+    ]
+  },
+  {
+    "artist": "Curtis Salgado",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-04-27T19:00:00",
+    "ticketUrl": "https://glivelab.fi/events/curtis-salgado-us-6adf4c11ad633bb0ea4bf041/",
+    "eventUrl": "https://glivelab.fi/events/curtis-salgado-us-6adf4c11ad633bb0ea4bf041/",
+    "id": 545,
+    "artists": [
+      "Curtis Salgado"
+    ],
+    "genres": [
+      "blues",
+      "blues rock"
     ]
   },
   {

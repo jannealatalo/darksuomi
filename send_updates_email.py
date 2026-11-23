@@ -60,7 +60,9 @@ def send_newsletter(subject: str, markdown: str) -> None:
         return
     resp = requests.post(
         BUTTONDOWN_API,
-        headers={"Authorization": f"Token {key}"},
+        # Buttondown asks API keys to confirm sending right away (not as a
+        # draft) with this header; without it: HTTP 400 sending_requires_confirmation.
+        headers={"Authorization": f"Token {key}", "X-Buttondown-Live-Dangerously": "true"},
         json={"subject": subject, "body": markdown, "status": "about_to_send"},
         timeout=60,
     )

@@ -43,11 +43,13 @@ def infer_date(day: int, month: int, today: date) -> date | None:
     return d
 
 
-def parse_cards(page_html: str, today: date) -> list[dict]:
+def parse_cards(page_html: str, today: date, link_part: str = "/tampere/events/",
+                venue: str = VENUE, city: str = CITY) -> list[dict]:
+    """Event cards -> events (also used for G Livelab Helsinki: scraper_glivelab.py)."""
     soup = BeautifulSoup(page_html, "html.parser")
     events = []
     for item in soup.select("li.item"):
-        link = item.select_one("a[href*='/tampere/events/']")
+        link = item.select_one("a[href*='" + link_part + "']")
         h2 = item.select_one("h2.title")
         date_el = item.select_one(".datetime .date")
         if not (link and h2 and date_el):
@@ -67,8 +69,8 @@ def parse_cards(page_html: str, today: date) -> list[dict]:
         url = link["href"]
         event = {
             "artist": title,
-            "venue": VENUE,
-            "city": CITY,
+            "venue": venue,
+            "city": city,
             "date": f"{day.isoformat()}T{hh:02d}:{mm}:00",
             "ticketUrl": url,
             "eventUrl": url,
