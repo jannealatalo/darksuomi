@@ -82,6 +82,8 @@ export default function GigCalendar({
   // Main genres the visitor unticked; empty = every gig is shown.
   const [hiddenGenres, setHiddenGenres] = useState<Set<string>>(new Set());
   const [search, setSearch] = useState("");
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [showOtherGenreList, setShowOtherGenreList] = useState(false);
 
   const isFollowedEvent = (event: Event) =>
     eventArtistNames(event).some((name) => followedArtists.has(name));
@@ -124,6 +126,26 @@ export default function GigCalendar({
     setShowOnlyFollowed(false);
   };
 
+  const shownGenres = GENRE_FILTER_NAMES.length - hiddenGenres.size;
+  const shownVenues = allVenues.length - allVenues.filter((v) => hiddenVenues.has(v)).length;
+  const others = showAllGenres ? " + others" : "";
+  const filterSummary =
+    hiddenGenres.size === 0 && shownVenues === allVenues.length
+      ? `(all genres${others} and venues)`
+      : `(${
+          hiddenGenres.size === 0
+            ? "all genres"
+            : shownGenres === 1
+              ? GENRE_FILTER_NAMES.find((g) => !hiddenGenres.has(g))
+              : `${shownGenres} genres`
+        }${others}, ${
+          shownVenues === allVenues.length
+            ? "all venues"
+            : shownVenues === 1
+              ? allVenues.find((v) => !hiddenVenues.has(v))
+              : `${shownVenues} venues`
+        })`;
+
   const toggleGenre = (genre: string) =>
     setHiddenGenres((prev) => {
       const next = new Set(prev);
@@ -135,6 +157,7 @@ export default function GigCalendar({
   // Header genre names: show only that genre and jump to the list.
   const showOnlyGenre = (genre: string) => {
     setHiddenGenres(new Set(GENRE_FILTER_NAMES.filter((g) => g !== genre)));
+    setFiltersOpen(true);
     document.getElementById("gig-filters")?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -148,13 +171,33 @@ export default function GigCalendar({
 
   const hasFollowedArtists = followedArtists.size > 0;
 
+  const siteLinks = (
+    <nav
+      aria-label="Venue and ticket sites"
+      className="text-xs text-gray-500 space-y-0.5 md:text-right"
+    >
+      <LinkRow
+        label="Venues"
+        links={allVenues
+          .filter((v) => VENUE_LINKS[v])
+          .map((v) => ({ name: v, url: VENUE_LINKS[v] }))}
+      />
+      <LinkRow label="Tickets" links={TICKET_SITES} />
+      <LinkRow label="Resale" links={RESALE_SITES} />
+      <LinkRow label="Merch" links={MERCH_SITES} />
+      <LinkRow label="Media" links={MEDIA_SITES} />
+    </nav>
+  );
+
   return (
     <main className="min-h-screen bg-black text-gray-200">
       <div className="max-w-4xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 mb-8">
-          <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+          {/* Phones: logo and intro side by side, the rest full width below.
+              From sm up: everything in a column beside the logo. */}
+          <div className="grid grid-cols-[auto_1fr] items-center gap-x-4 gap-y-3 sm:gap-x-5 sm:gap-y-1">
             {/* shrink-0: long header text must not squeeze the square logo. */}
-            <h1 className="shrink-0">
+            <h1 className="shrink-0 sm:row-span-2">
               {/* On the city sites the logo leads back to the main (Helsinki) site. */}
               <Link href="/" aria-label={isMain ? undefined : "Dark Suomi Helsinki"}>
                 <Image
@@ -163,12 +206,12 @@ export default function GigCalendar({
                   width={512}
                   height={512}
                   preload
-                  sizes="(min-width: 640px) 144px, 112px"
-                  className="w-28 h-28 sm:w-36 sm:h-36"
+                  sizes="(min-width: 640px) 144px, 96px"
+                  className="w-24 h-24 sm:w-36 sm:h-36"
                 />
               </Link>
             </h1>
-            <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
+            <p className="text-gray-400 text-sm sm:text-base leading-snug sm:leading-relaxed sm:self-end">
               {/* What the site is, in one breath. */}
               <span className="block text-gray-200">
                 List of dark and loud gigs in{" "}
@@ -177,12 +220,14 @@ export default function GigCalendar({
               </span>
               {/* Fixed height, so the page doesn't jump when the line appears. */}
               <span
-                className={`block mb-2 min-h-[1.5em] text-xs sm:text-sm text-gray-500 italic transition-opacity duration-500 ${
+                className={`block mt-1 min-h-[1.5em] text-xs sm:text-sm text-gray-500 italic transition-opacity duration-500 ${
                   tagline ? "opacity-100" : "opacity-0"
                 }`}
               >
                 {tagline ?? " "}
               </span>
+            </p>
+            <div className="col-span-2 sm:col-span-1 sm:col-start-2 self-start text-gray-400 text-sm sm:text-base leading-relaxed">
               {[GENRE_FILTER_NAMES.slice(0, 6), GENRE_FILTER_NAMES.slice(6)].map((row) => (
                 <span key={row[0]} className="block">
                   {row.map((genre, i) => (
@@ -229,10 +274,208 @@ export default function GigCalendar({
                   )
                 )}
               </span>
-            </p>
+            </div>
           </div>
 
-          <div className="flex flex-col items-end gap-2 text-right self-end md:self-auto md:max-w-xs md:shrink-0">
+          {/* Top right on wide screens; on phones at the end of the page. */}
+          <div className="hidden md:block md:max-w-xs md:shrink-0">{siteLinks}</div>
+        </div>
+
+        {session && hasFollowedArtists && (
+          <div className="mb-6">
+            <button
+              onClick={() => setShowOnlyFollowed(!showOnlyFollowed)}
+              className={`px-4 py-2 rounded flex items-center gap-2 transition ${
+                showOnlyFollowed
+                  ? "bg-green-600 hover:bg-green-700"
+                  : "bg-gray-700 hover:bg-gray-600"
+              }`}
+            >
+              <svg
+                className="w-4 h-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-12-1.5-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15.179 10.561 18.72 12.84c.361.21.599.659.359 1.2zm.12-3.36C15.312 8.322 8.654 8.034 5.409 9.425c-.589.25-1.238-.056-1.488-.646-.25-.59.056-1.24.646-1.488 4.326-1.822 11.461-1.471 15.174 1.971.406.325.344 1.025-.067 1.407-.413.347-1.113.291-1.519-.034z" />
+              </svg>
+              {showOnlyFollowed
+                ? "Showing only followed artists"
+                : "Show only artists I follow"}
+            </button>
+            <p className="text-xs text-gray-500 mt-2">
+              {followedArtists.size} artists followed
+            </p>
+          </div>
+        )}
+
+        {/* Genre and venue checkboxes, collapsed by default to keep the
+            top of the page short on phones. */}
+        <details
+          id="gig-filters"
+          open={filtersOpen}
+          onToggle={(e) => setFiltersOpen(e.currentTarget.open)}
+          className="mb-4 scroll-mt-4"
+        >
+          <summary className="cursor-pointer select-none text-sm text-gray-300 hover:text-white mb-2">
+            Filter by genre and venue
+            <span className="ml-2 text-xs text-gray-500">
+              {filterSummary}
+            </span>
+          </summary>
+          <fieldset className="mb-4 text-sm text-gray-400">
+            <legend className="mb-1.5 flex items-baseline gap-3">
+              <span>Dark Suomi main genres</span>
+              <button
+                type="button"
+                onClick={() => setHiddenGenres(new Set())}
+                className="text-xs text-purple-400 hover:text-purple-300"
+              >
+                all
+              </button>
+              <button
+                type="button"
+                onClick={() => setHiddenGenres(new Set(GENRE_FILTER_NAMES))}
+                className="text-xs text-purple-400 hover:text-purple-300"
+              >
+                none
+              </button>
+            </legend>
+            <div className="flex flex-wrap gap-x-5 gap-y-1.5">
+              {GENRE_FILTER_NAMES.map((genre) => (
+                <label key={genre} className="inline-flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={!hiddenGenres.has(genre)}
+                    onChange={() => toggleGenre(genre)}
+                    className="accent-purple-600"
+                  />
+                  {genre}
+                  <span className="text-gray-600 tabular-nums">
+                    {genreCounts.get(genre) ?? 0}
+                  </span>
+                </label>
+              ))}
+            </div>
+            {/* Gigs outside the main genres (pop, rap, jazz...): one more
+                genre checkbox, with the list behind "which?". */}
+            {hiddenByGenreCount > 0 && (
+              <div className="mt-2.5 pt-2 border-t border-gray-800">
+                <label className="inline-flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={showAllGenres}
+                    onChange={(e) => setShowAllGenres(e.target.checked)}
+                    className="accent-purple-600"
+                  />
+                  Other genres too
+                  <span className="text-gray-600 tabular-nums">{hiddenByGenreCount}</span>
+                </label>
+                <button
+                  type="button"
+                  onClick={() => setShowOtherGenreList(!showOtherGenreList)}
+                  aria-expanded={showOtherGenreList}
+                  className="ml-3 text-xs text-purple-400 hover:text-purple-300"
+                >
+                  which?
+                </button>
+                {showOtherGenreList && (
+                  <p className="text-xs text-gray-500 mt-1">
+                    Gigs outside the main genres, or mainly {[...excludedGenres].join(", ")}
+                  </p>
+                )}
+              </div>
+            )}
+          </fieldset>
+
+          {allVenues.length > 1 && (
+            <fieldset className="mb-2 text-sm text-gray-400">
+              <legend className="mb-1.5 flex items-baseline gap-3">
+                <span>Venues</span>
+                <button
+                  type="button"
+                  onClick={() => setHiddenVenues(new Set())}
+                  className="text-xs text-purple-400 hover:text-purple-300"
+                >
+                  all
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setHiddenVenues(new Set(allVenues))}
+                  className="text-xs text-purple-400 hover:text-purple-300"
+                >
+                  none
+                </button>
+              </legend>
+              <div className="flex flex-wrap gap-x-5 gap-y-1.5">
+                {allVenues.map((venue) => (
+                  <label key={venue} className="inline-flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={!hiddenVenues.has(venue)}
+                      onChange={() => toggleVenue(venue)}
+                      className="accent-purple-600"
+                    />
+                    {venue}
+                    <span className="text-gray-600 tabular-nums">
+                      {venueCounts.get(venue) ?? 0}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+          )}
+        </details>
+
+
+        <hr className="border-gray-800 mb-6" />
+
+        <div className="mb-6">
+          <SearchBox value={search} onChange={setSearch} />
+          {searching && (
+            <p className="mt-2 text-xs text-gray-500">
+              {filteredEvents.length} {filteredEvents.length === 1 ? "gig" : "gigs"} found
+              {hiddenMatches > 0 && (
+                <>
+                  {" · "}
+                  {hiddenMatches} more hidden by your filters{" "}
+                  <button
+                    type="button"
+                    onClick={clearFilters}
+                    className="text-purple-400 hover:text-purple-300"
+                  >
+                    show them
+                  </button>
+                </>
+              )}
+            </p>
+          )}
+        </div>
+
+        {showOnlyFollowed && (
+          <p className="text-sm text-green-500 mb-4">Showing only artists you follow</p>
+        )}
+
+        {filteredEvents.length === 0 ? (
+          <p className="text-gray-400">
+            {searching
+              ? "Nothing found. Maybe they broke up. Maybe they never existed."
+              : showOnlyFollowed
+                ? "No upcoming events for artists you follow"
+                : "No upcoming events"}
+          </p>
+        ) : (
+          <EventList
+            events={filteredEvents}
+            isFollowed={isFollowedEvent}
+            jokes={!searching}
+            from={today}
+          />
+        )}
+
+        <div className="mt-12 md:hidden">{siteLinks}</div>
+
+        {/* Spotify login and data credits: at the end, to keep the header short on phones. */}
+        <div className="mt-12 flex flex-col items-end gap-2 text-right">
             {session ? (
               <div>
                 <p className="text-sm text-gray-400 mb-2">
@@ -305,189 +548,7 @@ export default function GigCalendar({
               <p>Last scraped {lastScraped}</p>
             </div>
 
-            <nav
-              aria-label="Venue and ticket sites"
-              className="text-xs text-gray-500 space-y-0.5 border-t border-gray-800 pt-2"
-            >
-              <LinkRow
-                label="Venues"
-                links={allVenues
-                  .filter((v) => VENUE_LINKS[v])
-                  .map((v) => ({ name: v, url: VENUE_LINKS[v] }))}
-              />
-              <LinkRow label="Tickets" links={TICKET_SITES} />
-              <LinkRow label="Resale" links={RESALE_SITES} />
-              <LinkRow label="Merch" links={MERCH_SITES} />
-              <LinkRow label="Media" links={MEDIA_SITES} />
-            </nav>
-          </div>
         </div>
-
-        {session && hasFollowedArtists && (
-          <div className="mb-6">
-            <button
-              onClick={() => setShowOnlyFollowed(!showOnlyFollowed)}
-              className={`px-4 py-2 rounded flex items-center gap-2 transition ${
-                showOnlyFollowed
-                  ? "bg-green-600 hover:bg-green-700"
-                  : "bg-gray-700 hover:bg-gray-600"
-              }`}
-            >
-              <svg
-                className="w-4 h-4"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-12-1.5-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15.179 10.561 18.72 12.84c.361.21.599.659.359 1.2zm.12-3.36C15.312 8.322 8.654 8.034 5.409 9.425c-.589.25-1.238-.056-1.488-.646-.25-.59.056-1.24.646-1.488 4.326-1.822 11.461-1.471 15.174 1.971.406.325.344 1.025-.067 1.407-.413.347-1.113.291-1.519-.034z" />
-              </svg>
-              {showOnlyFollowed
-                ? "Showing only followed artists"
-                : "Show only artists I follow"}
-            </button>
-            <p className="text-xs text-gray-500 mt-2">
-              {followedArtists.size} artists followed
-            </p>
-          </div>
-        )}
-
-        <fieldset id="gig-filters" className="mb-4 text-sm text-gray-400 scroll-mt-4">
-          <legend className="mb-1.5 flex items-baseline gap-3">
-            <span>Dark Suomi main genres</span>
-            <button
-              type="button"
-              onClick={() => setHiddenGenres(new Set())}
-              className="text-xs text-purple-400 hover:text-purple-300"
-            >
-              all
-            </button>
-            <button
-              type="button"
-              onClick={() => setHiddenGenres(new Set(GENRE_FILTER_NAMES))}
-              className="text-xs text-purple-400 hover:text-purple-300"
-            >
-              none
-            </button>
-          </legend>
-          <div className="flex flex-wrap gap-x-5 gap-y-1.5">
-            {GENRE_FILTER_NAMES.map((genre) => (
-              <label key={genre} className="inline-flex items-center gap-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={!hiddenGenres.has(genre)}
-                  onChange={() => toggleGenre(genre)}
-                  className="accent-purple-600"
-                />
-                {genre}
-                <span className="text-gray-600 tabular-nums">
-                  {genreCounts.get(genre) ?? 0}
-                </span>
-              </label>
-            ))}
-          </div>
-        </fieldset>
-
-        {hiddenByGenreCount > 0 && (
-          <div className="mb-4 text-sm text-gray-400">
-            <label className="inline-flex items-center gap-2 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={showAllGenres}
-                onChange={(e) => setShowAllGenres(e.target.checked)}
-                className="accent-purple-600"
-              />
-              Show hidden genres
-            </label>
-            {!showAllGenres && (
-              <p className="text-xs text-gray-500 mt-1">
-                {hiddenByGenreCount} events hidden: outside the main genres, or mainly{" "}
-                {[...excludedGenres].join(", ")}
-              </p>
-            )}
-          </div>
-        )}
-
-        {allVenues.length > 1 && (
-          <fieldset className="mb-6 text-sm text-gray-400">
-            <legend className="mb-1.5 flex items-baseline gap-3">
-              <span>Venues</span>
-              <button
-                type="button"
-                onClick={() => setHiddenVenues(new Set())}
-                className="text-xs text-purple-400 hover:text-purple-300"
-              >
-                all
-              </button>
-              <button
-                type="button"
-                onClick={() => setHiddenVenues(new Set(allVenues))}
-                className="text-xs text-purple-400 hover:text-purple-300"
-              >
-                none
-              </button>
-            </legend>
-            <div className="flex flex-wrap gap-x-5 gap-y-1.5">
-              {allVenues.map((venue) => (
-                <label key={venue} className="inline-flex items-center gap-2 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={!hiddenVenues.has(venue)}
-                    onChange={() => toggleVenue(venue)}
-                    className="accent-purple-600"
-                  />
-                  {venue}
-                  <span className="text-gray-600 tabular-nums">
-                    {venueCounts.get(venue) ?? 0}
-                  </span>
-                </label>
-              ))}
-            </div>
-          </fieldset>
-        )}
-
-        <hr className="border-gray-800 mb-6" />
-
-        <div className="mb-6">
-          <SearchBox value={search} onChange={setSearch} />
-          {searching && (
-            <p className="mt-2 text-xs text-gray-500">
-              {filteredEvents.length} {filteredEvents.length === 1 ? "gig" : "gigs"} found
-              {hiddenMatches > 0 && (
-                <>
-                  {" · "}
-                  {hiddenMatches} more hidden by your filters{" "}
-                  <button
-                    type="button"
-                    onClick={clearFilters}
-                    className="text-purple-400 hover:text-purple-300"
-                  >
-                    show them
-                  </button>
-                </>
-              )}
-            </p>
-          )}
-        </div>
-
-        {showOnlyFollowed && (
-          <p className="text-sm text-green-500 mb-4">Showing only artists you follow</p>
-        )}
-
-        {filteredEvents.length === 0 ? (
-          <p className="text-gray-400">
-            {searching
-              ? "Nothing found. Maybe they broke up. Maybe they never existed."
-              : showOnlyFollowed
-                ? "No upcoming events for artists you follow"
-                : "No upcoming events"}
-          </p>
-        ) : (
-          <EventList
-            events={filteredEvents}
-            isFollowed={isFollowedEvent}
-            jokes={!searching}
-            from={today}
-          />
-        )}
 
         <SiteFooter />
       </div>
