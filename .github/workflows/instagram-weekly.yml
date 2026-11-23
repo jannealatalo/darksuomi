@@ -105,7 +105,7 @@ jobs:
             echo '```'
             if [ -f "$dir/tags.json" ]; then
               echo
-              echo "**Band tags** (only existing professional accounts are tagged when posting):"
+              echo "**Band tags** (accounts Instagram refuses are left out when posting):"
               echo
               python3 -c "import json,sys; [print(f\"- picture {t['image']}: @{t['username']} ({t['gig']})\") for t in json.load(open(sys.argv[1], encoding='utf-8'))]" "$dir/tags.json"
             fi

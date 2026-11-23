@@ -381,34 +381,44 @@ def wait_ready(container: str) -> None:
     raise SystemExit(f"Instagram media {container} still not ready.")
 
 
-def taggable(ig: str, handles: set[str]) -> set[str]:
-    """The handles Instagram can tag: existing professional accounts, found
-    with the API's business discovery. If the token can't use business
-    discovery, all are tried (and a picture whose tags fail is posted
-    without them)."""
-    ok = set()
-    for h in sorted(handles):
-        try:
-            api("GET", ig, fields=f"business_discovery.username({h}){{username}}")
-            ok.add(h)
-        except ApiError as e:
-            if "(code 110)" in str(e) or "(code 100)" in str(e):
-                print(f"  not taggable: @{h}")
-            else:
-                print(f"  Business discovery unavailable ({e}); trying all tags.")
-                return set(handles)
-    return ok
-
-
 def item(ig: str, url: str, tags: list[dict], **params) -> str:
-    """A media container for one picture, with its tags if Instagram takes them."""
-    if tags:
-        user_tags = json.dumps([{k: t[k] for k in ("username", "x", "y")} for t in tags])
+    """A media container for one picture with as many of its tags as
+    Instagram takes. One bad account (deleted, renamed, wrong link) makes
+    Instagram refuse all of a picture's tags, so then each tag is tried on
+    its own and only the accepted ones are kept. The token can't look
+    accounts up in advance (no business discovery with Unified Login)."""
+    name = url.rsplit("/", 1)[-1]
+
+    def create(with_tags: list[dict]) -> str:
+        extra = {}
+        if with_tags:
+            extra["user_tags"] = json.dumps(
+                [{k: t[k] for k in ("username", "x", "y")} for t in with_tags])
+        return api("POST", f"{ig}/media", image_url=url, **extra, **params)["id"]
+
+    if not tags:
+        return create([])
+    try:
+        container = create(tags)
+        print(f"  {name}: tagged {', '.join('@' + t['username'] for t in tags)}")
+        return container
+    except ApiError as e:
+        print(f"  {name}: Instagram refused the tags together ({e}); trying them one by one")
+    good = []
+    for t in tags:
         try:
-            return api("POST", f"{ig}/media", image_url=url, user_tags=user_tags, **params)["id"]
+            create([t])  # a test container; never published, Instagram drops it in a day
+            good.append(t)
+        except ApiError:
+            print(f"  {name}: can't tag @{t['username']}")
+    if good:
+        try:
+            container = create(good)
+            print(f"  {name}: tagged {', '.join('@' + t['username'] for t in good)}")
+            return container
         except ApiError as e:
-            print(f"  tags refused for {url.rsplit('/', 1)[-1]}, posting it untagged: {e}")
-    return api("POST", f"{ig}/media", image_url=url, **params)["id"]
+            print(f"  {name}: tags refused again ({e}); posting it untagged")
+    return create([])
 
 
 def publish(folder: Path) -> None:
@@ -422,9 +432,7 @@ def publish(folder: Path) -> None:
 
     tags_file = folder / "tags.json"
     tags = json.loads(tags_file.read_text(encoding="utf-8")) if tags_file.exists() else []
-    ok = taggable(ig, {t["username"] for t in tags}) if tags else set()
-    tags = [t for t in tags if t["username"] in ok]
-    print(f"Tagging {len(tags)} band account(s).")
+    print(f"Trying {len(tags)} band tag(s).")
 
     def tags_of(n: int) -> list[dict]:
         return [t for t in tags if t["image"] == n]
@@ -460,11 +468,10 @@ def main() -> int:
             ig = account_id()
             info = api("GET", ig, fields="username,media_count")
             print(f"Token works: @{info.get('username')} ({info.get('media_count')} posts), id {ig}")
-            # Which of this week's band accounts could be tagged?
             pages = paginate(week_gigs(args.start or datetime.now().date()))
             handles = {t["username"] for t in picture_tags(pages)}
-            ok = taggable(ig, handles)
-            print(f"{len(ok)} of {len(handles)} band accounts this week can be tagged.")
+            print(f"{len(handles)} band accounts this week would be tagged; Instagram "
+                  "checks them only when posting (bad ones are left out then).")
         except ApiError as e:
             print(e, file=sys.stderr)
             return 1
