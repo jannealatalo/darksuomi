@@ -261,9 +261,12 @@ def main() -> int:
             if cid.startswith("<") or not cid:
                 print(f"  would post the #{msg['channel']} message")
                 continue
-            first_line = msg["text"].split("\n", 1)[0]
+            # Matched by the start of the first line (up to " – "), so that
+            # editing the rest of it updates the message instead of reposting.
+            def head(text):
+                return text.split("\n", 1)[0].split(" – ", 1)[0]
             mine = [m for m in dc.call("GET", f"/channels/{cid}/messages?limit=50")
-                    if m["author"]["id"] == me["id"] and m["content"].split("\n", 1)[0] == first_line]
+                    if m["author"]["id"] == me["id"] and head(m["content"]) == head(msg["text"])]
             if not mine:
                 posted = dc.call("POST", f"/channels/{cid}/messages", {"content": msg["text"]},
                                  f"post the #{msg['channel']} message")
