@@ -1,0 +1,1753 @@
+[
+  {
+    "artist": "LOUDER THAN SIRENS – National Presidential Orchestra of Ukraine",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2026-11-24T19:00:00",
+    "ticketUrl": "https://liput.musiikkitalofuuga.fi/fi/buyingflow/tickets/16143/23594/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/louder-than-sirens-national-presidential-orchestra-of-ukraine/",
+    "doors": "19:00",
+    "room": "Konserttisali",
+    "id": 45,
+    "artists": [
+      "LOUDER THAN SIRENS"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Battlelore, Noumena, Numento",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-11-27T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/battlelore-noumena-numento-live/",
+    "eventUrl": "https://fuusioturku.fi/events/battlelore-noumena-numento-live/",
+    "room": "Livesali",
+    "id": 56,
+    "artists": [
+      "Battlelore",
+      "Noumena",
+      "Numento"
+    ],
+    "genres": [
+      "folk metal",
+      "power metal",
+      "epic metal",
+      "fantasy metal",
+      "melodic death metal",
+      "female fronted metal",
+      "progressive metal",
+      "thrash metal",
+      "alternative metal"
+    ]
+  },
+  {
+    "artist": "Kirkkovene & Kätfish + CVPRI",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-11-27T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/nirvana-kirkkovene-katfish-cvpri/",
+    "eventUrl": "https://fuusioturku.fi/events/nirvana-kirkkovene-katfish-cvpri/",
+    "room": "Nirvana",
+    "id": 57,
+    "artists": [
+      "Kirkkovene & Kätfish",
+      "CVPRI"
+    ],
+    "genres": [
+      "punk rock",
+      "pop punk"
+    ]
+  },
+  {
+    "artist": "Stepa, Tohtori Getto",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-11-27T20:00:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6a83540c06a79737eff5836d",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=17857",
+    "doors": "20:00",
+    "price": "24,2€",
+    "age": "K-18",
+    "id": 73,
+    "artists": [
+      "Stepa",
+      "Tohtori Getto"
+    ],
+    "genres": [
+      "nu metal",
+      "hip hop",
+      "rap",
+      "kortepohja"
+    ]
+  },
+  {
+    "artist": "PEER GÜNT - 50th ANNIVERSARY TOUR",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/PEER-GUNT-50th-ANNIVERSARY-TOUR-K-18/165390/399947/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/peer-gunt-50th-anniversary-tour",
+    "room": "Teatro",
+    "id": 1,
+    "artists": [
+      "PEER GÜNT"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "classic rock"
+    ]
+  },
+  {
+    "artist": "For My Pain... + Iterum Nata (solo)",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/livesali-for-my-pain-iterum-nata-solo-live/",
+    "eventUrl": "https://fuusioturku.fi/events/livesali-for-my-pain-iterum-nata-solo-live/",
+    "room": "Livesali",
+    "id": 58,
+    "artists": [
+      "For My Pain...",
+      "Iterum Nata"
+    ],
+    "genres": [
+      "gothic metal",
+      "gothic rock",
+      "metal",
+      "folk",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Jussi Syren And The Groundbreakers, Nightbird, Sons Of Howl",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/jussi-syren-and-the-groundbreakers-nightbird-sons-of-howl-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/jussi-syren-and-the-groundbreakers-nightbird-sons-of-howl-nirvana/",
+    "room": "Nirvana",
+    "id": 59,
+    "artists": [
+      "Jussi Syren And The Groundbreakers",
+      "Nightbird",
+      "Sons Of Howl"
+    ],
+    "genres": [
+      "bluegrass",
+      "folk"
+    ]
+  },
+  {
+    "artist": "Timo Pieni Huijaus, Röge",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-11-28T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/timo-pieni-huijaus-roge-level2/",
+    "eventUrl": "https://fuusioturku.fi/events/timo-pieni-huijaus-roge-level2/",
+    "room": "Level2",
+    "id": 60,
+    "artists": [
+      "Timo Pieni Huijaus",
+      "Röge"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "Arppa",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2026-11-28T19:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/15702/21920/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/arppa/",
+    "doors": "19:00",
+    "room": "Konserttisali",
+    "id": 46,
+    "artists": [
+      "Arppa"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "indie rock"
+    ]
+  },
+  {
+    "artist": "Ville Ahonen",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-11-28T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6a7b162c216a1fbcb53cc9be",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=17850",
+    "doors": "20:30",
+    "price": "22€",
+    "age": "K-18",
+    "id": 74,
+    "artists": [
+      "Ville Ahonen"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Luuvitonen",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-04T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/luuvitonen-live/",
+    "eventUrl": "https://fuusioturku.fi/events/luuvitonen-live/",
+    "room": "Livesali",
+    "id": 61,
+    "artists": [
+      "Luuvitonen"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "What Awaits Us, Traitos Among Us, Lust For Lily",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-04T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/what-awaits-us-traitos-among-us-lust-for-lily-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/what-awaits-us-traitos-among-us-lust-for-lily-nirvana/",
+    "room": "Nirvana",
+    "id": 62,
+    "artists": [
+      "What Awaits Us",
+      "Traitos Among Us",
+      "Lust For Lily"
+    ],
+    "genres": [
+      "metalcore"
+    ]
+  },
+  {
+    "artist": "Antti Autio: Haahuillen",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2026-12-04T19:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/15847/22294/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/antti-autio-haahuillen/",
+    "doors": "19:00",
+    "room": "Ateljee",
+    "id": 47,
+    "artists": [
+      "Antti Autio"
+    ],
+    "genres": [
+      "indie",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Edicti, Yrjänä",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-12-04T20:00:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6a705f1f216a1fbcb53cc521",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=17764",
+    "doors": "20:00",
+    "price": "19,8€",
+    "age": "K-18",
+    "id": 75,
+    "artists": [
+      "Edicti",
+      "Yrjänä"
+    ],
+    "genres": [
+      "rap",
+      "pop"
+    ]
+  },
+  {
+    "artist": "FLAME JAZZ: MIKKO PELLINEN – NÄKYMÄ",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Flame-Jazz:-Mikko-Pellinen-NAKYMA/150288/401658/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/flame-jazz-mikko-pellinen-nakyma",
+    "room": "Logi-sali",
+    "id": 3,
+    "artists": [
+      "FLAME JAZZ"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "URSUS FACTORY + support: SNIPE DRIVE",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/URSUS-FACTORY-K-18/165351/399846/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/ursusfactory_2026",
+    "room": "Teatro",
+    "id": 4,
+    "artists": [
+      "URSUS FACTORY"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock"
+    ]
+  },
+  {
+    "artist": "Chainline, Gladenfold, The Primer",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/chainline-gladenfold-the-primer-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/chainline-gladenfold-the-primer-nirvana/",
+    "room": "Nirvana",
+    "id": 63,
+    "artists": [
+      "Chainline",
+      "Gladenfold",
+      "The Primer"
+    ],
+    "genres": [
+      "metal",
+      "melodic metal",
+      "power metal",
+      "melodic death metal",
+      "folk metal",
+      "viking metal",
+      "progressive",
+      "technical",
+      "metalcore",
+      "estonia",
+      "progressive metalcore"
+    ]
+  },
+  {
+    "artist": "Bon Jovi Experience, Jailbreak",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/bon-jovi-experience-jailbreak-live/",
+    "eventUrl": "https://fuusioturku.fi/events/bon-jovi-experience-jailbreak-live/",
+    "room": "Livesali",
+    "id": 64,
+    "artists": [
+      "Bon Jovi Experience",
+      "Jailbreak"
+    ],
+    "genres": [
+      "hardcore",
+      "punk"
+    ]
+  },
+  {
+    "artist": "Turisti presents: Magic City -Arena tour",
+    "venue": "Gatorade Center",
+    "city": "Turku",
+    "date": "2026-12-05T18:30:00",
+    "ticketUrl": "https://www.livenation.fi/",
+    "eventUrl": "https://gatoradecenter.fi/turisti/",
+    "doors": "18:30",
+    "id": 97,
+    "artists": [
+      "Turisti"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "LEFT + Pedro + Victor Nordis",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-12-05T19:00:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6abfa173b228ab7e607b6441",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18025",
+    "doors": "19:00",
+    "price": "18,7€",
+    "age": "K-18",
+    "id": 76,
+    "artists": [
+      "LEFT",
+      "Pedro",
+      "Victor Nordis"
+    ],
+    "genres": [
+      "post-rock",
+      "ambient",
+      "nu metal",
+      "instrumental",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "EVA & MANU: BACK FOR THE HOLIDAYS 2026",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-09T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/EVA-and-MANU:-Back-for-the-holidays-2026-K-18/164641/397206/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/eva-manu-back-for-the-holidays-2026",
+    "room": "Teatro",
+    "id": 5,
+    "artists": [
+      "EVA & MANU"
+    ],
+    "genres": [
+      "folk",
+      "indie"
+    ]
+  },
+  {
+    "artist": "Michael Monroe – SOLO ACOUSTIC TOUR",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2026-12-09T19:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/15994/22772/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/michael-monroe-solo-acoustic-tour/",
+    "doors": "19:00",
+    "room": "Ateljee",
+    "id": 48,
+    "artists": [
+      "Michael Monroe"
+    ],
+    "genres": [
+      "hard rock",
+      "glam rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "PULKKINEN LIVE 2",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-10T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Pulkkinen-Live-2-K-18/164039/395086/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/pulkkinen-live-2",
+    "room": "Teatro",
+    "id": 6,
+    "artists": [
+      "PULKKINEN LIVE 2"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "ASA: TERVEISIÄ KAAOKSESTA 20v.",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-11T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Asa:-Terveisia-kaaoksesta-20v-K-18/167174/405827/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/asa-terveisia-kaaoksesta-20v",
+    "room": "Teatro",
+    "id": 7,
+    "artists": [
+      "ASA"
+    ],
+    "genres": [
+      "rap",
+      "hip hop",
+      "political"
+    ]
+  },
+  {
+    "artist": "FI/LV METAL MADNESS — TURKU: Barrel, Iron Wings, Sum of Seven",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-11T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/fi-lv-metal-madness-turku-barrel-iron-wings-sum-of-seven-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/fi-lv-metal-madness-turku-barrel-iron-wings-sum-of-seven-nirvana/",
+    "room": "Nirvana",
+    "id": 65,
+    "artists": [
+      "Barrel",
+      "Iron Wings",
+      "Sum of Seven"
+    ],
+    "genres": [
+      "heavy metal",
+      "thrash metal",
+      "stoner rock",
+      "progressive",
+      "metal",
+      "progressive rock",
+      "progressive metal",
+      "melodic metal",
+      "prog"
+    ]
+  },
+  {
+    "artist": "M",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-12-11T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6a54e8da9dd8fa7202b7c921",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=17686",
+    "doors": "20:30",
+    "price": "19,8€",
+    "age": "K-18",
+    "id": 77,
+    "artists": [
+      "M"
+    ],
+    "genres": [
+      "indie",
+      "singer-songwriter",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "APULANTA + support KRYPTA",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/APULANTA-K-18/164629/397159/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/apulanta",
+    "room": "Logomo-sali",
+    "id": 8,
+    "artists": [
+      "APULANTA"
+    ],
+    "genres": [
+      "rock",
+      "punk rock",
+      "punk"
+    ]
+  },
+  {
+    "artist": "VON HERTZEN BROTHERS - RARITIES",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/VON-HERTZEN-BROTHERS-RARITIES-25th-Anniversary-Tour-K-18/166661/404585/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/von-hertzen-brothers-rarities",
+    "room": "Teatro",
+    "id": 9,
+    "artists": [
+      "VON HERTZEN BROTHERS"
+    ],
+    "genres": [
+      "progressive rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Raïko-levyjulkkarit, Ropsu, Devinity",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/raiko-levyjulkkari-level-2/",
+    "eventUrl": "https://fuusioturku.fi/events/raiko-levyjulkkari-level-2/",
+    "room": "Level2",
+    "id": 66,
+    "artists": [
+      "Raïko-levyjulkkarit",
+      "Ropsu",
+      "Devinity"
+    ],
+    "genres": [
+      "electronic"
+    ]
+  },
+  {
+    "artist": "D1VARI Tour",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/d1vari-tour-live/",
+    "eventUrl": "https://fuusioturku.fi/events/d1vari-tour-live/",
+    "room": "Livesali",
+    "id": 67,
+    "artists": [
+      "D1VARI"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Alkuilta: SLAM! Wrestling: Season's Beatings",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/av-alkuilta-slam-showpainia-live/",
+    "eventUrl": "https://fuusioturku.fi/events/av-alkuilta-slam-showpainia-live/",
+    "room": "Livesali",
+    "id": 68,
+    "artists": [
+      "Alkuilta"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Stam1na",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2026-12-12T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120414",
+    "eventUrl": "https://apolloturku.fi/keikat/157/stam1na",
+    "age": "K-18",
+    "id": 88,
+    "artists": [
+      "Stam1na"
+    ],
+    "genres": [
+      "thrash metal",
+      "progressive metal",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Raskasta Joulua 2026",
+    "venue": "Gatorade Center",
+    "city": "Turku",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/en/event/raskasta-joulua-gatorade-center-21584598/",
+    "eventUrl": "https://gatoradecenter.fi/raskastajoulua2026/",
+    "doors": "19:00",
+    "id": 98,
+    "artists": [
+      "Raskasta Joulua"
+    ],
+    "genres": [
+      "metal",
+      "power metal",
+      "heavy metal"
+    ]
+  },
+  {
+    "artist": "KDC DANCE STUDIO – SPICE",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-14T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/KDC-Dance-Studio-SPICE/167646/407861/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/kdc-dance-studio-spice",
+    "room": "Logomo-sali",
+    "id": 10,
+    "artists": [
+      "KDC DANCE STUDIO"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "COMBICHRIST (USA) - OLD SCHOOL ELECTRO SET + SUPPORT: SIRKUIT PREIKER",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-17T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/COMBICHRIST-(USA)-Old-school-electro-set-K-18/167577/407329/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/combichrist-us",
+    "room": "Teatro",
+    "id": 11,
+    "artists": [
+      "COMBICHRIST"
+    ],
+    "genres": [
+      "industrial",
+      "ebm",
+      "dark electro",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "VESALA - LAULUMAILLA - KONSERTTISALIKIERTUE 2026",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Vesala-Laulumailla-konserttisalikiertue-2026/164671/397426/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/vesala-laulumailla-konserttisalikiertue",
+    "room": "Logomo-sali",
+    "id": 12,
+    "artists": [
+      "VESALA"
+    ],
+    "genres": [
+      "jazz",
+      "free jazz",
+      "drums"
+    ]
+  },
+  {
+    "artist": "MOON SHOT + support: CVPRI",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/MOON-SHOT-+-1-K-18/164890/398081/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/moon-shot-1",
+    "room": "Teatro",
+    "id": 13,
+    "artists": [
+      "MOON SHOT"
+    ],
+    "genres": [
+      "alternative rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "KILPI + Suicide Chain",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/kilpi-suicide-chain-livesali/",
+    "eventUrl": "https://fuusioturku.fi/events/kilpi-suicide-chain-livesali/",
+    "room": "Livesali",
+    "id": 69,
+    "artists": [
+      "KILPI",
+      "Suicide Chain"
+    ],
+    "genres": [
+      "heavy metal",
+      "hard rock",
+      "metal",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Der Bürokrat (FRA/IT) + Kalmaoke",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/der-burokrat-fra-it-kalmaoke-level2/",
+    "eventUrl": "https://fuusioturku.fi/events/der-burokrat-fra-it-kalmaoke-level2/",
+    "room": "Level2",
+    "id": 70,
+    "artists": [
+      "Der Bürokrat",
+      "Kalmaoke"
+    ],
+    "genres": [
+      "coldwave",
+      "minimal synth"
+    ]
+  },
+  {
+    "artist": "Pasi Mikael, Jopa ja Onnenonkijat, Kosmiset Exät, Rane plays rock covers",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/pasi-mikael-jopa-ja-onnenonkijat-kosmiset-exat-rane-plays-rock-covers-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/pasi-mikael-jopa-ja-onnenonkijat-kosmiset-exat-rane-plays-rock-covers-nirvana/",
+    "room": "Nirvana",
+    "id": 71,
+    "artists": [
+      "Pasi Mikael",
+      "Jopa ja Onnenonkijat",
+      "Kosmiset Exät",
+      "Rane"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "cover"
+    ]
+  },
+  {
+    "artist": "Benjamin - Locker Room Tour",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2026-12-18T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/118222",
+    "eventUrl": "https://apolloturku.fi/keikat/148/benjamin-locker-room-tour",
+    "age": "K-18",
+    "id": 89,
+    "artists": [
+      "Benjamin"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Grande Mahogany / Rebekka Holi",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2026-12-18T20:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/15595/21422/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/grande-mahogany-rebekka-holi/",
+    "doors": "20:00",
+    "room": "Ateljee",
+    "id": 49,
+    "artists": [
+      "Grande Mahogany",
+      "Rebekka Holi"
+    ],
+    "genres": [
+      "psychedelic rock",
+      "funk rock",
+      "european"
+    ]
+  },
+  {
+    "artist": "TURMION KÄTILÖT + support: The Ghoulstars",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2026-12-19T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/TURMION-KATILOT-+-support:-The-Ghoulstars-K-18/166633/404459/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/turmion-katilot",
+    "room": "Teatro",
+    "id": 14,
+    "artists": [
+      "TURMION KÄTILÖT"
+    ],
+    "genres": [
+      "industrial metal",
+      "industrial",
+      "metal"
+    ]
+  },
+  {
+    "artist": "JOULUTUOMIOKIRKKO: Spiritus Mortis, God Forsaken, Cardinals Folly",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-19T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/joulutuomiokirkko-spiritus-mortis-god-forsaken-cardinals-folly-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/joulutuomiokirkko-spiritus-mortis-god-forsaken-cardinals-folly-nirvana/",
+    "room": "Nirvana",
+    "id": 72,
+    "artists": [
+      "Spiritus Mortis",
+      "God Forsaken",
+      "Cardinals Folly"
+    ],
+    "genres": [
+      "doom metal",
+      "traditional doom metal",
+      "death metal",
+      "death doom metal"
+    ]
+  },
+  {
+    "artist": "keiju",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-12-19T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6ae0a13b978560eac25c9736",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18146",
+    "doors": "20:30",
+    "price": "22€",
+    "age": "K-18",
+    "id": 78,
+    "artists": [
+      "keiju"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "Tupe.",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2026-12-26T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6ae3523c4a0d7279c9559442",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18153",
+    "doors": "20:30",
+    "price": "17,6€",
+    "age": "K-18",
+    "id": 79,
+    "artists": [
+      "Tupe."
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Are & Kriso",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-01-09T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6aa9c2cea74de5107e8af4d2",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=17960",
+    "doors": "20:30",
+    "price": "17,6€",
+    "age": "K-18",
+    "id": 80,
+    "artists": [
+      "Are & Kriso"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "skill street entertainment"
+    ]
+  },
+  {
+    "artist": "NICK CAVEA SUOMEKSI + SATU LII + KARRI LEHTONEN & HAUTAJAISMUUSIKOT",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-01-14T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Nick-Cavea-suomeksi-+-Satu-Lii-+-Karri-Lehtonen-and-Hautajaismuusikot-K-18/166684/404637/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/nick-cavea-suomeksi-satu-lii-karri-lehtonen-hautajaismuusikot",
+    "room": "Teatro",
+    "id": 15,
+    "artists": [
+      "NICK CAVEA SUOMEKSI",
+      "SATU LII",
+      "KARRI LEHTONEN & HAUTAJAISMUUSIKOT"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "JULIET JONESIN SYDÄN",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-01-15T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/JULIET-JONESIN-SYDAN-K-18/168570/413231/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/juliet-jonesin-sydan",
+    "room": "Teatro",
+    "id": 16,
+    "artists": [
+      "JULIET JONESIN SYDÄN"
+    ],
+    "genres": [
+      "rock",
+      "suomirock",
+      "new wave"
+    ]
+  },
+  {
+    "artist": "Sonia",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-01-15T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6abd732ab228ab7e607b6368",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18016",
+    "doors": "20:30",
+    "price": "15,4€",
+    "age": "K-18",
+    "id": 81,
+    "artists": [
+      "Sonia"
+    ],
+    "genres": [
+      "pop",
+      "dance"
+    ]
+  },
+  {
+    "artist": "RASWAA KONEESEEN VOL. 2",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-01-16T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/RASWAA-KONEESEEN-VOL.-2-K-18/168108/411802/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/raswaa-koneeseen-vol-2",
+    "room": "Teatro",
+    "id": 17,
+    "artists": [
+      "RASWAA KONEESEEN VOL. 2"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "The New Tigers, Radio Supernova, Sisar, Pink Chameleons",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-01-16T18:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6ada1c0f4a0d7279c95590b1",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18104",
+    "doors": "18:30",
+    "price": "17,6€",
+    "age": "K-18",
+    "id": 85,
+    "artists": [
+      "The New Tigers",
+      "Radio Supernova",
+      "Sisar",
+      "Pink Chameleons"
+    ],
+    "genres": [
+      "indie",
+      "shoegaze",
+      "dream pop",
+      "indie rock",
+      "doomgaze",
+      "dreampop"
+    ]
+  },
+  {
+    "artist": "Suurlähettiläät",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-01-16T19:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/16060/23020/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/suurlahettilaat/",
+    "doors": "19:00",
+    "room": "Konserttisali",
+    "id": 50,
+    "artists": [
+      "Suurlähettiläät"
+    ],
+    "genres": [
+      "pop",
+      "suomirock"
+    ]
+  },
+  {
+    "artist": "LEMONATOR + SUPPORT: BEN'S DIAPERS",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-01-22T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/LEMONATOR-+-support:-Ben's-Diapers-K-18/168569/413229/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/lemonator-support-bens-diapers",
+    "room": "Teatro",
+    "id": 18,
+    "artists": [
+      "LEMONATOR"
+    ],
+    "genres": [
+      "power pop",
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Whispered + Marianas Rest",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-01-22T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121584",
+    "eventUrl": "https://apolloturku.fi/keikat/161/whispered-marianas-rest",
+    "age": "K-18",
+    "id": 90,
+    "artists": [
+      "Whispered",
+      "Marianas Rest"
+    ],
+    "genres": [
+      "melodic death metal",
+      "folk metal",
+      "doom metal",
+      "death doom metal",
+      "death metal"
+    ]
+  },
+  {
+    "artist": "ARTTU WISKARI - SUOMI FINLAND PRKL -KONSERTTISALIKIERTUE 2027",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-01-28T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/ARTTU-WISKARI-Suomi-Finland-PRKL/167749/408301/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/arttu-wiskari-suomi-finland-prkl-konserttisalikiertue-2027",
+    "room": "Logomo-sali",
+    "id": 19,
+    "artists": [
+      "ARTTU WISKARI"
+    ],
+    "genres": [
+      "pop",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "FOUR FORCEMEN PLAYS KILL ’EM ALL + ROCK CITY BAND TURKU PLAYS OZZY & BLACK SABBATH",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-01-30T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Four-Forcemen-plays-Kill-'em-All-+Rock-City-Band-Turku-plays-Ozzy-and-Sabbath-K-18/166622/404425/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/four-forcemen-plays-kill-em-all-rock-city-band-turku-plays-ozzy-sabbath",
+    "room": "Teatro",
+    "id": 20,
+    "artists": [
+      "FOUR FORCEMEN",
+      "ROCK CITY BAND TURKU"
+    ],
+    "genres": [
+      "heavy metal",
+      "hard rock",
+      "classic rock",
+      "metal"
+    ]
+  },
+  {
+    "artist": "Pauliina Kokkonen",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-01-30T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6ab27334a614fb034ea2c5fb",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=17992",
+    "doors": "20:30",
+    "price": "20,35€",
+    "age": "K-18",
+    "id": 82,
+    "artists": [
+      "Pauliina Kokkonen"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "KIITOS KATRI HELENA - KONSERTTI",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-02-04T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Kiitos-Katri-Helena-konsertti/164048/395130/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/kiitos-katri-helena-konsertti",
+    "room": "Logomo-sali",
+    "id": 21,
+    "artists": [
+      "KIITOS KATRI HELENA"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Uniklubi",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-02-05T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121585",
+    "eventUrl": "https://apolloturku.fi/keikat/162/uniklubi",
+    "age": "K-18",
+    "id": 91,
+    "artists": [
+      "Uniklubi"
+    ],
+    "genres": [
+      "rock",
+      "suomirock",
+      "finnish rock"
+    ]
+  },
+  {
+    "artist": "CHRIS KLÄFFORD (SE)",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-02-06T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/CHRIS-KLAFFORD-(SE)-K-18/167700/407873/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/chris-klafford-se",
+    "room": "Teatro",
+    "id": 22,
+    "artists": [
+      "CHRIS KLÄFFORD"
+    ],
+    "genres": [
+      "chris klafford",
+      "amazing voice",
+      "melodifestivalen 2020 wishlist",
+      "swedish male vocalists"
+    ]
+  },
+  {
+    "artist": "TINA",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-02-12T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121587",
+    "eventUrl": "https://apolloturku.fi/keikat/163/tina",
+    "age": "K-18",
+    "id": 92,
+    "artists": [
+      "TINA"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Yölintu",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-02-19T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/121815",
+    "eventUrl": "https://apolloturku.fi/keikat/164/yolintu",
+    "age": "K-18",
+    "id": 93,
+    "artists": [
+      "Yölintu"
+    ],
+    "genres": [
+      "iskelmä"
+    ]
+  },
+  {
+    "artist": "HUORA + LÄHIÖBOTOX",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-02-20T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/HUORA-+-LAHIOBOTOX-K-18/167867/410764/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/huora-lahiobotox",
+    "room": "Teatro",
+    "id": 23,
+    "artists": [
+      "HUORA",
+      "LÄHIÖBOTOX"
+    ],
+    "genres": [
+      "punk",
+      "punk rock",
+      "nu metal",
+      "hardcore",
+      "groove metal",
+      "heavy hardcore"
+    ]
+  },
+  {
+    "artist": "MOUHOUS - ALLES SUPA TOUR 2027",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-02-20T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/MOUHOUS-ALLES-SUPA-TOUR-2027-K-18/168226/412048/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/mouhous-alles-supa-tour-2027",
+    "room": "Logomo-sali",
+    "id": 24,
+    "artists": [
+      "MOUHOUS"
+    ],
+    "genres": [
+      "rap"
+    ]
+  },
+  {
+    "artist": "Kolmas Nainen: Hyvää ja kaunista -konserttisalikiertue",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-02-20T19:00:00",
+    "ticketUrl": "https://liput.musiikkitalofuuga.fi/fi/buyingflow/tickets/16025/22853/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/kolmas-nainen-hyvaa-ja-kaunista-konserttisalikiertue/",
+    "doors": "19:00",
+    "room": "Konserttisali",
+    "id": 51,
+    "artists": [
+      "Kolmas Nainen"
+    ],
+    "genres": [
+      "rock",
+      "suomirock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Penniless - Anola 25v",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-02-20T20:00:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6afde3f4cf9217a5cdc0c9b4",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18185",
+    "doors": "20:00",
+    "price": "17,6€",
+    "age": "K-18",
+    "id": 86,
+    "artists": [
+      "Penniless"
+    ],
+    "genres": [
+      "alternative rock",
+      "indie rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "AMORPHIS + SUPPORTS",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-02-26T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/AMORPHIS-+-supports/166345/402977/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/amorphis-supports",
+    "room": "Logomo-sali",
+    "id": 25,
+    "artists": [
+      "AMORPHIS",
+      "SUPPORTS"
+    ],
+    "genres": [
+      "progressive metal",
+      "melodic death metal",
+      "death metal",
+      "doom metal"
+    ]
+  },
+  {
+    "artist": "SARA",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-02-26T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/SARA-K-18/166692/404655/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/sara",
+    "room": "Teatro",
+    "id": 26,
+    "artists": [
+      "SARA"
+    ],
+    "genres": [
+      "alternative rock",
+      "alternative metal",
+      "alternative"
+    ]
+  },
+  {
+    "artist": "PUSSY RIOT: RIOT DAYS + SUPPORT: NEW AGE DOOM",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-05T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/PUSSY-RIOT:-RIOT-DAYS-K-18/167481/406957/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/pussy-riot-riot-days-support-new-age-doom",
+    "room": "Teatro",
+    "id": 27,
+    "artists": [
+      "RIOT DAYS"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Apollon tribuutti-ilta: Leimavero: Topi Sorsakoski & Agents",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-03-05T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122020",
+    "eventUrl": "https://apolloturku.fi/keikat/166/apollon-tribuutti-ilta-leimavero-topi-sorsakoski-agents",
+    "age": "K-18",
+    "id": 94,
+    "artists": [
+      "Apollon tribuutti-ilta"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "RUUSUT",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-06T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/RUUSUT-K-18/167131/405750/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/ruusut",
+    "room": "Teatro",
+    "id": 28,
+    "artists": [
+      "RUUSUT"
+    ],
+    "genres": [
+      "electronic",
+      "synthpop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "ELÄMÄNI BIISI -KONSERTTI",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-07T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/Elamani-biisi-konsertti/168072/411667/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/elamani-biisi-konsertti",
+    "room": "Logomo-sali",
+    "id": 29,
+    "artists": [
+      "ELÄMÄNI BIISI"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "VESTERINEN YHTYEINEEN: PALUU TEATROON",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-11T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/Vesterinen-Yhtyeineen:-Paluu-Teatroon-K-18/167807/408678/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/vesterinen-yhtyeineen-paluu-teatroon",
+    "room": "Teatro",
+    "id": 30,
+    "artists": [
+      "VESTERINEN YHTYEINEEN"
+    ],
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "F",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-03-12T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6ac5e995a4821eace4c9d665",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18033",
+    "doors": "20:30",
+    "price": "19,8€",
+    "age": "K-18",
+    "id": 87,
+    "artists": [
+      "F"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "emma & matilda – Akustinen Konserttisalikiertue 2027",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-03-13T19:00:00",
+    "ticketUrl": "https://liput.musiikkitalofuuga.fi/fi/buyingflow/tickets/16254/24002/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/emma-matilda-akustinen-konserttisalikiertue-2027/",
+    "doors": "19:00",
+    "room": "Konserttisali",
+    "id": 55,
+    "artists": [
+      "emma & matilda"
+    ],
+    "genres": [
+      "bedroom pop",
+      "indie pop",
+      "acoustic",
+      "indie"
+    ]
+  },
+  {
+    "artist": "BLACK SWAN",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-17T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/Black-Swan/166147/407061/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/blackswan_2026",
+    "room": "Logomo-sali",
+    "id": 31,
+    "artists": [
+      "BLACK SWAN"
+    ],
+    "genres": [
+      "drone",
+      "ambient",
+      "dark ambient",
+      "melodic black metal"
+    ]
+  },
+  {
+    "artist": "TIMO KOTIPELTO & JARKKO AHOLA - VOICES UNLEASHED",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-19T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Timo-Kotipelto-and-Jarkko-Ahola-Voices-Unleashed/167435/406845/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/kotipelto-ahola-voices-unleash",
+    "room": "Logomo-sali",
+    "id": 32,
+    "artists": [
+      "TIMO KOTIPELTO & JARKKO AHOLA"
+    ],
+    "genres": [
+      "power metal",
+      "heavy metal",
+      "melodic metal",
+      "pop",
+      "scandinavian metal"
+    ]
+  },
+  {
+    "artist": "Nelli Matula",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-03-19T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122322",
+    "eventUrl": "https://apolloturku.fi/keikat/167/nelli-matula",
+    "age": "K-18",
+    "id": 95,
+    "artists": [
+      "Nelli Matula"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Pesso",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-03-19T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6af198a7a32826384f06147b",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18173",
+    "doors": "20:30",
+    "price": "19,8€",
+    "age": "K-18",
+    "id": 83,
+    "artists": [
+      "Pesso"
+    ],
+    "genres": [
+      "rap",
+      "indie"
+    ]
+  },
+  {
+    "artist": "The 69 EYES: Tour Acustica",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-20T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/The-69-EYES:-Tour-Acustica-K-18/166923/405272/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/the-69-eyes-tour-acustica",
+    "room": "Teatro",
+    "id": 33,
+    "artists": [
+      "The 69 EYES"
+    ],
+    "genres": [
+      "gothic rock",
+      "gothic metal"
+    ]
+  },
+  {
+    "artist": "HALOO HELSINKI! 20-VUOTISJUHLAKIERTUE",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-03-20T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Haloo-Helsinki!-20-vuotisjuhlakiertue/166752/404941/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/haloo-helsinki-20-vuotisjuhlakiertue",
+    "room": "Logomo-sali",
+    "id": 34,
+    "artists": [
+      "HALOO HELSINKI!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
+  },
+  {
+    "artist": "Maustetytöt – MT Unplugged",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-03-20T20:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/16066/23061/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/maustetytot-mt-unplugged/",
+    "doors": "20:00",
+    "room": "Ateljee",
+    "id": 52,
+    "artists": [
+      "Maustetytöt"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Noora Louhimo – Inner Goddess Spring Tour – K18 (anniskelukatsomo)",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-03-26T19:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/16200/23903/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/noora-louhimo-inner-goddess-spring-tour-k18-anniskelutapahtuma/",
+    "doors": "19:00",
+    "room": "Ateljee",
+    "id": 53,
+    "artists": [
+      "Noora Louhimo"
+    ],
+    "genres": [
+      "heavy metal",
+      "power metal",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Lyttä, Tohtori Getto",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-03-26T20:30:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6adf70584a0d7279c955927b",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18142",
+    "doors": "20:30",
+    "price": "23,1€",
+    "age": "K-18",
+    "id": 84,
+    "artists": [
+      "Lyttä",
+      "Tohtori Getto"
+    ],
+    "genres": [
+      "rap",
+      "hip hop",
+      "kortepohja"
+    ]
+  },
+  {
+    "artist": "ILMAVOIMIEN SOITTOKUNTA: CLUB FOR FIVE & IVBB: PAVE!",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-01T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/Club-For-Five-and-IVBB:-Pave!/165989/401575/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/clubforfive_2027",
+    "room": "Logomo-sali",
+    "id": 35,
+    "artists": [
+      "ILMAVOIMIEN SOITTOKUNTA"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "THE ROCK ORCHESTRA BY CANDLELIGHT",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-05T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/The-Rock-Orchestra-by-Candlelight/167813/408713/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/the-rock-orchestra-by-candlelight",
+    "room": "Logomo-sali",
+    "id": 36,
+    "artists": [
+      "THE ROCK ORCHESTRA BY CANDLELIGHT"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "PAPERI T & UMO HELSINKI JAZZ ORCHESTRA",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-09T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/Paperi-T-and-UMO-Helsinki-Jazz-Orchestra/167655/407689/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/paperi-t-umo-helsinki-jazz-orchestra",
+    "room": "Logomo-sali",
+    "id": 37,
+    "artists": [
+      "PAPERI T & UMO HELSINKI JAZZ ORCHESTRA"
+    ],
+    "genres": [
+      "hip hop",
+      "rap",
+      "guitar",
+      "jazz",
+      "piano",
+      "instrumental"
+    ]
+  },
+  {
+    "artist": "J. KARJALAINEN \"JUHLAKEVÄT 2027\"",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-09T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/J.-KARJALAINEN-%22JUHLAKEVAT-2027%22-K-18/167959/411200/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/j-karjalainen-juhlakevat-2027",
+    "room": "Teatro",
+    "id": 38,
+    "artists": [
+      "J. KARJALAINEN"
+    ],
+    "genres": [
+      "singer-songwriter",
+      "blues",
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Mamba",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-04-09T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120430",
+    "eventUrl": "https://apolloturku.fi/keikat/158/mamba",
+    "age": "K-18",
+    "id": 96,
+    "artists": [
+      "Mamba"
+    ],
+    "genres": [
+      "pop",
+      "suomirock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "LOUNA0NLINE",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-10T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/LOUNA0NLINE-K-18/168236/412069/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/louna0nline",
+    "room": "Teatro",
+    "id": 39,
+    "artists": [
+      "LOUNA0NLINE"
+    ],
+    "genres": [
+      "electronic",
+      "rap"
+    ]
+  },
+  {
+    "artist": "Sgt. Pepper’s 60 Years: The Beatles Tribute Show",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-04-15T19:00:00",
+    "ticketUrl": "https://liput.musiikkitalofuuga.fi/fi/buyingflow/tickets/16197/23898/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/sgt-peppers-60-years-the-beatles-tribute-show/",
+    "doors": "19:00",
+    "room": "Konserttisali",
+    "id": 54,
+    "artists": [
+      "Sgt. Pepper’s 60 Years"
+    ],
+    "genres": [
+      "classic rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "VESTA",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-23T00:00:00",
+    "ticketUrl": "https://logomo.fi/tapahtuma/vesta",
+    "eventUrl": "https://logomo.fi/tapahtuma/vesta",
+    "room": "Teatro",
+    "id": 40,
+    "artists": [
+      "VESTA"
+    ],
+    "genres": [
+      "pop",
+      "electropop"
+    ]
+  },
+  {
+    "artist": "MARISKA",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-04-30T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/MARISKA-K-18/168297/412359/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/mariska",
+    "room": "Teatro",
+    "id": 41,
+    "artists": [
+      "MARISKA"
+    ],
+    "genres": [
+      "rap",
+      "hip hop"
+    ]
+  },
+  {
+    "artist": "WITCHCRAFT (SE) + support",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-05-21T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/WITCHCRAFT-(SE)-+-support-K-18/167984/411312/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/witchcraft-se-support",
+    "room": "Teatro",
+    "id": 42,
+    "artists": [
+      "WITCHCRAFT"
+    ],
+    "genres": [
+      "doom metal",
+      "stoner rock",
+      "hard rock",
+      "stoner"
+    ]
+  },
+  {
+    "artist": "THE PINEAPPLE THIEF (UK)",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-05-31T00:00:00",
+    "ticketUrl": "https://logomo.livex.fi/event/The-Pineapple-Thief-(UK)-K-18/166846/405118/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/the-pineapple-thief-uk",
+    "room": "Teatro",
+    "id": 43,
+    "artists": [
+      "THE PINEAPPLE THIEF"
+    ],
+    "genres": [
+      "progressive rock",
+      "art rock"
+    ]
+  },
+  {
+    "artist": "POHJOLA HEAVY JAZZ GROUP",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-10-15T00:00:00",
+    "ticketUrl": "https://logomo.lippu.fi/event/POHJOLA-HEAVY-JAZZ-GROUP-K-18/168229/412054/details",
+    "eventUrl": "https://logomo.fi/tapahtuma/pohjola-heavy-jazz-group",
+    "room": "Teatro",
+    "id": 44,
+    "artists": [
+      "POHJOLA HEAVY JAZZ GROUP"
+    ],
+    "genres": []
+  }
+]

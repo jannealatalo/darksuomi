@@ -1,4 +1,4 @@
-export type CityKey = "helsinki" | "tampere" | "oulu" | "seattle";
+export type CityKey = "helsinki" | "tampere" | "oulu" | "turku" | "seattle";
 
 export type City = {
   key: CityKey;
@@ -10,11 +10,12 @@ export type City = {
   us?: boolean;
 };
 
-/** The calendars: Helsinki is the main site, Tampere and Oulu have their own pages. */
+/** The calendars: Helsinki is the main site, Tampere, Oulu and Turku have their own pages. */
 export const CITIES: City[] = [
   { key: "helsinki", name: "Helsinki", path: "/", timeZone: "Europe/Helsinki" },
   { key: "tampere", name: "Tampere", path: "/tampere", timeZone: "Europe/Helsinki" },
   { key: "oulu", name: "Oulu", path: "/oulu", timeZone: "Europe/Helsinki" },
+  { key: "turku", name: "Turku", path: "/turku", timeZone: "Europe/Helsinki" },
 ];
 
 /**

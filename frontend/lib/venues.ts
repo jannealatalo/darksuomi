@@ -58,4 +58,12 @@ export const VENUE_ADDRESSES: Record<string, VenueAddress> = {
   Kantakrouvi: v("Uusikatu 23", "90100", "Oulu"),
   "Oulun Energia Areena": v("Teuvo Pakkalan katu 11", "90130", "Oulu"),
   "Ouluhallin parkkialue (Rokki Raikaa)": v("Ouluhallintie 20", "90130", "Oulu"),
+  // Turku
+  Logomo: v("Köydenpunojankatu 14", "20100", "Turku"),
+  "Musiikkitalo Fuuga": v("Itäinen Rantakatu 20", "20800", "Turku"),
+  Fuusio: v("Humalistonkatu 8a", "20100", "Turku"),
+  Dynamo: v("Linnankatu 7", "20100", "Turku"),
+  "Apollo Turku": v("Humalistonkatu 6", "20100", "Turku"),
+  "Gatorade Center": v("Artukaistentie 8", "20210", "Turku"),
+  "Taiteen talo": v("Nunnankatu 4", "20700", "Turku"),
 };

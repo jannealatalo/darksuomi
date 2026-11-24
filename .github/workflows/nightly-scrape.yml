@@ -205,7 +205,7 @@ jobs:
         continue-on-error: true
         run: python standup.py
 
-      - name: Experimental city sites (Tampere, Oulu)
+      - name: Experimental city sites (Tampere, Oulu, Turku)
         # Separate data (frontend/data/<city>/events.json); genres share the
         # artist cache. No setlist.fm or Spotify calls for these sites. A
         # broken venue site only gives a warning.
@@ -213,7 +213,7 @@ jobs:
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: |
-          for city in tampere oulu; do
+          for city in tampere oulu turku; do
             for f in scraper_${city}_*.py; do
               [ -e "$f" ] || continue
               python "$f" || echo "::warning::$f failed"
@@ -246,6 +246,7 @@ jobs:
           python genres.py
           python genres.py --city tampere
           python genres.py --city oulu
+          python genres.py --city turku
 
       - name: Daily updates log (new gigs since the last commit)
         # frontend/data/updates.json -> darksuomi.fi/updates

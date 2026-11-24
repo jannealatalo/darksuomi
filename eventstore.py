@@ -7,7 +7,7 @@ get the next free id. Gigs are never deleted here (past ones just stop
 showing on the site).
 
 Helsinki gigs live in frontend/data/events.json; the experimental city sites
-(darksuomi.fi/tampere, /oulu) keep theirs in frontend/data/<city>/events.json.
+(darksuomi.fi/tampere, /oulu, /turku) keep theirs in frontend/data/<city>/events.json.
 Pass `city=` to work on those. HIDDEN_CITIES (darksuomi.fi/seattle, an
 experiment) work the same, but the updates log, emails, Discord, Instagram
 and setlists only go through CITIES, so they leave them out.
@@ -19,7 +19,7 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent / "frontend" / "data"
 EVENTS_FILE = DATA_DIR / "events.json"
-CITIES = ("tampere", "oulu")  # experimental sites, separate from Helsinki
+CITIES = ("tampere", "oulu", "turku")  # experimental sites, separate from Helsinki
 HIDDEN_CITIES = ("seattle",)  # not linked anywhere; only gigs and genres
 
 

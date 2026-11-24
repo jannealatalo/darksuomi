@@ -34,7 +34,7 @@ import SearchBox from "./SearchBox";
 
 /**
  * The gig calendar of one city: Helsinki on the front page, and the
- * Tampere and Oulu sites under /tampere and /oulu.
+ * Tampere, Oulu and Turku sites under /tampere, /oulu and /turku.
  */
 // Header buttons, styled alike so they read as links.
 const NAV_BUTTON =

@@ -21,6 +21,7 @@ export default function manifest(): MetadataRoute.Manifest {
     shortcuts: [
       { name: "Tampere", url: "/tampere" },
       { name: "Oulu", url: "/oulu" },
+      { name: "Turku", url: "/turku" },
       { name: "Band Directory", url: "/bands" },
     ],
   };

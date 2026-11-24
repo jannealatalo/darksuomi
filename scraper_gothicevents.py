@@ -45,7 +45,7 @@ FEED_PAGES = 3
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                          "(KHTML, like Gecko) Chrome/130.0 Safari/537.36"}
 SITE_OF_CITY = {"helsinki": "helsinki", "espoo": "helsinki", "vantaa": "helsinki",
-                "tampere": "tampere", "oulu": "oulu"}
+                "tampere": "tampere", "oulu": "oulu", "turku": "turku"}
 # The blog's venue names -> the names the venue scrapers use, where they differ.
 VENUE_NAMES = {"varjobaari": "Varjobaari"}
 # Closed venues whose old gigs may linger in the blog: (city, venue word).
@@ -60,7 +60,7 @@ CANCELLED = re.compile(r"\b(?:peruttu|perutaan|cancell?ed)\b", re.I)
 DJ_ONLY_TITLE = re.compile(r"^club\b|pre-club|\bclub night\b|\bdj\b", re.I)
 DJ_PART = re.compile(r"^\s*dj\b", re.I)
 STOP_WORDS = {"ravintola", "klubi", "club", "bar", "baari", "the", "live", "helsinki",
-              "tampere", "oulu", "espoo", "kortteli", "konepaja", "level"}
+              "tampere", "oulu", "turku", "espoo", "kortteli", "konepaja", "level"}
 
 
 def words(text: str) -> set[str]:

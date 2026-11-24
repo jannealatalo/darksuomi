@@ -612,7 +612,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--refresh", action="store_true", help="re-fetch all artists")
     parser.add_argument("--report", action="store_true", help="print genre counts and exit")
-    parser.add_argument("--city", help="tampere / oulu: that site's events.json")
+    parser.add_argument("--city", help="tampere / oulu / turku: that site's events.json")
     args = parser.parse_args()
 
     from eventstore import events_file

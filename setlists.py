@@ -3,7 +3,7 @@
 Expected setlists for Dark Suomi events, built from setlist.fm.
 
 For every artist in the gig lists of Helsinki (frontend/data/events.json),
-Tampere and Oulu (frontend/data/<city>/events.json) (the `artists` field
+Tampere, Oulu and Turku (frontend/data/<city>/events.json) (the `artists` field
 written by genres.py), fetch their recent setlists from setlist.fm and work
 out a likely setlist: songs played in a good share of recent shows, in their
 usual order, with encores last. Results go to frontend/data/setlists.json,

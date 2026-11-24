@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Weekly Instagram post for @darksuomievents: "GIGS THIS WEEK", the next
-7 days' gigs (bands · venue, grouped by day) in Helsinki, Tampere and Oulu,
+7 days' gigs (bands · venue, grouped by day) in Helsinki, Tampere, Oulu and Turku,
 as one post of 1–10 pictures (1080x1350) plus a caption.
 
 The gigs are the site's default genres, cancelled ones left out. Cities
@@ -71,17 +71,20 @@ VENUE_INSTAGRAM = {
     "Tarkastamo": "tarkastamo_oulu", "Tullisali": "tullisali",
     "Oulun Musiikkikeskus": "oulunmusiikkikeskus", "Toppila Klubi": "toppilaklubi",
     "Tukikohta": "tukikohta_oulu", "Hevimesta": "hevimestaoulu", "Kantakrouvi": "kantakrouvi",
+    "Logomo": "logomoturku", "Musiikkitalo Fuuga": "musiikkitalofuuga",
+    "Fuusio": "fuusioturku", "Apollo Turku": "apolloturku", "Taiteen talo": "taiteentalo",
 }
 BAND_FILES = {
     "helsinki": ROOT / "frontend" / "data" / "bands.json",
     "tampere": ROOT / "frontend" / "data" / "tampere" / "bands.json",
     "oulu": ROOT / "frontend" / "data" / "oulu" / "bands.json",
+    "turku": ROOT / "frontend" / "data" / "turku" / "bands.json",
 }
 MAX_TAGS = 20  # Instagram's limit of people tagged in one picture
 TAG_X, TAG_STEP = 0.15, 0.2  # tags along the gig's line (shares of the width)
 MAX_VENUE_MENTIONS = 15  # in the caption, the venues with most gigs first
 
-CITY_TITLES = {"helsinki": "HELSINKI", "tampere": "TAMPERE", "oulu": "OULU"}
+CITY_TITLES = {"helsinki": "HELSINKI", "tampere": "TAMPERE", "oulu": "OULU", "turku": "TURKU"}
 DAYS = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
 
 # Picture layout in pixels (must match CSS below). The list area is what's

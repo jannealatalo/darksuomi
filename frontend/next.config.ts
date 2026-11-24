@@ -22,6 +22,7 @@ const nextConfig: NextConfig = {
     return [
       { source: "/tampere/bands", destination: "/bands", permanent: true },
       { source: "/oulu/bands", destination: "/bands", permanent: true },
+      { source: "/turku/bands", destination: "/bands", permanent: true },
     ];
   },
   partialPrefetching: true,

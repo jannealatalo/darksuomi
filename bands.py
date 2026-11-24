@@ -39,7 +39,7 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "frontend" / "data"
 ARTISTS_FILE = DATA_DIR / "artists.json"
 CONFIG_FILE = DATA_DIR / "genre-config.json"
-CITY_KEYS = ("helsinki", "tampere", "oulu")
+CITY_KEYS = ("helsinki", "tampere", "oulu", "turku")
 
 
 def bands_file(city: str) -> Path:

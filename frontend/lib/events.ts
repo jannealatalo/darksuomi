@@ -1,6 +1,7 @@
 import events from "../data/events.json";
 import ouluEvents from "../data/oulu/events.json";
 import seattleEvents from "../data/seattle/events.json";
+import turkuEvents from "../data/turku/events.json";
 import tampereEvents from "../data/tampere/events.json";
 import genreConfig from "../data/genre-config.json";
 import meta from "../data/meta.json";
@@ -18,6 +19,7 @@ const EVENTS_BY_CITY: Record<CityKey, Event[]> = {
   helsinki: (events as Event[]).filter(isGig),
   tampere: (tampereEvents as Event[]).filter(isGig),
   oulu: (ouluEvents as Event[]).filter(isGig),
+  turku: (turkuEvents as Event[]).filter(isGig),
   seattle: (seattleEvents as Event[]).filter(isGig),
 };
 

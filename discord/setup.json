@@ -29,6 +29,7 @@
         {"name": "helsinki-espoo", "topic": "Gigs in Helsinki, Espoo and around: https://darksuomi.fi"},
         {"name": "tampere", "topic": "Gigs in Tampere: https://darksuomi.fi/tampere"},
         {"name": "oulu", "topic": "Gigs in Oulu: https://darksuomi.fi/oulu"},
+        {"name": "turku", "topic": "Gigs in Turku: https://darksuomi.fi/turku"},
         {"name": "gig-buddies", "topic": "Looking for company to a gig? Ask here."},
         {"name": "photos-videos", "topic": "Post all of your concert photos and videos here!"},
         {"name": "merch-table", "topic": "Discuss and share photos of what merch is or was being sold at shows."},
@@ -93,7 +94,7 @@
     {
       "channel": "rules",
       "pin": true,
-      "text": "**Welcome to Dark Suomi** – the Discord of https://darksuomi.fi, the calendar of metal, punk, goth, industrial and other dark and loud gigs in Helsinki, Espoo, Tampere and Oulu.\n\n1. Be decent. No harassment, hate or slurs.\n2. Gig talk in the city channels, finding company in #gig-buddies, missing gigs and wrong info in #missing-gigs, new venues in #venue-suggestions.\n3. **Tickets:** only links to official resale (Ticketmaster/Lippu.fi, Tiketti, TicketSwap) in #tickets. No private sales, no \"DM me\", no MobilePay or bank transfers.\n4. No spam or self-promotion outside the topic. Bands may post their own gigs in the city channels.\n5. Nobody from Dark Suomi will ever DM you about tickets or ask for your password.\n\nNew gigs are posted to #announcements every night."
+      "text": "**Welcome to Dark Suomi** – the Discord of https://darksuomi.fi, the calendar of metal, punk, goth, industrial and other dark and loud gigs in Helsinki, Espoo, Tampere, Oulu and Turku.\n\n1. Be decent. No harassment, hate or slurs.\n2. Gig talk in the city channels, finding company in #gig-buddies, missing gigs and wrong info in #missing-gigs, new venues in #venue-suggestions.\n3. **Tickets:** only links to official resale (Ticketmaster/Lippu.fi, Tiketti, TicketSwap) in #tickets. No private sales, no \"DM me\", no MobilePay or bank transfers.\n4. No spam or self-promotion outside the topic. Bands may post their own gigs in the city channels.\n5. Nobody from Dark Suomi will ever DM you about tickets or ask for your password.\n\nNew gigs are posted to #announcements every night."
     },
     {
       "channel": "tickets",

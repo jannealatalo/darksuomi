@@ -47,6 +47,14 @@ export const VENUE_LINKS: Record<string, string> = {
   "Toppila Klubi": "https://toppilaklubi.fi/",
   "Oulun Musiikkikeskus": "https://www.oulunmusiikkikeskus.fi/",
   "Ouluhallin parkkialue (Rokki Raikaa)": "https://rokkiraikaa.fi/oulu-2027/",
+  // Turku
+  Logomo: "https://logomo.fi/tapahtumakalenteri",
+  "Musiikkitalo Fuuga": "https://www.musiikkitalofuuga.fi/tapahtumat/",
+  Fuusio: "https://fuusioturku.fi/ohjelma/",
+  Dynamo: "https://www.dynamoklubi.com/",
+  "Apollo Turku": "https://apolloturku.fi/keikat",
+  "Gatorade Center": "https://gatoradecenter.fi/tapahtumat/",
+  "Taiteen talo": "https://taiteentalo.fi/tapahtumat/",
   // Seattle (the hidden /seattle experiment)
   "El Corazón": "https://www.elcorazonseattle.com/",
   "The Funhouse": "https://www.elcorazonseattle.com/",

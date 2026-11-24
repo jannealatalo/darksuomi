@@ -1,6 +1,7 @@
 import bandData from "../data/bands.json";
 import ouluBandData from "../data/oulu/bands.json";
 import tampereBandData from "../data/tampere/bands.json";
+import turkuBandData from "../data/turku/bands.json";
 import type { CityKey } from "./cities";
 import { CITIES } from "./cities";
 import { getEvents } from "./events";
@@ -20,6 +21,7 @@ const BANDS_BY_CITY: Record<CityKey, Record<string, BandEntry>> = {
   helsinki: bandData as Record<string, BandEntry>,
   tampere: tampereBandData as Record<string, BandEntry>,
   oulu: ouluBandData as Record<string, BandEntry>,
+  turku: turkuBandData as Record<string, BandEntry>,
   seattle: {}, // no band directory for the hidden Seattle experiment
 };
 
