@@ -39,8 +39,8 @@
   },
   "A.W. Yrjänä": {
     "genres": [
-      "cmx",
-      "runous"
+      "alternative rock",
+      "suomirock"
     ],
     "display": "A.W. Yrjänä",
     "eventIds": [
@@ -379,26 +379,6 @@
     },
     "fetched": "2026-11-19"
   },
-  "Ashen Tomb": {
-    "genres": [
-      "death metal"
-    ],
-    "display": "Ashen Tomb",
-    "mbid": "a6752b87-9fbf-4070-b6b7-c3a94fe190c1",
-    "links": {
-      "bandcamp": "https://ashentomb.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/12372769",
-      "spotify": "https://open.spotify.com/artist/5mb4olmngvFtQqAbfBd2Bl",
-      "deezer": "https://www.deezer.com/artist/179313607",
-      "metalArchives": "https://www.metal-archives.com/bands/Ashen_Tomb/3540510857",
-      "instagram": "https://www.instagram.com/ashentomb/",
-      "apple": "https://music.apple.com/fi/artist/1638779240",
-      "tidal": "https://tidal.com/artist/33733049",
-      "youtube": "https://www.youtube.com/@AshenTomb"
-    },
-    "fetched": "2026-11-21",
-    "eventIds": []
-  },
   "Assemble The Chariots": {
     "genres": [
       "deathcore",
@@ -646,31 +626,6 @@
       227
     ]
   },
-  "Combichrist": {
-    "genres": [
-      "industrial",
-      "ebm",
-      "dark electro"
-    ],
-    "display": "Combichrist",
-    "mbid": "c29f4522-f710-4bb5-a06b-d436fcc3b2fd",
-    "links": {
-      "bandcamp": "https://combichrist.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/139618",
-      "spotify": "https://open.spotify.com/artist/5556RAgwP70PnXbaUTGNbR",
-      "deezer": "https://www.deezer.com/artist/6130",
-      "homepage": "http://www.combichrist.com/",
-      "instagram": "https://www.instagram.com/combichrist/",
-      "soundcloud": "https://soundcloud.com/combichrist",
-      "apple": "https://music.apple.com/gb/artist/49450697",
-      "tidal": "https://tidal.com/artist/3733204",
-      "wikidata": "https://www.wikidata.org/wiki/Q266782",
-      "youtube": "https://www.youtube.com/CombichristOfficial",
-      "wikipedia": "https://en.wikipedia.org/wiki/Combichrist"
-    },
-    "fetched": "2026-11-21",
-    "eventIds": []
-  },
   "COSTI": {
     "genres": [
       "electronic",
@@ -711,24 +666,6 @@
     "eventIds": [
       198
     ]
-  },
-  "Cryptic Hatred": {
-    "genres": [
-      "death metal"
-    ],
-    "display": "Cryptic Hatred",
-    "mbid": "43434251-0b01-4d8f-a5e8-f190f5bb3e39",
-    "links": {
-      "bandcamp": "https://cryptichatred.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/8213629",
-      "spotify": "https://open.spotify.com/artist/6XoytI9hLYSeFX5tKHPwGU",
-      "deezer": "https://www.deezer.com/artist/96917972",
-      "metalArchives": "https://www.metal-archives.com/bands/Cryptic_Hatred/3540470577",
-      "instagram": "https://www.instagram.com/cryptichatred_/",
-      "youtube": "https://www.youtube.com/channel/UCH08WGotHKEoGeoL5BZl2xA"
-    },
-    "fetched": "2026-11-21",
-    "eventIds": []
   },
   "Curtis Salgado": {
     "genres": [
@@ -1141,27 +1078,6 @@
     "eventIds": [
       109
     ]
-  },
-  "Face Yourself": {
-    "genres": [
-      "deathcore",
-      "metalcore"
-    ],
-    "display": "Face Yourself",
-    "eventIds": [],
-    "mbid": "669bf3bf-81c2-460f-bdfe-960963a26dac",
-    "links": {
-      "discogs": "https://www.discogs.com/artist/14107327",
-      "spotify": "https://open.spotify.com/artist/26DU5Lk20t68F2rYc2DcNU",
-      "deezer": "https://www.deezer.com/artist/204217757",
-      "homepage": "https://fyourselfband.com/",
-      "instagram": "https://www.instagram.com/fyourselfband/",
-      "soundcloud": "https://soundcloud.com/faceyourself-music",
-      "apple": "https://music.apple.com/gb/artist/1675712139",
-      "tidal": "https://tidal.com/artist/37774876",
-      "youtube": "https://www.youtube.com/channel/UCykSmBKCYoNuLtWE9ayNCQQ"
-    },
-    "fetched": "2026-11-19"
   },
   "Fantasia": {
     "genres": [
@@ -1634,24 +1550,6 @@
     "eventIds": [
       167
     ]
-  },
-  "Herra Ylppö": {
-    "genres": [
-      "rock",
-      "alternative rock",
-      "post-punk"
-    ],
-    "display": "Herra Ylppö",
-    "eventIds": [],
-    "mbid": "69082f7f-9912-42a6-adf5-90894540a2c8",
-    "links": {
-      "discogs": "https://www.discogs.com/artist/378594",
-      "spotify": "https://open.spotify.com/artist/6NwYl6JuXxC9H8T0hkNg6Q",
-      "instagram": "https://www.instagram.com/herraylppo/",
-      "wikidata": "https://www.wikidata.org/wiki/Q12433082",
-      "wikipedia": "https://fi.wikipedia.org/wiki/Herra_Ylpp%C3%B6"
-    },
-    "fetched": "2026-11-20"
   },
   "HORNA": {
     "genres": [
@@ -3229,6 +3127,8 @@
   },
   "Noora Louhimo": {
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ],
     "display": "Noora Louhimo",
@@ -3269,31 +3169,6 @@
     "eventIds": [
       227
     ]
-  },
-  "Oceans Ate Alaska": {
-    "genres": [
-      "metalcore",
-      "post-hardcore",
-      "progressive metalcore"
-    ],
-    "display": "Oceans Ate Alaska",
-    "eventIds": [],
-    "mbid": "c6bf185b-3a3b-408e-a8b9-f51e5ed7371b",
-    "links": {
-      "bandcamp": "https://oceansatealaska.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/3464748",
-      "spotify": "https://open.spotify.com/artist/48zUWAXpgEXfpttz23pCNQ",
-      "deezer": "https://www.deezer.com/artist/402540",
-      "homepage": "http://oceansatealaska.co.uk/",
-      "instagram": "https://www.instagram.com/oceansatealaska/",
-      "soundcloud": "https://soundcloud.com/oceansatealaska",
-      "apple": "https://music.apple.com/gb/artist/496384629",
-      "tidal": "https://tidal.com/artist/4489444",
-      "wikidata": "https://www.wikidata.org/wiki/Q13537775",
-      "youtube": "https://www.youtube.com/oceansatealaska",
-      "wikipedia": "https://en.wikipedia.org/wiki/Oceans_Ate_Alaska"
-    },
-    "fetched": "2026-11-19"
   },
   "OLGA": {
     "genres": [
@@ -3377,8 +3252,7 @@
   "Paleface": {
     "genres": [
       "hip hop",
-      "rap",
-      "deathcore"
+      "rap"
     ],
     "display": "Paleface",
     "mbid": "fda150d3-bb17-4f8e-bb0c-52f0da218ba8",
@@ -4519,7 +4393,8 @@
   },
   "Stuka": {
     "genres": [
-      "rac"
+      "electropunk",
+      "industrial"
     ],
     "display": "Stuka",
     "mbid": "e8483905-9c04-4602-ae43-a8ae04ae5ca5",
@@ -4636,32 +4511,6 @@
     "eventIds": [
       104
     ]
-  },
-  "Sólstafir": {
-    "genres": [
-      "black metal",
-      "post-black metal",
-      "progressive metal"
-    ],
-    "display": "Sólstafir",
-    "mbid": "5f976464-4a48-4c0e-aee4-bb70afaf7a8b",
-    "links": {
-      "bandcamp": "https://solstafir.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/511792",
-      "spotify": "https://open.spotify.com/artist/721C5U5rM8J0jjq6IQuSBK",
-      "deezer": "https://www.deezer.com/artist/182911",
-      "homepage": "https://www.solstafir.net/",
-      "metalArchives": "https://www.metal-archives.com/bands/S%C3%B3lstafir/3213",
-      "apple": "https://music.apple.com/is/artist/255252706",
-      "instagram": "https://www.instagram.com/solstafir_official/",
-      "soundcloud": "https://soundcloud.com/solstafir-music",
-      "tidal": "https://tidal.com/artist/4130411",
-      "wikidata": "https://www.wikidata.org/wiki/Q1551819",
-      "youtube": "https://www.youtube.com/channel/UCoTzPHBPPUDLI4EHnXnqLkg",
-      "wikipedia": "https://en.wikipedia.org/wiki/S%C3%B3lstafir"
-    },
-    "fetched": "2026-11-21",
-    "eventIds": []
   },
   "Tabloited": {
     "genres": [
@@ -4784,28 +4633,6 @@
     ],
     "mbid": null,
     "links": {},
-    "fetched": "2026-11-19"
-  },
-  "Ten56": {
-    "genres": [
-      "nu metal",
-      "deathcore",
-      "metalcore"
-    ],
-    "display": "ten56.",
-    "eventIds": [],
-    "mbid": "3e8d513b-c7ef-4a66-930b-83b50cccea04",
-    "links": {
-      "bandcamp": "https://ten56.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/10358944",
-      "spotify": "https://open.spotify.com/artist/28dpy0DQotTkBXcTlniQii",
-      "deezer": "https://www.deezer.com/artist/125618982",
-      "instagram": "https://www.instagram.com/ten56hq/",
-      "soundcloud": "https://soundcloud.com/ten56",
-      "apple": "https://music.apple.com/fr/artist/1556817098",
-      "tidal": "https://tidal.com/artist/23811049",
-      "youtube": "https://www.youtube.com/channel/UCGYgNWSU9nfbSoVlkb85lyw"
-    },
     "fetched": "2026-11-19"
   },
   "The 69 Eyes": {
@@ -5112,28 +4939,6 @@
     },
     "fetched": "2026-11-20"
   },
-  "TX2": {
-    "genres": [
-      "pop punk",
-      "alternative",
-      "emo"
-    ],
-    "display": "TX2",
-    "eventIds": [],
-    "mbid": "6093443d-d1fd-4bf0-b058-63840f11c0cd",
-    "links": {
-      "discogs": "https://www.discogs.com/artist/4289153",
-      "spotify": "https://open.spotify.com/artist/1QQ0zBYrjIUnXvHf5iiV5H",
-      "deezer": "https://www.deezer.com/artist/10738018",
-      "instagram": "https://www.instagram.com/tx2official/",
-      "soundcloud": "https://soundcloud.com/tx-2",
-      "apple": "https://music.apple.com/us/artist/1136613368",
-      "tidal": "https://tidal.com/artist/8007771",
-      "wikidata": "https://www.wikidata.org/wiki/Q135771959",
-      "youtube": "https://www.youtube.com/user/theotheret"
-    },
-    "fetched": "2026-11-20"
-  },
   "UMO Helsinki Jazz Orchestra": {
     "genres": [
       "guitar",
@@ -5212,21 +5017,6 @@
     "eventIds": [
       108
     ]
-  },
-  "Valvomo": {
-    "genres": [
-      "ska",
-      "pop"
-    ],
-    "display": "Valvomo",
-    "eventIds": [],
-    "mbid": "542ae033-50df-4f83-8605-f438bd4066e4",
-    "links": {
-      "discogs": "https://www.discogs.com/artist/1181802",
-      "wikidata": "https://www.wikidata.org/wiki/Q1604945",
-      "wikipedia": "https://en.wikipedia.org/wiki/Valvomo"
-    },
-    "fetched": "2026-11-20"
   },
   "Vandaalit": {
     "genres": [
@@ -5379,27 +5169,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Von_Hertzen_Brothers"
     },
     "fetched": "2026-11-19"
-  },
-  "Vorna": {
-    "genres": [
-      "folk metal",
-      "black metal",
-      "pagan metal"
-    ],
-    "display": "Vorna",
-    "mbid": "1cfc0a61-2303-4b1e-bf43-f5e146accfd9",
-    "links": {
-      "bandcamp": "https://vorna.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/3472975",
-      "spotify": "https://open.spotify.com/artist/3uQtxIjBgrF7vGOt54useD",
-      "deezer": "https://www.deezer.com/artist/4993982",
-      "homepage": "http://www.vornaofficial.com/",
-      "metalArchives": "https://www.metal-archives.com/bands/Vorna/3540296533",
-      "instagram": "https://www.instagram.com/vornaofficial/",
-      "youtube": "https://www.youtube.com/user/VornaOfficial"
-    },
-    "fetched": "2026-11-21",
-    "eventIds": []
   },
   "WHAT AWAITS US": {
     "genres": [

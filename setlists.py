@@ -315,6 +315,14 @@ def main() -> int:
         for name in event.get("artists", []):
             wanted.setdefault(name, countries.get(name))
 
+    # "PEER GÜNT" (a venue that shouts) shares a fresh "Peer Günt" entry
+    # instead of spending requests on the same band again.
+    by_fold = {k.casefold(): k for k in cache if cache[k].get("fetched", "") >= stale_before}
+    for name in wanted:
+        twin = by_fold.get(name.casefold())
+        if name not in cache and twin and twin != name:
+            cache[name] = cache[twin]
+
     # New artists first, then the longest-unrefreshed ones; capped per run so
     # refreshes spread over several days instead of all landing on one.
     due = [n for n in wanted

@@ -1,8 +1,8 @@
 {
   "A.W. Yrjänä": {
     "genres": [
-      "cmx",
-      "runous"
+      "alternative rock",
+      "suomirock"
     ],
     "display": "A.W. Yrjänä",
     "eventIds": [
@@ -154,9 +154,9 @@
   },
   "Barrel": {
     "genres": [
-      "jazz",
-      "hardcore",
-      "emo"
+      "heavy metal",
+      "thrash metal",
+      "stoner rock"
     ],
     "display": "Barrel",
     "eventIds": [
@@ -174,8 +174,8 @@
   },
   "Black Devils": {
     "genres": [
-      "freakbeat",
-      "need to rate"
+      "rock and roll",
+      "rock"
     ],
     "display": "Black Devils",
     "eventIds": [
@@ -1178,6 +1178,8 @@
   },
   "Noora Louhimo": {
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ],
     "display": "Noora Louhimo",
@@ -1213,7 +1215,10 @@
     ]
   },
   "Pauli Hanhiniemi": {
-    "genres": [],
+    "genres": [
+      "suomirock",
+      "rock"
+    ],
     "display": "Pauli Hanhiniemi",
     "mbid": "457c502c-010a-4e24-88d2-404281b8e5d2",
     "links": {
@@ -1415,7 +1420,9 @@
     ]
   },
   "Steel Systems": {
-    "genres": [],
+    "genres": [
+      "heavy metal"
+    ],
     "display": "Steel Systems",
     "mbid": "f2c6d097-ae6a-4752-aedf-d0cac100a2ba",
     "links": {
@@ -1442,7 +1449,11 @@
     ]
   },
   "Stepa & UMO Helsinki Jazz Orchestra": {
-    "genres": [],
+    "genres": [
+      "jazz",
+      "big band",
+      "rap"
+    ],
     "display": "Stepa & UMO Helsinki Jazz Orchestra",
     "mbid": null,
     "links": {},
@@ -1533,12 +1544,8 @@
     "fetched": "2026-11-20"
   },
   "TINA": {
-    "genres": [
-      "rnb",
-      "slovak",
-      "hip hop"
-    ],
-    "display": "Tina",
+    "genres": [],
+    "display": "TINA",
     "eventIds": [
       12
     ],

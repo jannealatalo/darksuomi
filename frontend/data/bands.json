@@ -26,8 +26,8 @@
   },
   "A.W. Yrjänä": {
     "genres": [
-      "cmx",
-      "runous"
+      "alternative rock",
+      "suomirock"
     ],
     "display": "A.W. Yrjänä",
     "eventIds": [
@@ -222,9 +222,10 @@
   },
   "Alchemy": {
     "genres": [
-      "indie"
+      "classic rock",
+      "rock"
     ],
-    "display": "ALCHEMY",
+    "display": "Alchemy",
     "eventIds": [
       374
     ],
@@ -454,6 +455,30 @@
       "instagram": "https://www.instagram.com/aniskiitu/"
     },
     "fetched": "2026-11-19"
+  },
+  "Anna Puu": {
+    "genres": [
+      "pop",
+      "finnish pop"
+    ],
+    "display": "Anna Puu",
+    "mbid": "bc78fa63-5867-46ab-8636-d1172540d858",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2183500",
+      "spotify": "https://open.spotify.com/artist/4gl9wpGYA4o15ykU2FBnd3",
+      "deezer": "https://www.deezer.com/artist/196177",
+      "homepage": "http://www.annapuu.fi/",
+      "instagram": "https://www.instagram.com/annapuuofficial/",
+      "apple": "https://music.apple.com/fi/artist/306488586",
+      "tidal": "https://tidal.com/artist/3603271",
+      "wikidata": "https://www.wikidata.org/wiki/Q457518",
+      "youtube": "https://www.youtube.com/channel/UCuCFnt2BmmYQbe5XmazXkzA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anna_Puu"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      583
+    ]
   },
   "Anssi Kela": {
     "genres": [
@@ -893,9 +918,9 @@
   },
   "Barrel": {
     "genres": [
-      "jazz",
-      "hardcore",
-      "emo"
+      "heavy metal",
+      "thrash metal",
+      "stoner rock"
     ],
     "display": "Barrel",
     "eventIds": [
@@ -955,6 +980,27 @@
     },
     "fetched": "2026-11-20"
   },
+  "Behm": {
+    "genres": [
+      "pop"
+    ],
+    "display": "BEHM",
+    "mbid": "2f0d2263-76ee-4bb2-a990-01bd5ac3a867",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/7012284",
+      "spotify": "https://open.spotify.com/artist/3bAa4FKwIgwWYHdaUJicmE",
+      "deezer": "https://www.deezer.com/artist/13658277",
+      "instagram": "https://www.instagram.com/ritabehm/",
+      "apple": "https://music.apple.com/fi/artist/1806632209",
+      "tidal": "https://tidal.com/artist/11401596",
+      "wikidata": "https://www.wikidata.org/wiki/Q81219104",
+      "wikipedia": "https://en.wikipedia.org/wiki/Behm_(singer)"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      584
+    ]
+  },
   "Ben’s Diapers": {
     "genres": [],
     "display": "Ben’s Diapers",
@@ -1004,8 +1050,8 @@
   },
   "Black Devils": {
     "genres": [
-      "freakbeat",
-      "need to rate"
+      "rock and roll",
+      "rock"
     ],
     "display": "Black Devils",
     "eventIds": [
@@ -1499,7 +1545,10 @@
     "fetched": "2026-11-20"
   },
   "Classic Rock Show": {
-    "genres": [],
+    "genres": [
+      "classic rock",
+      "rock"
+    ],
     "display": "Classic Rock Show",
     "mbid": "8f93830f-803a-4389-a244-4aa907452dc1",
     "links": {
@@ -3041,7 +3090,8 @@
       178,
       182,
       525,
-      526
+      526,
+      580
     ],
     "mbid": "e80bb0ef-c6bb-4769-8d35-4904617c5704",
     "links": {
@@ -4425,7 +4475,10 @@
     ]
   },
   "Kauko Röyhkä & Röyhkeät": {
-    "genres": [],
+    "genres": [
+      "rock",
+      "suomirock"
+    ],
     "display": "Kauko Röyhkä & Röyhkeät",
     "mbid": "c4d2e533-67c2-4b80-bd21-1bf9a8dc2312",
     "links": {},
@@ -5223,9 +5276,9 @@
   },
   "M": {
     "genres": [
-      "pop",
-      "rock",
-      "new wave"
+      "indie",
+      "singer-songwriter",
+      "electronic"
     ],
     "display": "M",
     "eventIds": [
@@ -5374,7 +5427,11 @@
     "fetched": "2026-11-19"
   },
   "Maria W Horn presents Melting Pillars Of Snow": {
-    "genres": [],
+    "genres": [
+      "drone",
+      "experimental",
+      "ambient"
+    ],
     "display": "Maria W Horn presents Melting Pillars Of Snow",
     "mbid": null,
     "links": {},
@@ -5707,7 +5764,11 @@
     "fetched": "2026-11-20"
   },
   "Michael Monroe acoustic solo": {
-    "genres": [],
+    "genres": [
+      "hard rock",
+      "glam rock",
+      "punk rock"
+    ],
     "display": "Michael Monroe acoustic solo",
     "mbid": null,
     "links": {},
@@ -5717,7 +5778,10 @@
     ]
   },
   "Mikkey Dee with Friends": {
-    "genres": [],
+    "genres": [
+      "hard rock",
+      "heavy metal"
+    ],
     "display": "Mikkey Dee with Friends",
     "eventIds": [
       446
@@ -5871,12 +5935,8 @@
     ]
   },
   "MOMO": {
-    "genres": [
-      "j-pop",
-      "mpb",
-      "rap"
-    ],
-    "display": "Momo",
+    "genres": [],
+    "display": "MOMO",
     "eventIds": [
       280
     ],
@@ -6267,6 +6327,8 @@
   },
   "Noora Louhimo": {
     "genres": [
+      "heavy metal",
+      "power metal",
       "rock"
     ],
     "display": "Noora Louhimo",
@@ -6338,6 +6400,19 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Oceans_Ate_Alaska"
     },
     "fetched": "2026-11-19"
+  },
+  "OLGA": {
+    "genres": [
+      "pop",
+      "finnish pop"
+    ],
+    "display": "OLGA",
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-21",
+    "eventIds": [
+      582
+    ]
   },
   "Olli Ahvenlahti": {
     "genres": [
@@ -8434,7 +8509,8 @@
   },
   "Stuka": {
     "genres": [
-      "rac"
+      "electropunk",
+      "industrial"
     ],
     "display": "Stuka",
     "mbid": "e8483905-9c04-4602-ae43-a8ae04ae5ca5",
@@ -8741,6 +8817,26 @@
     "mbid": null,
     "links": {},
     "fetched": "2026-11-19"
+  },
+  "Tehosekoitin": {
+    "genres": [
+      "rock",
+      "suomirock",
+      "punk"
+    ],
+    "display": "Tehosekoitin",
+    "mbid": "ad80a421-d1f6-4882-a749-c331751bd511",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/374708",
+      "spotify": "https://open.spotify.com/artist/4ohX8O3IjjDnsc4y2OBe1t",
+      "deezer": "https://www.deezer.com/artist/448793",
+      "wikidata": "https://www.wikidata.org/wiki/Q1424711",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tehosekoitin"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      581
+    ]
   },
   "Teini-Pää": {
     "genres": [
@@ -9355,12 +9451,8 @@
     "fetched": "2026-11-19"
   },
   "TINA": {
-    "genres": [
-      "rnb",
-      "slovak",
-      "hip hop"
-    ],
-    "display": "Tina",
+    "genres": [],
+    "display": "TINA",
     "eventIds": [
       265
     ],
@@ -9770,7 +9862,7 @@
   },
   "Us": {
     "genres": [],
-    "display": "US",
+    "display": "Us",
     "eventIds": [
       2,
       461
@@ -9944,9 +10036,8 @@
   },
   "Vesala": {
     "genres": [
-      "jazz",
-      "free jazz",
-      "drums"
+      "finnish pop",
+      "pop"
     ],
     "display": "Vesala",
     "mbid": "15507f7d-3210-45a5-90bb-b5bd9fac27b9",
@@ -10052,7 +10143,10 @@
     "fetched": "2026-11-19"
   },
   "VIKI & KÖPI": {
-    "genres": [],
+    "genres": [
+      "rap",
+      "stand-up"
+    ],
     "display": "VIKI & KÖPI",
     "eventIds": [
       245
