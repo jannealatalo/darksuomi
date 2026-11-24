@@ -334,31 +334,6 @@
     ]
   },
   {
-    "artist": "Melancholy Mass: Sólstafir (ISL) + Vorna + Cryptic Hatred + Ashen Tomb",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-11-27T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/melancholy-mass-2026-olympia-21874574/",
-    "eventUrl": "https://www.lippu.fi/event/melancholy-mass-2026-olympia-21874574/",
-    "age": "K-18",
-    "id": 83,
-    "artists": [
-      "Sólstafir",
-      "Vorna",
-      "Cryptic Hatred",
-      "Ashen Tomb"
-    ],
-    "genres": [
-      "black metal",
-      "post-black metal",
-      "progressive metal",
-      "post-metal",
-      "folk metal",
-      "pagan metal",
-      "death metal"
-    ]
-  },
-  {
     "artist": "Anton V. Kivi, Noo, Pekka Tapani",
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
@@ -439,32 +414,6 @@
       "metalcore",
       "electronic",
       "post-hardcore"
-    ]
-  },
-  {
-    "artist": "Master Boot Record + Fulci + Arottenbit",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-11-28T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/master-boot-record-fulci-arottenbit-olympia-21466477/",
-    "eventUrl": "https://www.lippu.fi/event/master-boot-record-fulci-arottenbit-olympia-21466477/",
-    "age": "K-18",
-    "id": 84,
-    "artists": [
-      "Master Boot Record",
-      "Fulci",
-      "Arottenbit"
-    ],
-    "genres": [
-      "chiptune",
-      "industrial metal",
-      "electronic",
-      "synthwave",
-      "death metal",
-      "brutal death metal",
-      "drone",
-      "drone doom",
-      "8-bit"
     ]
   },
   {
@@ -713,20 +662,6 @@
     ]
   },
   {
-    "artist": "Pihlaja",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-04T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/pihlaja-olympia-22058165/",
-    "eventUrl": "https://www.lippu.fi/event/pihlaja-olympia-22058165/",
-    "age": "K-18",
-    "id": 85,
-    "artists": [
-      "Pihlaja"
-    ],
-    "genres": []
-  },
-  {
     "artist": "Blues Pills (SWE), Graveyard (SWE)",
     "venue": "Tavara-asema",
     "city": "Tampere",
@@ -850,23 +785,6 @@
       "doom metal",
       "melodic death metal",
       "black metal"
-    ]
-  },
-  {
-    "artist": "Valvomo - Mikä Kesä 20v",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-05T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/valvomo-mika-kesa-20v-olympia-21735815/",
-    "eventUrl": "https://www.lippu.fi/event/valvomo-mika-kesa-20v-olympia-21735815/",
-    "age": "K-18",
-    "id": 86,
-    "artists": [
-      "Valvomo"
-    ],
-    "genres": [
-      "ska",
-      "pop"
     ]
   },
   {
@@ -1014,23 +932,6 @@
     ]
   },
   {
-    "artist": "A.W. Yrjänä",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-10T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/a-w-yrjana-olympia-22017958/",
-    "eventUrl": "https://www.lippu.fi/event/a-w-yrjana-olympia-22017958/",
-    "age": "K-18",
-    "id": 87,
-    "artists": [
-      "A.W. Yrjänä"
-    ],
-    "genres": [
-      "alternative rock",
-      "suomirock"
-    ]
-  },
-  {
     "artist": "Liisa Akimof & Yökerho, Amuri",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
@@ -1063,24 +964,6 @@
       "Miles Altimera"
     ],
     "genres": []
-  },
-  {
-    "artist": "Herra Ylppö",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-11T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/herra-ylppo-olympia-22017983/",
-    "eventUrl": "https://www.lippu.fi/event/herra-ylppo-olympia-22017983/",
-    "age": "K-18",
-    "id": 88,
-    "artists": [
-      "Herra Ylppö"
-    ],
-    "genres": [
-      "rock",
-      "alternative rock",
-      "post-punk"
-    ]
   },
   {
     "artist": "AAVIKKO - YDINTALVI: METEOR VORTEX, MALAMUTE, GREEN KING",
@@ -1388,26 +1271,6 @@
     ]
   },
   {
-    "artist": "Combichrist (USA) - Electro Combichristmas Tour 2026",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-17T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/combichrist-usa-electro-combichristmas-tour-2026-olympia-21697334/",
-    "eventUrl": "https://www.lippu.fi/event/combichrist-usa-electro-combichristmas-tour-2026-olympia-21697334/",
-    "age": "K-18",
-    "id": 89,
-    "artists": [
-      "Combichrist"
-    ],
-    "genres": [
-      "industrial",
-      "ebm",
-      "dark electro",
-      "electronic"
-    ],
-    "status": "cancelled"
-  },
-  {
     "artist": "Pojat, Vandaalit, Vaavi",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
@@ -1431,23 +1294,6 @@
       "finnish punk",
       "post-punk",
       "new wave"
-    ]
-  },
-  {
-    "artist": "Eva & Manu - Back for the holidays 2026",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-18T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/eva-manu-back-for-the-holidays-olympia-21659051/",
-    "eventUrl": "https://www.lippu.fi/event/eva-manu-back-for-the-holidays-olympia-21659051/",
-    "age": "K-18",
-    "id": 90,
-    "artists": [
-      "Eva & Manu"
-    ],
-    "genres": [
-      "folk",
-      "indie"
     ]
   },
   {
@@ -1547,23 +1393,6 @@
       "industrial metal",
       "industrial sludge metal",
       "sludge metal"
-    ]
-  },
-  {
-    "artist": "Von Hertzen Brothers - Rarities - 25th Anniversary Show",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2026-12-19T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/von-hertzen-brothers-rarities-25th-anniversary-tour-olympia-22065533/",
-    "eventUrl": "https://www.lippu.fi/event/von-hertzen-brothers-rarities-25th-anniversary-tour-olympia-22065533/",
-    "age": "K-18",
-    "id": 91,
-    "artists": [
-      "Von Hertzen Brothers"
-    ],
-    "genres": [
-      "progressive rock",
-      "rock"
     ]
   },
   {
@@ -2484,25 +2313,6 @@
     "genres": []
   },
   {
-    "artist": "TX2 (US)",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2027-02-12T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/tx2-us-olympia-21758785/",
-    "eventUrl": "https://www.lippu.fi/event/tx2-us-olympia-21758785/",
-    "age": "S/K-18",
-    "id": 92,
-    "artists": [
-      "TX2"
-    ],
-    "genres": [
-      "pop punk",
-      "alternative",
-      "emo",
-      "metalcore"
-    ]
-  },
-  {
     "artist": "Ylva Haru: 10-vuotisjuhlakiertue + Nicholas Francett",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -2515,31 +2325,6 @@
       "Nicholas Francett"
     ],
     "genres": []
-  },
-  {
-    "artist": "Signs of the Swarm (USA) + Ten56 + Oceans Ate Alaska + Face Yourself",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2027-02-13T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/signs-of-the-swarm-usa-ten56-fra-oceans-ate-alaska-uk-face-yourself-frausa-olympia-22094070/",
-    "eventUrl": "https://www.lippu.fi/event/signs-of-the-swarm-usa-ten56-fra-oceans-ate-alaska-uk-face-yourself-frausa-olympia-22094070/",
-    "age": "K-18",
-    "id": 93,
-    "artists": [
-      "Signs of the Swarm",
-      "Ten56",
-      "Oceans Ate Alaska",
-      "Face Yourself"
-    ],
-    "genres": [
-      "deathcore",
-      "brutal deathcore",
-      "nu metal",
-      "metalcore",
-      "post-hardcore",
-      "progressive metalcore",
-      "emocore"
-    ]
   },
   {
     "artist": "Tampere Filharmonia esittää: Filharmonikot jazzklubitunnelmissa",
@@ -2607,22 +2392,6 @@
       "Esko Koivuluoma Duo"
     ],
     "genres": []
-  },
-  {
-    "artist": "Melrose Avenue (AU)",
-    "venue": "Olympia",
-    "city": "Tampere",
-    "date": "2027-02-17T00:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/melrose-avenue-au-olympia-21761498/",
-    "eventUrl": "https://www.lippu.fi/event/melrose-avenue-au-olympia-21761498/",
-    "age": "K-18",
-    "id": 94,
-    "artists": [
-      "Melrose Avenue"
-    ],
-    "genres": [
-      "metalcore"
-    ]
   },
   {
     "artist": "Melrose Avenue (AUS)",

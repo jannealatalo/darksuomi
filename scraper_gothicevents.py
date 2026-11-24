@@ -48,6 +48,10 @@ SITE_OF_CITY = {"helsinki": "helsinki", "espoo": "helsinki", "vantaa": "helsinki
                 "tampere": "tampere", "oulu": "oulu"}
 # The blog's venue names -> the names the venue scrapers use, where they differ.
 VENUE_NAMES = {"varjobaari": "Varjobaari"}
+# Closed venues whose old gigs may linger in the blog: (city, venue word).
+# Olympia-kortteli, Tampere, closed on 30.9.2026; its gigs were cancelled
+# or moved to other venues (which the venue scrapers find).
+CLOSED_VENUES = {("tampere", "olymp")}
 
 LINE_DATE = re.compile(r"^(\d{1,2})\.(?:-\d{1,2}\.)?(\d{1,2})\.(\d{4})(?!\d)")
 TIME = re.compile(r"(?:ovet|doors|showtime|klo)?[:\s]*\b(\d{1,2})[:.](\d{2})\s*(?:-|–|$)", re.I)
@@ -202,7 +206,9 @@ def main() -> int:
     resp.raise_for_status()
     today = date.today()
     items = [i for i in parse_list(resp.text)
-             if i["date"] >= today and i["city"].casefold() in SITE_OF_CITY]
+             if i["date"] >= today and i["city"].casefold() in SITE_OF_CITY
+             and not any(city == i["city"].casefold() and w in words(i["venue"])
+                         for city, w in CLOSED_VENUES)]
     print(f"Gothic Events Finland: {len(items)} upcoming events in Dark Suomi's cities")
     summaries = feed_summaries() if items else {}
 

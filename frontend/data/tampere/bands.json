@@ -44,8 +44,7 @@
     ],
     "display": "A.W. Yrjänä",
     "eventIds": [
-      38,
-      87
+      38
     ],
     "mbid": null,
     "links": {
@@ -323,7 +322,6 @@
     ],
     "display": "Arottenbit",
     "eventIds": [
-      84,
       222
     ],
     "mbid": "94eec095-65c7-43d5-9db0-58962e99c1c7",
@@ -399,9 +397,7 @@
       "youtube": "https://www.youtube.com/@AshenTomb"
     },
     "fetched": "2026-11-21",
-    "eventIds": [
-      83
-    ]
+    "eventIds": []
   },
   "Assemble The Chariots": {
     "genres": [
@@ -673,9 +669,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Combichrist"
     },
     "fetched": "2026-11-21",
-    "eventIds": [
-      89
-    ]
+    "eventIds": []
   },
   "COSTI": {
     "genres": [
@@ -734,9 +728,7 @@
       "youtube": "https://www.youtube.com/channel/UCH08WGotHKEoGeoL5BZl2xA"
     },
     "fetched": "2026-11-21",
-    "eventIds": [
-      83
-    ]
+    "eventIds": []
   },
   "Curtis Salgado": {
     "genres": [
@@ -1117,8 +1109,7 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      6,
-      90
+      6
     ]
   },
   "F": {
@@ -1157,9 +1148,7 @@
       "metalcore"
     ],
     "display": "Face Yourself",
-    "eventIds": [
-      93
-    ],
+    "eventIds": [],
     "mbid": "669bf3bf-81c2-460f-bdfe-960963a26dac",
     "links": {
       "discogs": "https://www.discogs.com/artist/14107327",
@@ -1415,7 +1404,6 @@
     ],
     "display": "Fulci",
     "eventIds": [
-      84,
       222
     ],
     "mbid": "aa299c3e-ba6d-46fc-99df-313ce341bc20",
@@ -1654,9 +1642,7 @@
       "post-punk"
     ],
     "display": "Herra Ylppö",
-    "eventIds": [
-      88
-    ],
+    "eventIds": [],
     "mbid": "69082f7f-9912-42a6-adf5-90894540a2c8",
     "links": {
       "discogs": "https://www.discogs.com/artist/378594",
@@ -2770,7 +2756,6 @@
     ],
     "display": "MASTER BOOT RECORD",
     "eventIds": [
-      84,
       222
     ],
     "mbid": "604dd351-5f3a-479f-b33a-615db3b2dcfb",
@@ -2797,8 +2782,7 @@
     ],
     "display": "Melrose avenue",
     "eventIds": [
-      61,
-      94
+      61
     ],
     "mbid": "736ef674-df25-4757-9d6e-f2ca8482c3e5",
     "links": {
@@ -3293,9 +3277,7 @@
       "progressive metalcore"
     ],
     "display": "Oceans Ate Alaska",
-    "eventIds": [
-      93
-    ],
+    "eventIds": [],
     "mbid": "c6bf185b-3a3b-408e-a8b9-f51e5ed7371b",
     "links": {
       "bandcamp": "https://oceansatealaska.bandcamp.com/",
@@ -3567,7 +3549,6 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      85,
       119
     ]
   },
@@ -4200,7 +4181,6 @@
     ],
     "display": "Signs of the Swarm",
     "eventIds": [
-      93,
       223
     ],
     "mbid": "cdeefae7-b8e2-4972-8730-4611013837de",
@@ -4681,9 +4661,7 @@
       "wikipedia": "https://en.wikipedia.org/wiki/S%C3%B3lstafir"
     },
     "fetched": "2026-11-21",
-    "eventIds": [
-      83
-    ]
+    "eventIds": []
   },
   "Tabloited": {
     "genres": [
@@ -4815,9 +4793,7 @@
       "metalcore"
     ],
     "display": "ten56.",
-    "eventIds": [
-      93
-    ],
+    "eventIds": [],
     "mbid": "3e8d513b-c7ef-4a66-930b-83b50cccea04",
     "links": {
       "bandcamp": "https://ten56.bandcamp.com/",
@@ -5143,9 +5119,7 @@
       "emo"
     ],
     "display": "TX2",
-    "eventIds": [
-      92
-    ],
+    "eventIds": [],
     "mbid": "6093443d-d1fd-4bf0-b058-63840f11c0cd",
     "links": {
       "discogs": "https://www.discogs.com/artist/4289153",
@@ -5245,9 +5219,7 @@
       "pop"
     ],
     "display": "Valvomo",
-    "eventIds": [
-      86
-    ],
+    "eventIds": [],
     "mbid": "542ae033-50df-4f83-8605-f438bd4066e4",
     "links": {
       "discogs": "https://www.discogs.com/artist/1181802",
@@ -5390,8 +5362,7 @@
     ],
     "display": "Von Hertzen Brothers",
     "eventIds": [
-      58,
-      91
+      58
     ],
     "mbid": "298c6d13-4757-437d-a3a6-07d0b3255e5b",
     "links": {
@@ -5428,9 +5399,7 @@
       "youtube": "https://www.youtube.com/user/VornaOfficial"
     },
     "fetched": "2026-11-21",
-    "eventIds": [
-      83
-    ]
+    "eventIds": []
   },
   "WHAT AWAITS US": {
     "genres": [
