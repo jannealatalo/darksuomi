@@ -1350,6 +1350,29 @@
     ]
   },
   {
+    "artist": "Die Oberherren + Dharma Guns + Rob Coffinshaker",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-11-27T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/die-oberherren-swe-dharma-guns-kuudes-linja-helsinki-lippuja/119403",
+    "eventUrl": "https://www.facebook.com/events/1031106432992342",
+    "doors": "19:00",
+    "price": "16–19 €",
+    "id": 563,
+    "artists": [
+      "Die Oberherren",
+      "Dharma Guns",
+      "Rob Coffinshaker"
+    ],
+    "genres": [
+      "gothic rock",
+      "alt-country",
+      "country",
+      "death country",
+      "dark country"
+    ]
+  },
+  {
     "artist": "Wyatt E (BE) & Five the Hierophant (UK) w/ Radien",
     "venue": "Bar Loose",
     "city": "Helsinki",
@@ -1695,6 +1718,26 @@
     "genres": []
   },
   {
+    "artist": "Lala Salama + Hites",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-11-28T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/120892",
+    "eventUrl": "https://www.facebook.com/events/1787830385691524/",
+    "doors": "19:00",
+    "price": "16–18 €",
+    "id": 564,
+    "artists": [
+      "Lala Salama",
+      "Hites"
+    ],
+    "genres": [
+      "rock",
+      "alternative rock",
+      "noise rock"
+    ]
+  },
+  {
     "artist": "Disco Night",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -1722,6 +1765,54 @@
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21",
     "status": "cancelled"
+  },
+  {
+    "artist": "Rokki Raikaa Vantaa: Kotiteollisuus, Sonata Arctica, Klamydia, Stratovarius",
+    "venue": "Myyrmäkihalli",
+    "city": "Vantaa",
+    "date": "2026-11-28T19:30:00",
+    "doors": "19:30",
+    "ticketUrl": "https://www.lippu.fi/event/rokki-raikaa-pikkujoulut-rokki-raikaa-kaupungin-suurimmat-rokit-myyrmaki-halli-21726282/",
+    "eventUrl": "https://rokkiraikaa.fi/rokki-raikaa-vantaan-suurimmat-rokit/",
+    "age": "K-18",
+    "schedule": [
+      {
+        "time": "20:00",
+        "name": "Kotiteollisuus"
+      },
+      {
+        "time": "21:30",
+        "name": "Sonata Arctica"
+      },
+      {
+        "time": "23:00",
+        "name": "Klamydia"
+      },
+      {
+        "time": "00:30",
+        "name": "Stratovarius"
+      }
+    ],
+    "price": "40 €",
+    "id": 579,
+    "artists": [
+      "Kotiteollisuus",
+      "Sonata Arctica",
+      "Klamydia",
+      "Stratovarius"
+    ],
+    "genres": [
+      "metal",
+      "heavy metal",
+      "hard rock",
+      "finnish metal",
+      "power metal",
+      "symphonic metal",
+      "melodic metal",
+      "punk",
+      "punk rock",
+      "rock"
+    ]
   },
   {
     "id": 268,
@@ -2364,6 +2455,24 @@
     "status": "sold out"
   },
   {
+    "artist": "Lavina",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-12-03T19:00:00",
+    "ticketUrl": "https://gotobeat.com/gig/lavina-live-in-helsinki-Jp/",
+    "eventUrl": "https://www.facebook.com/events/1396622542568081",
+    "doors": "19:00",
+    "price": "30,25 €",
+    "id": 565,
+    "artists": [
+      "Lavina"
+    ],
+    "genres": [
+      "progressive metal",
+      "metal"
+    ]
+  },
+  {
     "artist": "Väreet 2026: Ethnic Heritage Ensemble (US), Fire! Orchestra (SE/DK/NO/PT/FR)",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -2427,6 +2536,35 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Vacuous + Dome Runner + Throat + Sisar",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-12-04T18:00:00",
+    "ticketUrl": "https://www.tiketti.fi/vacuous-uk-dome-runner-throat-sisar-kuudes-linja-helsinki-lippuja/121140",
+    "eventUrl": "https://www.facebook.com/events/26257480677282184",
+    "doors": "18:00",
+    "price": "20–25 €",
+    "id": 566,
+    "artists": [
+      "Vacuous",
+      "Dome Runner",
+      "Throat",
+      "Sisar"
+    ],
+    "genres": [
+      "death metal",
+      "old school death metal",
+      "industrial metal",
+      "godflesh",
+      "sludge",
+      "noise rock",
+      "shoegaze",
+      "dream pop",
+      "doomgaze",
+      "dreampop"
     ]
   },
   {
@@ -2715,6 +2853,35 @@
       "singer-songwriter",
       "rock",
       "pop"
+    ]
+  },
+  {
+    "artist": "Helsinki Ilman Natseja 10 V: Kukkatalo, Asla Jo, Mary Ann Hawkins, Teini-Pää, Orvokki",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-12-05T18:30:00",
+    "ticketUrl": "https://www.tiketti.fi/helsinki-ilman-natseja-10v-kuudes-linja-helsinki-lippuja/122348",
+    "eventUrl": "https://www.facebook.com/events/1831727914745443",
+    "doors": "18:30",
+    "price": "15–25 €",
+    "id": 567,
+    "artists": [
+      "Kukkatalo",
+      "Asla Jo",
+      "Mary Ann Hawkins",
+      "Teini-Pää",
+      "Orvokki"
+    ],
+    "genres": [
+      "pop",
+      "indie",
+      "surf rock",
+      "surf",
+      "instrumental",
+      "pop punk",
+      "wuss punk",
+      "electropop",
+      "art pop"
     ]
   },
   {
@@ -3775,6 +3942,29 @@
     ]
   },
   {
+    "artist": "Jess By The Lake + Pohjolan Ilmari",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-12-12T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/jess-by-the-lake-pohjolan-ilmari-kuudes-linja-helsinki-lippuja/121023",
+    "eventUrl": "https://www.facebook.com/events/1090773363676827/",
+    "doors": "19:00",
+    "price": "20–23 €",
+    "id": 568,
+    "artists": [
+      "Jess By The Lake",
+      "Pohjolan Ilmari"
+    ],
+    "genres": [
+      "rock",
+      "psychedelic rock",
+      "space rock",
+      "occult rock",
+      "alternative rock",
+      "finnish rock"
+    ]
+  },
+  {
     "id": 18,
     "artist": "Käärijä",
     "venue": "Tavastia Klubi",
@@ -4295,6 +4485,25 @@
     ]
   },
   {
+    "artist": "Luxury Toys + Jann Wilde & The Neon Comets",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2026-12-18T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/luxury-toys-levyjulkkarit-kuudes-linja-helsinki-lippuja/118661",
+    "eventUrl": "https://www.facebook.com/events/1093342186640527/",
+    "doors": "19:00",
+    "price": "14 €",
+    "id": 569,
+    "artists": [
+      "Luxury Toys",
+      "Jann Wilde & The Neon Comets"
+    ],
+    "genres": [
+      "rock",
+      "finnish rock"
+    ]
+  },
+  {
     "id": 21,
     "artist": "Von Hertzen Brothers - Rarities 25th Anniversary Tour",
     "venue": "Tavastia Klubi",
@@ -4661,6 +4870,28 @@
     ]
   },
   {
+    "id": 554,
+    "artist": "ANI - Akustinen Ilta",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-22T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-22/ani-akustinen-ilta/122634/",
+    "venueDefault": "rock",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "19:00",
+    "price": "24 € at the door",
+    "detailsFetched": "2026-11-24",
+    "artists": [
+      "ANI"
+    ],
+    "genres": [
+      "pop",
+      "house",
+      "electronic"
+    ]
+  },
+  {
     "id": 23,
     "artist": "Pertti Kurikan 70 v. -juhladisko",
     "venue": "Tavastia Klubi",
@@ -4798,6 +5029,27 @@
     "doors": "19:00",
     "price": "30 € at the door",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "id": 555,
+    "artist": "Hauta Wizard, E. Sydänpuu & Veren Vangit",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2026-12-30T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2026-12-30/hauta-wizard-e-sydanpuu-veren-vangit/122680/",
+    "venueDefault": "rock",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "19:00",
+    "price": "16 € at the door",
+    "detailsFetched": "2026-11-24",
+    "artists": [
+      "Hauta Wizard",
+      "E. Sydänpuu & Veren Vangit"
+    ],
+    "genres": [
+      "metal"
+    ]
   },
   {
     "artist": "Back to Plan A – Benefit Show: Naakka + Aus Tears + Ewiges Feuer",
@@ -5234,6 +5486,26 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Peer Günt + Blindboünd",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-01-08T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/peer-gunt-blindbound-kuudes-linja-helsinki-lippuja/121948",
+    "eventUrl": "https://www.facebook.com/events/2232553601003284",
+    "doors": "19:00",
+    "price": "30–35 €",
+    "id": 570,
+    "artists": [
+      "Peer Günt",
+      "Blindboünd"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "classic rock"
+    ]
+  },
+  {
     "id": 277,
     "artist": "Einvigi, The Mist from the Mountains, Venenum Dei + DJ Melkor",
     "venue": "Semifinal",
@@ -5414,6 +5686,48 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Bad Apples plays Guns N’ Roses + Museo plays Muse",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-01-09T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/bad-apples-plays-guns-n-roses-museo-plays-muse-kuudes-linja-lippuja/121701",
+    "eventUrl": "https://www.facebook.com/events/2335263103887078",
+    "doors": "19:00",
+    "price": "14–16 €",
+    "id": 571,
+    "artists": [
+      "Bad Apples",
+      "Museo"
+    ],
+    "genres": [
+      "lo-fi",
+      "indie",
+      "club",
+      "new wave"
+    ]
+  },
+  {
+    "id": 556,
+    "artist": "Satu Lii, Hanhani",
+    "venue": "Semifinal",
+    "city": "Helsinki",
+    "date": "2027-01-09T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-01-09/satu-lii-hanhani/122681/",
+    "venueDefault": "rock",
+    "age": "K-18",
+    "room": "Semifinal",
+    "doors": "20:00",
+    "price": "17 € at the door",
+    "detailsFetched": "2026-11-24",
+    "artists": [
+      "Satu Lii",
+      "Hanhani"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 32,
     "artist": "TIISU - Päätöskeikka",
     "venue": "Tavastia Klubi",
@@ -5589,6 +5903,31 @@
       "Lämpiöklubi"
     ],
     "genres": []
+  },
+  {
+    "artist": "Tamara Luonto + Joni Ekman Group + Albert",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-01-15T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tamara-luonto-joni-ekman-group-albert-kuudes-linja-helsinki-lippuja/122065",
+    "eventUrl": "https://www.tiketti.fi/tamara-luonto-joni-ekman-group-albert-kuudes-linja-helsinki-lippuja/122065",
+    "doors": "19:00",
+    "price": "16–18 €",
+    "id": 572,
+    "artists": [
+      "Tamara Luonto",
+      "Joni Ekman Group",
+      "Albert"
+    ],
+    "genres": [
+      "rock",
+      "indie",
+      "punk",
+      "electronic",
+      "techno",
+      "breakbeat",
+      "dance"
+    ]
   },
   {
     "artist": "Radio Supernova, Sisar",
@@ -5775,6 +6114,29 @@
       "Lämpiöklubi"
     ],
     "genres": []
+  },
+  {
+    "artist": "Demonic Death Judge + Sunniva + Elektrus Erektus",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-01-16T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/demonic-death-judge-sunniva-elektrus-erektus-kuudes-linja-lippuja/121367",
+    "eventUrl": "https://www.facebook.com/events/2745619852506636/",
+    "doors": "19:00",
+    "price": "15–18 €",
+    "id": 573,
+    "artists": [
+      "Demonic Death Judge",
+      "Sunniva",
+      "Elektrus Erektus"
+    ],
+    "genres": [
+      "sludge",
+      "stoner metal",
+      "sludge metal",
+      "doom metal",
+      "post-metal"
+    ]
   },
   {
     "id": 34,
@@ -6081,6 +6443,27 @@
     ]
   },
   {
+    "artist": "Vermilia + Noiduin",
+    "venue": "Kannusali",
+    "city": "Espoo",
+    "date": "2027-01-22T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/vermilia/vermilia-noiduin-4274188/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqwqv7yhy",
+    "age": "K-18",
+    "id": 578,
+    "artists": [
+      "Vermilia",
+      "Noiduin"
+    ],
+    "genres": [
+      "folk metal",
+      "neofolk",
+      "folk",
+      "dark folk"
+    ]
+  },
+  {
     "id": 37,
     "artist": "Tuomo - My Thing 20th Anniversary",
     "venue": "Tavastia Klubi",
@@ -6171,6 +6554,30 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Spiritus Mortis + Cardinals Folly + Mount Palatine + Caskets Open",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-01-23T18:00:00",
+    "ticketUrl": "https://www.tiketti.fi/spiritus-mortis-cardinals-folly-mount-palatine-caskets-open-lippuja/122442",
+    "eventUrl": "https://www.tiketti.fi/spiritus-mortis-cardinals-folly-mount-palatine-caskets-open-lippuja/122442",
+    "doors": "18:00",
+    "price": "17–19 €",
+    "id": 574,
+    "artists": [
+      "Spiritus Mortis",
+      "Cardinals Folly",
+      "Mount Palatine",
+      "Caskets Open"
+    ],
+    "genres": [
+      "doom metal",
+      "traditional doom metal",
+      "heavy psych",
+      "metal",
+      "psychedelic rock"
+    ]
   },
   {
     "artist": "The Miracle - A Night with Queen - Freddie Mercury 80v. -juhlakiertue",
@@ -6587,6 +6994,26 @@
     ]
   },
   {
+    "artist": "Pyry Laakso + Ira",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-01-30T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/pyry-laakso-ira-kuudes-linja-helsinki-lippuja/122066",
+    "eventUrl": "https://www.facebook.com/events/1379331654082388",
+    "doors": "19:00",
+    "price": "17–20 €",
+    "id": 575,
+    "artists": [
+      "Pyry Laakso",
+      "Ira"
+    ],
+    "genres": [
+      "rock",
+      "polish rock",
+      "hard rock"
+    ]
+  },
+  {
     "id": 40,
     "artist": "Reilukerho 20-vuotisjuhlakeikka",
     "venue": "Tavastia Klubi",
@@ -6874,6 +7301,25 @@
     ],
     "genres": [
       "progressive folk"
+    ]
+  },
+  {
+    "artist": "Terveet Kädet",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-02-05T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/terveet-kadet-kuudes-linja-helsinki-lippuja/121702",
+    "eventUrl": "https://www.facebook.com/events/1035499836163405/",
+    "doors": "19:00",
+    "price": "18–22 €",
+    "id": 576,
+    "artists": [
+      "Terveet Kädet"
+    ],
+    "genres": [
+      "hardcore punk",
+      "punk",
+      "hardcore"
     ]
   },
   {
@@ -7714,6 +8160,23 @@
     "genres": []
   },
   {
+    "artist": "The 69 Eyes - Tour Acustica 2027",
+    "venue": "Savoy-teatteri",
+    "city": "Helsinki",
+    "date": "2027-02-19T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "http://www.savoyteatteri.fi/fi/tapahtumat/event/FCB7C8A874500A3CC6BFF3D3C4A118A2/The_69_Eyes_-_Tour_Acustica_2027",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/kulke:69965",
+    "id": 577,
+    "artists": [
+      "The 69 Eyes"
+    ],
+    "genres": [
+      "gothic rock",
+      "gothic metal"
+    ]
+  },
+  {
     "id": 51,
     "artist": "Ruusut",
     "venue": "Tavastia Klubi",
@@ -8372,6 +8835,26 @@
     ]
   },
   {
+    "id": 552,
+    "artist": "Vesala",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-03-04T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-04/vesala/122708/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "price": "55 € at the door",
+    "detailsFetched": "2026-11-24",
+    "artists": [
+      "Vesala"
+    ],
+    "genres": [
+      "finnish pop",
+      "pop"
+    ]
+  },
+  {
     "artist": "Lauluni aiheet",
     "venue": "Espoon kulttuurikeskus",
     "city": "Espoo",
@@ -8445,6 +8928,26 @@
       "The House Is Rockin"
     ],
     "genres": []
+  },
+  {
+    "id": 553,
+    "artist": "Vesala",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-03-05T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-03-05/vesala/122361/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "price": "55 € at the door",
+    "detailsFetched": "2026-11-24",
+    "artists": [
+      "Vesala"
+    ],
+    "genres": [
+      "finnish pop",
+      "pop"
+    ]
   },
   {
     "artist": "Solemn Golem, Featherfoot, Swarm",
@@ -8581,6 +9084,29 @@
     "genres": [
       "indie pop",
       "pop"
+    ]
+  },
+  {
+    "artist": "Kauko Röyhkä: 90-luvun absurdismi",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-06T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/kauko-royhka-90-luvun-absurdismi-kulttuuritehdas-korjaamo-22438109/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/kauko-royhka-90-luvun-absurdismi-4/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "29,50 € / 30 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 562,
+    "artists": [
+      "Kauko Röyhkä"
+    ],
+    "genres": [
+      "rock",
+      "singer-songwriter"
     ]
   },
   {

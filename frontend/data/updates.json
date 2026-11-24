@@ -1,5 +1,355 @@
 [
   {
+    "day": "2026-11-24",
+    "gigs": [
+      {
+        "id": 563,
+        "city": "helsinki",
+        "artist": "Die Oberherren + Dharma Guns + Rob Coffinshaker",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-11-27T19:00:00",
+        "genres": [
+          "gothic rock",
+          "alt-country",
+          "country"
+        ]
+      },
+      {
+        "id": 564,
+        "city": "helsinki",
+        "artist": "Lala Salama + Hites",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-11-28T19:00:00",
+        "genres": [
+          "rock",
+          "alternative rock",
+          "noise rock"
+        ]
+      },
+      {
+        "id": 579,
+        "city": "helsinki",
+        "artist": "Rokki Raikaa Vantaa: Kotiteollisuus, Sonata Arctica, Klamydia, Stratovarius",
+        "venue": "Myyrmäkihalli",
+        "place": "Vantaa",
+        "date": "2026-11-28T19:30:00",
+        "genres": [
+          "metal",
+          "heavy metal",
+          "hard rock"
+        ]
+      },
+      {
+        "id": 222,
+        "city": "tampere",
+        "artist": "Master Boot Record, Fulci & Arottenbit",
+        "venue": "F54",
+        "place": "Tampere",
+        "date": "2026-11-28T20:00:00",
+        "genres": [
+          "chiptune",
+          "industrial metal",
+          "electronic"
+        ]
+      },
+      {
+        "id": 565,
+        "city": "helsinki",
+        "artist": "Lavina",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-12-03T19:00:00",
+        "genres": [
+          "progressive metal",
+          "metal"
+        ]
+      },
+      {
+        "id": 566,
+        "city": "helsinki",
+        "artist": "Vacuous + Dome Runner + Throat + Sisar",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-12-04T18:00:00",
+        "genres": [
+          "death metal",
+          "old school death metal",
+          "industrial metal"
+        ]
+      },
+      {
+        "id": 567,
+        "city": "helsinki",
+        "artist": "Helsinki Ilman Natseja 10 V: Kukkatalo, Asla Jo, Mary Ann Hawkins, Teini-Pää, Orvokki",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-12-05T18:30:00",
+        "genres": [
+          "pop",
+          "indie",
+          "surf rock"
+        ]
+      },
+      {
+        "id": 568,
+        "city": "helsinki",
+        "artist": "Jess By The Lake + Pohjolan Ilmari",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-12-12T19:00:00",
+        "genres": [
+          "rock",
+          "psychedelic rock",
+          "space rock"
+        ]
+      },
+      {
+        "id": 232,
+        "city": "tampere",
+        "artist": "Gothic Night",
+        "venue": "Alanya Bar",
+        "place": "Tampere",
+        "date": "2026-12-12T19:00:00",
+        "genres": [
+          "goth"
+        ]
+      },
+      {
+        "id": 569,
+        "city": "helsinki",
+        "artist": "Luxury Toys + Jann Wilde & The Neon Comets",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2026-12-18T19:00:00",
+        "genres": [
+          "rock",
+          "finnish rock"
+        ]
+      },
+      {
+        "id": 555,
+        "city": "helsinki",
+        "artist": "Hauta Wizard, E. Sydänpuu & Veren Vangit",
+        "venue": "Semifinal",
+        "place": "Helsinki",
+        "date": "2026-12-30T19:00:00",
+        "genres": [
+          "metal"
+        ]
+      },
+      {
+        "id": 570,
+        "city": "helsinki",
+        "artist": "Peer Günt + Blindboünd",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-01-08T19:00:00",
+        "genres": [
+          "hard rock",
+          "rock",
+          "classic rock"
+        ]
+      },
+      {
+        "id": 571,
+        "city": "helsinki",
+        "artist": "Bad Apples plays Guns N’ Roses + Museo plays Muse",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-01-09T19:00:00",
+        "genres": [
+          "lo-fi",
+          "indie",
+          "club"
+        ]
+      },
+      {
+        "id": 556,
+        "city": "helsinki",
+        "artist": "Satu Lii, Hanhani",
+        "venue": "Semifinal",
+        "place": "Helsinki",
+        "date": "2027-01-09T20:00:00",
+        "genres": [
+          "rock"
+        ]
+      },
+      {
+        "id": 572,
+        "city": "helsinki",
+        "artist": "Tamara Luonto + Joni Ekman Group + Albert",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-01-15T19:00:00",
+        "genres": [
+          "rock",
+          "indie",
+          "punk"
+        ]
+      },
+      {
+        "id": 573,
+        "city": "helsinki",
+        "artist": "Demonic Death Judge + Sunniva + Elektrus Erektus",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-01-16T19:00:00",
+        "genres": [
+          "sludge",
+          "stoner metal",
+          "sludge metal"
+        ]
+      },
+      {
+        "id": 578,
+        "city": "helsinki",
+        "artist": "Vermilia + Noiduin",
+        "venue": "Kannusali",
+        "place": "Espoo",
+        "date": "2027-01-22T19:00:00",
+        "genres": [
+          "folk metal",
+          "neofolk",
+          "folk"
+        ]
+      },
+      {
+        "id": 574,
+        "city": "helsinki",
+        "artist": "Spiritus Mortis + Cardinals Folly + Mount Palatine + Caskets Open",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-01-23T18:00:00",
+        "genres": [
+          "doom metal",
+          "traditional doom metal",
+          "heavy psych"
+        ]
+      },
+      {
+        "id": 575,
+        "city": "helsinki",
+        "artist": "Pyry Laakso + Ira",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-01-30T19:00:00",
+        "genres": [
+          "rock",
+          "polish rock",
+          "hard rock"
+        ]
+      },
+      {
+        "id": 576,
+        "city": "helsinki",
+        "artist": "Terveet Kädet",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-02-05T19:00:00",
+        "genres": [
+          "hardcore punk",
+          "punk",
+          "hardcore"
+        ]
+      },
+      {
+        "id": 223,
+        "city": "tampere",
+        "artist": "Signs of the Swarm",
+        "venue": "F54",
+        "place": "Tampere",
+        "date": "2027-02-13T22:00:00",
+        "genres": [
+          "deathcore",
+          "brutal deathcore"
+        ]
+      },
+      {
+        "id": 577,
+        "city": "helsinki",
+        "artist": "The 69 Eyes - Tour Acustica 2027",
+        "venue": "Savoy-teatteri",
+        "place": "Helsinki",
+        "date": "2027-02-19T19:00:00",
+        "genres": [
+          "gothic rock",
+          "gothic metal"
+        ]
+      },
+      {
+        "id": 562,
+        "city": "helsinki",
+        "artist": "Kauko Röyhkä: 90-luvun absurdismi",
+        "venue": "Korjaamo",
+        "place": "Helsinki",
+        "date": "2027-03-06T19:00:00",
+        "genres": [
+          "rock",
+          "singer-songwriter"
+        ]
+      },
+      {
+        "id": 230,
+        "city": "tampere",
+        "artist": "Miljoonasade",
+        "venue": "Tullikamarin Klubi",
+        "place": "Tampere",
+        "date": "2027-03-27T20:00:00",
+        "genres": [
+          "suomirock",
+          "rock",
+          "pop"
+        ]
+      },
+      {
+        "id": 72,
+        "city": "oulu",
+        "artist": "Miljoonasade",
+        "venue": "Tarkastamo",
+        "place": "Oulu",
+        "date": "2027-05-01T20:00:00",
+        "genres": [
+          "suomirock",
+          "rock",
+          "pop"
+        ]
+      },
+      {
+        "id": 231,
+        "city": "tampere",
+        "artist": "OLGA",
+        "venue": "Pakkahuone",
+        "place": "Tampere",
+        "date": "2027-06-05T19:00:00",
+        "genres": [
+          "blues",
+          "pop",
+          "rock brasil"
+        ]
+      },
+      {
+        "id": 227,
+        "city": "tampere",
+        "artist": "Rokki Raikaa Tampere 2027 (23.–24.7.): D-A-D, Tarja Turunen, Sonata Arctica, Stratovarius, The 69 Eyes, Korpiklaani, Leningrad Cowboys, Charon, Peer Günt, Nyrkkitappelu, Huora",
+        "venue": "Hakametsän jäähallin piha-alue (Rokki Raikaa)",
+        "place": "Tampere",
+        "date": "2027-07-23T00:00:00",
+        "genres": [
+          "hard rock",
+          "rock",
+          "symphonic metal"
+        ]
+      }
+    ],
+    "hidden": {
+      "helsinki": 3,
+      "tampere": 1,
+      "oulu": 1
+    }
+  },
+  {
     "day": "2026-11-23",
     "gigs": [
       {

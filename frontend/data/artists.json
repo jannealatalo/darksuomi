@@ -533,6 +533,16 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "ANI": {
+    "source": "lastfm",
+    "matchedName": "Ani",
+    "tags": [
+      "pop",
+      "house",
+      "electronic"
+    ],
+    "fetched": "2026-11-24"
+  },
   "Ani Harmi": {
     "source": "musicbrainz",
     "matchedName": "Ani Harmi",
@@ -2386,6 +2396,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "E. Sydänpuu & Veren Vangit": {
+    "source": "lastfm",
+    "matchedName": "E. Sydänpuu & Veren Vangit",
+    "tags": [
+      "metal"
+    ],
+    "fetched": "2026-11-24"
+  },
   "Earth Tongue": {
     "source": "lastfm",
     "matchedName": "Earth Tongue",
@@ -3135,6 +3153,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Frequency Club": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-24"
+  },
   "Freud Marx Engels": {
     "source": "lastfm",
     "matchedName": "Freud Marx Engels & Jung",
@@ -3332,6 +3355,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-23"
+  },
+  "Gothic Night": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-24"
   },
   "Gothminister": {
     "source": "lastfm",
@@ -3678,6 +3706,11 @@
       "post-hardcore"
     ],
     "fetched": "2026-11-21"
+  },
+  "Hauta Wizard": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-24"
   },
   "Hautaveri": {
     "source": "lastfm",
@@ -5345,6 +5378,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Klamydia": {
+    "source": "lastfm",
+    "matchedName": "Klamydia",
+    "tags": [
+      "punk",
+      "punk rock",
+      "rock"
+    ],
+    "fetched": "2026-11-24"
+  },
   "Klangkuenstler": {
     "source": "lastfm",
     "matchedName": "Klangkuenstler",
@@ -5704,6 +5747,11 @@
       "hardcore punk"
     ],
     "fetched": "2026-11-19"
+  },
+  "La Vibración Club": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-24"
   },
   "Lacuna Coil": {
     "source": "lastfm",
@@ -6872,6 +6920,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Miljoonasade": {
+    "source": "lastfm",
+    "matchedName": "Miljoonasade",
+    "tags": [
+      "suomirock",
+      "rock",
+      "pop"
+    ],
+    "fetched": "2026-11-24"
+  },
   "Miller Campbell": {
     "source": "lastfm",
     "matchedName": "Miller Campbell",
@@ -7488,6 +7546,16 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-23"
+  },
+  "Nyrkkitappelu": {
+    "source": "lastfm",
+    "matchedName": "Nyrkkitappelu",
+    "tags": [
+      "punk",
+      "punk rock",
+      "finnish punk"
+    ],
+    "fetched": "2026-11-24"
   },
   "Nättinassut": {
     "source": "notfound",
@@ -9375,6 +9443,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-23"
+  },
+  "Satu Lii": {
+    "source": "musicbrainz",
+    "matchedName": "Satu Lii",
+    "mbid": "2207d391-1f0b-4298-8ed6-105896c30c65",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-24"
   },
   "Satu Sopanen": {
     "source": "musicbrainz",
@@ -11499,6 +11575,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "UUSI VUOSI": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-24"
   },
   "Vaasa Palaa": {
     "source": "musicbrainz",

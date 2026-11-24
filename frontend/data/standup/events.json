@@ -361,6 +361,17 @@
     "age": "K-18"
   },
   {
+    "title": "Päiväkirjaklubi",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-20T14:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/paivakirjaklubi-kulttuuritehdas-korjaamo-22444345/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/paivakirjaklubi-55/",
+    "source": "korjaamo",
+    "price": "25 € / 28 €",
+    "age": "K-18"
+  },
+  {
     "title": "Morgan Jay: La Dolce Vita Tour",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",

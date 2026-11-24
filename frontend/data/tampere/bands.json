@@ -323,7 +323,8 @@
     ],
     "display": "Arottenbit",
     "eventIds": [
-      84
+      84,
+      222
     ],
     "mbid": "94eec095-65c7-43d5-9db0-58962e99c1c7",
     "links": {
@@ -625,6 +626,30 @@
       168
     ]
   },
+  "Charon": {
+    "genres": [
+      "gothic metal",
+      "gothic rock",
+      "metal"
+    ],
+    "display": "Charon",
+    "mbid": "f033e544-8cad-4bee-abdd-619f8489e409",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/306834",
+      "spotify": "https://open.spotify.com/artist/2FBDDo06NZR5B7qOzmMxq9",
+      "deezer": "https://www.deezer.com/artist/12026",
+      "metalArchives": "https://www.metal-archives.com/bands/Charon/5764",
+      "apple": "https://music.apple.com/fi/artist/1458389821",
+      "tidal": "https://tidal.com/artist/3704021",
+      "wikidata": "https://www.wikidata.org/wiki/Q1067679",
+      "youtube": "https://www.youtube.com/channel/UCOgaw6EQy6PlkKrb42LLx2A",
+      "wikipedia": "https://en.wikipedia.org/wiki/Charon_(band)"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      227
+    ]
+  },
   "Combichrist": {
     "genres": [
       "industrial",
@@ -757,6 +782,30 @@
     "fetched": "2026-11-21",
     "eventIds": [
       180
+    ]
+  },
+  "D-A-D": {
+    "genres": [
+      "hard rock",
+      "rock"
+    ],
+    "display": "D-A-D",
+    "mbid": "47f94b87-c184-4a9a-9f17-7c4e7e5abeff",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/272991",
+      "spotify": "https://open.spotify.com/artist/2I6gQ8HicF6er2NgjfkwGd",
+      "deezer": "https://www.deezer.com/artist/15603",
+      "homepage": "http://www.d-a-d.com/",
+      "apple": "https://music.apple.com/us/artist/14746431",
+      "instagram": "https://www.instagram.com/d.landafterdark/",
+      "tidal": "https://tidal.com/artist/13540",
+      "wikidata": "https://www.wikidata.org/wiki/Q1151246",
+      "youtube": "https://www.youtube.com/user/dadmusicvideos",
+      "wikipedia": "https://en.wikipedia.org/wiki/D-A-D_(band)"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      227
     ]
   },
   "DARK KOMET": {
@@ -1366,7 +1415,8 @@
     ],
     "display": "Fulci",
     "eventIds": [
-      84
+      84,
+      222
     ],
     "mbid": "aa299c3e-ba6d-46fc-99df-313ce341bc20",
     "links": {
@@ -1689,7 +1739,8 @@
     ],
     "display": "Huora",
     "eventIds": [
-      70
+      70,
+      227
     ],
     "mbid": "fe93169c-f312-4771-ad9b-a06727dea862",
     "links": {
@@ -1999,8 +2050,7 @@
     ],
     "display": "Kanonenfieber",
     "eventIds": [
-      24,
-      204
+      24
     ],
     "mbid": "b0016af8-3953-47ce-b865-475a770d7b17",
     "links": {
@@ -2047,7 +2097,7 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      201
+      14
     ]
   },
   "Keiski & ENO": {
@@ -2150,6 +2200,34 @@
     "fetched": "2026-11-21",
     "eventIds": [
       37
+    ]
+  },
+  "Korpiklaani": {
+    "genres": [
+      "folk metal",
+      "viking metal",
+      "metal"
+    ],
+    "display": "Korpiklaani",
+    "mbid": "50eec634-7c42-41ee-9b1f-b41d9ca28b26",
+    "links": {
+      "bandcamp": "https://korpiklaani.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1817560",
+      "spotify": "https://open.spotify.com/artist/521Yl3LUvD7G9dMRO4fpCy",
+      "deezer": "https://www.deezer.com/artist/8544",
+      "homepage": "https://www.korpiklaani.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Korpiklaani/17431",
+      "instagram": "https://www.instagram.com/official_korpiklaani/",
+      "soundcloud": "https://soundcloud.com/korpiklaani",
+      "apple": "https://music.apple.com/fi/artist/35939436",
+      "tidal": "https://tidal.com/artist/3565384",
+      "wikidata": "https://www.wikidata.org/wiki/Q111337",
+      "youtube": "https://www.youtube.com/user/korpiklaani",
+      "wikipedia": "https://en.wikipedia.org/wiki/Korpiklaani"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      227
     ]
   },
   "Kovaa Rasvaa": {
@@ -2360,6 +2438,25 @@
     "fetched": "2026-11-21",
     "eventIds": [
       12
+    ]
+  },
+  "Leningrad Cowboys": {
+    "genres": [
+      "rock",
+      "alternative",
+      "polka"
+    ],
+    "display": "Leningrad Cowboys",
+    "mbid": "bd872e2f-3dce-4932-b8dc-91cf949cfbb5",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/323101",
+      "spotify": "https://open.spotify.com/artist/2wqpXHT8V0bE05VCjy8k3H",
+      "wikidata": "https://www.wikidata.org/wiki/Q941264",
+      "wikipedia": "https://en.wikipedia.org/wiki/Leningrad_Cowboys"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      227
     ]
   },
   "Liisa Akimof": {
@@ -2673,7 +2770,8 @@
     ],
     "display": "MASTER BOOT RECORD",
     "eventIds": [
-      84
+      84,
+      222
     ],
     "mbid": "604dd351-5f3a-479f-b33a-615db3b2dcfb",
     "links": {
@@ -2862,6 +2960,29 @@
     "fetched": "2026-11-21",
     "eventIds": [
       17
+    ]
+  },
+  "Miljoonasade": {
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ],
+    "display": "Miljoonasade",
+    "mbid": "dc77f3d9-11cc-4643-b355-d334012a7a72",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/383766",
+      "spotify": "https://open.spotify.com/artist/1nUMGeWGdshl9DQi022EJJ",
+      "deezer": "https://www.deezer.com/artist/250168",
+      "homepage": "https://www.heikkisalo.com/miljoonasade/",
+      "apple": "https://music.apple.com/fi/artist/193397396",
+      "tidal": "https://tidal.com/artist/17974",
+      "wikidata": "https://www.wikidata.org/wiki/Q18032058",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Miljoonasade"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      230
     ]
   },
   "Miseria Ultima": {
@@ -3144,6 +3265,27 @@
     },
     "fetched": "2026-11-20"
   },
+  "Nyrkkitappelu": {
+    "genres": [
+      "punk",
+      "punk rock",
+      "finnish punk"
+    ],
+    "display": "Nyrkkitappelu",
+    "mbid": "bb41e608-b924-4037-9caa-d138502f238b",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2724271",
+      "homepage": "http://xn--mmbndi-9tacb.fi/",
+      "soundcloud": "https://soundcloud.com/nyrkkitappelu",
+      "wikidata": "https://www.wikidata.org/wiki/Q23039659",
+      "youtube": "https://www.youtube.com/channel/UCSEaltvAqZ0Vv18JK32dVPg",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Nyrkkitappelu"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      227
+    ]
+  },
   "Oceans Ate Alaska": {
     "genres": [
       "metalcore",
@@ -3170,6 +3312,20 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Oceans_Ate_Alaska"
     },
     "fetched": "2026-11-19"
+  },
+  "OLGA": {
+    "genres": [
+      "blues",
+      "pop",
+      "rock brasil"
+    ],
+    "display": "Olga",
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-21",
+    "eventIds": [
+      231
+    ]
   },
   "Omnium Gatherum": {
     "genres": [
@@ -3305,7 +3461,8 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      32
+      32,
+      227
     ]
   },
   "Pekka Laine & The Enchanted": {
@@ -3807,7 +3964,7 @@
     "genres": [
       "trap",
       "rap",
-      "digicore"
+      "hyperpop"
     ],
     "display": "ROSLUV",
     "mbid": "1d3fd0d7-efb5-4425-ab1c-442433b415cc",
@@ -3829,8 +3986,7 @@
     ],
     "display": "Ruusut",
     "eventIds": [
-      14,
-      201
+      14
     ],
     "mbid": "5d3ae248-fd34-4caf-b6a6-e0bba5be6488",
     "links": {
@@ -4045,7 +4201,8 @@
     ],
     "display": "Signs of the Swarm",
     "eventIds": [
-      93
+      93,
+      223
     ],
     "mbid": "cdeefae7-b8e2-4972-8730-4611013837de",
     "links": {
@@ -4153,6 +4310,33 @@
       74
     ]
   },
+  "Sonata Arctica": {
+    "genres": [
+      "power metal",
+      "symphonic metal",
+      "melodic metal"
+    ],
+    "display": "Sonata Arctica",
+    "mbid": "319b1175-ced9-438f-986b-9239c3edd92d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/252168",
+      "spotify": "https://open.spotify.com/artist/5YeoQ1L71cXDMpSpqxOjfH",
+      "deezer": "https://www.deezer.com/artist/532",
+      "homepage": "https://www.sonataarctica.info/",
+      "metalArchives": "https://www.metal-archives.com/bands/Sonata_Arctica/192",
+      "apple": "https://music.apple.com/fi/artist/29048370",
+      "instagram": "https://www.instagram.com/sonataarcticaofficial/",
+      "soundcloud": "https://soundcloud.com/sonata-arctica-official",
+      "tidal": "https://tidal.com/artist/25023",
+      "wikidata": "https://www.wikidata.org/wiki/Q191660",
+      "youtube": "https://www.youtube.com/channel/UC56F8c8khYkaA42xQhoS_gw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sonata_Arctica"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      227
+    ]
+  },
   "Sortaja": {
     "genres": [
       "powernoise",
@@ -4177,8 +4361,7 @@
     ],
     "display": "St. Aurora",
     "eventIds": [
-      30,
-      202
+      30
     ],
     "mbid": "89f5d157-a30f-4603-81dc-cd9c06189445",
     "links": {
@@ -4301,6 +4484,33 @@
     "eventIds": [
       29
     ]
+  },
+  "Stratovarius": {
+    "genres": [
+      "power metal",
+      "melodic metal",
+      "heavy metal"
+    ],
+    "display": "Stratovarius",
+    "eventIds": [
+      227
+    ],
+    "mbid": "c3d6fdd5-67c5-453e-87e3-d17a00a52879",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/324356",
+      "spotify": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO",
+      "deezer": "https://www.deezer.com/artist/1904",
+      "homepage": "https://stratovarius.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Stratovarius/216",
+      "apple": "https://music.apple.com/fi/artist/6557658",
+      "instagram": "https://www.instagram.com/stratovariusofficial/",
+      "soundcloud": "https://soundcloud.com/stratovarius-official",
+      "tidal": "https://tidal.com/artist/3539457",
+      "wikidata": "https://www.wikidata.org/wiki/Q201207",
+      "youtube": "https://www.youtube.com/channel/UCuGOvuS-t2Z8lgUj5FFfWHA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stratovarius"
+    },
+    "fetched": "2026-11-20"
   },
   "Striker": {
     "genres": [
@@ -4586,6 +4796,19 @@
       109
     ]
   },
+  "Tarja Turunen": {
+    "genres": [
+      "symphonic metal",
+      "female fronted metal"
+    ],
+    "display": "Tarja Turunen",
+    "eventIds": [
+      227
+    ],
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-19"
+  },
   "Ten56": {
     "genres": [
       "nu metal",
@@ -4609,6 +4832,30 @@
       "youtube": "https://www.youtube.com/channel/UCGYgNWSU9nfbSoVlkb85lyw"
     },
     "fetched": "2026-11-19"
+  },
+  "The 69 Eyes": {
+    "genres": [
+      "gothic rock",
+      "gothic metal"
+    ],
+    "display": "The 69 Eyes",
+    "eventIds": [
+      227
+    ],
+    "mbid": "ba1384a7-8b0e-4ea6-bf0c-f1ec17a06d14",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/177625",
+      "spotify": "https://open.spotify.com/artist/0Z1UczcSjwKNuv4HgdjH3b",
+      "deezer": "https://www.deezer.com/artist/4753",
+      "homepage": "http://www.69eyes.com/",
+      "instagram": "https://www.instagram.com/the69eyesofficial/",
+      "apple": "https://music.apple.com/de/artist/61138147",
+      "tidal": "https://tidal.com/artist/36534",
+      "wikidata": "https://www.wikidata.org/wiki/Q750286",
+      "youtube": "https://www.youtube.com/channel/UCG9dVVJn8GLRxuGVWh1TQLg",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_69_Eyes"
+    },
+    "fetched": "2026-11-20"
   },
   "The Beat From Palookaville": {
     "genres": [
@@ -5053,6 +5300,22 @@
     "fetched": "2026-11-21",
     "eventIds": [
       112
+    ]
+  },
+  "Vesta": {
+    "genres": [
+      "pop",
+      "electropop"
+    ],
+    "display": "Vesta",
+    "mbid": "7a42ae3e-bcb1-4cc6-a911-7435ac2c17f0",
+    "links": {
+      "bandcamp": "https://4vesta.bandcamp.com/",
+      "soundcloud": "https://soundcloud.com/vesta-342089413"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      228
     ]
   },
   "Vesterinen Yhtyeineen": {

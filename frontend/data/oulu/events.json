@@ -513,7 +513,7 @@
     "date": "2026-12-05T20:00:00",
     "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/erika-vikman-syksy-2026/",
     "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/erika-vikman-syksy-2026/",
-    "price": "39,90€",
+    "price": "39,90€ | VIP 54,90€",
     "doors": "20:00",
     "schedule": [
       {
@@ -815,6 +815,25 @@
       "alternative rock",
       "suomirock"
     ]
+  },
+  {
+    "artist": "UUSI VUOSI 2027 / La Vibración Club / Frequency Club",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2026-12-31T22:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/uusi-vuosi-2027-la-vibracion-club-frequency-club/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/uusi-vuosi-2027-la-vibracion-club-frequency-club/",
+    "price": "12€ Early Bird",
+    "doors": "22:00",
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 71,
+    "artists": [
+      "UUSI VUOSI",
+      "La Vibración Club",
+      "Frequency Club"
+    ],
+    "genres": []
   },
   {
     "artist": "Are & Kriso",
@@ -1475,6 +1494,33 @@
       "jazz",
       "big band",
       "rap"
+    ]
+  },
+  {
+    "artist": "Miljoonasade",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-05-01T20:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/miljoonasade/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/miljoonasade/",
+    "price": "35,90 € | VIP 49,90 €",
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Miljoonasade"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 72,
+    "artists": [
+      "Miljoonasade"
+    ],
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
     ]
   },
   {

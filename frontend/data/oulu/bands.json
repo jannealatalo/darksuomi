@@ -1059,6 +1059,29 @@
       48
     ]
   },
+  "Miljoonasade": {
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ],
+    "display": "Miljoonasade",
+    "mbid": "dc77f3d9-11cc-4643-b355-d334012a7a72",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/383766",
+      "spotify": "https://open.spotify.com/artist/1nUMGeWGdshl9DQi022EJJ",
+      "deezer": "https://www.deezer.com/artist/250168",
+      "homepage": "https://www.heikkisalo.com/miljoonasade/",
+      "apple": "https://music.apple.com/fi/artist/193397396",
+      "tidal": "https://tidal.com/artist/17974",
+      "wikidata": "https://www.wikidata.org/wiki/Q18032058",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Miljoonasade"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      72
+    ]
+  },
   "Minttu": {
     "genres": [
       "pop"

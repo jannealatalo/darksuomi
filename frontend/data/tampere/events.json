@@ -516,6 +516,30 @@
     ]
   },
   {
+    "artist": "Master Boot Record, Fulci & Arottenbit",
+    "venue": "F54",
+    "city": "Tampere",
+    "date": "2026-11-28T20:00:00",
+    "ticketUrl": "https://f54.fi/tapahtuma/master-boot-record-fulci-arottenbit/",
+    "eventUrl": "https://f54.fi/tapahtuma/master-boot-record-fulci-arottenbit/",
+    "id": 222,
+    "artists": [
+      "Master Boot Record",
+      "Fulci & Arottenbit"
+    ],
+    "genres": [
+      "chiptune",
+      "industrial metal",
+      "electronic",
+      "synthwave",
+      "death metal",
+      "brutal death metal",
+      "drone",
+      "drone doom",
+      "8-bit"
+    ]
+  },
+  {
     "artist": "Wyatt E (be), Fife the Hierophant (uk), Radien",
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
@@ -570,10 +594,10 @@
     "artist": "20 000 Hz, Discoteca Fatale",
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
-    "date": "2026-11-29T19:00:00",
+    "date": "2026-11-29T18:00:00",
     "ticketUrl": "https://vastavirta.net/",
-    "eventUrl": "https://vastavirta.net/#2026-11-29-1900",
-    "doors": "19:00",
+    "eventUrl": "https://vastavirta.net/#2026-11-29-1800",
+    "doors": "18:00",
     "price": "Vapaa pääsy",
     "room": "Terassi Pub Yläkerta",
     "id": 102,
@@ -1281,6 +1305,22 @@
     ],
     "genres": [
       "pop"
+    ]
+  },
+  {
+    "artist": "Gothic Night",
+    "venue": "Alanya Bar",
+    "city": "Tampere",
+    "date": "2026-12-12T19:00:00",
+    "eventUrl": "https://gothiceventsfinland.blogspot.com/2026/11/12122026-gothic-night-alanya-bar-tampere.html",
+    "ticketUrl": "https://gothiceventsfinland.blogspot.com/2026/11/12122026-gothic-night-alanya-bar-tampere.html",
+    "venueDefault": "goth",
+    "id": 232,
+    "artists": [
+      "Gothic Night"
+    ],
+    "genres": [
+      "goth"
     ]
   },
   {
@@ -2558,6 +2598,22 @@
     ]
   },
   {
+    "artist": "Signs of the Swarm",
+    "venue": "F54",
+    "city": "Tampere",
+    "date": "2027-02-13T22:00:00",
+    "ticketUrl": "https://www.lippu.fi/en/event/signs-of-the-swarm-ten56-fra-oceans-ate-alaska-uk-face-yourself-k-18-f54-22323519/",
+    "eventUrl": "https://f54.fi/tapahtuma/signs-of-the-swarm/",
+    "id": 223,
+    "artists": [
+      "Signs of the Swarm"
+    ],
+    "genres": [
+      "deathcore",
+      "brutal deathcore"
+    ]
+  },
+  {
     "artist": "Esko Koivuluoma Duo",
     "venue": "Pakkahuone",
     "city": "Tampere",
@@ -3415,6 +3471,27 @@
     ]
   },
   {
+    "artist": "Miljoonasade",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-03-27T20:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/miljoonasade-27-03-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/miljoonasade-27-03-2027/",
+    "doors": "20:00",
+    "price": "alk. 28,50€, ovelta 32€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 230,
+    "artists": [
+      "Miljoonasade"
+    ],
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "artist": "Pesso (levyjulkkarit) + Edicti",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -3751,6 +3828,25 @@
     ]
   },
   {
+    "artist": "Vesta",
+    "venue": "Tavara-asema",
+    "city": "Tampere",
+    "date": "2027-04-24T19:00:00",
+    "ticketUrl": "https://tavara-asema.fi/ohjelma/vesta-24-04-2027/",
+    "eventUrl": "https://tavara-asema.fi/ohjelma/vesta-24-04-2027/",
+    "doors": "19:00",
+    "price": "alk. 32,50€, ovelta 35€",
+    "age": "K-18",
+    "id": 228,
+    "artists": [
+      "Vesta"
+    ],
+    "genres": [
+      "pop",
+      "electropop"
+    ]
+  },
+  {
     "artist": "Lizz Wright & Kenny Banks Sr. (US)",
     "venue": "G Livelab Tampere",
     "city": "Tampere",
@@ -4060,6 +4156,71 @@
     "genres": [
       "progressive rock",
       "art rock"
+    ]
+  },
+  {
+    "artist": "OLGA",
+    "venue": "Pakkahuone",
+    "city": "Tampere",
+    "date": "2027-06-05T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/olga-05-06-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/olga-05-06-2027/",
+    "doors": "19:00",
+    "price": "alk. 28,50€, ovelta 32€",
+    "age": "K-18",
+    "room": "Pakkahuone",
+    "id": 231,
+    "artists": [
+      "OLGA"
+    ],
+    "genres": [
+      "blues",
+      "pop",
+      "rock brasil",
+      "electropop"
+    ]
+  },
+  {
+    "artist": "Rokki Raikaa Tampere 2027 (23.–24.7.): D-A-D, Tarja Turunen, Sonata Arctica, Stratovarius, The 69 Eyes, Korpiklaani, Leningrad Cowboys, Charon, Peer Günt, Nyrkkitappelu, Huora",
+    "venue": "Hakametsän jäähallin piha-alue (Rokki Raikaa)",
+    "city": "Tampere",
+    "date": "2027-07-23T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/artist/rokki-raikaa/rokki-raikaa-tampere-2027-4182607/",
+    "eventUrl": "https://rokkiraikaa.fi/tampere-2027/",
+    "age": "K-18",
+    "id": 227,
+    "artists": [
+      "D-A-D",
+      "Tarja Turunen",
+      "Sonata Arctica",
+      "Stratovarius",
+      "The 69 Eyes",
+      "Korpiklaani",
+      "Leningrad Cowboys",
+      "Charon",
+      "Peer Günt",
+      "Nyrkkitappelu",
+      "Huora"
+    ],
+    "genres": [
+      "hard rock",
+      "rock",
+      "symphonic metal",
+      "female fronted metal",
+      "power metal",
+      "melodic metal",
+      "heavy metal",
+      "metal",
+      "gothic rock",
+      "gothic metal",
+      "folk metal",
+      "viking metal",
+      "alternative",
+      "polka",
+      "classic rock",
+      "punk",
+      "punk rock",
+      "finnish punk"
     ]
   },
   {
