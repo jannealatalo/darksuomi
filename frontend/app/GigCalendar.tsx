@@ -504,6 +504,14 @@ export default function GigCalendar({
 
         <div className="mt-12 md:hidden">{siteLinks}</div>
 
+        <p className="mt-12 text-sm text-gray-400">
+          For the nights when the nearest doom gig is 400 km away:{" "}
+          <Link href="/weedian-in-spotify" className="text-purple-400 hover:text-purple-300">
+            Weedian&apos;s monthly stoner &amp; doom picks as Spotify playlists
+          </Link>
+          . The fuzz is the same, the bar queue is shorter.
+        </p>
+
         {/* Data credits: at the end, to keep the header short on phones. */}
         <div className="mt-12 flex flex-col items-end gap-2 text-right">
             <div className="text-xs text-gray-500 space-y-0.5">
