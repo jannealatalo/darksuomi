@@ -11366,6 +11366,42 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "OLGA",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-06-04T19:00:00",
+    "ticketUrl": "https://www.allaslive.fi/all-events/olga-tickets-ae1528932",
+    "eventUrl": "https://www.allaslive.fi/all-events/olga-tickets-ae1528932",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 582,
+    "artists": [
+      "OLGA"
+    ],
+    "genres": [
+      "pop",
+      "finnish pop"
+    ]
+  },
+  {
+    "artist": "Anna Puu",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-06-05T19:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1627500411",
+    "eventUrl": "https://www.allaslive.fi/all-events/anna-puu-tickets-ae818758",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 583,
+    "artists": [
+      "Anna Puu"
+    ],
+    "genres": [
+      "pop",
+      "finnish pop"
+    ]
+  },
+  {
     "artist": "Rod Stewart: The Final Encore",
     "venue": "Veikkaus Arena",
     "city": "Helsinki",
@@ -11625,6 +11661,41 @@
     ]
   },
   {
+    "artist": "Haloo Helsinki!",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-07-15T19:00:00",
+    "ticketUrl": "https://www.allaslive.fi/all-events/haloo-helsinki--tickets-ae403331",
+    "eventUrl": "https://www.allaslive.fi/all-events/haloo-helsinki--tickets-ae403331",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 580,
+    "artists": [
+      "Haloo Helsinki!"
+    ],
+    "genres": [
+      "rock",
+      "punk rock"
+    ]
+  },
+  {
+    "artist": "Behm",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-08-20T19:00:00",
+    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "eventUrl": "https://www.allaslive.fi/all-events/behm-tickets-ae1561695",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 584,
+    "artists": [
+      "Behm"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "id": 77,
     "artist": "Maija Vilkkumaa - Pitkä Ihana Leikki 28 vuotta",
     "venue": "Tavastia Klubi",
@@ -11714,6 +11785,24 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Tehosekoitin",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-09-11T00:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/400696934",
+    "eventUrl": "https://www.allaslive.fi/all-events/tehosekoitin-tickets-ae1697508",
+    "age": "K-18",
+    "id": 581,
+    "artists": [
+      "Tehosekoitin"
+    ],
+    "genres": [
+      "rock",
+      "suomirock",
+      "punk"
+    ]
   },
   {
     "id": 80,

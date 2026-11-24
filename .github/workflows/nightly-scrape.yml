@@ -136,6 +136,10 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
         run: python scraper_apollo.py
 
+      - name: Scrape Allas Live (summer concerts, all genres)
+        continue-on-error: true
+        run: python scraper_allas.py
+
       - name: Scrape G Livelab (only gigs whose genres fit)
         continue-on-error: true
         env:

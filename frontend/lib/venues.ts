@@ -32,6 +32,7 @@ export const VENUE_ADDRESSES: Record<string, VenueAddress> = {
   Olympiastadion: v("Paavo Nurmen tie 1", "00250", "Helsinki"),
   Dubrovnik: v("Eerikinkatu 11", "00100", "Helsinki"),
   "Apollo Live Club": v("Mannerheimintie 16", "00100", "Helsinki"),
+  "Allas Live": v("Katajanokanlaituri 2a", "00160", "Helsinki"),
   "Espoon kulttuurikeskus": v("Kulttuuriaukio 2", "02100", "Espoo"),
   Sellosali: v("Soittoniekanaukio 1 A", "02600", "Espoo"),
   Kannusali: v("Kannusillankatu 4", "02770", "Espoo"),

@@ -569,6 +569,15 @@
     "tags": [],
     "fetched": "2026-11-22"
   },
+  "Anna Puu": {
+    "source": "lastfm",
+    "matchedName": "Anna Puu",
+    "tags": [
+      "pop",
+      "indie"
+    ],
+    "fetched": "2026-11-24"
+  },
   "Anna Tsuchiya": {
     "source": "lastfm",
     "matchedName": "Anna Tsuchiya",
@@ -1167,6 +1176,14 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-22"
+  },
+  "Behm": {
+    "source": "lastfm",
+    "matchedName": "BEHM",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-24"
   },
   "Beleth’s Trumpet": {
     "source": "musicbrainz",
@@ -10552,6 +10569,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Tehosekoitin": {
+    "source": "lastfm",
+    "matchedName": "Tehosekoitin",
+    "tags": [
+      "rock",
+      "suomirock",
+      "punk"
+    ],
+    "fetched": "2026-11-24"
   },
   "Teini-Pää": {
     "source": "lastfm",

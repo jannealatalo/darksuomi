@@ -61,7 +61,7 @@ VENUE_INSTAGRAM = {
     "G Livelab": "glivelabhelsinki", "Tiivistämö": "tiivistamo",
     "Suvilahti (Tuska)": "tuskafestival", "Ääniwalli": "aaniwalli",
     "Helsingin Jäähalli": "helsinginjaahalli", "Olympiastadion": "olympiastadionhelsinki",
-    "Dubrovnik": "dubrovnikclub", "Apollo Live Club": "apolloliveclub",
+    "Dubrovnik": "dubrovnikclub", "Apollo Live Club": "apolloliveclub", "Allas Live": "allaslive",
     "Espoon kulttuurikeskus": "espoonkulttuurikeskus", "Sellosali": "sellosali",
     "Krapin Paja": "krapinpaja",
     "G Livelab Tampere": "glivelabtampere", "Pakkahuone": "tullikamaritre",

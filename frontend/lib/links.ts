@@ -17,6 +17,8 @@ export const VENUE_LINKS: Record<string, string> = {
   Dubrovnik: "https://www.dubrovnik.fi/",
   Ääniwalli: "https://aaniwalli.fi/",
   "Apollo Live Club": "https://apolloliveclub.fi/tapahtumat/",
+  // Allas Sea Pool's summer concerts (mid-May to mid-September).
+  "Allas Live": "https://www.allaslive.fi/keikat",
   "G Livelab": "https://glivelab.fi/",
   "Kuudes Linja": "https://www.kuudeslinja.com/",
   "Savoy-teatteri": "https://www.savoyteatteri.fi/",
