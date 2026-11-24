@@ -250,7 +250,10 @@ def main() -> int:
     try:
         for name in sorted(wanted, key=str.casefold):
             entry = dict(old.get(name, {}))
-            genre_entry = genre_cache.get(name, {})
+            # A hand-checked override wins over the looked-up artist, which
+            # may be someone else with the same name ("OLGA" vs a Brazilian Olga).
+            genre_entry = ({"tags": overrides[name]["genres"]} if name in overrides
+                           else genre_cache.get(name, {}))
             entry["genres"] = genre_entry.get("tags", [])[:3]
             # Last.fm / MusicBrainz spelling: "Amorphis", not "AMORPHIS".
             matched = genre_entry.get("matchedName") or name

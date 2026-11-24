@@ -234,6 +234,12 @@
         "musical",
         "chanson"
       ]
+    },
+    "OLGA": {
+      "genres": [
+        "pop",
+        "finnish pop"
+      ]
     }
   },
   "genreFilters": [

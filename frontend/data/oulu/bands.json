@@ -1201,11 +1201,10 @@
   },
   "OLGA": {
     "genres": [
-      "blues",
       "pop",
-      "rock brasil"
+      "finnish pop"
     ],
-    "display": "Olga",
+    "display": "OLGA",
     "mbid": null,
     "links": {},
     "fetched": "2026-11-21",
