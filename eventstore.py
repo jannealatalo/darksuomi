@@ -8,7 +8,9 @@ showing on the site).
 
 Helsinki gigs live in frontend/data/events.json; the experimental city sites
 (darksuomi.fi/tampere, /oulu) keep theirs in frontend/data/<city>/events.json.
-Pass `city=` to work on those.
+Pass `city=` to work on those. HIDDEN_CITIES (darksuomi.fi/seattle, an
+experiment) work the same, but the updates log, emails, Discord, Instagram
+and setlists only go through CITIES, so they leave them out.
 """
 
 import json
@@ -18,13 +20,14 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parent / "frontend" / "data"
 EVENTS_FILE = DATA_DIR / "events.json"
 CITIES = ("tampere", "oulu")  # experimental sites, separate from Helsinki
+HIDDEN_CITIES = ("seattle",)  # not linked anywhere; only gigs and genres
 
 
 def events_file(city: str | None = None) -> Path:
     """events.json of Helsinki (default) or of one of the CITIES."""
     if city in (None, "", "helsinki"):
         return EVENTS_FILE
-    if city not in CITIES:
+    if city not in CITIES + HIDDEN_CITIES:
         raise ValueError(f"unknown city {city!r}")
     return DATA_DIR / city / "events.json"
 

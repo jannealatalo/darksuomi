@@ -1,3 +1,5 @@
+import type { CityKey } from "../lib/cities";
+
 /** A band on the bill, from the band directory (see withBandInfo). */
 export type GigBand = {
   name: string;
@@ -13,7 +15,7 @@ export type Event = {
   venue: string;
   city: string;
   /** Which city site lists the gig (set on the combined past gigs page). */
-  site?: "helsinki" | "tampere" | "oulu";
+  site?: CityKey;
   date: string;
   ticketUrl: string;
   /** The gig's own page where the scraper found it (usually the venue's site). */
@@ -29,7 +31,7 @@ export type Event = {
   /** Ticket price as the venue writes it ("14€", "Vapaa pääsy!", ...). */
   price?: string;
   /** Ticket sales, from the venue listing; absent while on sale. */
-  status?: "sold out" | "cancelled";
+  status?: "sold out" | "cancelled" | "postponed";
   /** Directory entries of the bands on the bill (upcoming gigs only). */
   bands?: GigBand[];
 };

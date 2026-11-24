@@ -1,10 +1,11 @@
 import events from "../data/events.json";
 import ouluEvents from "../data/oulu/events.json";
+import seattleEvents from "../data/seattle/events.json";
 import tampereEvents from "../data/tampere/events.json";
 import genreConfig from "../data/genre-config.json";
 import meta from "../data/meta.json";
 import type { Event } from "../types/events";
-import type { CityKey } from "./cities";
+import { HIDDEN_CITIES, cityInfo, type CityKey } from "./cities";
 
 /**
  * Stand-up shows (genre "stand-up") stay in the data, where standup.py
@@ -17,6 +18,7 @@ const EVENTS_BY_CITY: Record<CityKey, Event[]> = {
   helsinki: (events as Event[]).filter(isGig),
   tampere: (tampereEvents as Event[]).filter(isGig),
   oulu: (ouluEvents as Event[]).filter(isGig),
+  seattle: (seattleEvents as Event[]).filter(isGig),
 };
 
 export const excludedGenres = new Set<string>(genreConfig.excludeGenres);
@@ -78,10 +80,16 @@ export const scrapeDay = new Date(meta.lastScraped).toLocaleDateString("sv-SE", 
   timeZone: "Europe/Helsinki",
 });
 
-/** Upcoming events (from the scrape day on), sorted by date and time. */
+/** The scrape day in another time zone (Seattle is still on the day before). */
+export function scrapeDayIn(timeZone: string): string {
+  return new Date(meta.lastScraped).toLocaleDateString("sv-SE", { timeZone });
+}
+
+/** Upcoming events (from the scrape day on, in the city's time), sorted by date and time. */
 export function getEvents(city: CityKey = "helsinki"): Event[] {
+  const from = scrapeDayIn(cityInfo(city).timeZone);
   return EVENTS_BY_CITY[city]
-    .filter((e) => e.date.slice(0, 10) >= scrapeDay)
+    .filter((e) => e.date.slice(0, 10) >= from)
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
@@ -102,6 +110,8 @@ export function getPastEvents(days = 90): Event[] {
   // gigs here at midnight.
   const until = shift(7);
   return (Object.entries(EVENTS_BY_CITY) as [CityKey, Event[]][])
+    // Hidden experiments (Seattle) stay out of the past gigs.
+    .filter(([site]) => !HIDDEN_CITIES.some((c) => c.key === site))
     .flatMap(([site, list]) => list.map((e) => ({ ...e, site })))
     .filter((e) => e.date.slice(0, 10) < until && e.date.slice(0, 10) >= from)
     .sort((a, b) => b.date.localeCompare(a.date));

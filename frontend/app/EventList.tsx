@@ -41,6 +41,7 @@ export default function EventList({
   past = false,
   jokes = true,
   from,
+  us = false,
 }: {
   events: Event[];
   /** By a band DarkSuomi recommends (followed by its Spotify account). */
@@ -52,6 +53,8 @@ export default function EventList({
   from?: string;
   /** Off while searching: jokes between search results would be noise. */
   jokes?: boolean;
+  /** US formats (the Seattle page): "11/24", "7:00 PM". */
+  us?: boolean;
 }) {
   const days = groupByDay(events);
   // Empty days in the shown (filtered) list get a joke; not for past gigs.
@@ -63,7 +66,10 @@ export default function EventList({
         const newMonth = i === 0 || days[i - 1].monthLabel !== day.monthLabel;
         const gap = gaps.get(day.key);
         return (
-          <section key={day.key} aria-label={`${day.weekday} ${day.day}.${day.month}.`}>
+          <section
+            key={day.key}
+            aria-label={`${day.weekday} ${us ? `${day.month}/${day.day}` : `${day.day}.${day.month}.`}`}
+          >
             {gap && <GapRow gap={gap} />}
             {newMonth && (
               <h2 className="text-xs uppercase tracking-[0.2em] text-purple-400 border-b border-gray-800 pb-2 mb-2 mt-10 first:mt-0">
@@ -78,7 +84,7 @@ export default function EventList({
                   {day.weekday}
                 </span>
                 <span className="text-2xl sm:text-3xl font-bold leading-none text-gray-100">
-                  {day.day}.{day.month}.
+                  {us ? `${day.month}/${day.day}` : `${day.day}.${day.month}.`}
                 </span>
               </div>
 
@@ -90,6 +96,7 @@ export default function EventList({
                     recommended={isRecommended?.(event) ?? false}
                     listened={isListened?.(event) ?? false}
                     past={past}
+                    us={us}
                   />
                 ))}
               </ul>
@@ -109,18 +116,27 @@ function saleStatus(event: Event): Event["status"] {
   return event.price && SOLD_OUT_PRICE.test(event.price) ? "sold out" : undefined;
 }
 
+/** "19:30" -> "7:30 PM". */
+function usTime(time: string): string {
+  const [h, m] = time.split(":").map(Number);
+  return `${h % 12 || 12}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`;
+}
+
 function EventItem({
   event,
   recommended,
   listened,
   past,
+  us = false,
 }: {
   event: Event;
   recommended: boolean;
   listened: boolean;
   past: boolean;
+  us?: boolean;
 }) {
-  const time = eventTime(event);
+  const rawTime = eventTime(event);
+  const time = rawTime && us ? usTime(rawTime) : rawTime;
   const status = past ? undefined : saleStatus(event);
   // A price of just "loppuunmyyty" is shown as the sold-out mark instead.
   const price = event.price && !SOLD_OUT_PRICE.test(event.price) ? event.price : null;
@@ -157,7 +173,8 @@ function EventItem({
 
       <p className="text-sm text-gray-300">
         <VenueName event={event} /> · {event.city}
-        {time && <> · doors {time}</>}
+        {/* US sites give doors or show time, so just the time there. */}
+        {time && <> · {us ? time : `doors ${time}`}</>}
         {event.age && <> · {event.age}</>}
         {price && <> · {price}</>}
         {status && (

@@ -221,6 +221,19 @@ jobs:
             python genres.py --city "$city"
           done
 
+      - name: Seattle experiment (hidden page darksuomi.fi/seattle)
+        # frontend/data/seattle/events.json; left out of the updates log,
+        # emails, Discord, Instagram, setlists and the band directory.
+        continue-on-error: true
+        timeout-minutes: 25
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          for f in scraper_seattle_*.py; do
+            python "$f" || echo "::warning::$f failed"
+          done
+          python genres.py --city seattle
+
       - name: Gothic Events Finland (goth/industrial gigs the venue scrapers miss)
         # A hand-kept calendar: adds gigs at places with no gig list of their
         # own (Varjobaari, Tampere) and passes on cancellations. Runs after

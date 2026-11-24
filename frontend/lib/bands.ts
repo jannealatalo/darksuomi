@@ -20,6 +20,7 @@ const BANDS_BY_CITY: Record<CityKey, Record<string, BandEntry>> = {
   helsinki: bandData as Record<string, BandEntry>,
   tampere: tampereBandData as Record<string, BandEntry>,
   oulu: ouluBandData as Record<string, BandEntry>,
+  seattle: {}, // no band directory for the hidden Seattle experiment
 };
 
 /** The one band directory, for every city. */

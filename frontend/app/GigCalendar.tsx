@@ -28,7 +28,7 @@ import { useEffect, useRef, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
 import { useToday } from "../lib/today";
 import { InstallButton } from "./AppShell";
-import { CITIES, type CityKey } from "../lib/cities";
+import { CITIES, HIDDEN_CITIES, cityInfo, type CityKey } from "../lib/cities";
 import { matchesSearch } from "../lib/search";
 import SearchBox from "./SearchBox";
 
@@ -55,7 +55,10 @@ export default function GigCalendar({
 }) {
   // Gigs from today on by the visitor's clock (the list was built at the
   // last scrape, which may have been yesterday).
-  const today = useToday();
+  const info = cityInfo(city);
+  // A hidden experiment (Seattle): no links to the Finnish pages and sites.
+  const isHidden = HIDDEN_CITIES.some((c) => c.key === city);
+  const today = useToday(info.timeZone);
   const events = allEvents.filter((e) => e.date.slice(0, 10) >= today);
   const hiddenByGenreCount = events.filter(isExcludedByGenre).length;
   const allVenues = [...new Set(events.map((e) => e.venue))].sort((a, b) =>
@@ -199,10 +202,14 @@ export default function GigCalendar({
           .filter((v) => VENUE_LINKS[v])
           .map((v) => ({ name: v, url: VENUE_LINKS[v] }))}
       />
-      <LinkRow label="Tickets" links={TICKET_SITES} />
-      <LinkRow label="Resale" links={RESALE_SITES} />
-      <LinkRow label="Merch" links={MERCH_SITES} />
-      <LinkRow label="Media" links={MEDIA_SITES} />
+      {!isHidden && (
+        <>
+          <LinkRow label="Tickets" links={TICKET_SITES} />
+          <LinkRow label="Resale" links={RESALE_SITES} />
+          <LinkRow label="Merch" links={MERCH_SITES} />
+          <LinkRow label="Media" links={MEDIA_SITES} />
+        </>
+      )}
     </nav>
   );
 
@@ -219,7 +226,7 @@ export default function GigCalendar({
               <Link href="/" aria-label={isMain ? undefined : "Dark Suomi Helsinki"}>
                 <Image
                   src="/logo.webp"
-                  alt={isMain ? "Dark Suomi" : `Dark Suomi ${CITIES.find((c) => c.key === city)?.name}`}
+                  alt={isMain ? "Dark Suomi" : `Dark Suomi ${info.name}`}
                   width={512}
                   height={512}
                   preload
@@ -232,7 +239,7 @@ export default function GigCalendar({
               {/* What the site is, in one breath. */}
               <span className="block text-gray-200">
                 List of dark and loud gigs in{" "}
-                {isMain ? "Helsinki-Espoo" : CITIES.find((c) => c.key === city)?.name} area from
+                {isMain ? "Helsinki-Espoo" : info.name} area from
                 the main venues on one page.
               </span>
               {/* Fixed height, so the page doesn't jump when the line appears. */}
@@ -264,7 +271,8 @@ export default function GigCalendar({
                   ))}
                 </span>
               ))}
-              {/* Site pages and the other cities, as buttons. */}
+              {/* Site pages and the other cities, as buttons (Finland only). */}
+              {!isHidden && (<>
               <span className="flex flex-wrap gap-2 mt-3">
                 <Link href="/bands" className={NAV_BUTTON} title="Links to Spotify, Bandcamp, SoundCloud…">
                   Band Directory
@@ -291,6 +299,7 @@ export default function GigCalendar({
                   )
                 )}
               </span>
+              </>)}
             </div>
           </div>
 
@@ -499,6 +508,7 @@ export default function GigCalendar({
             isListened={isListenedEvent}
             jokes={!searching}
             from={today}
+            us={info.us}
           />
         )}
 
