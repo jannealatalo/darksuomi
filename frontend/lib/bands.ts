@@ -4,7 +4,7 @@ import tampereBandData from "../data/tampere/bands.json";
 import turkuBandData from "../data/turku/bands.json";
 import type { CityKey } from "./cities";
 import { CITIES } from "./cities";
-import { getEvents } from "./events";
+import { getAllEvents, getEvents } from "./events";
 import type { Event, GigBand } from "../types/events";
 import { LINK_LABELS, bandSlug, type LinkKind } from "./bandLinks";
 
@@ -36,6 +36,8 @@ export type Band = {
   genres: string[];
   links: Partial<Record<LinkKind, string>>;
   gigs: BandGig[];
+  /** The latest past gig, shown when there are no upcoming ones. */
+  lastGig?: BandGig;
 };
 
 /** Search pages for the main services, used when no profile link is known. */
@@ -56,27 +58,36 @@ export function isMetal(genres: string[]): boolean {
 }
 
 /**
- * Bands with upcoming gigs in any city, alphabetically, with their gigs
- * attached. A band in several cities' data is one entry (matched by
+ * Every band that has played or will play in any city, alphabetically, with
+ * their upcoming gigs and latest past gig attached. A band in several cities' data is one entry (matched by
  * bandSlug, which also folds spelling variants like "KANONENFIEBER").
  */
 export function getBands(): Band[] {
   const bands = new Map<string, Band>();
   for (const city of CITIES) {
     const upcoming = new Map(getEvents(city.key).map((e) => [e.id, e]));
+    const all = new Map(getAllEvents(city.key).map((e) => [e.id, e]));
+    const asGig = (e: Event): BandGig => ({ ...e, gigsPath: city.path, cityName: city.name });
     for (const [key, b] of Object.entries(BANDS_BY_CITY[city.key])) {
       const gigs = (b.eventIds ?? [])
         .map((id) => upcoming.get(id))
         .filter((e): e is Event => Boolean(e))
-        .map((e) => ({ ...e, gigsPath: city.path, cityName: city.name }));
-      if (gigs.length === 0) continue;
+        .map(asGig);
+      const past = (b.eventIds ?? [])
+        .filter((id) => !upcoming.has(id))
+        .map((id) => all.get(id))
+        .filter((e): e is Event => Boolean(e) && e!.status !== "cancelled")
+        .sort((x, y) => y.date.localeCompare(x.date));
+      const lastGig = past.length ? asGig(past[0]) : undefined;
+      if (gigs.length === 0 && !lastGig) continue;
       const name = b.display || key;
       const slug = bandSlug(name);
       const known = bands.get(slug);
       if (!known) {
-        bands.set(slug, { name, genres: b.genres ?? [], links: { ...b.links }, gigs });
+        bands.set(slug, { name, genres: b.genres ?? [], links: { ...b.links }, gigs, lastGig });
         continue;
       }
+      if (lastGig && (!known.lastGig || lastGig.date > known.lastGig.date)) known.lastGig = lastGig;
       known.links = { ...b.links, ...known.links };
       if (known.genres.length === 0) known.genres = b.genres ?? [];
       const ids = new Set(known.gigs.map((g) => `${g.gigsPath}${g.id}`));

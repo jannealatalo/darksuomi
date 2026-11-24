@@ -95,6 +95,11 @@ export function getEvents(city: CityKey = "helsinki"): Event[] {
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
+/** Every gig of a city, past ones included, in no particular order. */
+export function getAllEvents(city: CityKey): Event[] {
+  return EVENTS_BY_CITY[city];
+}
+
 /** Gigs of the last `days` days (before the scrape day), newest first. */
 /**
  * Past gigs of every city site, newest first. Each gig carries `site`, since

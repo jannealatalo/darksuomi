@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Band directory for Dark Suomi: every band with an upcoming gig, with links to
+Band directory for Dark Suomi: every band with a gig, upcoming or past, with links to
 their music on Spotify, Bandcamp, SoundCloud, Tidal, Apple Music, Deezer,
 YouTube, Discogs, Metal Archives, homepage and Instagram.
 
@@ -187,12 +187,10 @@ class SpotifySearch:
 
 
 def band_names_by_event(events: list[dict], genre_cache: dict) -> dict[str, list[int]]:
-    """Band name -> ids of upcoming gigs, skipping comedy/DJ/entertainment."""
-    today = date.today().isoformat()
+    """Band name -> ids of their gigs (past ones too: the directory keeps
+    every band that has played), skipping comedy/DJ/entertainment."""
     bands: dict[str, list[int]] = {}
     for event in events:
-        if event["date"][:10] < today:
-            continue
         genres = event.get("genres") or []
         if genres and genres[0] in NOT_BANDS:
             continue

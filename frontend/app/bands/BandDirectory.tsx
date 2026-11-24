@@ -17,7 +17,7 @@ function shortDate(iso: string) {
   return `${d}.${m}.`;
 }
 
-/** Searchable A–Z list of bands with their links and upcoming gigs. */
+/** Searchable A–Z list of bands with their links and gigs. */
 export default function BandDirectory({ bands }: { bands: Band[] }) {
   const [query, setQuery] = useState("");
   const q = query.trim().toLocaleLowerCase("fi");
@@ -26,7 +26,9 @@ export default function BandDirectory({ bands }: { bands: Band[] }) {
         (b) =>
           b.name.toLocaleLowerCase("fi").includes(q) ||
           b.genres.some((g) => g.includes(q)) ||
-          b.gigs.some((g) => g.cityName.toLocaleLowerCase("fi").includes(q))
+          [...b.gigs, ...(b.lastGig ? [b.lastGig] : [])].some((g) =>
+            g.cityName.toLocaleLowerCase("fi").includes(q)
+          )
       )
     : bands;
 
@@ -107,6 +109,14 @@ function BandRow({ band }: { band: Band }) {
             </Link>
           </span>
         ))}
+        {band.gigs.length === 0 && band.lastGig && (
+          <span className="text-gray-500">
+            Last gig {shortDate(band.lastGig.date)}
+            {band.lastGig.date.slice(0, 4)}{" "}
+            {band.lastGig.venue}
+            {band.lastGig.cityName !== "Helsinki" && `, ${band.lastGig.cityName}`}
+          </span>
+        )}
       </p>
 
       <p className="text-sm mt-1">

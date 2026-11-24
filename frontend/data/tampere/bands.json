@@ -147,6 +147,22 @@
     },
     "fetched": "2026-11-19"
   },
+  "Aivoproteesi": {
+    "genres": [
+      "hardcore punk",
+      "finnish hardcore"
+    ],
+    "display": "Aivoproteesi",
+    "mbid": "c6529b1a-389d-4d0c-a14c-d65d8a053ab5",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/750165",
+      "spotify": "https://open.spotify.com/artist/0GvIzJmi2P6hfyLUyfvb9R"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      98
+    ]
+  },
   "Aki Rissanen": {
     "genres": [
       "jazz",
@@ -299,6 +315,31 @@
       9
     ]
   },
+  "Apulanta": {
+    "genres": [
+      "rock",
+      "punk rock",
+      "punk"
+    ],
+    "display": "Apulanta",
+    "mbid": "d3fa206b-a8ff-4b53-a0e2-83aa19a40c66",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/260767",
+      "spotify": "https://open.spotify.com/artist/5kwthnxNdfnqGk0nL35wDC",
+      "deezer": "https://www.deezer.com/artist/448792",
+      "homepage": "https://apulanta.fi/",
+      "instagram": "https://www.instagram.com/apulantaofficial/",
+      "apple": "https://music.apple.com/fi/artist/209793050",
+      "tidal": "https://tidal.com/artist/3516648",
+      "wikidata": "https://www.wikidata.org/wiki/Q622312",
+      "youtube": "https://www.youtube.com/channel/UC9Csb-hlPklaL7zkJjzEokQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Apulanta"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      26
+    ]
+  },
   "Armoton": {
     "genres": [],
     "display": "Armoton",
@@ -432,6 +473,22 @@
     },
     "fetched": "2026-11-20"
   },
+  "Ayno": {
+    "genres": [
+      "rock",
+      "pop",
+      "k-pop"
+    ],
+    "display": "Ayno",
+    "mbid": "3a5d2d2a-ea25-4a48-a7c1-c64617a9dd3e",
+    "links": {
+      "bandcamp": "https://ayno.bandcamp.com/"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      97
+    ]
+  },
   "Balance Breach": {
     "genres": [
       "metalcore"
@@ -455,6 +512,20 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Balance_Breach"
     },
     "fetched": "2026-11-20"
+  },
+  "Benjamin": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Benjamin",
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5FgAhHocNrSCn7Ox87uyef"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      1
+    ]
   },
   "BESS": {
     "genres": [
@@ -766,6 +837,19 @@
       110
     ]
   },
+  "DEMONESSA": {
+    "genres": [],
+    "display": "Demonessa",
+    "mbid": "301c47c8-5f79-40a0-99cb-dfd04399e98d",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/1VE0mtJfuhaipbhSp71OVt",
+      "instagram": "https://www.instagram.com/demonessaofficial/"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      191
+    ]
+  },
   "DHARMA GUNS": {
     "genres": [],
     "display": "Dharma Guns",
@@ -834,6 +918,22 @@
     "fetched": "2026-11-21",
     "eventIds": [
       102
+    ]
+  },
+  "DISGRAVE": {
+    "genres": [
+      "grindcore",
+      "thrash metal",
+      "crust"
+    ],
+    "display": "Disgrave",
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/39VahrcpyOPDTa4fPBxYdG"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      192
     ]
   },
   "Dome Runner": {
@@ -1507,6 +1607,23 @@
     "fetched": "2026-11-21",
     "eventIds": [
       110
+    ]
+  },
+  "Halla": {
+    "genres": [
+      "black metal",
+      "raw black metal",
+      "iranian black metal"
+    ],
+    "display": "Halla",
+    "mbid": "0ef820b2-9080-410b-aed5-d97e82f46eb2",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2083870",
+      "homepage": "http://www.hallarock.net/"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      97
     ]
   },
   "HALLS OF OBLIVION": {
@@ -2762,6 +2879,19 @@
       110
     ]
   },
+  "Mika Maijala": {
+    "genres": [],
+    "display": "Mika Maijala",
+    "mbid": "9f2da8e1-db63-4085-931e-7712b33e56fd",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2594472",
+      "spotify": "https://open.spotify.com/artist/5XuDQNHyzaRE94oM2CcFI8"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      114
+    ]
+  },
   "Mikkey Dee": {
     "genres": [
       "rock",
@@ -2865,6 +2995,28 @@
     "fetched": "2026-11-24",
     "eventIds": [
       230
+    ]
+  },
+  "Mimosa": {
+    "genres": [
+      "dubstep",
+      "glitch",
+      "electronic"
+    ],
+    "display": "Mimosa",
+    "mbid": "bc38e367-9d50-4baa-b801-ee659120ed22",
+    "links": {
+      "bandcamp": "https://mimosa.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1413032",
+      "deezer": "https://www.deezer.com/artist/421701",
+      "soundcloud": "https://soundcloud.com/tigranmimosa",
+      "tidal": "https://tidal.com/artist/3545560",
+      "youtube": "https://www.youtube.com/user/tigranmimosa",
+      "spotify": "https://open.spotify.com/artist/0EOfQYklYwADbPWTaKC95y"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      96
     ]
   },
   "Miseria Ultima": {
@@ -3170,6 +3322,44 @@
       227
     ]
   },
+  "Oiva Vedätys": {
+    "genres": [],
+    "display": "Oiva Vedätys",
+    "mbid": "8a7b7adc-ee50-4ddc-8ade-4048c1127d3f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1180666",
+      "spotify": "https://open.spotify.com/artist/4A0rp1tGx06eW6QU3QvoDs"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      96
+    ]
+  },
+  "Olavi Uusivirta": {
+    "genres": [
+      "rock",
+      "pop",
+      "singer-songwriter"
+    ],
+    "display": "Olavi Uusivirta",
+    "mbid": "a36db441-dbf5-45e9-80db-aedc90753a27",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/407807",
+      "spotify": "https://open.spotify.com/artist/5LbUBFEG2qciScT9kwFqmV",
+      "deezer": "https://www.deezer.com/artist/272816",
+      "homepage": "https://www.olaviuusivirta.com/",
+      "instagram": "https://www.instagram.com/olaviuusivirta/",
+      "apple": "https://music.apple.com/fi/artist/28454390",
+      "tidal": "https://tidal.com/artist/56935",
+      "wikidata": "https://www.wikidata.org/wiki/Q2018222",
+      "youtube": "https://www.youtube.com/channel/UCutafXlSYLrJId6TwQ5Ji-A",
+      "wikipedia": "https://en.wikipedia.org/wiki/Olavi_Uusivirta"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      25
+    ]
+  },
   "OLGA": {
     "genres": [
       "pop",
@@ -3269,6 +3459,22 @@
     "fetched": "2026-11-21",
     "eventIds": [
       129
+    ]
+  },
+  "Palone": {
+    "genres": [
+      "deutschrap",
+      "rap",
+      "hip hop"
+    ],
+    "display": "Palone",
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6XN55XvccNREBjOTrBdxuS"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      96
     ]
   },
   "Pardon": {
@@ -3457,6 +3663,22 @@
       81
     ]
   },
+  "Pohjasakka": {
+    "genres": [
+      "hardcore punk",
+      "finnish hardcore punk",
+      "punk"
+    ],
+    "display": "Pohjasakka",
+    "mbid": "b35aadc6-a545-4561-8d6a-003657ffecee",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/763274"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      98
+    ]
+  },
   "Pohjola Heavy Jazz Group": {
     "genres": [],
     "display": "Pohjola Heavy Jazz Group",
@@ -3569,6 +3791,18 @@
     "fetched": "2026-11-21",
     "eventIds": [
       162
+    ]
+  },
+  "PYRE OF HYPOCRISY": {
+    "genres": [
+      "death metal"
+    ],
+    "display": "Pyre of Hypocrisy",
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-24",
+    "eventIds": [
+      192
     ]
   },
   "Pystyyn Kuolleet Hipit": {
@@ -4498,6 +4732,21 @@
       135
     ]
   },
+  "Säilä": {
+    "genres": [
+      "progressive rock",
+      "art rock"
+    ],
+    "display": "Säilä",
+    "mbid": "8770929d-9ef7-40fc-a49a-0d9d46274128",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/43lBEFWTPDqs2RM1laQ3eV"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      95
+    ]
+  },
   "Säädöt": {
     "genres": [],
     "display": "SÄÄDÖT",
@@ -4833,6 +5082,24 @@
       55
     ]
   },
+  "Tohtori Koira": {
+    "genres": [
+      "punk",
+      "finnish punk",
+      "hardcore punk"
+    ],
+    "display": "Tohtori Koira",
+    "mbid": "93bfcfa2-1b67-4e72-b1bf-c74bbb699843",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3281014",
+      "soundcloud": "https://soundcloud.com/tohtori-koira",
+      "spotify": "https://open.spotify.com/artist/3vR07WtMbjgGHNgVA9IY1Q"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      98
+    ]
+  },
   "Tomi Nordlund": {
     "genres": [],
     "display": "Tomi Nordlund",
@@ -4913,6 +5180,27 @@
     "fetched": "2026-11-21",
     "eventIds": [
       203
+    ]
+  },
+  "TURISTI": {
+    "genres": [
+      "rap",
+      "hip hop"
+    ],
+    "display": "Turisti",
+    "mbid": "d06b11b5-2ae9-4a72-bbbf-5d615501787f",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6IKJyoGeFRCRDb90U6AEzp",
+      "deezer": "https://www.deezer.com/artist/8783888",
+      "instagram": "https://www.instagram.com/turistiii/",
+      "apple": "https://music.apple.com/fi/artist/1093147013",
+      "tidal": "https://tidal.com/artist/48853510",
+      "wikidata": "https://www.wikidata.org/wiki/Q107038447",
+      "wikipedia": "https://en.wikipedia.org/wiki/Turisti"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      184
     ]
   },
   "Turmion Kätilöt": {
