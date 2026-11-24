@@ -96,6 +96,22 @@ def _slot_key(e: dict) -> tuple | None:
     return (e["venue"], e["date"][:16], head) if len(head) >= 3 else None
 
 
+def _contained(event: dict, events: list[dict]) -> dict | None:
+    """A gig at the same venue and start time whose title is contained in
+    the new one or the other way round: the venue added a name for the
+    night ("TALVIPUUTARHA : Hulda Huima duo, Ingrid Yö, Unta") or dropped it."""
+    if event["date"][11:16] in ("", "00:00"):
+        return None
+    new = " ".join(event["artist"].split()).casefold()
+    for e in events:
+        if e["venue"] != event["venue"] or e["date"][:16] != event["date"][:16]:
+            continue
+        old = " ".join(e["artist"].split()).casefold()
+        if min(len(old), len(new)) >= 4 and (old in new or new in old):
+            return e
+    return None
+
+
 def merge(scraped: list[dict], events: list[dict]) -> int:
     """Merge scraped gigs into `events` in place; returns how many were added."""
     by_key = {_key(e): e for e in events}
@@ -106,7 +122,8 @@ def merge(scraped: list[dict], events: list[dict]) -> int:
     for event in scraped:
         status_from_title(event)
         same_page = by_url.get(event.get("eventUrl"))
-        renamed = None if same_page else by_slot.get(_slot_key(event) or ())
+        renamed = None if same_page else (by_slot.get(_slot_key(event) or ())
+                                          or _contained(event, events))
         if renamed:
             # The venue retitled the gig: keep the newest title and page.
             same_page = renamed
