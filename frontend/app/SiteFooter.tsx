@@ -25,6 +25,10 @@ export default function SiteFooter() {
         <Link href="/privacy" className="text-purple-400 hover:text-purple-300">
           Privacy
         </Link>
+        {" · "}
+        <Link href="/weedian-in-spotify" className="text-purple-400 hover:text-purple-300">
+          Weedian in Spotify
+        </Link>
         <VisitCounter />
       </p>
       <p className="text-gray-300">

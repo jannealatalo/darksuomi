@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/past", "daily", 0.5),
     page("/standup", "daily", 0.4),
     page("/updates", "monthly", 0.3),
+    { url: `${SITE_URL}/weedian-in-spotify`, changeFrequency: "weekly" as const, priority: 0.3 },
     { url: `${SITE_URL}/privacy`, changeFrequency: "monthly" as const, priority: 0.1 },
   ];
 }
