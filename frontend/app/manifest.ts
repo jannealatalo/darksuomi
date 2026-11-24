@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Dark Suomi",
     short_name: "Dark Suomi",
-    description: "Dark and loud gigs in Helsinki-Espoo, Tampere and Oulu on one page.",
+    description: "Dark and loud gigs in Helsinki-Espoo, Tampere, Oulu and Turku on one page.",
     id: "/",
     start_url: "/",
     scope: "/",

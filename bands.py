@@ -12,7 +12,7 @@ missing are shown on the site as search links instead.
 
 Comedy, DJ and "entertainment" bills, and names nobody recognises, are left
 out. Results: frontend/data/bands.json for Helsinki and
-frontend/data/<city>/bands.json for the city sites (Tampere, Oulu). One run
+frontend/data/<city>/bands.json for the city sites (Tampere, Oulu, Turku). One run
 covers all of them: a band playing in several cities is looked up once.
 Each band is re-checked monthly.
 

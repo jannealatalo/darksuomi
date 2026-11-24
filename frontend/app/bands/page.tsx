@@ -8,7 +8,7 @@ import BandDirectory from "./BandDirectory";
 export const metadata: Metadata = {
   title: "Bands – Dark Suomi",
   description:
-    "Bands with upcoming gigs in Helsinki, Espoo, Tampere and Oulu, with links to Spotify, Bandcamp, SoundCloud, Tidal, Discogs and more.",
+    "Bands with upcoming gigs in Helsinki, Espoo, Tampere, Oulu and Turku, with links to Spotify, Bandcamp, SoundCloud, Tidal, Discogs and more.",
 };
 
 /** One band directory for every city's gigs. */
@@ -31,7 +31,7 @@ export default function BandsPage() {
         <header className="mb-4 space-y-1">
           <h1 className="text-3xl font-bold text-gray-100">Bands</h1>
           <p className="text-sm text-gray-400">
-            {bands.length} bands with upcoming gigs in Helsinki, Espoo, Tampere and Oulu. Links
+            {bands.length} bands with upcoming gigs in Helsinki, Espoo, Tampere, Oulu and Turku. Links
             come from MusicBrainz and Spotify; where none is known, a search link is shown
             instead.
           </p>
