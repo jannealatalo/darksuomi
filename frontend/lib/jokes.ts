@@ -15,7 +15,7 @@ export const NO_GIG_JOKES = [
   "No gigs, it's a day to clean up your earplugs.",
   "Go visit [Levykauppa Äx](https://www.levykauppax.fi/), it's open until 19:00.",
   "A day to visit [Bodom Bar & Sauna](https://www.bodombar.com/) in Espoo.",
-  "No gigs today. Put on you doom face and go see a neighbour.",
+  "No gigs today. Put on your doom face and go see a neighbour.",
   "Nothing on. Put on [Life Metal](https://open.spotify.com/album/7A10XxbkAl4hIQRMp4NyKO) by Sunn O))) at full volume and pretend it's a gig.",
   "Nothing tonight. Finally time to argue online about the best Children of Bodom album.",
   "Nothing today, a nice day for a funeral.",
