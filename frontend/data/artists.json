@@ -446,6 +446,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Afternoon Omens": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Agent Side Grinder": {
     "source": "lastfm",
     "matchedName": "Agent Side Grinder",
@@ -548,6 +553,15 @@
       "video game music"
     ],
     "fetched": "2026-11-24"
+  },
+  "Akma": {
+    "source": "lastfm",
+    "matchedName": "akma",
+    "tags": [
+      "death metal",
+      "melodic death metal"
+    ],
+    "fetched": "2026-11-25"
   },
   "Akseli Hiltunen": {
     "source": "lastfm",
@@ -890,6 +904,16 @@
       "indie"
     ],
     "fetched": "2026-11-19"
+  },
+  "AngelMaker": {
+    "source": "lastfm",
+    "matchedName": "Angelmaker",
+    "tags": [
+      "deathcore",
+      "technical deathcore",
+      "death metal"
+    ],
+    "fetched": "2026-11-25"
   },
   "Anger Within": {
     "source": "lastfm",
@@ -1462,6 +1486,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Atmosphérique Year 4 with JENNNGREEN ft. Chloe Harris": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Atomirotta": {
     "source": "lastfm",
     "matchedName": "Atomirotta",
@@ -1815,6 +1844,15 @@
       "black metal"
     ],
     "fetched": "2026-11-20"
+  },
+  "Ben Caplan": {
+    "source": "lastfm",
+    "matchedName": "Ben Caplan",
+    "tags": [
+      "folk",
+      "blues"
+    ],
+    "fetched": "2026-11-25"
   },
   "Ben Quad": {
     "source": "lastfm",
@@ -4839,6 +4877,17 @@
     ],
     "fetched": "2026-11-21"
   },
+  "Emmure": {
+    "source": "lastfm",
+    "matchedName": "Emmure",
+    "tags": [
+      "metalcore",
+      "deathcore",
+      "hardcore",
+      "moshcore"
+    ],
+    "fetched": "2026-11-25"
+  },
   "EMO ORCHESTRA": {
     "source": "notfound",
     "tags": [],
@@ -7587,6 +7636,15 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "Jaakko & Jay": {
+    "source": "lastfm",
+    "matchedName": "Jaakko & Jay",
+    "tags": [
+      "folk punk",
+      "punk"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Jaakko Kulta": {
     "source": "lastfm",
     "matchedName": "Jaakko Kulta",
@@ -9080,6 +9138,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kirjakerho": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Kirkkovene": {
     "source": "lastfm",
     "matchedName": "Kirkkovene",
@@ -10141,6 +10204,17 @@
       "rap"
     ],
     "fetched": "2026-11-24"
+  },
+  "Love Battery": {
+    "source": "lastfm",
+    "matchedName": "Love Battery",
+    "tags": [
+      "grunge",
+      "alternative rock",
+      "seattle",
+      "alternative"
+    ],
+    "fetched": "2026-11-25"
   },
   "Lowhill": {
     "source": "lastfm",
@@ -11974,6 +12048,11 @@
     ],
     "fetched": "2026-11-24"
   },
+  "NEXT METAL WAVE": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "NEØV": {
     "source": "lastfm",
     "matchedName": "NEØV",
@@ -13777,6 +13856,11 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Purple Night": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Purran lista": {
     "source": "notfound",
     "tags": [],
@@ -13964,6 +14048,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Rajaton": {
+    "source": "lastfm",
+    "matchedName": "Rajaton",
+    "tags": [
+      "a cappella",
+      "choir",
+      "a capella"
+    ],
+    "fetched": "2026-11-25"
   },
   "Rajaton Joulu": {
     "source": "notfound",
@@ -15443,6 +15537,17 @@
     ],
     "fetched": "2026-11-24"
   },
+  "SIN": {
+    "source": "lastfm",
+    "matchedName": "SIN",
+    "tags": [
+      "industrial",
+      "electronic",
+      "ebm",
+      "trip-hop"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Sin Cos Tan": {
     "source": "lastfm",
     "matchedName": "Sin Cos Tan",
@@ -15874,6 +15979,14 @@
     ],
     "fetched": "2026-11-21"
   },
+  "Spiritual Holocaust": {
+    "source": "lastfm",
+    "matchedName": "Spiritual Holocaust",
+    "tags": [
+      "death metal"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Spiritus Mortis": {
     "source": "lastfm",
     "matchedName": "Spiritus Mortis",
@@ -16229,6 +16342,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Suicide Silence": {
+    "source": "lastfm",
+    "matchedName": "Suicide Silence",
+    "tags": [
+      "deathcore",
+      "death metal",
+      "metalcore",
+      "grindcore"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Suistamon Sähkö": {
     "source": "lastfm",
     "matchedName": "Suistamon Sähkö",
@@ -16484,6 +16608,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Swervedriver": {
+    "source": "lastfm",
+    "matchedName": "Swervedriver",
+    "tags": [
+      "shoegaze",
+      "indie rock",
+      "alternative"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Swinging Christmas": {
     "source": "notfound",
     "tags": [],
@@ -16538,6 +16672,15 @@
       "melodic death metal"
     ],
     "fetched": "2026-11-24"
+  },
+  "Synestia": {
+    "source": "lastfm",
+    "matchedName": "Synestia",
+    "tags": [
+      "deathcore",
+      "symphonic deathcore"
+    ],
+    "fetched": "2026-11-25"
   },
   "Syvä Joki": {
     "source": "musicbrainz",
@@ -18499,6 +18642,11 @@
     "tags": [],
     "fetched": "2026-11-23"
   },
+  "Töölö jam": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "TÝR": {
     "source": "lastfm",
     "matchedName": "Týr",
@@ -19711,6 +19859,16 @@
       "doom metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Yaelokre": {
+    "source": "lastfm",
+    "matchedName": "Yaelokre",
+    "tags": [
+      "neofolk",
+      "folk",
+      "filipino"
+    ],
+    "fetched": "2026-11-25"
   },
   "Year of the Cobra": {
     "source": "lastfm",

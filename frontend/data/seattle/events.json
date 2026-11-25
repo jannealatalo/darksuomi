@@ -146,7 +146,7 @@
     "eventUrl": "https://www.elcorazonseattle.com/shows/distant-into-despair-usa-tour-2026-25-nov",
     "doors": "18:00",
     "age": "All ages",
-    "price": "$31.24",
+    "price": "$35.10",
     "id": 148,
     "artists": [
       "Distant",
@@ -259,7 +259,7 @@
     "eventUrl": "https://www.elcorazonseattle.com/shows/ayria-13-stitches-2026-tour-25-nov",
     "doors": "20:00",
     "age": "21+",
-    "price": "$27.11",
+    "price": "$33.04",
     "id": 180,
     "artists": [
       "Ayria"
@@ -1684,6 +1684,20 @@
     ]
   },
   {
+    "artist": "Atmosphérique Year 4 with JENNNGREEN ft. Chloe Harris",
+    "venue": "Timbre Room",
+    "city": "Seattle",
+    "date": "2026-12-04T22:00:00",
+    "ticketUrl": "https://www.kremwerk.com/upcoming/2026/12/04/atmosphrique-with-jenngreen-ft-chloe-harris",
+    "eventUrl": "https://www.kremwerk.com/upcoming/2026/12/04/atmosphrique-with-jenngreen-ft-chloe-harris",
+    "doors": "22:00",
+    "id": 556,
+    "artists": [
+      "Atmosphérique Year 4 with JENNNGREEN ft. Chloe Harris"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Free Paramount Tour",
     "venue": "Paramount Theatre",
     "city": "Seattle",
@@ -2020,6 +2034,25 @@
       "canterbury scene",
       "canterbury",
       "rock"
+    ]
+  },
+  {
+    "artist": "SIN",
+    "venue": "Kremwerk",
+    "city": "Seattle",
+    "date": "2026-12-05T22:00:00",
+    "ticketUrl": "https://www.kremwerk.com/upcoming/2026/12/05/sin-dark-dance-fetish-night",
+    "eventUrl": "https://www.kremwerk.com/upcoming/2026/12/05/sin-dark-dance-fetish-night",
+    "doors": "22:00",
+    "id": 557,
+    "artists": [
+      "SIN"
+    ],
+    "genres": [
+      "industrial",
+      "electronic",
+      "ebm",
+      "trip-hop"
     ]
   },
   {
@@ -2373,6 +2406,32 @@
     ]
   },
   {
+    "artist": "Suicide Silence, Emmure, AngelMaker, Synestia",
+    "venue": "Showbox",
+    "city": "Seattle",
+    "date": "2026-12-08T19:30:00",
+    "ticketUrl": "https://www.axs.com/events/1521766/suicide-silence-tickets?skin=showboxpresents&src=AEGLIVE_WSHBXSEA030115VEN001",
+    "eventUrl": "https://www.showboxpresents.com/events/detail/1521766",
+    "doors": "19:30",
+    "id": 551,
+    "artists": [
+      "Suicide Silence",
+      "Emmure",
+      "AngelMaker",
+      "Synestia"
+    ],
+    "genres": [
+      "deathcore",
+      "death metal",
+      "metalcore",
+      "grindcore",
+      "hardcore",
+      "moshcore",
+      "technical deathcore",
+      "symphonic deathcore"
+    ]
+  },
+  {
     "artist": "BRYAN ANDREWS",
     "venue": "The Crocodile",
     "city": "Seattle",
@@ -2500,6 +2559,26 @@
     "genres": [
       "indie pop",
       "folk pop"
+    ]
+  },
+  {
+    "artist": "Yaelokre, Ben Caplan",
+    "venue": "Showbox",
+    "city": "Seattle",
+    "date": "2026-12-09T20:00:00",
+    "ticketUrl": "https://www.axs.com/events/1489846/yaelokre-tickets?skin=showboxpresents&src=AEGLIVE_WSHBXSEA030115VEN001",
+    "eventUrl": "https://www.showboxpresents.com/events/detail/1489846",
+    "doors": "20:00",
+    "id": 552,
+    "artists": [
+      "Yaelokre",
+      "Ben Caplan"
+    ],
+    "genres": [
+      "neofolk",
+      "folk",
+      "filipino",
+      "blues"
     ]
   },
   {
@@ -3277,6 +3356,29 @@
       "Kataniica"
     ],
     "genres": []
+  },
+  {
+    "artist": "Swervedriver, Love Battery",
+    "venue": "Neumos",
+    "city": "Seattle",
+    "date": "2026-12-16T19:00:00",
+    "ticketUrl": "https://www.axs.com/events/1443845/swervedriver-tickets?skin=neumos",
+    "eventUrl": "https://www.neumos.com/events/detail/swervedriver-tickets-1443845",
+    "doors": "19:00",
+    "age": "21+",
+    "id": 553,
+    "artists": [
+      "Swervedriver",
+      "Love Battery"
+    ],
+    "genres": [
+      "shoegaze",
+      "indie rock",
+      "alternative",
+      "grunge",
+      "alternative rock",
+      "seattle"
+    ]
   },
   {
     "artist": "SPELL SLAYERS LIVE | Magic: The Gathering with Bosco, Irene the Alien, Maldhound, Jane Don't",

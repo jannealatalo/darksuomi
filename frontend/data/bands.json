@@ -6479,7 +6479,8 @@
     },
     "fetched": "2026-11-24",
     "eventIds": [
-      590
+      590,
+      624
     ]
   },
   "Miller Campbell": {
@@ -7912,6 +7913,29 @@
     "fetched": "2026-11-21",
     "eventIds": [
       539
+    ]
+  },
+  "Rajaton": {
+    "genres": [
+      "a cappella",
+      "choir",
+      "a capella"
+    ],
+    "display": "Rajaton",
+    "mbid": "52a9e588-8c75-4270-9842-09ec83e51571",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/599237",
+      "spotify": "https://open.spotify.com/artist/3ZfVp9mvvJt4Zly7lxgcaR",
+      "deezer": "https://www.deezer.com/artist/70592",
+      "homepage": "https://www.rajaton.net/",
+      "tidal": "https://tidal.com/artist/3613",
+      "wikidata": "https://www.wikidata.org/wiki/Q1736248",
+      "youtube": "https://www.youtube.com/user/rajatonchannel",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rajaton"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      618
     ]
   },
   "Rare Maiden": {
@@ -11031,7 +11055,8 @@
     "display": "Vesterinen yhtyeineen",
     "eventIds": [
       59,
-      60
+      60,
+      623
     ],
     "mbid": "b91290c6-5677-4d53-9c32-5b00a634fb73",
     "links": {

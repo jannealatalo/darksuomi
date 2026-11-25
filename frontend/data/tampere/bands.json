@@ -1897,6 +1897,23 @@
       37
     ]
   },
+  "Jaakko & Jay": {
+    "genres": [
+      "folk punk",
+      "punk"
+    ],
+    "display": "Jaakko & Jay",
+    "mbid": "4c24756b-2ed9-4f65-bcdb-334e2ebfea80",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1607941",
+      "homepage": "http://www.peaceism.net/",
+      "spotify": "https://open.spotify.com/artist/3yqMLNqfvqaDb3uGONeuev"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      247
+    ]
+  },
   "Jaakko Kulta": {
     "genres": [
       "pop"

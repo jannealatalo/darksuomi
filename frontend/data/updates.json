@@ -27,12 +27,96 @@
         ]
       },
       {
+        "id": 247,
+        "city": "tampere",
+        "artist": "Jaakko & Jay, Afternoon Omens, Kirjakerho",
+        "venue": "Vastavirta-klubi",
+        "place": "Tampere",
+        "date": "2026-12-19T19:00:00",
+        "genres": [
+          "folk punk",
+          "punk"
+        ]
+      },
+      {
+        "id": 75,
+        "city": "oulu",
+        "artist": "Akma + Spiritual Holocaust",
+        "venue": "Hevimesta",
+        "place": "Oulu",
+        "date": "2027-01-09T20:00:00",
+        "genres": [
+          "death metal",
+          "melodic death metal"
+        ]
+      },
+      {
+        "id": 615,
+        "city": "helsinki",
+        "artist": "Purple Night 2027",
+        "venue": "On the Rocks",
+        "place": "Helsinki",
+        "date": "2027-01-30T19:00:00",
+        "genres": [
+          "rock"
+        ]
+      },
+      {
+        "id": 76,
+        "city": "oulu",
+        "artist": "NEXT METAL WAVE",
+        "venue": "Hevimesta",
+        "place": "Oulu",
+        "date": "2027-01-30T20:00:00",
+        "genres": [
+          "metal"
+        ]
+      },
+      {
+        "id": 102,
+        "city": "turku",
+        "artist": "Jonna Tervomaa: Talvehtijat-kiertue",
+        "venue": "Musiikkitalo Fuuga",
+        "place": "Turku",
+        "date": "2027-02-19T20:00:00",
+        "genres": [
+          "pop",
+          "rock"
+        ]
+      },
+      {
         "id": 100,
         "city": "turku",
         "artist": "Miljoonasade",
         "venue": "Apollo Turku",
         "place": "Turku",
         "date": "2027-03-13T00:00:00",
+        "genres": [
+          "suomirock",
+          "rock",
+          "pop"
+        ]
+      },
+      {
+        "id": 104,
+        "city": "turku",
+        "artist": "emma & matilda – Akustinen Konserttisalikiertue 2027",
+        "venue": "Musiikkitalo Fuuga",
+        "place": "Turku",
+        "date": "2027-03-14T16:00:00",
+        "genres": [
+          "bedroom pop",
+          "indie pop",
+          "acoustic"
+        ]
+      },
+      {
+        "id": 624,
+        "city": "helsinki",
+        "artist": "Miljoonasade - Sateentekijät",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-03-18T18:30:00",
         "genres": [
           "suomirock",
           "rock",
@@ -53,6 +137,18 @@
         ]
       },
       {
+        "id": 103,
+        "city": "turku",
+        "artist": "Asla Jo: Baby Gay -konserttisalikiertue",
+        "venue": "Musiikkitalo Fuuga",
+        "place": "Turku",
+        "date": "2027-03-27T19:00:00",
+        "genres": [
+          "indie",
+          "pop"
+        ]
+      },
+      {
         "id": 602,
         "city": "helsinki",
         "artist": "Windhand",
@@ -64,10 +160,22 @@
           "stoner metal",
           "stoner doom"
         ]
+      },
+      {
+        "id": 623,
+        "city": "helsinki",
+        "artist": "Vesterinen Yhtyeineen",
+        "venue": "Allas Live",
+        "place": "Helsinki",
+        "date": "2027-07-23T19:00:00",
+        "genres": [
+          "rock",
+          "pop"
+        ]
       }
     ],
     "hidden": {
-      "helsinki": 10,
+      "helsinki": 12,
       "tampere": 4,
       "oulu": 1,
       "turku": 2

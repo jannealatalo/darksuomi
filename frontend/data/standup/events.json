@@ -521,6 +521,16 @@
     "price": "Alk. 35€"
   },
   {
+    "title": "Tomi Haustola: Tyyppivika -stand up show",
+    "venue": "Sellosali",
+    "city": "Espoo",
+    "date": "2027-03-03T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/tomi-haustola-tyyppivika-stand-up-show-k18-sellosali-22444588/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agraqkjune",
+    "source": "espoo-api",
+    "age": "K-18"
+  },
+  {
     "title": "Club Act!One",
     "venue": "Studio Pasila",
     "city": "Helsinki",
@@ -569,6 +579,16 @@
     "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
     "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452302",
     "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Sinkku Stand up -ilta",
+    "venue": "Kannusali",
+    "city": "Espoo",
+    "date": "2027-04-15T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/artist/sinkkustandup-ilta/sinkku-stand-up-ilta-4292219/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq6tgpoka",
+    "source": "espoo-api",
     "age": "K-18"
   },
   {

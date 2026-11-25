@@ -302,7 +302,7 @@
     ]
   },
   {
-    "artist": "Power Metal Night: Barrel, Burning Point, Steel Systems",
+    "artist": "Power Metal Night",
     "venue": "Toppila Klubi",
     "city": "Oulu",
     "date": "2026-11-28T20:00:00",
@@ -312,16 +312,9 @@
     "price": "10 €",
     "id": 29,
     "artists": [
-      "Barrel",
-      "Burning Point",
-      "Steel Systems"
+      "Power Metal Night"
     ],
-    "genres": [
-      "heavy metal",
-      "thrash metal",
-      "stoner rock",
-      "power metal"
-    ]
+    "genres": []
   },
   {
     "artist": "Pauli Hanhiniemi – Mies ja kitara",
@@ -853,6 +846,29 @@
     ]
   },
   {
+    "artist": "Akma + Spiritual Holocaust",
+    "venue": "Hevimesta",
+    "city": "Oulu",
+    "date": "2027-01-09T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/akma-spiritual-holocaust-k-18-hevimesta-22451927/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6b069126287a91ecc3d4e612",
+    "doors": "20:00",
+    "venueGenres": [
+      "melodic death metal",
+      "death metal"
+    ],
+    "age": "K-18",
+    "id": 75,
+    "artists": [
+      "Akma",
+      "Spiritual Holocaust"
+    ],
+    "genres": [
+      "death metal",
+      "melodic death metal"
+    ]
+  },
+  {
     "artist": "AFTERLIGHT MODERN METAL EVENING: Never Obey Again x Balance Breach + Silence The Echo",
     "venue": "45 Special",
     "city": "Oulu",
@@ -923,6 +939,26 @@
       "Drink Floyd"
     ],
     "genres": []
+  },
+  {
+    "artist": "NEXT METAL WAVE",
+    "venue": "Hevimesta",
+    "city": "Oulu",
+    "date": "2027-01-30T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/next-metal-wave-k-18-hevimesta-22452935/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6b06912a287a91ecc3d4e92f",
+    "doors": "20:00",
+    "venueGenres": [
+      "metal"
+    ],
+    "age": "K-18",
+    "id": 76,
+    "artists": [
+      "NEXT METAL WAVE"
+    ],
+    "genres": [
+      "metal"
+    ]
   },
   {
     "artist": "Vimma",

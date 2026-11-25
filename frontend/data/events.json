@@ -3301,6 +3301,22 @@
     ]
   },
   {
+    "artist": "Töölö jam",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-08T19:00:00",
+    "ticketUrl": "",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/toolo-jam-20/",
+    "venueGenres": [],
+    "doors": "19:00",
+    "room": "Korjaamohalli",
+    "id": 619,
+    "artists": [
+      "Töölö jam"
+    ],
+    "genres": []
+  },
+  {
     "id": 273,
     "artist": "Joka v*tun keskiviikko: Teemu Vesterinen",
     "venue": "Semifinal",
@@ -7089,6 +7105,24 @@
     ]
   },
   {
+    "artist": "Purple Night 2027",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-01-30T19:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122473",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/purple-night-2027/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 615,
+    "artists": [
+      "Purple Night"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 40,
     "artist": "Reilukerho 20-vuotisjuhlakeikka",
     "venue": "Tavastia Klubi",
@@ -7114,7 +7148,7 @@
     "venue": "Lepakkomies",
     "city": "Helsinki",
     "date": "2027-01-30T20:00:00",
-    "ticketUrl": "https://www.lepis.fi/tapahtumat/rats-will-feast-hauraus-landscape-suicide/",
+    "ticketUrl": "https://www.tiketti.fi/rats-will-feast-hauraus-landscape-suicide-lepakkomies-lippuja/122718",
     "eventUrl": "https://www.lepis.fi/tapahtumat/rats-will-feast-hauraus-landscape-suicide/",
     "venueGenres": [
       "hc"
@@ -9791,6 +9825,25 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Miljoonasade - Sateentekijät",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-03-18T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/miljoonasade-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/miljoonasade-k2027",
+    "doors": "18:30",
+    "price": "37,50 €",
+    "id": 624,
+    "artists": [
+      "Miljoonasade"
+    ],
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "artist": "Robert Finley (US)",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -11920,6 +11973,24 @@
     ]
   },
   {
+    "artist": "Vesterinen Yhtyeineen",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-07-23T19:00:00",
+    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "eventUrl": "https://www.allaslive.fi/all-events/vesterinen-yhtyeineen-tickets-ae10844",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 623,
+    "artists": [
+      "Vesterinen Yhtyeineen"
+    ],
+    "genres": [
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "artist": "Behm",
     "venue": "Allas Live",
     "city": "Helsinki",
@@ -12264,6 +12335,27 @@
       "symphonic metal",
       "instrumental",
       "symphonic power metal"
+    ]
+  },
+  {
+    "artist": "Rajaton – 30-vuotisjuhlakonsertti",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-12-17T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1558007523",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/rajaton-tickets-ae1715524#2027-12-17",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "18:30",
+    "id": 618,
+    "artists": [
+      "Rajaton"
+    ],
+    "genres": [
+      "a cappella",
+      "choir",
+      "a capella"
     ]
   }
 ]

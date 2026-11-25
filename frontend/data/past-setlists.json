@@ -218,7 +218,17 @@
     "checked": "2026-11-25"
   },
   "oulu:1": {
-    "setlists": {}
+    "setlists": {
+      "Messiah Paratroops": {
+        "url": "https://www.setlist.fm/setlist/messiah-paratroops/2026/45-special-oulu-finland-7b7a864c.html",
+        "songs": 12
+      },
+      "Goats of Doom": {
+        "url": "https://www.setlist.fm/setlist/goats-of-doom/2026/45-special-oulu-finland-637a864f.html",
+        "songs": 9
+      }
+    },
+    "checked": "2026-11-25"
   },
   "oulu:27": {
     "setlists": {},
@@ -228,25 +238,42 @@
     "setlists": {}
   },
   "oulu:37": {
-    "setlists": {}
+    "setlists": {},
+    "checked": "2026-11-25"
   },
   "oulu:38": {
-    "setlists": {}
+    "setlists": {},
+    "checked": "2026-11-25"
   },
   "oulu:39": {
-    "setlists": {}
+    "setlists": {
+      "Curse Upon a Prayer": {
+        "url": "https://www.setlist.fm/setlist/curse-upon-a-prayer/2026/hevimesta-oulu-finland-2b7f8cee.html",
+        "songs": 11
+      }
+    },
+    "checked": "2026-11-25"
   },
   "oulu:46": {
-    "setlists": {}
+    "setlists": {},
+    "checked": "2026-11-25"
   },
   "oulu:47": {
     "setlists": {
       "Stam1na": {
         "url": "https://www.setlist.fm/setlist/stam1na/2026/tarkastamo-oulu-finland-3b77487c.html",
         "songs": 1
+      },
+      "Zero Nine": {
+        "url": "https://www.setlist.fm/setlist/zero-nine/2026/tarkastamo-oulu-finland-33774871.html",
+        "songs": 7
+      },
+      "Mustasch": {
+        "url": "https://www.setlist.fm/setlist/mustasch/2026/tarkastamo-oulu-finland-2b77487e.html",
+        "songs": 10
       }
     },
-    "checked": "2026-11-23"
+    "checked": "2026-11-25"
   },
   "tampere:1": {
     "setlists": {},

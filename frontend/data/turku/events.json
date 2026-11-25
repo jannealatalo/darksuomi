@@ -1152,6 +1152,24 @@
     ]
   },
   {
+    "artist": "Jonna Tervomaa: Talvehtijat-kiertue",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-02-19T20:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/16290/24165/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/jonna-tervomaa-talvehtijat-kiertue/",
+    "doors": "20:00",
+    "room": "Ateljee",
+    "id": 102,
+    "artists": [
+      "Jonna Tervomaa"
+    ],
+    "genres": [
+      "pop",
+      "rock"
+    ]
+  },
+  {
     "artist": "HUORA + LÄHIÖBOTOX",
     "venue": "Logomo",
     "city": "Turku",
@@ -1414,6 +1432,26 @@
     ]
   },
   {
+    "artist": "emma & matilda – Akustinen Konserttisalikiertue 2027",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-03-14T16:00:00",
+    "ticketUrl": "https://liput.musiikkitalofuuga.fi/fi/buyingflow/tickets/16254/24119/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/emma-matilda-akustinen-konserttisalikiertue-2027-2/",
+    "doors": "16:00",
+    "room": "Konserttisali",
+    "id": 104,
+    "artists": [
+      "emma & matilda"
+    ],
+    "genres": [
+      "bedroom pop",
+      "indie pop",
+      "acoustic",
+      "indie"
+    ]
+  },
+  {
     "artist": "BLACK SWAN",
     "venue": "Logomo",
     "city": "Turku",
@@ -1593,6 +1631,24 @@
       "rap",
       "hip hop",
       "kortepohja"
+    ]
+  },
+  {
+    "artist": "Asla Jo: Baby Gay -konserttisalikiertue",
+    "venue": "Musiikkitalo Fuuga",
+    "city": "Turku",
+    "date": "2027-03-27T19:00:00",
+    "ticketUrl": "https://liput.kulttuuriranta.fi/fi/buyingflow/tickets/16294/24173/",
+    "eventUrl": "https://www.musiikkitalofuuga.fi/events/asla-jo-baby-gay-konserttisalikiertue/",
+    "doors": "19:00",
+    "room": "Ateljee",
+    "id": 103,
+    "artists": [
+      "Asla Jo"
+    ],
+    "genres": [
+      "indie",
+      "pop"
     ]
   },
   {

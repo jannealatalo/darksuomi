@@ -1541,6 +1541,27 @@
     ]
   },
   {
+    "artist": "Jaakko & Jay, Afternoon Omens, Kirjakerho",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-19T19:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-19-1900",
+    "doors": "19:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 247,
+    "artists": [
+      "Jaakko & Jay",
+      "Afternoon Omens",
+      "Kirjakerho"
+    ],
+    "genres": [
+      "folk punk",
+      "punk"
+    ]
+  },
+  {
     "artist": "BESS",
     "venue": "Tavara-asema",
     "city": "Tampere",

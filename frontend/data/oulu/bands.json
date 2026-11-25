@@ -52,6 +52,21 @@
       31
     ]
   },
+  "Akma": {
+    "genres": [
+      "death metal",
+      "melodic death metal"
+    ],
+    "display": "akma",
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0m6zaQruo36ExQYADKzSl1"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      75
+    ]
+  },
   "Anvil": {
     "genres": [
       "heavy metal",
@@ -168,26 +183,6 @@
       8
     ]
   },
-  "Barrel": {
-    "genres": [
-      "heavy metal",
-      "thrash metal",
-      "stoner rock"
-    ],
-    "display": "Barrel",
-    "eventIds": [
-      29
-    ],
-    "mbid": "cdf9a9f5-1564-458e-82e6-b9a449e889de",
-    "links": {
-      "bandcamp": "https://barrelmetalband.bandcamp.com/",
-      "spotify": "https://open.spotify.com/artist/5uvV1Gp3HWpkB4ZVGpIFFy",
-      "metalArchives": "https://www.metal-archives.com/bands/Barrel/3540512913",
-      "instagram": "https://www.instagram.com/barrelmetalband/",
-      "youtube": "https://www.youtube.com/@barrel6364"
-    },
-    "fetched": "2026-11-20"
-  },
   "Beleth’s Trumpet": {
     "genres": [
       "black metal"
@@ -287,28 +282,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Brymir"
     },
     "fetched": "2026-11-19"
-  },
-  "Burning Point": {
-    "genres": [
-      "power metal",
-      "heavy metal"
-    ],
-    "display": "Burning Point",
-    "mbid": "7d3411e7-b580-48e1-bc77-4ed43989af0e",
-    "links": {
-      "discogs": "https://www.discogs.com/artist/1398299",
-      "spotify": "https://open.spotify.com/artist/3eMK8v3YnHRyrVbBp04jxt",
-      "deezer": "https://www.deezer.com/artist/8327",
-      "homepage": "http://www.burningpoint.net/",
-      "metalArchives": "https://www.metal-archives.com/bands/Burning_Point/2273",
-      "apple": "https://music.apple.com/gb/artist/250433549",
-      "wikidata": "https://www.wikidata.org/wiki/Q1088961",
-      "wikipedia": "https://en.wikipedia.org/wiki/Burning_Point"
-    },
-    "fetched": "2026-11-23",
-    "eventIds": [
-      29
-    ]
   },
   "BÄMÄ": {
     "genres": [
@@ -1789,6 +1762,22 @@
       45
     ]
   },
+  "Spiritual Holocaust": {
+    "genres": [
+      "death metal"
+    ],
+    "display": "Spiritual Holocaust",
+    "mbid": "40917a3b-ca60-49b7-984c-798ebe06010f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3542341",
+      "metalArchives": "https://www.metal-archives.com/bands/Spiritual_Holocaust/3540318088",
+      "spotify": "https://open.spotify.com/artist/51gN1m04nD2Bqg8APs8tUR"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      75
+    ]
+  },
   "Stam1na": {
     "genres": [
       "thrash metal",
@@ -1813,21 +1802,6 @@
     "fetched": "2026-11-21",
     "eventIds": [
       47
-    ]
-  },
-  "Steel Systems": {
-    "genres": [
-      "heavy metal"
-    ],
-    "display": "Steel Systems",
-    "mbid": "f2c6d097-ae6a-4752-aedf-d0cac100a2ba",
-    "links": {
-      "instagram": "https://www.instagram.com/steelsystemsheavymetal/",
-      "spotify": "https://open.spotify.com/artist/4EjKesqPUOY7RqX24tJoy6"
-    },
-    "fetched": "2026-11-23",
-    "eventIds": [
-      29
     ]
   },
   "Steen 1": {

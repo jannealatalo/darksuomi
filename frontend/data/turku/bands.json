@@ -156,6 +156,23 @@
       7
     ]
   },
+  "Asla Jo": {
+    "genres": [
+      "indie",
+      "pop"
+    ],
+    "display": "Asla Jo",
+    "mbid": "7325af58-5068-446b-ad58-6fb915fd38d8",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5z6VH7BWb3QDIAhdMILyG4",
+      "instagram": "https://www.instagram.com/asla.jo/",
+      "tidal": "https://tidal.com/artist/24896007"
+    },
+    "fetched": "2026-11-23",
+    "eventIds": [
+      103
+    ]
+  },
   "Barrel": {
     "genres": [
       "heavy metal",
@@ -406,7 +423,8 @@
     },
     "fetched": "2026-11-23",
     "eventIds": [
-      55
+      55,
+      104
     ]
   },
   "EVA & MANU": {
@@ -689,6 +707,29 @@
     "eventIds": [
       32
     ]
+  },
+  "Jonna Tervomaa": {
+    "genres": [
+      "pop",
+      "rock"
+    ],
+    "display": "Jonna Tervomaa",
+    "eventIds": [
+      102
+    ],
+    "mbid": "f9da4391-d307-4a49-8fe0-5859a20735a0",
+    "links": {
+      "bandcamp": "https://jonnat.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/199251",
+      "spotify": "https://open.spotify.com/artist/2oyp9901wXE4E3MLXlwznV",
+      "deezer": "https://www.deezer.com/artist/272597",
+      "apple": "https://music.apple.com/fi/artist/28452847",
+      "tidal": "https://tidal.com/artist/36535",
+      "wikidata": "https://www.wikidata.org/wiki/Q149578",
+      "youtube": "https://www.youtube.com/channel/UC9evAk51qNgoEAjQZRJprNw",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jonna_Tervomaa"
+    },
+    "fetched": "2026-11-20"
   },
   "JULIET JONESIN SYDÄN": {
     "genres": [
