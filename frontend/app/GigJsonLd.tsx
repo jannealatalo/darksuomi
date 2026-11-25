@@ -8,7 +8,8 @@ import type { Event } from "../types/events";
  * The city page's gigs as schema.org MusicEvents (JSON-LD), so search
  * engines can show them, e.g. in Google's event listings. Covers the gigs
  * shown by default (not the hidden genres), with the venue's address,
- * the bands, the ticket link and price when known.
+ * the bands, the ticket link and price when known. The end is the end
+ * of the gig's day (no end times are known) and the venue stands as organizer.
  */
 export default function GigJsonLd({ events, city }: { events: Event[]; city: CityKey }) {
   const path = CITIES.find((c) => c.key === city)?.path ?? "/";
@@ -37,11 +38,15 @@ function musicEvent(e: Event, pageUrl: string) {
   const price = parsePrice(e.price);
   const time = e.date.slice(11, 16);
   const day = e.date.slice(0, 10);
+  const timed = time !== "" && time !== "00:00";
   return {
     "@type": "MusicEvent",
     name: e.artist,
     // Without a time, the day alone (Google accepts a date).
-    startDate: time && time !== "00:00" ? `${day}T${time}:00${helsinkiOffset(day)}` : day,
+    startDate: timed ? `${day}T${time}:00${helsinkiOffset(day)}` : day,
+    // No end times are known: the end of the gig's day (a bare date could
+    // read as midnight, before the start).
+    endDate: timed ? `${day}T23:59:00${helsinkiOffset(day)}` : day,
     eventStatus:
       e.status === "cancelled" ? "https://schema.org/EventCancelled" : "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
@@ -60,6 +65,9 @@ function musicEvent(e: Event, pageUrl: string) {
         addressCountry: "FI",
       },
     },
+    // The venue by name only: gig pages are often on Facebook, ticket
+    // shops or city calendars, so they don't give the venue's own site.
+    organizer: { "@type": "Organization", name: e.venue },
     performer: names.map((name) => ({ "@type": "MusicGroup", name })),
     ...(e.ticketUrl && {
       offers: {
@@ -74,11 +82,13 @@ function musicEvent(e: Event, pageUrl: string) {
   };
 }
 
-/** The first euro amount ("alk. 39,50€, ovelta 45€" -> 39.50); free entry -> 0. */
+/** The first euro amount ("alk. 39,50€, ovelta 45€" -> 39.50, "20 / 23e" -> 20); free entry -> 0. */
 function parsePrice(text?: string): { amount: string } | null {
   if (!text) return null;
   if (/vapaa|free|ilmai/i.test(text)) return { amount: "0" };
-  const m = text.match(/(\d+)(?:[.,](\d{1,2}))?\s*€/);
+  // Euros said with € or "e"/"eur" after a number; the first amount wins.
+  if (!/€|\de\b|\deur\b|\d eur\b/i.test(text)) return null;
+  const m = text.match(/(\d+)(?:[.,](\d{1,2}))?/);
   if (!m) return null;
   return { amount: m[2] ? `${m[1]}.${m[2].padEnd(2, "0")}` : m[1] };
 }
