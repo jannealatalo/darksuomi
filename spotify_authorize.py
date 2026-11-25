@@ -34,7 +34,11 @@ import requests
 
 REDIRECT_URI = "http://127.0.0.1:3000/api/auth/callback/spotify"
 # user-follow-read: recommended.py lists the bands the account follows.
-SCOPES = "playlist-modify-public playlist-modify-private ugc-image-upload user-follow-read"
+# user-follow-modify: following bands from the account (done by hand on request).
+SCOPES = (
+    "playlist-modify-public playlist-modify-private ugc-image-upload "
+    "user-follow-read user-follow-modify"
+)
 
 
 def user_env(name: str) -> str | None:
