@@ -1548,27 +1548,6 @@
     ]
   },
   {
-    "artist": "Melancholy Mass Helsinki 2026",
-    "venue": "Ääniwalli",
-    "city": "Helsinki",
-    "date": "2026-11-28T00:00:00",
-    "eventUrl": "https://aaniwalli.fi/events/2026-11-28-melancholy_mass_helsinki_2026",
-    "ticketUrl": "https://www.tiketti.fi/melancholy-mass-helsinki-2026-aaniwalli-helsinki-lippuja/119062",
-    "room": "Room 1",
-    "venueGenres": [
-      "metal"
-    ],
-    "price": "46 € at the door",
-    "age": "K-18",
-    "id": 440,
-    "artists": [
-      "Melancholy Mass Helsinki"
-    ],
-    "genres": [
-      "metal"
-    ]
-  },
-  {
     "artist": "Pixel Pulse K-pop Show -S-",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -1640,6 +1619,46 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Melancholy Mass Helsinki 2026",
+    "venue": "Ääniwalli",
+    "city": "Helsinki",
+    "date": "2026-11-28T19:00:00",
+    "eventUrl": "https://aaniwalli.fi/events/2026-11-28-melancholy_mass_helsinki_2026",
+    "ticketUrl": "https://www.tiketti.fi/melancholy-mass-helsinki-2026-aaniwalli-helsinki-lippuja/119062",
+    "room": "Room 1",
+    "venueGenres": [
+      "metal"
+    ],
+    "price": "46 € at the door",
+    "age": "K-18",
+    "id": 440,
+    "artists": [
+      "Melancholy Mass Helsinki"
+    ],
+    "genres": [
+      "metal"
+    ],
+    "doors": "19:00",
+    "schedule": [
+      {
+        "time": "19:30",
+        "name": "ASHEN TOMB"
+      },
+      {
+        "time": "20:30",
+        "name": "CRYPTIC HATRED"
+      },
+      {
+        "time": "21:45",
+        "name": "VORNA"
+      },
+      {
+        "time": "23:00",
+        "name": "SOLSTAFIR"
+      }
+    ]
+  },
+  {
     "artist": "Roky Erickson -tribute, Wolfmen",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -1664,7 +1683,8 @@
       "classic rock",
       "garage rock",
       "psychedelic rock"
-    ]
+    ],
+    "age": "K-18"
   },
   {
     "artist": "Yona: Kadonneet helmet",
@@ -1718,7 +1738,7 @@
     "genres": []
   },
   {
-    "artist": "Lala Salama + Hites",
+    "artist": "Lala Salama (klo 21) + Hites (klo 20)",
     "venue": "Kuudes Linja",
     "city": "Helsinki",
     "date": "2026-11-28T19:00:00",
@@ -1951,7 +1971,7 @@
     "artist": "Neon Nights 80s Disco! DJ Anaheim",
     "venue": "On the Rocks",
     "city": "Helsinki",
-    "date": "2026-11-28T23:30:00",
+    "date": "2026-11-28T23:00:00",
     "ticketUrl": "https://www.rocks.fi/tapahtumat/neon-nights-80s-disco-dj-anaheim/",
     "eventUrl": "https://www.rocks.fi/tapahtumat/neon-nights-80s-disco-dj-anaheim/",
     "venueGenres": [
@@ -2128,6 +2148,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-01T18:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 591,
+    "artists": [
+      "Ei pöllömpi pubivisa by Pöllö & Ode"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "id": 11,
     "artist": "THE HARDKISS (UA)",
     "venue": "Tavastia Klubi",
@@ -2194,7 +2232,8 @@
     ],
     "venueDefault": "rock",
     "price": "20 € at the door",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "artist": "Dolly Parton Tribute",
@@ -3202,6 +3241,24 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-08T18:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 592,
+    "artists": [
+      "Ei pöllömpi pubivisa by Pöllö & Ode"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "artist": "Pitbull - I'm Back!",
     "venue": "Veikkaus Arena",
     "city": "Helsinki",
@@ -4147,6 +4204,24 @@
       "rock",
       "singer-songwriter",
       "hard rock"
+    ]
+  },
+  {
+    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-15T18:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-4/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-4/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 593,
+    "artists": [
+      "Ei pöllömpi pubivisa by Pöllö & Ode"
+    ],
+    "genres": [
+      "viihde"
     ]
   },
   {
@@ -7514,6 +7589,26 @@
     ]
   },
   {
+    "id": 586,
+    "artist": "jambo",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-02-06T23:30:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-02-06/jambo/122539/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "23:30",
+    "detailsFetched": "2026-11-25",
+    "artists": [
+      "jambo"
+    ],
+    "genres": [
+      "hip hop",
+      "irish hip hop",
+      "rap"
+    ]
+  },
+  {
     "artist": "Floor Jansen",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -7693,6 +7788,23 @@
     ],
     "genres": [
       "stand-up"
+    ]
+  },
+  {
+    "artist": "Mari Kalkun & Viron kansallinen mieskuoro",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-02-12T18:00:00",
+    "doors": "18:00",
+    "ticketUrl": "https://www.lippu.fi/artist/mari-kalkun-viron-mieskuoro/mari-kalkun-viron-mieskuoro-4296920/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq7jemwai",
+    "id": 612,
+    "artists": [
+      "Mari Kalkun & Viron kansallinen mieskuoro"
+    ],
+    "genres": [
+      "folk",
+      "estonia"
     ]
   },
   {
@@ -10041,6 +10153,26 @@
     ]
   },
   {
+    "artist": "Miljoonasade",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2027-03-26T20:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122583",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/miljoonasade/",
+    "venueGenres": [
+      "rock"
+    ],
+    "id": 590,
+    "artists": [
+      "Miljoonasade"
+    ],
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ]
+  },
+  {
     "id": 432,
     "artist": "Mouhous (klo 23:30)",
     "venue": "Tavastia Klubi",
@@ -10555,6 +10687,22 @@
     ]
   },
   {
+    "id": 587,
+    "artist": "DJ Ibusal - Kaikki koirat pääsee taivaaseen -levyjulkkarit",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-04-17T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-04-17/dj-ibusal/122391/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-25",
+    "artists": [],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
     "artist": "Louie Blue + Pihalla",
     "venue": "G Livelab",
     "city": "Helsinki",
@@ -10773,6 +10921,24 @@
       "Sir Elwood Duo"
     ],
     "genres": []
+  },
+  {
+    "id": 588,
+    "artist": "Ellinoora: Kotiinpaluu",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-04-23T20:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-04-23/ellinoora-kotiinpaluu/122701/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "20:00",
+    "detailsFetched": "2026-11-25",
+    "artists": [
+      "Ellinoora"
+    ],
+    "genres": [
+      "pop"
+    ]
   },
   {
     "artist": "Siamese (DEN)",
@@ -11102,6 +11268,26 @@
     ],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Windhand",
+    "venue": "Kuudes Linja",
+    "city": "Helsinki",
+    "date": "2027-05-11T18:00:00",
+    "ticketUrl": "https://www.tiketti.fi/windhand-us-kuudes-linja-helsinki-lippuja/122689",
+    "eventUrl": "https://www.facebook.com/events/1498366895472703/",
+    "doors": "18:00",
+    "price": "30,5–32 €",
+    "id": 602,
+    "artists": [
+      "Windhand"
+    ],
+    "genres": [
+      "doom metal",
+      "stoner metal",
+      "stoner doom",
+      "psychedelic"
+    ]
   },
   {
     "artist": "SOMBR // You Are The Reason Tour // Helsinki",
@@ -11495,6 +11681,43 @@
     "genres": []
   },
   {
+    "artist": "Nelli Matula",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-06-19T19:00:00",
+    "ticketUrl": "https://www.allaslive.fi/all-events/nelli-matula-tickets-ae1715807",
+    "eventUrl": "https://www.allaslive.fi/all-events/nelli-matula-tickets-ae1715807",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 599,
+    "artists": [
+      "Nelli Matula"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Swae Lee",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-06-23T19:00:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/659542238",
+    "eventUrl": "https://www.allaslive.fi/all-events/swae-lee-tickets-ae1679417",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 600,
+    "artists": [
+      "Swae Lee"
+    ],
+    "genres": [
+      "rap",
+      "r&b",
+      "soul",
+      "hip hop"
+    ]
+  },
+  {
     "artist": "Tuska 2027: Children Of Bodom, Heaven Shall Burn, Stratovarius, Smash Into Pieces, Guilt Trip, Gaerea, Fox Lake, Conan, The Baboon Show, Sinitzer",
     "venue": "Suvilahti (Tuska)",
     "city": "Helsinki",
@@ -11658,6 +11881,24 @@
       "alternative rock",
       "hard rock",
       "alternative"
+    ]
+  },
+  {
+    "artist": "Robin Packalen",
+    "venue": "Allas Live",
+    "city": "Helsinki",
+    "date": "2027-07-09T19:00:00",
+    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "eventUrl": "https://www.allaslive.fi/all-events/robin-packalen-tickets-ae600082",
+    "doors": "19:00",
+    "age": "K-18",
+    "id": 601,
+    "artists": [
+      "Robin Packalen"
+    ],
+    "genres": [
+      "pop",
+      "psychobilly"
     ]
   },
   {

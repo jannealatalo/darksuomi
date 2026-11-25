@@ -1,5 +1,79 @@
 [
   {
+    "day": "2026-11-25",
+    "gigs": [
+      {
+        "id": 238,
+        "city": "tampere",
+        "artist": "VOIMAILTA",
+        "venue": "Vastavirta-klubi",
+        "place": "Tampere",
+        "date": "2026-12-10T17:00:00",
+        "genres": [
+          "rock"
+        ]
+      },
+      {
+        "id": 242,
+        "city": "tampere",
+        "artist": "Sewer Altar, Tunkio, Bolt Cross, Dross",
+        "venue": "Vastavirta-klubi",
+        "place": "Tampere",
+        "date": "2026-12-18T21:00:00",
+        "genres": [
+          "hardcore",
+          "death metal",
+          "grindcore"
+        ]
+      },
+      {
+        "id": 100,
+        "city": "turku",
+        "artist": "Miljoonasade",
+        "venue": "Apollo Turku",
+        "place": "Turku",
+        "date": "2027-03-13T00:00:00",
+        "genres": [
+          "suomirock",
+          "rock",
+          "pop"
+        ]
+      },
+      {
+        "id": 590,
+        "city": "helsinki",
+        "artist": "Miljoonasade",
+        "venue": "On the Rocks",
+        "place": "Helsinki",
+        "date": "2027-03-26T20:00:00",
+        "genres": [
+          "suomirock",
+          "rock",
+          "pop"
+        ]
+      },
+      {
+        "id": 602,
+        "city": "helsinki",
+        "artist": "Windhand",
+        "venue": "Kuudes Linja",
+        "place": "Helsinki",
+        "date": "2027-05-11T18:00:00",
+        "genres": [
+          "doom metal",
+          "stoner metal",
+          "stoner doom"
+        ]
+      }
+    ],
+    "hidden": {
+      "helsinki": 10,
+      "tampere": 4,
+      "oulu": 1,
+      "turku": 2
+    }
+  },
+  {
     "day": "2026-11-24",
     "gigs": [
       {

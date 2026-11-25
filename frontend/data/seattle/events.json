@@ -1170,7 +1170,7 @@
     ]
   },
   {
-    "artist": "The Meteors, MuerteMen",
+    "artist": "The Meteors, MuerteMen, Yotes",
     "venue": "The Funhouse",
     "city": "Seattle",
     "date": "2026-12-02T19:00:00",
@@ -1182,7 +1182,8 @@
     "id": 184,
     "artists": [
       "The Meteors",
-      "MuerteMen"
+      "MuerteMen",
+      "Yotes"
     ],
     "genres": [
       "psychobilly",
@@ -3263,19 +3264,17 @@
     "genres": []
   },
   {
-    "artist": "Mikey Flores, The Prince On, Kataniica, Carl Christensen",
+    "artist": "Mikey Flores, Kataniica",
     "venue": "Chop Suey",
     "city": "Seattle",
     "date": "2026-12-16T19:00:00",
-    "ticketUrl": "https://www.ticketweb.com/event/mikey-flores-the-prince-on-chop-suey-tickets/14415234?REFID=clientsitewp",
+    "ticketUrl": "https://www.ticketweb.com/event/mikey-flores-kataniica-chop-suey-tickets/14415234?REFID=clientsitewp",
     "eventUrl": "https://chopsuey.com/tm-event/mikey-flores-the-prince-on-kataniica-carl-christensen/",
     "doors": "19:00",
     "id": 475,
     "artists": [
       "Mikey Flores",
-      "The Prince On",
-      "Kataniica",
-      "Carl Christensen"
+      "Kataniica"
     ],
     "genres": []
   },
@@ -3400,6 +3399,34 @@
       "Ruby Mimosa Presents Burleskaraoke"
     ],
     "genres": []
+  },
+  {
+    "artist": "The Home Team, Instant Crush, Palettes, Pine Box",
+    "venue": "El Corazón",
+    "city": "Seattle",
+    "date": "2026-12-17T19:00:00",
+    "ticketUrl": "https://www.elcorazonseattle.com/shows/the-home-team-17-dec",
+    "eventUrl": "https://www.elcorazonseattle.com/shows/the-home-team-17-dec",
+    "doors": "19:00",
+    "age": "All ages",
+    "price": "$46.44",
+    "id": 542,
+    "artists": [
+      "The Home Team",
+      "Instant Crush",
+      "Palettes",
+      "Pine Box"
+    ],
+    "genres": [
+      "pop punk",
+      "emo",
+      "post-hardcore",
+      "alternative",
+      "aprils taste",
+      "united states of america",
+      "seattle",
+      "united states"
+    ]
   },
   {
     "artist": "Kristin Key",
@@ -3571,6 +3598,27 @@
       "Babes in Toyland at Hotel Crocodile"
     ],
     "genres": []
+  },
+  {
+    "artist": "90s & 2000s LEGENDZ: A RETRO DANCE PARTY",
+    "venue": "Chop Suey",
+    "city": "Seattle",
+    "date": "2026-12-18T21:00:00",
+    "ticketUrl": "https://www.ticketweb.com/event/90s-2000s-legendz-a-chop-suey-tickets/15068053?REFID=clientsitewp",
+    "eventUrl": "https://chopsuey.com/tm-event/90s-2000s-legendz-a-retro-dance-party-3/",
+    "doors": "21:00",
+    "id": 550,
+    "artists": [
+      "90s & 2000s LEGENDZ"
+    ],
+    "genres": [
+      "house",
+      "pop",
+      "electronic",
+      "dance",
+      "electronica",
+      "screamo"
+    ]
   },
   {
     "artist": "Heads Know x Dial Up",
@@ -5915,6 +5963,32 @@
     ]
   },
   {
+    "artist": "Beyond Creation, Decrepit Birth, Vulvodynia",
+    "venue": "El Corazón",
+    "city": "Seattle",
+    "date": "2027-02-16T18:30:00",
+    "ticketUrl": "https://www.elcorazonseattle.com/shows/beyond-creation-the-aura-15th-anniversary-tour-live-in-its-entirety-16-feb",
+    "eventUrl": "https://www.elcorazonseattle.com/shows/beyond-creation-the-aura-15th-anniversary-tour-live-in-its-entirety-16-feb",
+    "doors": "18:30",
+    "age": "All ages",
+    "id": 543,
+    "artists": [
+      "Beyond Creation",
+      "Decrepit Birth",
+      "Vulvodynia"
+    ],
+    "genres": [
+      "technical death metal",
+      "progressive death metal",
+      "death metal",
+      "brutal death metal",
+      "technical brutal death metal",
+      "deathcore",
+      "slamming brutal death metal",
+      "brutal deathcore"
+    ]
+  },
+  {
     "artist": "Mania: The ABBA Tribute",
     "venue": "Neptune Theatre",
     "city": "Seattle",
@@ -6437,6 +6511,20 @@
       "microhouse",
       "downtempo"
     ]
+  },
+  {
+    "artist": "DUSTIN NICKERSON",
+    "venue": "The Crocodile",
+    "city": "Seattle",
+    "date": "2027-02-28T20:00:00",
+    "ticketUrl": "https://calendar.thecrocodile.com/shows/dustin-nickerson-28-feb",
+    "eventUrl": "https://calendar.thecrocodile.com/shows/dustin-nickerson-28-feb",
+    "doors": "20:00",
+    "id": 541,
+    "artists": [
+      "DUSTIN NICKERSON"
+    ],
+    "genres": []
   },
   {
     "artist": "BONNY DOON",
@@ -9487,6 +9575,25 @@
       "indie rock",
       "alternative",
       "southern rock"
+    ]
+  },
+  {
+    "artist": "Dermot Kennedy",
+    "venue": "Paramount Theatre",
+    "city": "Seattle",
+    "date": "2027-09-17T19:30:00",
+    "ticketUrl": "https://www.stgpresents.org/events/dermot-kennedy-2027/",
+    "eventUrl": "https://www.stgpresents.org/events/dermot-kennedy-2027/",
+    "doors": "19:30",
+    "id": 548,
+    "artists": [
+      "Dermot Kennedy"
+    ],
+    "genres": [
+      "singer-songwriter",
+      "pop",
+      "folk",
+      "irish"
     ]
   },
   {

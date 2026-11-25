@@ -15,14 +15,14 @@
         "songs": 19
       }
     },
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "3": {
     "setlists": {}
   },
   "4": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "5": {
     "setlists": {
@@ -44,18 +44,18 @@
   },
   "84": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "85": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "86": {
     "setlists": {}
   },
   "87": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "88": {
     "setlists": {}
@@ -91,51 +91,64 @@
   },
   "223": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "224": {
     "setlists": {}
   },
   "225": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "226": {
     "setlists": {}
   },
   "227": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "228": {
     "setlists": {}
   },
+  "229": {
+    "setlists": {},
+    "checked": "2026-11-25"
+  },
   "245": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "265": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "283": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "284": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "285": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "286": {
-    "setlists": {},
-    "checked": "2026-11-24"
+    "setlists": {
+      "Katujen Äänet": {
+        "url": "https://www.setlist.fm/setlist/katujen-aanet/2026/lepakkomies-helsinki-finland-4b7aefae.html",
+        "songs": 10
+      }
+    },
+    "checked": "2026-11-25"
   },
   "287": {
     "setlists": {}
+  },
+  "288": {
+    "setlists": {},
+    "checked": "2026-11-25"
   },
   "312": {
     "setlists": {
@@ -144,7 +157,7 @@
         "songs": 6
       }
     },
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "313": {
     "setlists": {
@@ -153,23 +166,26 @@
         "songs": 14
       }
     },
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "331": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "339": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "340": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
+  },
+  "341": {
+    "setlists": {}
   },
   "433": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "434": {
     "setlists": {
@@ -199,14 +215,14 @@
   },
   "439": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "oulu:1": {
     "setlists": {}
   },
   "oulu:27": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "oulu:36": {
     "setlists": {}
@@ -234,11 +250,11 @@
   },
   "tampere:1": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "tampere:25": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "tampere:26": {
     "setlists": {
@@ -260,19 +276,22 @@
   },
   "tampere:96": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "tampere:97": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "tampere:98": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "tampere:114": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
+  },
+  "tampere:115": {
+    "setlists": {}
   },
   "tampere:184": {
     "setlists": {
@@ -285,9 +304,12 @@
   },
   "tampere:191": {
     "setlists": {},
-    "checked": "2026-11-24"
+    "checked": "2026-11-25"
   },
   "tampere:192": {
+    "setlists": {}
+  },
+  "turku:45": {
     "setlists": {}
   }
 }

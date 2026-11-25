@@ -1267,6 +1267,22 @@
     ]
   },
   {
+    "artist": "Suvi Teräsniska",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-02-26T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122594",
+    "eventUrl": "https://apolloturku.fi/keikat/168/suvi-terasniska",
+    "age": "K-18",
+    "id": 99,
+    "artists": [
+      "Suvi Teräsniska"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "artist": "PUSSY RIOT: RIOT DAYS + SUPPORT: NEW AGE DOOM",
     "venue": "Logomo",
     "city": "Turku",
@@ -1358,6 +1374,24 @@
       "F"
     ],
     "genres": []
+  },
+  {
+    "artist": "Miljoonasade",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-03-13T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122593",
+    "eventUrl": "https://apolloturku.fi/keikat/169/miljoonasade",
+    "age": "K-18",
+    "id": 100,
+    "artists": [
+      "Miljoonasade"
+    ],
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ]
   },
   {
     "artist": "emma & matilda – Akustinen Konserttisalikiertue 2027",
@@ -1502,6 +1536,22 @@
     ],
     "genres": [
       "indie pop",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Jaakko Kulta",
+    "venue": "Apollo Turku",
+    "city": "Turku",
+    "date": "2027-03-26T00:00:00",
+    "ticketUrl": "https://www.tiketti.fi/tapahtuma/122690",
+    "eventUrl": "https://apolloturku.fi/keikat/170/jaakko-kulta",
+    "age": "K-18",
+    "id": 101,
+    "artists": [
+      "Jaakko Kulta"
+    ],
+    "genres": [
       "pop"
     ]
   },
@@ -1671,7 +1721,7 @@
     "venue": "Logomo",
     "city": "Turku",
     "date": "2027-04-23T00:00:00",
-    "ticketUrl": "https://logomo.fi/tapahtuma/vesta",
+    "ticketUrl": "https://logomo.lippu.fi/event/VESTA-K-18/168303/412372/details",
     "eventUrl": "https://logomo.fi/tapahtuma/vesta",
     "room": "Teatro",
     "id": 40,

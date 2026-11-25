@@ -1,17 +1,5 @@
 [
   {
-    "title": "Naurukorjaamo: Saviharju, Holmström, Valima, Raitala, Saarinen",
-    "venue": "Korjaamo",
-    "city": "Helsinki",
-    "date": "2026-11-24T18:30:00",
-    "ticketUrl": "https://www.lippu.fi/event/naurukorjaamo-kulttuuritehdas-korjaamo-22137875/?affiliate=ADV&language=fi",
-    "eventUrl": "https://korjaamo.fi/tapahtumat/naurukorjaamo-saviharju-holmstrom-valima-raitala-saarinen/",
-    "source": "korjaamo",
-    "price": "15 € / 17,50 €",
-    "age": "K-18",
-    "room": "Kulmasali"
-  },
-  {
     "title": "Joka v*tun keskiviikko: Jukka Lindström",
     "venue": "Semifinal",
     "city": "Helsinki",
@@ -123,6 +111,7 @@
     "source": "darksuomi",
     "price": "20 € ovelta",
     "age": "K-18",
+    "status": "sold out",
     "room": "Semifinal"
   },
   {
@@ -330,6 +319,16 @@
     "price": "29,50 €"
   },
   {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-01-16T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452292",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
     "title": "Cafe Bar Luola - Stand Up",
     "venue": "Kannusali",
     "city": "Espoo",
@@ -341,12 +340,72 @@
     "price": "15 €"
   },
   {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-01-22T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452303",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-01-23T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452293",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-01-29T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452304",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
     "title": "Läppävaara Stand Up",
     "venue": "Sellosali",
     "city": "Espoo",
     "date": "2027-01-30T19:00:00",
     "ticketUrl": "https://www.lippu.fi/artist/sellosalin-lampioklubi/laeppaevaara-stand-up-4260109/",
     "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqrwnhyei",
+    "source": "espoo-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-01-30T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452294",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-03T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452305",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Kolmen Komediakimppa 2.0 - Ali Jahangiri, Roosa Maskonen ja Aatu Raitala",
+    "venue": "Kannusali",
+    "city": "Espoo",
+    "date": "2027-02-04T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/artist/kolmen-komediakimppa/kolmen-komediakimppa-2-0-4292220/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq6td22rq",
     "source": "espoo-api",
     "age": "K-18"
   },
@@ -361,6 +420,46 @@
     "age": "K-18"
   },
   {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-06T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452295",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-11T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452306",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-13T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452296",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-18T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452307",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
     "title": "Päiväkirjaklubi",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -369,6 +468,36 @@
     "eventUrl": "https://korjaamo.fi/tapahtumat/paivakirjaklubi-55/",
     "source": "korjaamo",
     "price": "25 € / 28 €",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-20T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452297",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-24T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452308",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-02-27T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452298",
+    "source": "helsinki-api",
     "age": "K-18"
   },
   {
@@ -392,6 +521,26 @@
     "price": "Alk. 35€"
   },
   {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-03-06T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452299",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-03-13T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452300",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
     "title": "Cafe Bar Luola - Stand Up",
     "venue": "Kannusali",
     "city": "Espoo",
@@ -401,6 +550,26 @@
     "source": "espoo-api",
     "age": "K-18",
     "price": "15 €"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-03-20T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452301",
+    "source": "helsinki-api",
+    "age": "K-18"
+  },
+  {
+    "title": "Club Act!One",
+    "venue": "Studio Pasila",
+    "city": "Helsinki",
+    "date": "2027-04-03T21:00:00",
+    "ticketUrl": "https://www.lippu.fi/eventseries/club-actone-2039568/?affiliate=ADV&language=fi",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22452302",
+    "source": "helsinki-api",
+    "age": "K-18"
   },
   {
     "title": "The Cabaret of New Ro – Divineless Intervention",

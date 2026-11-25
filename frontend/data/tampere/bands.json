@@ -622,6 +622,19 @@
     },
     "fetched": "2026-11-19"
   },
+  "Bolt Cross": {
+    "genres": [
+      "crossover",
+      "thrash metal"
+    ],
+    "display": "BOLT CROSS",
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-25",
+    "eventIds": [
+      242
+    ]
+  },
   "Brymir": {
     "genres": [
       "folk metal",
@@ -967,6 +980,25 @@
     "fetched": "2026-11-21",
     "eventIds": [
       46
+    ]
+  },
+  "Dross": {
+    "genres": [
+      "black metal",
+      "depressive black metal"
+    ],
+    "display": "Dross",
+    "mbid": "52d90a8c-3af8-4593-9580-5ed79e3b2f1e",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1510341",
+      "spotify": "https://open.spotify.com/artist/0axphunSs5Si1MWH2OUd2U",
+      "deezer": "https://www.deezer.com/artist/1172786",
+      "apple": "https://music.apple.com/gb/artist/1532434723",
+      "tidal": "https://tidal.com/artist/7557674"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      242
     ]
   },
   "Dynazty": {
@@ -1381,6 +1413,24 @@
     "links": {},
     "fetched": "2026-11-19"
   },
+  "Fredrik Ljungkvist": {
+    "genres": [
+      "jazz",
+      "free jazz",
+      "saxophone"
+    ],
+    "display": "Fredrik Ljungkvist",
+    "mbid": "69ebdca4-6e12-4da8-a488-717939bff794",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/326390",
+      "wikidata": "https://www.wikidata.org/wiki/Q1453276",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fredrik_Ljungkvist"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      239
+    ]
+  },
   "Free Carmen": {
     "genres": [],
     "display": "Free Carmen",
@@ -1730,7 +1780,8 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      106
+      106,
+      239
     ]
   },
   "Huora": {
@@ -1862,6 +1913,22 @@
     },
     "fetched": "2026-11-20"
   },
+  "jambo": {
+    "genres": [
+      "hip hop",
+      "irish hip hop",
+      "rap"
+    ],
+    "display": "Jambo",
+    "mbid": "6c39e47f-552f-4223-99a6-843dfcb08bd2",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/191529"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      237
+    ]
+  },
   "Jann Wilde & The Neon Comets": {
     "genres": [],
     "display": "Jann Wilde & The Neon Comets",
@@ -1957,6 +2024,28 @@
     "fetched": "2026-11-21",
     "eventIds": [
       116
+    ]
+  },
+  "Jonathan Bäckström": {
+    "genres": [],
+    "display": "Jonathan Bäckström",
+    "mbid": "9c1530de-d7cb-470d-98a5-32d83acb7f0e",
+    "links": {},
+    "fetched": "2026-11-25",
+    "eventIds": [
+      239
+    ]
+  },
+  "Joonas Leppänen": {
+    "genres": [],
+    "display": "Joonas Leppänen",
+    "mbid": "599a29cd-7ea0-4e08-b442-83eda403cc80",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1709040"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      239
     ]
   },
   "Joose Keskitalo": {
@@ -2142,6 +2231,18 @@
     "fetched": "2026-11-21",
     "eventIds": [
       27
+    ]
+  },
+  "KLR": {
+    "genres": [],
+    "display": "KLR",
+    "mbid": "9785015f-8346-4441-9b05-1144e8e19d80",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1749101"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      239
     ]
   },
   "Kneel Before The Death": {
@@ -3095,6 +3196,18 @@
     "fetched": "2026-11-21",
     "eventIds": [
       58
+    ]
+  },
+  "Moppi": {
+    "genres": [],
+    "display": "Moppi",
+    "mbid": "ee3cd44b-3121-418b-872a-879fcab10f28",
+    "links": {
+      "homepage": "http://www.moppi.ca/"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      241
     ]
   },
   "Mouhous": {
@@ -4224,6 +4337,22 @@
       128
     ]
   },
+  "Sewer Altar": {
+    "genres": [
+      "hardcore",
+      "death metal"
+    ],
+    "display": "Sewer Altar",
+    "mbid": "c57e29ba-8fec-4a5a-be04-3215275b7a3b",
+    "links": {
+      "bandcamp": "https://seweraltar.bandcamp.com/",
+      "instagram": "https://www.instagram.com/sewer_altar/"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      242
+    ]
+  },
   "Siamese": {
     "genres": [
       "alternative rock",
@@ -5180,6 +5309,22 @@
     "fetched": "2026-11-21",
     "eventIds": [
       203
+    ]
+  },
+  "Tunkio": {
+    "genres": [
+      "grindcore",
+      "goregrind",
+      "raw grindcore"
+    ],
+    "display": "Tunkio",
+    "mbid": "37356743-8bf0-424a-9cc6-2ed4490f918d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/640355"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      242
     ]
   },
   "TURISTI": {

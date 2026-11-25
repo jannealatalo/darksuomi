@@ -446,6 +446,27 @@
       41
     ]
   },
+  "Ellinoora": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Ellinoora",
+    "mbid": "7e42efc4-c5da-4d33-b1fe-81900e83d62f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3442077",
+      "spotify": "https://open.spotify.com/artist/3c9CUpHeB5BCQOHp8uiPzY",
+      "deezer": "https://www.deezer.com/artist/5088653",
+      "instagram": "https://www.instagram.com/ellinooramusiikki/",
+      "apple": "https://music.apple.com/fi/artist/687179685",
+      "tidal": "https://tidal.com/artist/5057929",
+      "wikidata": "https://www.wikidata.org/wiki/Q22340531",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Ellinoora"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      74
+    ]
+  },
   "emma & matilda": {
     "genres": [
       "bedroom pop",

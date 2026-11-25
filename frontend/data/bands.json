@@ -2526,6 +2526,27 @@
       573
     ]
   },
+  "Ellinoora": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Ellinoora",
+    "mbid": "7e42efc4-c5da-4d33-b1fe-81900e83d62f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3442077",
+      "spotify": "https://open.spotify.com/artist/3c9CUpHeB5BCQOHp8uiPzY",
+      "deezer": "https://www.deezer.com/artist/5088653",
+      "instagram": "https://www.instagram.com/ellinooramusiikki/",
+      "apple": "https://music.apple.com/fi/artist/687179685",
+      "tidal": "https://tidal.com/artist/5057929",
+      "wikidata": "https://www.wikidata.org/wiki/Q22340531",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Ellinoora"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      588
+    ]
+  },
   "Eläkeläiset": {
     "genres": [
       "humppa",
@@ -4329,6 +4350,22 @@
     },
     "fetched": "2026-11-20"
   },
+  "jambo": {
+    "genres": [
+      "hip hop",
+      "irish hip hop",
+      "rap"
+    ],
+    "display": "Jambo",
+    "mbid": "6c39e47f-552f-4223-99a6-843dfcb08bd2",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/191529"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      586
+    ]
+  },
   "JAMES MARRIOTT": {
     "genres": [
       "power pop",
@@ -5942,6 +5979,27 @@
     },
     "fetched": "2026-11-19"
   },
+  "Mari Kalkun": {
+    "genres": [
+      "folk",
+      "estonia"
+    ],
+    "display": "Mari Kalkun",
+    "mbid": "607d4bb3-cfb6-4e77-96cc-7de0595a5298",
+    "links": {
+      "bandcamp": "https://marikalkun.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/706042",
+      "spotify": "https://open.spotify.com/artist/5YlTySs4XWgNgGDcBiwdu9",
+      "homepage": "http://www.marikalkun.com/",
+      "soundcloud": "https://soundcloud.com/marikalkun",
+      "wikidata": "https://www.wikidata.org/wiki/Q11341140",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mari_Kalkun"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      612
+    ]
+  },
   "Maria W Horn presents Melting Pillars Of Snow": {
     "genres": [
       "drone",
@@ -6401,6 +6459,29 @@
     },
     "fetched": "2026-11-20"
   },
+  "Miljoonasade": {
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ],
+    "display": "Miljoonasade",
+    "mbid": "dc77f3d9-11cc-4643-b355-d334012a7a72",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/383766",
+      "spotify": "https://open.spotify.com/artist/1nUMGeWGdshl9DQi022EJJ",
+      "deezer": "https://www.deezer.com/artist/250168",
+      "homepage": "https://www.heikkisalo.com/miljoonasade/",
+      "apple": "https://music.apple.com/fi/artist/193397396",
+      "tidal": "https://tidal.com/artist/17974",
+      "wikidata": "https://www.wikidata.org/wiki/Q18032058",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Miljoonasade"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      590
+    ]
+  },
   "Miller Campbell": {
     "genres": [
       "country"
@@ -6760,7 +6841,8 @@
     ],
     "display": "Nelli Matula",
     "eventIds": [
-      73
+      73,
+      599
     ],
     "mbid": "b2980cb8-513d-496b-bb74-c5b99e725609",
     "links": {
@@ -8198,6 +8280,30 @@
       513
     ]
   },
+  "Robin Packalen": {
+    "genres": [
+      "pop",
+      "psychobilly"
+    ],
+    "display": "Robin Packalen",
+    "mbid": "a993a891-ee5a-4bc1-88f8-90e31244cd6a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2625342",
+      "spotify": "https://open.spotify.com/artist/4Q4b4S784htx6DtxcMUfMO",
+      "deezer": "https://www.deezer.com/artist/12418688",
+      "homepage": "https://www.robinpackalen.com/",
+      "instagram": "https://www.instagram.com/robinpackalen/",
+      "apple": "https://music.apple.com/fi/artist/602598545",
+      "tidal": "https://tidal.com/artist/7964859",
+      "wikidata": "https://www.wikidata.org/wiki/Q550677",
+      "youtube": "https://www.youtube.com/channel/UC-Ivkz0L1rpRTbkehYPcp0Q",
+      "wikipedia": "https://en.wikipedia.org/wiki/Robin_Packalen"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      601
+    ]
+  },
   "Rock-Criminals": {
     "genres": [],
     "display": "Rock-Criminals",
@@ -9403,6 +9509,29 @@
       "tidal": "https://tidal.com/artist/9905843"
     },
     "fetched": "2026-11-19"
+  },
+  "Swae Lee": {
+    "genres": [
+      "rap",
+      "r&b",
+      "soul"
+    ],
+    "display": "Swae Lee",
+    "mbid": "a17ce9c3-8f6f-4dcc-a1b7-2a04ab9e31f0",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3979450",
+      "spotify": "https://open.spotify.com/artist/1zNqQNIdeOUZHb8zbZRFMX",
+      "deezer": "https://www.deezer.com/artist/7627172",
+      "instagram": "https://www.instagram.com/swaelee/",
+      "soundcloud": "https://soundcloud.com/swaelee",
+      "tidal": "https://tidal.com/artist/6648946",
+      "wikidata": "https://www.wikidata.org/wiki/Q30103025",
+      "wikipedia": "https://en.wikipedia.org/wiki/Swae_Lee"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      600
+    ]
   },
   "Swarm": {
     "genres": [
@@ -11281,6 +11410,30 @@
       "wikipedia": "https://fi.wikipedia.org/wiki/Widows"
     },
     "fetched": "2026-11-19"
+  },
+  "Windhand": {
+    "genres": [
+      "doom metal",
+      "stoner metal",
+      "stoner doom"
+    ],
+    "display": "Windhand",
+    "mbid": "17bdc2bd-dcec-4267-aa4c-87238f763066",
+    "links": {
+      "bandcamp": "https://daily.bandcamp.com/2018/10/01/windhand-eternal-return-interview/",
+      "discogs": "https://www.discogs.com/artist/2645968",
+      "spotify": "https://open.spotify.com/artist/6wE3e84Zg41JF04Z39i5wv",
+      "deezer": "https://www.deezer.com/artist/2502971",
+      "homepage": "https://www.windhand.band/",
+      "metalArchives": "https://www.metal-archives.com/bands/Windhand/3540313433",
+      "instagram": "https://www.instagram.com/windhand/",
+      "wikidata": "https://www.wikidata.org/wiki/Q23139176",
+      "wikipedia": "https://en.wikipedia.org/wiki/Windhand"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      602
+    ]
   },
   "Wolf Parade": {
     "genres": [

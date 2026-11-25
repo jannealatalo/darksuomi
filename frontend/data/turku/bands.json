@@ -634,6 +634,22 @@
       38
     ]
   },
+  "Jaakko Kulta": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Jaakko Kulta",
+    "eventIds": [
+      101
+    ],
+    "mbid": "d02f581c-9441-44d4-b986-e44d0c20383f",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3yKaJcys5vfZv2nE2IURyO",
+      "deezer": "https://www.deezer.com/artist/14966401",
+      "instagram": "https://www.instagram.com/jaakkokulta/"
+    },
+    "fetched": "2026-11-20"
+  },
   "Jailbreak": {
     "genres": [
       "hardcore",
@@ -1099,6 +1115,29 @@
     "fetched": "2026-11-24",
     "eventIds": [
       48
+    ]
+  },
+  "Miljoonasade": {
+    "genres": [
+      "suomirock",
+      "rock",
+      "pop"
+    ],
+    "display": "Miljoonasade",
+    "mbid": "dc77f3d9-11cc-4643-b355-d334012a7a72",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/383766",
+      "spotify": "https://open.spotify.com/artist/1nUMGeWGdshl9DQi022EJJ",
+      "deezer": "https://www.deezer.com/artist/250168",
+      "homepage": "https://www.heikkisalo.com/miljoonasade/",
+      "apple": "https://music.apple.com/fi/artist/193397396",
+      "tidal": "https://tidal.com/artist/17974",
+      "wikidata": "https://www.wikidata.org/wiki/Q18032058",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Miljoonasade"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      100
     ]
   },
   "MOON SHOT": {
@@ -1696,6 +1735,28 @@
     "fetched": "2026-11-24",
     "eventIds": [
       50
+    ]
+  },
+  "Suvi Teräsniska": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Suvi Teräsniska",
+    "mbid": "1f7d16f6-a5a3-46f6-a46f-7019702efb60",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1032538",
+      "spotify": "https://open.spotify.com/artist/76BCq0XM9wlppqHy4pXmoS",
+      "deezer": "https://www.deezer.com/artist/414757",
+      "homepage": "http://www.suviterasniska.fi/",
+      "instagram": "https://www.instagram.com/suviterasniskaofficial/",
+      "tidal": "https://tidal.com/artist/3534651",
+      "wikidata": "https://www.wikidata.org/wiki/Q440069",
+      "youtube": "https://www.youtube.com/user/SuviTerasniska",
+      "wikipedia": "https://en.wikipedia.org/wiki/Suvi_Ter%C3%A4sniska"
+    },
+    "fetched": "2026-11-25",
+    "eventIds": [
+      99
     ]
   },
   "The 69 EYES": {

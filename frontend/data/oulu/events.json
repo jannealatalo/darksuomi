@@ -1495,6 +1495,31 @@
     ]
   },
   {
+    "artist": "Ellinoora",
+    "venue": "Tarkastamo",
+    "city": "Oulu",
+    "date": "2027-04-30T20:00:00",
+    "ticketUrl": "https://tarkastamo-oulu.fi/tapahtumat/ellinoora/",
+    "eventUrl": "https://tarkastamo-oulu.fi/tapahtumat/ellinoora/",
+    "price": "35,00 € | VIP 49,90 €",
+    "doors": "20:00",
+    "schedule": [
+      {
+        "time": "21:00",
+        "name": "Ellinoora"
+      }
+    ],
+    "age": "K-18",
+    "detailsFetched": true,
+    "id": 74,
+    "artists": [
+      "Ellinoora"
+    ],
+    "genres": [
+      "pop"
+    ]
+  },
+  {
     "artist": "Miljoonasade",
     "venue": "Tarkastamo",
     "city": "Oulu",

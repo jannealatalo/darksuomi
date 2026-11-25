@@ -420,10 +420,10 @@
     "artist": "Stam1na, Stoned Statues",
     "venue": "Pakkahuone",
     "city": "Tampere",
-    "date": "2026-11-28T18:00:00",
+    "date": "2026-11-28T19:00:00",
     "ticketUrl": "https://tullikamari.fi/tapahtumat/stam1na-stoned-statues-28-11-2026/",
     "eventUrl": "https://tullikamari.fi/tapahtumat/stam1na-stoned-statues-28-11-2026/",
-    "doors": "18:00",
+    "doors": "19:00",
     "price": "alk. 39,50€, ovelta 45€",
     "age": "K-18",
     "room": "Pakkahuone",
@@ -788,6 +788,23 @@
     ]
   },
   {
+    "artist": "PORTION BOYS",
+    "venue": "Nokia Arena",
+    "city": "Tampere",
+    "date": "2026-12-05T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/portion-boys-nokia-arena-21400450/?affiliate=ADV&language=fi",
+    "eventUrl": "https://nokiaarena.fi/event/portion-boys-torilla-tavataan-konsertti/",
+    "doors": "17:30",
+    "id": 185,
+    "artists": [
+      "PORTION BOYS"
+    ],
+    "genres": [
+      "dance",
+      "rap"
+    ]
+  },
+  {
     "artist": "Antti Autio",
     "venue": "Pakkahuone",
     "city": "Tampere",
@@ -823,23 +840,6 @@
       "’áháchí"
     ],
     "genres": []
-  },
-  {
-    "artist": "PORTION BOYS",
-    "venue": "Nokia Arena",
-    "city": "Tampere",
-    "date": "2026-12-05T17:30:00",
-    "ticketUrl": "https://www.lippu.fi/event/portion-boys-nokia-arena-21400450/?affiliate=ADV&language=fi",
-    "eventUrl": "https://nokiaarena.fi/event/portion-boys-torilla-tavataan-konsertti/",
-    "doors": "17:30",
-    "id": 185,
-    "artists": [
-      "PORTION BOYS"
-    ],
-    "genres": [
-      "dance",
-      "rap"
-    ]
   },
   {
     "artist": "BÄMÄ -levynjulkaisu + Jumiset muijat ry",
@@ -929,6 +929,25 @@
       "singer-songwriter",
       "retro",
       "folk rock"
+    ]
+  },
+  {
+    "artist": "VOIMAILTA",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-10T17:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-10-1700",
+    "doors": "17:00",
+    "price": "Vapaa pääsy",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 238,
+    "artists": [
+      "VOIMAILTA"
+    ],
+    "genres": [
+      "rock"
     ]
   },
   {
@@ -1131,6 +1150,29 @@
     ]
   },
   {
+    "artist": "SLUMMIJAZZ : Fredrik Ljungkvist & Jonathan Bäckström & Joonas Leppänen, KLR, Hot Heros, MPH3",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-12T18:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-12-1800",
+    "doors": "18:00",
+    "room": "Terassi Pub Yläkerta",
+    "id": 239,
+    "artists": [
+      "Fredrik Ljungkvist & Jonathan Bäckström & Joonas Leppänen",
+      "KLR",
+      "Hot Heros",
+      "MPH3"
+    ],
+    "genres": [
+      "jazz",
+      "free jazz",
+      "saxophone",
+      "avant-garde"
+    ]
+  },
+  {
     "artist": "Dingo – Pyhä klaani 40",
     "venue": "Tavara-asema",
     "city": "Tampere",
@@ -1297,6 +1339,22 @@
     ]
   },
   {
+    "artist": "Kikkerikisat",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-17T20:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-17-2000",
+    "doors": "20:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 240,
+    "artists": [
+      "Kikkerikisat"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Eva & Manu",
     "venue": "Tavara-asema",
     "city": "Tampere",
@@ -1329,6 +1387,24 @@
     "id": 42,
     "artists": [
       "Cledos with support from Dw"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Moppi, Topi Korhonen Kerho, Oudot Ajat",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-18T19:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-18-1900",
+    "doors": "19:00",
+    "price": "Vapaa pääsy",
+    "room": "Terassi Pub Yläkerta",
+    "id": 241,
+    "artists": [
+      "Moppi",
+      "Topi Korhonen Kerho",
+      "Oudot Ajat"
     ],
     "genres": []
   },
@@ -1368,6 +1444,36 @@
       "classic rock",
       "rock",
       "southern rock"
+    ]
+  },
+  {
+    "artist": "Sewer Altar, Tunkio, Bolt Cross, Dross",
+    "venue": "Vastavirta-klubi",
+    "city": "Tampere",
+    "date": "2026-12-18T21:00:00",
+    "ticketUrl": "https://vastavirta.net/",
+    "eventUrl": "https://vastavirta.net/#2026-12-18-2100",
+    "doors": "21:00",
+    "price": "10 €",
+    "room": "Vastavirta-Klubi (alakerta)",
+    "venueDefault": "rock",
+    "id": 242,
+    "artists": [
+      "Sewer Altar",
+      "Tunkio",
+      "Bolt Cross",
+      "Dross"
+    ],
+    "genres": [
+      "hardcore",
+      "death metal",
+      "grindcore",
+      "goregrind",
+      "raw grindcore",
+      "crossover",
+      "thrash metal",
+      "black metal",
+      "depressive black metal"
     ]
   },
   {
@@ -2193,6 +2299,27 @@
       "progressive rock",
       "rock",
       "alternative rock"
+    ]
+  },
+  {
+    "artist": "jambo",
+    "venue": "Tullikamarin Klubi",
+    "city": "Tampere",
+    "date": "2027-02-05T19:00:00",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/jambo-05-02-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/jambo-05-02-2027/",
+    "doors": "19:00",
+    "price": "alk. 27,50€, ovelta 30€",
+    "age": "K-18",
+    "room": "Klubi",
+    "id": 237,
+    "artists": [
+      "jambo"
+    ],
+    "genres": [
+      "hip hop",
+      "irish hip hop",
+      "rap"
     ]
   },
   {

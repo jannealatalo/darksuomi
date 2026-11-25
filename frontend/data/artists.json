@@ -95,6 +95,11 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "2000s LEGENDZ": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "25th Anniversary of musicforthemorningafter Pete Yorn solo acoustic": {
     "source": "notfound",
     "tags": [],
@@ -163,6 +168,24 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "90s": {
+    "source": "lastfm",
+    "matchedName": "90s",
+    "tags": [
+      "house",
+      "pop",
+      "electronic",
+      "dance",
+      "electronica",
+      "screamo"
+    ],
+    "fetched": "2026-11-25"
+  },
+  "90s & 2000s LEGENDZ": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "96 Bitter Beings": {
     "source": "lastfm",
@@ -980,6 +1003,16 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-23"
+  },
+  "Annimaria Rinne": {
+    "source": "lastfm",
+    "matchedName": "Annimaria Rinne",
+    "tags": [
+      "soundtrack",
+      "disney",
+      "the lion king"
+    ],
+    "fetched": "2026-11-25"
   },
   "Anssi": {
     "source": "notfound",
@@ -1860,6 +1893,16 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Beyond Creation": {
+    "source": "lastfm",
+    "matchedName": "Beyond Creation",
+    "tags": [
+      "technical death metal",
+      "progressive death metal",
+      "death metal"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Bianca del Rio": {
     "source": "musicbrainz",
     "matchedName": "Bianca Del Rio",
@@ -2174,6 +2217,15 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Bolt Cross": {
+    "source": "lastfm",
+    "matchedName": "BOLT CROSS",
+    "tags": [
+      "crossover",
+      "thrash metal"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Bombus": {
     "source": "lastfm",
     "matchedName": "Bombus",
@@ -2278,6 +2330,11 @@
       "punk"
     ],
     "fetched": "2026-11-24"
+  },
+  "Boston Xmas": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Boulevard Drift": {
     "source": "notfound",
@@ -3639,6 +3696,17 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Decrepit Birth": {
+    "source": "lastfm",
+    "matchedName": "Decrepit Birth",
+    "tags": [
+      "technical death metal",
+      "death metal",
+      "brutal death metal",
+      "technical brutal death metal"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Deep Fat Fried Podcast": {
     "source": "notfound",
     "tags": [],
@@ -3766,6 +3834,17 @@
       "glam rock"
     ],
     "fetched": "2026-11-24"
+  },
+  "Dermot Kennedy": {
+    "source": "lastfm",
+    "matchedName": "Dermot Kennedy",
+    "tags": [
+      "singer-songwriter",
+      "pop",
+      "folk",
+      "irish"
+    ],
+    "fetched": "2026-11-25"
   },
   "Desperate Measures": {
     "source": "lastfm",
@@ -4276,6 +4355,15 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "Dross": {
+    "source": "lastfm",
+    "matchedName": "Dross",
+    "tags": [
+      "black metal",
+      "depressive black metal"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Drug Church": {
     "source": "lastfm",
     "matchedName": "Drug Church",
@@ -4339,6 +4427,14 @@
     "country": "US",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "DUSTIN NICKERSON": {
+    "source": "musicbrainz",
+    "matchedName": "Dustin Nickerson",
+    "mbid": "5d603061-e273-4a9b-b209-44c63fcdad52",
+    "country": "US",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Dusty Slay": {
     "source": "lastfm",
@@ -4639,6 +4735,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-21"
+  },
+  "Ellinoora": {
+    "source": "lastfm",
+    "matchedName": "Ellinoora",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-25"
   },
   "Eluveitie": {
     "source": "lastfm",
@@ -5538,6 +5642,22 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "Fredrik Ljungkvist": {
+    "source": "lastfm",
+    "matchedName": "Fredrik Ljungkvist",
+    "tags": [
+      "jazz",
+      "free jazz",
+      "saxophone",
+      "avant-garde"
+    ],
+    "fetched": "2026-11-25"
+  },
+  "Fredrik Ljungkvist & Jonathan Bäckström & Joonas Leppänen": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Free Carmen": {
     "source": "musicbrainz",
@@ -7264,6 +7384,15 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "Instant Crush": {
+    "source": "lastfm",
+    "matchedName": "Instant Crush",
+    "tags": [
+      "aprils taste",
+      "united states of america"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Internal Bleeding": {
     "source": "lastfm",
     "matchedName": "Internal Bleeding",
@@ -7570,6 +7699,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "jambo": {
+    "source": "lastfm",
+    "matchedName": "Jambo",
+    "tags": [
+      "hip hop",
+      "irish hip hop",
+      "rap"
+    ],
+    "fetched": "2026-11-25"
   },
   "James Marriott": {
     "source": "lastfm",
@@ -8067,6 +8206,14 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Jonathan Bäckström": {
+    "source": "musicbrainz",
+    "matchedName": "Jonathan Bäckström",
+    "mbid": "9c1530de-d7cb-470d-98a5-32d83acb7f0e",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Joni Ekman Group": {
     "source": "notfound",
     "tags": [],
@@ -8090,6 +8237,14 @@
       "folk rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Joonas Leppänen": {
+    "source": "musicbrainz",
+    "matchedName": "Joonas Leppänen",
+    "mbid": "599a29cd-7ea0-4e08-b442-83eda403cc80",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Joose Keskitalo": {
     "source": "lastfm",
@@ -8798,6 +8953,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Kikkerikisat": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Kill The K?D": {
     "source": "notfound",
     "tags": [],
@@ -8980,6 +9140,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-21"
+  },
+  "KLR": {
+    "source": "musicbrainz",
+    "matchedName": "KLR",
+    "mbid": "9785015f-8346-4441-9b05-1144e8e19d80",
+    "country": "FR",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Kneel Before The Death": {
     "source": "lastfm",
@@ -10414,6 +10582,20 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "Mari Kalkun": {
+    "source": "lastfm",
+    "matchedName": "Mari Kalkun",
+    "tags": [
+      "folk",
+      "estonia"
+    ],
+    "fetched": "2026-11-25"
+  },
+  "Mari Kalkun & Viron kansallinen mieskuoro": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Maria W Horn presents Melting Pillars Of Snow": {
     "source": "notfound",
     "tags": [],
@@ -11353,6 +11535,14 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Moppi": {
+    "source": "musicbrainz",
+    "matchedName": "Moppi",
+    "mbid": "ee3cd44b-3121-418b-872a-879fcab10f28",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Morcheeba": {
     "source": "lastfm",
     "matchedName": "Morcheeba",
@@ -11452,6 +11642,11 @@
       "stoner metal"
     ],
     "fetched": "2026-11-24"
+  },
+  "MPH3": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Ms. Parton": {
     "source": "notfound",
@@ -11799,6 +11994,14 @@
       "singer-songwriter"
     ],
     "fetched": "2026-11-24"
+  },
+  "Nicce & The Whiskars": {
+    "source": "musicbrainz",
+    "matchedName": "Nicce & The Whiskars",
+    "mbid": "eb437f11-e470-4b52-9f70-7f742c998647",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Nicholas Francett": {
     "source": "notfound",
@@ -12520,6 +12723,11 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Oudot Ajat": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Oulun konservatorio": {
     "source": "notfound",
     "tags": [],
@@ -12613,6 +12821,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Palettes": {
+    "source": "lastfm",
+    "matchedName": "Palettes",
+    "tags": [
+      "seattle",
+      "pop punk",
+      "united states"
+    ],
+    "fetched": "2026-11-25"
   },
   "Palone": {
     "source": "lastfm",
@@ -13103,6 +13321,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-23"
+  },
+  "Pine Box": {
+    "source": "musicbrainz",
+    "matchedName": "Pine Box",
+    "mbid": "60e0bee7-9ee0-4f0b-8f59-19f9bda58be1",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Pinhuusi": {
     "source": "notfound",
@@ -14240,6 +14466,15 @@
     "tags": [],
     "fetched": "2026-11-22"
   },
+  "Robin Packalen": {
+    "source": "lastfm",
+    "matchedName": "Robin",
+    "tags": [
+      "pop",
+      "psychobilly"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Robustik": {
     "source": "notfound",
     "tags": [],
@@ -15037,6 +15272,17 @@
       "hip hop"
     ],
     "fetched": "2026-11-21"
+  },
+  "Sewer Altar": {
+    "source": "musicbrainz",
+    "matchedName": "Sewer Altar",
+    "mbid": "c57e29ba-8fec-4a5a-be04-3215275b7a3b",
+    "country": null,
+    "tags": [
+      "hardcore",
+      "death metal"
+    ],
+    "fetched": "2026-11-25"
   },
   "Sgt. Pepper’s 60 Years": {
     "source": "notfound",
@@ -16216,6 +16462,17 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Swae Lee": {
+    "source": "lastfm",
+    "matchedName": "Swae Lee",
+    "tags": [
+      "rap",
+      "r&b",
+      "soul",
+      "hip hop"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Swarm": {
     "source": "lastfm",
     "matchedName": "Swarm",
@@ -17027,6 +17284,17 @@
     ],
     "fetched": "2026-11-18"
   },
+  "The Home Team": {
+    "source": "lastfm",
+    "matchedName": "The Home Team",
+    "tags": [
+      "pop punk",
+      "emo",
+      "post-hardcore",
+      "alternative"
+    ],
+    "fetched": "2026-11-25"
+  },
   "The Horribly Ones": {
     "source": "musicbrainz",
     "matchedName": "The Horribly Ones",
@@ -17749,6 +18017,11 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Topi Korhonen Kerho": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Topi Saha": {
     "source": "lastfm",
     "matchedName": "Topi Saha",
@@ -17998,6 +18271,16 @@
     "country": "FI",
     "tags": [],
     "fetched": "2026-11-19"
+  },
+  "Tunkio": {
+    "source": "lastfm",
+    "matchedName": "Tunkio",
+    "tags": [
+      "grindcore",
+      "goregrind",
+      "raw grindcore"
+    ],
+    "fetched": "2026-11-25"
   },
   "Tuomo": {
     "source": "lastfm",
@@ -18256,6 +18539,16 @@
       "rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "UMO Helsinki Ensemble": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
+  "UMO Helsinki Ensemble & Annimaria Rinne": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "UMO Helsinki Jazz Orchestra": {
     "source": "lastfm",
@@ -18897,6 +19190,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Viron kansallinen mieskuoro": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
+  },
   "Virve Rosti": {
     "source": "lastfm",
     "matchedName": "Virve Rosti",
@@ -18943,6 +19241,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-18"
+  },
+  "VOIMAILTA": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Voimaryhmä": {
     "source": "lastfm",
@@ -19004,6 +19307,18 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Vulvodynia": {
+    "source": "lastfm",
+    "matchedName": "Vulvodynia",
+    "tags": [
+      "deathcore",
+      "brutal death metal",
+      "slamming brutal death metal",
+      "brutal deathcore",
+      "death metal"
+    ],
+    "fetched": "2026-11-25"
   },
   "Vvorse": {
     "source": "lastfm",
@@ -19239,6 +19554,17 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Windhand": {
+    "source": "lastfm",
+    "matchedName": "Windhand",
+    "tags": [
+      "doom metal",
+      "stoner metal",
+      "stoner doom",
+      "psychedelic"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Wine Tasting": {
     "source": "notfound",
     "tags": [],
@@ -19436,6 +19762,14 @@
       "singer-songwriter"
     ],
     "fetched": "2026-11-19"
+  },
+  "Yotes": {
+    "source": "musicbrainz",
+    "matchedName": "Yotes",
+    "mbid": "abd95220-429b-4f82-b073-56d0201b3db5",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-25"
   },
   "Young Gun Silver Fox": {
     "source": "lastfm",
