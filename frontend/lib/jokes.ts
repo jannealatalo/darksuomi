@@ -80,6 +80,9 @@ export const TAGLINES = [
   "Analogue synths, digital sadness.",
   "More synths than friends. That's fine.",
   "Mosh until the depression wears off. Or the battery.",
+  "Recommended by four out of five people who aren't playing GTA VI right now.",
+  "You've finished GTA VI? Fine. Here are some gigs.",
+  "The graphics are better here than in GTA VI.",
 ];
 
 /** The same date always gets the same joke (stable across page loads). */
