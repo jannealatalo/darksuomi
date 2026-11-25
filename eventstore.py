@@ -37,6 +37,20 @@ REFRESHED_FIELDS = ("date", "ticketUrl", "eventUrl", "venue", "venueGenres",
                     "doors", "age", "schedule", "detailsFetched")
 
 
+# Hand-made line-ups for gigs whose listing gives only an event name and
+# names the bands in free text ("NEXT METAL WAVE" at Hevimesta). Keyed by the
+# gig's event page URL; the title given here replaces the scraped one, in the
+# "<Event name>: band, band" form that genres.py splits into the bands.
+LINEUP_OVERRIDES_FILE = DATA_DIR / "lineup-overrides.json"
+
+
+def lineup_overrides() -> dict[str, str]:
+    if not LINEUP_OVERRIDES_FILE.exists():
+        return {}
+    with open(LINEUP_OVERRIDES_FILE, encoding="utf-8") as f:
+        return {url: o["artist"] for url, o in json.load(f).items()}
+
+
 def load_events(city: str | None = None) -> list[dict]:
     path = events_file(city)
     if not path.exists():
@@ -121,8 +135,11 @@ def merge(scraped: list[dict], events: list[dict]) -> int:
     by_url = {e["eventUrl"]: e for e in events if e.get("eventUrl")}
     by_slot = {k: e for e in events if (k := _slot_key(e))}
     next_id = max((e.get("id", 0) for e in events), default=0) + 1
+    overrides = lineup_overrides()
     added = 0
     for event in scraped:
+        if event.get("eventUrl") in overrides:
+            event["artist"] = overrides[event["eventUrl"]]
         status_from_title(event)
         same_page = by_url.get(event.get("eventUrl"))
         renamed = None if same_page else (by_slot.get(_slot_key(event) or ())

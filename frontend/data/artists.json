@@ -2072,6 +2072,14 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Blame Me!": {
+    "source": "lastfm",
+    "matchedName": "Blame Me!",
+    "tags": [
+      "metal"
+    ],
+    "fetched": "2026-11-25"
+  },
   "Blast Cells": {
     "source": "notfound",
     "tags": [],
@@ -19775,6 +19783,16 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Without Warning": {
+    "source": "lastfm",
+    "matchedName": "Without Warning",
+    "tags": [
+      "progressive metal",
+      "industrial metal",
+      "modern metal"
+    ],
+    "fetched": "2026-11-25"
   },
   "Wizzerd": {
     "source": "lastfm",

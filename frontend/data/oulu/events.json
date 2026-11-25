@@ -941,7 +941,7 @@
     "genres": []
   },
   {
-    "artist": "NEXT METAL WAVE",
+    "artist": "Next Metal Wave: Blame Me!, Without Warning",
     "venue": "Hevimesta",
     "city": "Oulu",
     "date": "2027-01-30T20:00:00",
@@ -954,10 +954,14 @@
     "age": "K-18",
     "id": 76,
     "artists": [
-      "NEXT METAL WAVE"
+      "Blame Me!",
+      "Without Warning"
     ],
     "genres": [
-      "metal"
+      "metal",
+      "progressive metal",
+      "industrial metal",
+      "modern metal"
     ]
   },
   {
