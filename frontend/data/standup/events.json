@@ -1,36 +1,5 @@
 [
   {
-    "title": "Joka v*tun keskiviikko: Jukka Lindström",
-    "venue": "Semifinal",
-    "city": "Helsinki",
-    "date": "2026-11-25T18:00:00",
-    "ticketUrl": "https://tavastiaklubi.fi/events/2026-11-25/joka-vtun-keskiviikko-jukka-lindstrom/121635/",
-    "eventUrl": "https://tavastiaklubi.fi/events/2026-11-25/joka-vtun-keskiviikko-jukka-lindstrom/121635/",
-    "source": "darksuomi",
-    "age": "K-18",
-    "status": "sold out",
-    "room": "Semifinal"
-  },
-  {
-    "title": "André Wickström 30 Vuotta Lavalla - Eikä Loppua Näy!",
-    "venue": "Arena-näyttämö - Helsingin kaupunginteatteri",
-    "city": "Helsinki",
-    "date": "2026-11-25T19:00:00",
-    "ticketUrl": "https://www.lippu.fi/artist/andre-wickstrom/andre-wickstroem-30-vuotta-lavalla-4182272/?affiliate=ADV&language=fi",
-    "eventUrl": "https://tapahtumat.hel.fi/fi/events/lippupiste:22044374",
-    "source": "helsinki-api"
-  },
-  {
-    "title": "Jan Uuspõld STAND-UP (eesti keeles)",
-    "venue": "Savoy-teatteri",
-    "city": "Helsinki",
-    "date": "2026-11-25T19:00:00",
-    "ticketUrl": "http://www.savoyteatteri.fi/fi/tapahtumat/event/2ECC085457B69851573F8FEAE40F15C3/Jan_Uusp_ld_STAND-UP_eesti_keeles_",
-    "eventUrl": "https://tapahtumat.hel.fi/fi/events/kulke:68930",
-    "source": "helsinki-api",
-    "price": "38,90 €"
-  },
-  {
     "title": "Niko Kivelä – SANANVAPAUS",
     "venue": "Sellosali",
     "city": "Espoo",

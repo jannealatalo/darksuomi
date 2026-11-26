@@ -302,7 +302,7 @@
     ]
   },
   {
-    "artist": "Power Metal Night",
+    "artist": "Power Metal Night: Barrel, Burning Point, Steel Systems",
     "venue": "Toppila Klubi",
     "city": "Oulu",
     "date": "2026-11-28T20:00:00",
@@ -312,9 +312,16 @@
     "price": "10 €",
     "id": 29,
     "artists": [
-      "Power Metal Night"
+      "Barrel",
+      "Burning Point",
+      "Steel Systems"
     ],
-    "genres": []
+    "genres": [
+      "heavy metal",
+      "thrash metal",
+      "stoner rock",
+      "power metal"
+    ]
   },
   {
     "artist": "Pauli Hanhiniemi – Mies ja kitara",
@@ -469,8 +476,8 @@
     "artist": "Rotosrock",
     "venue": "45 Special",
     "city": "Oulu",
-    "date": "2026-12-05T18:00:00",
-    "doors": "18:00",
+    "date": "2026-12-05T20:00:00",
+    "doors": "20:00",
     "ticketUrl": "https://45special.gapp.fi/event/6ad76a1300fccdf44ae94c48",
     "eventUrl": "https://45special.gapp.fi/event/6ad76a1300fccdf44ae94c48",
     "id": 5,

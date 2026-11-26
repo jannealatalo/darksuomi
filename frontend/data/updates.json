@@ -1,5 +1,165 @@
 [
   {
+    "day": "2026-11-26",
+    "gigs": [
+      {
+        "id": 637,
+        "city": "helsinki",
+        "artist": "PRETTY MARC / THE EXPECTED",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2026-12-03T19:30:00",
+        "genres": [
+          "indie rock",
+          "indie pop"
+        ]
+      },
+      {
+        "id": 638,
+        "city": "helsinki",
+        "artist": "Kuunpimennys, Toukokuu, liljalilja",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2026-12-10T19:30:00",
+        "genres": [
+          "rock"
+        ]
+      },
+      {
+        "id": 628,
+        "city": "helsinki",
+        "artist": "Krypta",
+        "venue": "On the Rocks",
+        "place": "Helsinki",
+        "date": "2027-01-01T20:00:00",
+        "genres": [
+          "black metal",
+          "finnish rock",
+          "progressive rock"
+        ]
+      },
+      {
+        "id": 639,
+        "city": "helsinki",
+        "artist": "New Year, Same Rock: Stråle, Domination Black, Rylos",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2027-01-01T20:00:00",
+        "genres": [
+          "slowcore",
+          "indie rock",
+          "indie"
+        ]
+      },
+      {
+        "id": 105,
+        "city": "turku",
+        "artist": "Sin Cos Tan",
+        "venue": "Dynamo",
+        "place": "Turku",
+        "date": "2027-01-29T20:00:00",
+        "genres": [
+          "synthpop",
+          "electropop",
+          "electronic"
+        ]
+      },
+      {
+        "id": 656,
+        "city": "helsinki",
+        "artist": "Lucas Imbiriba (BR) - Guitar on Fire",
+        "venue": "Espoon kulttuurikeskus",
+        "place": "Espoo",
+        "date": "2027-03-16T19:00:00",
+        "genres": [
+          "acoustic",
+          "acoustic guitar",
+          "classic rock"
+        ]
+      },
+      {
+        "id": 641,
+        "city": "helsinki",
+        "artist": "Mastodon, Monolord (SE)",
+        "venue": "Helsingin Jäähalli",
+        "place": "Helsinki",
+        "date": "2027-04-16T00:00:00",
+        "genres": [
+          "progressive metal",
+          "sludge",
+          "sludge metal"
+        ]
+      },
+      {
+        "id": 640,
+        "city": "helsinki",
+        "artist": "Club Reptile Haus Vol. 4: The Creeping Terrors / Shocked Volk / Fenetzar",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2027-04-28T20:30:00",
+        "genres": [
+          "deathrock",
+          "horror punk",
+          "gothic rock"
+        ]
+      },
+      {
+        "id": 633,
+        "city": "helsinki",
+        "artist": "Room Full Of Hendrix – 60 Years of Jimi Hendrix",
+        "venue": "KULT",
+        "place": "Helsinki",
+        "date": "2027-05-22T18:00:00",
+        "genres": [
+          "rock"
+        ]
+      },
+      {
+        "id": 629,
+        "city": "helsinki",
+        "artist": "Kansas (US)",
+        "venue": "Kulttuuritalo",
+        "place": "Helsinki",
+        "date": "2027-06-13T18:00:00",
+        "genres": [
+          "progressive rock",
+          "classic rock",
+          "rock"
+        ]
+      },
+      {
+        "id": 645,
+        "city": "helsinki",
+        "artist": "Karnivool",
+        "venue": "Apollo Live Club",
+        "place": "Helsinki",
+        "date": "2027-09-01T00:00:00",
+        "genres": [
+          "progressive rock",
+          "alternative rock",
+          "progressive metal"
+        ]
+      },
+      {
+        "id": 631,
+        "city": "helsinki",
+        "artist": "Steve Hackett – Best of Genesis & Solo Gems",
+        "venue": "Kulttuuritalo",
+        "place": "Helsinki",
+        "date": "2027-09-29T17:30:00",
+        "genres": [
+          "progressive rock",
+          "art rock",
+          "guitar"
+        ]
+      }
+    ],
+    "hidden": {
+      "helsinki": 5,
+      "turku": 1
+    }
+  },
+  {
     "day": "2026-11-25",
     "gigs": [
       {

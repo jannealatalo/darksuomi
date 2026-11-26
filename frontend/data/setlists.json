@@ -1,4 +1,8 @@
 {
+  "****PERUTTU*** MOON WALKER": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "10-vuotisjuhlakiertue": {
     "status": "artist-not-found",
     "fetched": "2026-11-24"
@@ -197,6 +201,10 @@
     "fetched": "2026-11-20",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "80s Party": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "A Solidarity show": {
     "status": "artist-not-found",
@@ -488,6 +496,13 @@
   "Adele Sauros Basel Smash": {
     "status": "artist-not-found",
     "fetched": "2026-11-25"
+  },
+  "Adi L Hasla": {
+    "mbid": "5007dfd0-2c52-46fa-b925-9d7566e14409",
+    "url": "https://www.setlist.fm/setlists/adi-l-hasla-5bf4cb6c.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "Admire the Grim": {
     "mbid": "e60ee917-ed12-47b0-a4e4-99ef280aa800",
@@ -918,6 +933,10 @@
     "fetched": "2026-11-25",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "Akma": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Akseli Hiltunen": {
     "mbid": "3af8fcfd-6539-46ce-b8e5-9975a7067d5a",
@@ -2192,6 +2211,60 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Antti Paalanen": {
+    "mbid": "3dc0de2c-05c7-458e-b258-86895e536397",
+    "url": "https://www.setlist.fm/setlists/antti-paalanen-5bd49f88.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/antti-paalanen/2026/inkonst-malmo-sweden-37cdd47.html",
+      "date": "2026-10-08",
+      "venue": "Inkonst",
+      "city": "Malmö",
+      "songs": 9
+    },
+    "status": "ok",
+    "basedOn": 6,
+    "from": "2025-06-27",
+    "to": "2026-10-08",
+    "songs": [
+      {
+        "name": "Taivas on sininen ja valkoinen (The Sky Is Blue and White)",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Aerobikki",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "Child in You",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "Breathe",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "Takatukka",
+        "encore": false,
+        "cover": null,
+        "playedPct": 83
+      },
+      {
+        "name": "Alavilla mailla",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      }
+    ]
+  },
   "Antti Rekilä": {
     "status": "artist-not-found",
     "fetched": "2026-11-25"
@@ -2664,6 +2737,18 @@
   "Arcranius": {
     "status": "artist-not-found",
     "fetched": "2026-11-21"
+  },
+  "Are": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
+  "Are & Kriso": {
+    "status": "split",
+    "parts": [
+      "Are",
+      "Kriso"
+    ],
+    "fetched": "2026-11-26"
   },
   "Arja Koriseva X Auringon Lapset": {
     "status": "artist-not-found",
@@ -3252,6 +3337,84 @@
       }
     ]
   },
+  "ASLA JO": {
+    "mbid": "7325af58-5068-446b-ad58-6fb915fd38d8",
+    "url": "https://www.setlist.fm/setlists/asla-jo-63feba1f.html",
+    "fetched": "2026-11-23",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/asla-jo/2025/ruissalo-turku-finland-535e472d.html",
+      "date": "2025-07-05",
+      "venue": "Ruissalo",
+      "city": "Turku",
+      "songs": 10
+    },
+    "status": "ok",
+    "basedOn": 4,
+    "from": "2025-01-25",
+    "to": "2025-07-05",
+    "songs": [
+      {
+        "name": "Dementia",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Anteeksantoautomaatti",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Poltan mun kotikaupungin",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Painavaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Ihan vähän vaan",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Aika parantaa - pianon äärellä",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Äänet kesäsateiden",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Pussailen tyttöjen kaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Mökki keskellä pohjolaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Ihmisten edessä",
+        "encore": false,
+        "cover": "Jenni Vartiainen",
+        "playedPct": 75
+      }
+    ]
+  },
   "Aspesti": {
     "mbid": "b80bf900-61d4-46c3-a5ea-b418dd75412b",
     "url": "https://www.setlist.fm/setlists/aspesti-3b82fc64.html",
@@ -3631,6 +3794,13 @@
         "playedPct": 100
       }
     ]
+  },
+  "AXEL KALA": {
+    "mbid": "7770265f-ccd4-44de-b49a-33cf97068d57",
+    "url": "https://www.setlist.fm/setlists/axel-kala-3be288b4.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "Ayno": {
     "mbid": "3a5d2d2a-ea25-4a48-a7c1-c64617a9dd3e",
@@ -4396,6 +4566,13 @@
     "status": "too-few-setlists",
     "basedOn": 2
   },
+  "Blame Me!": {
+    "mbid": "c8a713d6-3974-42be-9869-7edc81164db6",
+    "url": "https://www.setlist.fm/setlists/blame-me-6bf3eeae.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Blindboünd": {
     "mbid": "12f2a6da-d93c-42ef-89ac-371512e1cb73",
     "url": "https://www.setlist.fm/setlists/blindbound-7b9dbaa4.html",
@@ -4468,6 +4645,10 @@
         "playedPct": 100
       }
     ]
+  },
+  "Blood Industry": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Bloodblind": {
     "mbid": "b8f41d2c-f4f6-4817-aa39-5df55eb905f3",
@@ -5444,6 +5625,20 @@
       }
     ]
   },
+  "Burning Point": {
+    "mbid": "7d3411e7-b580-48e1-bc77-4ed43989af0e",
+    "url": "https://www.setlist.fm/setlists/burning-point-6bd6d272.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
+  "BÄMÄ": {
+    "mbid": "2cff3a96-2159-4454-8f49-565a5304fba7",
+    "url": "https://www.setlist.fm/setlists/bama-33e2fc61.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "BÄMÄ -levynjulkaisu": {
     "status": "artist-not-found",
     "fetched": "2026-11-24"
@@ -6029,6 +6224,48 @@
         "encore": true,
         "cover": "Led Zeppelin",
         "playedPct": 87
+      }
+    ]
+  },
+  "Cledos": {
+    "mbid": "57ffa965-991a-40c1-9333-7159a913aebc",
+    "url": "https://www.setlist.fm/setlists/cledos-6bcb764a.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/cledos/2026/narinkkatori-kamppi-helsinki-finland-2b7c4876.html",
+      "date": "2026-10-30",
+      "venue": "Narinkkatori Kamppi",
+      "city": "Helsinki",
+      "songs": 5
+    },
+    "status": "ok",
+    "basedOn": 6,
+    "from": "2026-06-19",
+    "to": "2026-10-30",
+    "songs": [
+      {
+        "name": "Töis",
+        "encore": false,
+        "cover": null,
+        "playedPct": 83
+      },
+      {
+        "name": "kilsoi",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Rullaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Jos mä oisin sä",
+        "encore": false,
+        "cover": "Cheek",
+        "playedPct": 50
       }
     ]
   },
@@ -7946,6 +8183,20 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Domination Black": {
+    "mbid": "76f93067-09f1-4fd2-bbe9-c29f5a77ef4d",
+    "url": "https://www.setlist.fm/setlists/domination-black-2bc6106e.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/domination-black/2025/ravintola-nostalgia-anjala-finland-43416b5b.html",
+      "date": "2025-10-02",
+      "venue": "Ravintola Nostalgia",
+      "city": "Anjala",
+      "songs": 8
+    },
+    "status": "too-few-setlists",
+    "basedOn": 2
+  },
   "Donna and the Dynamiters": {
     "mbid": "790c833a-78c5-4f90-8fae-ebe243ee9e44",
     "url": "https://www.setlist.fm/setlists/donna-and-the-dynamiters-43f9b767.html",
@@ -9133,6 +9384,110 @@
       }
     ]
   },
+  "Erja Lyytinen": {
+    "mbid": "b58cf0ab-c421-4628-8989-b4aa12e8ed76",
+    "url": "https://www.setlist.fm/setlists/erja-lyytinen-53d70b51.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/erja-lyytinen/2026/carelia-sali-joensuu-finland-7b7d7e38.html",
+      "date": "2026-11-12",
+      "venue": "Carelia-sali",
+      "city": "Joensuu",
+      "songs": 13
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2025-10-25",
+    "to": "2026-11-12",
+    "songs": [
+      {
+        "name": "Ball and Chain",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Going to Hell",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Smell the Roses",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Hard as Stone",
+        "encore": false,
+        "cover": null,
+        "playedPct": 47
+      },
+      {
+        "name": "Dragonfly",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Abyss",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "One Thing I Won't Change",
+        "encore": false,
+        "cover": null,
+        "playedPct": 47
+      },
+      {
+        "name": "Lover's Novels",
+        "encore": false,
+        "cover": null,
+        "playedPct": 27
+      },
+      {
+        "name": "Wings to Fly",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "The Ring",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "You Talk Dirty",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Stoney Creek",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Wedding Day",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      }
+    ]
+  },
+  "Erja Lyytinen & Friends": {
+    "status": "split",
+    "parts": [
+      "Erja Lyytinen",
+      "Friends"
+    ],
+    "fetched": "2026-11-26"
+  },
   "Esko Koivuluoma Duo": {
     "status": "artist-not-found",
     "fetched": "2026-11-24"
@@ -9742,6 +10097,13 @@
     "mbid": "6c4eeb12-4389-4da1-b1f5-bd7e9f1e7c4c",
     "url": "https://www.setlist.fm/setlists/fer-4bc05bae.html",
     "fetched": "2026-11-24",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
+  "FERNET UNDERGROUND": {
+    "mbid": "f2e2b521-f5ae-4fa2-a92a-8fa42c045bed",
+    "url": "https://www.setlist.fm/setlists/fernet-underground-7bf3a2b0.html",
+    "fetched": "2026-11-26",
     "status": "too-few-setlists",
     "basedOn": 0
   },
@@ -10489,6 +10851,13 @@
     "status": "too-few-setlists",
     "basedOn": 1
   },
+  "Fossile": {
+    "mbid": "b3031c0c-71fd-4f73-878b-818a6ea51c39",
+    "url": "https://www.setlist.fm/setlists/fossile-3386f421.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Fox Confession": {
     "mbid": "188b2dd6-8035-4f09-999d-2b207d8e83f6",
     "url": "https://www.setlist.fm/setlists/fox-confession-73e09ac1.html",
@@ -10709,6 +11078,10 @@
     ],
     "fetched": "2026-11-20"
   },
+  "Frequency Club": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "Freud Marx Engels": {
     "status": "artist-not-found",
     "fetched": "2026-11-20"
@@ -10727,7 +11100,7 @@
   },
   "Friends": {
     "status": "artist-not-found",
-    "fetched": "2026-11-25"
+    "fetched": "2026-11-26"
   },
   "Frostbite Terror": {
     "mbid": "6aec54b7-f0d8-47ff-a62a-e00b4f817e3d",
@@ -11062,6 +11435,10 @@
       }
     ]
   },
+  "Gobra": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "God’s Lonely Men": {
     "mbid": "4119071a-82d4-4b31-adac-cfb1a72b6919",
     "url": "https://www.setlist.fm/setlists/gods-lonely-men-3d5c10f.html",
@@ -11277,6 +11654,10 @@
         "playedPct": 67
       }
     ]
+  },
+  "GRAVEMARCH": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Graveyard": {
     "mbid": "4db1a745-6fd0-4801-9cce-99e88bf855e6",
@@ -12324,6 +12705,72 @@
     "fetched": "2026-11-20",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "Hangover in Minsk": {
+    "mbid": "a38a452f-49c0-43fc-aaf6-99532722f96c",
+    "url": "https://www.setlist.fm/setlists/hangover-in-minsk-73ee9ef9.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/hangover-in-minsk/2026/valhalla-bar-basel-switzerland-4b7c2fca.html",
+      "date": "2026-10-16",
+      "venue": "Valhalla Bar",
+      "city": "Basel",
+      "songs": 10
+    },
+    "status": "ok",
+    "basedOn": 8,
+    "from": "2025-04-19",
+    "to": "2026-10-16",
+    "songs": [
+      {
+        "name": "Farewell",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Drunk and Beautiful",
+        "encore": false,
+        "cover": null,
+        "playedPct": 88
+      },
+      {
+        "name": "Morning Mourning",
+        "encore": false,
+        "cover": null,
+        "playedPct": 88
+      },
+      {
+        "name": "The Cow Was Stolen from the Bar (Again)",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Till Soberness Do Us Part",
+        "encore": false,
+        "cover": null,
+        "playedPct": 88
+      },
+      {
+        "name": "Fuck You, My Love",
+        "encore": false,
+        "cover": null,
+        "playedPct": 62
+      },
+      {
+        "name": "Devil in Me Wants to Dance",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Party Is Over",
+        "encore": false,
+        "cover": null,
+        "playedPct": 88
+      }
+    ]
   },
   "Hanhani": {
     "status": "artist-not-found",
@@ -13497,6 +13944,10 @@
   "Hulda Huima duo": {
     "status": "artist-not-found",
     "fetched": "2026-11-24"
+  },
+  "Huoneen Syyllisin Mies": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Huora": {
     "mbid": "fe93169c-f312-4771-ad9b-a06727dea862",
@@ -15322,6 +15773,13 @@
     "status": "too-few-setlists",
     "basedOn": 2
   },
+  "Jarkko Ahola": {
+    "mbid": "0992e40e-3e90-4fa8-b97d-2949d71cdaae",
+    "url": "https://www.setlist.fm/setlists/jarkko-ahola-53d6ff49.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Jarkko Martikainen": {
     "mbid": "fb2d82c2-9096-4457-b086-717c544c11f6",
     "url": "https://www.setlist.fm/setlists/jarkko-martikainen-1bd60d84.html",
@@ -16539,6 +16997,13 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Julma Henri": {
+    "mbid": "be8268f5-5b42-44a9-a178-668ff6fc0d8c",
+    "url": "https://www.setlist.fm/setlists/julma-henri-73fc865d.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Jumiset muijat ry": {
     "status": "artist-not-found",
     "fetched": "2026-11-24"
@@ -16608,6 +17073,156 @@
     },
     "status": "too-few-setlists",
     "basedOn": 2
+  },
+  "KAJ": {
+    "mbid": "f9655d9e-fd87-4f64-be7d-0bd0fe17f19d",
+    "url": "https://www.setlist.fm/setlists/kaj-1bffb110.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/kaj/2026/tonhallen-sundsvall-sweden-3753117.html",
+      "date": "2026-11-25",
+      "venue": "Tonhallen",
+      "city": "Sundsvall",
+      "songs": 23
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-09-04",
+    "to": "2026-11-25",
+    "songs": [
+      {
+        "name": "Karar i arbeit",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Heimani i skick",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Tango taas",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Dågär åt böndrin",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Vägg i vägg",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Älska en gubb",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Dopp i Grytan",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "Kom ti byin",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Kaffitår",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Taco hej (me. GU$TA)",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Text-TV",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Tech support åt mamm å papp",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Man Cave",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Kallna mat",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Vems pojk e do?",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Nissan bromsa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Economy PLUS",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Firmans man",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Gelateria",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Jåo nåo e ja jåo YOLO ja nåo",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Karaoke",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Bara bada bastu",
+        "encore": true,
+        "cover": null,
+        "playedPct": 100
+      }
+    ]
   },
   "KAJ på Kulturhuset": {
     "status": "artist-not-found",
@@ -16850,6 +17465,108 @@
       }
     ]
   },
+  "Kansas": {
+    "mbid": "69689acf-d9cd-4d20-a972-47db4ed51b1a",
+    "url": "https://www.setlist.fm/setlists/kansas-bd6b5ea.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/kansas/2026/tupelo-music-hall-derry-nh-37ed9c3.html",
+      "date": "2026-11-19",
+      "venue": "Tupelo Music Hall",
+      "city": "Derry",
+      "songs": 14
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-09-05",
+    "to": "2026-11-19",
+    "songs": [
+      {
+        "name": "Point of Know Return",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Paradox",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Play the Game Tonight / Fight Fire With Fire",
+        "encore": false,
+        "cover": null,
+        "playedPct": 47
+      },
+      {
+        "name": "Jets Overhead",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Child of Innocence",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "The Wall",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Song for America",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Dust in the Wind",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Can I Tell You",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Hold On",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Down the Road",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Portrait (He Knew)",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Miracles Out of Nowhere",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Carry On Wayward Son",
+        "encore": true,
+        "cover": null,
+        "playedPct": 100
+      }
+    ]
+  },
   "Kanssaloisaktivistit": {
     "status": "artist-not-found",
     "fetched": "2026-11-21"
@@ -16864,6 +17581,108 @@
   "Karanneet Käärmeet": {
     "status": "artist-not-found",
     "fetched": "2026-11-20"
+  },
+  "Karnivool": {
+    "mbid": "9ee2638f-c3a3-4532-bc08-54d397241c2a",
+    "url": "https://www.setlist.fm/setlists/karnivool-6bd7b65a.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/karnivool/2026/king-street-hotel-newcastle-australia-337f2879.html",
+      "date": "2026-11-25",
+      "venue": "King Street Hotel",
+      "city": "Newcastle",
+      "songs": 14
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-05-03",
+    "to": "2026-11-25",
+    "songs": [
+      {
+        "name": "Ghost",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Simple Boy",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Aozora",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Goliath",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Drone",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "We Are",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Deadman",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "All It Takes",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Animation",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Themata",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Roquefort",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "New Day",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Opal",
+        "encore": true,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Salva",
+        "encore": true,
+        "cover": null,
+        "playedPct": 100
+      }
+    ]
   },
   "Kaseva": {
     "mbid": "47bb445b-a3a7-4565-a818-41f8ea4033dd",
@@ -17345,6 +18164,10 @@
   "Kenny Banks Sr.": {
     "status": "artist-not-found",
     "fetched": "2026-11-25"
+  },
+  "Keppikerjäläiset": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Keränen": {
     "status": "artist-not-found",
@@ -18724,6 +19547,13 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Kriso": {
+    "mbid": "0fb98664-29af-4e22-ac07-8332823776a6",
+    "url": "https://www.setlist.fm/setlists/kriso-5bd567b0.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Kruna": {
     "mbid": "df1a107e-f7b5-445e-aec7-fee1dc3db7f3",
     "url": "https://www.setlist.fm/setlists/kruna-3c0a54f.html",
@@ -18903,6 +19733,10 @@
     "status": "artist-not-found",
     "fetched": "2026-11-19"
   },
+  "Kuunpimennys": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "Kyösti Lindeman": {
     "status": "artist-not-found",
     "fetched": "2026-11-25"
@@ -18921,6 +19755,10 @@
       "Ajaton Sointu"
     ],
     "fetched": "2026-11-25"
+  },
+  "KÄTYRLAUMA": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Käärijä": {
     "mbid": "7d863b14-ff39-49e0-9efc-956e15769457",
@@ -19058,6 +19896,10 @@
     "fetched": "2026-11-19",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "La Vibración Club": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Lacuna Coil": {
     "mbid": "6fea1339-260c-40fe-bb7a-ace5c8438955",
@@ -20175,6 +21017,10 @@
     ],
     "fetched": "2026-11-24"
   },
+  "liljalilja": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "Lily Löwe": {
     "mbid": "c2b81e84-26b2-460a-91f7-b139e65bb550",
     "url": "https://www.setlist.fm/setlists/lily-lowe-1bf14544.html",
@@ -20196,6 +21042,10 @@
   "Linkin Park Night! Jumpdafuckup DJs": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
+  },
+  "Lirpo": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Litku Klemetti": {
     "mbid": "ada4bd5c-9ac0-414a-a2f1-5e7836b7b27e",
@@ -20590,6 +21440,20 @@
         "playedPct": 83
       }
     ]
+  },
+  "Lucas Imbiriba": {
+    "mbid": "68cc1f61-9ebf-4e86-8df7-4cb75b950f69",
+    "url": "https://www.setlist.fm/setlists/lucas-imbiriba-5be56f9c.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/lucas-imbiriba/2026/the-barns-vienna-va-1b499d5c.html",
+      "date": "2026-03-11",
+      "venue": "The Barns",
+      "city": "Vienna",
+      "songs": 10
+    },
+    "status": "too-few-setlists",
+    "basedOn": 1
   },
   "LUPAUS": {
     "mbid": "50ceee88-b839-455b-b90d-56dcc81ea436",
@@ -21047,6 +21911,13 @@
     },
     "status": "too-few-setlists",
     "basedOn": 2
+  },
+  "MAAILMANLOPPU": {
+    "mbid": "431160ad-ad66-4890-9c6d-cfae0e865f08",
+    "url": "https://www.setlist.fm/setlists/maailmanloppu-3bd96894.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "Madmans Esprit": {
     "mbid": "a1b3ec79-603f-4945-8270-c28cb68397e5",
@@ -22411,6 +23282,19 @@
       }
     ]
   },
+  "Mastodon": {
+    "mbid": "bc5e2ad6-0a4a-4d90-b911-e9a7e6861727",
+    "url": "https://www.setlist.fm/setlists/mastodon-3d669a7.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/mastodon/2026/texas-motor-speedway-fort-worth-tx-234e2033.html",
+      "date": "2026-10-24",
+      "venue": "Texas Motor Speedway",
+      "city": "Fort Worth",
+      "songs": 8
+    },
+    "status": "no-finnish-shows"
+  },
   "Matt Hart": {
     "mbid": "c4cf6593-20bf-495b-a6e2-5000cb3ccda3",
     "url": "https://www.setlist.fm/setlists/matt-hart-3bd7dc54.html",
@@ -22750,6 +23634,13 @@
         "playedPct": 70
       }
     ]
+  },
+  "MIASMATIC": {
+    "mbid": "54fb4fb6-5965-4a29-8b78-43e74918ee84",
+    "url": "https://www.setlist.fm/setlists/miasmatic-73de1691.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "Michael Monroe": {
     "mbid": "f7e854f4-d845-43e3-8b39-6da632e273e2",
@@ -23703,6 +24594,90 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Monolord": {
+    "mbid": "043225b4-3c61-4aea-8644-9065306d3499",
+    "url": "https://www.setlist.fm/setlists/monolord-33db0cd5.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/monolord/2026/p8-karlsruhe-germany-537d6bd1.html",
+      "date": "2026-11-15",
+      "venue": "P8",
+      "city": "Karlsruhe",
+      "songs": 11
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2026-09-05",
+    "to": "2026-11-15",
+    "songs": [
+      {
+        "name": "Iodine",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "I'll Be Damned",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "The Weary",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "You Bastard",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Oozing Wound",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Audhumbla",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Larvae",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Empress Rising",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "The Last Leaf",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Rust",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Inside a Collider",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      }
+    ]
+  },
   "Monsternaut": {
     "mbid": "1e6083b4-9145-46bb-8fc4-346db8956d19",
     "url": "https://www.setlist.fm/setlists/monsternaut-bc6a14e.html",
@@ -23882,114 +24857,6 @@
         "encore": false,
         "cover": null,
         "playedPct": 93
-      }
-    ]
-  },
-  "MOON WALKER": {
-    "mbid": "5c4c2df9-63ba-4605-a965-5ea11db27cf5",
-    "url": "https://www.setlist.fm/setlists/moon-walker-3bf8208c.html",
-    "fetched": "2026-11-20",
-    "latest": {
-      "url": "https://www.setlist.fm/setlist/moon-walker/2026/halle-munich-germany-6b75d236.html",
-      "date": "2026-11-17",
-      "venue": "Halle",
-      "city": "Munich",
-      "songs": 15
-    },
-    "status": "ok",
-    "basedOn": 15,
-    "from": "2026-09-17",
-    "to": "2026-11-17",
-    "songs": [
-      {
-        "name": "Apocalypticism",
-        "encore": false,
-        "cover": null,
-        "playedPct": 100
-      },
-      {
-        "name": "War Pigs",
-        "encore": false,
-        "cover": "Black Sabbath",
-        "playedPct": 53
-      },
-      {
-        "name": "I DON'T WANNA BE SAVED",
-        "encore": false,
-        "cover": null,
-        "playedPct": 100
-      },
-      {
-        "name": "DISAPPEARING ACT",
-        "encore": false,
-        "cover": null,
-        "playedPct": 80
-      },
-      {
-        "name": "HAPPY FACE",
-        "encore": false,
-        "cover": null,
-        "playedPct": 100
-      },
-      {
-        "name": "SANDBOX",
-        "encore": false,
-        "cover": null,
-        "playedPct": 100
-      },
-      {
-        "name": "The TV Made Me Do It",
-        "encore": false,
-        "cover": null,
-        "playedPct": 87
-      },
-      {
-        "name": "Suffragette City",
-        "encore": false,
-        "cover": "David Bowie",
-        "playedPct": 67
-      },
-      {
-        "name": "SUPERNATIONALIST",
-        "encore": false,
-        "cover": null,
-        "playedPct": 93
-      },
-      {
-        "name": "Ban This Song",
-        "encore": false,
-        "cover": null,
-        "playedPct": 100
-      },
-      {
-        "name": "Big Man",
-        "encore": false,
-        "cover": null,
-        "playedPct": 60
-      },
-      {
-        "name": "EVERYBODY GOES TO HEAVEN",
-        "encore": false,
-        "cover": null,
-        "playedPct": 67
-      },
-      {
-        "name": "YOU’RE NEXT",
-        "encore": false,
-        "cover": null,
-        "playedPct": 73
-      },
-      {
-        "name": "Monopoly Money",
-        "encore": false,
-        "cover": null,
-        "playedPct": 93
-      },
-      {
-        "name": "New God",
-        "encore": false,
-        "cover": null,
-        "playedPct": 100
       }
     ]
   },
@@ -24815,6 +25682,10 @@
       }
     ]
   },
+  "Never Obey Again x Balance Breach": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "New Age Doom": {
     "mbid": "df2a6328-e9ed-4016-b499-a018547c8779",
     "url": "https://www.setlist.fm/setlists/new-age-doom-5bf0e788.html",
@@ -24828,6 +25699,10 @@
     },
     "status": "too-few-setlists",
     "basedOn": 1
+  },
+  "New Year": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "New Year’s Eve with Shiraz Lane &": {
     "status": "artist-not-found",
@@ -27193,6 +28068,10 @@
     "status": "artist-not-found",
     "fetched": "2026-11-21"
   },
+  "PERJANTAINA YLÄKERRASSA": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "Pertti Kurikan": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
@@ -27343,6 +28222,21 @@
     },
     "status": "too-few-setlists",
     "basedOn": 1
+  },
+  "Pikku Papun Orkesteri": {
+    "mbid": "c4da78af-8382-41a2-818c-64c73f5725ee",
+    "url": "https://www.setlist.fm/setlists/pikku-papun-orkesteri-3bce888c.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
+  "Pikku Papun Orkesteri & UMO Helsinki Jazz Orchestra": {
+    "status": "split",
+    "parts": [
+      "Pikku Papun Orkesteri",
+      "UMO Helsinki Jazz Orchestra"
+    ],
+    "fetched": "2026-11-26"
   },
   "Pinhuusi": {
     "status": "artist-not-found",
@@ -27724,10 +28618,6 @@
       }
     ]
   },
-  "Power Metal Night": {
-    "status": "artist-not-found",
-    "fetched": "2026-11-25"
-  },
   "Powerwolf": {
     "mbid": "3ef77bdc-b1ce-4e44-aa4b-acfa763c5284",
     "url": "https://www.setlist.fm/setlists/powerwolf-2bd7949a.html",
@@ -27935,6 +28825,10 @@
   "Pretty": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
+  },
+  "PRETTY MARC": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Pridian": {
     "mbid": "ca868029-e56a-47b8-88c7-af49f7e381a7",
@@ -28222,6 +29116,13 @@
   "Pyry Laakso": {
     "status": "artist-not-found",
     "fetched": "2026-11-24"
+  },
+  "PYRYTHEKID": {
+    "mbid": "28559765-e142-4bc3-816b-fd09223dfc29",
+    "url": "https://www.setlist.fm/setlists/pyrythekid-4bfa1bca.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "Pystyyn Kuolleet Hipit": {
     "mbid": "09ea3400-d647-484c-88f8-f2f8f30e9356",
@@ -28762,6 +29663,84 @@
   "Resin Organ": {
     "status": "artist-not-found",
     "fetched": "2026-11-25"
+  },
+  "RIASA": {
+    "mbid": "5945057b-ba76-4165-88ed-d4b3fb7abc8f",
+    "url": "https://www.setlist.fm/setlists/riasa-2be1c4ee.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/riasa/2026/kult-klubi-helsinki-finland-537f47b9.html",
+      "date": "2026-10-09",
+      "venue": "KULT-klubi",
+      "city": "Helsinki",
+      "songs": 9
+    },
+    "status": "ok",
+    "basedOn": 4,
+    "from": "2025-01-11",
+    "to": "2026-10-09",
+    "songs": [
+      {
+        "name": "Hiomaton",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Kaikki Syntini",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Poltergeist",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Saatanan Sammakko",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Samaa Myrkkyä",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
+      },
+      {
+        "name": "Raadot",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Pelimanni",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Circus Colosseum",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Klovniarmeija",
+        "encore": false,
+        "cover": null,
+        "playedPct": 75
+      },
+      {
+        "name": "Hullut Hurtat",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      }
+    ]
   },
   "Ricky-Tick Big Band & Julkinen Sana": {
     "mbid": "5890347e-ca5a-461c-b5b6-b1a54fcce49a",
@@ -29345,6 +30324,144 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Room Full Of Hendrix": {
+    "mbid": "c9cacce2-9fcf-40f2-bc7b-0e4dfef24d1b",
+    "url": "https://www.setlist.fm/setlists/room-full-of-hendrix-2b86544a.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/room-full-of-hendrix/2026/raahesali-raahe-finland-2372d4ab.html",
+      "date": "2026-10-16",
+      "venue": "Raahesali",
+      "city": "Raahe",
+      "songs": 18
+    },
+    "status": "ok",
+    "basedOn": 4,
+    "from": "2026-01-30",
+    "to": "2026-10-16",
+    "songs": [
+      {
+        "name": "Manic Depression",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 100
+      },
+      {
+        "name": "Spanish Castle Magic",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 50
+      },
+      {
+        "name": "All Along the Watchtower",
+        "encore": false,
+        "cover": "Bob Dylan",
+        "playedPct": 100
+      },
+      {
+        "name": "Bold as Love",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 50
+      },
+      {
+        "name": "Like a Rolling Stone",
+        "encore": false,
+        "cover": "Bob Dylan",
+        "playedPct": 75
+      },
+      {
+        "name": "Stone Free",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 75
+      },
+      {
+        "name": "Gypsy Eyes",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 50
+      },
+      {
+        "name": "The Wind Cries Mary",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 100
+      },
+      {
+        "name": "Hey Joe",
+        "encore": false,
+        "cover": "The Leaves",
+        "playedPct": 100
+      },
+      {
+        "name": "Power to Love",
+        "encore": false,
+        "cover": "Band of Gypsys",
+        "playedPct": 50
+      },
+      {
+        "name": "Them Changes",
+        "encore": false,
+        "cover": "Buddy Miles",
+        "playedPct": 100
+      },
+      {
+        "name": "Machine Gun",
+        "encore": false,
+        "cover": "Band of Gypsys",
+        "playedPct": 50
+      },
+      {
+        "name": "Come On - Part I",
+        "encore": false,
+        "cover": "Earl King",
+        "playedPct": 50
+      },
+      {
+        "name": "Rock Me Baby",
+        "encore": false,
+        "cover": "B.B. King",
+        "playedPct": 75
+      },
+      {
+        "name": "Voodoo Child (Slight Return)",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 75
+      },
+      {
+        "name": "Foxy Lady",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 100
+      },
+      {
+        "name": "Angel",
+        "encore": false,
+        "cover": "Jimi Hendrix",
+        "playedPct": 50
+      },
+      {
+        "name": "Fire",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 50
+      },
+      {
+        "name": "Purple Haze",
+        "encore": false,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 100
+      },
+      {
+        "name": "Little Wing",
+        "encore": true,
+        "cover": "The Jimi Hendrix Experience",
+        "playedPct": 50
+      }
+    ]
+  },
   "Rose Heaven": {
     "mbid": "aeac4068-0c18-4388-bc07-bbe2f7a19c97",
     "url": "https://www.setlist.fm/setlists/rose-heaven-1b914148.html",
@@ -29358,6 +30475,10 @@
     "fetched": "2026-11-24",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "Rotosrock": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Ruissalo Amping": {
     "mbid": "c328f9a9-aaf9-47b3-8344-7cdbbb01431b",
@@ -29737,6 +30858,13 @@
       }
     ]
   },
+  "Rylos": {
+    "mbid": "6f7c8263-5a79-4d7c-b916-011a710511d2",
+    "url": "https://www.setlist.fm/setlists/rylos-33e25c51.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Räjäyttäjät": {
     "mbid": "69a3696f-26c4-4456-ac04-b48e647d85da",
     "url": "https://www.setlist.fm/setlists/rajayttajat-5bd94be0.html",
@@ -30108,6 +31236,10 @@
     "status": "too-few-setlists",
     "basedOn": 0
   },
+  "Same Rock": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "Samuli Edelmann": {
     "mbid": "17656e9b-9bb0-4f12-9d7d-ebb44163dd5a",
     "url": "https://www.setlist.fm/setlists/samuli-edelmann-bd619ea.html",
@@ -30359,6 +31491,36 @@
         "encore": true,
         "cover": null,
         "playedPct": 60
+      }
+    ]
+  },
+  "Sara Bee": {
+    "mbid": "65c4418c-251d-4cba-be7d-30989643f610",
+    "url": "https://www.setlist.fm/setlists/sara-bee-13e3a5e5.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/sara-bee/2026/ratinan-stadion-tampere-finland-43771ba3.html",
+      "date": "2026-08-22",
+      "venue": "Ratinan Stadion",
+      "city": "Tampere",
+      "songs": 13
+    },
+    "status": "ok",
+    "basedOn": 8,
+    "from": "2025-03-06",
+    "to": "2026-08-22",
+    "songs": [
+      {
+        "name": "Baddie",
+        "encore": false,
+        "cover": null,
+        "playedPct": 62
+      },
+      {
+        "name": "Luuleks",
+        "encore": false,
+        "cover": null,
+        "playedPct": 50
       }
     ]
   },
@@ -30669,6 +31831,13 @@
     "mbid": "67f717f5-9607-4667-b80b-abda93bf876c",
     "url": "https://www.setlist.fm/setlists/shere-khan-2b87a482.html",
     "fetched": "2026-11-20",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
+  "Shocked Volk": {
+    "mbid": "92e494d5-49b4-4077-950f-c0b3ac632592",
+    "url": "https://www.setlist.fm/setlists/shocked-volk-397917b.html",
+    "fetched": "2026-11-26",
     "status": "too-few-setlists",
     "basedOn": 0
   },
@@ -31381,6 +32550,13 @@
     "status": "too-few-setlists",
     "basedOn": 2
   },
+  "Spiritual Holocaust": {
+    "mbid": "40917a3b-ca60-49b7-984c-798ebe06010f",
+    "url": "https://www.setlist.fm/setlists/spiritual-holocaust-6bf18e7e.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
+  },
   "Spiritus Mortis": {
     "mbid": "9dd28f79-06b1-4ddc-8fab-cd739dcf8a78",
     "url": "https://www.setlist.fm/setlists/spiritus-mortis-4bd73792.html",
@@ -31793,6 +32969,88 @@
     "status": "artist-not-found",
     "fetched": "2026-11-24"
   },
+  "Steel Systems": {
+    "mbid": "f2c6d097-ae6a-4752-aedf-d0cac100a2ba",
+    "url": "https://www.setlist.fm/setlists/steel-systems-1be72120.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/steel-systems/2026/kemibar-x-kemi-finland-737d26b1.html",
+      "date": "2026-11-07",
+      "venue": "Kemibar X",
+      "city": "Kemi",
+      "songs": 10
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2024-12-14",
+    "to": "2026-11-07",
+    "songs": [
+      {
+        "name": "Ghosts of the Past",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Black and White",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Thicker Than Blood",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Seeds of Hope",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Gleam of The Gods",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "Fly Free",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Toxic Therapy",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Babtized In Fire",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Nighttime",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Down In Flames",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      }
+    ]
+  },
+  "Steen 1": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
+  },
   "Steen1": {
     "mbid": "b50909ce-1288-4c75-aa39-9a209f60f2fc",
     "url": "https://www.setlist.fm/setlists/steen1-5bd73bc8.html",
@@ -31820,6 +33078,19 @@
       "Heimo Ilman Menneisyyttä"
     ],
     "fetched": "2026-11-19"
+  },
+  "Steve Hackett": {
+    "mbid": "f4eb8346-052d-4a5c-8393-cba3aeadb4d9",
+    "url": "https://www.setlist.fm/setlists/steve-hackett-43d6b3a3.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/steve-hackett/2026/teatro-brancaccio-rome-italy-2b760432.html",
+      "date": "2026-11-17",
+      "venue": "Teatro Brancaccio",
+      "city": "Rome",
+      "songs": 16
+    },
+    "status": "no-finnish-shows"
   },
   "Stig": {
     "mbid": "d2855896-a274-4bf7-879e-be307f00c74d",
@@ -33901,6 +35172,20 @@
       }
     ]
   },
+  "The Creeping Terrors": {
+    "mbid": "54563b3e-d328-4fa6-a359-042ca5413eaa",
+    "url": "https://www.setlist.fm/setlists/the-creeping-terrors-3c9013f.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/the-creeping-terrors/2026/supamolly-berlin-germany-6376d6af.html",
+      "date": "2026-04-05",
+      "venue": "Supamolly",
+      "city": "Berlin",
+      "songs": 16
+    },
+    "status": "too-few-setlists",
+    "basedOn": 1
+  },
   "The Devil Wears Prada": {
     "mbid": "43c0958c-27ef-46c4-b4cc-83cfca54170d",
     "url": "https://www.setlist.fm/setlists/the-devil-wears-prada-7bd6f67c.html",
@@ -33960,6 +35245,20 @@
         "playedPct": 100
       }
     ]
+  },
+  "THE EXPECTED": {
+    "mbid": "4d385a25-2ea5-4e51-af2c-7b28d88e51e1",
+    "url": "https://www.setlist.fm/setlists/the-expected-3f84db3.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/the-expected/2026/bar-loose-helsinki-finland-134aa9c5.html",
+      "date": "2026-01-09",
+      "venue": "Bar Loose",
+      "city": "Helsinki",
+      "songs": 2
+    },
+    "status": "too-few-setlists",
+    "basedOn": 1
   },
   "The Flaming Sideburns": {
     "mbid": "61ec51bd-cb8d-4c07-8b9c-632b2f170063",
@@ -34363,6 +35662,13 @@
         "playedPct": 86
       }
     ]
+  },
+  "The Ghoulstars": {
+    "mbid": "1ca2c8eb-c497-411b-a589-2e1ed77444f7",
+    "url": "https://www.setlist.fm/setlists/the-ghoulstars-3386dca5.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "The Halo Effect": {
     "mbid": "4e6e78c6-160f-4e2b-8b25-3227a4ec677f",
@@ -35667,9 +36973,17 @@
   "Timo Kotipelto": {
     "mbid": "fec82413-8cb6-4b7d-8986-33e91f2066fc",
     "url": "https://www.setlist.fm/setlists/timo-kotipelto-43d6ff77.html",
-    "fetched": "2026-11-20",
+    "fetched": "2026-11-26",
     "status": "too-few-setlists",
     "basedOn": 0
+  },
+  "Timo Kotipelto & Jarkko Ahola": {
+    "status": "split",
+    "parts": [
+      "Timo Kotipelto",
+      "Jarkko Ahola"
+    ],
+    "fetched": "2026-11-26"
   },
   "Timo Kotipelto & Robustik": {
     "status": "split",
@@ -36912,7 +38226,7 @@
   },
   "UMO Helsinki Jazz Orchestra": {
     "status": "artist-not-found",
-    "fetched": "2026-11-23"
+    "fetched": "2026-11-26"
   },
   "UMO Helsinki Jazz Orchestra & Satu Sopanen": {
     "status": "split",
@@ -36984,6 +38298,108 @@
     "status": "artist-not-found",
     "fetched": "2026-11-19"
   },
+  "Uniklubi": {
+    "mbid": "496c2c0a-839e-45fd-8bbc-83e94e961727",
+    "url": "https://www.setlist.fm/setlists/uniklubi-53d6ff45.html",
+    "fetched": "2026-11-26",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/uniklubi/2026/klubi-tampere-finland-1b7131e4.html",
+      "date": "2026-11-14",
+      "venue": "Klubi",
+      "city": "Tampere",
+      "songs": 17
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2025-10-04",
+    "to": "2026-11-14",
+    "songs": [
+      {
+        "name": "Haudattu",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "La La Shangri-La",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Kaikki mitä mä annoin",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Kukka",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "Voittaja",
+        "encore": false,
+        "cover": null,
+        "playedPct": 40
+      },
+      {
+        "name": "Huojuva silta",
+        "encore": false,
+        "cover": null,
+        "playedPct": 53
+      },
+      {
+        "name": "Kylmää",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Kiertää kehää",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Menneisyys",
+        "encore": false,
+        "cover": null,
+        "playedPct": 33
+      },
+      {
+        "name": "Ohimenevää",
+        "encore": false,
+        "cover": null,
+        "playedPct": 67
+      },
+      {
+        "name": "Näiden tähtien alla",
+        "encore": false,
+        "cover": null,
+        "playedPct": 60
+      },
+      {
+        "name": "Huomenna",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Rakkautta ja piikkilankaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Bailaten koko elämä",
+        "encore": true,
+        "cover": null,
+        "playedPct": 67
+      }
+    ]
+  },
   "UNKIND": {
     "mbid": "515bbbc4-da82-475d-ace6-63f7c9daf44a",
     "url": "https://www.setlist.fm/setlists/unkind-2bd60c56.html",
@@ -37027,6 +38443,10 @@
   "Uudenvuoden Wieniläiskonsertti": {
     "status": "artist-not-found",
     "fetched": "2026-11-19"
+  },
+  "UUSI VUOSI": {
+    "status": "artist-not-found",
+    "fetched": "2026-11-26"
   },
   "Vaasa Palaa": {
     "mbid": "0bf96208-83a9-4224-8ccd-c63e63bf8aba",
@@ -37531,6 +38951,120 @@
     ]
   },
   "Vesta": {
+    "mbid": "30518945-1726-4094-8a9f-898803fb1c21",
+    "url": "https://www.setlist.fm/setlists/vesta-1bca4570.html",
+    "fetched": "2026-11-25",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/vesta/2026/finlandia-talo-helsinki-finland-3b7a8894.html",
+      "date": "2026-11-19",
+      "venue": "Finlandia-talo",
+      "city": "Helsinki",
+      "songs": 16
+    },
+    "status": "ok",
+    "basedOn": 15,
+    "from": "2025-04-17",
+    "to": "2026-11-19",
+    "songs": [
+      {
+        "name": "Suomi soimaan",
+        "encore": false,
+        "cover": null,
+        "playedPct": 40
+      },
+      {
+        "name": "Fakin Rockstarr",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Valonsäteet",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Vestallica",
+        "encore": false,
+        "cover": null,
+        "playedPct": 87
+      },
+      {
+        "name": "Lupaa et sä lähet",
+        "encore": false,
+        "cover": "Viivi",
+        "playedPct": 47
+      },
+      {
+        "name": "Petturi",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Rakastut muihin tyttöihin",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Sun Katu",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Jää mun viereen",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Saavun kyllä",
+        "encore": false,
+        "cover": null,
+        "playedPct": 47
+      },
+      {
+        "name": "Hei Suomi",
+        "encore": false,
+        "cover": null,
+        "playedPct": 40
+      },
+      {
+        "name": "Annatko pusun",
+        "encore": false,
+        "cover": null,
+        "playedPct": 73
+      },
+      {
+        "name": "Helmi",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Turvallista Sotaa",
+        "encore": false,
+        "cover": null,
+        "playedPct": 80
+      },
+      {
+        "name": "Ota Varovasti",
+        "encore": false,
+        "cover": null,
+        "playedPct": 93
+      },
+      {
+        "name": "Kot Kot",
+        "encore": true,
+        "cover": "Käärijä",
+        "playedPct": 53
+      }
+    ]
+  },
+  "VESTA": {
     "mbid": "30518945-1726-4094-8a9f-898803fb1c21",
     "url": "https://www.setlist.fm/setlists/vesta-1bca4570.html",
     "fetched": "2026-11-25",
@@ -39111,6 +40645,85 @@
         "playedPct": 86
       }
     ]
+  },
+  "WITCHCRAFT": {
+    "mbid": "b3add87c-f814-48c4-a8a5-f0a6f7ead7c1",
+    "url": "https://www.setlist.fm/setlists/witchcraft-2bd6f4f2.html",
+    "fetched": "2026-11-25",
+    "latest": {
+      "url": "https://www.setlist.fm/setlist/witchcraft/2026/dantes-portland-or-1349bd05.html",
+      "date": "2026-03-07",
+      "venue": "Dante's",
+      "city": "Portland",
+      "songs": 4
+    },
+    "status": "ok",
+    "basedOn": 7,
+    "from": "2025-05-22",
+    "to": "2026-03-07",
+    "songs": [
+      {
+        "name": "Schyssta Lögner",
+        "encore": false,
+        "cover": null,
+        "playedPct": 57
+      },
+      {
+        "name": "If Crimson Was Your Colour",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Wooden Cross (I Can't Wake the Dead)",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "No Angel or Demon",
+        "encore": false,
+        "cover": null,
+        "playedPct": 100
+      },
+      {
+        "name": "Queen of Bees",
+        "encore": false,
+        "cover": null,
+        "playedPct": 86
+      },
+      {
+        "name": "Malstroem",
+        "encore": false,
+        "cover": null,
+        "playedPct": 86
+      },
+      {
+        "name": "Her Sisters They Were Weak",
+        "encore": false,
+        "cover": null,
+        "playedPct": 86
+      },
+      {
+        "name": "Leva",
+        "encore": false,
+        "cover": null,
+        "playedPct": 86
+      },
+      {
+        "name": "Witchcraft",
+        "encore": false,
+        "cover": null,
+        "playedPct": 86
+      }
+    ]
+  },
+  "Without Warning": {
+    "mbid": "92ae7a0f-2658-408f-8a31-5877fa6a58c5",
+    "url": "https://www.setlist.fm/setlists/without-warning-43d567eb.html",
+    "fetched": "2026-11-26",
+    "status": "too-few-setlists",
+    "basedOn": 0
   },
   "Wolf Parade": {
     "mbid": "b7ddce8b-9e5c-46bd-9d33-41b134ce1a7f",

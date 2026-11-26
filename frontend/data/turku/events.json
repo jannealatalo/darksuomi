@@ -1035,6 +1035,26 @@
     ]
   },
   {
+    "artist": "Sin Cos Tan",
+    "venue": "Dynamo",
+    "city": "Turku",
+    "date": "2027-01-29T20:00:00",
+    "ticketUrl": "https://www.eventim-light.com/fi/a/66f71ca06036cd257446ccc0/e/6b0703b43911ed8a7bdfbe22",
+    "eventUrl": "https://www.dynamoklubi.com/?page_id=18233",
+    "doors": "20:00",
+    "price": "19,8€",
+    "age": "K-18",
+    "id": 105,
+    "artists": [
+      "Sin Cos Tan"
+    ],
+    "genres": [
+      "synthpop",
+      "electropop",
+      "electronic"
+    ]
+  },
+  {
     "artist": "FOUR FORCEMEN PLAYS KILL ’EM ALL + ROCK CITY BAND TURKU PLAYS OZZY & BLACK SABBATH",
     "venue": "Logomo",
     "city": "Turku",
@@ -1634,7 +1654,7 @@
     ]
   },
   {
-    "artist": "Asla Jo: Baby Gay -konserttisalikiertue",
+    "artist": "ASLA JO – BABY GAY TOUR",
     "venue": "Musiikkitalo Fuuga",
     "city": "Turku",
     "date": "2027-03-27T19:00:00",
@@ -1644,7 +1664,7 @@
     "room": "Ateljee",
     "id": 103,
     "artists": [
-      "Asla Jo"
+      "ASLA JO"
     ],
     "genres": [
       "indie",
@@ -1855,5 +1875,23 @@
       "POHJOLA HEAVY JAZZ GROUP"
     ],
     "genres": []
+  },
+  {
+    "artist": "HEILUNG - \"ELD GEIT FARDHA\" EUROPEAN TOUR 2027 + Support: Lilith Max",
+    "venue": "Logomo",
+    "city": "Turku",
+    "date": "2027-11-14T00:00:00",
+    "ticketUrl": "https://logomo.fi/tapahtuma/heilung-eld-geit-fardha-european-tour-2027-support-lilith-max",
+    "eventUrl": "https://logomo.fi/tapahtuma/heilung-eld-geit-fardha-european-tour-2027-support-lilith-max",
+    "room": "Logomo-sali",
+    "id": 107,
+    "artists": [
+      "Lilith Max"
+    ],
+    "genres": [
+      "folk pop",
+      "singer-songwriter",
+      "folk"
+    ]
   }
 ]

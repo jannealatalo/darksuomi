@@ -703,6 +703,21 @@
     "genres": []
   },
   {
+    "artist": "Karaoke hosted by Baby Van Beeszly",
+    "venue": "Clock-Out Lounge",
+    "city": "Seattle",
+    "date": "2026-11-28T20:00:00",
+    "ticketUrl": "https://www.ticketweb.com/event/clock-out-lounge-presents-karaoke-clock-out-lounge-tickets/15073023?theme=clockout",
+    "eventUrl": "https://clockoutlounge.com/tm-event/clock-out-lounge-presents-karaoke-hosted-by-baby-van-beeszly/",
+    "doors": "20:00",
+    "price": "Free",
+    "id": 568,
+    "artists": [
+      "Karaoke hosted by Baby Van Beeszly"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Flirt… A WLW & FLINTA event, Flirt Dance Night",
     "venue": "Clock-Out Lounge",
     "city": "Seattle",
@@ -2467,6 +2482,25 @@
     ]
   },
   {
+    "artist": "London Elektricity",
+    "venue": "Substation",
+    "city": "Seattle",
+    "date": "2026-12-08T20:00:00",
+    "ticketUrl": "https://www.eventbrite.com/e/london-elektricity-tickets-2005484803032",
+    "eventUrl": "https://www.eventbrite.com/e/london-elektricity-tickets-2005484803032",
+    "doors": "20:00",
+    "id": 564,
+    "artists": [
+      "London Elektricity"
+    ],
+    "genres": [
+      "drum and bass",
+      "liquid funk",
+      "electronic",
+      "dnb"
+    ]
+  },
+  {
     "artist": "Trivium: Crown In The Grave World Tour",
     "venue": "Paramount Theatre",
     "city": "Seattle",
@@ -2807,7 +2841,7 @@
     "eventUrl": "https://www.elcorazonseattle.com/shows/missio-love-heartbreak-tour-11-dec",
     "doors": "19:30",
     "age": "All ages",
-    "price": "$33.30–$155.72",
+    "price": "$25.31–$155.72",
     "id": 152,
     "artists": [
       "MISSIO",
@@ -2905,7 +2939,7 @@
     ]
   },
   {
-    "artist": "Shrek Rave",
+    "artist": "SHREK RAVE",
     "venue": "The Crocodile",
     "city": "Seattle",
     "date": "2026-12-11T22:30:00",
@@ -2914,7 +2948,7 @@
     "doors": "22:30",
     "id": 91,
     "artists": [
-      "Shrek Rave"
+      "SHREK RAVE"
     ],
     "genres": []
   },
@@ -4607,6 +4641,20 @@
     "genres": []
   },
   {
+    "artist": "Sorry For Party Rocking (2010 – 2015 Pop & EDM Bangers All Night Long)",
+    "venue": "Chop Suey",
+    "city": "Seattle",
+    "date": "2027-01-08T21:00:00",
+    "ticketUrl": "https://www.ticketweb.com/event/sorry-for-party-rocking-2010-chop-suey-tickets/15072003?REFID=clientsitewp",
+    "eventUrl": "https://chopsuey.com/tm-event/sorry-for-party-rocking-2010-2015-pop-edm-bangers-all-night-long-3/",
+    "doors": "21:00",
+    "id": 566,
+    "artists": [
+      "Sorry For Party Rocking"
+    ],
+    "genres": []
+  },
+  {
     "artist": "School of Rock – The Beatles",
     "venue": "Chop Suey",
     "city": "Seattle",
@@ -5245,6 +5293,24 @@
     ]
   },
   {
+    "artist": "PROMISCUOUS – A 2000’s CLUB BANGERS THROWBACKS PARTY",
+    "venue": "Chop Suey",
+    "city": "Seattle",
+    "date": "2027-01-23T21:00:00",
+    "ticketUrl": "https://www.ticketweb.com/event/promiscuous-a-2000s-chop-suey-tickets/15071993?REFID=clientsitewp",
+    "eventUrl": "https://chopsuey.com/tm-event/promiscuous-a-2000s-club-bangers-throwbacks-party-3/",
+    "doors": "21:00",
+    "id": 567,
+    "artists": [
+      "PROMISCUOUS"
+    ],
+    "genres": [
+      "reggae",
+      "dub",
+      "electronic"
+    ]
+  },
+  {
     "artist": "Sander Van Doorn",
     "venue": "Substation",
     "city": "Seattle",
@@ -5315,7 +5381,7 @@
     "ticketUrl": "https://www.ticketweb.com/event/raised-by-tv-presents-its-clock-out-lounge-tickets/14428484?theme=clockout",
     "eventUrl": "https://clockoutlounge.com/tm-event/raised-by-tv-presents-its-always-sunny-in-philadelphia-s-1-11/",
     "doors": "17:30",
-    "price": "$11.82",
+    "price": "$13.88",
     "id": 528,
     "artists": [
       "1-11",
@@ -5633,7 +5699,7 @@
     "genres": []
   },
   {
-    "artist": "The Drowns w/ special guest TBA",
+    "artist": "The Drowns w/ Vic Bondi & His Issues, The Chloroforms, The Drowns , Vic Bondi & His Issues , The Chloroforms",
     "venue": "Clock-Out Lounge",
     "city": "Seattle",
     "date": "2027-01-30T20:30:00",
@@ -5643,13 +5709,20 @@
     "price": "$23.12",
     "id": 530,
     "artists": [
-      "The Drowns"
+      "The Drowns",
+      "Vic Bondi & His Issues",
+      "The Chloroforms",
+      "The Drowns",
+      "Vic Bondi & His Issues",
+      "The Chloroforms"
     ],
     "genres": [
       "punk",
       "punk rock",
       "street punk",
-      "rock"
+      "rock",
+      "folk rock",
+      "indie"
     ]
   },
   {

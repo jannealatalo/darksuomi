@@ -15,14 +15,14 @@
         "songs": 19
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "3": {
     "setlists": {}
   },
   "4": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "5": {
     "setlists": {
@@ -42,23 +42,36 @@
     },
     "checked": "2026-11-23"
   },
+  "7": {
+    "setlists": {
+      "Aliisa Syrjä": {
+        "url": "https://www.setlist.fm/setlist/aliisa-syrja/2026/tavastia-helsinki-finland-237160ef.html",
+        "songs": 17
+      }
+    },
+    "checked": "2026-11-26"
+  },
   "84": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "85": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "86": {
     "setlists": {}
   },
   "87": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "88": {
     "setlists": {}
+  },
+  "89": {
+    "setlists": {},
+    "checked": "2026-11-26"
   },
   "186": {
     "setlists": {}
@@ -89,50 +102,66 @@
   "217": {
     "setlists": {}
   },
+  "222": {
+    "setlists": {
+      "Europe": {
+        "url": "https://www.setlist.fm/setlist/europe/2026/kulttuuritalo-helsinki-finland-334c7465.html",
+        "songs": 20
+      }
+    },
+    "checked": "2026-11-26"
+  },
   "223": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "224": {
     "setlists": {}
   },
   "225": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "226": {
     "setlists": {}
   },
   "227": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "228": {
     "setlists": {}
   },
   "229": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
+  },
+  "230": {
+    "setlists": {},
+    "checked": "2026-11-26"
   },
   "245": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "265": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
+  },
+  "266": {
+    "setlists": {}
   },
   "283": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "284": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "285": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "286": {
     "setlists": {
@@ -141,14 +170,17 @@
         "songs": 10
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "287": {
     "setlists": {}
   },
   "288": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
+  },
+  "289": {
+    "setlists": {}
   },
   "312": {
     "setlists": {
@@ -157,7 +189,7 @@
         "songs": 6
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "313": {
     "setlists": {
@@ -166,26 +198,34 @@
         "songs": 14
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "331": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "339": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "340": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "341": {
     "setlists": {}
   },
+  "396": {
+    "setlists": {}
+  },
   "433": {
-    "setlists": {},
-    "checked": "2026-11-25"
+    "setlists": {
+      "Maustetytöt": {
+        "url": "https://www.setlist.fm/setlist/maustetytot/2026/dubrovnik-helsinki-finland-537eafe5.html",
+        "songs": 16
+      }
+    },
+    "checked": "2026-11-26"
   },
   "434": {
     "setlists": {
@@ -215,7 +255,7 @@
   },
   "439": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:1": {
     "setlists": {
@@ -228,22 +268,22 @@
         "songs": 9
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:27": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:36": {
     "setlists": {}
   },
   "oulu:37": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:38": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:39": {
     "setlists": {
@@ -252,11 +292,11 @@
         "songs": 11
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:46": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "oulu:47": {
     "setlists": {
@@ -273,15 +313,15 @@
         "songs": 10
       }
     },
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:1": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:25": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:26": {
     "setlists": {
@@ -303,22 +343,26 @@
   },
   "tampere:96": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:97": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:98": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:114": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:115": {
     "setlists": {}
+  },
+  "tampere:116": {
+    "setlists": {},
+    "checked": "2026-11-26"
   },
   "tampere:184": {
     "setlists": {
@@ -331,7 +375,7 @@
   },
   "tampere:191": {
     "setlists": {},
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
   },
   "tampere:192": {
     "setlists": {}
