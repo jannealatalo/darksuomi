@@ -40,6 +40,7 @@ SETLISTS_FILE = DATA_DIR / "setlists.json"
 PLAYLISTS_FILE = DATA_DIR / "playlists.json"
 GENRE_CONFIG_FILE = DATA_DIR / "genre-config.json"
 TRACKS_FILE = DATA_DIR / "spotify-tracks.json"
+BANDS_FILE = DATA_DIR / "bands.json"  # band directory: "Only the Poets", not "ONLY THE POETS"
 
 API = "https://api.spotify.com/v1"
 MIN_TRACKS = 5          # skip events where fewer songs were found
@@ -131,6 +132,24 @@ def hidden_by_default(event: dict, config: dict) -> bool:
     return not any(r.search(g) for g in top for r in main)
 
 
+def playlist_name(acts: list[str], venue: str, when: str) -> str:
+    """"Kotiteollisuus, Sonata Arctica, Klamydia & Stratovarius – Myyrmäkihalli
+    28.11.2026": every act in the playlist, within Spotify's 100 characters.
+    A bill too long for that ends "… + 3 more"."""
+    tail = f" – {venue} {when}"
+
+    def bill(names: list[str], more: int) -> str:
+        if more:
+            return ", ".join(names) + f" + {more} more"
+        return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " & " + names[-1]
+
+    for n in range(len(acts), 0, -1):
+        name = bill(acts[:n], len(acts) - n) + tail
+        if len(name) <= 100:
+            return name
+    return (acts[0] + tail)[:100]
+
+
 def acts_with_setlists(event: dict, setlists: dict) -> list[tuple[str, dict]]:
     """(artist, setlist) for each act on the bill, in bill order."""
     acts = []
@@ -160,6 +179,7 @@ def main() -> int:
     setlists = load_json(SETLISTS_FILE, {})
     playlists: dict = load_json(PLAYLISTS_FILE, {})
     tracks: dict = load_json(TRACKS_FILE, {})
+    bands: dict = load_json(BANDS_FILE, {})
 
     try:
         sp = Spotify()
@@ -202,7 +222,6 @@ def main() -> int:
                     if tracks[key] and tracks[key] not in uris:
                         uris.append(tracks[key])
 
-            headliner = acts[0][0]
             when = datetime.fromisoformat(event["date"]).strftime("%-d.%-m.%Y") \
                 if sys.platform != "win32" else \
                 datetime.fromisoformat(event["date"]).strftime("%#d.%#m.%Y")
@@ -213,7 +232,8 @@ def main() -> int:
             if args.dry_run:
                 continue
 
-            name = f"{headliner} – {event['venue']} {when}"[:100]
+            name = playlist_name([bands.get(a, {}).get("display") or a for a, _ in acts],
+                                 event["venue"], when)
             description = (
                 f"Expected setlist for {event['artist']} at {event['venue']}, "
                 f"{event['city']} on {when}, based on recent setlist.fm setlists. "
