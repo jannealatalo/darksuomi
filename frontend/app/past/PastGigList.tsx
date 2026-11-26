@@ -5,6 +5,7 @@ import { matchesSearch } from "../../lib/search";
 import { useToday } from "../../lib/today";
 import type { Event } from "../../types/events";
 import EventList from "../EventList";
+import NoHits from "../NoHits";
 import SearchBox from "../SearchBox";
 
 /** Past gigs with the search field (the page itself is a server component). */
@@ -29,7 +30,7 @@ export default function PastGigList({ events }: { events: Event[] }) {
       {shown.length === 0 ? (
         <p className="text-gray-400">
           {searching
-            ? "Nothing found. Maybe they broke up. Maybe they never existed."
+            ? <NoHits />
             : "No past gigs yet."}
         </p>
       ) : (

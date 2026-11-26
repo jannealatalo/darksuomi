@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import SiteFooter, { CONTACT_EMAIL } from "../SiteFooter";
+import SiteFooter from "../SiteFooter";
+import { CONTACT_EMAIL } from "../../lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy – Dark Suomi",

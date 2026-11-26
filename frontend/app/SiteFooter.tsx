@@ -2,7 +2,7 @@ import Link from "next/link";
 import meta from "../data/meta.json";
 import VisitCounter from "./VisitCounter";
 
-export const CONTACT_EMAIL = "jamesturhapuro@gmail.com";
+import { CONTACT_EMAIL } from "../lib/site";
 
 // The year of the last nightly scrape: stable during prerendering (unlike
 // new Date()) and current, since the site is rebuilt every night.

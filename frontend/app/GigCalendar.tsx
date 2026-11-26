@@ -30,6 +30,7 @@ import { useToday } from "../lib/today";
 import { InstallButton } from "./AppShell";
 import { CITIES, HIDDEN_CITIES, cityInfo, type CityKey } from "../lib/cities";
 import { matchesSearch } from "../lib/search";
+import NoHits from "./NoHits";
 import SearchBox from "./SearchBox";
 
 /**
@@ -496,7 +497,7 @@ export default function GigCalendar({
         {filteredEvents.length === 0 ? (
           <p className="text-gray-400">
             {searching
-              ? "Nothing found. Maybe they broke up. Maybe they never existed."
+              ? <NoHits />
               : recommendedOn || lastfmOn
                 ? "No upcoming gigs match these filters"
                 : "No upcoming events"}
