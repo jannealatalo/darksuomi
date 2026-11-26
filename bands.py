@@ -276,13 +276,16 @@ def main() -> int:
             bands[name] = entry
             looked_up += 1
             print(f"  {name}: {', '.join(links) or 'no links'}")
-    except RuntimeError as e:
+    except (RuntimeError, requests.RequestException) as e:
+        # Out of time / request budget, or a lookup failed (a MusicBrainz
+        # read timeout on 26.11.2026): save what is done, retry the rest later.
         print(f"  ! stopping early: {e}. Progress is saved.")
-        # Keep everything not reached yet as it was.
+    finally:
+        # Keep everything not reached yet as it was, whatever stopped the run:
+        # saving only the bands looked up so far would empty the directory.
         for name in wanted:
             if name not in bands and name in old:
                 bands[name] = dict(old[name])
-    finally:
         try:
             print(f"  Wikipedia links added: {add_wikipedia_links(bands)}")
         except requests.RequestException as e:

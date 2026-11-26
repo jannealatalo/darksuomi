@@ -3018,7 +3018,7 @@
     "status": "sold out"
   },
   {
-    "artist": "Stam1na: Dirty Years 2026 + Hyljätyt",
+    "artist": "Stam1na + Hyljätyt – Dirty Years 2026",
     "venue": "Espoon kulttuurikeskus",
     "city": "Espoo",
     "date": "2026-12-05T19:00:00",
@@ -3027,10 +3027,13 @@
     "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agqed6qxmu",
     "id": 490,
     "artists": [
-      "Dirty Years",
+      "Stam1na",
       "Hyljätyt"
     ],
     "genres": [
+      "thrash metal",
+      "progressive metal",
+      "metal",
       "hardcore",
       "punk",
       "hardcore punk"

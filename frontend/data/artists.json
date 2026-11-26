@@ -10055,8 +10055,9 @@
     "fetched": "2026-11-23"
   },
   "liljalilja": {
-    "source": "error",
-    "tags": []
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-26"
   },
   "Lily Löwe": {
     "source": "lastfm",
