@@ -246,6 +246,13 @@
         "pop",
         "finnish pop"
       ]
+    },
+    "Drink Floyd": {
+      "genres": [
+        "progressive rock",
+        "psychedelic rock",
+        "classic rock"
+      ]
     }
   },
   "genreFilters": [
