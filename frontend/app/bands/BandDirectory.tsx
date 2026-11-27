@@ -101,7 +101,7 @@ function BandRow({ band }: { band: Band }) {
 
       <p className="text-sm text-gray-300">
         {band.gigs.map((gig, i) => (
-          <span key={gig.id}>
+          <span key={`${gig.gigsPath}${gig.id}`}>
             {i > 0 && <span className="text-gray-600"> · </span>}
             <Link href={`${gig.gigsPath}#gig-${gig.id}`} className="hover:text-white">
               <span className="font-semibold text-gray-100">{shortDate(gig.date)}</span>{" "}
