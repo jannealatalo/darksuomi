@@ -250,19 +250,23 @@ def main() -> int:
             entry = dict(old.get(name, {}))
             # A hand-checked override wins over the looked-up artist, which
             # may be someone else with the same name ("OLGA" vs a Brazilian Olga).
-            genre_entry = ({"tags": overrides[name]["genres"]} if name in overrides
-                           else genre_cache.get(name, {}))
+            # Its "mbid" (when given) picks the right MusicBrainz artist too.
+            genre_entry = ({"tags": overrides[name]["genres"], "mbid": overrides[name].get("mbid")}
+                           if name in overrides else genre_cache.get(name, {}))
             entry["genres"] = genre_entry.get("tags", [])[:3]
             # Last.fm / MusicBrainz spelling: "Amorphis", not "AMORPHIS".
             matched = genre_entry.get("matchedName") or name
             entry["display"] = matched if _norm(matched) == _norm(name) else name
-            if not args.refresh and entry.get("fetched", "") >= stale:
+            pinned = overrides.get(name, {}).get("mbid")
+            if not args.refresh and entry.get("fetched", "") >= stale                     and (not pinned or pinned == entry.get("mbid")):
                 bands[name] = entry
                 continue
             if time.monotonic() > deadline:
                 raise RuntimeError(f"time budget of {args.minutes:g} min used")
 
             mbid = genre_entry.get("mbid") or entry.get("mbid")
+            if name in overrides and overrides[name].get("mbid"):
+                mbid = overrides[name]["mbid"]
             if not mbid:
                 found = musicbrainz_lookup(name, None)
                 mbid = found.get("mbid") if found else None

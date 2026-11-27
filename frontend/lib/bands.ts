@@ -7,6 +7,7 @@ import { CITIES } from "./cities";
 import { getAllEvents, getEvents } from "./events";
 import type { Event, GigBand } from "../types/events";
 import { LINK_LABELS, bandSlug, type LinkKind } from "./bandLinks";
+import { isUpcomingDate, latestReleaseByBand } from "./releases";
 
 export { LINK_LABELS, bandSlug, type LinkKind };
 
@@ -38,6 +39,8 @@ export type Band = {
   gigs: BandGig[];
   /** The latest past gig, shown when there are no upcoming ones. */
   lastGig?: BandGig;
+  /** Newest album/EP from the release radar (recent or announced). */
+  release?: { title: string; type: string; date: string; url?: string; upcoming: boolean };
 };
 
 /** Search pages for the main services, used when no profile link is known. */
@@ -94,8 +97,13 @@ export function getBands(): Band[] {
       known.gigs.push(...gigs.filter((g) => !ids.has(`${g.gigsPath}${g.id}`)));
     }
   }
+  const releases = latestReleaseByBand();
   return [...bands.values()]
-    .map((b) => ({ ...b, gigs: b.gigs.sort((a, c) => a.date.localeCompare(c.date)) }))
+    .map((b) => {
+      const r = releases.get(bandSlug(b.name));
+      const release = r && { title: r.title, type: r.type, date: r.date, url: r.links[0]?.[1], upcoming: isUpcomingDate(r.date) };
+      return { ...b, gigs: b.gigs.sort((a, c) => a.date.localeCompare(c.date)), ...(release && { release }) };
+    })
     .sort((a, b) => a.name.localeCompare(b.name, "fi", { sensitivity: "base" }));
 }
 

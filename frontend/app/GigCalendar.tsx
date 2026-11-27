@@ -278,6 +278,9 @@ export default function GigCalendar({
                 <Link href="/bands" className={NAV_BUTTON} title="Links to Spotify, Bandcamp, SoundCloud…">
                   Band Directory
                 </Link>
+                <Link href="/releases" className={NAV_BUTTON} title="New and upcoming albums and EPs">
+                  Release Radar
+                </Link>
                 <Link href="/past" className={NAV_BUTTON}>
                   Past gigs & setlists
                 </Link>

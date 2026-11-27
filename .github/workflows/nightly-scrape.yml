@@ -288,6 +288,14 @@ jobs:
           SPOTIFY_PLAYLIST_REFRESH_TOKEN: ${{ secrets.SPOTIFY_PLAYLIST_REFRESH_TOKEN }}
         run: python bands.py
 
+      - name: Release radar (new and upcoming albums and EPs)
+        # MusicBrainz + Cover Art Archive + song.link (no Spotify API calls:
+        # the playlists need that quota). Stops and saves after 6 minutes by
+        # itself (each band is re-checked every few days). Not critical.
+        continue-on-error: true
+        timeout-minutes: 12
+        run: python releases.py
+
       - name: Email the new gigs
         # To the owner (secrets SMTP_USERNAME, SMTP_PASSWORD = an app password,
         # MAIL_TO), to newsletter subscribers (secret BUTTONDOWN_API_KEY) and

@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/oulu", "daily", 0.9),
     page("/turku", "daily", 0.9),
     page("/bands", "weekly", 0.6),
+    page("/releases", "daily", 0.5),
     page("/past", "daily", 0.5),
     page("/standup", "daily", 0.4),
     page("/updates", "monthly", 0.3),

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { releaseDate } from "../../lib/releaseDate";
 import { useState } from "react";
 import {
   LINK_LABELS,
@@ -118,6 +119,22 @@ function BandRow({ band }: { band: Band }) {
           </span>
         )}
       </p>
+
+      {band.release && (
+        <p className="text-sm text-gray-300">
+          <Link href="/releases" className="text-gray-500 hover:text-gray-300">
+            {band.release.upcoming ? "Coming" : "New"} {band.release.type.toLowerCase()}:
+          </Link>{" "}
+          {band.release.url ? (
+            <a href={band.release.url} target="_blank" rel="noopener noreferrer" className="italic hover:text-white">
+              {band.release.title}
+            </a>
+          ) : (
+            <span className="italic">{band.release.title}</span>
+          )}{" "}
+          <span className="text-gray-500">({releaseDate(band.release.date)})</span>
+        </p>
+      )}
 
       <p className="text-sm mt-1">
         {confirmed.map(([kind, label], i) => (

@@ -1787,11 +1787,20 @@
       336,
       445
     ],
-    "mbid": null,
+    "mbid": "36bceadf-9a98-4f1c-b730-3edebb02e774",
     "links": {
-      "spotify": "https://open.spotify.com/artist/11tiA94VlUZOUTVCdQYw3a"
+      "bandcamp": "https://conan-conan.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/1846293",
+      "spotify": "https://open.spotify.com/artist/11tiA94VlUZOUTVCdQYw3a",
+      "deezer": "https://www.deezer.com/artist/807641",
+      "homepage": "http://www.hailconan.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Conan/96731",
+      "instagram": "https://www.instagram.com/hailconan/",
+      "apple": "https://music.apple.com/de/artist/273980716",
+      "tidal": "https://tidal.com/artist/4300913",
+      "wikidata": "https://www.wikidata.org/wiki/Q19872238"
     },
-    "fetched": "2026-11-20"
+    "fetched": "2026-11-27"
   },
   "Cory Henry": {
     "genres": [
@@ -5989,20 +5998,14 @@
     "eventIds": [
       358
     ],
-    "mbid": "99513c45-6c2d-4a6b-a089-074360591f01",
+    "mbid": "c4077d8b-44ea-4195-9c9f-53b83e21d057",
     "links": {
-      "discogs": "https://www.discogs.com/artist/115680",
-      "spotify": "https://open.spotify.com/artist/6soPpJHlCtN6SY8pWlfbC6",
-      "deezer": "https://www.deezer.com/artist/867",
-      "homepage": "https://labo-m.net/",
-      "instagram": "https://www.instagram.com/m_chedid/",
-      "apple": "https://music.apple.com/us/artist/7003061",
-      "tidal": "https://tidal.com/artist/3662692",
-      "wikidata": "https://www.wikidata.org/wiki/Q2365459",
-      "youtube": "https://www.youtube.com/channel/UC1_1tcGkCEqhRI5MxdaSlLw",
-      "wikipedia": "https://en.wikipedia.org/wiki/Matthieu_Chedid"
+      "discogs": "https://www.discogs.com/artist/1438501",
+      "spotify": "https://open.spotify.com/artist/3Morn5TpdjMah0L9EtAxdH",
+      "homepage": "http://m-official.fi/",
+      "wikidata": "https://www.wikidata.org/wiki/Q62657866"
     },
-    "fetched": "2026-11-20"
+    "fetched": "2026-11-27"
   },
   "Maa ilmasta": {
     "genres": [

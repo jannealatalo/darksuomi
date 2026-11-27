@@ -132,7 +132,9 @@
         "indie",
         "singer-songwriter",
         "electronic"
-      ]
+      ],
+      "mbid": "c4077d8b-44ea-4195-9c9f-53b83e21d057",
+      "note": "Minja Koski (FI), not the French -M-"
     },
     "Alchemy": {
       "genres": [
@@ -253,6 +255,15 @@
         "psychedelic rock",
         "classic rock"
       ]
+    },
+    "Conan": {
+      "genres": [
+        "doom metal",
+        "sludge",
+        "stoner metal"
+      ],
+      "mbid": "36bceadf-9a98-4f1c-b730-3edebb02e774",
+      "note": "UK doom band, not the German audio drama"
     }
   },
   "genreFilters": [

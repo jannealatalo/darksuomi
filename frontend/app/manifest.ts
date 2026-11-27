@@ -23,6 +23,7 @@ export default function manifest(): MetadataRoute.Manifest {
       { name: "Oulu", url: "/oulu" },
       { name: "Turku", url: "/turku" },
       { name: "Band Directory", url: "/bands" },
+      { name: "Release Radar", url: "/releases" },
     ],
   };
 }
