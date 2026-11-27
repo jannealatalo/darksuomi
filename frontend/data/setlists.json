@@ -22741,128 +22741,104 @@
     "basedOn": 0
   },
   "M": {
-    "mbid": "99513c45-6c2d-4a6b-a089-074360591f01",
-    "url": "https://www.setlist.fm/setlists/m-73d60abd.html",
-    "fetched": "2026-11-20",
+    "mbid": "c4077d8b-44ea-4195-9c9f-53b83e21d057",
+    "url": "https://www.setlist.fm/setlists/m-5bca2ff4.html",
+    "fetched": "2026-11-27",
     "latest": {
-      "url": "https://www.setlist.fm/setlist/m/2026/arkea-arena-floirac-france-5b706780.html",
-      "date": "2026-08-27",
-      "venue": "Arkea Arena",
-      "city": "Floirac",
-      "songs": 2
+      "url": "https://www.setlist.fm/setlist/m/2026/telakka-tampere-finland-5b7c8f90.html",
+      "date": "2026-10-23",
+      "venue": "Telakka",
+      "city": "Tampere",
+      "songs": 17
     },
     "status": "ok",
-    "basedOn": 15,
-    "from": "2025-04-29",
-    "to": "2026-08-27",
+    "basedOn": 4,
+    "from": "2024-12-14",
+    "to": "2026-10-23",
     "songs": [
       {
-        "name": "Ama kora",
+        "name": "Ounasjoen Ainoja",
         "encore": false,
         "cover": null,
-        "playedPct": 67
+        "playedPct": 50
       },
       {
-        "name": "Amssétou",
+        "name": "Tehtaantyttö",
         "encore": false,
         "cover": null,
-        "playedPct": 73
+        "playedPct": 100
       },
       {
-        "name": "Je suis Mali",
+        "name": "Seitsemältä niityltä",
         "encore": false,
         "cover": null,
-        "playedPct": 80
+        "playedPct": 50
       },
       {
-        "name": "Cet air",
+        "name": "Sillat",
         "encore": false,
         "cover": null,
-        "playedPct": 60
+        "playedPct": 75
       },
       {
-        "name": "Totem",
+        "name": "Lampi",
         "encore": false,
         "cover": null,
-        "playedPct": 73
+        "playedPct": 100
       },
       {
-        "name": "Yalemo",
+        "name": "Muista",
         "encore": false,
         "cover": null,
-        "playedPct": 33
+        "playedPct": 50
       },
       {
-        "name": "Solidarité",
+        "name": "On keskityttävä eläviin",
         "encore": false,
         "cover": null,
-        "playedPct": 60
+        "playedPct": 75
       },
       {
-        "name": "Bel ami",
+        "name": "Molotovin cocktail",
         "encore": false,
         "cover": null,
-        "playedPct": 73
+        "playedPct": 75
       },
       {
-        "name": "Il neige à Bamako",
+        "name": "Puolipilvistä säätä",
         "encore": false,
         "cover": null,
-        "playedPct": 60
+        "playedPct": 50
       },
       {
-        "name": "Mama Sam",
+        "name": "Duck Hunt",
         "encore": false,
         "cover": null,
-        "playedPct": 87
+        "playedPct": 100
       },
       {
-        "name": "Je dis aime",
+        "name": "Punainen ovi",
         "encore": false,
         "cover": null,
-        "playedPct": 93
+        "playedPct": 50
       },
       {
-        "name": "Manitoumani",
+        "name": "Kuolleen naisen maalauksia",
         "encore": false,
         "cover": null,
-        "playedPct": 67
+        "playedPct": 75
       },
       {
-        "name": "Bal de Bamako",
-        "encore": false,
-        "cover": null,
-        "playedPct": 47
-      },
-      {
-        "name": "Moussow",
-        "encore": false,
-        "cover": null,
-        "playedPct": 60
-      },
-      {
-        "name": "Machistador",
-        "encore": false,
-        "cover": null,
-        "playedPct": 40
-      },
-      {
-        "name": "Une âme",
+        "name": "Sinun omasi",
         "encore": true,
-        "cover": null,
-        "playedPct": 67
+        "cover": "Tamara Lund",
+        "playedPct": 50
       },
       {
-        "name": "Ad vitam",
+        "name": "Ne kesäyöt",
         "encore": true,
-        "cover": null,
-        "playedPct": 60
-      },
-      {
-        "name": "Je t'aime",
-        "encore": true,
-        "cover": null,
-        "playedPct": 73
+        "cover": "Anki",
+        "playedPct": 50
       }
     ]
   },

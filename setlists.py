@@ -39,6 +39,7 @@ DATA_DIR = ROOT / "frontend" / "data"
 EVENTS_FILE = DATA_DIR / "events.json"
 ARTISTS_FILE = DATA_DIR / "artists.json"
 SETLISTS_FILE = DATA_DIR / "setlists.json"
+GENRE_CONFIG_FILE = DATA_DIR / "genre-config.json"
 PAST_SETLISTS_FILE = DATA_DIR / "past-setlists.json"
 
 API = "https://api.setlist.fm/rest/1.0"
@@ -305,6 +306,13 @@ def main() -> int:
     events_by_city = {None: load_events(), **{c: load_events(c) for c in CITIES}}
     events = [e for city_events in events_by_city.values() for e in city_events]
     genre_cache = load_json(ARTISTS_FILE, {})
+    overrides = load_json(GENRE_CONFIG_FILE, {}).get("artistOverrides", {})
+
+    def mbid_of(name: str) -> str | None:
+        # A hand-checked MusicBrainz ID wins: "M" is Minja Koski, not the
+        # French -M- that a name search finds.
+        return overrides.get(name, {}).get("mbid") or genre_cache.get(name, {}).get("mbid")
+
     cache = load_json(SETLISTS_FILE, {})
     stale_before = (date.today() - timedelta(days=CACHE_DAYS)).isoformat()
 
@@ -327,7 +335,9 @@ def main() -> int:
     # refreshes spread over several days instead of all landing on one.
     due = [n for n in wanted
            if args.refresh or n not in cache
-           or cache[n].get("fetched", "") < stale_before]
+           or cache[n].get("fetched", "") < stale_before
+           or (overrides.get(n, {}).get("mbid")
+               and cache[n].get("mbid") not in (None, overrides[n]["mbid"]))]
     due.sort(key=lambda n: cache.get(n, {}).get("fetched", ""))
     if len(due) > args.max:
         print(f"  {len(due)} artists due, fetching {args.max} this run")
@@ -337,13 +347,13 @@ def main() -> int:
         country = wanted[name]
         print(f"  {name}")
         try:
-            entry = build(name, country, genre_cache.get(name, {}).get("mbid"))
+            entry = build(name, country, mbid_of(name))
             # "Blues Pills & Graveyard" -> look up each act separately.
             if entry["status"] == "artist-not-found" and " & " in name:
                 parts = [p.strip() for p in name.split(" & ") if p.strip()]
                 entry = {"status": "split", "parts": parts, "fetched": entry["fetched"]}
                 for part in parts:
-                    cache[part] = build(part, country, genre_cache.get(part, {}).get("mbid"))
+                    cache[part] = build(part, country, mbid_of(part))
             cache[name] = entry
         except BudgetExhausted:
             print(f"  ! stopped after {_requests_made} requests (daily budget)",
