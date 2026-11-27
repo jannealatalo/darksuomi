@@ -545,8 +545,8 @@
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
     "date": "2026-11-29T18:00:00",
-    "ticketUrl": "https://vastavirta.net/",
-    "eventUrl": "https://vastavirta.net/#2026-11-29-1800",
+    "ticketUrl": "https://facebook.com/events/s/terassi-pub-ylakerta-tampere-2/963578179903473/",
+    "eventUrl": "https://facebook.com/events/s/terassi-pub-ylakerta-tampere-2/963578179903473/",
     "doors": "18:00",
     "price": "Vapaa pääsy",
     "room": "Terassi Pub Yläkerta",
@@ -823,7 +823,8 @@
     "genres": [
       "indie",
       "singer-songwriter"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "BACK TO PLAN A : A Solidarity show : Hautaustoimisto, Loppuromahdus, ’áháchí",
@@ -1081,22 +1082,23 @@
     ]
   },
   {
-    "artist": "Haexler (ger), Dehumanisaatio, Mielivalta, Suitsuke",
+    "artist": "Haexler (ger), Suitsuke, Dehumanisaatio, Mielivalta, Älyämpäri",
     "venue": "Vastavirta-klubi",
     "city": "Tampere",
-    "date": "2026-12-11T21:00:00",
+    "date": "2026-12-11T20:00:00",
     "ticketUrl": "https://www.facebook.com/events/1085542334482215",
     "eventUrl": "https://www.facebook.com/events/1085542334482215",
-    "doors": "21:00",
+    "doors": "20:00",
     "price": "7 €",
     "room": "Vastavirta-Klubi (alakerta)",
     "venueDefault": "rock",
     "id": 110,
     "artists": [
       "Haexler",
+      "Suitsuke",
       "Dehumanisaatio",
       "Mielivalta",
-      "Suitsuke"
+      "Älyämpäri"
     ],
     "genres": [
       "grindcore",
@@ -1813,19 +1815,20 @@
     ]
   },
   {
-    "artist": "Jukka Nousiainen & Sini Suvanto -levynjulkaisukeikka",
+    "artist": "Jukka Nousiainen & Sini Suvanto -levynjulkaisukeikka, Ville Pirinen Combat School",
     "venue": "Tullikamarin Klubi",
     "city": "Tampere",
     "date": "2027-01-09T19:00:00",
-    "ticketUrl": "https://tullikamari.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levynjulkaisukeikka-09-01-2027/",
-    "eventUrl": "https://tullikamari.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levynjulkaisukeikka-09-01-2027/",
+    "ticketUrl": "https://tullikamari.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levynjulkaisukeikka-ville-pirinen-combat-school-09-01-2027/",
+    "eventUrl": "https://tullikamari.fi/tapahtumat/jukka-nousiainen-sini-suvanto-levynjulkaisukeikka-ville-pirinen-combat-school-09-01-2027/",
     "doors": "19:00",
     "price": "alk. 17,50€, ovelta 20€",
     "age": "K-18",
     "room": "Klubi",
     "id": 48,
     "artists": [
-      "Jukka Nousiainen & Sini Suvanto -levynjulkaisukeikka"
+      "Jukka Nousiainen & Sini Suvanto -levynjulkaisukeikka",
+      "Ville Pirinen Combat School"
     ],
     "genres": [
       "lo-fi",

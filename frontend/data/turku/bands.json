@@ -156,23 +156,6 @@
       7
     ]
   },
-  "Asla Jo": {
-    "genres": [
-      "indie",
-      "pop"
-    ],
-    "display": "Asla Jo",
-    "mbid": "7325af58-5068-446b-ad58-6fb915fd38d8",
-    "links": {
-      "spotify": "https://open.spotify.com/artist/5z6VH7BWb3QDIAhdMILyG4",
-      "instagram": "https://www.instagram.com/asla.jo/",
-      "tidal": "https://tidal.com/artist/24896007"
-    },
-    "fetched": "2026-11-23",
-    "eventIds": [
-      103
-    ]
-  },
   "ASLA JO": {
     "genres": [
       "indie",
@@ -940,6 +923,27 @@
       18
     ]
   },
+  "Lilith Max": {
+    "genres": [
+      "folk pop",
+      "singer-songwriter",
+      "folk"
+    ],
+    "display": "Lilith Max",
+    "mbid": "875cba95-c7a7-491c-964d-171c931c32e5",
+    "links": {
+      "bandcamp": "https://lilithmax.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/797SPxZf82IYq3XCM8c9AM",
+      "deezer": "https://www.deezer.com/artist/92994032",
+      "homepage": "https://lilithmax.com/",
+      "apple": "https://music.apple.com/gb/artist/1510645459",
+      "tidal": "https://tidal.com/artist/19352943"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      107
+    ]
+  },
   "LOUDER THAN SIRENS": {
     "genres": [],
     "display": "Louder Than Sirens",
@@ -1640,6 +1644,24 @@
     "eventIds": [
       15
     ]
+  },
+  "Sin Cos Tan": {
+    "genres": [
+      "synthpop",
+      "electropop",
+      "electronic"
+    ],
+    "display": "Sin Cos Tan",
+    "eventIds": [
+      105
+    ],
+    "mbid": "f4e7ff9b-aab4-48a9-b911-f854da8dd61a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2881457",
+      "homepage": "http://sincostan.net/",
+      "youtube": "https://www.youtube.com/channel/UCock0CV36-TBDUzoWWuqVlw"
+    },
+    "fetched": "2026-11-19"
   },
   "Sisar": {
     "genres": [

@@ -479,6 +479,22 @@
       41
     ]
   },
+  "Drink Floyd": {
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock"
+    ],
+    "display": "Drink Floyd",
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/65jhvh6dDRrz28xgaoQWJK"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      19
+    ]
+  },
   "Ellinoora": {
     "genres": [
       "pop"
@@ -1440,6 +1456,25 @@
       2
     ]
   },
+  "MOON SHOT": {
+    "genres": [
+      "alternative rock",
+      "rock"
+    ],
+    "display": "Moon Shot",
+    "mbid": "66cfd8fe-f1c3-4ded-a394-73880fe7e522",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/10211710",
+      "homepage": "https://www.moonshotofficial.com/",
+      "instagram": "https://www.instagram.com/moonshotmusic/",
+      "youtube": "https://www.youtube.com/channel/UCUfsWPCG-r3IHJvD93QiCdw",
+      "spotify": "https://open.spotify.com/artist/7q6MMOgRRdkw9Xw5xAfQa9"
+    },
+    "fetched": "2026-11-24",
+    "eventIds": [
+      77
+    ]
+  },
   "Mouhous": {
     "genres": [
       "rap"
@@ -1864,6 +1899,21 @@
       47
     ]
   },
+  "Steel Systems": {
+    "genres": [
+      "heavy metal"
+    ],
+    "display": "Steel Systems",
+    "mbid": "f2c6d097-ae6a-4752-aedf-d0cac100a2ba",
+    "links": {
+      "instagram": "https://www.instagram.com/steelsystemsheavymetal/",
+      "spotify": "https://open.spotify.com/artist/4EjKesqPUOY7RqX24tJoy6"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      29
+    ]
+  },
   "Steen 1": {
     "genres": [
       "rap",
@@ -2122,6 +2172,25 @@
       "wikipedia": "https://fi.wikipedia.org/wiki/Vimma_(yhtye)"
     },
     "fetched": "2026-11-20"
+  },
+  "Without Warning": {
+    "genres": [
+      "progressive metal",
+      "industrial metal",
+      "modern metal"
+    ],
+    "display": "Without Warning",
+    "mbid": "92ae7a0f-2658-408f-8a31-5877fa6a58c5",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/1808985",
+      "metalArchives": "https://www.metal-archives.com/bands/Without_Warning/11131",
+      "wikidata": "https://www.wikidata.org/wiki/Q15041039",
+      "spotify": "https://open.spotify.com/artist/4t91G6AzXhhZXQkbpZX7Fe"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      76
+    ]
   },
   "Zero Nine": {
     "genres": [

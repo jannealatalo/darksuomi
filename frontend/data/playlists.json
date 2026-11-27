@@ -14,7 +14,7 @@
   "https://helsinginjaahalli.fi/events/beast-in-black-return-of-the-beast": {
     "id": "3nzyUslTGZaxqMt4c4AgLx",
     "url": "https://open.spotify.com/playlist/3nzyUslTGZaxqMt4c4AgLx",
-    "hash": "f80c0b86f1f08d5beecb597eca89a0d03d4640d9",
+    "hash": "f19be3f5e19aa1381d7318b2e377247c0f9e8d50",
     "tracks": 17
   },
   "https://kauppa.krapinpaja.fi/product/irina-s2026": {
@@ -65,6 +65,12 @@
     "hash": "c245176f0bcad50de4e4a0e4bb6004e6f83176f4",
     "tracks": 22
   },
+  "https://kulttuuritalo.lippu.fi/event/Maija-Vilkkumaa-Karaoke-queen/165074/398964/details": {
+    "id": "1YNveFlVjlyE0S7PtJ1iJb",
+    "url": "https://open.spotify.com/playlist/1YNveFlVjlyE0S7PtJ1iJb",
+    "hash": "3dbd6e0c8e822efbab42ffc242421f9b39fa19f4",
+    "tracks": 14
+  },
   "https://tavastiaklubi.fi/events/2026-11-19/kauko-royhka-voimaelain/121402/": {
     "id": "3FPSjEPXpR3bVRn6nV9VBu",
     "url": "https://open.spotify.com/playlist/3FPSjEPXpR3bVRn6nV9VBu",
@@ -104,25 +110,25 @@
   "https://tavastiaklubi.fi/events/2026-11-27/stam1na-dirty-years-2026/120340/": {
     "id": "3ZP5EXBizXB2xqN3FlIKea",
     "url": "https://open.spotify.com/playlist/3ZP5EXBizXB2xqN3FlIKea",
-    "hash": "c7ea78dc0bed1017b3d6f9348db3b487b3fc0816",
+    "hash": "cac733e691f0f10e9740db219bea4bb1b706acfe",
     "tracks": 12
   },
   "https://tavastiaklubi.fi/events/2026-11-28/what-awaits-us-traitors-among-us-ashes-of-perishing/122061/": {
     "id": "1jOldwmjKyfJWzBFHzFgEy",
     "url": "https://open.spotify.com/playlist/1jOldwmjKyfJWzBFHzFgEy",
-    "hash": "d8c51647783eae92e93b8554e690297e636633e4",
+    "hash": "9cbc518b76295196e0a8fb48b24498e4456694ab",
     "tracks": 17
   },
   "https://tavastiaklubi.fi/events/2026-11-29/master-boot-record-ita-fulci-ita-arottenbit-ita/116589/": {
     "id": "2Qezw5rOFuBuM3UjE71xlH",
     "url": "https://open.spotify.com/playlist/2Qezw5rOFuBuM3UjE71xlH",
-    "hash": "36ec78c21255868d70163591fae3a070036e38e4",
+    "hash": "b07f3039f75175e12a23dc9ed92844e5916aae89",
     "tracks": 20
   },
   "https://tavastiaklubi.fi/events/2026-12-01/the-hardkiss-ua/112283/": {
     "id": "6164WwMs9zoXlwL5Enb6du",
     "url": "https://open.spotify.com/playlist/6164WwMs9zoXlwL5Enb6du",
-    "hash": "a09ad10888cba41b18e00f8a2fc83691408ab7ad",
+    "hash": "7248c37b937427f929bcb13c42584688a94e5412",
     "tracks": 18
   },
   "https://tavastiaklubi.fi/events/2026-12-04/nelja-ruusua/119854/": {
@@ -134,7 +140,7 @@
   "https://tavastiaklubi.fi/events/2026-12-05/blues-pills-graveyard-tour-2026/118975/": {
     "id": "61tXgQxGJf2d2GU8eNuNR3",
     "url": "https://open.spotify.com/playlist/61tXgQxGJf2d2GU8eNuNR3",
-    "hash": "5dc84d2f41f4e74ba31f0cb804f2dd5bd5e33cf2",
+    "hash": "22deaf1c75828fcceac4e248e16029919f14d7ce",
     "tracks": 30
   },
   "https://www.dubrovnik.fi/keikat/maustetytot/": {
@@ -149,6 +155,12 @@
     "hash": "b5a2cd4640df14a2d396f241d64587e20922d34c",
     "tracks": 9
   },
+  "https://www.lippu.fi/artist/stam1na/stam1na-dirty-years-2026-kiertue-4226888/": {
+    "id": "7hHsyyOiQrOhe5EpM38mE9",
+    "url": "https://open.spotify.com/playlist/7hHsyyOiQrOhe5EpM38mE9",
+    "hash": "858be0ab450ebb455ba2db475cc93a3425ca090f",
+    "tracks": 12
+  },
   "https://www.lippu.fi/event/21330994": {
     "id": "7L9EZdwSQ5ahoDTpHjwBbV",
     "url": "https://open.spotify.com/playlist/7L9EZdwSQ5ahoDTpHjwBbV",
@@ -161,11 +173,23 @@
     "hash": "51cb9c1e5e046a1eeb53511f9e63776d0582e0d5",
     "tracks": 5
   },
+  "https://www.lippu.fi/event/havukruunu-kulttuuritehdas-korjaamo-22082408/?affiliate=ADV&language=fi": {
+    "id": "78SdMxlQ7nVlJUbZiA5sbF",
+    "url": "https://open.spotify.com/playlist/78SdMxlQ7nVlJUbZiA5sbF",
+    "hash": "e9697a5659ff07d477cc4d77cc66dce20799460e",
+    "tracks": 17
+  },
   "https://www.lippu.fi/event/ikina-horizon-ignited-lowhill-kulttuuritehdas-korjaamo-21815586/?affiliate=ADV&language=fi": {
     "id": "2x7N3TJw0Y791yF9q1at6u",
     "url": "https://open.spotify.com/playlist/2x7N3TJw0Y791yF9q1at6u",
-    "hash": "1f5b41b7518918f09dee1d8b0465e747ec5455c0",
+    "hash": "d13aa86c23bc260ed6544e032bdfb2e0ea0aae7d",
     "tracks": 20
+  },
+  "https://www.lippu.fi/event/m-levyjulkkarit-kulttuuritehdas-korjaamo-21905723/?affiliate=ADV&language=fi": {
+    "id": "7rr0GzEQE8NmW7h1Yd2zNF",
+    "url": "https://open.spotify.com/playlist/7rr0GzEQE8NmW7h1Yd2zNF",
+    "hash": "9d2a26cda45507bf4d966d1d8c9dbf6e188fa99e",
+    "tracks": 17
   },
   "https://www.lippu.fi/event/noora-louhimo-joulun-hetki-sellosali-22136428/": {
     "id": "3Lij4FZXDyo1L4zsMNxTjE",
@@ -182,7 +206,7 @@
   "https://www.lippu.fi/event/rokki-raikaa-pikkujoulut-rokki-raikaa-kaupungin-suurimmat-rokit-myyrmaki-halli-21726282/": {
     "id": "3RwRJKvSR9XjhmBp3N5VVY",
     "url": "https://open.spotify.com/playlist/3RwRJKvSR9XjhmBp3N5VVY",
-    "hash": "9badf2d5a6a10e8d52a4e91eee42002d330db859",
+    "hash": "86d9c55168f2c58eff7b6c428fd2286e7176fd52",
     "tracks": 50
   },
   "https://www.lippu.fi/event/the-69-eyes-sellosali-21719876/": {
@@ -191,29 +215,47 @@
     "hash": "ec5b0778ca36c5a6a24bf6d113377f9d63b5b0df",
     "tracks": 17
   },
+  "https://www.lippu.fi/event/the-ghost-of-bruce-springsteen-the-e-street-band-kulttuuritehdas-korjaamo-22095216/?affiliate=ADV&language=fi": {
+    "id": "2RSgyuyHQz3cajlwKyffIn",
+    "url": "https://open.spotify.com/playlist/2RSgyuyHQz3cajlwKyffIn",
+    "hash": "2cd950bc1a5ce4d1321a884b2a89ab10660fbfb9",
+    "tracks": 20
+  },
   "https://www.lippu.fi/event/viikate-v30v-syksy-kulttuuritehdas-korjaamo-21659489/?affiliate=ADV&language=fi": {
     "id": "0pbQRQpJcWgPo27fAeKcKE",
     "url": "https://open.spotify.com/playlist/0pbQRQpJcWgPo27fAeKcKE",
-    "hash": "0c591f9bfcbf177ebecca0b624b8d5bb2c64883b",
+    "hash": "75c71f1ffd080be40eabb65ab79e62f698af94d5",
     "tracks": 28
   },
   "https://www.rocks.fi/tapahtumat/allt-swe-avralize-ger-bite-down-swe/": {
     "id": "5ANJ2V3geoNup9ZT4duUj1",
     "url": "https://open.spotify.com/playlist/5ANJ2V3geoNup9ZT4duUj1",
-    "hash": "a3afd3f3fde77db23064910d9572b61c80368236",
+    "hash": "8c04d35e3f938b173d269b86eb71201609c97246",
     "tracks": 20
+  },
+  "https://www.rocks.fi/tapahtumat/the-ocean-ger-psychonaut-bel-pothamus-bel/": {
+    "id": "4qSWXkcbkuXM3mtUEpi5UN",
+    "url": "https://open.spotify.com/playlist/4qSWXkcbkuXM3mtUEpi5UN",
+    "hash": "8019a04788a9c9bd1898f538274bbf7d1d9b5d47",
+    "tracks": 19
   },
   "https://www.ticketmaster.fi/event/22187702?brand=fi_livenation": {
     "id": "2rvOK756CSSDbBlXVI77BI",
     "url": "https://open.spotify.com/playlist/2rvOK756CSSDbBlXVI77BI",
-    "hash": "7c9937ae128511816ed65840f0e565d21d70ad2d",
+    "hash": "5a2ae198130792ea3eb8d90a11ea1bc56ed8e323",
     "tracks": 15
   },
   "https://www.ticketmaster.fi/event/mental-cruelty-lippuja/585297311": {
     "id": "0kfAuLFznGFQaTdnIZAxdU",
     "url": "https://open.spotify.com/playlist/0kfAuLFznGFQaTdnIZAxdU",
-    "hash": "f5f89e8fdf0f32749397496917a02b175e1bb413",
+    "hash": "7d75b4cb50fd68caec080daf5713612dab45f2a8",
     "tracks": 15
+  },
+  "https://www.ticketmaster.fi/event/raskasta-joulua-lippuja/1003749123?referrer=https%3A%2F%2Fwww.ticketmaster.fi%2Fevent%2Fraskasta-joulua-lippuja%2F1003749123": {
+    "id": "4laztFF7O0wUjC0Qura3WQ",
+    "url": "https://open.spotify.com/playlist/4laztFF7O0wUjC0Qura3WQ",
+    "hash": "9499712940f71f84ef34e8645cf4b35d3689a5e3",
+    "tracks": 24
   },
   "https://www.tiketti.fi/airi-s-michel-11-bar-loose-helsinki-lippuja/120786": {
     "id": "1P3NdJw8KAbhgb6XGa1PuM",
@@ -230,7 +272,7 @@
   "https://www.tiketti.fi/ghosts-on-tv-longing-louisa-dubrovnik-helsinki-lippuja/121020": {
     "id": "3nzyc3A157H5UYAHxFbCrX",
     "url": "https://open.spotify.com/playlist/3nzyc3A157H5UYAHxFbCrX",
-    "hash": "5498b56ea27501cce1ef2494469e4a315229ab4d",
+    "hash": "1d9ca8a98c4c742e938fec8285e70f255d98b312",
     "tracks": 6
   },
   "https://www.tiketti.fi/hellsinki-industrial-festival-2026-tiivistamo-helsinki-lippuja/114451": {
@@ -242,7 +284,7 @@
   "https://www.tiketti.fi/helsinki-ilman-natseja-10v-kuudes-linja-helsinki-lippuja/122348": {
     "id": "7BcmvNlETp5GhsDQ82oXU6",
     "url": "https://open.spotify.com/playlist/7BcmvNlETp5GhsDQ82oXU6",
-    "hash": "ec2cb4bab9f8ea0cb82a5d709a383b5bfb3a186f",
+    "hash": "fee2a2f05d54f11ed05cc37c26e864a448c55bfe",
     "tracks": 43
   },
   "https://www.tiketti.fi/hif-2026-pre-club-on-the-rocks-helsinki-lippuja/120878": {
@@ -272,7 +314,7 @@
   "https://www.tiketti.fi/tapahtuma/117803": {
     "id": "06tl9oERT7yrHXu9BAQ2wL",
     "url": "https://open.spotify.com/playlist/06tl9oERT7yrHXu9BAQ2wL",
-    "hash": "c3c4a2488c67f899a4af738f74264577df7cfa26",
+    "hash": "807d10f640970cb68732446d272848231219d23b",
     "tracks": 24
   },
   "https://www.tiketti.fi/tapahtuma/119847": {
@@ -284,7 +326,7 @@
   "https://www.tiketti.fi/tapahtuma/120876": {
     "id": "78mFdLiMS9Rx4QXAJeNyCG",
     "url": "https://open.spotify.com/playlist/78mFdLiMS9Rx4QXAJeNyCG",
-    "hash": "4b41941e68f51adde57b515a0aaa46feb94947bc",
+    "hash": "1ee6f26833e978f8390b8e219ad8af9c066f3523",
     "tracks": 10
   },
   "https://www.tiketti.fi/tapahtuma/120881": {
@@ -311,10 +353,16 @@
     "hash": "588643f10befeabe05d348b51767219e29dad04c",
     "tracks": 7
   },
+  "https://www.tiketti.fi/tapahtuma/121813": {
+    "id": "3uTN7SyHqbzUmV1AISMNHq",
+    "url": "https://open.spotify.com/playlist/3uTN7SyHqbzUmV1AISMNHq",
+    "hash": "21afbeb32cc407e32eb7fa6c6d97f51d822d2665",
+    "tracks": 20
+  },
   "https://www.tiketti.fi/tapahtuma/122043": {
     "id": "74op8tK6V1kRsJ7J09stW1",
     "url": "https://open.spotify.com/playlist/74op8tK6V1kRsJ7J09stW1",
-    "hash": "909aac69bb540fe44cbd4c1c4580b0f04818935b",
+    "hash": "782fe7d37805699eb41a3f5b83ae4f47306afff2",
     "tracks": 13
   },
   "https://www.tiketti.fi/vacuous-uk-dome-runner-throat-sisar-kuudes-linja-helsinki-lippuja/121140": {
@@ -326,7 +374,7 @@
   "https://www.tiketti.fi/wyatt-e-be-five-the-hierophant-uk-w-radien-bar-loose-lippuja/121030": {
     "id": "1sz5wQrSgBJfZji7H7t2rH",
     "url": "https://open.spotify.com/playlist/1sz5wQrSgBJfZji7H7t2rH",
-    "hash": "2502ee7cd69ab60e29814aa25f127acf61c12608",
+    "hash": "2ed219ff9f2874983682f8992c6406ab2d412546",
     "tracks": 11
   }
 }

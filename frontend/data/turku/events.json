@@ -41,7 +41,7 @@
     ]
   },
   {
-    "artist": "Kirkkovene & Kätfish + CVPRI",
+    "artist": "Kirkkovene, Kätfish, CVPRI",
     "venue": "Fuusio",
     "city": "Turku",
     "date": "2026-11-27T00:00:00",
@@ -50,7 +50,8 @@
     "room": "Nirvana",
     "id": 57,
     "artists": [
-      "Kirkkovene & Kätfish",
+      "Kirkkovene",
+      "Kätfish",
       "CVPRI"
     ],
     "genres": [

@@ -1,24 +1,5 @@
 [
   {
-    "title": "Niko Kivelä – SANANVAPAUS",
-    "venue": "Sellosali",
-    "city": "Espoo",
-    "date": "2026-11-26T19:00:00",
-    "ticketUrl": "https://www.suomenstandupclub.fi/",
-    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agownkybo4",
-    "source": "espoo-api",
-    "age": "K-16"
-  },
-  {
-    "title": "Qoomikoiden STAND UP -pikkujoulut",
-    "venue": "Espoon kulttuurikeskus",
-    "city": "Espoo",
-    "date": "2026-11-26T19:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/qoomikoiden-stand-up-pikkujoulut-espoon-kulttuurikeskus-21735853/",
-    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agpiyle2ee",
-    "source": "espoo-api"
-  },
-  {
     "title": "Finglish Stand Up Ilta",
     "venue": "Teatteri Tuike",
     "city": "Helsinki",
@@ -124,7 +105,6 @@
     "eventUrl": "https://tavastiaklubi.fi/events/2026-12-09/joka-vtun-keskiviikko-teemu-vesterinen/121640/",
     "source": "darksuomi",
     "age": "K-18",
-    "status": "sold out",
     "room": "Semifinal"
   },
   {
@@ -264,6 +244,18 @@
     "source": "helsinki-api",
     "age": "K-18",
     "price": "44,90€"
+  },
+  {
+    "title": "FREERAP JOULUSPECIAL VOL. 9",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2026-12-19T20:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/freerap-jouluspecial-vol-9-kulttuuritehdas-korjaamo-22462414/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/freerap-jouluspecial-vol-9/",
+    "source": "korjaamo",
+    "price": "20 € / 22 €",
+    "age": "K-18",
+    "room": "Kulmasali"
   },
   {
     "title": "Stand-up-ilta – Joulupainos",

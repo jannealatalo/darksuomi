@@ -428,7 +428,7 @@
     ]
   },
   {
-    "artist": "DENNETT",
+    "artist": "DENNETT, Kuroneko",
     "venue": "Showbox",
     "city": "Seattle",
     "date": "2026-11-27T21:00:00",
@@ -437,9 +437,14 @@
     "doors": "21:00",
     "id": 5,
     "artists": [
-      "DENNETT"
+      "DENNETT",
+      "Kuroneko"
     ],
-    "genres": []
+    "genres": [
+      "powerviolence",
+      "punk rock",
+      "j-rock"
+    ]
   },
   {
     "artist": "Mamma Mia - Seattle's Best 70's Dance Night, DJ Boombox Kid",
@@ -2698,6 +2703,39 @@
     ]
   },
   {
+    "artist": "Spike & The Gimme Gimmes, The Riverboat Gamblers, Fan Club",
+    "venue": "Showbox",
+    "city": "Seattle",
+    "date": "2026-12-10T20:00:00",
+    "ticketUrl": "https://www.axs.com/events/1616994/spike-the-gimme-gimmes-tickets?skin=showboxpresents&src=AEGLIVE_WSHBXSEA030115VEN001",
+    "eventUrl": "https://www.showboxpresents.com/events/detail/1616994",
+    "doors": "20:00",
+    "id": 569,
+    "artists": [
+      "Spike & The Gimme Gimmes",
+      "The Riverboat Gamblers",
+      "Fan Club"
+    ],
+    "genres": [
+      "psychobilly",
+      "hip hop",
+      "rap",
+      "romanian",
+      "punk rock",
+      "punk",
+      "covers",
+      "punk covers",
+      "garage punk",
+      "rock",
+      "new zealand",
+      "pop",
+      "inmwt",
+      "john peels ghost was here",
+      "bandcamp",
+      "innewmusicwetrust"
+    ]
+  },
+  {
     "artist": "Kill The K?D",
     "venue": "Substation",
     "city": "Seattle",
@@ -3166,7 +3204,7 @@
     "genres": []
   },
   {
-    "artist": "School of Rock Season Preview",
+    "artist": "SCHOOL OF ROCK: Season Preview",
     "venue": "The Crocodile",
     "city": "Seattle",
     "date": "2026-12-13T12:00:00",
@@ -3175,9 +3213,14 @@
     "doors": "12:00",
     "id": 93,
     "artists": [
-      "School of Rock Season Preview"
+      "SCHOOL OF ROCK"
     ],
-    "genres": []
+    "genres": [
+      "hard rock",
+      "soundtrack",
+      "rock",
+      "stand-up"
+    ]
   },
   {
     "artist": "The 6th Annual Holly Jolly Holiday Show, Local Musicians, Comedians, Drag Queens!",
@@ -3493,7 +3536,7 @@
     ]
   },
   {
-    "artist": "Mohanad Elshieky",
+    "artist": "MOHANAD ELSHIEKY",
     "venue": "The Crocodile",
     "city": "Seattle",
     "date": "2026-12-17T19:00:00",
@@ -3502,7 +3545,7 @@
     "doors": "19:00",
     "id": 97,
     "artists": [
-      "Mohanad Elshieky"
+      "MOHANAD ELSHIEKY"
     ],
     "genres": []
   },
@@ -3785,7 +3828,7 @@
     "genres": []
   },
   {
-    "artist": "Dumb Nathan Fielder Rave",
+    "artist": "DUMB NATHAN FIELDER RAVE",
     "venue": "The Crocodile",
     "city": "Seattle",
     "date": "2026-12-18T22:30:00",
@@ -3794,7 +3837,7 @@
     "doors": "22:30",
     "id": 99,
     "artists": [
-      "Dumb Nathan Fielder Rave"
+      "DUMB NATHAN FIELDER RAVE"
     ],
     "genres": []
   },
@@ -3871,7 +3914,7 @@
     ]
   },
   {
-    "artist": "Hell's Belles",
+    "artist": "HELL'S BELLES",
     "venue": "The Crocodile",
     "city": "Seattle",
     "date": "2026-12-19T18:00:00",
@@ -3880,11 +3923,11 @@
     "doors": "18:00",
     "id": 100,
     "artists": [
-      "Hell's Belles"
+      "HELL'S BELLES"
     ],
     "genres": [
-      "blues rock",
       "hard rock",
+      "blues rock",
       "rock n roll"
     ]
   },
@@ -4064,7 +4107,7 @@
     ]
   },
   {
-    "artist": "MAGENTA WAVE",
+    "artist": "Magenta Wave",
     "venue": "The Crocodile",
     "city": "Seattle",
     "date": "2026-12-20T20:00:00",
@@ -4073,7 +4116,7 @@
     "doors": "20:00",
     "id": 102,
     "artists": [
-      "MAGENTA WAVE"
+      "Magenta Wave"
     ],
     "genres": []
   },
@@ -5372,6 +5415,25 @@
       "K-Pop Superstars Live"
     ],
     "genres": []
+  },
+  {
+    "artist": "Sage Francis",
+    "venue": "Barboza",
+    "city": "Seattle",
+    "date": "2027-01-24T19:00:00",
+    "ticketUrl": "https://www.axs.com/events/1692185/sage-francis-tickets?skin=barboza",
+    "eventUrl": "https://www.thebarboza.com/events/detail/sage-francis-tickets-1692185",
+    "doors": "19:00",
+    "age": "21+",
+    "id": 570,
+    "artists": [
+      "Sage Francis"
+    ],
+    "genres": [
+      "hip hop",
+      "underground hip-hop",
+      "rap"
+    ]
   },
   {
     "artist": "Raised By TV Presents It's Always Sunny In Philadelphia S: 1-11, Raised by TV Presents: Trivia Night",

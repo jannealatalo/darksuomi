@@ -1,5 +1,38 @@
 [
   {
+    "day": "2026-11-27",
+    "gigs": [
+      {
+        "id": 666,
+        "city": "helsinki",
+        "artist": "Drink Floyd",
+        "venue": "Krapin Paja",
+        "place": "Tuusula",
+        "date": "2027-01-09T18:30:00",
+        "genres": [
+          "progressive rock",
+          "psychedelic rock",
+          "classic rock"
+        ]
+      },
+      {
+        "id": 77,
+        "city": "oulu",
+        "artist": "MOON SHOT",
+        "venue": "45 Special",
+        "place": "Oulu",
+        "date": "2027-03-06T20:00:00",
+        "genres": [
+          "alternative rock",
+          "rock"
+        ]
+      }
+    ],
+    "hidden": {
+      "helsinki": 4
+    }
+  },
+  {
     "day": "2026-11-26",
     "gigs": [
       {

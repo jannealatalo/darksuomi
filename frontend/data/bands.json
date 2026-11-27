@@ -2323,6 +2323,23 @@
     },
     "fetched": "2026-11-19"
   },
+  "Drink Floyd": {
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock"
+    ],
+    "display": "Drink Floyd",
+    "mbid": null,
+    "links": {
+      "spotify": "https://open.spotify.com/artist/65jhvh6dDRrz28xgaoQWJK"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      408,
+      666
+    ]
+  },
   "Dungen": {
     "genres": [
       "psychedelic rock",
@@ -3194,6 +3211,26 @@
     "mbid": null,
     "links": {},
     "fetched": "2026-11-20"
+  },
+  "Frigg": {
+    "genres": [
+      "folk"
+    ],
+    "display": "Frigg",
+    "mbid": "498c206d-0fc7-40da-8386-0b59068f8068",
+    "links": {
+      "bandcamp": "https://friggfinland.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/360773",
+      "spotify": "https://open.spotify.com/artist/5A9JYD9nd5hEgqF3gJYIh4",
+      "homepage": "https://frigg.fi/",
+      "soundcloud": "https://soundcloud.com/frigg-the-band",
+      "wikidata": "https://www.wikidata.org/wiki/Q3436451",
+      "youtube": "https://www.youtube.com/channel/UCt2_Kx0J9825tASkU5oxppA"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      677
+    ]
   },
   "Frostbite Terror": {
     "genres": [
@@ -4620,6 +4657,22 @@
     },
     "fetched": "2026-11-20"
   },
+  "joku iiris": {
+    "genres": [
+      "acoustic",
+      "folk rock"
+    ],
+    "display": "joku iiris",
+    "mbid": "a9d83fa5-21a4-4c86-baed-f21bf469592f",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/7148561",
+      "spotify": "https://open.spotify.com/artist/0NhMIscHF1pXKbhSv0nvbr"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      665
+    ]
+  },
   "Jonna Tervomaa": {
     "genres": [
       "pop",
@@ -4947,6 +5000,31 @@
     },
     "fetched": "2026-11-19"
   },
+  "Kansas": {
+    "genres": [
+      "progressive rock",
+      "classic rock",
+      "rock"
+    ],
+    "display": "Kansas",
+    "mbid": "69689acf-d9cd-4d20-a972-47db4ed51b1a",
+    "links": {
+      "bandcamp": "https://kansasband.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/254408",
+      "spotify": "https://open.spotify.com/artist/2hl0xAkS2AIRAu23TVMBG1",
+      "deezer": "https://www.deezer.com/artist/1385",
+      "homepage": "https://kansasband.com/",
+      "apple": "https://music.apple.com/us/artist/460828",
+      "instagram": "https://www.instagram.com/kansasband/",
+      "tidal": "https://tidal.com/artist/862",
+      "wikidata": "https://www.wikidata.org/wiki/Q204328",
+      "youtube": "https://www.youtube.com/channel/UCD58rE0B2PDe3se2nCv1yRA"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      629
+    ]
+  },
   "Kantamus": {
     "genres": [
       "sludge"
@@ -4962,6 +5040,30 @@
       "spotify": "https://open.spotify.com/artist/0DXEiMP6kuilWjNXDaZdCX"
     },
     "fetched": "2026-11-20"
+  },
+  "Karnivool": {
+    "genres": [
+      "progressive rock",
+      "alternative rock",
+      "progressive metal"
+    ],
+    "display": "Karnivool",
+    "mbid": "9ee2638f-c3a3-4532-bc08-54d397241c2a",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/847999",
+      "spotify": "https://open.spotify.com/artist/6rX8AFY10dsJkJsv23Z9Um",
+      "deezer": "https://www.deezer.com/artist/12992",
+      "homepage": "https://www.karnivool.com/",
+      "apple": "https://music.apple.com/au/artist/85099785",
+      "instagram": "https://www.instagram.com/karnivool_official/",
+      "tidal": "https://tidal.com/artist/19239",
+      "wikidata": "https://www.wikidata.org/wiki/Q912678",
+      "youtube": "https://www.youtube.com/channel/UCH5EYEt8Bw-CwP1nTGa2f9g"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      645
+    ]
   },
   "Kaseva": {
     "genres": [
@@ -5297,7 +5399,8 @@
     ],
     "display": "Krypta",
     "eventIds": [
-      90
+      90,
+      628
     ],
     "mbid": "7873ba71-f516-4632-8eeb-27fb0af25990",
     "links": {
@@ -5774,6 +5877,27 @@
     "fetched": "2026-11-21",
     "eventIds": [
       545
+    ]
+  },
+  "Lucas Imbiriba": {
+    "genres": [
+      "acoustic",
+      "acoustic guitar",
+      "classic rock"
+    ],
+    "display": "Lucas Imbiriba",
+    "mbid": "68cc1f61-9ebf-4e86-8df7-4cb75b950f69",
+    "links": {
+      "bandcamp": "https://lucasimbiriba.bandcamp.com/",
+      "homepage": "https://www.lucasimbiriba.com/?lang=en",
+      "instagram": "https://www.instagram.com/lucasimbiriba/",
+      "soundcloud": "https://soundcloud.com/lucasimbiriba",
+      "apple": "https://music.apple.com/us/artist/1560862534",
+      "spotify": "https://open.spotify.com/artist/0R0AGebjDarPM80MFMhz5h"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      656
     ]
   },
   "Lust For Lily": {
@@ -6259,6 +6383,33 @@
     },
     "fetched": "2026-11-19"
   },
+  "Mastodon": {
+    "genres": [
+      "progressive metal",
+      "sludge",
+      "sludge metal"
+    ],
+    "display": "Mastodon",
+    "mbid": "bc5e2ad6-0a4a-4d90-b911-e9a7e6861727",
+    "links": {
+      "bandcamp": "https://mastodon.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/252161",
+      "spotify": "https://open.spotify.com/artist/1Dvfqq39HxvCJ3GvfeIFuT",
+      "deezer": "https://www.deezer.com/artist/9267",
+      "homepage": "https://www.mastodonrocks.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Mastodon/1361",
+      "apple": "https://music.apple.com/us/artist/65922937",
+      "instagram": "https://www.instagram.com/mastodonrocks/",
+      "soundcloud": "https://soundcloud.com/mastodonrocks",
+      "tidal": "https://tidal.com/artist/15346",
+      "wikidata": "https://www.wikidata.org/wiki/Q548844",
+      "youtube": "https://www.youtube.com/channel/UCR7Ls5FuT6UKTcsMkcwgCUA"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      641
+    ]
+  },
   "Matt Hart": {
     "genres": [
       "industrial"
@@ -6585,7 +6736,8 @@
     },
     "fetched": "2026-11-21",
     "eventIds": [
-      485
+      485,
+      646
     ]
   },
   "Mirkka": {
@@ -6636,6 +6788,32 @@
     },
     "fetched": "2026-11-20"
   },
+  "Monolord": {
+    "genres": [
+      "doom metal",
+      "stoner metal",
+      "sludge"
+    ],
+    "display": "Monolord",
+    "mbid": "043225b4-3c61-4aea-8644-9065306d3499",
+    "links": {
+      "bandcamp": "https://monolord.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/3766706",
+      "spotify": "https://open.spotify.com/artist/3X0a18Q9nluwuFYv5hB5cm",
+      "deezer": "https://www.deezer.com/artist/5623523",
+      "homepage": "http://monolord.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Monolord/3540379026",
+      "instagram": "https://www.instagram.com/monolordofficial/",
+      "soundcloud": "https://soundcloud.com/monolord",
+      "apple": "https://music.apple.com/se/artist/833749384",
+      "tidal": "https://tidal.com/artist/6752008",
+      "wikidata": "https://www.wikidata.org/wiki/Q29421154"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      641
+    ]
+  },
   "Monsternaut": {
     "genres": [
       "stoner rock",
@@ -6653,29 +6831,6 @@
     "eventIds": [
       284
     ]
-  },
-  "MOON WALKER": {
-    "genres": [
-      "rock",
-      "alternative rock",
-      "my top songs"
-    ],
-    "display": "Moon Walker",
-    "eventIds": [
-      314
-    ],
-    "mbid": "5c4c2df9-63ba-4605-a965-5ea11db27cf5",
-    "links": {
-      "discogs": "https://www.discogs.com/artist/13037199",
-      "spotify": "https://open.spotify.com/artist/4Qvflafuw7a0F2E3NonxsA",
-      "deezer": "https://www.deezer.com/artist/795437",
-      "homepage": "https://www.listentomoonwalker.com/meet-moon-walker",
-      "apple": "https://music.apple.com/gb/artist/1562366075",
-      "instagram": "https://www.instagram.com/moonwalkerbandofficial/",
-      "tidal": "https://tidal.com/artist/20742094",
-      "youtube": "https://www.youtube.com/@moonwalkerbandofficial"
-    },
-    "fetched": "2026-11-20"
   },
   "MORCHEEBA": {
     "genres": [
@@ -6921,6 +7076,20 @@
       "youtube": "https://www.youtube.com/channel/UCEJBYu3DLkmyeN6cb9auVFw"
     },
     "fetched": "2026-11-20"
+  },
+  "New Year": {
+    "genres": [
+      "slowcore",
+      "indie rock",
+      "indie"
+    ],
+    "display": "New Year",
+    "mbid": null,
+    "links": {},
+    "fetched": "2026-11-27",
+    "eventIds": [
+      639
+    ]
   },
   "NEØV": {
     "genres": [
@@ -7598,6 +7767,18 @@
       "spotify": "https://open.spotify.com/artist/39fAkpWnxnr2AQ6tW1kMcn"
     },
     "fetched": "2026-11-19"
+  },
+  "Pikku Papun Orkesteri": {
+    "genres": [],
+    "display": "Pikku Papun Orkesteri",
+    "mbid": "c4da78af-8382-41a2-818c-64c73f5725ee",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/4zjeTXXrv082xB0Iv7XrsJ"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      632
+    ]
   },
   "Pitbull": {
     "genres": [
@@ -8411,6 +8592,18 @@
     },
     "fetched": "2026-11-19"
   },
+  "Room Full Of Hendrix": {
+    "genres": [],
+    "display": "Room Full of Hendrix",
+    "mbid": "c9cacce2-9fcf-40f2-bc7b-0e4dfef24d1b",
+    "links": {
+      "youtube": "https://www.youtube.com/@RoomFullOfHendrix"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      633
+    ]
+  },
   "Rose Heaven": {
     "genres": [],
     "display": "Rose Heaven",
@@ -8517,6 +8710,22 @@
       "wikipedia": "https://en.wikipedia.org/wiki/RY_X"
     },
     "fetched": "2026-11-19"
+  },
+  "Rylos": {
+    "genres": [],
+    "display": "Rylos",
+    "mbid": "6f7c8263-5a79-4d7c-b916-011a710511d2",
+    "links": {
+      "bandcamp": "https://rylos.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/0IkkUE0LHKcxh5Iiwwrtc9",
+      "homepage": "https://www.rylosplanet.fi/",
+      "instagram": "https://www.instagram.com/rylosplanet/",
+      "youtube": "https://www.youtube.com/channel/UCC1JgahxCzAClcb0VBrqwRg"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      639
+    ]
   },
   "Röge": {
     "genres": [
@@ -8652,6 +8861,26 @@
     "mbid": null,
     "links": {},
     "fetched": "2026-11-19"
+  },
+  "Sara Bee": {
+    "genres": [
+      "pop",
+      "rap"
+    ],
+    "display": "Sara Bee",
+    "mbid": "65c4418c-251d-4cba-be7d-30989643f610",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5kvgJ8cZWc3pGpIHhksKTb",
+      "deezer": "https://www.deezer.com/artist/6495457",
+      "instagram": "https://www.instagram.com/beeltsu/",
+      "soundcloud": "https://soundcloud.com/sarabee-music",
+      "apple": "https://music.apple.com/fi/artist/904373316",
+      "tidal": "https://tidal.com/artist/10307425"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      646
+    ]
   },
   "Satu Lii": {
     "genres": [],
@@ -8893,6 +9122,18 @@
       "discogs": "https://www.discogs.com/artist/4952"
     },
     "fetched": "2026-11-20"
+  },
+  "Shocked Volk": {
+    "genres": [],
+    "display": "Shocked Volk",
+    "mbid": "92e494d5-49b4-4077-950f-c0b3ac632592",
+    "links": {
+      "bandcamp": "https://shockedvolk.bandcamp.com/"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      640
+    ]
   },
   "Siamese": {
     "genres": [
@@ -9343,6 +9584,32 @@
     },
     "fetched": "2026-11-19"
   },
+  "Stam1na": {
+    "genres": [
+      "thrash metal",
+      "progressive metal",
+      "metal"
+    ],
+    "display": "Stam1na",
+    "mbid": "f74c7996-4c0b-4ebd-b1e7-219e21c41286",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/669314",
+      "spotify": "https://open.spotify.com/artist/41nB823nb3wxEI25UeGHqG",
+      "deezer": "https://www.deezer.com/artist/405259",
+      "homepage": "http://www.stam1na.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Stam1na/33052",
+      "instagram": "https://www.instagram.com/stam1na_official/",
+      "apple": "https://music.apple.com/fi/artist/472322503",
+      "tidal": "https://tidal.com/artist/3578526",
+      "wikidata": "https://www.wikidata.org/wiki/Q922037",
+      "youtube": "https://www.youtube.com/user/LeminStam1na",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stam1na"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      490
+    ]
+  },
   "Stepa": {
     "genres": [
       "nu metal",
@@ -9363,6 +9630,32 @@
       "wikipedia": "https://fi.wikipedia.org/wiki/Stepa"
     },
     "fetched": "2026-11-19"
+  },
+  "Steve Hackett": {
+    "genres": [
+      "progressive rock",
+      "art rock",
+      "guitar"
+    ],
+    "display": "Steve Hackett",
+    "mbid": "f4eb8346-052d-4a5c-8393-cba3aeadb4d9",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/125989",
+      "spotify": "https://open.spotify.com/artist/4vs7NIU7kZc2Efh6yOGKEZ",
+      "deezer": "https://www.deezer.com/artist/3406",
+      "homepage": "https://www.hackettsongs.com/",
+      "metalArchives": "https://www.metal-archives.com/artists/Steve_Hackett/127346",
+      "apple": "https://music.apple.com/gb/artist/14551412",
+      "instagram": "https://www.instagram.com/stevehackettofficial/",
+      "soundcloud": "https://soundcloud.com/steve-hackett-official",
+      "tidal": "https://tidal.com/artist/3505512",
+      "wikidata": "https://www.wikidata.org/wiki/Q315811",
+      "youtube": "https://www.youtube.com/channel/UCfWz3QICil_sJOQDpWpqFgQ"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      631
+    ]
   },
   "Stinkbird": {
     "genres": [],
@@ -9973,6 +10266,24 @@
     },
     "fetched": "2026-11-19"
   },
+  "The Creeping Terrors": {
+    "genres": [
+      "deathrock",
+      "horror punk"
+    ],
+    "display": "The Creeping Terrors",
+    "mbid": "54563b3e-d328-4fa6-a359-042ca5413eaa",
+    "links": {
+      "bandcamp": "https://thecreepingterrors.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/5857464",
+      "youtube": "https://www.youtube.com/user/Dementia13th",
+      "spotify": "https://open.spotify.com/artist/7aF0Dy35VncvJQ5fC7FQWW"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      640
+    ]
+  },
   "The Devil Wears Prada": {
     "genres": [
       "metalcore",
@@ -9998,6 +10309,23 @@
       "wikipedia": "https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(band)"
     },
     "fetched": "2026-11-20"
+  },
+  "The Expected": {
+    "genres": [
+      "indie rock",
+      "indie pop"
+    ],
+    "display": "The Expected",
+    "mbid": "4d385a25-2ea5-4e51-af2c-7b28d88e51e1",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4919180",
+      "wikidata": "https://www.wikidata.org/wiki/Q18690301",
+      "spotify": "https://open.spotify.com/artist/5BSZ7yt6PS4m3s4kqZNCsC"
+    },
+    "fetched": "2026-11-27",
+    "eventIds": [
+      637
+    ]
   },
   "The Flaming Sideburns": {
     "genres": [
@@ -10811,7 +11139,8 @@
     "links": {},
     "fetched": "2026-11-21",
     "eventIds": [
-      521
+      521,
+      632
     ]
   },
   "UMO Jazz Orchestra": {

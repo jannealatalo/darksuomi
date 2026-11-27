@@ -4482,6 +4482,11 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "DUMB NATHAN FIELDER RAVE": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
+  },
   "Dungen": {
     "source": "lastfm",
     "matchedName": "Dungen",
@@ -4501,6 +4506,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Duo Kummitusjuna": {
+    "source": "musicbrainz",
+    "matchedName": "Duo Kummitusjuna",
+    "mbid": "3c5c05a0-352e-4a21-b01e-1409fd14ba36",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-27"
   },
   "Dustin Nickerson": {
     "source": "musicbrainz",
@@ -5245,6 +5258,19 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Fan Club": {
+    "source": "lastfm",
+    "matchedName": "FAN CLUB",
+    "tags": [
+      "new zealand",
+      "pop",
+      "inmwt",
+      "john peels ghost was here",
+      "bandcamp",
+      "innewmusicwetrust"
+    ],
+    "fetched": "2026-11-27"
+  },
   "Fantasia": {
     "source": "lastfm",
     "matchedName": "Fantasia",
@@ -5847,6 +5873,14 @@
       "pop"
     ],
     "fetched": "2026-11-21"
+  },
+  "Frigg": {
+    "source": "lastfm",
+    "matchedName": "Frigg",
+    "tags": [
+      "folk"
+    ],
+    "fetched": "2026-11-27"
   },
   "Frontliner x Vertile": {
     "source": "notfound",
@@ -6907,6 +6941,16 @@
     ],
     "fetched": "2026-11-24"
   },
+  "HELL'S BELLES": {
+    "source": "lastfm",
+    "matchedName": "Hell's Belles",
+    "tags": [
+      "hard rock",
+      "blues rock",
+      "rock n roll"
+    ],
+    "fetched": "2026-11-27"
+  },
   "Hellgate Necrosodomy": {
     "source": "lastfm",
     "matchedName": "Hellgate Necrosodomy",
@@ -7402,6 +7446,11 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "ilmiöö-disko": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
   },
   "Ilot ja huolet": {
     "source": "notfound",
@@ -8309,6 +8358,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "joku iiris": {
+    "source": "lastfm",
+    "matchedName": "joku iiris",
+    "tags": [
+      "acoustic",
+      "folk rock"
+    ],
+    "fetched": "2026-11-27"
+  },
   "Joku Paikallinen Bändi": {
     "source": "musicbrainz",
     "matchedName": "Joku Paikallinen Bändi",
@@ -8994,6 +9052,11 @@
     "tags": [],
     "fetched": "2026-11-18"
   },
+  "Kaunotar ja kummitus": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
+  },
   "Kausti": {
     "source": "lastfm",
     "matchedName": "kausti",
@@ -9561,6 +9624,16 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Kuroneko": {
+    "source": "lastfm",
+    "matchedName": "kuroneko",
+    "tags": [
+      "powerviolence",
+      "punk rock",
+      "j-rock"
+    ],
+    "fetched": "2026-11-27"
   },
   "Kuru": {
     "source": "lastfm",
@@ -10627,6 +10700,14 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "Magenta Wave": {
+    "source": "musicbrainz",
+    "matchedName": "Magenta Wave",
+    "mbid": "1d6a08d8-6bc1-496d-ab1e-ab702b3b12aa",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-27"
+  },
   "Magnus Betnér": {
     "source": "lastfm",
     "matchedName": "Magnus Betnér",
@@ -11659,6 +11740,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "MOHANAD ELSHIEKY": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
   },
   "Molly Hammar": {
     "source": "lastfm",
@@ -13932,6 +14018,11 @@
     "tags": [],
     "fetched": "2026-11-26"
   },
+  "Pretty Marc": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
+  },
   "Pridian": {
     "source": "lastfm",
     "matchedName": "Pridian",
@@ -15178,6 +15269,16 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Sage Francis": {
+    "source": "lastfm",
+    "matchedName": "Sage Francis",
+    "tags": [
+      "hip hop",
+      "underground hip-hop",
+      "rap"
+    ],
+    "fetched": "2026-11-27"
+  },
   "Saidan": {
     "source": "lastfm",
     "matchedName": "Saidian",
@@ -15494,6 +15595,17 @@
       "stand-up"
     ],
     "fetched": "2026-11-24"
+  },
+  "SCHOOL OF ROCK": {
+    "source": "lastfm",
+    "matchedName": "School of Rock",
+    "tags": [
+      "hard rock",
+      "soundtrack",
+      "rock",
+      "stand-up"
+    ],
+    "fetched": "2026-11-27"
   },
   "School of Rock Season Preview": {
     "source": "notfound",
@@ -16210,6 +16322,22 @@
       "jpop"
     ],
     "fetched": "2026-11-19"
+  },
+  "Spike": {
+    "source": "lastfm",
+    "matchedName": "Spike",
+    "tags": [
+      "psychobilly",
+      "hip hop",
+      "rap",
+      "romanian"
+    ],
+    "fetched": "2026-11-27"
+  },
+  "Spike & The Gimme Gimmes": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
   },
   "Spill Canvas": {
     "source": "lastfm",
@@ -17622,6 +17750,17 @@
     ],
     "fetched": "2026-11-26"
   },
+  "The Expected": {
+    "source": "musicbrainz",
+    "matchedName": "The Expected",
+    "mbid": "4d385a25-2ea5-4e51-af2c-7b28d88e51e1",
+    "country": "FI",
+    "tags": [
+      "indie rock",
+      "indie pop"
+    ],
+    "fetched": "2026-11-27"
+  },
   "The Fab Four": {
     "source": "lastfm",
     "matchedName": "The Fab Four",
@@ -17687,6 +17826,17 @@
       "heavy metal"
     ],
     "fetched": "2026-11-20"
+  },
+  "The Gimme Gimmes": {
+    "source": "lastfm",
+    "matchedName": "Me First and the Gimme Gimmes",
+    "tags": [
+      "punk rock",
+      "punk",
+      "covers",
+      "punk covers"
+    ],
+    "fetched": "2026-11-27"
   },
   "The Glitch Mob NYE with Sam Binga": {
     "source": "notfound",
@@ -17992,6 +18142,17 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "The Riverboat Gamblers": {
+    "source": "lastfm",
+    "matchedName": "The Riverboat Gamblers",
+    "tags": [
+      "punk",
+      "punk rock",
+      "garage punk",
+      "rock"
+    ],
+    "fetched": "2026-11-27"
   },
   "The Rock Orchestra by Candlelight": {
     "source": "notfound",
@@ -19578,6 +19739,14 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Ville Pirinen Combat School": {
+    "source": "musicbrainz",
+    "matchedName": "Ville Pirinen Combat School",
+    "mbid": "bb3835ac-eaee-4778-861c-174eef642148",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-27"
+  },
   "Ville Rusanen": {
     "source": "musicbrainz",
     "matchedName": "Ville Rusanen",
@@ -20370,6 +20539,11 @@
     "country": null,
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Älyämpäri": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-27"
   },
   "ÅK Ensemble": {
     "source": "notfound",

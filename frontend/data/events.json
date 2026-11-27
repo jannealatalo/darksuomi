@@ -917,24 +917,6 @@
     "detailsFetched": "2026-11-21"
   },
   {
-    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
-    "venue": "Lepakkomies",
-    "city": "Helsinki",
-    "date": "2026-11-24T18:00:00",
-    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
-    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
-    "venueGenres": [
-      "other"
-    ],
-    "id": 288,
-    "artists": [
-      "Ei pöllömpi pubivisa by Pöllö & Ode"
-    ],
-    "genres": [
-      "viihde"
-    ]
-  },
-  {
     "artist": "TASAVALLAN PRESIDENTTI COMPLETE",
     "venue": "Korjaamo",
     "city": "Helsinki",
@@ -2140,6 +2122,24 @@
     ]
   },
   {
+    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-01T18:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 288,
+    "artists": [
+      "Ei pöllömpi pubivisa by Pöllö & Ode"
+    ],
+    "genres": [
+      "viihde"
+    ]
+  },
+  {
     "id": 269,
     "artist": "Kuudesta Kymmeneen",
     "venue": "Semifinal",
@@ -2158,24 +2158,6 @@
     "venueDefault": "rock",
     "price": "18€ at the door",
     "detailsFetched": "2026-11-21"
-  },
-  {
-    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
-    "venue": "Lepakkomies",
-    "city": "Helsinki",
-    "date": "2026-12-01T18:00:00",
-    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
-    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
-    "venueGenres": [
-      "other"
-    ],
-    "id": 591,
-    "artists": [
-      "Ei pöllömpi pubivisa by Pöllö & Ode"
-    ],
-    "genres": [
-      "viihde"
-    ]
   },
   {
     "id": 11,
@@ -2551,18 +2533,18 @@
     ]
   },
   {
-    "artist": "PRETTY MARC / THE EXPECTED",
+    "artist": "Pretty Marc, The Expected",
     "venue": "Bar Loose",
     "city": "Helsinki",
     "date": "2026-12-03T19:30:00",
-    "ticketUrl": "https://barloose.com/live/pretty-marc-the-expected/",
-    "eventUrl": "https://barloose.com/live/pretty-marc-the-expected/",
+    "ticketUrl": "https://barloose.com/live/pretty-marc-the-expected-2/",
+    "eventUrl": "https://barloose.com/live/pretty-marc-the-expected-2/",
     "venueDefault": "rock",
     "price": "9€",
     "id": 637,
     "artists": [
-      "PRETTY MARC",
-      "THE EXPECTED"
+      "Pretty Marc",
+      "The Expected"
     ],
     "genres": [
       "indie rock",
@@ -2824,6 +2806,23 @@
     ]
   },
   {
+    "artist": "ilmiöö-disko",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-04T23:30:00",
+    "ticketUrl": "https://barloose.com/live/ilmioo-disko/",
+    "eventUrl": "https://barloose.com/live/ilmioo-disko/",
+    "venueDefault": "rock",
+    "price": "Vapaa pääsy!",
+    "id": 661,
+    "artists": [
+      "ilmiöö-disko"
+    ],
+    "genres": [
+      "dj night"
+    ]
+  },
+  {
     "artist": "Beast In Black - Return of the Beast",
     "venue": "Helsingin Jäähalli",
     "city": "Helsinki",
@@ -2974,7 +2973,8 @@
     "room": "Tavastia-klubi",
     "doors": "19:00",
     "price": "58 € at the door",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "artist": "Jokrates – missä sä haluisit olla? -albumikiertue",
@@ -3278,12 +3278,12 @@
     "venue": "Lepakkomies",
     "city": "Helsinki",
     "date": "2026-12-08T18:00:00",
-    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
-    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-2/",
     "venueGenres": [
       "other"
     ],
-    "id": 592,
+    "id": 591,
     "artists": [
       "Ei pöllömpi pubivisa by Pöllö & Ode"
     ],
@@ -3372,7 +3372,6 @@
       "stand-up"
     ],
     "venueDefault": "rock",
-    "status": "sold out",
     "detailsFetched": "2026-11-21"
   },
   {
@@ -3419,13 +3418,13 @@
     "artist": "Dungen (SE), Pambikallio",
     "venue": "Korjaamo",
     "city": "Helsinki",
-    "date": "2026-12-09T19:00:00",
+    "date": "2026-12-09T20:00:00",
     "ticketUrl": "https://www.lippu.fi/event/dungen-kulttuuritehdas-korjaamo-21877249/?affiliate=ADV&language=fi",
     "eventUrl": "https://korjaamo.fi/tapahtumat/dungen/",
     "venueGenres": [
       "rock"
     ],
-    "doors": "19:00",
+    "doors": "20:00",
     "price": "30 € / 35 €",
     "age": "K-18",
     "room": "Vaunusali",
@@ -4291,6 +4290,24 @@
       "rock",
       "singer-songwriter",
       "hard rock"
+    ]
+  },
+  {
+    "artist": "Ei pöllömpi pubivisa by Pöllö & Ode",
+    "venue": "Lepakkomies",
+    "city": "Helsinki",
+    "date": "2026-12-15T18:00:00",
+    "ticketUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+    "eventUrl": "https://www.lepis.fi/tapahtumat/ei-pollompi-pubivisa-by-pollo-ode-3/",
+    "venueGenres": [
+      "other"
+    ],
+    "id": 592,
+    "artists": [
+      "Ei pöllömpi pubivisa by Pöllö & Ode"
+    ],
+    "genres": [
+      "viihde"
     ]
   },
   {
@@ -5891,6 +5908,25 @@
     "genres": [],
     "price": "alk. 48,00€",
     "detailsFetched": "2026-11-21"
+  },
+  {
+    "artist": "Drink Floyd",
+    "venue": "Krapin Paja",
+    "city": "Tuusula",
+    "date": "2027-01-09T18:30:00",
+    "ticketUrl": "https://kauppa.krapinpaja.fi/product/drink-floyd-k2027",
+    "eventUrl": "https://kauppa.krapinpaja.fi/product/drink-floyd-k2027",
+    "doors": "18:30",
+    "price": "35,00 €",
+    "id": 666,
+    "artists": [
+      "Drink Floyd"
+    ],
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock"
+    ]
   },
   {
     "artist": "Bad Apples plays Guns N’ Roses + Museo plays Muse",
@@ -9941,6 +9977,20 @@
     "genres": []
   },
   {
+    "artist": "Kaunotar ja kummitus - musikaalien rakastetuimmat laulut",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-17T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agrareatku",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agrareatku",
+    "id": 676,
+    "artists": [
+      "Kaunotar ja kummitus"
+    ],
+    "genres": []
+  },
+  {
     "artist": "Ricky-Tick Big Band & Julkinen Sana -hyväntekeväisyyskonsertti 18.3.2027",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -10455,6 +10505,22 @@
     ]
   },
   {
+    "artist": "Frigg",
+    "venue": "Espoon kulttuurikeskus",
+    "city": "Espoo",
+    "date": "2027-03-31T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agrao6fuj4",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agrao6fuj4",
+    "id": 677,
+    "artists": [
+      "Frigg"
+    ],
+    "genres": [
+      "folk"
+    ]
+  },
+  {
     "id": 70,
     "artist": "J. Karjalainen",
     "venue": "Tavastia Klubi",
@@ -10904,6 +10970,29 @@
     ]
   },
   {
+    "artist": "joku iiris",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-04-17T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/joku-iiris-kulttuuritehdas-korjaamo-22451377/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/joku-iiris/",
+    "venueGenres": [
+      "rock"
+    ],
+    "doors": "19:00",
+    "price": "17,60 € / 19 €",
+    "age": "K-18",
+    "room": "Kulmasali",
+    "id": 665,
+    "artists": [
+      "joku iiris"
+    ],
+    "genres": [
+      "acoustic",
+      "folk rock"
+    ]
+  },
+  {
     "id": 587,
     "artist": "DJ Ibusal - Kaikki koirat pääsee taivaaseen -levyjulkkarit",
     "venue": "Tavastia Klubi",
@@ -11155,8 +11244,7 @@
     ],
     "genres": [
       "pop"
-    ],
-    "status": "sold out"
+    ]
   },
   {
     "artist": "Siamese (DEN)",
@@ -11885,7 +11973,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-06-04T19:00:00",
-    "ticketUrl": "https://www.allaslive.fi/all-events/olga-tickets-ae1528932",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/olga-lippuja/1338433?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/olga-tickets-ae1528932",
     "doors": "19:00",
     "age": "K-18",
@@ -11903,7 +11991,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-06-05T19:00:00",
-    "ticketUrl": "https://www.ticketmaster.fi/event/1627500411",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/anna-puu-lippuja/911918?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/anna-puu-tickets-ae818758",
     "doors": "19:00",
     "age": "K-18",
@@ -12039,7 +12127,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-06-19T19:00:00",
-    "ticketUrl": "https://www.allaslive.fi/all-events/nelli-matula-tickets-ae1715807",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/nelli-matula-lippuja/1313823?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/nelli-matula-tickets-ae1715807",
     "doors": "19:00",
     "age": "K-18",
@@ -12056,7 +12144,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-06-23T19:00:00",
-    "ticketUrl": "https://www.ticketmaster.fi/event/659542238",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/swae-lee-lippuja/1015155?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/swae-lee-tickets-ae1679417",
     "doors": "19:00",
     "age": "K-18",
@@ -12242,7 +12330,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-07-08T18:00:00",
-    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/minttu-lippuja/1442223?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/minttu-tickets-ae1716190",
     "doors": "18:00",
     "id": 646,
@@ -12260,7 +12348,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-07-09T19:00:00",
-    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/robin-packalen-lippuja/1338593?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/robin-packalen-tickets-ae600082",
     "doors": "19:00",
     "age": "K-18",
@@ -12278,7 +12366,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-07-15T19:00:00",
-    "ticketUrl": "https://www.allaslive.fi/all-events/haloo-helsinki--tickets-ae403331",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/haloo-helsinki-lippuja/912091?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/haloo-helsinki--tickets-ae403331",
     "doors": "19:00",
     "age": "K-18",
@@ -12296,7 +12384,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-07-23T19:00:00",
-    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/vesterinen-yhtyeineen-lippuja/912092?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/vesterinen-yhtyeineen-tickets-ae10844",
     "doors": "19:00",
     "age": "K-18",
@@ -12314,7 +12402,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-08-20T19:00:00",
-    "ticketUrl": "https://www.op.fi/henkiloasiakkaat/omistaja-asiakkuus/allaslive",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/behm-lippuja/1030922?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/behm-tickets-ae1561695",
     "doors": "19:00",
     "age": "K-18",
@@ -12440,7 +12528,7 @@
     "venue": "Allas Live",
     "city": "Helsinki",
     "date": "2027-09-11T18:30:00",
-    "ticketUrl": "https://www.ticketmaster.fi/event/400696934",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/tehosekoitin-lippuja/1022911?venueId=12175",
     "eventUrl": "https://www.allaslive.fi/all-events/tehosekoitin-tickets-ae1697508",
     "age": "K-18",
     "id": 581,

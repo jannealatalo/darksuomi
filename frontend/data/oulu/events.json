@@ -227,8 +227,8 @@
     "artist": "Modem + Sokar",
     "venue": "45 Special",
     "city": "Oulu",
-    "date": "2026-11-27T19:00:00",
-    "doors": "19:00",
+    "date": "2026-11-27T20:00:00",
+    "doors": "20:00",
     "ticketUrl": "https://45special.gapp.fi/event/6a169105bf904a0a6bb2d46e",
     "eventUrl": "https://45special.gapp.fi/event/6a169105bf904a0a6bb2d46e",
     "price": "20 / 23€ + PM",
@@ -945,7 +945,11 @@
     "artists": [
       "Drink Floyd"
     ],
-    "genres": []
+    "genres": [
+      "progressive rock",
+      "psychedelic rock",
+      "classic rock"
+    ]
   },
   {
     "artist": "Next Metal Wave: Blame Me!, Without Warning",
@@ -1178,6 +1182,24 @@
     ],
     "genres": [
       "rap"
+    ]
+  },
+  {
+    "artist": "MOON SHOT",
+    "venue": "45 Special",
+    "city": "Oulu",
+    "date": "2027-03-06T20:00:00",
+    "doors": "20:00",
+    "ticketUrl": "https://45special.gapp.fi/event/6b085ad953aefa606e31f849",
+    "eventUrl": "https://45special.gapp.fi/event/6b085ad953aefa606e31f849",
+    "price": "27,5€ / 30€",
+    "id": 77,
+    "artists": [
+      "MOON SHOT"
+    ],
+    "genres": [
+      "alternative rock",
+      "rock"
     ]
   },
   {
@@ -1443,7 +1465,7 @@
     "city": "Oulu",
     "date": "2027-04-11T19:00:00",
     "ticketUrl": "https://www.lippu.fi/event/haloo-helsinki-20-vuotisjuhlakiertue-2027-oulun-musiikkikeskus-22121322/?affiliate=TPH&language=fi",
-    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6aa10c3cecc01243791d170e#2027-04-11",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6aa10c3cecc01243791d170e",
     "doors": "19:00",
     "id": 67,
     "artists": [
