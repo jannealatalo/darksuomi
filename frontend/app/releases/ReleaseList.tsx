@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 import { releaseDate } from "../../lib/releaseDate";
 import type { Release } from "../../lib/releases";
 
@@ -33,14 +34,7 @@ function Section({ title, releases, empty }: { title: string; releases: Release[
 function ReleaseRow({ release: r }: { release: Release }) {
   return (
     <li className="py-3 flex gap-3">
-      {r.cover ? (
-        // eslint-disable-next-line @next/next/no-img-element -- Spotify's CDN, already sized
-        <img src={r.cover} alt="" width={64} height={64} loading="lazy" className="w-16 h-16 rounded shrink-0 object-cover" />
-      ) : (
-        <div className="w-16 h-16 rounded shrink-0 bg-gray-900 border border-gray-800 flex items-center justify-center text-gray-600 text-xl" aria-hidden="true">
-          ♪
-        </div>
-      )}
+      <Cover src={r.cover} />
       <div className="min-w-0">
         <p className="text-sm">
           <span className="font-semibold text-gray-100">{releaseDate(r.date)}</span>{" "}
@@ -71,5 +65,29 @@ function ReleaseRow({ release: r }: { release: Release }) {
         </p>
       </div>
     </li>
+  );
+}
+
+/** The cover, or a ♪ placeholder when there is none or it fails to load. */
+function Cover({ src }: { src?: string }) {
+  const [failed, setFailed] = useState(false);
+  if (src && !failed) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element -- external covers, already sized
+      <img
+        src={src}
+        alt=""
+        width={64}
+        height={64}
+        loading="lazy"
+        onError={() => setFailed(true)}
+        className="w-16 h-16 rounded shrink-0 object-cover bg-gray-900"
+      />
+    );
+  }
+  return (
+    <div className="w-16 h-16 rounded shrink-0 bg-gray-900 border border-gray-800 flex items-center justify-center text-gray-600 text-xl" aria-hidden="true">
+      ♪
+    </div>
   );
 }

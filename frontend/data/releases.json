@@ -536,7 +536,8 @@
         "deezer": "https://www.deezer.com/album/910936571"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "665607e1-bde4-4c51-bf7b-553de8361a61",
@@ -553,7 +554,8 @@
       ],
       "cover": null,
       "links": {},
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "45adfd9b-7fd7-408b-8658-ed3776bc30e1",
@@ -572,6 +574,272 @@
         "deezer": "https://www.deezer.com/album/928264281"
       },
       "linksChecked": "2026-11-27",
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
+    },
+    {
+      "id": "6faeaf58-8cc3-42b1-84b8-2937ad70e75e",
+      "title": "Tales From the Below (Abridged)",
+      "type": "EP",
+      "date": "2026-07-10",
+      "musicbrainz": "https://musicbrainz.org/release-group/6faeaf58-8cc3-42b1-84b8-2937ad70e75e",
+      "band": "Matt Hart",
+      "bandId": "c4cf6593-20bf-495b-a6e2-5000cb3ccda3",
+      "genres": [
+        "industrial"
+      ],
+      "links": {
+        "spotify": "https://open.spotify.com/album/6SZ9DKEnK9XVDP206l39Ul",
+        "deezer": "https://www.deezer.com/album/1006325821",
+        "apple": "https://music.apple.com/gb/album/6780685856",
+        "tidal": "https://tidal.com/album/533682848"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/6faeaf58-8cc3-42b1-84b8-2937ad70e75e/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "194879b0-c23b-488e-a424-0bbbe6dcadbe",
+      "title": "The Venom in the Mouth of God",
+      "type": "Album",
+      "date": "2026-07-24",
+      "musicbrainz": "https://musicbrainz.org/release-group/194879b0-c23b-488e-a424-0bbbe6dcadbe",
+      "band": "Combichrist",
+      "bandId": "c29f4522-f710-4bb5-a06b-d436fcc3b2fd",
+      "genres": [
+        "industrial",
+        "ebm",
+        "dark electro"
+      ],
+      "links": {
+        "bandcamp": "https://combichrist.bandcamp.com/album/the-venom-in-the-mouth-of-god",
+        "spotify": "https://open.spotify.com/album/5ZWIhhYUmNm5voN3UvNc7W",
+        "deezer": "https://www.deezer.com/album/947418851",
+        "apple": "https://music.apple.com/gb/album/1887957967"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/194879b0-c23b-488e-a424-0bbbe6dcadbe/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "56cb0f1d-a6cc-41e3-a3a6-e62a8784c334",
+      "title": "We're Going to Hell for This...",
+      "type": "EP",
+      "date": "2026-07-30",
+      "musicbrainz": "https://musicbrainz.org/release-group/56cb0f1d-a6cc-41e3-a3a6-e62a8784c334",
+      "band": "TX2",
+      "bandId": "6093443d-d1fd-4bf0-b058-63840f11c0cd",
+      "genres": [
+        "pop punk",
+        "alternative",
+        "emo"
+      ],
+      "links": {
+        "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nJJor2mj0T0jf1dRNnFQGCjRxPyUICiEc",
+        "spotify": "https://open.spotify.com/album/5Q6WyBghqBLdNvVFVUe2YL",
+        "deezer": "https://www.deezer.com/album/1020195191",
+        "apple": "https://music.apple.com/us/album/6787257516",
+        "tidal": "https://tidal.com/album/539683845"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/56cb0f1d-a6cc-41e3-a3a6-e62a8784c334/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "aa5ec7cf-b0d2-4bcf-aae5-d3f99084deb2",
+      "title": "Ataraxia",
+      "type": "Album",
+      "date": "2026-07-31",
+      "musicbrainz": "https://musicbrainz.org/release-group/aa5ec7cf-b0d2-4bcf-aae5-d3f99084deb2",
+      "band": "Allt",
+      "bandId": "bd25b4a6-09ee-4c88-96f3-04464e36c2e5",
+      "genres": [
+        "progressive metalcore",
+        "metalcore",
+        "djent"
+      ],
+      "links": {
+        "bandcamp": "https://allt.bandcamp.com/album/ataraxia-24-bit-hd-audio",
+        "spotify": "https://open.spotify.com/album/1QCTzDeFqXupAWNDbAIDc4",
+        "deezer": "https://www.deezer.com/album/978652191",
+        "apple": "https://music.apple.com/se/album/6766973071",
+        "tidal": "https://tidal.com/album/522747793"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/aa5ec7cf-b0d2-4bcf-aae5-d3f99084deb2/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "454e7d8d-2688-4b67-8edf-060bc753d646",
+      "title": "Legacy",
+      "type": "Album",
+      "date": "2026-07-31",
+      "musicbrainz": "https://musicbrainz.org/release-group/454e7d8d-2688-4b67-8edf-060bc753d646",
+      "band": "Five Finger Death Punch",
+      "bandId": "7e8571b1-7c5a-4739-bc51-73d422ee9d74",
+      "genres": [
+        "groove metal",
+        "metalcore",
+        "metal"
+      ],
+      "links": {
+        "bandcamp": "https://fivefingerdeathpunch.bandcamp.com/album/legacy",
+        "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nBXuWnCsJRkZnh11hNXFVUG4gryetAS-M",
+        "spotify": "https://open.spotify.com/album/6TreEbRihAZGSYDpoDW8jg",
+        "deezer": "https://www.deezer.com/album/1009868371",
+        "apple": "https://music.apple.com/us/album/6782151999",
+        "tidal": "https://tidal.com/album/535459405"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/454e7d8d-2688-4b67-8edf-060bc753d646/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "ba673a03-5a61-4c6c-a0c6-6508126451af",
+      "title": "Are Playing Where??? Vol. II",
+      "type": "Live ep",
+      "date": "2026-08-06",
+      "musicbrainz": "https://musicbrainz.org/release-group/ba673a03-5a61-4c6c-a0c6-6508126451af",
+      "band": "Foo Fighters",
+      "bandId": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+      "genres": [
+        "rock",
+        "alternative rock",
+        "grunge"
+      ],
+      "links": {
+        "bandcamp": "https://foofighters.bandcamp.com/album/are-playing-where-vol-ii"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/ba673a03-5a61-4c6c-a0c6-6508126451af/front-250",
+      "coverChecked": "2026-11-27"
+    },
+    {
+      "id": "fad175cd-8629-4b89-8dfa-d11486782941",
+      "title": "Maanääri",
+      "type": "Album",
+      "date": "2026-08-21",
+      "musicbrainz": "https://musicbrainz.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941",
+      "band": "Noumena",
+      "bandId": "aada5414-189e-4b59-bf10-0212daa27618",
+      "genres": [
+        "melodic death metal"
+      ],
+      "links": {
+        "bandcamp": "https://noumena.bandcamp.com/album/maan-ri",
+        "spotify": "https://open.spotify.com/album/0rJWjdNscac016NYxp5ZU6",
+        "deezer": "https://www.deezer.com/album/1045117972",
+        "apple": "https://music.apple.com/us/album/6797854531",
+        "tidal": "https://tidal.com/album/548832613"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/fad175cd-8629-4b89-8dfa-d11486782941/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "171245fd-a5ff-4551-857c-710ce0967f8f",
+      "title": "Weezer",
+      "type": "Album",
+      "date": "2026-08-21",
+      "musicbrainz": "https://musicbrainz.org/release-group/171245fd-a5ff-4551-857c-710ce0967f8f",
+      "band": "Weezer",
+      "bandId": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+      "genres": [
+        "alternative rock",
+        "rock",
+        "alternative"
+      ],
+      "links": {
+        "spotify": "https://open.spotify.com/album/4X3LhfPfmdcMQblc5k11WC",
+        "deezer": "https://www.deezer.com/album/989348601",
+        "apple": "https://music.apple.com/us/album/6772364953",
+        "tidal": "https://tidal.com/album/533735286"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/171245fd-a5ff-4551-857c-710ce0967f8f/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "13c581c7-e2b2-4cfc-9c0e-c71fabc2b590",
+      "title": "Not Broken Enough",
+      "type": "Album",
+      "date": "2026-08-28",
+      "musicbrainz": "https://musicbrainz.org/release-group/13c581c7-e2b2-4cfc-9c0e-c71fabc2b590",
+      "band": "Catch Your Breath",
+      "bandId": "da09ff32-675a-49e9-8362-a97147db5680",
+      "genres": [
+        "metalcore",
+        "post-hardcore",
+        "alternative metal"
+      ],
+      "links": {
+        "bandcamp": "https://invoguerecords.bandcamp.com/album/not-broken-enough",
+        "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mcYQbP1iF51WKMHgbtONewo64qIIg0MWo",
+        "spotify": "https://open.spotify.com/album/7dDLGoVQX0kTObBwQovDzQ",
+        "deezer": "https://www.deezer.com/album/980803231",
+        "apple": "https://music.apple.com/gb/album/6768484052",
+        "tidal": "https://tidal.com/album/523725164"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/13c581c7-e2b2-4cfc-9c0e-c71fabc2b590/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "2c35c7fd-6447-4225-938c-051b4fbb728d",
+      "title": "Marrow Deep",
+      "type": "Album",
+      "date": "2026-08-28",
+      "musicbrainz": "https://musicbrainz.org/release-group/2c35c7fd-6447-4225-938c-051b4fbb728d",
+      "band": "Mastodon",
+      "bandId": "bc5e2ad6-0a4a-4d90-b911-e9a7e6861727",
+      "genres": [
+        "progressive metal",
+        "sludge",
+        "sludge metal"
+      ],
+      "links": {
+        "bandcamp": "https://mastodon.bandcamp.com/album/marrow-deep",
+        "spotify": "https://open.spotify.com/album/0vg1J7pmgC1X7ZeGllEQGz",
+        "apple": "https://music.apple.com/us/album/6781040477",
+        "tidal": "https://tidal.com/album/554261221",
+        "deezer": "https://www.deezer.com/album/1059270722"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/2c35c7fd-6447-4225-938c-051b4fbb728d/front-250",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
+    },
+    {
+      "id": "73113bc0-b30b-4de6-a2be-d4c516cd5457",
+      "title": "The Roaring Waves",
+      "type": "Album",
+      "date": "2026-08-28",
+      "musicbrainz": "https://musicbrainz.org/release-group/73113bc0-b30b-4de6-a2be-d4c516cd5457",
+      "band": "Steve Hackett",
+      "bandId": "f4eb8346-052d-4a5c-8393-cba3aeadb4d9",
+      "genres": [
+        "progressive rock",
+        "art rock",
+        "guitar"
+      ],
+      "links": {
+        "bandcamp": "https://insideoutmusic.bandcamp.com/album/the-roaring-waves-24-bit-hd-audio",
+        "spotify": "https://open.spotify.com/album/5gQyDCzv3RFCt18jpBankv",
+        "deezer": "https://www.deezer.com/album/1003599711",
+        "apple": "https://music.apple.com/gb/album/6779396111",
+        "tidal": "https://tidal.com/album/532795604"
+      },
+      "linksChecked": "2026-11-27",
+      "cover": "https://coverartarchive.org/release-group/73113bc0-b30b-4de6-a2be-d4c516cd5457/front-250",
+      "coverChecked": "2026-11-27",
       "songLink": "2026-11-27"
     },
     {
@@ -596,7 +864,8 @@
       },
       "cover": "https://coverartarchive.org/release-group/ea7c56de-4d60-4f40-abad-0d6ce11ab60d/front-250",
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "b788dbf5-aa92-4f15-8e95-0e5d102d62ed",
@@ -616,7 +885,8 @@
         "deezer": "https://www.deezer.com/album/1053449782"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "ebcd8232-4460-48d8-a744-37abb851f8fa",
@@ -641,7 +911,8 @@
         "tidal": "https://tidal.com/album/556231534"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "fe13b49f-5384-4d51-9800-7fda4f2aa596",
@@ -660,7 +931,8 @@
       "links": {
         "bandcamp": "https://jessbythelake.bandcamp.com/album/human"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "e274ceec-e372-4b49-a02e-c01e69ef39b9",
@@ -680,7 +952,8 @@
         "deezer": "https://www.deezer.com/album/1000572231"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "90e1424b-ff17-4298-8987-4ccf3666496f",
@@ -703,7 +976,8 @@
         "tidal": "https://tidal.com/album/540689775"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "27d6f7d9-d70d-4514-b653-9ca3a8bab572",
@@ -726,7 +1000,8 @@
         "tidal": "https://tidal.com/album/560198008"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "4e7fb905-8fd9-4dbc-a25d-bd7342011aee",
@@ -745,7 +1020,8 @@
         "deezer": "https://www.deezer.com/album/1002610641"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "428a6863-06c7-4899-82f3-bf4e4acf4f00",
@@ -763,7 +1039,8 @@
       "links": {
         "bandcamp": "https://uniqueleaderrecords.bandcamp.com/album/the-hollowing-of-godflesh"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "be891589-616c-4ad6-971b-36fce4bd1f82",
@@ -786,7 +1063,8 @@
         "tidal": "https://tidal.com/album/531948409"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "e62a93e2-52b1-4d94-94a7-ee11746ebb04",
@@ -809,7 +1087,8 @@
         "tidal": "https://tidal.com/album/516523016"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "2aafc361-fbf2-4c97-8211-105644c56e2d",
@@ -824,12 +1103,14 @@
         "punk",
         "hardcore punk"
       ],
-      "cover": null,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c9728c2856c6f02b9cca3571b74bc74c/250x250-000000-80-0-0.jpg",
       "links": {
+        "deezer": "https://www.deezer.com/album/1072650672",
         "spotify": "https://open.spotify.com/album/0zcOxAAOcId3kkVUt3MVks"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "118e4d83-ea1c-47d8-8804-7eff387e3cce",
@@ -849,7 +1130,8 @@
         "deezer": "https://www.deezer.com/album/1048514062"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "9a0036b4-bf5b-43b0-8890-286a0215747b",
@@ -873,7 +1155,8 @@
         "bandcamp": "https://splitdogs.bandcamp.com/album/nice-n-rough"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "5e5bf604-4285-4ff7-93c1-a0ed4edc7a1b",
@@ -897,7 +1180,8 @@
         "bandcamp": "https://theocean.bandcamp.com/album/solaris"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "71f5d15f-178b-4e92-8aeb-1b50822e986e",
@@ -918,7 +1202,8 @@
         "tidal": "https://tidal.com/album/553386952"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "48ab50a1-a4d0-4be8-8599-f6240a29e5bb",
@@ -937,7 +1222,8 @@
         "deezer": "https://www.deezer.com/album/1081478332"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "74a8de15-54a8-42cb-a730-dc56cba2d20e",
@@ -962,7 +1248,8 @@
         "tidal": "https://tidal.com/album/530376199"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "1524920e-dc99-45e4-9f6b-8a140ecc0afd",
@@ -985,7 +1272,8 @@
         "tidal": "https://tidal.com/album/564646403"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "ebfdd8bd-6a52-48e8-bcbc-1eb4682cc4f5",
@@ -1004,7 +1292,8 @@
       "links": {
         "bandcamp": "https://einvigiband.bandcamp.com/album/latent"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "ef13d8f6-7b83-4e8a-abc7-e7e302c09a82",
@@ -1027,7 +1316,8 @@
         "tidal": "https://tidal.com/album/560860757"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "b97898ff-5fd1-44cf-808a-edabb6366c8e",
@@ -1049,7 +1339,8 @@
         "apple": "https://music.apple.com/us/album/6784394939"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "8ff61f43-c8cb-4f5f-b37b-4f5572f3ed9b",
@@ -1068,7 +1359,8 @@
       "links": {
         "bandcamp": "https://kontravoid.bandcamp.com/album/sound-of-the-void"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "c8d6c512-1921-462c-885b-22808d6f1345",
@@ -1087,7 +1379,8 @@
         "deezer": "https://www.deezer.com/album/1076301342"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "df8d058e-1d21-4a93-93eb-2f522ad4b13a",
@@ -1107,7 +1400,8 @@
         "spotify": "https://open.spotify.com/album/440wqKWAK7Tcg4mE8unDG1"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "b0c91fea-e141-4689-9805-d883a07c9746",
@@ -1128,7 +1422,8 @@
         "tidal": "https://tidal.com/album/542799240"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "868d21e7-6301-4d27-aa90-670a6ed15437",
@@ -1143,7 +1438,8 @@
       ],
       "cover": "https://coverartarchive.org/release-group/868d21e7-6301-4d27-aa90-670a6ed15437/front-250",
       "links": {},
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "57575df8-1f1c-4f4f-9274-1968fbf5c5dc",
@@ -1166,7 +1462,8 @@
         "tidal": "https://tidal.com/album/543395218"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "fb0dd929-205a-4dcb-a0b2-37bfabb4679d",
@@ -1184,7 +1481,8 @@
       "links": {
         "bandcamp": "https://continentalrecordservices.bandcamp.com/album/50th-birthday-live-2026-double-album"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "d59f8012-d289-4401-b224-10651ad73c28",
@@ -1208,7 +1506,8 @@
         "bandcamp": "https://graveyardofficial.bandcamp.com/album/fever"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "28ea5d28-6e2f-476d-b2b6-9e438c344e49",
@@ -1223,16 +1522,17 @@
         "singer-songwriter",
         "electronic"
       ],
-      "cover": null,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/66834662b420114d6b604bb7cc10497b/250x250-000000-80-0-0.jpg",
       "links": {
+        "deezer": "https://www.deezer.com/album/1067866531",
         "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nPyUIoNriAbVMYNXG38Mk7nvEUqgL8HKE",
         "spotify": "https://open.spotify.com/album/30vYGPajd1RT9qBKfZackg",
-        "deezer": "https://www.deezer.com/album/1067866531",
         "apple": "https://music.apple.com/us/album/6807370149",
         "tidal": "https://tidal.com/album/557347030"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "f3dc6862-ea1c-4907-bfa1-901c7d0463b4",
@@ -1247,11 +1547,14 @@
         "electropop",
         "electronic"
       ],
-      "cover": null,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d0b74770315338c15faccf7c3ba1decc/250x250-000000-80-0-0.jpg",
       "links": {
+        "deezer": "https://www.deezer.com/album/998588361",
         "bandcamp": "https://allthatplazz.bandcamp.com/album/greed"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
     },
     {
       "id": "59345a8a-f11a-412d-8315-37d476c935bb",
@@ -1269,7 +1572,8 @@
       "links": {
         "bandcamp": "https://officialsunnan.bandcamp.com/album/spaghetti-soul"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "43c82ab9-1995-4e79-a896-ec5ac4e8381b",
@@ -1292,7 +1596,8 @@
         "tidal": "https://tidal.com/album/545726580"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "5d259cb9-2bad-49a7-9428-8e2174415e9e",
@@ -1316,7 +1621,8 @@
         "tidal": "https://tidal.com/album/559824191"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "c29f95d7-7625-4aec-8251-ddbbf626aca4",
@@ -1339,7 +1645,8 @@
         "tidal": "https://tidal.com/album/520379848"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "2c99a431-ac95-4b9e-87d3-6c5af0ede01d",
@@ -1362,7 +1669,8 @@
         "tidal": "https://tidal.com/album/526149525"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "446e691c-d0be-4225-9654-0f24e4e174d9",
@@ -1385,7 +1693,8 @@
         "tidal": "https://tidal.com/album/541572592"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "9f858192-ab08-4368-905b-13ea6d797b57",
@@ -1404,7 +1713,8 @@
         "bandcamp": "https://ruissaloamping.bandcamp.com/album/rihmasto"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "40a29e92-eae7-491d-8105-b84bd1fac181",
@@ -1428,7 +1738,8 @@
         "tidal": "https://tidal.com/album/559735836"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "5d101c97-9791-4222-ade4-27b2131702e3",
@@ -1443,11 +1754,14 @@
         "classic rock",
         "rock"
       ],
-      "cover": null,
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f9728258f55530c38b7c212f2d0673a8/250x250-000000-80-0-0.jpg",
       "links": {
+        "deezer": "https://www.deezer.com/album/1132851471",
         "bandcamp": "https://purplepyramid.bandcamp.com/album/all-night-long-studio-sessions"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
     },
     {
       "id": "88a10b0d-342c-4d23-83b0-c59f5a82c8cf",
@@ -1467,7 +1781,8 @@
         "deezer": "https://www.deezer.com/album/1020513001"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "5def063c-e119-4b01-932e-2e9a0dc6ba05",
@@ -1489,7 +1804,8 @@
         "tidal": "https://tidal.com/album/571646319"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "f675adf4-f03b-4698-9a15-12c399a431ac",
@@ -1511,7 +1827,8 @@
         "tidal": "https://tidal.com/album/569150993"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "2e556453-dbdb-4104-9a8a-d353bcfe723c",
@@ -1536,7 +1853,8 @@
         "tidal": "https://tidal.com/album/545840828"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "e1839fba-12d3-4e22-9d61-79b433511ef0",
@@ -1560,7 +1878,8 @@
         "bandcamp": "https://ministry.bandcamp.com/album/hate-to-go-take-out-or-delivery"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "402b881b-64b4-4d99-ba93-d5f9664d0071",
@@ -1580,7 +1899,8 @@
         "apple": "https://music.apple.com/us/album/6790664324"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "061a652e-236e-4043-b4e7-c9fb33c2782a",
@@ -1603,7 +1923,8 @@
         "tidal": "https://tidal.com/album/574193196"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "dc152311-545e-4af3-b822-a80ed716ee49",
@@ -1621,7 +1942,8 @@
       "links": {
         "bandcamp": "https://dusktone.bandcamp.com/album/laulut-tulen-ja-j-n"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "380c1c34-4cc7-463e-8f7e-3faf55ad3d4f",
@@ -1639,7 +1961,8 @@
       "links": {
         "bandcamp": "https://batcaveproductions.bandcamp.com/album/spectrophilia"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "ddfb369f-5b0e-457f-bf4a-3d9dafb1d492",
@@ -1659,7 +1982,8 @@
         "deezer": "https://www.deezer.com/album/1056236872"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "d074a4ee-8394-4cda-baa5-2cf948b82d7a",
@@ -1682,7 +2006,8 @@
         "tidal": "https://tidal.com/album/559535928"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "667a9fbd-c9cc-4754-9211-865f8f529f9d",
@@ -1705,7 +2030,8 @@
         "tidal": "https://tidal.com/album/520379853"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "38735b93-f0d7-486b-9757-2fbf6a5c2cd7",
@@ -1726,7 +2052,8 @@
         "tidal": "https://tidal.com/album/550109213"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "91cfaa4a-8b07-43d2-b6f5-4eaef5c13783",
@@ -1746,7 +2073,8 @@
         "spotify": "https://open.spotify.com/album/4R9LxymAg0jzi0hvRdz2Ac"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "4bd934f4-29ac-4b28-be39-f1a2948511fc",
@@ -1766,7 +2094,8 @@
         "deezer": "https://www.deezer.com/album/1065550301"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "d645c374-7b84-4a56-b0e7-b18b7e92583e",
@@ -1786,7 +2115,8 @@
         "apple": "https://music.apple.com/dk/album/6825349244"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "cc3ac60f-29a1-47ba-86c7-b8fc6bc322dd",
@@ -1801,7 +2131,7 @@
         "ebm",
         "powernoise"
       ],
-      "cover": "https://coverartarchive.org/release-group/cc3ac60f-29a1-47ba-86c7-b8fc6bc322dd/front-250",
+      "cover": "https://coverartarchive.org/release-group/cc3ac60f-29a1-47ba-86c7-b8fc6bc322dd/front",
       "links": {
         "spotify": "https://open.spotify.com/album/03XYTL8CINKlsYZgBWiF2L",
         "deezer": "https://www.deezer.com/album/972957121",
@@ -1809,7 +2139,8 @@
         "tidal": "https://tidal.com/album/520379858"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "26a3f1a8-9b31-445a-8099-b745c1827199",
@@ -1826,7 +2157,8 @@
       ],
       "cover": "https://coverartarchive.org/release-group/26a3f1a8-9b31-445a-8099-b745c1827199/front-250",
       "links": {},
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "939be20b-39eb-4810-bde0-060286fe635f",
@@ -1847,7 +2179,8 @@
         "apple": "https://music.apple.com/at/album/6800381142"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "90ead16a-4be1-434f-b2dd-5ed07f2f2cf0",
@@ -1867,7 +2200,8 @@
         "apple": "https://music.apple.com/au/album/6810721297"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "9306947e-47c5-462c-965b-235d52ab0a8a",
@@ -1884,7 +2218,8 @@
       ],
       "cover": "https://coverartarchive.org/release-group/9306947e-47c5-462c-965b-235d52ab0a8a/front-250",
       "links": {},
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "1d54e3fb-2b8f-447e-b004-774f17435e21",
@@ -1901,7 +2236,8 @@
       ],
       "cover": "https://coverartarchive.org/release-group/1d54e3fb-2b8f-447e-b004-774f17435e21/front-250",
       "links": {},
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "2f97d151-fb92-446d-a371-a9708f7f559a",
@@ -1919,7 +2255,8 @@
       "links": {
         "bandcamp": "https://ihatethroat.bandcamp.com/album/all-the-world-makes-graves"
       },
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "f163f2aa-6b87-42c6-a6ea-771d201fef43",
@@ -1935,8 +2272,12 @@
         "gothic metal"
       ],
       "cover": null,
-      "links": {},
-      "linksChecked": "2026-11-27"
+      "links": {
+        "deezer": "https://www.deezer.com/album/1136799491"
+      },
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27",
+      "songLink": "2026-11-27"
     },
     {
       "id": "7d74072b-375b-409e-a202-cbdaea6f144e",
@@ -1953,7 +2294,8 @@
       ],
       "cover": "https://coverartarchive.org/release-group/7d74072b-375b-409e-a202-cbdaea6f144e/front-250",
       "links": {},
-      "linksChecked": "2026-11-27"
+      "linksChecked": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "224e3cbf-bf5f-401e-92c0-3f8d49e22cae",
@@ -1973,7 +2315,8 @@
         "apple": "https://music.apple.com/us/album/6813271617"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "606ffc55-474c-4422-a73d-9b68521ae7d6",
@@ -1993,7 +2336,8 @@
         "apple": "https://music.apple.com/us/album/6829822499"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     },
     {
       "id": "7c5cfb99-04c5-469a-9c9c-ae4e34afd2ec",
@@ -2013,7 +2357,8 @@
         "apple": "https://music.apple.com/us/album/6810209759"
       },
       "linksChecked": "2026-11-27",
-      "songLink": "2026-11-27"
+      "songLink": "2026-11-27",
+      "coverChecked": "2026-11-27"
     }
   ]
 }

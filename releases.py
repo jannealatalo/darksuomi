@@ -48,7 +48,7 @@ GENRE_CONFIG_FILE = DATA_DIR / "genre-config.json"
 CITY_BAND_FILES = [DATA_DIR / "bands.json"] + [DATA_DIR / c / "bands.json"
                                                 for c in ("tampere", "oulu", "turku")]
 
-WINDOW_DAYS = 90             # keep releases from this many days back
+WINDOW_DAYS = 150            # keep releases from this many days back (the page shows as many)
 RECHECK_DAYS = 3             # look at each band this often
 LINKS_RECHECK_DAYS = 7       # look again for links of a release that has none
 TIME_BUDGET_SECONDS = 6 * 60
@@ -73,9 +73,15 @@ def mb_get(path: str, params: dict) -> dict | None:
         if wait > 0:
             time.sleep(wait)
         _last_mb = time.time()
-        resp = requests.get(f"https://musicbrainz.org/ws/2/{path}",
-                            params={**params, "fmt": "json"},
-                            headers={"User-Agent": USER_AGENT}, timeout=20)
+        try:
+            resp = requests.get(f"https://musicbrainz.org/ws/2/{path}",
+                                params={**params, "fmt": "json"},
+                                headers={"User-Agent": USER_AGENT}, timeout=20)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 2:
+                raise
+            time.sleep(3 + 2 * attempt)
+            continue
         if resp.status_code == 503:
             time.sleep(3 + 2 * attempt)
             continue
@@ -163,13 +169,20 @@ def mb_release_links(rg_id: str) -> dict:
 
 
 def cover_url(rg_id: str) -> str | None:
-    """The Cover Art Archive front cover (250 px), if there is one."""
-    url = f"https://coverartarchive.org/release-group/{rg_id}/front-250"
-    try:
-        resp = requests.head(url, headers={"User-Agent": USER_AGENT}, timeout=20)
-    except requests.RequestException:
-        return None
-    return url if resp.status_code in (200, 302, 307) else None
+    """A Cover Art Archive front cover that really loads: the 250 px thumbnail,
+    else a bigger one (archive.org is sometimes missing the thumbnail)."""
+    for size in ("front-250", "front-500", "front"):
+        url = f"https://coverartarchive.org/release-group/{rg_id}/{size}"
+        try:
+            resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30, stream=True)
+            resp.close()
+        except requests.RequestException:
+            continue
+        if resp.status_code == 404 and not resp.history:
+            return None  # no cover art at all
+        if resp.status_code == 200 and resp.headers.get("content-type", "").startswith("image/"):
+            return url
+    return None
 
 
 def deezer_album(band: str, title: str) -> dict | None:
@@ -246,7 +259,7 @@ def main() -> int:
             if found:
                 print(f"  {band['display']}: " + ", ".join(f"{r['title']} ({r['date']})" for r in found))
 
-        # Links and cover, per release: again after a week while none are known
+        # Links, per release: again after a week while none are known
         # (MusicBrainz editors and the services add them around release day).
         for r in releases.values():
             if time.time() > deadline + 180:
@@ -258,10 +271,24 @@ def main() -> int:
             deezer = deezer_album(r["band"], r["title"]) if out and not links else None
             if deezer:
                 links["deezer"] = deezer["link"]
-            if not r.get("cover"):
-                r["cover"] = cover_url(r["id"]) or (deezer or {}).get("cover")
             r["links"] = links
             r["linksChecked"] = today.isoformat()
+
+        # Covers: Cover Art Archive, else Deezer's; again after a week while
+        # there is none (covers are often added around release day).
+        for r in releases.values():
+            if time.time() > deadline + 240:
+                break
+            if r.get("coverChecked") and (r.get("cover") or r["coverChecked"] > links_recheck):
+                continue
+            cover = cover_url(r["id"])
+            if not cover:
+                deezer = deezer_album(r["band"], r["title"])
+                if deezer:
+                    cover = deezer.get("cover")
+                    r["links"] = {"deezer": deezer["link"], **(r.get("links") or {})}
+            r["cover"] = cover
+            r["coverChecked"] = today.isoformat()
 
         # The other services from one known link, once per release (song.link
         # allows only a few lookups a minute, so the rest wait for the next run).

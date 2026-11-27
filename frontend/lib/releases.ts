@@ -43,7 +43,7 @@ export type Release = {
 };
 
 /** Days back that "Out now" covers. */
-export const OUT_NOW_DAYS = 60;
+export const OUT_NOW_DAYS = 150;
 
 /** Only the Dark Suomi genres (the gig list's default filter); releases.py
  * already skips the other bands, this also covers genre config changes. */

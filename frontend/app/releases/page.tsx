@@ -36,8 +36,18 @@ export default function ReleasesPage() {
               className="text-purple-400 hover:text-purple-300"
             >
               MusicBrainz
+            </a>
+            . The streaming links come from MusicBrainz and Deezer, and{" "}
+            <a
+              href="https://song.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-purple-300"
+            >
+              song.link
             </a>{" "}
-            and Deezer, the other streaming links from song.link. Checked every few days.
+            finds the same album on Spotify, Apple Music, Tidal and the others. Updated every few
+            days.
           </p>
         </header>
         <ReleaseList upcoming={upcoming} recent={recent} />
