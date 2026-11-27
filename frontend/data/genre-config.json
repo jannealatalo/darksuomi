@@ -67,6 +67,15 @@
     "*indie*"
   ],
   "artistOverrides": {
+    "Akathartos": {
+      "genres": [
+        "industrial",
+        "electro-industrial",
+        "darksynth"
+      ],
+      "mbid": "40a07209-58de-40e3-a813-e7042c55a3e0",
+      "note": "Finnish dark cinematic industrial, not the Russian black metal band (Last.fm mixes them)"
+    },
     "Michael Monroe acoustic solo": {
       "genres": [
         "hard rock",
