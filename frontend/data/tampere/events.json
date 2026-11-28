@@ -1603,7 +1603,7 @@
     ]
   },
   {
-    "artist": "SYDÄNYÖN EVANKELIUMI II: HORNA, KRATTI",
+    "artist": ", SYDÄNYÖN EVANKELIUMI II:, HORNA, KRATTI",
     "venue": "Bar Kotelo",
     "city": "Tampere",
     "date": "2026-12-19T22:00:00",
@@ -1614,6 +1614,7 @@
     "price": "20€",
     "id": 200,
     "artists": [
+      "SYDÄNYÖN EVANKELIUMI II:",
       "HORNA",
       "KRATTI"
     ],
@@ -1621,7 +1622,8 @@
       "black metal",
       "raw black metal",
       "finnish black metal"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Screaming Thunders plays CCR & J.C. Fogerty (lisäkeikka)",
@@ -4078,7 +4080,7 @@
     ]
   },
   {
-    "artist": "Rokki Raikaa Tampere 2027 (23.–24.7.): D-A-D, Tarja Turunen, Sonata Arctica, Stratovarius, The 69 Eyes, Korpiklaani, Leningrad Cowboys, Charon, Peer Günt, Nyrkkitappelu, Huora",
+    "artist": "Rokki Raikaa Tampere 2027 (23.–24.7.): D-A-D, Amorphis, Tarja Turunen, Sonata Arctica, Stratovarius, The 69 Eyes, Korpiklaani, Leningrad Cowboys, Charon, Peer Günt, Nyrkkitappelu, Huora",
     "venue": "Hakametsän jäähallin piha-alue (Rokki Raikaa)",
     "city": "Tampere",
     "date": "2027-07-23T00:00:00",
@@ -4088,6 +4090,7 @@
     "id": 227,
     "artists": [
       "D-A-D",
+      "Amorphis",
       "Tarja Turunen",
       "Sonata Arctica",
       "Stratovarius",
@@ -4102,6 +4105,10 @@
     "genres": [
       "hard rock",
       "rock",
+      "progressive metal",
+      "melodic death metal",
+      "death metal",
+      "doom metal",
       "symphonic metal",
       "female fronted metal",
       "power metal",

@@ -849,6 +849,46 @@
     "genres": []
   },
   {
+    "artist": "Torture Killer, BrainTerror, Kantør",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2026-12-31T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/torture-killer-brainterror-kantor-ikarajaton-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/torture-killer-brainterror-kantor-ikarajaton-nirvana/",
+    "room": "Nirvana",
+    "id": 108,
+    "artists": [
+      "Torture Killer",
+      "BrainTerror",
+      "Kantør"
+    ],
+    "genres": [
+      "death metal",
+      "brutal death metal",
+      "melodic death metal"
+    ]
+  },
+  {
+    "artist": "Happea Ja Mysticaa, Los Hewonpaskos, Crackwhore",
+    "venue": "Fuusio",
+    "city": "Turku",
+    "date": "2027-01-09T00:00:00",
+    "ticketUrl": "https://fuusioturku.fi/events/happea-ja-mysticaa-los-hewonpaskos-crackwhore-nirvana/",
+    "eventUrl": "https://fuusioturku.fi/events/happea-ja-mysticaa-los-hewonpaskos-crackwhore-nirvana/",
+    "room": "Nirvana",
+    "id": 109,
+    "artists": [
+      "Happea Ja Mysticaa",
+      "Los Hewonpaskos",
+      "Crackwhore"
+    ],
+    "genres": [
+      "grindcore",
+      "death metal",
+      "brutal death metal"
+    ]
+  },
+  {
     "artist": "Are & Kriso",
     "venue": "Dynamo",
     "city": "Turku",
@@ -1882,7 +1922,7 @@
     "venue": "Logomo",
     "city": "Turku",
     "date": "2027-11-14T00:00:00",
-    "ticketUrl": "https://logomo.fi/tapahtuma/heilung-eld-geit-fardha-european-tour-2027-support-lilith-max",
+    "ticketUrl": "https://logomo.lippu.fi/event/HEILUNG-%22Eld-Geit-Fardha%22-European-Tour-2027/168606/413378/details",
     "eventUrl": "https://logomo.fi/tapahtuma/heilung-eld-geit-fardha-european-tour-2027-support-lilith-max",
     "room": "Logomo-sali",
     "id": 107,

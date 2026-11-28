@@ -15,14 +15,14 @@
         "songs": 19
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "3": {
     "setlists": {}
   },
   "4": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "5": {
     "setlists": {
@@ -51,31 +51,47 @@
     },
     "checked": "2026-11-26"
   },
+  "8": {
+    "setlists": {
+      "STAM1NA": {
+        "url": "https://www.setlist.fm/setlist/stam1na/2026/tavastia-helsinki-finland-2b716066.html",
+        "songs": 17
+      }
+    },
+    "checked": "2026-11-28"
+  },
   "84": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "85": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "86": {
     "setlists": {}
   },
   "87": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "88": {
     "setlists": {}
   },
   "89": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "90": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "91": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "92": {
+    "setlists": {}
   },
   "186": {
     "setlists": {}
@@ -117,63 +133,70 @@
   },
   "223": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "224": {
     "setlists": {}
   },
   "225": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "226": {
     "setlists": {}
   },
   "227": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "228": {
     "setlists": {}
   },
   "229": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "230": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "231": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "232": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "233": {
+    "setlists": {}
   },
   "245": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "265": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "266": {
     "setlists": {}
   },
   "267": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "283": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "284": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "285": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "286": {
     "setlists": {
@@ -182,7 +205,7 @@
         "songs": 10
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "287": {
     "setlists": {}
@@ -197,6 +220,10 @@
   "290": {
     "setlists": {}
   },
+  "291": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
   "312": {
     "setlists": {
       "King Satan": {
@@ -204,7 +231,7 @@
         "songs": 6
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "313": {
     "setlists": {
@@ -213,19 +240,19 @@
         "songs": 14
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "331": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "339": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "340": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "341": {
     "setlists": {}
@@ -235,10 +262,14 @@
   },
   "343": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "396": {
     "setlists": {}
+  },
+  "397": {
+    "setlists": {},
+    "checked": "2026-11-28"
   },
   "433": {
     "setlists": {
@@ -277,9 +308,24 @@
   },
   "439": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "483": {
+    "setlists": {}
+  },
+  "484": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "485": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "563": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "636": {
     "setlists": {}
   },
   "oulu:1": {
@@ -293,22 +339,30 @@
         "songs": 9
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "oulu:2": {
+    "setlists": {},
+    "checked": "2026-11-28"
   },
   "oulu:27": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "oulu:28": {
+    "setlists": {},
+    "checked": "2026-11-28"
   },
   "oulu:36": {
     "setlists": {}
   },
   "oulu:37": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "oulu:38": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "oulu:39": {
     "setlists": {
@@ -317,11 +371,11 @@
         "songs": 11
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "oulu:46": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "oulu:47": {
     "setlists": {
@@ -338,19 +392,19 @@
         "songs": 10
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:1": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:2": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:25": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:26": {
     "setlists": {
@@ -368,7 +422,11 @@
         "songs": 7
       }
     },
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "tampere:28": {
+    "setlists": {},
+    "checked": "2026-11-28"
   },
   "tampere:95": {
     "setlists": {
@@ -381,30 +439,38 @@
   },
   "tampere:96": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:97": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:98": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "tampere:99": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "tampere:100": {
+    "setlists": {},
+    "checked": "2026-11-28"
   },
   "tampere:114": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:115": {
     "setlists": {}
   },
   "tampere:116": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:117": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:184": {
     "setlists": {
@@ -417,13 +483,29 @@
   },
   "tampere:191": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
   },
   "tampere:192": {
     "setlists": {}
   },
+  "tampere:193": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
   "turku:45": {
     "setlists": {},
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
+  },
+  "turku:56": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "turku:57": {
+    "setlists": {},
+    "checked": "2026-11-28"
+  },
+  "turku:73": {
+    "setlists": {},
+    "checked": "2026-11-28"
   }
 }

@@ -67,6 +67,33 @@
       75
     ]
   },
+  "Amorphis": {
+    "genres": [
+      "progressive metal",
+      "melodic death metal",
+      "death metal"
+    ],
+    "display": "Amorphis",
+    "mbid": "efaefde1-e09b-4d49-9d8e-b1304d2ece8d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/113365",
+      "spotify": "https://open.spotify.com/artist/2UOVgpgiNTC6KK0vSC77aD",
+      "deezer": "https://www.deezer.com/artist/3579",
+      "homepage": "https://amorphis.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Amorphis",
+      "apple": "https://music.apple.com/fi/artist/5545051",
+      "instagram": "https://www.instagram.com/amorphisband/",
+      "soundcloud": "https://soundcloud.com/amorphis-official",
+      "tidal": "https://tidal.com/artist/9233",
+      "wikidata": "https://www.wikidata.org/wiki/Q474169",
+      "youtube": "https://www.youtube.com/channel/UC-7JFVd4iyli6EB-ycLUEfA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Amorphis"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      45
+    ]
+  },
   "Anvil": {
     "genres": [
       "heavy metal",
@@ -1768,6 +1795,25 @@
       26
     ]
   },
+  "Saimaa": {
+    "genres": [
+      "progressive rock"
+    ],
+    "display": "Saimaa",
+    "mbid": "b8b36888-0670-46d4-86a6-337c4fadf4fd",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/481333",
+      "spotify": "https://open.spotify.com/artist/5Y24oYaTX3VOvtAcG2XlQR",
+      "deezer": "https://www.deezer.com/artist/1393340",
+      "instagram": "https://www.instagram.com/saimaaband/",
+      "wikidata": "https://www.wikidata.org/wiki/Q44784683",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Saimaa_(yhtye)"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      78
+    ]
+  },
   "SARA": {
     "genres": [
       "alternative rock",
@@ -2185,7 +2231,8 @@
       "discogs": "https://www.discogs.com/artist/1808985",
       "metalArchives": "https://www.metal-archives.com/bands/Without_Warning/11131",
       "wikidata": "https://www.wikidata.org/wiki/Q15041039",
-      "spotify": "https://open.spotify.com/artist/4t91G6AzXhhZXQkbpZX7Fe"
+      "spotify": "https://open.spotify.com/artist/4t91G6AzXhhZXQkbpZX7Fe",
+      "wikipedia": "https://en.wikipedia.org/wiki/Without_Warning_(band)"
     },
     "fetched": "2026-11-27",
     "eventIds": [

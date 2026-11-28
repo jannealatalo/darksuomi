@@ -256,6 +256,18 @@
       31
     ]
   },
+  "BrainTerror": {
+    "genres": [],
+    "display": "Brainterror",
+    "mbid": "d71d1395-7d92-4808-b846-dd323242c42f",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/45189k1OKQsbPP3jJJrKAD"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      108
+    ]
+  },
   "Cardinals Folly": {
     "genres": [
       "doom metal",
@@ -343,6 +355,22 @@
     "fetched": "2026-11-24",
     "eventIds": [
       11
+    ]
+  },
+  "Crackwhore": {
+    "genres": [
+      "grindcore",
+      "death metal",
+      "brutal death metal"
+    ],
+    "display": "Crackwhore",
+    "mbid": "b1a437c8-7089-4e92-8168-b01b28e63eb9",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/4mW4ROgq1F5yCQill2JdGr"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      109
     ]
   },
   "D1VARI": {
@@ -766,6 +794,26 @@
       59
     ]
   },
+  "Kantør": {
+    "genres": [
+      "melodic death metal"
+    ],
+    "display": "Kantør",
+    "mbid": "f7e0a325-ff1a-4c04-9229-f6fddd783156",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/16065939",
+      "spotify": "https://open.spotify.com/artist/1irrwwbyWkPsLMdfrn3V9V",
+      "deezer": "https://www.deezer.com/artist/166650767",
+      "homepage": "http://kantorband.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Kant%C3%B8r/3540528544",
+      "instagram": "https://www.instagram.com/kantor_band/",
+      "youtube": "https://www.youtube.com/channel/UCTgSJ0uwE9eeq_eOScYxBNQ"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      108
+    ]
+  },
   "keiju": {
     "genres": [
       "rap",
@@ -1048,7 +1096,8 @@
       "discogs": "https://www.discogs.com/artist/1438501",
       "spotify": "https://open.spotify.com/artist/3Morn5TpdjMah0L9EtAxdH",
       "homepage": "http://m-official.fi/",
-      "wikidata": "https://www.wikidata.org/wiki/Q62657866"
+      "wikidata": "https://www.wikidata.org/wiki/Q62657866",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Minja_Koski"
     },
     "fetched": "2026-11-27"
   },
@@ -1985,6 +2034,31 @@
     "eventIds": [
       73,
       84
+    ]
+  },
+  "Torture Killer": {
+    "genres": [
+      "death metal",
+      "brutal death metal"
+    ],
+    "display": "Torture Killer",
+    "mbid": "c489cd1c-d8d3-4dcc-b7b9-dcf7cd95d2ed",
+    "links": {
+      "bandcamp": "https://torturekiller.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/280948",
+      "spotify": "https://open.spotify.com/artist/51a9tNe7LES2DTlofRA5ur",
+      "deezer": "https://www.deezer.com/artist/302844",
+      "homepage": "http://www.torturekiller.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Torture_Killer/10017",
+      "soundcloud": "https://soundcloud.com/torturekillerofficial",
+      "apple": "https://music.apple.com/fi/artist/120793295",
+      "tidal": "https://tidal.com/artist/3656494",
+      "wikidata": "https://www.wikidata.org/wiki/Q951475",
+      "wikipedia": "https://en.wikipedia.org/wiki/Torture_Killer"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      108
     ]
   },
   "Tupe.": {

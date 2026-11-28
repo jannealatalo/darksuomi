@@ -1,5 +1,162 @@
 [
   {
+    "day": "2026-11-28",
+    "gigs": [
+      {
+        "id": 684,
+        "city": "helsinki",
+        "artist": "THE DAZEHEAD / THE EXPECTED",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2026-12-03T19:30:00",
+        "genres": [
+          "indie rock",
+          "indie pop"
+        ]
+      },
+      {
+        "id": 685,
+        "city": "helsinki",
+        "artist": "PJK Klubi: Aarnin Ajatukset, This Moody Sky Today (Joni Mitchell -tribuutti), LANSSI!",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2026-12-08T19:30:00",
+        "genres": [
+          "rock"
+        ]
+      },
+      {
+        "id": 686,
+        "city": "helsinki",
+        "artist": "Tappajatomaatit, Pakotie, Rähinäremmi",
+        "venue": "Bar Loose",
+        "place": "Helsinki",
+        "date": "2026-12-16T19:30:00",
+        "genres": [
+          "punk rock",
+          "ramopunk",
+          "rock"
+        ]
+      },
+      {
+        "id": 108,
+        "city": "turku",
+        "artist": "Torture Killer, BrainTerror, Kantør",
+        "venue": "Fuusio",
+        "place": "Turku",
+        "date": "2026-12-31T00:00:00",
+        "genres": [
+          "death metal",
+          "brutal death metal",
+          "melodic death metal"
+        ]
+      },
+      {
+        "id": 109,
+        "city": "turku",
+        "artist": "Happea Ja Mysticaa, Los Hewonpaskos, Crackwhore",
+        "venue": "Fuusio",
+        "place": "Turku",
+        "date": "2027-01-09T00:00:00",
+        "genres": [
+          "grindcore",
+          "death metal",
+          "brutal death metal"
+        ]
+      },
+      {
+        "id": 694,
+        "city": "helsinki",
+        "artist": "Odetari (US)",
+        "venue": "Korjaamo",
+        "place": "Helsinki",
+        "date": "2027-02-25T19:00:00",
+        "genres": [
+          "hyperpop",
+          "ass",
+          "odecore"
+        ]
+      },
+      {
+        "id": 78,
+        "city": "oulu",
+        "artist": "Saimaa - Kevät 2027",
+        "venue": "Oulun Musiikkikeskus",
+        "place": "Oulu",
+        "date": "2027-03-11T19:00:00",
+        "genres": [
+          "progressive rock"
+        ]
+      },
+      {
+        "id": 697,
+        "city": "helsinki",
+        "artist": "Terveet Kädet + Armoton",
+        "venue": "Kannusali",
+        "place": "Espoo",
+        "date": "2027-03-19T19:00:00",
+        "genres": [
+          "hardcore punk",
+          "punk",
+          "hardcore"
+        ]
+      },
+      {
+        "id": 689,
+        "city": "helsinki",
+        "artist": "PEHMOAINO",
+        "venue": "Helsingin Jäähalli",
+        "place": "Helsinki",
+        "date": "2027-04-03T18:00:00",
+        "genres": [
+          "indie pop",
+          "pop"
+        ]
+      },
+      {
+        "id": 696,
+        "city": "helsinki",
+        "artist": "Myrtsi + Oliver Bentley",
+        "venue": "G Livelab",
+        "place": "Helsinki",
+        "date": "2027-04-09T20:00:00",
+        "genres": [
+          "indie",
+          "pop"
+        ]
+      },
+      {
+        "id": 679,
+        "city": "helsinki",
+        "artist": "Thurston Moore Group (US/UK)",
+        "venue": "Tavastia Klubi",
+        "place": "Helsinki",
+        "date": "2027-05-06T19:00:00",
+        "genres": [
+          "indie rock",
+          "psychedelic",
+          "thurston moore"
+        ]
+      },
+      {
+        "id": 687,
+        "city": "helsinki",
+        "artist": "Within Temptation: Through Fire & Ashes Tour 2027",
+        "venue": "Veikkaus Arena",
+        "place": "Helsinki",
+        "date": "2027-10-18T18:30:00",
+        "genres": [
+          "gothic metal",
+          "female fronted metal",
+          "metal"
+        ]
+      }
+    ],
+    "hidden": {
+      "helsinki": 4
+    }
+  },
+  {
     "day": "2026-11-27",
     "gigs": [
       {

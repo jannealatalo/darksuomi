@@ -491,7 +491,7 @@
     "venue": "Hevimesta",
     "city": "Oulu",
     "date": "2026-12-05T20:00:00",
-    "ticketUrl": "https://www.lippu.fi/event/electric-deathbeat-gravemarch-metal-night-hevimesta-22425741/?affiliate=TPH&language=fi",
+    "ticketUrl": "https://www.lippu.fi/event/electric-deathbeat-gravemarch-metal-night-k-18-hevimesta-22425741/?affiliate=TPH&language=fi",
     "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6afea884287a91ecc31eca76",
     "doors": "20:00",
     "age": "K-18",
@@ -837,8 +837,8 @@
     "artist": "Are & Kriso",
     "venue": "45 Special",
     "city": "Oulu",
-    "date": "2027-01-08T20:20:00",
-    "doors": "20:20",
+    "date": "2027-01-08T20:00:00",
+    "doors": "20:00",
     "ticketUrl": "https://45special.gapp.fi/event/6aaa60fa5e657298adb33721",
     "eventUrl": "https://45special.gapp.fi/event/6aaa60fa5e657298adb33721",
     "price": "18 / 20€ + PM",
@@ -1200,6 +1200,22 @@
     "genres": [
       "alternative rock",
       "rock"
+    ]
+  },
+  {
+    "artist": "Saimaa - Kevät 2027",
+    "venue": "Oulun Musiikkikeskus",
+    "city": "Oulu",
+    "date": "2027-03-11T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/saimaa-kevat-2027-oulun-musiikkikeskus-22465499/?affiliate=TPH&language=fi",
+    "eventUrl": "https://tapahtumat.munoulu.fi/fi-FI/page/6b093411287a91ecc3ff2bc1",
+    "doors": "19:00",
+    "id": 78,
+    "artists": [
+      "Saimaa"
+    ],
+    "genres": [
+      "progressive rock"
     ]
   },
   {
@@ -1616,7 +1632,7 @@
     ]
   },
   {
-    "artist": "Rokki Raikaa Oulu 2027 (2.–3.7.): D-A-D, Tarja Turunen, Sonata Arctica, Lordi, The 69 Eyes, Korpiklaani, Insomnium, Leningrad Cowboys, Charon, Huora, Sara",
+    "artist": "Rokki Raikaa Oulu 2027 (2.–3.7.): D-A-D, Amorphis, Tarja Turunen, Sonata Arctica, The 69 Eyes, Lordi, Korpiklaani, Insomnium, Leningrad Cowboys, Charon, Huora, Sara",
     "venue": "Ouluhallin parkkialue (Rokki Raikaa)",
     "city": "Oulu",
     "date": "2027-07-02T00:00:00",
@@ -1626,10 +1642,11 @@
     "id": 45,
     "artists": [
       "D-A-D",
+      "Amorphis",
       "Tarja Turunen",
       "Sonata Arctica",
-      "Lordi",
       "The 69 Eyes",
+      "Lordi",
       "Korpiklaani",
       "Insomnium",
       "Leningrad Cowboys",
@@ -1640,18 +1657,20 @@
     "genres": [
       "hard rock",
       "rock",
+      "progressive metal",
+      "melodic death metal",
+      "death metal",
+      "doom metal",
       "symphonic metal",
       "female fronted metal",
       "power metal",
       "melodic metal",
-      "heavy metal",
-      "metal",
       "gothic rock",
       "gothic metal",
+      "heavy metal",
+      "metal",
       "folk metal",
       "viking metal",
-      "melodic death metal",
-      "death metal",
       "alternative",
       "polka",
       "punk",

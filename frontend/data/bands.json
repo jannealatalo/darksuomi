@@ -746,6 +746,21 @@
     },
     "fetched": "2026-11-20"
   },
+  "Armoton": {
+    "genres": [],
+    "display": "Armoton",
+    "mbid": "2e02d0ff-c656-4e28-bb4d-fa30e0745532",
+    "links": {
+      "bandcamp": "https://armotonhardcore.bandcamp.com/",
+      "instagram": "https://www.instagram.com/armoton_hardcore/",
+      "soundcloud": "https://soundcloud.com/armoton-hardcore",
+      "youtube": "https://www.youtube.com/@ArmotonHardcore"
+    },
+    "fetched": "2026-11-21",
+    "eventIds": [
+      697
+    ]
+  },
   "Arottenbit": {
     "genres": [
       "chiptune",
@@ -1799,7 +1814,8 @@
       "instagram": "https://www.instagram.com/hailconan/",
       "apple": "https://music.apple.com/de/artist/273980716",
       "tidal": "https://tidal.com/artist/4300913",
-      "wikidata": "https://www.wikidata.org/wiki/Q19872238"
+      "wikidata": "https://www.wikidata.org/wiki/Q19872238",
+      "wikipedia": "https://en.wikipedia.org/wiki/Conan_(band)"
     },
     "fetched": "2026-11-27"
   },
@@ -3235,7 +3251,8 @@
       "homepage": "https://frigg.fi/",
       "soundcloud": "https://soundcloud.com/frigg-the-band",
       "wikidata": "https://www.wikidata.org/wiki/Q3436451",
-      "youtube": "https://www.youtube.com/channel/UCt2_Kx0J9825tASkU5oxppA"
+      "youtube": "https://www.youtube.com/channel/UCt2_Kx0J9825tASkU5oxppA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Frigg_(band)"
     },
     "fetched": "2026-11-27",
     "eventIds": [
@@ -5028,7 +5045,8 @@
       "instagram": "https://www.instagram.com/kansasband/",
       "tidal": "https://tidal.com/artist/862",
       "wikidata": "https://www.wikidata.org/wiki/Q204328",
-      "youtube": "https://www.youtube.com/channel/UCD58rE0B2PDe3se2nCv1yRA"
+      "youtube": "https://www.youtube.com/channel/UCD58rE0B2PDe3se2nCv1yRA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kansas_(band)"
     },
     "fetched": "2026-11-27",
     "eventIds": [
@@ -5068,7 +5086,8 @@
       "instagram": "https://www.instagram.com/karnivool_official/",
       "tidal": "https://tidal.com/artist/19239",
       "wikidata": "https://www.wikidata.org/wiki/Q912678",
-      "youtube": "https://www.youtube.com/channel/UCH5EYEt8Bw-CwP1nTGa2f9g"
+      "youtube": "https://www.youtube.com/channel/UCH5EYEt8Bw-CwP1nTGa2f9g",
+      "wikipedia": "https://en.wikipedia.org/wiki/Karnivool"
     },
     "fetched": "2026-11-27",
     "eventIds": [
@@ -5557,6 +5576,24 @@
     },
     "fetched": "2026-11-19"
   },
+  "LAURA MOISIO": {
+    "genres": [
+      "pop"
+    ],
+    "display": "Laura Moisio",
+    "mbid": "5243d845-6335-470d-a752-5a2542ba7728",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/3395438",
+      "homepage": "http://www.lauramoisio.fi/",
+      "soundcloud": "https://soundcloud.com/laura-moisio",
+      "youtube": "https://www.youtube.com/user/MoisioLaura",
+      "spotify": "https://open.spotify.com/artist/76vLWI0cVCQl8cXVjzpYOj"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      695
+    ]
+  },
   "Laura Voutilainen": {
     "genres": [
       "pop",
@@ -6004,7 +6041,8 @@
       "discogs": "https://www.discogs.com/artist/1438501",
       "spotify": "https://open.spotify.com/artist/3Morn5TpdjMah0L9EtAxdH",
       "homepage": "http://m-official.fi/",
-      "wikidata": "https://www.wikidata.org/wiki/Q62657866"
+      "wikidata": "https://www.wikidata.org/wiki/Q62657866",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Minja_Koski"
     },
     "fetched": "2026-11-27"
   },
@@ -6407,7 +6445,8 @@
       "soundcloud": "https://soundcloud.com/mastodonrocks",
       "tidal": "https://tidal.com/artist/15346",
       "wikidata": "https://www.wikidata.org/wiki/Q548844",
-      "youtube": "https://www.youtube.com/channel/UCR7Ls5FuT6UKTcsMkcwgCUA"
+      "youtube": "https://www.youtube.com/channel/UCR7Ls5FuT6UKTcsMkcwgCUA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mastodon_(band)"
     },
     "fetched": "2026-11-27",
     "eventIds": [
@@ -6999,6 +7038,23 @@
     },
     "fetched": "2026-11-21"
   },
+  "Myrtsi": {
+    "genres": [
+      "indie",
+      "pop"
+    ],
+    "display": "myrtsi",
+    "mbid": "c5fc8465-fd28-4ab4-b88c-a15467485d1c",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/5gMm4q8mLtISzaNUBD3XWe",
+      "apple": "https://music.apple.com/fi/artist/1769927269",
+      "instagram": "https://www.instagram.com/myrtsimyrtsi/"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      696
+    ]
+  },
   "Naakka": {
     "genres": [
       "ebm",
@@ -7307,6 +7363,29 @@
     },
     "fetched": "2026-11-19"
   },
+  "Odetari": {
+    "genres": [
+      "hyperpop",
+      "ass",
+      "odecore"
+    ],
+    "display": "Odetari",
+    "mbid": "2d8be86e-dccf-481a-a01c-faf9e48edd6d",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/7ITMCzIU9uII8gwRg8JAhc",
+      "deezer": "https://www.deezer.com/artist/51720482",
+      "instagram": "https://www.instagram.com/odetari/",
+      "apple": "https://music.apple.com/gb/artist/1555820557",
+      "tidal": "https://tidal.com/artist/10379375",
+      "wikidata": "https://www.wikidata.org/wiki/Q123241445",
+      "youtube": "https://www.youtube.com/channel/UCoUgSXusnKADcOxmtxpQevg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Odetari"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      694
+    ]
+  },
   "OLGA": {
     "genres": [
       "pop",
@@ -7318,6 +7397,19 @@
     "fetched": "2026-11-21",
     "eventIds": [
       582
+    ]
+  },
+  "Oliver Bentley": {
+    "genres": [],
+    "display": "Oliver Bentley",
+    "mbid": "15522417-c6ca-4b3a-b231-034e483688b6",
+    "links": {
+      "instagram": "https://www.instagram.com/oliver__bentley/",
+      "spotify": "https://open.spotify.com/artist/7pHfsCiXrweMrhWcW3jxoM"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      696
     ]
   },
   "Olli Ahvenlahti": {
@@ -7611,6 +7703,28 @@
     "eventIds": [
       467,
       570
+    ]
+  },
+  "PEHMOAINO": {
+    "genres": [
+      "indie pop",
+      "pop"
+    ],
+    "display": "Pehmoaino",
+    "mbid": "6489acf8-9e56-42cb-89ae-1be4811930e0",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/11428961",
+      "spotify": "https://open.spotify.com/artist/4Qk8DhjJRW0Dwd039aVOfr",
+      "homepage": "https://www.pehmoaino.fi/",
+      "instagram": "https://www.instagram.com/pehmoaino/",
+      "tidal": "https://tidal.com/artist/23752317",
+      "wikidata": "https://www.wikidata.org/wiki/Q18688406",
+      "youtube": "https://www.youtube.com/pehmoaino",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Pehmoaino"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      689
     ]
   },
   "Pekka Laine & The Enchanted": {
@@ -9654,7 +9768,8 @@
       "soundcloud": "https://soundcloud.com/steve-hackett-official",
       "tidal": "https://tidal.com/artist/3505512",
       "wikidata": "https://www.wikidata.org/wiki/Q315811",
-      "youtube": "https://www.youtube.com/channel/UCfWz3QICil_sJOQDpWpqFgQ"
+      "youtube": "https://www.youtube.com/channel/UCfWz3QICil_sJOQDpWpqFgQ",
+      "wikipedia": "https://en.wikipedia.org/wiki/Steve_Hackett"
     },
     "fetched": "2026-11-27",
     "eventIds": [
@@ -10024,6 +10139,27 @@
       549
     ]
   },
+  "Tappajatomaatit": {
+    "genres": [
+      "punk rock",
+      "ramopunk",
+      "rock"
+    ],
+    "display": "Tappajatomaatit",
+    "mbid": "64818104-44b1-463c-a9c8-75055632eb53",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/2919826",
+      "spotify": "https://open.spotify.com/artist/1LKSH9tArNerXZoEIIVBIX",
+      "deezer": "https://www.deezer.com/artist/85069522",
+      "apple": "https://music.apple.com/fi/artist/1497724564",
+      "wikidata": "https://www.wikidata.org/wiki/Q18689881",
+      "wikipedia": "https://fi.wikipedia.org/wiki/Tappajatomaatit"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      686
+    ]
+  },
   "Tarja Turunen": {
     "genres": [
       "symphonic metal",
@@ -10055,26 +10191,6 @@
     "fetched": "2026-11-24",
     "eventIds": [
       581
-    ]
-  },
-  "Teini-Pää": {
-    "genres": [
-      "pop punk",
-      "wuss punk"
-    ],
-    "display": "Teini-Pää",
-    "mbid": "59d0eebd-dbb2-4aa1-89d4-66bba6611a02",
-    "links": {
-      "bandcamp": "https://teinipaa.bandcamp.com/",
-      "discogs": "https://www.discogs.com/artist/7473034",
-      "spotify": "https://open.spotify.com/artist/2zxGggWSxfoWtprihkzo8Q",
-      "homepage": "https://teinipaa.com/",
-      "wikidata": "https://www.wikidata.org/wiki/Q113394064",
-      "wikipedia": "https://fi.wikipedia.org/wiki/Teini-P%C3%A4%C3%A4"
-    },
-    "fetched": "2026-11-24",
-    "eventIds": [
-      567
     ]
   },
   "Teleks": {
@@ -10160,7 +10276,8 @@
     },
     "fetched": "2026-11-24",
     "eventIds": [
-      576
+      576,
+      697
     ]
   },
   "The 69 Eyes": {
@@ -10324,11 +10441,30 @@
     "links": {
       "discogs": "https://www.discogs.com/artist/4919180",
       "wikidata": "https://www.wikidata.org/wiki/Q18690301",
-      "spotify": "https://open.spotify.com/artist/5BSZ7yt6PS4m3s4kqZNCsC"
+      "spotify": "https://open.spotify.com/artist/5BSZ7yt6PS4m3s4kqZNCsC",
+      "wikipedia": "https://fi.wikipedia.org/wiki/The_Expected"
     },
     "fetched": "2026-11-27",
     "eventIds": [
       637
+    ]
+  },
+  "THE EXPECTED": {
+    "genres": [
+      "indie rock",
+      "indie pop"
+    ],
+    "display": "The Expected",
+    "mbid": "4d385a25-2ea5-4e51-af2c-7b28d88e51e1",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/4919180",
+      "wikidata": "https://www.wikidata.org/wiki/Q18690301",
+      "spotify": "https://open.spotify.com/artist/5BSZ7yt6PS4m3s4kqZNCsC",
+      "wikipedia": "https://fi.wikipedia.org/wiki/The_Expected"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      684
     ]
   },
   "The Flaming Sideburns": {
@@ -10656,6 +10792,22 @@
     "fetched": "2026-11-21",
     "eventIds": [
       566
+    ]
+  },
+  "Thurston Moore Group": {
+    "genres": [
+      "indie rock",
+      "psychedelic",
+      "thurston moore"
+    ],
+    "display": "Thurston Moore Group",
+    "mbid": "8221912e-6c34-4b6e-9cf6-93e7084efd30",
+    "links": {
+      "deezer": "https://www.deezer.com/artist/15394"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      679
     ]
   },
   "Tigercub": {
@@ -11837,6 +11989,34 @@
       602
     ]
   },
+  "Within Temptation": {
+    "genres": [
+      "gothic metal",
+      "female fronted metal",
+      "metal"
+    ],
+    "display": "Within Temptation",
+    "mbid": "eace2373-31c8-4aba-9a5c-7bce22dd140a",
+    "links": {
+      "bandcamp": "https://withintemptation.bandcamp.com/",
+      "discogs": "https://www.discogs.com/artist/160077",
+      "spotify": "https://open.spotify.com/artist/3hE8S8ohRErocpkY7uJW4a",
+      "deezer": "https://www.deezer.com/artist/1073",
+      "homepage": "https://www.within-temptation.com/",
+      "metalArchives": "https://www.metal-archives.com/bands/Within_Temptation/1006",
+      "apple": "https://music.apple.com/nl/artist/2898551",
+      "instagram": "https://www.instagram.com/wtofficial/",
+      "soundcloud": "https://soundcloud.com/withintemptation",
+      "tidal": "https://tidal.com/artist/1539",
+      "wikidata": "https://www.wikidata.org/wiki/Q57138",
+      "youtube": "https://www.youtube.com/channel/UCiSQf6v-4cNmbEFdind5z2Q",
+      "wikipedia": "https://en.wikipedia.org/wiki/Within_Temptation"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      687
+    ]
+  },
   "Wolf Parade": {
     "genres": [
       "indie rock",
@@ -11954,5 +12134,29 @@
       "tidal": "https://tidal.com/artist/7310845"
     },
     "fetched": "2026-11-19"
+  },
+  "ZERA": {
+    "genres": [
+      "serbia",
+      "rap",
+      "pop"
+    ],
+    "display": "Zera",
+    "mbid": "c2a9b3c8-c26c-463b-8985-1cbef94bb794",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/8232448",
+      "spotify": "https://open.spotify.com/artist/79vvDmSmwjXvaj86t2rwDu",
+      "deezer": "https://www.deezer.com/artist/125320052",
+      "homepage": "https://www.iamzera.com/",
+      "instagram": "https://www.instagram.com/zera.music/",
+      "soundcloud": "https://soundcloud.com/zera-music",
+      "apple": "https://music.apple.com/gb/artist/1269165276",
+      "tidal": "https://tidal.com/artist/6496897",
+      "youtube": "https://www.youtube.com/channel/UCzAJVQ2DLXoByQF6A--Ev_A"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      688
+    ]
   }
 }

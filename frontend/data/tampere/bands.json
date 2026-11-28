@@ -209,6 +209,33 @@
     },
     "fetched": "2026-11-19"
   },
+  "Amorphis": {
+    "genres": [
+      "progressive metal",
+      "melodic death metal",
+      "death metal"
+    ],
+    "display": "Amorphis",
+    "mbid": "efaefde1-e09b-4d49-9d8e-b1304d2ece8d",
+    "links": {
+      "discogs": "https://www.discogs.com/artist/113365",
+      "spotify": "https://open.spotify.com/artist/2UOVgpgiNTC6KK0vSC77aD",
+      "deezer": "https://www.deezer.com/artist/3579",
+      "homepage": "https://amorphis.net/",
+      "metalArchives": "https://www.metal-archives.com/bands/Amorphis",
+      "apple": "https://music.apple.com/fi/artist/5545051",
+      "instagram": "https://www.instagram.com/amorphisband/",
+      "soundcloud": "https://soundcloud.com/amorphis-official",
+      "tidal": "https://tidal.com/artist/9233",
+      "wikidata": "https://www.wikidata.org/wiki/Q474169",
+      "youtube": "https://www.youtube.com/channel/UC-7JFVd4iyli6EB-ycLUEfA",
+      "wikipedia": "https://en.wikipedia.org/wiki/Amorphis"
+    },
+    "fetched": "2026-11-28",
+    "eventIds": [
+      227
+    ]
+  },
   "Amuri": {
     "genres": [],
     "display": "Amuri",

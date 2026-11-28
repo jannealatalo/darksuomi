@@ -1,15 +1,5 @@
 [
   {
-    "title": "Finglish Stand Up Ilta",
-    "venue": "Teatteri Tuike",
-    "city": "Helsinki",
-    "date": "2026-11-27T19:00:00",
-    "ticketUrl": "https://www.facebook.com/events/teatteri-tuike/finglish-stand-up-ilta/1678160003278121/",
-    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agqubhb3em",
-    "source": "helsinki-api",
-    "price": "20€"
-  },
-  {
     "title": "Mimmien pikkujoulut -stand up show",
     "venue": "KULT",
     "city": "Helsinki",
@@ -105,6 +95,7 @@
     "eventUrl": "https://tavastiaklubi.fi/events/2026-12-09/joka-vtun-keskiviikko-teemu-vesterinen/121640/",
     "source": "darksuomi",
     "age": "K-18",
+    "status": "sold out",
     "room": "Semifinal"
   },
   {

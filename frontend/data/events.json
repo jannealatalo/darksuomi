@@ -69,6 +69,7 @@
     ],
     "genres": [
       "melodic death metal",
+      "black metal",
       "death'n'roll",
       "post-punk",
       "industrial",
@@ -2552,6 +2553,25 @@
     ]
   },
   {
+    "artist": "THE DAZEHEAD / THE EXPECTED",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-03T19:30:00",
+    "ticketUrl": "https://barloose.com/live/pretty-marc-the-expected/",
+    "eventUrl": "https://barloose.com/live/pretty-marc-the-expected/",
+    "venueDefault": "rock",
+    "price": "9€",
+    "id": 684,
+    "artists": [
+      "THE DAZEHEAD",
+      "THE EXPECTED"
+    ],
+    "genres": [
+      "indie rock",
+      "indie pop"
+    ]
+  },
+  {
     "artist": "Sir Liselot Band + Levoton Elämä + Stinkbird",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -2925,7 +2945,7 @@
     ]
   },
   {
-    "artist": "Helsinki Ilman Natseja 10 V: Kukkatalo, Asla Jo, Mary Ann Hawkins, Teini-Pää, Orvokki",
+    "artist": "Helsinki Ilman Natseja 10 V: Kukkatalo, Asla Jo, Mary Ann Hawkins, Teini-PÃ¤Ã¤, Orvokki",
     "venue": "Kuudes Linja",
     "city": "Helsinki",
     "date": "2026-12-05T18:30:00",
@@ -2938,7 +2958,7 @@
       "Kukkatalo",
       "Asla Jo",
       "Mary Ann Hawkins",
-      "Teini-Pää",
+      "Teini-PÃ¤Ã¤",
       "Orvokki"
     ],
     "genres": [
@@ -2947,8 +2967,6 @@
       "surf rock",
       "surf",
       "instrumental",
-      "pop punk",
-      "wuss punk",
       "electropop",
       "art pop"
     ]
@@ -3037,7 +3055,8 @@
       "hardcore",
       "punk",
       "hardcore punk"
-    ]
+    ],
+    "status": "sold out"
   },
   {
     "artist": "Kotiteollisuus",
@@ -3350,6 +3369,25 @@
     "genres": []
   },
   {
+    "artist": "PJK Klubi: Aarnin Ajatukset, This Moody Sky Today (Joni Mitchell -tribuutti), LANSSI!",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-08T19:30:00",
+    "ticketUrl": "https://barloose.com/live/pjk-klubi-aarnin-ajatukset-this-moody-sky-today-joni-mitchell-tribuutti-lanssi/",
+    "eventUrl": "https://barloose.com/live/pjk-klubi-aarnin-ajatukset-this-moody-sky-today-joni-mitchell-tribuutti-lanssi/",
+    "venueDefault": "rock",
+    "price": "Vapaa pääsy!",
+    "id": 685,
+    "artists": [
+      "Aarnin Ajatukset",
+      "This Moody Sky Today",
+      "LANSSI!"
+    ],
+    "genres": [
+      "rock"
+    ]
+  },
+  {
     "id": 273,
     "artist": "Joka v*tun keskiviikko: Teemu Vesterinen",
     "venue": "Semifinal",
@@ -3372,7 +3410,8 @@
       "stand-up"
     ],
     "venueDefault": "rock",
-    "detailsFetched": "2026-11-21"
+    "detailsFetched": "2026-11-21",
+    "status": "sold out"
   },
   {
     "artist": "Hemma Beast – ”Lihaa ja kissa”",
@@ -4429,6 +4468,27 @@
     "detailsFetched": "2026-11-21"
   },
   {
+    "artist": "Tappajatomaatit, Pakotie, Rähinäremmi",
+    "venue": "Bar Loose",
+    "city": "Helsinki",
+    "date": "2026-12-16T19:30:00",
+    "ticketUrl": "https://barloose.com/live/tappajatomaatit-pakotie-rahinaremmi-2/",
+    "eventUrl": "https://barloose.com/live/tappajatomaatit-pakotie-rahinaremmi-2/",
+    "venueDefault": "rock",
+    "price": "8€",
+    "id": 686,
+    "artists": [
+      "Tappajatomaatit",
+      "Pakotie",
+      "Rähinäremmi"
+    ],
+    "genres": [
+      "punk rock",
+      "ramopunk",
+      "rock"
+    ]
+  },
+  {
     "artist": "Michael Monroe acoustic solo",
     "venue": "Krapin Paja",
     "city": "Tuusula",
@@ -4979,6 +5039,24 @@
     ],
     "genres": [
       "r&b"
+    ]
+  },
+  {
+    "artist": "Öisin on kivempaa: DJ Mortti & DJ Villæriste",
+    "venue": "On the Rocks",
+    "city": "Helsinki",
+    "date": "2026-12-19T23:30:00",
+    "ticketUrl": "https://www.rocks.fi/tapahtumat/oisin-on-kivempaa-dj-mortti-dj-villaeriste/",
+    "eventUrl": "https://www.rocks.fi/tapahtumat/oisin-on-kivempaa-dj-mortti-dj-villaeriste/",
+    "venueGenres": [
+      "dj"
+    ],
+    "id": 681,
+    "artists": [
+      "Öisin on kivempaa"
+    ],
+    "genres": [
+      "dj night"
     ]
   },
   {
@@ -5929,7 +6007,7 @@
     ]
   },
   {
-    "artist": "Bad Apples plays Guns N’ Roses + Museo plays Muse",
+    "artist": "Bad Apples plays Guns Nâ Roses + Museo plays Muse",
     "venue": "Kuudes Linja",
     "city": "Helsinki",
     "date": "2027-01-09T19:00:00",
@@ -6277,6 +6355,22 @@
     "genres": [
       "metal"
     ]
+  },
+  {
+    "artist": "1VERSE 2nd World Tour: UNCHARTED TERRITORIES",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-01-16T00:00:00",
+    "ticketUrl": "https://www.lippu.fi/artist/1verse/",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/1verse-2nd-world-tour-uncharted-territories/",
+    "venueGenres": [],
+    "price": "45 €",
+    "room": "Vaunusali",
+    "id": 693,
+    "artists": [
+      "UNCHARTED TERRITORIES"
+    ],
+    "genres": []
   },
   {
     "artist": "Peer Günt",
@@ -8697,6 +8791,31 @@
     ]
   },
   {
+    "artist": "Odetari (US)",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-02-25T19:00:00",
+    "ticketUrl": "https://www.lippu.fi/event/odetari-us-kulttuuritehdas-korjaamo-22466280/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/odetari-us/",
+    "venueGenres": [
+      "elektroninen-musiikki-edm"
+    ],
+    "doors": "19:00",
+    "price": "33,60 € / 37 €",
+    "age": "K-18",
+    "room": "Vaunusali",
+    "id": 694,
+    "artists": [
+      "Odetari"
+    ],
+    "genres": [
+      "hyperpop",
+      "ass",
+      "odecore",
+      "krushclub"
+    ]
+  },
+  {
     "artist": "Mutation (SWE) + Hekatoxen + Morte Profana",
     "venue": "Lepakkomies",
     "city": "Helsinki",
@@ -9135,6 +9254,28 @@
     "genres": [
       "pop",
       "rock"
+    ]
+  },
+  {
+    "artist": "LAURA MOISIO – AINA JOSSAIN MUUALLA",
+    "venue": "Korjaamo",
+    "city": "Helsinki",
+    "date": "2027-03-04T18:30:00",
+    "ticketUrl": "https://www.lippu.fi/event/laura-moisio-aina-jossain-muualla-kulttuuritehdas-korjaamo-22465605/?affiliate=ADV&language=fi",
+    "eventUrl": "https://korjaamo.fi/tapahtumat/laura-moisio-aina-jossain-muualla/",
+    "venueGenres": [
+      "pop"
+    ],
+    "doors": "18:30",
+    "price": "22,60 € / 25 €",
+    "age": "K-18",
+    "room": "Vintti",
+    "id": 695,
+    "artists": [
+      "LAURA MOISIO"
+    ],
+    "genres": [
+      "pop"
     ]
   },
   {
@@ -10076,6 +10217,26 @@
     "genres": []
   },
   {
+    "artist": "Terveet Kädet + Armoton",
+    "venue": "Kannusali",
+    "city": "Espoo",
+    "date": "2027-03-19T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://www.lippu.fi/artist/terveet-kadet/terveet-kaedet-armoton-4294294/",
+    "eventUrl": "https://www.espoo.fi/fi/tapahtumat/espooevents:agq65habb4",
+    "age": "S/K-18",
+    "id": 697,
+    "artists": [
+      "Terveet Kädet",
+      "Armoton"
+    ],
+    "genres": [
+      "hardcore punk",
+      "punk",
+      "hardcore"
+    ]
+  },
+  {
     "artist": "UMO Helsinki Jazz Orchestra & Satu Sopanen – Taikapeitto",
     "venue": "Espoon kulttuurikeskus",
     "city": "Espoo",
@@ -10709,6 +10870,23 @@
     ]
   },
   {
+    "artist": "PEHMOAINO",
+    "venue": "Helsingin Jäähalli",
+    "city": "Helsinki",
+    "date": "2027-04-03T18:00:00",
+    "ticketUrl": "https://helsinginjaahalli.fi/events/pehmoaino",
+    "eventUrl": "https://helsinginjaahalli.fi/events/pehmoaino",
+    "price": "alk. 39,50 €",
+    "id": 689,
+    "artists": [
+      "PEHMOAINO"
+    ],
+    "genres": [
+      "indie pop",
+      "pop"
+    ]
+  },
+  {
     "artist": "Club For Five & Ilmavoimien Big Band: Pave!",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -10780,6 +10958,23 @@
       "jazz",
       "ambient",
       "instrumental"
+    ]
+  },
+  {
+    "artist": "Myrtsi + Oliver Bentley",
+    "venue": "G Livelab",
+    "city": "Helsinki",
+    "date": "2027-04-09T20:00:00",
+    "ticketUrl": "https://glivelab.fi/events/myrtsi-oliver-bentley-6afb0b8ffcccb054e456906e/",
+    "eventUrl": "https://glivelab.fi/events/myrtsi-oliver-bentley-6afb0b8ffcccb054e456906e/",
+    "id": 696,
+    "artists": [
+      "Myrtsi",
+      "Oliver Bentley"
+    ],
+    "genres": [
+      "indie",
+      "pop"
     ]
   },
   {
@@ -11190,6 +11385,25 @@
     ]
   },
   {
+    "artist": "ZERA (JAP)",
+    "venue": "Tiivistämö",
+    "city": "Helsinki",
+    "date": "2027-04-21T19:00:00",
+    "doors": "19:00",
+    "ticketUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agrbzgbgda",
+    "eventUrl": "https://tapahtumat.hel.fi/fi/events/helsinki:agrbzgbgda",
+    "age": "S",
+    "id": 688,
+    "artists": [
+      "ZERA"
+    ],
+    "genres": [
+      "serbia",
+      "rap",
+      "pop"
+    ]
+  },
+  {
     "artist": "DragonForce",
     "venue": "Kulttuuritalo",
     "city": "Helsinki",
@@ -11499,6 +11713,29 @@
       "Säkenöivä"
     ],
     "genres": []
+  },
+  {
+    "id": 679,
+    "artist": "Thurston Moore Group (US/UK)",
+    "venue": "Tavastia Klubi",
+    "city": "Helsinki",
+    "date": "2027-05-06T19:00:00",
+    "ticketUrl": "https://tavastiaklubi.fi/events/2027-05-06/thurston-moore-group-usuk/122618/",
+    "age": "K-18",
+    "room": "Tavastia-klubi",
+    "doors": "19:00",
+    "detailsFetched": "2026-11-28",
+    "artists": [
+      "Thurston Moore Group"
+    ],
+    "genres": [
+      "indie rock",
+      "psychedelic",
+      "thurston moore",
+      "experimental",
+      "jams",
+      "noise rock"
+    ]
   },
   {
     "artist": "Reflexion, MELANKOLIA",
@@ -12664,6 +12901,27 @@
       "Spinors"
     ],
     "genres": [
+      "metal"
+    ]
+  },
+  {
+    "artist": "Within Temptation: Through Fire & Ashes Tour 2027",
+    "venue": "Veikkaus Arena",
+    "city": "Helsinki",
+    "date": "2027-10-18T18:30:00",
+    "ticketUrl": "https://www.ticketmaster.fi/event/1812809904",
+    "eventUrl": "https://www.veikkausarena.fi/all-events/within-temptation-tickets-ae142#2027-10-18",
+    "venueGenres": [
+      "metal"
+    ],
+    "doors": "18:30",
+    "id": 687,
+    "artists": [
+      "Within Temptation"
+    ],
+    "genres": [
+      "gothic metal",
+      "female fronted metal",
       "metal"
     ]
   },

@@ -390,7 +390,7 @@
     "ticketUrl": "https://www.ticketweb.com/event/mad-meow-music-clock-clock-out-lounge-tickets/14381724?theme=clockout",
     "eventUrl": "https://clockoutlounge.com/tm-event/mad-meow-music-clock-out-lounge-present-3rd-annual-blackie-friday-feat-blackie-a-tribute-to-blondie-cheap-scenery/",
     "doors": "20:30",
-    "price": "$25.18",
+    "price": "$30.84",
     "id": 493,
     "artists": [
       "3rd Annual Blackie Friday",
@@ -498,7 +498,7 @@
   },
   {
     "artist": "Locked Groove",
-    "venue": "Kremwerk",
+    "venue": "Cherry",
     "city": "Seattle",
     "date": "2026-11-27T22:00:00",
     "ticketUrl": "https://www.kremwerk.com/upcoming/2026/11/27/locked-groove",
@@ -1704,7 +1704,7 @@
     ]
   },
   {
-    "artist": "Atmosphérique Year 4 with JENNNGREEN ft. Chloe Harris",
+    "artist": "Atmosphérique Year 4 with JENNGREEN ft. Chloe Harris",
     "venue": "Timbre Room",
     "city": "Seattle",
     "date": "2026-12-04T22:00:00",
@@ -1713,7 +1713,7 @@
     "doors": "22:00",
     "id": 556,
     "artists": [
-      "Atmosphérique Year 4 with JENNNGREEN ft. Chloe Harris"
+      "Atmosphérique Year 4 with JENNGREEN ft. Chloe Harris"
     ],
     "genres": []
   },
@@ -4564,6 +4564,22 @@
     "genres": []
   },
   {
+    "artist": "all ages Big Bang Theory Trivia Night, Raised by TV Presents: Trivia Night",
+    "venue": "Clock-Out Lounge",
+    "city": "Seattle",
+    "date": "2027-01-06T17:30:00",
+    "ticketUrl": "https://www.ticketweb.com/event/raised-by-tv-events-presents-clock-out-lounge-tickets/15075853?theme=clockout",
+    "eventUrl": "https://clockoutlounge.com/tm-event/raised-by-tv-events-presents-all-ages-big-bang-theory-trivia-night/",
+    "doors": "17:30",
+    "price": "$11.82",
+    "id": 586,
+    "artists": [
+      "all ages Big Bang Theory Trivia Night",
+      "Raised by TV"
+    ],
+    "genres": []
+  },
+  {
     "artist": "THEM, Special Guests",
     "venue": "Barboza",
     "city": "Seattle",
@@ -4694,6 +4710,20 @@
     "id": 566,
     "artists": [
       "Sorry For Party Rocking"
+    ],
+    "genres": []
+  },
+  {
+    "artist": "Seance Audio",
+    "venue": "Cherry",
+    "city": "Seattle",
+    "date": "2027-01-08T22:00:00",
+    "ticketUrl": "https://www.kremwerk.com/upcoming/2027/01/08/seance-audio",
+    "eventUrl": "https://www.kremwerk.com/upcoming/2027/01/08/seance-audio",
+    "doors": "22:00",
+    "id": 575,
+    "artists": [
+      "Seance Audio"
     ],
     "genres": []
   },
@@ -5336,7 +5366,7 @@
     ]
   },
   {
-    "artist": "PROMISCUOUS – A 2000’s CLUB BANGERS THROWBACKS PARTY",
+    "artist": "PROMISCUOUS – A 2000's CLUB BANGERS THROWBACKS PARTY",
     "venue": "Chop Suey",
     "city": "Seattle",
     "date": "2027-01-23T21:00:00",
@@ -6223,6 +6253,29 @@
       "deathcore",
       "slamming brutal death metal",
       "brutal deathcore"
+    ],
+    "price": "$33.04"
+  },
+  {
+    "artist": "Jeffrey Nothing, Sister Kill Cycle",
+    "venue": "The Funhouse",
+    "city": "Seattle",
+    "date": "2027-02-17T19:00:00",
+    "ticketUrl": "https://www.elcorazonseattle.com/shows/jeffrey-nothing-the-purifuckation-tour-17-feb",
+    "eventUrl": "https://www.elcorazonseattle.com/shows/jeffrey-nothing-the-purifuckation-tour-17-feb",
+    "doors": "19:00",
+    "age": "All ages",
+    "price": "$23.76",
+    "id": 573,
+    "artists": [
+      "Jeffrey Nothing",
+      "Sister Kill Cycle"
+    ],
+    "genres": [
+      "nu metal",
+      "alternative metal",
+      "hard rock",
+      "ilovekud"
     ]
   },
   {

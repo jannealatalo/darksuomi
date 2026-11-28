@@ -290,6 +290,11 @@
     ],
     "fetched": "2026-11-23"
   },
+  "Aarnin Ajatukset": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Aaro630": {
     "source": "musicbrainz",
     "matchedName": "Aaro630",
@@ -470,6 +475,14 @@
       "minimal synth"
     ],
     "fetched": "2026-11-19"
+  },
+  "Ahti Kulo": {
+    "source": "musicbrainz",
+    "matchedName": "Ahti Kulo",
+    "mbid": "b193caf0-1d83-4d06-aecc-e8041c6c9788",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Aili Ikonen": {
     "source": "lastfm",
@@ -689,6 +702,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "all ages Big Bang Theory Trivia Night": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "all ages Buffy Trivia Night": {
     "source": "notfound",
@@ -1514,6 +1532,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Atmosphérique Year 4 with JENNGREEN ft. Chloe Harris": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Atmosphérique Year 4 with JENNNGREEN ft. Chloe Harris": {
     "source": "notfound",
     "tags": [],
@@ -2129,6 +2152,11 @@
     "tags": [],
     "fetched": "2026-11-22"
   },
+  "BlindboÃ¼nd": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Blindboünd": {
     "source": "musicbrainz",
     "matchedName": "Blindboünd",
@@ -2450,6 +2478,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "BrainTerror": {
+    "source": "musicbrainz",
+    "matchedName": "Brainterror",
+    "mbid": "d71d1395-7d92-4808-b846-dd323242c42f",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Brake Down": {
     "source": "notfound",
@@ -3334,6 +3370,16 @@
       "hip hop"
     ],
     "fetched": "2026-11-24"
+  },
+  "Crackwhore": {
+    "source": "lastfm",
+    "matchedName": "Crackwhore",
+    "tags": [
+      "grindcore",
+      "death metal",
+      "brutal death metal"
+    ],
+    "fetched": "2026-11-28"
   },
   "CRANEIUM": {
     "source": "lastfm",
@@ -6384,6 +6430,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Guns Nâ Roses + Museo plays Muse": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Guns N’ Roses + Museo plays Muse": {
     "source": "notfound",
     "tags": [],
@@ -6649,6 +6700,11 @@
       "composer"
     ],
     "fetched": "2026-11-24"
+  },
+  "Happea Ja Mysticaa": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Happoradio": {
     "source": "lastfm",
@@ -8067,6 +8123,16 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "Jeffrey Nothing": {
+    "source": "lastfm",
+    "matchedName": "Jeffrey Nothing",
+    "tags": [
+      "nu metal",
+      "alternative metal",
+      "hard rock"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Jemina -tuplalevynjulkaisukeikka": {
     "source": "notfound",
     "tags": [],
@@ -8493,6 +8559,11 @@
       "spoken word"
     ],
     "fetched": "2026-11-19"
+  },
+  "Josãn Pimeã Puoli": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "José Carreras": {
     "source": "lastfm",
@@ -8929,6 +9000,16 @@
       "sludge"
     ],
     "fetched": "2026-11-19"
+  },
+  "Kantør": {
+    "source": "musicbrainz",
+    "matchedName": "Kantør",
+    "mbid": "f7e0a325-ff1a-4c04-9229-f6fddd783156",
+    "country": null,
+    "tags": [
+      "melodic death metal"
+    ],
+    "fetched": "2026-11-28"
   },
   "Karanneet Käärmeet": {
     "source": "notfound",
@@ -9430,6 +9511,11 @@
     ],
     "fetched": "2026-11-23"
   },
+  "Kolmen Komediakimppa": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Konstan joulu": {
     "source": "notfound",
     "tags": [],
@@ -9835,6 +9921,11 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "LANSSI!": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Lars Winnerbäck": {
     "source": "lastfm",
     "matchedName": "Lars Winnerbäck",
@@ -9864,6 +9955,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-22"
+  },
+  "LAURA MOISIO": {
+    "source": "lastfm",
+    "matchedName": "Laura Moisio",
+    "tags": [
+      "pop"
+    ],
+    "fetched": "2026-11-28"
   },
   "Laura Voutilainen": {
     "source": "lastfm",
@@ -10305,6 +10404,11 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "LOPPUUNMYYTY! Haloo Helsinki!": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Lord Huron": {
     "source": "lastfm",
     "matchedName": "Lord Huron",
@@ -10341,6 +10445,11 @@
       "blackened deathcore"
     ],
     "fetched": "2026-11-19"
+  },
+  "Los Hewonpaskos": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Los Tigres del Norte": {
     "source": "lastfm",
@@ -12074,6 +12183,15 @@
     "tags": [],
     "fetched": "2026-11-19"
   },
+  "Myrtsi": {
+    "source": "lastfm",
+    "matchedName": "myrtsi",
+    "tags": [
+      "indie",
+      "pop"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Märta T.": {
     "source": "musicbrainz",
     "matchedName": "Marta T",
@@ -12776,6 +12894,17 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Odetari": {
+    "source": "lastfm",
+    "matchedName": "Odetari",
+    "tags": [
+      "hyperpop",
+      "ass",
+      "odecore",
+      "krushclub"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Odottaa": {
     "source": "notfound",
     "tags": [],
@@ -12864,6 +12993,14 @@
       "noise rock"
     ],
     "fetched": "2026-11-20"
+  },
+  "Oliver Bentley": {
+    "source": "musicbrainz",
+    "matchedName": "Oliver Bentley",
+    "mbid": "15522417-c6ca-4b3a-b231-034e483688b6",
+    "country": null,
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Olivia Rodrigo": {
     "source": "lastfm",
@@ -13146,6 +13283,11 @@
     "tags": [],
     "fetched": "2026-11-21"
   },
+  "Pakotie": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Palaye Royale": {
     "source": "lastfm",
     "matchedName": "Palaye Royale",
@@ -13383,6 +13525,11 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Peer GÃ¼nt": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Peer Günt": {
     "source": "lastfm",
     "matchedName": "Peer Günt",
@@ -13402,6 +13549,15 @@
       "classic rock"
     ],
     "fetched": "2026-11-24"
+  },
+  "PEHMOAINO": {
+    "source": "lastfm",
+    "matchedName": "Pehmoaino",
+    "tags": [
+      "indie pop",
+      "pop"
+    ],
+    "fetched": "2026-11-28"
   },
   "Pekka Juntunen": {
     "source": "notfound",
@@ -13607,6 +13763,15 @@
       "hip hop"
     ],
     "fetched": "2026-11-23"
+  },
+  "Petteri Sariola": {
+    "source": "lastfm",
+    "matchedName": "Petteri Sariola",
+    "tags": [
+      "acoustic",
+      "guitar"
+    ],
+    "fetched": "2026-11-28"
   },
   "Pietu Arvola": {
     "source": "lastfm",
@@ -15170,6 +15335,11 @@
     "tags": [],
     "fetched": "2026-11-23"
   },
+  "Rähinäremmi": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Räjäyttäjät": {
     "source": "lastfm",
     "matchedName": "Räjäyttäjät",
@@ -15290,6 +15460,14 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Saimaa": {
+    "source": "lastfm",
+    "matchedName": "Saimaa",
+    "tags": [
+      "progressive rock"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Saimaan Sävel Festivaali": {
     "source": "notfound",
     "tags": [],
@@ -15338,6 +15516,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-21"
+  },
+  "Samae Koskinen ja Rebekka Holi": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Same Rock": {
     "source": "notfound",
@@ -15646,6 +15829,11 @@
       "death metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Seance Audio": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Seattle’s Tribute to The Last Waltz": {
     "source": "notfound",
@@ -16007,6 +16195,14 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Sister Kill Cycle": {
+    "source": "lastfm",
+    "matchedName": "Sister Kill Cycle",
+    "tags": [
+      "ilovekud"
+    ],
+    "fetched": "2026-11-28"
   },
   "Skream": {
     "source": "lastfm",
@@ -17031,6 +17227,11 @@
     ],
     "fetched": "2026-11-24"
   },
+  "SYDÄNYÖN EVANKELIUMI II:": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "Sylosis": {
     "source": "lastfm",
     "matchedName": "Sylosis",
@@ -17286,6 +17487,18 @@
     ],
     "fetched": "2026-11-24"
   },
+  "Tappajatomaatit": {
+    "source": "musicbrainz",
+    "matchedName": "Tappajatomaatit",
+    "mbid": "64818104-44b1-463c-a9c8-75055632eb53",
+    "country": "FI",
+    "tags": [
+      "punk rock",
+      "ramopunk",
+      "rock"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Tapsan tanssit": {
     "source": "notfound",
     "tags": [],
@@ -17331,6 +17544,11 @@
       "punk"
     ],
     "fetched": "2026-11-24"
+  },
+  "Teini-PÃ¤Ã¤": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Teini-Pää": {
     "source": "lastfm",
@@ -17413,6 +17631,11 @@
       "hardcore metal"
     ],
     "fetched": "2026-11-19"
+  },
+  "Terveet Kãdet": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Terveet Kädet": {
     "source": "lastfm",
@@ -17694,6 +17917,11 @@
       "alternative"
     ],
     "fetched": "2026-11-24"
+  },
+  "THE DAZEHEAD": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "The Devil Wears Prada": {
     "source": "lastfm",
@@ -18300,6 +18528,11 @@
     ],
     "fetched": "2026-11-19"
   },
+  "This Moody Sky Today": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "This Soil is Diseased": {
     "source": "notfound",
     "tags": [],
@@ -18330,6 +18563,19 @@
       "noise rock"
     ],
     "fetched": "2026-11-19"
+  },
+  "Thurston Moore Group": {
+    "source": "lastfm",
+    "matchedName": "Thurston Moore Group",
+    "tags": [
+      "indie rock",
+      "psychedelic",
+      "thurston moore",
+      "experimental",
+      "jams",
+      "noise rock"
+    ],
+    "fetched": "2026-11-28"
   },
   "Ti-Ti Nallen Rytmiretki": {
     "source": "notfound",
@@ -18656,6 +18902,15 @@
       "jamendo"
     ],
     "fetched": "2026-11-19"
+  },
+  "Torture Killer": {
+    "source": "lastfm",
+    "matchedName": "Torture Killer",
+    "tags": [
+      "death metal",
+      "brutal death metal"
+    ],
+    "fetched": "2026-11-28"
   },
   "Torture Rack": {
     "source": "lastfm",
@@ -19145,6 +19400,14 @@
     ],
     "fetched": "2026-11-19"
   },
+  "Ullalintulampi": {
+    "source": "musicbrainz",
+    "matchedName": "Ullalintulampi",
+    "mbid": "3095f914-90de-4d50-9463-84bf7f1f5576",
+    "country": "FI",
+    "tags": [],
+    "fetched": "2026-11-28"
+  },
   "UMO Helsinki Ensemble": {
     "source": "notfound",
     "tags": [],
@@ -19191,6 +19454,11 @@
       "contemporary jazz"
     ],
     "fetched": "2026-11-22"
+  },
+  "UNCHARTED TERRITORIES": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "Uncle Acid and The Deadbeats": {
     "source": "lastfm",
@@ -20255,6 +20523,16 @@
     "tags": [],
     "fetched": "2026-11-24"
   },
+  "Within Temptation": {
+    "source": "lastfm",
+    "matchedName": "Within Temptation",
+    "tags": [
+      "gothic metal",
+      "female fronted metal",
+      "metal"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Without Warning": {
     "source": "lastfm",
     "matchedName": "Without Warning",
@@ -20522,6 +20800,16 @@
     "tags": [],
     "fetched": "2026-11-22"
   },
+  "ZERA": {
+    "source": "lastfm",
+    "matchedName": "Zera",
+    "tags": [
+      "serbia",
+      "rap",
+      "pop"
+    ],
+    "fetched": "2026-11-28"
+  },
   "Zero Nine": {
     "source": "lastfm",
     "matchedName": "Zero Nine",
@@ -20549,6 +20837,11 @@
     "source": "notfound",
     "tags": [],
     "fetched": "2026-11-24"
+  },
+  "Öisin on kivempaa": {
+    "source": "notfound",
+    "tags": [],
+    "fetched": "2026-11-28"
   },
   "’áháchí": {
     "source": "notfound",
