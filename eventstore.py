@@ -68,10 +68,10 @@ def save_events(events: list[dict], city: str | None = None) -> None:
 
 
 # Status words some venues put in the title: "Europe – … Tour (SOLD OUT!)",
-# "PERUTTU: Disco Night". The site shows a status badge instead.
+# "PERUTTU: Disco Night", "****PERUTTU*** Moon Walker". The site shows a status badge instead.
 _SOLD_OUT = re.compile(r"\s*[(\[]?\s*\b(?:sold\s*out|loppuunmyyty)\b\s*!*\s*[)\]]?", re.I)
 _CANCELLED = re.compile(
-    r"^\s*(?:peruttu|cancell?ed)\s*[:!–—-]+\s*|\s*[(\[]\s*(?:peruttu|cancell?ed)\s*!*\s*[)\]]", re.I)
+    r"^[\s*]*(?:peruttu|cancell?ed)\s*[*:!–—-]+\s*|\s*[(\[]\s*(?:peruttu|cancell?ed)\s*!*\s*[)\]]", re.I)
 
 
 def status_from_title(event: dict) -> None:

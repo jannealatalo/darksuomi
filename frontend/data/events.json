@@ -2045,7 +2045,7 @@
     "detailsFetched": "2026-11-21"
   },
   {
-    "artist": "****PERUTTU*** MOON WALKER (USA)",
+    "artist": "MOON WALKER (USA)",
     "venue": "Tiivistämö",
     "city": "Helsinki",
     "date": "2026-11-29T18:00:00",
@@ -2055,9 +2055,10 @@
     "age": "K-18",
     "id": 314,
     "artists": [
-      "****PERUTTU*** MOON WALKER"
+      "MOON WALKER"
     ],
-    "genres": []
+    "genres": [],
+    "status": "cancelled"
   },
   {
     "artist": "Cory Henry",
