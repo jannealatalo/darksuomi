@@ -54,7 +54,7 @@ export const NO_GIG_RANGE_JOKES = [
   "{n} days without gigs. Bwoah.",
 ];
 
-/** Second line of the header; a random one on every visit. */
+/** Second line of the header: a random one per visit, then the next every 30 seconds. */
 export const TAGLINES = [
   "Life is short, winters are long. Go see a band.",
   "Sunlight is overrated anyway.",
@@ -93,7 +93,6 @@ export const NO_COOKIE_JOKES = [
   "Nothing to accept, nothing to reject. Just gigs.",
   "Zero tracking. We don't even know if you came back.",
   "No ads. Nobody would pay for an audience this gloomy anyway.",
-  "No cookie pop-up. You may now close nothing.",
   "We sell nothing, so we know nothing about you.",
   "Your data stays with you. Like your ringing ears.",
   "No ads between gigs. Silence is the sponsor.",

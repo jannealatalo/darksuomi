@@ -24,9 +24,10 @@ import type { Event } from "../types/events";
 import { recommendedArtists } from "../lib/recommended";
 import { useLastfmArtists } from "../lib/useLastfmArtists";
 import LastfmBox from "./LastfmBox";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { TAGLINES } from "../lib/jokes";
 import { useToday } from "../lib/today";
+import { useRotating } from "../lib/useRotating";
 import { InstallButton } from "./AppShell";
 import { CITIES, HIDDEN_CITIES, cityInfo, type CityKey } from "../lib/cities";
 import { matchesSearch } from "../lib/search";
@@ -69,13 +70,8 @@ export default function GigCalendar({
   const isMain = city === "helsinki";
   const { lastfmUser, setLastfmUser, lastfmArtists, lastfmLoading, lastfmError } =
     useLastfmArtists();
-  // The page is pre-rendered, so the random tagline is picked in the
-  // browser after load (null until then, keeping server and client equal).
-  const [tagline, setTagline] = useState<string | null>(null);
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- one random pick per visit
-    setTagline(TAGLINES[Math.floor(Math.random() * TAGLINES.length)]);
-  }, []);
+  // A random tagline per visit, changing every 30 seconds.
+  const { text: tagline, visible: taglineVisible } = useRotating(TAGLINES);
   // "Filter what DarkSuomi recommends" and the Last.fm "show only these".
   const [onlyRecommended, setOnlyRecommended] = useState(false);
   const [onlyLastfm, setOnlyLastfm] = useState(false);
@@ -247,7 +243,7 @@ export default function GigCalendar({
               {/* Fixed height, so the page doesn't jump when the line appears. */}
               <span
                 className={`block mt-1 min-h-[1.5em] text-xs sm:text-sm text-gray-500 italic transition-opacity duration-500 ${
-                  tagline ? "opacity-100" : "opacity-0"
+                  tagline && taglineVisible ? "opacity-100" : "opacity-0"
                 }`}
               >
                 {tagline ?? " "}
@@ -273,6 +269,7 @@ export default function GigCalendar({
                   ))}
                 </span>
               ))}
+              <NoCookies />
               {/* Site pages and the other cities, as buttons (Finland only). */}
               {!isHidden && (<>
               <span className="flex flex-wrap gap-2 mt-3">
@@ -305,7 +302,6 @@ export default function GigCalendar({
                 )}
               </span>
               </>)}
-              <NoCookies />
             </div>
           </div>
 
