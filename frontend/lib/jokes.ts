@@ -85,6 +85,26 @@ export const TAGLINES = [
   "The graphics are better here than in GTA VI.",
 ];
 
+/** After "No cookies. No ads." in the header; one changes every 30 seconds. */
+export const NO_COOKIE_JOKES = [
+  "The only cookies here are the ones you brought to the gig.",
+  "We don't know who you are. We're fine with that.",
+  "No banners. The only flashing lights are at the gig.",
+  "Nothing to accept, nothing to reject. Just gigs.",
+  "Zero tracking. We don't even know if you came back.",
+  "No ads. Nobody would pay for an audience this gloomy anyway.",
+  "No cookie pop-up. You may now close nothing.",
+  "We sell nothing, so we know nothing about you.",
+  "Your data stays with you. Like your ringing ears.",
+  "No ads between gigs. Silence is the sponsor.",
+  "Cookies: none. Salmiakki: bring your own.",
+  "No newsletter pop-up either. Darkness doesn't nag.",
+  "The only thing following you here is the bassline.",
+  "No cookies were harmed in the making of this website.",
+  "Ad-free, like a forest at 3 am in January.",
+  "No algorithm, just a list. Revolutionary.",
+];
+
 /** The same date always gets the same joke (stable across page loads). */
 function pick(list: string[], key: string): string {
   let hash = 0;

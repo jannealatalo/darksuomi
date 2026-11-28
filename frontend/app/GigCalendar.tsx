@@ -32,6 +32,7 @@ import { CITIES, HIDDEN_CITIES, cityInfo, type CityKey } from "../lib/cities";
 import { matchesSearch } from "../lib/search";
 import NoHits from "./NoHits";
 import SearchBox from "./SearchBox";
+import NoCookies from "./NoCookies";
 
 /**
  * The gig calendar of one city: Helsinki on the front page, and the
@@ -304,6 +305,7 @@ export default function GigCalendar({
                 )}
               </span>
               </>)}
+              <NoCookies />
             </div>
           </div>
 
